@@ -83,7 +83,8 @@ style (Starlark), the builder (Rust), or the recipe.
   (`x86_64-pc-linux-gnu-gcc`, `-g++`, `-cc`), so whatever name a build looks for, it gets the
   wrapper.
 - **Belongs in:** the builder, in the wrapper and the toolchain.
-- **Status:** open.
+- **Status:** fixed: the wrapper answers to the target-named compilers, and libqalculate's `env` is
+  gone.
 
 ### A build tool is missing, and only configure says so
 
@@ -109,7 +110,8 @@ style (Starlark), the builder (Rust), or the recipe.
   It also scans the headers it installed for `#include <...>`, and when one comes from a
   dependency the `.pc` doesn't require, it propagates that dependency or warns that it should be.
 - **Belongs in:** the builder, beside what `requires.rs` does now.
-- **Status:** open.
+- **Status:** checked: a build warns about a header including what its package doesn't bring along,
+  and logs it in `unbrought-headers.txt`; an error once the log shows it's right.
 
 ### A package of only headers is split away from its own path
 
@@ -120,7 +122,7 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** a package whose only content would go to its dev output stays whole,
   or builds get a `$WRATH_INC_<name>` that points where its headers went.
 - **Belongs in:** the builder, in output splitting.
-- **Status:** open.
+- **Status:** fixed: a package with only headers stays whole, and stb's `whole` is gone.
 
 ### Quoting compiler flags in TOML
 
@@ -131,7 +133,7 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** every style takes `cflags` and `cxxflags` as lists, and quotes them
   itself.
 - **Belongs in:** the styles.
-- **Status:** open.
+- **Status:** fixed: the autotools, meson and cmake styles take `cflags` and `cxxflags` lists.
 
 ### GCC 15 compiles C23 by default
 
@@ -143,7 +145,7 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** nothing general; old C code needs it said per recipe. With the
   `cflags` option above, it's one line. Worth noting so the next one is recognised quickly.
 - **Belongs in:** the recipe.
-- **Status:** known.
+- **Status:** known; one line now, `cflags = ["-std=gnu17"]`.
 
 ### A Rust project's repository has no lock, but its published crate does
 
@@ -166,7 +168,7 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** a `smoke` line for the headers its users need, so the recipe
   fails where the file is missing and not two packages later.
 - **Belongs in:** the recipe.
-- **Status:** known.
+- **Status:** fixed for stb, whose smoke checks the headers its users need.
 
 ### Reading a project's real options takes digging
 
@@ -205,7 +207,7 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** bison, flex and autoconf propagate m4, so whatever uses them has it.
   That rebuilds everything built with them, so it waits for the next rebuild of everything.
 - **Belongs in:** those recipes.
-- **Status:** open.
+- **Status:** fixed: bison, flex and autoconf propagate m4.
 
 ### aclocal doesn't look in the build's /usr
 
@@ -218,7 +220,7 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** builds have `ACLOCAL_PATH=/usr/share/aclocal`, with the next rebuild
   of everything.
 - **Belongs in:** the builder's environment for builds.
-- **Status:** open.
+- **Status:** fixed: builds have `ACLOCAL_PATH`, and mtr's workaround is gone.
 
 ### A program fetches more sources as it builds
 
@@ -403,7 +405,8 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** a reference that names a directory both parts have, with nothing
   after it, could point at the main part, or keep the package whole with a note.
 - **Belongs in:** splitting.
-- **Status:** worked around.
+- **Status:** worked around: such a reference can't be told from a run path, which every program
+  has, so the recipe keeps `whole = true`.
 
 ### glibc's ldd looks for the loader in lib64
 
@@ -459,7 +462,8 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** the builder adding every dependency's `site` to `PYTHONPATH`, as it
   does for `bin` on `PATH`.
 - **Belongs in:** the builder.
-- **Status:** known.
+- **Status:** fixed: builds have every dependency's `site` on `PYTHONPATH`, and the recipes' own are
+  gone.
 
 ### Prebuilt programs need every library and function they link, used or not
 
@@ -473,7 +477,8 @@ style (Starlark), the builder (Rust), or the recipe.
   every undefined function is defined by one, at build time, so a missing one is an error
   naming it rather than a program that won't start on the machine.
 - **Belongs in:** the builder, for recipes that patch prebuilt programs.
-- **Status:** checked by hand for Zen.
+- **Status:** fixed: the prebuilt style resolves every program and library with the loader, and
+  fails naming what's missing.
 
 ### Mozilla's libraries break when a tool rewrites them
 
@@ -535,7 +540,8 @@ style (Starlark), the builder (Rust), or the recipe.
   toolchain's recipes use `into`, so this rebuilds everything: it waits for the next change that
   does.
 - **Belongs in:** the builder.
-- **Status:** open, held for the next full rebuild.
+- **Status:** fixed: every recipe field is keyed or said not to change the build, so a new one can't
+  be missed.
 
 ## Working on recipes
 
