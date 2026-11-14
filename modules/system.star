@@ -1,4 +1,4 @@
-# The machine's identity: hostname and time zone. The backend writes them where the system
+# The machine's identity: hostname and time zone. wrath writes them where the system
 # expects them. Without a hostname, the machine uses its name, filled in on the machine when it
 # switches, so every machine with a role gets the same build.
 

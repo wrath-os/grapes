@@ -1,4 +1,4 @@
-# Users. The backend creates them and their home directories. Everything but `packages` belongs to
+# Users. wrath creates them and their home directories. Everything but `packages` belongs to
 # the account, which only a system configuration sets.
 
 load("lib/home.star", "home_of")

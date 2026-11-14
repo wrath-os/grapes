@@ -1,4 +1,4 @@
-# The base system: boot, networking, audio and the graphical session. The backend provides
+# The base system: boot, networking, audio and the graphical session. wrath builds
 # these from the base settings this module works out: the kernel's command line, and what the
 # options say.
 

@@ -25,7 +25,7 @@ def render(ctx: Context) -> None:
     modprobe = modprobe_config(kernel)
     if modprobe:
         ctx.file("/etc/modprobe.d/wrath.conf", modprobe)
-    # Taking effect takes a boot, so these are for the backend to build into it.
+    # Taking effect takes a boot, so these are for the builder to put into it.
     settings = {
         "package": kernel["package"],
         "initrd_modules": sorted(kernel["initrd_modules"]),
