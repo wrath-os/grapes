@@ -220,7 +220,8 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** builds have `ACLOCAL_PATH=/usr/share/aclocal`, with the next rebuild
   of everything.
 - **Belongs in:** the builder's environment for builds.
-- **Status:** fixed: builds have `ACLOCAL_PATH`, and mtr's workaround is gone.
+- **Status:** fixed: automake's recipe declares `ACLOCAL_PATH` over `share/aclocal` as a search
+  path, so a build with automake has every dependency's macros, and mtr's workaround is gone.
 
 ### A program fetches more sources as it builds
 
@@ -242,7 +243,8 @@ style (Starlark), the builder (Rust), or the recipe.
   every package's sources for its key, including recipes the configuration never used. With
   nothing printed, it looked hung.
 - **What we did:** plans and builds start from what the configuration names and style only the
-  recipes they reach; keys take hashes from `sources.lock` or a lock without fetching, and each
+  recipes they reach; keys come from each recipe's lock, which pins its sources and records what
+  its style made, so a plan reads no source at all, and each
   download prints a line.
 
 ### Archives with no directory around their files
@@ -462,7 +464,8 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** the builder adding every dependency's `site` to `PYTHONPATH`, as it
   does for `bin` on `PATH`.
 - **Belongs in:** the builder.
-- **Status:** fixed: builds have every dependency's `site` on `PYTHONPATH`, and the recipes' own are
+- **Status:** fixed: python3's recipe declares `PYTHONPATH` over `site` as a search path, so every
+  build with python3 among its dependencies has its dependencies' modules, and the recipes' own are
   gone.
 
 ### Prebuilt programs need every library and function they link, used or not
@@ -527,7 +530,9 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What would prevent it:** the modules that change what a build writes after its recipe
   (run paths, splitting, addressing, fix-ups) saying at their top that a change needs a bump.
 - **Belongs in:** the builder.
-- **Status:** fixed by the bump; the reminder is in those modules.
+- **Status:** prevented: what the builder does after a build is a step of its own, keyed by a
+  digest of its code, so a change to it fixes every package up again from what its build made,
+  without a bump or a rebuild.
 
 ### Where a source goes isn't part of the key
 
