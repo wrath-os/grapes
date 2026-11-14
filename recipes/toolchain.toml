@@ -11,7 +11,7 @@ deps = ["seed"]
 files = ["wrath-cc.c"]
 script = '''
 S=$WRATH_SEED
-gcc -O2 wrath-cc.c -o wrath-cc -Wl,--dynamic-linker=$S/lib/ld-linux-x86-64.so.2 -Wl,-rpath,$S/lib
+gcc -O2 wrath-cc.c -o wrath-cc -Wl,--dynamic-linker=$S/lib/$WRATH_LOADER_NAME -Wl,-rpath,$S/lib
 mkdir -p $OUT/bin
 cp wrath-cc $OUT/bin/
 for name in gcc g++ cc c++; do
