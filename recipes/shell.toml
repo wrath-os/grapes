@@ -282,4 +282,4 @@ probes = ["sndfile"]
 [package.autotools]
 args = ["--disable-static", "--disable-external-libs", "--disable-mpeg", "--disable-full-suite"]
 # Its ALAC code defines `bool` itself, which C23, GCC 15's default, doesn't allow.
-env = { CFLAGS = "'-O2 -std=gnu17'" }
+cflags = ["-std=gnu17"]

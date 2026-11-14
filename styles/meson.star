@@ -47,12 +47,26 @@ def check(recipe: Recipe, source: str, args: list[str]) -> None:
             ", ".join(["`%s`" % n for n in sorted(names)]) or "none of its own",
         ))
 
+def exports(options: dict[str, typing.Any]) -> list[str]:
+    """The build's variables, and its compiler flags in double quotes, so variables in them still
+    expand, added to what the build has."""
+    lines = ["export %s=%s" % item for item in options["env"].items()]
+    for name, key in [("CFLAGS", "cflags"), ("CXXFLAGS", "cxxflags")]:
+        if options[key]:
+            if name in options["env"]:
+                fail("`%s` and `env.%s` both set %s; say it once" % (key, name, name))
+            flags = " ".join([] + options[key])
+            for special in ["\\", "\"", "`"]:
+                flags = flags.replace(special, "\\" + special)
+            lines.append("export %s=\"%s\"" % (name, flags))
+    return lines
+
 def build(recipe: Recipe, options: dict[str, typing.Any]) -> dict[str, typing.Any]:
     check(recipe, options["source"], options["args"])
     setup = "meson setup /build/b %s --prefix=$PREFIX --libdir=lib --buildtype=release" % (
         options["source"]
     )
-    lines = ["export %s=%s" % item for item in options["env"].items()] + [
+    lines = exports(options) + [
         " ".join([setup] + options["args"]),
         "ninja -C /build/b -j$NPROC",
         "DESTDIR=$DEST ninja -C /build/b install",
@@ -79,6 +93,16 @@ style(
         ),
         "source": option(types.str, default = ".", doc = "The directory with `meson.build`."),
         "env": option(types.map(types.str), doc = "Variables the build has."),
+        "cflags": option(
+            types.list(types.str),
+            default = [],
+            doc = "Flags for the C compiler, such as `-std=gnu17` for old C, quoted for the shell.",
+        ),
+        "cxxflags": option(
+            types.list(types.str),
+            default = [],
+            doc = "Flags for the C++ compiler, quoted for the shell.",
+        ),
         "prepare": option(types.str, default = "", doc = "Shell lines run before the setup."),
         "keep": option(
             types.list(types.str),

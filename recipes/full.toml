@@ -649,7 +649,7 @@ probes = ["proc2"]
 
 [package.autotools]
 args = ["--disable-static", "--disable-nls", "--disable-kill", "--without-systemd"]
-env = { CFLAGS = "'-O2 -include stdbool.h'" }
+cflags = ["-include", "stdbool.h"]
 
 [[package]]
 id = "iproute2"
