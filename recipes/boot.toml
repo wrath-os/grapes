@@ -181,7 +181,6 @@ args = [
     "-D loadkeys-path=$WRATH_DEP_kbd/bin/loadkeys", "-D setfont-path=$WRATH_DEP_kbd/bin/setfont",
     "-D nologin-path=$WRATH_DEP_coreutils/bin/false",
 ]
-env = { PYTHONPATH = "$WRATH_DEP_jinja2/site:$WRATH_DEP_markupsafe/site:$WRATH_DEP_pyelftools/site" }
 prepare = '''
 # Swap units run swapon and swapoff from a fixed path, which a system without /sbin lacks.
 sed -i "s#\"/sbin/swapon\"#\"$WRATH_DEP_util_linux/bin/swapon\"#; s#\"/sbin/swapoff\"#\"$WRATH_DEP_util_linux/bin/swapoff\"#" \

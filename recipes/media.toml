@@ -83,7 +83,6 @@ probes = ["libplacebo"]
 
 # The renderer under mpv's video output, with OpenGL.
 [package.meson]
-env = { PYTHONPATH = "$WRATH_DEP_jinja2/site:$WRATH_DEP_markupsafe/site" }
 args = [
   "-D vulkan=disabled", "-D opengl=enabled", "-D glslang=disabled", "-D shaderc=disabled",
   "-D lcms=enabled", "-D libdovi=disabled", "-D unwind=disabled", "-D xxhash=disabled",

@@ -23,12 +23,20 @@ static int add(char **args, int n, char *flags) {
     return n;
 }
 
+/* Whether `name` ends with `suffix`. */
+static int ends(const char *name, const char *suffix) {
+    size_t n = strlen(name), s = strlen(suffix);
+    return n >= s && !strcmp(name + n - s, suffix);
+}
+
 int main(int argc, char **argv) {
     const char *name = strrchr(argv[0], '/');
     name = name ? name + 1 : argv[0];
-    if (!strcmp(name, "cc"))
+    /* Answers to the target-named compilers too, such as `x86_64-pc-linux-gnu-gcc`, which
+     * configure scripts look for, so they find the wrapper whatever name they try. */
+    if (!strcmp(name, "cc") || ends(name, "-cc") || ends(name, "-gcc"))
         name = "gcc";
-    else if (!strcmp(name, "c++"))
+    else if (!strcmp(name, "c++") || ends(name, "-c++") || ends(name, "-g++"))
         name = "g++";
 
     const char *bin = getenv("WRATH_REAL_BIN");

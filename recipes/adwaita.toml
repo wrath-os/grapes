@@ -90,7 +90,6 @@ sources = [{ url = "https://download.gnome.org/sources/libadwaita/{series}/libad
 probes = ["libadwaita-1"]
 
 [package.meson]
-env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = [
   "-D introspection=enabled", "-D vapi=false", "-D documentation=false", "-D tests=false",
   "-D examples=false",

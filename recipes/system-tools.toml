@@ -308,14 +308,10 @@ extra_deps = ["ncurses", "autoconf", "automake", "m4-final", "pkgconf"]
 sources = [{ url = "https://github.com/traviscross/mtr/archive/v{version}/mtr-{version}.tar.gz" }]
 smoke = ["sbin/mtr --version"]
 
-# The archive has no configure; its own script makes it, with pkg-config's macros from the
-# build's /usr.
+# The archive has no configure; its own script makes it.
 [package.autotools]
 args = ["--without-gtk"]
-prepare = '''
-export ACLOCAL_OPTS="-I /usr/share/aclocal"
-./bootstrap.sh
-'''
+prepare = "./bootstrap.sh"
 
 [[package]]
 id = "whois"

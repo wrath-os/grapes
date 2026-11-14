@@ -131,9 +131,6 @@ probes = ["qalculate"]
 
 [package.autotools]
 args = ["--disable-static", "--without-icu", "--disable-nls"]
-# Its configure looks for a compiler for the build machine by the full target name, which isn't
-# the wrapper.
-env = { CC_FOR_BUILD = "gcc", CXX_FOR_BUILD = "g++" }
 
 [[package]]
 id = "md4c"

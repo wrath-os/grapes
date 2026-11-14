@@ -256,7 +256,6 @@ probes = ["egl", "gbm"]
 # LLVM. softpipe draws without a GPU, slowly, so a shell still starts on a machine without one
 # here, such as a VM. EGL and GBM for Wayland compositors.
 [package.meson]
-env = { PYTHONPATH = "$WRATH_DEP_mako/site:$WRATH_DEP_markupsafe/site:$WRATH_DEP_pyyaml/site:$WRATH_DEP_packaging/site" }
 args = [
   "-D platforms=wayland", "-D gallium-drivers=radeonsi,softpipe", "-D vulkan-drivers=amd",
   "-D llvm=disabled", "-D egl=enabled", "-D gbm=enabled", "-D gles2=enabled", "-D glx=disabled",
