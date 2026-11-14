@@ -18,11 +18,29 @@ find "$app" -type f | while read -r file; do
 done
 """
 
+# Programs built elsewhere bind every function as they start, so a library or function missing
+# here is a program that won't start on the machine. The loader resolves each program and
+# library, as `ldd -r` does, with the build's directory and the run path the programs give the
+# libraries they load.
+CHECK = """missing=$(find "$app" -type f \\( -name '*.so' -o -name '*.so.*' -o -perm -u+x \\) |
+  sort | while read -r file; do
+    [ "$(head -c 4 "$file" | od -An -c | tr -d ' ')" = '177ELF' ] || continue
+    LD_LIBRARY_PATH="$app:$(dirname "$file"):$rpath" LD_TRACE_LOADED_OBJECTS=1 LD_WARN=yes \\
+      LD_BIND_NOW=yes "$loader" "$file" 2>&1 | grep -E 'not found|undefined symbol' |
+      sed "s#^#${file#$app/}: #" || true
+  done)
+if [ -n "$missing" ]; then
+  echo "programs here would fail to start, missing:" >&2
+  printf '%s\\n' "$missing" >&2
+  exit 1
+fi
+"""
+
 def build(recipe: Recipe, options: dict[str, typing.Any]) -> dict[str, typing.Any]:
     lib = options["dir"] or recipe.id
     lines = ["app=$DEST$PREFIX/lib/" + lib, "mkdir -p $app $DEST$PREFIX/bin", "cp -r . $app/"]
     lines += ["rm -rf $app/" + path for path in options["remove"]]
-    script = "".join([line + "\n" for line in lines]) + PATCH
+    script = "".join([line + "\n" for line in lines]) + PATCH + CHECK
     exports = "".join(["export %s=%s\n" % item for item in sorted(options["env"].items())])
     for name, path in sorted(options["programs"].items()):
         bin = "$DEST$PREFIX/bin/" + name
