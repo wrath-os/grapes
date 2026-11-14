@@ -1,0 +1,17 @@
+[system]
+hostname = "box"
+
+[users.ann]
+shell = "zsh"
+
+[users.ann.programs.zsh]
+options = ["share_history"]
+aliases = { ll = "ls -l", say = "echo 'hi'" }
+init = "bindkey -e\n"
+
+[users.bo]
+shell = "nushell"
+
+[users.bo.programs.nushell]
+settings = { show_banner = false }
+aliases = { ll = "ls -l" }

@@ -145,8 +145,6 @@ def render(ctx: Context) -> None:
             "Install": {"WantedBy": "systemd-journal-flush.service"},
         })
 
-    # The login shells there are, which programs such as chsh and some session scripts check.
-    ctx.file("/etc/shells", lines(["/bin/sh", SYSTEM + "/bin/sh", SYSTEM + "/bin/bash"]))
     ctx.file("/etc/hosts", "127.0.0.1 localhost\n::1 localhost\n")
     ctx.file("/etc/nsswitch.conf", lines([
         "passwd: files systemd",

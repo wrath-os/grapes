@@ -1,0 +1,5 @@
+/bin/sh
+/run/system/bin/sh
+/run/system/bin/bash
+/run/system/bin/zsh
+/run/system/bin/nu

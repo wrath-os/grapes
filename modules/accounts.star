@@ -3,6 +3,7 @@
 
 load("lib/home.star", "home_of")
 load("lib/pam.star", "unix_stacks")
+load("lib/shells.star", "SHELLS", "shell_path")
 
 SW = "/run/system/bin/"
 
@@ -85,13 +86,17 @@ def account_files(
 
     passwd = ["root:x:0:0:root:/root:/bin/sh", "nobody:x:65534:65534:nobody:/:/bin/sh"]
     shadow = ["root:*:1::::::", "nobody:*:1::::::"]
+    shells = {"/bin/sh": None, SW + "sh": None, SW + "bash": None}
     for name in sorted(users):
         u = users[name]
-        if not str(u.get("shell", "/")).startswith("/"):
+        shell = shell_path(u.get("shell", "bash"))
+        if shell == None:
             ctx.error(
                 ["users", name, "shell"],
-                "a login shell is a path, such as `/run/system/bin/zsh`",
+                "a login shell is one of %s, or a path" % ", ".join(sorted(SHELLS)),
             )
+            shell = SW + "bash"
+        shells[shell] = None
         if not is_password_hash(u.get("initial_hashed_password", "!")):
             ctx.error(
                 ["users", name, "initial_hashed_password"],
@@ -109,7 +114,7 @@ def account_files(
             gid[u["group"]],
             u.get("description", ""),
             home_of(name, u),
-            u.get("shell", SW + "bash"),
+            shell,
         ))
         shadow.append("%s:%s:1::::::" % (name, u.get("initial_hashed_password", "!")))
     group = [
@@ -123,6 +128,7 @@ def account_files(
     return {
         "passwd": lines(passwd),
         "group": lines(group),
+        "shells": lines(list(shells)),
         "shadow": lines(shadow),
         "ids": {"users": uids, "groups": gids},
     }
@@ -135,6 +141,11 @@ def render(ctx: Context) -> None:
     ctx.file("/etc/passwd", accounts["passwd"], 0o644)
     ctx.file("/etc/group", accounts["group"], 0o644)
     ctx.file("/etc/shadow", accounts["shadow"], 0o600)
+    # The login shells there are, which chsh and some session scripts check.
+    ctx.file("/etc/shells", accounts["shells"], 0o644)
+    for u in ctx.read("users").values():
+        if u.get("shell") in SHELLS:
+            ctx.package(SHELLS[u["shell"]]["package"])
     # unix_chkpwd lets PAM check a password for someone who isn't root.
     for name in ["sudo", "su", "passwd", "unix_chkpwd"]:
         ctx.wrapper(name, source = SW + name)

@@ -19,7 +19,8 @@ user = types.record(
         types.str,
         optional = True,
         account = True,
-        doc = "The login shell, such as `/run/system/bin/zsh`. Bash when unset.",
+        doc = "The login shell: `bash`, `zsh`, `fish` or `nushell`, which the system then has, " +
+              "or the path of another. Bash when unset.",
     ),
     system = option(types.bool, default = False, account = True),
     packages = option(types.set(types.str)),

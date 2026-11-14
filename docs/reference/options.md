@@ -179,6 +179,13 @@
 - `programs.noctalia.settings`: any value, default {}. noctalia's settings, as in its `config.toml`, such as `bar.main.position = "top"`. The system's are every user's, and a user's own go over them.
 - `users.<name>.programs.noctalia.settings`: any value, default {}. noctalia's settings, as in its `config.toml`, such as `bar.main.position = "top"`. The system's are every user's, and a user's own go over them.
 
+### nushell
+
+- `users.<name>.programs.nushell.aliases`: a table whose values are each a string, default {}. Aliases by name, such as `{ ll = "ls -l" }`.
+- `users.<name>.programs.nushell.enable`: a boolean, default false. Nushell with these settings for a user whose login shell is another.
+- `users.<name>.programs.nushell.init`: a string, default "". Lines of Nushell run after the rest, in every Nushell.
+- `users.<name>.programs.nushell.settings`: any value, default {}. Nushell's own settings, as in `$env.config`, such as `show_banner = false`.
+
 ### ollama
 
 - `services.ollama.acceleration`: one of "auto", "cpu", "rocm", "vulkan", "cuda", default "auto". Which GPUs to use; `auto` picks what the system's packages support.
@@ -292,7 +299,7 @@
 - `users.<name>.initial_hashed_password`: a string, optional. The password hash a new account starts with. `passwd` on the machine replaces it.
 - `users.<name>.linger`: a boolean, default false. Start the user's services at boot instead of at their first login. Without it, lingering turned on with `loginctl` is turned off again.
 - `users.<name>.packages`: a list of items that are each a string, default [].
-- `users.<name>.shell`: a string, optional. The login shell, such as `/run/system/bin/zsh`. Bash when unset.
+- `users.<name>.shell`: a string, optional. The login shell: `bash`, `zsh`, `fish` or `nushell`, which the system then has, or the path of another. Bash when unset.
 - `users.<name>.system`: a boolean, default false.
 - `users.<name>.uid`: an integer, optional.
 
@@ -312,6 +319,15 @@
 - `zram.algorithm`: a string, default "zstd".
 - `zram.enable`: a boolean, default false. Whether it's on.
 - `zram.size`: a string, default "ram / 2". How big it is, as an expression of `ram`, in megabytes.
+
+### zsh
+
+- `users.<name>.programs.zsh.aliases`: a table whose values are each a string, default {}. Aliases by name, such as `{ ll = "ls -l" }`.
+- `users.<name>.programs.zsh.completion`: a boolean, default true. zsh's own completion.
+- `users.<name>.programs.zsh.enable`: a boolean, default false. zsh with these settings for a user whose login shell is another.
+- `users.<name>.programs.zsh.history`: an integer, default 10000. How many commands it keeps.
+- `users.<name>.programs.zsh.init`: a string, default "". Lines run after the rest, in every interactive zsh.
+- `users.<name>.programs.zsh.options`: a list of items that are each a string, default []. zsh options to turn on, such as `share_history`.
 
 ## A project's `wrath.toml`
 
