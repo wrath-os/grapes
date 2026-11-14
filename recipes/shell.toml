@@ -20,7 +20,7 @@ smoke = ["bin/noctalia --version"]
 [package.meson]
 args = ["-D jemalloc=disabled", "-D tests=disabled"]
 # stb ships no pkg-config file, and the build checks for its header directly.
-env = { CPPFLAGS = "-I$LAB_DEP_stb/include" }
+env = { CPPFLAGS = "-I$WRATH_DEP_stb/include" }
 install = '''
 mkdir -p $DEST$PREFIX/lib/systemd/user
 cat > $DEST$PREFIX/lib/systemd/user/noctalia.service <<UNIT
@@ -194,7 +194,7 @@ id = "stb"
 version = "4e9b368"
 scope = "runtime"
 core = true
-# Only headers, kept together where `$LAB_DEP_stb` points.
+# Only headers, kept together where `$WRATH_DEP_stb` points.
 whole = true
 sources = [{ url = "https://github.com/nothings/stb/archive/4e9b368bfc071e97206ea5c6adba68dd0cbf8897.tar.gz" }]
 script = '''

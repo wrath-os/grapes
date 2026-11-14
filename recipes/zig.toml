@@ -43,5 +43,5 @@ args = [
 ]
 
 [package.zig.env]
-PYTHONPATH = "$LAB_DEP_blueprint_compiler/site:$LAB_DEP_pygobject/site"
-GI_TYPELIB_PATH = "$LAB_DEP_glib_gir/lib/girepository-1.0:$LAB_DEP_gobject_introspection_gir/lib/girepository-1.0:$LAB_DEP_harfbuzz_gir/lib/girepository-1.0:$LAB_DEP_pango_gir/lib/girepository-1.0:$LAB_DEP_gdk_pixbuf_gir/lib/girepository-1.0:$LAB_DEP_graphene_gir/lib/girepository-1.0:$LAB_DEP_gtk4_gir/lib/girepository-1.0:$LAB_DEP_libadwaita/lib/girepository-1.0"
+PYTHONPATH = "$WRATH_DEP_blueprint_compiler/site:$WRATH_DEP_pygobject/site"
+GI_TYPELIB_PATH = "$WRATH_DEP_glib_gir/lib/girepository-1.0:$WRATH_DEP_gobject_introspection_gir/lib/girepository-1.0:$WRATH_DEP_harfbuzz_gir/lib/girepository-1.0:$WRATH_DEP_pango_gir/lib/girepository-1.0:$WRATH_DEP_gdk_pixbuf_gir/lib/girepository-1.0:$WRATH_DEP_graphene_gir/lib/girepository-1.0:$WRATH_DEP_gtk4_gir/lib/girepository-1.0:$WRATH_DEP_libadwaita/lib/girepository-1.0"

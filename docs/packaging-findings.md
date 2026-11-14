@@ -114,11 +114,11 @@ style (Starlark), the builder (Rust), or the recipe.
 ### A package of only headers is split away from its own path
 
 - **Seen in:** stb.
-- **What happened:** output splitting moved `include/` to the dev output, so `$LAB_DEP_stb`
+- **What happened:** output splitting moved `include/` to the dev output, so `$WRATH_DEP_stb`
   pointed at an empty directory.
 - **What we did:** `whole = true` in stb's recipe.
 - **What would prevent it:** a package whose only content would go to its dev output stays whole,
-  or builds get a `$LAB_INC_<name>` that points where its headers went.
+  or builds get a `$WRATH_INC_<name>` that points where its headers went.
 - **Belongs in:** the builder, in output splitting.
 - **Status:** open.
 
@@ -433,7 +433,7 @@ style (Starlark), the builder (Rust), or the recipe.
   find freetype.
 - **What happened:** the wrapper gives C and C++ programs the run paths of what they're built with;
   `zig build` runs its own linker.
-- **What we did:** the zig style sets each ELF file's run path from `LAB_LINK_FLAGS` after the
+- **What we did:** the zig style sets each ELF file's run path from `WRATH_LINK_FLAGS` after the
   build, and the build trims it as usual.
 - **What would prevent it:** the same step in any style whose tool links by itself.
 - **Belongs in:** the style.
@@ -455,7 +455,7 @@ style (Starlark), the builder (Rust), or the recipe.
   and systemd jinja2.
 - **What happened:** a dependency's `site` isn't on `PYTHONPATH` unless the recipe says so, so
   meson didn't find setuptools though the recipe listed it.
-- **What we did:** `env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }`, as the others do.
+- **What we did:** `env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }`, as the others do.
 - **What would prevent it:** the builder adding every dependency's `site` to `PYTHONPATH`, as it
   does for `bin` on `PATH`.
 - **Belongs in:** the builder.

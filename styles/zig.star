@@ -9,7 +9,7 @@ export ZIG_GLOBAL_CACHE_DIR=/build/zig-cache ZIG_LOCAL_CACHE_DIR=/build/zig-loca
 
 RUN_PATHS = """# Zig links by itself, past the compiler that gives programs the run paths of what
 # they were built with, so its programs get them here; the build trims each to what it loads.
-rpath=$(printf '%s\n' $LAB_LINK_FLAGS | sed -n 's/^-Wl,-rpath,//p' | paste -sd: -)
+rpath=$(printf '%s\n' $WRATH_LINK_FLAGS | sed -n 's/^-Wl,-rpath,//p' | paste -sd: -)
 find $DEST$PREFIX -type f | while read -r file; do
     if [ "$(head -c 4 "$file" | od -An -c | tr -d ' ')" = '177ELF' ]; then
         patchelf --set-rpath "$rpath" "$file"

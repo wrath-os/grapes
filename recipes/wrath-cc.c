@@ -31,16 +31,16 @@ int main(int argc, char **argv) {
     else if (!strcmp(name, "c++"))
         name = "g++";
 
-    const char *bin = getenv("LAB_REAL_BIN");
+    const char *bin = getenv("WRATH_REAL_BIN");
     if (!bin) {
-        fprintf(stderr, "lab-cc: LAB_REAL_BIN is not set\n");
+        fprintf(stderr, "wrath-cc: WRATH_REAL_BIN is not set\n");
         return 127;
     }
     char real[4096];
     snprintf(real, sizeof real, "%s/%s", bin, name);
 
-    const char *always = getenv("LAB_COMPILE_FLAGS");
-    const char *linking = getenv("LAB_LINK_FLAGS");
+    const char *always = getenv("WRATH_COMPILE_FLAGS");
+    const char *linking = getenv("WRATH_LINK_FLAGS");
     char *compile = strdup(always ? always : "");
     char *link = strdup(linking && links(argc, argv) ? linking : "");
     char **args = calloc(argc + (strlen(compile) + strlen(link)) / 2 + 3, sizeof *args);

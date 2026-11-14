@@ -8,13 +8,13 @@ id = "wrapper"
 scope = "boot"
 wrap = false
 deps = ["seed"]
-files = ["lab-cc.c"]
+files = ["wrath-cc.c"]
 script = '''
-S=$LAB_SEED
-gcc -O2 lab-cc.c -o lab-cc -Wl,--dynamic-linker=$S/lib/ld-linux-x86-64.so.2 -Wl,-rpath,$S/lib
+S=$WRATH_SEED
+gcc -O2 wrath-cc.c -o wrath-cc -Wl,--dynamic-linker=$S/lib/ld-linux-x86-64.so.2 -Wl,-rpath,$S/lib
 mkdir -p $OUT/bin
-cp lab-cc $OUT/bin/
-for name in gcc g++ cc c++; do ln -s lab-cc $OUT/bin/$name; done
+cp wrath-cc $OUT/bin/
+for name in gcc g++ cc c++; do ln -s wrath-cc $OUT/bin/$name; done
 '''
 
 [[package]]
@@ -96,7 +96,7 @@ sed -i '/m64=/s/lib64/lib/' gcc/config/i386/t-linux64
 mkdir ../b && cd ../b
 ../src/configure --prefix=$PREFIX --libdir=$PREFIX/lib --disable-bootstrap --disable-multilib \
     --disable-nls --disable-libsanitizer --enable-languages=c,c++ MAKEINFO=true \
-    LDFLAGS_FOR_TARGET="${LAB_LINK_FLAGS:-}"
+    LDFLAGS_FOR_TARGET="${WRATH_LINK_FLAGS:-}"
 make -j$NPROC MAKEINFO=true
 make install DESTDIR=$DEST MAKEINFO=true
 # gcc saves "fixed" copies of the libc headers it saw, which would hide the next libc's.
@@ -132,9 +132,9 @@ rootsbindir=$PREFIX/bin
 # path in immediates, which nothing can rewrite once the package moves to its address.
 CFLAGS-dl-load.c += -fno-builtin-memcmp
 EOP
-CC=$LAB_REAL_BIN/gcc CXX=$LAB_REAL_BIN/g++ BUILD_CC=gcc MAKEINFO=true CFLAGS=-O2 CXXFLAGS=-O2 \
+CC=$WRATH_REAL_BIN/gcc CXX=$WRATH_REAL_BIN/g++ BUILD_CC=gcc MAKEINFO=true CFLAGS=-O2 CXXFLAGS=-O2 \
 ../src/configure --prefix=$PREFIX --libdir=$PREFIX/lib --libexecdir=$PREFIX/lib/glibc \
-    --with-headers=$LAB_DEP_linux_headers/include --enable-kernel=5.4 --disable-werror \
+    --with-headers=$WRATH_DEP_linux_headers/include --enable-kernel=5.4 --disable-werror \
     --disable-nscd --disable-profile --without-selinux --enable-stack-protector=strong \
     --sysconfdir=/etc
 make -j$NPROC MAKEINFO=true
@@ -199,7 +199,7 @@ mkdir ../b && cd ../b
 ../src/configure --prefix=$PREFIX --libdir=$PREFIX/lib --disable-bootstrap --disable-multilib \
     --disable-nls --disable-libsanitizer --enable-languages=c,c++ MAKEINFO=true \
     --enable-default-pie --enable-default-ssp \
-    LDFLAGS_FOR_TARGET="${LAB_LINK_FLAGS:-}" \
+    LDFLAGS_FOR_TARGET="${WRATH_LINK_FLAGS:-}" \
     CFLAGS=-O2 CXXFLAGS=-O2 CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 \
     LDFLAGS="-static-libstdc++ -static-libgcc"
 make -j$NPROC MAKEINFO=true

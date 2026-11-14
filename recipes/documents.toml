@@ -69,7 +69,7 @@ smoke = ["bin/zathura --version"]
 [package.meson]
 # gettext's split leaves the rules for translating metainfo files away from the library that
 # reads them.
-env = { GETTEXTDATADIRS = "$LAB_DEP_gettext/share/gettext-0.26" }
+env = { GETTEXTDATADIRS = "$WRATH_DEP_gettext/share/gettext-0.26" }
 args = [
   "-D manpages=disabled", "-D synctex=disabled", "-D seccomp=disabled", "-D landlock=enabled",
   "-D tests-x11=disabled", "-D tests-wayland=disabled", "-D convert-icon=disabled",

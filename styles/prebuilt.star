@@ -8,8 +8,8 @@
 # are left as built: Mozilla's pack their relocations with code of their own that breaks when a
 # tool moves their sections.
 
-PATCH = """loader=$LAB_LOADER
-rpath='$ORIGIN':$(printf '%s\\n' $LAB_LINK_FLAGS | sed -n 's/^-Wl,-rpath,//p' | paste -sd: -)
+PATCH = """loader=$WRATH_LOADER
+rpath='$ORIGIN':$(printf '%s\\n' $WRATH_LINK_FLAGS | sed -n 's/^-Wl,-rpath,//p' | paste -sd: -)
 find "$app" -type f | while read -r file; do
     [ "$(head -c 4 "$file" | od -An -c | tr -d ' ')" = '177ELF' ] || continue
     readelf -l "$file" | grep -q 'program interpreter' || continue

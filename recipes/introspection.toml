@@ -37,7 +37,7 @@ smoke = ["bin/g-ir-compiler --version"]
 probes = ["gobject-introspection-1.0"]
 
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = ["-D build_introspection_data=false", "-D doctool=disabled", "-D tests=false"]
 
 # GLib, GObject, Gio and GModule.
@@ -53,7 +53,7 @@ extra_deps = [
 sources = [{ url = "https://download.gnome.org/sources/glib/{series}/glib-{version}.tar.xz" }]
 
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = [
   "-D tests=false", "-D introspection=enabled", "-D man-pages=disabled", "-D selinux=disabled",
   "-D xattr=false",
@@ -73,7 +73,7 @@ extra_deps = [
 sources = [{ url = "https://download.gnome.org/sources/gobject-introspection/{series}/gobject-introspection-{version}.tar.xz" }]
 
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = [
   "-D build_introspection_data=true", "-D cairo=enabled", "-D doctool=disabled", "-D tests=false",
 ]
@@ -94,7 +94,7 @@ extra_deps = [
 sources = [{ url = "https://github.com/harfbuzz/harfbuzz/releases/download/{version}/harfbuzz-{version}.tar.xz" }]
 
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = [
   "-D freetype=enabled", "-D glib=enabled", "-D gobject=enabled", "-D cairo=disabled",
   "-D icu=disabled", "-D chafa=disabled", "-D introspection=enabled", "-D tests=disabled",
@@ -114,7 +114,7 @@ extra_deps = [
 sources = [{ url = "https://download.gnome.org/sources/gdk-pixbuf/{series}/gdk-pixbuf-{version}.tar.xz" }]
 
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = [
   "-D png=enabled", "-D jpeg=disabled", "-D tiff=disabled", "-D gif=disabled",
   "-D others=disabled", "-D glycin=disabled", "-D builtin_loaders=png",
@@ -132,7 +132,7 @@ extra_deps = ["python3", "glib", "gobject-introspection", "setuptools", "glib-gi
 sources = [{ url = "https://download.gnome.org/sources/graphene/{series}/graphene-{version}.tar.xz" }]
 
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = ["-D tests=false", "-D installed_tests=false", "-D introspection=enabled"]
 keep = ["share/gir-1.0", "lib/girepository-1.0"]
 
@@ -149,7 +149,7 @@ extra_deps = [
 sources = [{ url = "https://download.gnome.org/sources/pango/{series}/pango-{version}.tar.xz" }]
 
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = [
   "-D introspection=enabled", "-D documentation=false", "-D build-testsuite=false",
   "-D build-examples=false", "-D libthai=disabled", "-D xft=disabled", "-D cairo=enabled",
@@ -172,7 +172,7 @@ extra_deps = [
 sources = [{ url = "https://download.gnome.org/sources/gtk/{series}/gtk-{version}.tar.xz" }]
 
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_setuptools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_setuptools/site" }
 args = [
   "-D x11-backend=false", "-D wayland-backend=true", "-D broadway-backend=false",
   "-D media-gstreamer=disabled", "-D print-cups=disabled", "-D print-cpdb=disabled",

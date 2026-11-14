@@ -151,8 +151,8 @@ sh Configure -des -Dprefix=$PREFIX -Dvendorprefix=$PREFIX -Dman1dir=$PREFIX/shar
     -Dman3dir=$PREFIX/share/man/man3 -Dpager=/bin/less -Duseshrplib -Dusethreads -Dcc=gcc \
     -Dinstallprefix=$DEST$PREFIX
 # Configure records when and where it ran, and the kernel it ran on.
-sed -i -E "s/^(cf_by|cf_time|cf_email|perladmin|myhostname|myuname|osvers)=.*/\1='lab'/" config.sh
-sed -i -E "s/^# (Configuration time|Target system).*/# \1: lab/" config.sh
+sed -i -E "s/^(cf_by|cf_time|cf_email|perladmin|myhostname|myuname|osvers)=.*/\1='wrath'/" config.sh
+sed -i -E "s/^# (Configuration time|Target system).*/# \1: wrath/" config.sh
 # Only a record of the compiler's search path, which would keep all of gcc referenced.
 sed -i -E "s/^incpth=.*/incpth=''/" config.sh
 sh Configure -S

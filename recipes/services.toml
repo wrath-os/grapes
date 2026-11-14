@@ -113,7 +113,7 @@ make install NOMAN=1 CARGOFLAGS="--offline --locked" DESTDIR=$DEST \
 '''
 
 [package.cargo.env]
-SYSTEMD_UTIL_DIR = "$LAB_DEP_systemd/lib/systemd"
+SYSTEMD_UTIL_DIR = "$WRATH_DEP_systemd/lib/systemd"
 SYSTEMD_SYSTEM_UNIT_DIR = "$PREFIX/lib/systemd/system"
 SYSTEMD_SYSTEM_GENERATOR_DIR = "$PREFIX/lib/systemd/system-generators"
 

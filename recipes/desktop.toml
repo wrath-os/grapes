@@ -65,7 +65,7 @@ probes = ["xkbcommon"]
 # Keymaps from keyboard layouts, read from xkeyboard-config where it is in the store.
 [package.meson]
 args = [
-  "-D xkb-config-root=$LAB_DEP_xkeyboard_config/share/xkeyboard-config-2",
+  "-D xkb-config-root=$WRATH_DEP_xkeyboard_config/share/xkeyboard-config-2",
   "-D x-locale-root=/run/system/share/X11/locale",
   "-D enable-x11=false", "-D enable-wayland=false", "-D enable-docs=false",
   "-D enable-tools=false",
@@ -87,7 +87,7 @@ probes = ["xkbcommon-x11"]
 
 [package.meson]
 args = [
-  "-D xkb-config-root=$LAB_DEP_xkeyboard_config/share/xkeyboard-config-2",
+  "-D xkb-config-root=$WRATH_DEP_xkeyboard_config/share/xkeyboard-config-2",
   "-D x-locale-root=/run/system/share/X11/locale",
   "-D enable-x11=true", "-D enable-wayland=false", "-D enable-docs=false",
   "-D enable-tools=false",
@@ -256,7 +256,7 @@ probes = ["egl", "gbm"]
 # LLVM. softpipe draws without a GPU, slowly, so a shell still starts on a machine without one
 # here, such as a VM. EGL and GBM for Wayland compositors.
 [package.meson]
-env = { PYTHONPATH = "$LAB_DEP_mako/site:$LAB_DEP_markupsafe/site:$LAB_DEP_pyyaml/site:$LAB_DEP_packaging/site" }
+env = { PYTHONPATH = "$WRATH_DEP_mako/site:$WRATH_DEP_markupsafe/site:$WRATH_DEP_pyyaml/site:$WRATH_DEP_packaging/site" }
 args = [
   "-D platforms=wayland", "-D gallium-drivers=radeonsi,softpipe", "-D vulkan-drivers=amd",
   "-D llvm=disabled", "-D egl=enabled", "-D gbm=enabled", "-D gles2=enabled", "-D glx=disabled",
@@ -853,7 +853,7 @@ args = [
   "-D glamor=true", "-D glx=false", "-D dri3=true", "-D secure-rpc=false", "-D xdmcp=false",
   "-D xdm-auth-1=false", "-D sha1=libcrypto", "-D docs=false", "-D devel-docs=false",
   "-D dtrace=false", "-D libdecor=false", "-D xvfb=false",
-  "-D xkb_dir=$LAB_DEP_xkeyboard_config/share/X11/xkb", "-D xkb_bin_dir=$LAB_DEP_xkbcomp/bin",
+  "-D xkb_dir=$WRATH_DEP_xkeyboard_config/share/X11/xkb", "-D xkb_bin_dir=$WRATH_DEP_xkbcomp/bin",
   "-D xkb_output_dir=/var/lib/xkb",
 ]
 
@@ -921,7 +921,7 @@ sources = [{ url = "https://github.com/Supreeeme/xwayland-satellite/archive/v{ve
 # made with bindgen, which reads the headers with libclang.
 [package.cargo]
 features = ["systemd"]
-env = { LIBCLANG_PATH = "$LAB_DEP_llvm/lib" }
+env = { LIBCLANG_PATH = "$WRATH_DEP_llvm/lib" }
 
 # GTK 3, and the portal that gives programs its file chooser.
 
@@ -1103,7 +1103,7 @@ probes = ["libgcrypt"]
 
 [package.autotools]
 args = [
-  "--disable-static", "--disable-doc", "--with-libgpg-error-prefix=$LAB_DEP_libgpg_error",
+  "--disable-static", "--disable-doc", "--with-libgpg-error-prefix=$WRATH_DEP_libgpg_error",
 ]
 
 [[package]]

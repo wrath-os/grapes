@@ -10,17 +10,17 @@ core = true
 sources = [{ url = "https://static.rust-lang.org/dist/rust-{version}-{triple}.tar.xz" }]
 script = '''
 sh install.sh --prefix=$PREFIX --destdir=$DEST --disable-ldconfig \
-    --components=rustc,cargo,rust-std-$LAB_TRIPLE
+    --components=rustc,cargo,rust-std-$WRATH_TRIPLE
 # These were linked for a system with /lib64, so each is pointed at our loader and libraries.
-loader=$LAB_LOADER
+loader=$WRATH_LOADER
 find $DEST$PREFIX/bin $DEST$PREFIX/lib -type f | while read -r file; do
     case "$file" in *.o|*.a|*.rlib|*.rmeta) continue ;; esac
     [ "$(head -c 4 "$file" | od -An -c | tr -d ' ')" = '177ELF' ] || continue
     chmod u+w "$file"
-    $LAB_SEED/bin/patchelf --force-rpath \
-        --set-rpath "$PREFIX/lib:$LAB_LIB_gcc/lib:$LAB_LIB_glibc/lib:$LAB_LIB_zlib/lib" "$file"
-    if $LAB_SEED/bin/readelf -l "$file" | grep -q 'program interpreter'; then
-        $LAB_SEED/bin/patchelf --set-interpreter "$loader" "$file"
+    $WRATH_SEED/bin/patchelf --force-rpath \
+        --set-rpath "$PREFIX/lib:$WRATH_LIB_gcc/lib:$WRATH_LIB_glibc/lib:$WRATH_LIB_zlib/lib" "$file"
+    if $WRATH_SEED/bin/readelf -l "$file" | grep -q 'program interpreter'; then
+        $WRATH_SEED/bin/patchelf --set-interpreter "$loader" "$file"
     fi
 done
 '''

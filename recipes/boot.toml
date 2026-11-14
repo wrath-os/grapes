@@ -8,8 +8,8 @@ core = true
 extra_deps = ["flex", "bison-final", "m4-final", "bc", "elfutils", "perl", "pkgconf", "kmod"]
 sources = [{ url = "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-{version}.tar.xz" }]
 script = '''
-export KBUILD_BUILD_TIMESTAMP=@1 KBUILD_BUILD_USER=lab KBUILD_BUILD_HOST=lab
-make ${LAB_ARCH}_defconfig
+export KBUILD_BUILD_TIMESTAMP=@1 KBUILD_BUILD_USER=wrath KBUILD_BUILD_HOST=wrath
+make ${WRATH_ARCH}_defconfig
 make kvm_guest.config
 scripts/config --enable DEVTMPFS --enable DEVTMPFS_MOUNT --enable EXT4_FS --enable VIRTIO_BLK \
     --enable VIRTIO_PCI --enable AUTOFS_FS --enable FHANDLE --enable CGROUPS --enable CGROUP_BPF \
@@ -75,7 +75,7 @@ make -j$NPROC bzImage modules
 mkdir -p $DEST$PREFIX /build/tools
 cp arch/x86/boot/bzImage .config $DEST$PREFIX/
 # kmod is one program that behaves by the name it's called.
-ln -s $LAB_DEP_kmod/bin/kmod /build/tools/depmod
+ln -s $WRATH_DEP_kmod/bin/kmod /build/tools/depmod
 make modules_install INSTALL_MOD_PATH=$DEST$PREFIX INSTALL_MOD_STRIP=1 DEPMOD=/build/tools/depmod
 rm -f $DEST$PREFIX/lib/modules/*/build
 '''
@@ -133,8 +133,8 @@ sources = [{ url = "https://www.sudo.ws/dist/sudo-{version}.tar.gz" }]
 script = '''
 # configure looks for a compiler named after the host, which our toolchain doesn't have.
 mkdir -p /build/bin
-printf '#!/bin/sh\nexec gcc "$@"\n' > /build/bin/$LAB_ARCH-pc-linux-gnu-gcc
-chmod +x /build/bin/$LAB_ARCH-pc-linux-gnu-gcc
+printf '#!/bin/sh\nexec gcc "$@"\n' > /build/bin/$WRATH_ARCH-pc-linux-gnu-gcc
+chmod +x /build/bin/$WRATH_ARCH-pc-linux-gnu-gcc
 export PATH=/build/bin:$PATH
 ./configure --prefix=$PREFIX --sbindir=$PREFIX/bin --libexecdir=$PREFIX/libexec \
     --sysconfdir=/etc --with-rundir=/run/sudo --with-vardir=/var/db/sudo \
@@ -175,16 +175,16 @@ args = [
     "-D ldconfig=false", "-D rpmmacrosdir=no", "-D pamconfdir=no", "-D bashcompletiondir=no",
     "-D zshcompletiondir=no", "-D default-dnssec=no", "-D dev-kvm-mode=0660",
     "-D nobody-group=nogroup", "-D create-log-dirs=false", "-D install-sysconfdir=false",
-    "-D mount-path=$LAB_DEP_util_linux/bin/mount",
-    "-D umount-path=$LAB_DEP_util_linux/bin/umount",
-    "-D sulogin-path=$LAB_DEP_util_linux/bin/sulogin", "-D kmod-path=$LAB_DEP_kmod/bin/kmod",
-    "-D loadkeys-path=$LAB_DEP_kbd/bin/loadkeys", "-D setfont-path=$LAB_DEP_kbd/bin/setfont",
-    "-D nologin-path=$LAB_DEP_coreutils/bin/false",
+    "-D mount-path=$WRATH_DEP_util_linux/bin/mount",
+    "-D umount-path=$WRATH_DEP_util_linux/bin/umount",
+    "-D sulogin-path=$WRATH_DEP_util_linux/bin/sulogin", "-D kmod-path=$WRATH_DEP_kmod/bin/kmod",
+    "-D loadkeys-path=$WRATH_DEP_kbd/bin/loadkeys", "-D setfont-path=$WRATH_DEP_kbd/bin/setfont",
+    "-D nologin-path=$WRATH_DEP_coreutils/bin/false",
 ]
-env = { PYTHONPATH = "$LAB_DEP_jinja2/site:$LAB_DEP_markupsafe/site:$LAB_DEP_pyelftools/site" }
+env = { PYTHONPATH = "$WRATH_DEP_jinja2/site:$WRATH_DEP_markupsafe/site:$WRATH_DEP_pyelftools/site" }
 prepare = '''
 # Swap units run swapon and swapoff from a fixed path, which a system without /sbin lacks.
-sed -i "s#\"/sbin/swapon\"#\"$LAB_DEP_util_linux/bin/swapon\"#; s#\"/sbin/swapoff\"#\"$LAB_DEP_util_linux/bin/swapoff\"#" \
+sed -i "s#\"/sbin/swapon\"#\"$WRATH_DEP_util_linux/bin/swapon\"#; s#\"/sbin/swapoff\"#\"$WRATH_DEP_util_linux/bin/swapoff\"#" \
     src/core/swap.c
 # Units from packages name programs without a path, such as `ExecStart=niri`, and systemd looks
 # them up in its own list of directories, never in PATH. A system's programs are in /run/system/bin.
@@ -197,11 +197,11 @@ for unit in $(grep -rlE '^Exec[A-Za-z]*=[-@:+!]*[a-z]' $DEST$PREFIX/lib/systemd 
     for name in $(ls $DEST$PREFIX/bin); do
         sed -Ei "s#^(Exec[A-Za-z]*=[-@:+!]*)$name( |\$)#\1$PREFIX/bin/$name\2#" $unit
     done
-    sed -Ei "s#^(Exec[A-Za-z]*=[-@:+!]*)rm( |\$)#\1$LAB_DEP_coreutils/bin/rm\2#" $unit
+    sed -Ei "s#^(Exec[A-Za-z]*=[-@:+!]*)rm( |\$)#\1$WRATH_DEP_coreutils/bin/rm\2#" $unit
 done
-sed -i "s#/sbin/agetty#$LAB_DEP_util_linux/bin/agetty#" $DEST$PREFIX/lib/systemd/system/*getty*.service
+sed -i "s#/sbin/agetty#$WRATH_DEP_util_linux/bin/agetty#" $DEST$PREFIX/lib/systemd/system/*getty*.service
 # kmod is modprobe by the name it's called; `@` gives a program the name to run as.
-sed -i "s#^ExecStart=-/sbin/modprobe #ExecStart=-@$LAB_DEP_kmod/bin/kmod modprobe #" \
+sed -i "s#^ExecStart=-/sbin/modprobe #ExecStart=-@$WRATH_DEP_kmod/bin/kmod modprobe #" \
     $DEST$PREFIX/lib/systemd/system/modprobe@.service
 # glibc finds NSS modules from other packages in the system's lib/nss.
 mkdir -p $DEST$PREFIX/lib/nss
