@@ -25,6 +25,10 @@ def package(hash: str, entry: dict[str, typing.Any]) -> dict[str, typing.Any]:
         fail("`%s` names no commit" % url)
     return {"url": url, "into": "../zig-packages/" + hash}
 
+def ended(text: str) -> str:
+    """`text`, ending its last line, so what follows starts on a line of its own."""
+    return text if text == "" or text.endswith("\n") else text + "\n"
+
 def build(recipe: Recipe, options: dict[str, typing.Any]) -> dict[str, typing.Any]:
     deps = decode.json(recipe.read(options["deps"]))
     sources = [package(hash, entry) for hash, entry in sorted(deps.items())]
@@ -36,7 +40,7 @@ def build(recipe: Recipe, options: dict[str, typing.Any]) -> dict[str, typing.An
         "DESTDIR=$DEST " + command,
     ]
     return {
-        "script": SETUP + options["prepare"] + "".join([line + "\n" for line in lines]) +
+        "script": SETUP + ended(options["prepare"]) + "".join([line + "\n" for line in lines]) +
                   RUN_PATHS + options["install"],
         "deps": ["zig-bin", "pkgconf", "patchelf"],
         "sources": sources,

@@ -61,6 +61,10 @@ def exports(options: dict[str, typing.Any]) -> list[str]:
             lines.append("export %s=\"%s\"" % (name, flags))
     return lines
 
+def ended(text: str) -> str:
+    """`text`, ending its last line, so what follows starts on a line of its own."""
+    return text if text == "" or text.endswith("\n") else text + "\n"
+
 def build(recipe: Recipe, options: dict[str, typing.Any]) -> dict[str, typing.Any]:
     check(recipe, options["source"], options["args"])
     setup = "meson setup /build/b %s --prefix=$PREFIX --libdir=lib --buildtype=release" % (
@@ -78,7 +82,7 @@ def build(recipe: Recipe, options: dict[str, typing.Any]) -> dict[str, typing.An
             "find $DEST$PREFIX -depth -type d -empty -delete",
         ]
     return {
-        "script": options["prepare"] + "".join([line + "\n" for line in lines]) +
+        "script": ended(options["prepare"]) + "".join([line + "\n" for line in lines]) +
                   options["install"],
         "deps": ["meson", "ninja", "pkgconf"],
     }
