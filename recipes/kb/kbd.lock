@@ -1,7 +1,7 @@
 [kbd]
 style = "autotools"
 record = "07694c5f6dcbbe311d7ae8191758f3f8517de3677eaee10bbdca483869c1d440"
-from = "ef42237a2a8ff3f67146781c4f5400b31180a28a96c566e58f0973b2fe9e0b09"
+from = "a949864250b2346edb308320bcbdf99b2c94632721d3e99a38571162cbb20d3f"
 deps = []
 
 [[kbd.sources]]

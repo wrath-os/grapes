@@ -1,7 +1,7 @@
 [libsndfile]
 style = "autotools"
 record = "1b03419d7a6f3e971335e6a5363702a93ba76aae950b14263803e7a03fe1ebc4"
-from = "9d11029757840d7caa76e7f31313e788d1fb2ffbb5be934b934915fa1acfbb7f"
+from = "e879d41503e3af1cc45d07d116805a9502b4c0cd9f2ac1bfed6c773856e06317"
 deps = []
 
 [[libsndfile.sources]]

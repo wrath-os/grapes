@@ -1,7 +1,7 @@
 [grim]
 style = "meson"
 record = "8ccfc3c70df44b64b84ed87d8ca1d99e8dcc0eaf247118664c5aa19522dff2ba"
-from = "145e922ace2b332710c8e945aefaa7250d760a9b9d72c67e109b2b2bda299b98"
+from = "6162b976cd2dee4d97cc5f4b87ed111b4c5afee6f8b74cf0d7cf614b21d7d234"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[grim.sources]]

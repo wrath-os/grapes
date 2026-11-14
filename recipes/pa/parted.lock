@@ -1,7 +1,7 @@
 [parted]
 style = "autotools"
 record = "e22660576d1f9024ff0eddac07f65bca8ed62e07785a6d2b4f4d7b9035abb5fd"
-from = "fc678dc8a998cf47445498e82c92d5d5a8ee5c32abb152ed10e453652d9eb2e1"
+from = "ba155f0f822a15d865610b217a4c9cd9c681e5ef4153c47999cfedbdc655905c"
 deps = []
 
 [[parted.sources]]

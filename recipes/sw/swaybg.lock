@@ -1,7 +1,7 @@
 [swaybg]
 style = "meson"
 record = "f874ec27f431e8a4f3a45be9cab291f4b0bd3a4da6a9ad0c206edbe9ae3d3560"
-from = "98cd54cefb0b6863397330d34a16329f0b3a4e7e967721456119437116ad6218"
+from = "1ec86c46b95304f25ea81a0c168c01e98945cac90f854d6daecfef2df9da89c4"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[swaybg.sources]]

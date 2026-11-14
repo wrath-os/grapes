@@ -1,7 +1,7 @@
 [libXcomposite]
 style = "autotools"
 record = "d5f62c18bd43ce817d809668fe0a07d8691f11b83b3d7322483fc249812eae1f"
-from = "3ef78f68e458b385e28b17abd47a9321cb3bd2dcd79734db9af78ff645c7d272"
+from = "c30f3c3014a2002acb6d74b2a0cae8ef4f63b319e8e6b5aaeb558f70a4a5dd81"
 deps = []
 
 [[libXcomposite.sources]]

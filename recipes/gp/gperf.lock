@@ -1,7 +1,7 @@
 [gperf]
 style = "autotools"
 record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
-from = "3aad7dd0be8aa038c6ace0a6028fc666becbd5158f582d8c97b9d6c0c254a6ca"
+from = "36c5909ed717c40a4ee625ce5081f9837cefcbfd73e3c274aa2b882184748488"
 deps = []
 
 [[gperf.sources]]

@@ -1,7 +1,7 @@
 [graphene]
 style = "meson"
 record = "d02cd5eb85b75bb0a744d044d99a5cde3354188be432cb9b69104c40d73573ae"
-from = "dc8075362bbda2a8405c62344eeaf1cd86c4d1776186fccf0002e403c7d474f6"
+from = "6ab2c4359639c71c0e77f2514d308d10788a102afe6a5e069d905f8be7cd1e24"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[graphene.sources]]

@@ -1,7 +1,7 @@
 [gh]
 style = "go"
 record = "4055756f3609e2d33fd82600fe243a657a65c11caceccfa02b8249b1d0e31420"
-from = "279773b20ce84eadfc7d5e6ad72d1f66a7bb8d0e76bc8875b8733386a38c8ee1"
+from = "f53d6fedf6c47fe1d71eec0b0c2d7002a265fac67e8e8f6ed1221d2d31fd6cac"
 deps = ["go"]
 
 [[gh.sources]]

@@ -1,7 +1,7 @@
 [seatd]
 style = "meson"
 record = "dff07573b4159c24f1c0e96acc3bdb75a04cdfb360f0848ad53cd4a3bbe39371"
-from = "9ea0403cd8d6565c6c6a82cc56af6bf9a71b5812c8bd7ae040ae9b672dc8346a"
+from = "6329b654c50e16602ce758096b09dbb6a666b02c1b0104c998c46a9667345dcd"
 deps = []
 
 [[seatd.sources]]

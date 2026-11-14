@@ -1,7 +1,7 @@
 [tree-sitter-cli]
 style = "cargo"
 record = "7c53de0789fe4f8a47350d6acd7bf3d14150c494e322147c42dbe53840ec80d1"
-from = "44f4e4172f33a6f275b228f7fb4d108f2500cfca5f7c607d52d2fe32bd4e4b6c"
+from = "442009b1fb8f47bab1b8eff312760bf1fa0cc00904e771760c22e84e41f8f53c"
 deps = ["rust-bin"]
 
 [[tree-sitter-cli.sources]]

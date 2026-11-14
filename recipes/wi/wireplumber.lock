@@ -1,7 +1,7 @@
 [wireplumber]
 style = "meson"
 record = "6d7465661d3717611c2593fcef2d817f02d865093b4550a140e3e76d6eee9868"
-from = "01a046816a563db98f966f0924fd55cca514d5f544cf23b6ec1b360a6ea9e2db"
+from = "24c623488d83f78cb7936954cc540f366e4535a342c596c2a1c6b37cd97e0efe"
 deps = []
 
 [[wireplumber.sources]]

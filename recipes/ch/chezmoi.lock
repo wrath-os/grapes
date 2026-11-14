@@ -1,7 +1,7 @@
 [chezmoi]
 style = "go"
 record = "37b4c039ffccdc007aff5f99001c9e672eb3234cfe1fe5da6d7da45670bc1c2f"
-from = "7187c289f21ff392ee3a108ac7fb688ada47a01e728c68fc75cbc9572f408b40"
+from = "267ffea0c93061d599725196329cfbc9bb686537d85164aced3d6a300dfcbc3c"
 deps = ["go"]
 
 [[chezmoi.sources]]

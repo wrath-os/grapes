@@ -1,7 +1,7 @@
 [libXau]
 style = "autotools"
 record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
-from = "4c9ea1484188e59db09b62a96dbdb49db7933e094b92f6fa971ab196f6f11357"
+from = "06eeb0aaeb36f0c625511db6ac93e97a0ff659fd5f5f6b2e511262c723c521a8"
 deps = []
 
 [[libXau.sources]]

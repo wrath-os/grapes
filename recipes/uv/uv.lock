@@ -1,7 +1,7 @@
 [uv]
 style = "cargo"
 record = "98953ea5bed8fddccb851ba5da827a13f1ad7e576bbcdf1469219593a5b5571c"
-from = "067375e41bc819b8c196f86678d1532154412f77ad90500e78b8a13051f465ef"
+from = "5bc5aafe9f21d9364bfad66a1f2551cd3a34cd60e05b1a71b4d1975f7eeead76"
 deps = ["rust-bin"]
 
 [[uv.sources]]

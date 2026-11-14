@@ -1,7 +1,7 @@
 [gst-plugins-base]
 style = "meson"
 record = "a9628b33bd3fabcdd08c74a2e5140f7082cf95091981cb0dc6339ede8c086a76"
-from = "89ab8b3e7841df89b11ced56da55f172cf8f55d85451cd8216b5806cf09cf221"
+from = "9ecf19cb2c476c029e3fc6064b7ccce921dbe566ebc5c785f83bbcb74a19cefa"
 deps = []
 
 [[gst-plugins-base.sources]]

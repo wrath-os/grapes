@@ -1,7 +1,7 @@
 ["libsigc++"]
 style = "meson"
 record = "451cd7d996aacfb02cf316c9a5ca64c17a8c8cbba6d1d282b1f37b860caac6e4"
-from = "30989d6f41f98cfc9471910579b6b35c25b48340968f7f2f83239ca28e7002ec"
+from = "4f4cbcb667748ccdd89b6b9579c44511f1f861ba1b8b27dce8305393c629665c"
 deps = ["meson", "ninja", "pkgconf"]
 
 [["libsigc++".sources]]

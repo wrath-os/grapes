@@ -1,7 +1,7 @@
 [polkit]
 style = "meson"
 record = "32e93fc0c81b6af44dd9fd1495c86c3ce353de77813e40c8413bb67e0d0cd9d7"
-from = "f96737ef8bf16a4d2102e655a1a5ed43ac517d19e6937dd31daa2b5f5907e321"
+from = "257e6272656a4cb5bb5d4be973fe5a1b985bec479cfd2295c6b4f3456b57de79"
 deps = []
 
 [[polkit.sources]]

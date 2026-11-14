@@ -1,7 +1,7 @@
 [wezterm]
 style = "cargo"
 record = "e36748f312d9cc253bbd2705f4d84b0fbf813710c36a3518908d37774e5dd4bc"
-from = "8343916ba60b0a75890406d9926f338afc4f6eb455c3155db6b5d9d75ab7f2cb"
+from = "5005ed4c303bbedee48511d6cfbd45121d4de1498dce5ce6b25e1dd491418dba"
 deps = []
 
 [[wezterm.sources]]

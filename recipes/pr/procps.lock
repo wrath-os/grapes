@@ -1,7 +1,7 @@
 [procps]
 style = "autotools"
 record = "c30a362762abf74a45cc100570643097763f9b8971bcbba23163fe8b4c6c1542"
-from = "1c110d8a1d106b103d340e01120482e43dc173662bb2af89ee43b783e437dbad"
+from = "d22ec67567daf4abc80018b3828fffc6946633b3876441323bf966e3244e3a50"
 deps = []
 
 [[procps.sources]]

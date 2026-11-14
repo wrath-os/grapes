@@ -1,7 +1,7 @@
 [libnl]
 style = "autotools"
 record = "0ecb3254d79d55d65b1ffd63d93efe5189bd6ba71a86422a5a1fdc15a71bf5ca"
-from = "4f5297fc009988284c4553f297cf67ded22d4fe2ec52760d1e4481567c8d853f"
+from = "7d392e32e89a67bfa9975fef74a7587b8b2414bd1cdae5774eccdef597b49748"
 deps = []
 
 [[libnl.sources]]

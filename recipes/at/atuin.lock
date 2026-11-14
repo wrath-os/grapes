@@ -1,7 +1,7 @@
 [atuin]
 style = "cargo"
 record = "abf4af827f7b17703196c1a98e57d8290cff727cbe9be2d02a7135e24565947b"
-from = "ce454cfc7f061be84acb7d878db578c4ecdfd1e638e86a0e05461ed34bc3230f"
+from = "cbdd38656a33e405c8b3ab7313f44bd176ce367fc47e006c765861d3d8e0a79a"
 deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[atuin.sources]]

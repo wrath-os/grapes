@@ -1,7 +1,7 @@
 [libxcb]
 style = "autotools"
 record = "6a65eee9c40caf569d6d1d120b85ecf82c2c31110e91f98b83e2a93422538b9a"
-from = "56cc35e31e6da539b9bf868a5a486bf0c89b54f7f589aa69ebc3877ca9a4dc0a"
+from = "9526870082a2e05d3128d00e8584e9f03bc66f46773e6c60580f61dfa2fb6ef3"
 deps = []
 
 [[libxcb.sources]]

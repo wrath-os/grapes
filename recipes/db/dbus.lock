@@ -1,7 +1,7 @@
 [dbus]
 style = "meson"
 record = "f568cab41aebd4e3880a2d5d8cd895030dc955e9900a10921a9105f943a4bdb8"
-from = "dece6762703b5f8ed5b98fb9755897cd89f7424c95c1bfe6875e090962abe4cc"
+from = "6878c67538f4e92b5bc0a8273ba7198681b999becdd73d73086e20ef684ed32d"
 deps = []
 
 [[dbus.sources]]

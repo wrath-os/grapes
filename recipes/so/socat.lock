@@ -1,7 +1,7 @@
 [socat]
 style = "autotools"
 record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
-from = "fa060e22fb4f45ec5abb9e6313034a9eeea4350ba9502b70ea671e7759f2ccee"
+from = "1aab3cc85ddf80beb6300f1b2906921901418c94881cce8aebe740a135576f81"
 deps = []
 
 [[socat.sources]]

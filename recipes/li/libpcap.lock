@@ -1,7 +1,7 @@
 [libpcap]
 style = "autotools"
 record = "fcadd7ab3080d46e46df97e88cbf74873d963981aeb4bcb2d6c8ad7ef4cd9402"
-from = "8ba2f2c4d566360789f80df226517e6e0b309db943252e14615f41b5c9198b5a"
+from = "5c300d1c862c23edf267ca63474ec2cf3fa417d358115e5b92859532722d5666"
 deps = []
 
 [[libpcap.sources]]

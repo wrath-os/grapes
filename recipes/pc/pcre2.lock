@@ -1,7 +1,7 @@
 [pcre2]
 style = "autotools"
 record = "3d98b36c97b7c7fc672508df5bce143f17fab1ab399b97713cae5d9ff108db54"
-from = "3d0341889eb3a613a421da36b45c06e3df853c2d7d8f1b1fb267bfbdfa876f84"
+from = "c0d6a3ebcc9fa4e2b6d0767fcc6b2b635d4dd0bc3607f9d7df1742d798d1e697"
 deps = []
 
 [[pcre2.sources]]

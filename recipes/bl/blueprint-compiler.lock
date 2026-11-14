@@ -1,7 +1,7 @@
 [blueprint-compiler]
 style = "meson"
 record = "57606d95470e99fba60880387a7335013a5371033b4fbcd89a96890f555c0824"
-from = "4e47bd1cdba140db386a739c6b0cb8b2339b33bd2bb2dc3a23cc63fc4de6b989"
+from = "5b1ee878f990e4c62f4b3bd64b5787b57bdb523e26d6816983f5f4d02e66d6e3"
 deps = ["pkgconf"]
 
 [[blueprint-compiler.sources]]

@@ -1,7 +1,7 @@
 [iputils]
 style = "meson"
 record = "880927834a83e3a9c7e7c519665e3b40c3ee6eab91537db8697b5fef004e3f13"
-from = "fdc9b810b262fe29a1198caa29ce0f6a945b5deece4475eb8c3d2caff1b6a6ec"
+from = "94f7600319b0fe4d41f4f3d7a4c1dab1365201af805484f0994e976d544cf249"
 deps = []
 
 [[iputils.sources]]

@@ -1,7 +1,7 @@
 [json-c]
 style = "cmake"
 record = "e78adda0a43c58370b70c91f5a8edd03ddde5bcfcba45895cd90dceab8aba0f1"
-from = "15223e6955d6aaa610b0ec796b08f9b91d4cd9fced22306df2ce7e4a5600d68b"
+from = "8b78db37ea3b066cf9db55f839baaf189408f39e3557e6ac2fabbb19fd973f22"
 deps = ["pkgconf"]
 
 [[json-c.sources]]

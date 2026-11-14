@@ -1,7 +1,7 @@
 [vulkan-headers]
 style = "cmake"
 record = "9ef6bf4fdc2eeb992d975385e279b1cb721e290443f8c60530183bb9cd0274e5"
-from = "3051009e5c317ce595430b2dfbbdbc9da5c6c77f396fd63c918633b165117dc5"
+from = "2ffa6c00fe6a1debb5b9a34b7db232e61772789eb3e7e3dda4d0b247c015a038"
 deps = ["cmake", "ninja", "pkgconf"]
 
 [[vulkan-headers.sources]]

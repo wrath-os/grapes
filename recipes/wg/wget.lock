@@ -1,7 +1,7 @@
 [wget]
 style = "autotools"
 record = "c5675406a70d6c5ba2dc08263d8206b8fd6ef73f6105fea91a607e458e78f6b2"
-from = "a1de7bdd1bf9763f0123e1d3c3abd3b70f1b662a4613bc836d42d03e7100292c"
+from = "25b0dea9e6904c5c90b4caa0720905defe4ec49241c01b4ee1f0c6eb077178d3"
 deps = []
 
 [[wget.sources]]

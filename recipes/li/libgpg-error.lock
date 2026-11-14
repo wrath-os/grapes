@@ -1,7 +1,7 @@
 [libgpg-error]
 style = "autotools"
 record = "af49716334a9414ffe1354e073b90951845960b92d87c4be62b67da438cea2a8"
-from = "c28fcb52a0b0629a58b2a5f0bdcd3d3bffd4ac35a5e517e611bb6478a821d371"
+from = "93e888d35a1965782e067a4b57fbe971ebc372337aca533ec00060ee9366b552"
 deps = []
 
 [[libgpg-error.sources]]

@@ -1,7 +1,7 @@
 [libXfont2]
 style = "autotools"
 record = "55ce8dc5fa3e264a1c584578c7d98aa0f0955543fdd8c3bc975546ad034b2503"
-from = "47f5b7a379f5421a583822993e4319a0c2f0bf9748114e7e0f7cfdfde5b889ac"
+from = "da5f39fc2b3cc36c3e3df648de8bcba0aa6c889ec893cdc1fdeefbb3bdc659b4"
 deps = []
 
 [[libXfont2.sources]]

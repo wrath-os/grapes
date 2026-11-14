@@ -1,7 +1,7 @@
 [shared-mime-info]
 style = "meson"
 record = "ca5695b1538bcda3528199ed8c332c5c4ad4b188771a02bcd33c2062cbbf0ea0"
-from = "12fe7d6236bba627b0729578b93a33a9c9923a4ee76a901b822a42faf5581817"
+from = "d7778d528956a52b163b6214688e9e19070c298e315cf1b82783b83a00712538"
 deps = []
 
 [[shared-mime-info.sources]]

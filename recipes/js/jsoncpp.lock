@@ -1,7 +1,7 @@
 [jsoncpp]
 style = "meson"
 record = "108f2ebfef5d423aa49da1aa24e2760bf6dfb3c8c72102d7b3adb94bb7f4a276"
-from = "ed87e34007aeb64b792f40bf249b2ae754849f5b185265050aa95c7a2e8157f8"
+from = "6e008eb408c4ce3c236e52657978af63ff3c0bfd05c23583874d813167e8744d"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[jsoncpp.sources]]

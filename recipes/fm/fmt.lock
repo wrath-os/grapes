@@ -1,7 +1,7 @@
 [fmt]
 style = "cmake"
 record = "626cc5cc06e3c257d12e61abbad76c30bea10acfe025fbff84480f1cd759c661"
-from = "5c1f1e081daaf76efb19475d48ac407b3cf0e4522efc4b7757ed8872ebe9347c"
+from = "b7eddaa34f9a8ae813a151c3f7b8e6f1883099843ae03f3b957c97cec0731953"
 deps = ["cmake", "ninja", "pkgconf"]
 
 [[fmt.sources]]

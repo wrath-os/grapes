@@ -1,7 +1,7 @@
 [libXi]
 style = "autotools"
 record = "88df656313eddac701257d9ae406c133283931bd6533eee36916c97f09a2becc"
-from = "686a488aa1c62ad792b05157cb403c425b7f2e26bf5ffff54ac84cbdac87b590"
+from = "f49cc290ac1f6d482747dce92af84b0f122cbc8ce686239bc5b6056c37fd52f9"
 deps = []
 
 [[libXi.sources]]

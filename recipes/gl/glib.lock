@@ -1,7 +1,7 @@
 [glib]
 style = "meson"
 record = "de5ba11a2abfc78d62ddf393ce290ebe94a912a06021b9c8d7bdc9bc3a5bfbc0"
-from = "1d82794f537a6db4a6e4551b6bcc99868fe3385341a240a29ef303e39a03702c"
+from = "b4da53ac51212081b93f968ac1d610e7c3fb82ed60ae41993c85440b0225817b"
 deps = []
 
 [[glib.sources]]

@@ -1,7 +1,7 @@
 [llvm]
 style = "cmake"
 record = "259077885240cec7d86e9106d2ec9e0c95613cc53dca3e2fff4313ad4d9d9ae9"
-from = "9899df2a76d8db1d378797408702240750733c464accc9ceb5bb961ebe31c056"
+from = "8c590f2e24f88a6d5c03d5393537dbf68eabcdb732f0b1780ef19a75810346b0"
 deps = ["pkgconf"]
 
 [[llvm.sources]]

@@ -1,7 +1,7 @@
 [libepoxy]
 style = "meson"
 record = "96b3f102d863efb213e302cf80012254a82c32a2995820aa82c9975f081312b8"
-from = "b2a1f56a2fe6229f3859575fa2e4763bc32c5c31c499a8aa18eca28b6abfe18a"
+from = "4868cc9eb8ff4ae84babac8b613ce9d4a157e3c5b6edd1924b3cac5be580a703"
 deps = []
 
 [[libepoxy.sources]]

@@ -1,7 +1,7 @@
 [eza]
 style = "cargo"
 record = "6efc2308ec545a28ec74c4f405dadf1982243b1cb63e7e32289e50c6a1d3f321"
-from = "65adf7e9eb65684806c8fa89b8da0bce56a3bfdbe6f002dbe09a687c10f36d9e"
+from = "1d483314845090f8d68f0a32149e8e36eb39691e24f5695f3e8d2cc87b4a3258"
 deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[eza.sources]]

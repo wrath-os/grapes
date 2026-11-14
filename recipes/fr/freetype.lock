@@ -1,7 +1,7 @@
 [freetype]
 style = "meson"
 record = "32a77f5d89a996a73f7ca4c4093e3d6ac7daf4de407a80427a86a5ca8612d440"
-from = "0671ac97a10d920e2ed98eb7a3d9465f6c5193aaedbc94d4f159fcffb4bafd32"
+from = "c5a0fc39205a981f13f58390da95d643fc2a58a50b4b446f3b192555d5e43d6d"
 deps = []
 
 [[freetype.sources]]

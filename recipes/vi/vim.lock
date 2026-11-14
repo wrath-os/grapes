@@ -1,7 +1,7 @@
 [vim]
 style = "autotools"
 record = "618e0b73eb3ec20ba5d0acdda7cb5fadf99e0b97e576800b3ca34fa0ab74062e"
-from = "8623398e434c379a53a03915a2a12cb573a25b18ce7a3aed4257389d91235d6a"
+from = "83cbe40885c7335074e34624ba3bd7f29f2b479216168c7ff403ea1fe91d0b7a"
 deps = []
 
 [[vim.sources]]

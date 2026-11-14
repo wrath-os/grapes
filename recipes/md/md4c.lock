@@ -1,7 +1,7 @@
 [md4c]
 style = "cmake"
 record = "bbaf51f993e3627766480da359d11fa714694bcd517c9b6fddf90764587aed8c"
-from = "e8ffbd619bd628802b8ef746446cfdb802a5ce8226c9dc6a2f26c3ce66423f50"
+from = "336edf2cced0998d1a9f7e282d986d6e9617240bd9444004d6f3c7e2dcd6c144"
 deps = ["cmake", "ninja", "pkgconf"]
 
 [[md4c.sources]]

@@ -1,7 +1,7 @@
 [xkbcomp]
 style = "meson"
 record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
-from = "db70fdc0c1c51ea7c2559727d866ba9da2093ded63e391d622c2cd78765e6a01"
+from = "bf08ba75b4b50a7cca12d0aa6fbc958aefb8a22bba2e30e430011a4b047b0f34"
 deps = []
 
 [[xkbcomp.sources]]

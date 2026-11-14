@@ -1,7 +1,7 @@
 [gitleaks]
 style = "go"
 record = "8ce71cb6001f3a1beb645fcd6a921c89463297f213fda043954562b35256767d"
-from = "61b04ba92e51e62b7f17b69f4e5aff017ea5a5173898d1ae0b9aed6b8e902d36"
+from = "771e111bd31dc83ca643156a08ebca8d6edba20d16b7897886b54138ecf05d74"
 deps = ["go"]
 
 [[gitleaks.sources]]

@@ -1,7 +1,7 @@
 [libgcrypt]
 style = "autotools"
 record = "bb5f2bb5b1d5c317337bfa2bb2e3a885ef73d5e446f9da286c3a6f0a61c0e9f6"
-from = "c109da8f41cb10e5f7f7670ce6a57c395f5f7b89d542dd8185de6125b8c73588"
+from = "5a74f63e00831b56a8c65e206773cdb78df2efd94a7ee9660d877b00275d3859"
 deps = []
 
 [[libgcrypt.sources]]

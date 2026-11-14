@@ -1,7 +1,7 @@
 [alsa-lib]
 style = "autotools"
 record = "26cfa796a54ad021ea3016d3b69ddbabcaf63e360f44496a191c1daa3408b90a"
-from = "633cbd9236343aca7a4985367266f4805e327b58660c27ceeba1f5e3c90a7291"
+from = "0e7bdfb6cc4f1ce4d1ea2ce19b853ec06a6e3de69b85a4532ea3427710de003f"
 deps = []
 
 [[alsa-lib.sources]]

@@ -1,7 +1,7 @@
 [hicolor-icon-theme]
 style = "meson"
 record = "abfb3c3ae54a852dccae982798011a9139f97fe9de2338670a022b98eac78154"
-from = "14a7fadd07f1bae27112c909bfebee30e484d3f381a50bda5e0621cc1140ef27"
+from = "568ad681705289691438a1712b103312a80ac5063e827c1ce02e914c16382ca3"
 deps = ["pkgconf"]
 
 [[hicolor-icon-theme.sources]]

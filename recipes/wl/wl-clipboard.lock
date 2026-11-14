@@ -1,7 +1,7 @@
 [wl-clipboard]
 style = "meson"
 record = "9122c81b7ad24e304135baf7915ae6453a3a1165e6a227ec23312d1414a12f3b"
-from = "1a2b3507855c100c5eda9ca155ba57dc3433887696d0ba69a0e17392f895f273"
+from = "032c1a38a747030e96525aa16de5b24eb1f701065d7d07a68aeb4d2832ef0dad"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[wl-clipboard.sources]]

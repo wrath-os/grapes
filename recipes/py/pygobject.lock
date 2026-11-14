@@ -1,7 +1,7 @@
 [pygobject]
 style = "meson"
 record = "051a92cbca6d82118cdcd0453db67f7d1425e9018f03101d3532c1b23f3e1061"
-from = "b6f1e2b800f62a8d3698c8ae95cede571852e4c8c4eecc335c68c9ef44fa7e86"
+from = "f8f14334b2c692168d4e61b432bac1efbf05fa59ecd8a3358c982a623e18f189"
 deps = []
 
 [[pygobject.sources]]

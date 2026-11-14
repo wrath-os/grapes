@@ -1,7 +1,7 @@
 [tomlplusplus]
 style = "meson"
 record = "a203af7506ebc7cdd7fdfe855bc0010d8f20db7d17c6477f0e7a06b1c30b4f49"
-from = "be5cdc59187544f147054589bf91f585e64372cf98e000faa967aa0fc95d069b"
+from = "d6e54b38add01693bca0801899bb2c794c69e289aca622081688f41e6fa5382e"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[tomlplusplus.sources]]

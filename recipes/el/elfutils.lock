@@ -1,7 +1,7 @@
 [elfutils]
 style = "autotools"
 record = "c3685df2893b425b6f8037b4fa533ec8f3358b0db254d45be4960c7319e8809d"
-from = "8d4277b517acb02b497f8c378e0554d9dd00c253509331e7bf0a99c00a871801"
+from = "f761bfbe4a134859a096fa20cd8b26cd8196ff336a879c7ac10c8fa57b53fd69"
 deps = []
 
 [[elfutils.sources]]

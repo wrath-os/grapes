@@ -1,7 +1,7 @@
 [smartmontools]
 style = "autotools"
 record = "22d1b52bba6ca87d262d0b8756e61b87b6caa7d79352c49cc954bb368b68b6e0"
-from = "f40e4e46ac8418074f95f8c341d2728acd6e3327f6c8b1c8bec48e080fad2c0b"
+from = "c31909aebbc708c51e7328862305fadcac9d512c2a73d66b230a3e13b94efe36"
 deps = []
 
 [[smartmontools.sources]]

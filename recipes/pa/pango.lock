@@ -1,7 +1,7 @@
 [pango]
 style = "meson"
 record = "f96e289a16f27c886479924dfaf798c6bcd2157c7b1e1fcf68b2f1f6f44424e8"
-from = "809fec9c67cb018f96f095b718c204ee0d5ba03780990a4960309050634a886b"
+from = "8577511dd090b271ac140dde8fbd658f6da42dad4e7cfb64d72484aab1cfac5b"
 deps = []
 
 [[pango.sources]]

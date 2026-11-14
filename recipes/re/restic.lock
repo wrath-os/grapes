@@ -1,7 +1,7 @@
 [restic]
 style = "go"
 record = "3c9847bf5e884b6983efaa4fbd0e5ddb1c216515232b7c42139fd0a79e10a5ac"
-from = "0c57a305ca0ec3c852c37939dd15387e0f21ecdd99df2ada6025152a515168a3"
+from = "ff03ecf22b97445d8280844b7ed951bef5ee3967a764692746573b44216c862b"
 deps = ["go"]
 
 [[restic.sources]]

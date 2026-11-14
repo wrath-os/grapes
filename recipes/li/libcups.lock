@@ -1,7 +1,7 @@
 [libcups]
 style = "autotools"
 record = "e9480947f215fdb4d9bb90067c1b3d9d34026ae08c42200ccd3c86d737e56db6"
-from = "973eb9b9e570ebbc0a99fd7bcf298de531f8b22a1471b20d3102ff4a23579462"
+from = "d950b0fea06f1e751729bdc2772bf45cfdc47a95c2bee8966bcbe86e34e17b17"
 deps = []
 
 [[libcups.sources]]

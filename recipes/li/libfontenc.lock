@@ -1,7 +1,7 @@
 [libfontenc]
 style = "meson"
 record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
-from = "a04400de4edd613b4eb531caf2a581c46f4a06255c8052e265247a940534e6bd"
+from = "9b62d482f8dd478bea38ec732432b2e4372f45d933f7da57b9b97bcde9334d15"
 deps = []
 
 [[libfontenc.sources]]

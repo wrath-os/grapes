@@ -1,7 +1,7 @@
 [kanshi]
 style = "meson"
 record = "255ed79d7cbb30099f5687a84a7335f0beb6d352ee2966d7061e882bccb9e2c0"
-from = "4f4e7902328e4acd58ed5b3144dddbaf38b1363832ecc7a096eb98cca9f02ecc"
+from = "1b7552dfb6d39c3a1d5d46ccffc2c5c51fdbd30073c058f6a280e41a6c063718"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[kanshi.sources]]

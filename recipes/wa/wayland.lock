@@ -1,7 +1,7 @@
 [wayland]
 style = "meson"
 record = "0ea503544edefc13c0e8dc718f28dfe7ec2bd18fa903da1a10b2d4922041cb1f"
-from = "e2c6458bea5cf5afe48bfa62c8c65ee0b60262c5b7a834416a1e39ca7c39b65a"
+from = "102cfad499b819474eaf72ce223d295fb6648ee5c4100aeaaf168c9f8ebc779d"
 deps = []
 
 [[wayland.sources]]
@@ -11,7 +11,7 @@ hash = "64176eaa46e4969903e286f8e5ef8331affc17fdf03ac9b58381d2b23162b7a3"
 [wayland-protocols]
 style = "meson"
 record = "a372d89373a633bbc23d243be746fbcab6c1262006ca40de543db9699be64022"
-from = "811be6564c9d4d710a73a996a6452ac10ee12a8dd62333011ce1b34199da9177"
+from = "cad2bdb0eecb19ada3be8ab3435c6e87152439aada7d00b778d109e03b27a070"
 deps = []
 
 [[wayland-protocols.sources]]

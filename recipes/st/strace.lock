@@ -1,7 +1,7 @@
 [strace]
 style = "autotools"
 record = "5c245f7b96e8b4a1ac359c400b601bb92d0d850aa747f35044574aa690fb7753"
-from = "cf465fe7d0930119ddae388abcdc5bb89a8de3baf9f1fea93b7664bf2a91eed2"
+from = "88959780c2446abf47afeb8a36a6b9d60326473dc9264a8cdeb16494432f4194"
 deps = []
 
 [[strace.sources]]

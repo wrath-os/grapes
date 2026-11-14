@@ -1,7 +1,7 @@
 [libplacebo]
 style = "meson"
 record = "e6b2016c28ed792c069864a69d8530da9d94a255a4af48dfd3b03040a7dbecfa"
-from = "f9fb9f3944de65345f51eded786403da2d5ecefb1a192a7ef99ec04a91dab24e"
+from = "a987c47980faacc3a36fedff6f6e551af3153a7490ca5b02000b6567abf7a7c4"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[libplacebo.sources]]

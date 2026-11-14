@@ -1,7 +1,7 @@
 [watchexec]
 style = "cargo"
 record = "a05c8088495164160d20cabd4f37988f3683d0bdb9c720097ae69cd7c4b59c02"
-from = "0964d7937963b76bf275c15507b46ca4a702e712aeff5f7a334374bd55f3c3d4"
+from = "1c080c993363947812771341cb9f9ef86ae3a71fc91f4d591093b44de31b857b"
 deps = ["rust-bin"]
 
 [[watchexec.sources]]

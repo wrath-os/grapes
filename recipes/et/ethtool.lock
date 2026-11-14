@@ -1,7 +1,7 @@
 [ethtool]
 style = "autotools"
 record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
-from = "8c5ea2d8ef9bffcc03452a892c56252b635e885c18e5dba8a03ca06e28ac8f22"
+from = "ab70a3e4637b61baa5739fbc9d0dfb20c11c43d88a5f95d1baf3e72b6e0ac5e3"
 deps = []
 
 [[ethtool.sources]]

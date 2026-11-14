@@ -1,7 +1,7 @@
 [gettext]
 style = "autotools"
 record = "1b12c945dab2109724892df0b14fae82b159c0db9a39c990de007f1f63b72069"
-from = "2dfc0c5f55e43513a8de6e7f814470f1322be125b23fe401433fa7b960fcdfdb"
+from = "c17e2b17dd90d9641e3cc8ef26e7c90f3fed710db7f773cf0e575786b22f7b8b"
 deps = []
 
 [[gettext.sources]]

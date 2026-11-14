@@ -1,7 +1,7 @@
 [pipewire]
 style = "meson"
 record = "7b4342f28f90f4084ae8929066535ee1b144e06f7491b104b7ce510666c634a4"
-from = "399cab124be0579e916d0d7399fcab3f6a7c83362a6ebd9dea21856cb1ae2a1f"
+from = "d96f271dab1eae675c84dd1bfc3a427a4d1d472130ebf94e8572f578874e82eb"
 deps = []
 
 [[pipewire.sources]]

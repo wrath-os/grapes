@@ -1,7 +1,7 @@
 [libusb]
 style = "autotools"
 record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
-from = "69c5788372e8bd7b26b7820b813a2283f271bc4d66fe88585e919d4ff1d1d700"
+from = "1ce35e584353f207aca276fc2de990d82158a504bf5e24226349a7df5ac66d1a"
 deps = []
 
 [[libusb.sources]]

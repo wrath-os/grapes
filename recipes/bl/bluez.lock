@@ -1,7 +1,7 @@
 [bluez]
 style = "autotools"
 record = "e9db19bbab7e7273a8164b358e2cc6f542c7bd345ca3b5add826544ca20d431e"
-from = "396deecc8e492a1c5c60e81e58f0fef465b9864b8d9c48dfc0915c865741d74a"
+from = "778a8846c68daca0ab1b63a97e36b9a3365e03b868f36c8342b8ffd25c950ae7"
 deps = []
 
 [[bluez.sources]]

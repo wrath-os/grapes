@@ -1,7 +1,7 @@
 [libical]
 style = "cmake"
 record = "fd2bcfb2b7846552aa1a84d129adf060bc8c3b0b4ae06b787cb3a5f83979765c"
-from = "692f40cc2b6aa8f45fde4d5269f5fea0b1b38cc4fb8709b2db767f7fe5cd4323"
+from = "31275ea6c82e5ad4831c38b3d3504fe7d828bc56f1966dd5ea9c3c737d1280cb"
 deps = ["cmake", "ninja", "pkgconf"]
 
 [[libical.sources]]

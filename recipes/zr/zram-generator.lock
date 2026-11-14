@@ -1,7 +1,7 @@
 [zram-generator]
 style = "cargo"
 record = "33f22d07f8f76522de619a3fb2aaa18b6e6e65b342aa4f296cd3cd18370ced09"
-from = "94bb55a7447539652ebb48393644b7a716150a987687155aa5c97bef6d126ab0"
+from = "ce510e532c3f6d5c04cc63869568b9d35e3f6a45b38af65a1a0ca8601e5ec788"
 deps = []
 
 [[zram-generator.sources]]

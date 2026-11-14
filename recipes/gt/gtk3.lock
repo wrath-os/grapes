@@ -1,7 +1,7 @@
 [gtk3]
 style = "meson"
 record = "816eac9cd7a6b76fcbe3b03a02a9fd0c5085b0608d53b28bb99f8c7a73ba508f"
-from = "9b342de887de72b7040e7accf6f44b88012c10b66a22719d37483a4126c730b3"
+from = "1b9de819c15dfd942328ccb18920221ccff1d417cd83f789732ddc839dc1a23b"
 deps = []
 
 [[gtk3.sources]]

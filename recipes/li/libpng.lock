@@ -1,7 +1,7 @@
 [libpng]
 style = "cmake"
 record = "e328b9cceda15146d69b6daa561cf353fff849dab70ce6fe00508782f043ad2e"
-from = "89ef10f7c093da6a8209e15e4c83c3c91512f8df433b78211ab11dd869de82c4"
+from = "00e2ec85e1f5d30b5bd0093b1bf44527af4ebee1cb062d3d9054895288cc9457"
 deps = ["pkgconf"]
 
 [[libpng.sources]]

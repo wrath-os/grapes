@@ -1,7 +1,7 @@
 [sops]
 style = "go"
 record = "649b5ae8bf95459c7d17d063dcf3abfec3ee30b51091e8e755ea49fa039716dd"
-from = "bfa4bd13387f27ba2e9e9c93e5aafd36f03c41c424f400180c05ff1d5d40d38d"
+from = "80c5a310d92848f7a3b848c11c090e7fcb7cff4fed090db0c1b2277f4b665a67"
 deps = ["go"]
 
 [[sops.sources]]

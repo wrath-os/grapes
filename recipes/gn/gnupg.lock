@@ -1,7 +1,7 @@
 [gnupg]
 style = "autotools"
 record = "e729c1a7930e8f0e3835c561d1feda99e9e98a83fff2517ca5232f97cb166a73"
-from = "347ca99039cb592e58d92897579e4aa46a1f9fa68a0ba352f913a8bb263672a8"
+from = "98fe554f94c2bbe45e9febf2d4618206219edb0fcf423dc873040ac51f2fa0ef"
 deps = []
 
 [[gnupg.sources]]

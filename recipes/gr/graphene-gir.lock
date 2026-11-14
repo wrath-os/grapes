@@ -1,7 +1,7 @@
 [graphene-gir]
 style = "meson"
 record = "8cc040582503e96dc65a9c17274096856597c9a07a1d173e03dc8ae9db871380"
-from = "ee8cf573ff0783d57cbc52ce8358da684bb222ef748fd624c4b5248ec4102635"
+from = "9a197328a3064d10624f1e568c77e448f31fb4f0b46138e799893783e7f0531a"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[graphene-gir.sources]]

@@ -1,7 +1,7 @@
 [alacritty]
 style = "cargo"
 record = "2e9d37c6e333596effbbf764dabc163315e3a58fd530595488ab4c99e74b3d96"
-from = "b35cd237f5fe3f8a44e28a551b09d822b04504b0468d1501478c14f2020301f6"
+from = "955db855683cab7a5a47f2d868d699d68ce7aa97c4a2902c4930c01008a6a207"
 deps = []
 
 [[alacritty.sources]]

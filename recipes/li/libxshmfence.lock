@@ -1,7 +1,7 @@
 [libxshmfence]
 style = "autotools"
 record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
-from = "2d5a2dc637f1763ca968e1924ed62a84ac4f1312e09c0a76afa61f9cfdbe971f"
+from = "6ea19e771c81792e13e8cc84b1cf9b8252456978b0fbe20c85aea9b3c5df2ee6"
 deps = []
 
 [[libxshmfence.sources]]

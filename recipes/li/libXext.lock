@@ -1,7 +1,7 @@
 [libXext]
 style = "autotools"
 record = "b62f632777a6fa491e6cdc48072c967f3f44e772be9fc34173ca01386071d5f6"
-from = "a8ec9362299cb879eb29e624a69c299ce1739a08ee5bc5aa1dadec2aa366f501"
+from = "c0173ba4d931434decbd9c283be0310af9c71f58750952931093287d88e62525"
 deps = []
 
 [[libXext.sources]]

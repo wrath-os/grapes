@@ -1,7 +1,7 @@
 [gcr3]
 style = "meson"
 record = "f0057168bc8658e250a93085096830b8051923ee71bd4bb22feecb074195bb55"
-from = "9bd1a33f003994960c636414e99d2721e738c075497dcf4dcfd1db3805ded838"
+from = "d074f9bb9c79501f804df06cd02eedc979150d546e6d35eaed12d53b5914452c"
 deps = []
 
 [[gcr3.sources]]

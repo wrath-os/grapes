@@ -1,7 +1,7 @@
 [fzf]
 style = "go"
 record = "a47011484f134404187004adba2db08ac398e4316e2b4e0a6be30cf71109028b"
-from = "6fdb8856ed9848c923ff6d6cb2bf22536ce696bfdde948b36512e20ede9695b9"
+from = "1bbb7e756b809cdc369dabfc64f5fe2ba75f1f83f5de9dafea2c6df1773995a6"
 deps = ["go"]
 
 [[fzf.sources]]

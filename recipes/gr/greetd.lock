@@ -1,7 +1,7 @@
 [greetd]
 style = "cargo"
 record = "ea35496a497537e2b457312d9aa5d30e821458f9ff3280c9818a241cd989f738"
-from = "75ce4aa768134bd6b7af072b13bac56fec601650660f1a24c5dbad17f16914e0"
+from = "2664d7d453ffeaa0a412385260f5faec24a1c098d88801addba6d43ef8b59719"
 deps = []
 
 [[greetd.sources]]

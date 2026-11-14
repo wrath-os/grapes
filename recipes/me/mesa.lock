@@ -1,7 +1,7 @@
 [mesa]
 style = "meson"
 record = "9a6b756b9c3175aa775aa02c3dbf029f651cb366e52c59c86ff654739e1fc276"
-from = "a425f3638a8cbcf3c2bbf2d003e693e51ddcf1f07b39fdb69d28e94c327d1cd9"
+from = "6555d1c0071e81ff4706e25cbc74a54d7ffd0dd1480923d567be4d0c856a948b"
 deps = []
 
 [[mesa.sources]]

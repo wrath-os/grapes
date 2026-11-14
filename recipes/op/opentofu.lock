@@ -1,7 +1,7 @@
 [opentofu]
 style = "go"
 record = "35c09f843d124d2169161a339e60780a08e9baa54c6a08371e3ad70b26ea0ea0"
-from = "a0af8c77d0fc0e6cc6e4e4204ce065018f020f40729172987b94288f9b6a83f3"
+from = "b701409a260bbca0d23431d58745075b7c94480f0c0b99decced2f86947d7d8d"
 deps = ["go"]
 
 [[opentofu.sources]]

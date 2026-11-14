@@ -1,7 +1,7 @@
 [iwd]
 style = "autotools"
 record = "a28222d028dae19b6e6a5f55f590648e1323376cb7f1b5346373db59af6604c2"
-from = "583b8783a5f1f76a5f006a4f6cb27a733219c4dc35b02a03d4e975c90bea0f01"
+from = "8cf78b0c23b819c2b7e1089a65d89eb7d3b8170f879601158084aab25f7a533a"
 deps = []
 
 [[iwd.sources]]

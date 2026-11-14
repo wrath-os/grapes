@@ -1,7 +1,7 @@
 [cliphist]
 style = "go"
 record = "108954aa2fff320b4710190885bf1902fd9cc0d7597b0648921d31d9afe3f80a"
-from = "14ae33bede1b5289dfc1a6424a6de3a083445960d1e46e0400de39e024c64276"
+from = "6f4b8d2433d7ccd5e78e5c9a3cc29b985e97513323a3b256eaade087a133e33e"
 deps = ["go"]
 
 [[cliphist.sources]]

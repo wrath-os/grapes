@@ -1,7 +1,7 @@
 [slurp]
 style = "meson"
 record = "c8a6ef56e6b5971b6c1508318ecdf665afe5e5ad98fbd9a7a973a6b81f0c632b"
-from = "193e6f7f072d99b1a34d602367eb5aed72baab93a6812ce8dba9517bf499bd6b"
+from = "c4bbb1a95156135015c9d029ce924a52a6bd8f940eb510fc5abfe08e2ada184b"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[slurp.sources]]

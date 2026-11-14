@@ -1,7 +1,7 @@
 [sqlite]
 style = "autotools"
 record = "7ba01ce909eec2a834b97cb619465c6d612c93b708512bc13d82cfdafde45355"
-from = "88b2a323e18e34742914a79a6e1bbcd8c8565533dba8ba2f0a7243befbeb645c"
+from = "b4aa7a534b62b60afa1db52bc3c0802c9c47efdbf1765d63d86f02b189d2df8b"
 deps = []
 
 [[sqlite.sources]]

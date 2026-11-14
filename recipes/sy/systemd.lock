@@ -1,7 +1,7 @@
 [systemd]
 style = "meson"
 record = "8b76edd7561cebc9231a198610f2efad8cd6bc8a5a7f87a57f92f8fe4fd81aaa"
-from = "dae7fd34c5076e94754e3cf70277db8b90fb7e1dec302e68c4c18de9633e5249"
+from = "95ddbb01d48a449b991267e53f9651e0b367359d80c709a54e9a5c5d5bda4d37"
 deps = []
 
 [[systemd.sources]]

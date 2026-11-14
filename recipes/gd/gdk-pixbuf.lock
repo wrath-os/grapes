@@ -1,7 +1,7 @@
 [gdk-pixbuf]
 style = "meson"
 record = "a3353b1de87bbadf12b443388fabd614e15c3e33fb9c40807a09d0b7965d02d4"
-from = "e28eed3bbb1662b543abf1ef873b6db05f6d0d4b121d9ea62e140d5c58b2abce"
+from = "5ff59c042a02c0925dec2796469215435c3e15a0865c57ca4176a3ad56a1d1d4"
 deps = []
 
 [[gdk-pixbuf.sources]]

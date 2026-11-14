@@ -1,7 +1,7 @@
 [noctalia]
 style = "meson"
 record = "5bd0b66db74a66af9ab50a138fcfa5357c9c8acd4de3c327d94f08e6bed1e10b"
-from = "596d194ec35edee6a1d091a754ed0afa94810f138ff51421f79245c303eb5254"
+from = "16f7cf9eae8524e082c7a51bc3d4743a92081d5c464212fa1836463fbba1b6c3"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[noctalia.sources]]

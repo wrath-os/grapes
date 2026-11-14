@@ -1,7 +1,7 @@
 [fcft]
 style = "meson"
 record = "f80ac9e2cd3ffdb55b1aefdff2323ede3354a8a817498df32407f17d83d7e515"
-from = "8008a6f9cfb73ec8491b79440d68eed039fdf9c64349263483a734ebe752d942"
+from = "db637c6783ac4e860532415fbda0cc9fb592d16d92291bf7e851022396c02960"
 deps = []
 
 [[fcft.sources]]

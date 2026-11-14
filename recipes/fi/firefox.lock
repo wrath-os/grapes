@@ -1,7 +1,7 @@
 [firefox]
 style = "prebuilt"
 record = "6e2995fdaa0dd8dd057d23c27c8b37c32f3b551d27ab339d4a40ccc9f146a759"
-from = "47b5ba941b8446081b1d79bcf4a67762080908e37700fcbf2098553744603de9"
+from = "05c9ae1b6bb0a9593fd28cc0ce15b8e9eb5931975a6a9f71d5ca3d5cafaace54"
 deps = ["patchelf"]
 
 [[firefox.sources]]

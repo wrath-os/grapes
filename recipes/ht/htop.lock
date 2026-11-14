@@ -1,7 +1,7 @@
 [htop]
 style = "autotools"
 record = "9de8195622102710e5d9af4c949977b64e0d93172f0433dda71208811e44d467"
-from = "7c24ba5bb80dc54d37e8cc3e6ebcb79a46dcb2c4abbbb518e5910033a9d686ed"
+from = "3e51a2af61dc670f78508f31ca39929ad745c401b17d7984cbd1de4f8fb39ff9"
 deps = []
 
 [[htop.sources]]

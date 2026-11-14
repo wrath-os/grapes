@@ -1,7 +1,7 @@
 [pangomm]
 style = "meson"
 record = "ae147d3eaef2c477320ded4db807b8357fdc9c129084eb8fed56312cd93b0c34"
-from = "e17315cc4abc40d206e501c9a67dfdf246fef3fbd4892b6fcb88e1fd8d66296f"
+from = "1b6daabbe85c87303fe232aaf237653483974661190a8da476fa2498f9c11edc"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[pangomm.sources]]

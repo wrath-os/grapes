@@ -1,7 +1,7 @@
 [mtdev]
 style = "autotools"
 record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
-from = "283be8b44c3e7acfef88d10635886f0c6a7f70469c477047c7fa7c0f5c2fe1ff"
+from = "6e6e85858b616d9257501141aedba30bb77c61638a91774d70be49b430326cc6"
 deps = []
 
 [[mtdev.sources]]

@@ -1,7 +1,7 @@
 [gtk4-gir]
 style = "meson"
 record = "450b4b082dbb991b4469bb8b9f588fbd74b32a127fbbf4ac8733629486a437d3"
-from = "54b72a5e49f8c5457bac1c0601bf4c37077c318e33ddf4aa3337b5f395dfbb49"
+from = "583fc2baa8af9c24f64c93eeeb46d0a585a6ab30dac19f315c9db343c5ca3338"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[gtk4-gir.sources]]

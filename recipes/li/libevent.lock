@@ -1,7 +1,7 @@
 [libevent]
 style = "autotools"
 record = "df93278fb9671cf501bb278acd85b1067cb9bc14a14f6377636834312d65e373"
-from = "1b6fcd8a7ef834a8f5ce0591ea6cacfdfaf8dfd72377b2fb1aa7bd7d689f1462"
+from = "6b598e06f28d24c7182b0c94d2447881f00fbae1263852c18a11feda9370aca5"
 deps = []
 
 [[libevent.sources]]

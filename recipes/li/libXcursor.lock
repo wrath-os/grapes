@@ -1,7 +1,7 @@
 [libXcursor]
 style = "autotools"
 record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
-from = "83fdf56646592b4aadf35f1476ee93bef2446fe701c45a1181deda4cfb20c07c"
+from = "3e78dfd4fe08f32b86acede738d9279f6ceb4d267786a5f7faa3ac993221e2a8"
 deps = []
 
 [[libXcursor.sources]]

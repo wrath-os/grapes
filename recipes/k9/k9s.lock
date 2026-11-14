@@ -1,7 +1,7 @@
 [k9s]
 style = "go"
 record = "c57dd39fab852bc53b957f9da149156fed54c91e792b0bc0209a07ac121a189b"
-from = "d06b4d5f9ff8dcf87be7020435ce6a904c2ad4e026cce8b3ce8cd869bda756c6"
+from = "4fe90ef5d6e7e181dc877e8987b2f089dc0ddd683766bbdf757ff1da8c681c3c"
 deps = ["go"]
 
 [[k9s.sources]]

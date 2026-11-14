@@ -1,7 +1,7 @@
 [pango-gir]
 style = "meson"
 record = "d6a98def38c8b0c178fc41075f45a47694631e7af35b03d9442579c8a61337c5"
-from = "3d5f790ba9f766a4182fb8fd02f7b697a368be010b27320a6e22e4af26a0ac71"
+from = "88170e2e76624a251d34847ab44aed49b5269f7ade59e7475000c7a86879ae4c"
 deps = []
 
 [[pango-gir.sources]]

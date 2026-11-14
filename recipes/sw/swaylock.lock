@@ -1,7 +1,7 @@
 [swaylock]
 style = "meson"
 record = "7dd62c1c79eae1c356a8e35838a90ee79c4e8256b53f3545ab02f7a7b398e502"
-from = "02c5865e36fa15989f11fe19e8fe0be85aee33631f2ee7c7a47b8a23c34ab1fe"
+from = "5c8977ef9ac94aa05a957825ae2f67ed1b0c9f03dfef22989903f3aff0264fdd"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[swaylock.sources]]

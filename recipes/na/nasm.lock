@@ -1,7 +1,7 @@
 [nasm]
 style = "autotools"
 record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
-from = "fee83a36d91128f4deef43154bf1feccf9d285b1377bde2b17e5b734668be057"
+from = "c365874fea3edf997ead21fb4543ccf14c336f9476c41326c5efa9f42696558c"
 deps = []
 
 [[nasm.sources]]

@@ -1,7 +1,7 @@
 [libdisplay-info]
 style = "meson"
 record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
-from = "4f3a8267f0b2a0335bb93cc10b50d7c8dc3ffe3ddbaef70a29b2cd0aff62b3ee"
+from = "09b4aee162f45209d7f125b9f7e97e25b6b949b5fe6566bf7d7793534e8f1e20"
 deps = []
 
 [[libdisplay-info.sources]]

@@ -1,7 +1,7 @@
 [glslang]
 style = "cmake"
 record = "48c13e937429adb9f9deea49ec87849a6c48df60f4f42304102dffd2bb381104"
-from = "4a0939357287898a0df35f22045dea0a3a6c66dad5362cea804056656555337d"
+from = "636274886366f5d2fb11af39569c28e11081dd60f95b391bc8ab077f47eaa75c"
 deps = ["pkgconf"]
 
 [[glslang.sources]]

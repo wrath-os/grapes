@@ -1,7 +1,7 @@
 [libwebp]
 style = "autotools"
 record = "3bed87786b3e91f45c5ec0a6543b31badc34f55d37134b2ac295ce2b4db24055"
-from = "83948cbe1166b12f9d8d1fe904c0a06c85d78ade513e3c3a59980c0e7db6166c"
+from = "99076e943a970c7d4bd51f6b18691decda1c688d02cddb16994fe0fefda46e01"
 deps = []
 
 [[libwebp.sources]]

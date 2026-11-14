@@ -1,7 +1,7 @@
 [nftables]
 style = "autotools"
 record = "ccfe1aaae5268ecf1116ea80088c8f568346e65b3faa218212786e9c1b1c8c8d"
-from = "ef14f6c181ce1c5c339ddc49835f3c442137ac62f191d90d5ae07a3331a32b64"
+from = "3c882356fc710f029d9ea3cacf32b5c42dddd941e1dec2acc3104b6b99843874"
 deps = []
 
 [[nftables.sources]]

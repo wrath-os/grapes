@@ -1,7 +1,7 @@
 [tailscale]
 style = "go"
 record = "ca7d507621144ead706d9c06573458abf3729e220393c86ca13903e5c0228fb8"
-from = "209a53a3eee876e13e920aad74038e3b96d63b9c94611155d764c4cbfe236bbe"
+from = "1abe461a1c068d393f2cd80a97080b11f44bba408a9ae498f9f0f8cde6ccdc8f"
 deps = []
 
 [[tailscale.sources]]

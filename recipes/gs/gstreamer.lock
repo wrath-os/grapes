@@ -1,7 +1,7 @@
 [gstreamer]
 style = "meson"
 record = "7f75e67733aea8fa685823b48eb7ee9cf6047c92325c19f2d80835e8a91b6d04"
-from = "a60e9357d0c7d3492bb8c72af81fbb1e1065584939eb4b3fb52ed83f72f43653"
+from = "edc0c04589ed4baf9c31b554737aa521d4edd357ab5bd2fc6755afec6d819a62"
 deps = []
 
 [[gstreamer.sources]]

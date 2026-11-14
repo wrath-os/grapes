@@ -1,7 +1,7 @@
 [libnftnl]
 style = "autotools"
 record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
-from = "9d559d2fa5687ef0d874a28435dc43f208a606c61d932d7b35d7dc65c13d19c2"
+from = "7d29bf58b68a9124631adb91e70487cddc2a7732cda70b3a936c5e789dffb4ef"
 deps = []
 
 [[libnftnl.sources]]

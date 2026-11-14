@@ -1,7 +1,7 @@
 [harfbuzz]
 style = "meson"
 record = "a080877d266d2362db7a00bcaaa4188dbe8ddd38280107a9fb3937006f74e771"
-from = "460e8ad26b19af68a97ad96e3a93dac0f711f669139757fd523b3dece2378db7"
+from = "efe4b7268e981cc23de30c7ec7152d5a1124075d73a742ee37b61a3a60a2ace1"
 deps = []
 
 [[harfbuzz.sources]]

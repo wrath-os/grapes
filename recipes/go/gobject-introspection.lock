@@ -1,7 +1,7 @@
 [gobject-introspection]
 style = "meson"
 record = "dd5aedf164bd3374672e1656eb1d1a23d4900f5ff5791991a89ca557270b50d6"
-from = "a724b381bca029bfb583a578c24cd2d980639caee602b7d889f64037bc2580b0"
+from = "b0df2b6ea924e854c0f82a789acb3bf8028163300508f33f125376f3bbe8089d"
 deps = []
 
 [[gobject-introspection.sources]]
@@ -11,7 +11,7 @@ hash = "945b57da7ec262e5c266b89e091d14be800cc424277d82a02872b7d794a84779"
 [gobject-introspection-gir]
 style = "meson"
 record = "f5cc8cdacbbb467c580a137b34a1fd899c02bd2e242e785d3ffad4003c170c39"
-from = "5e14c175a9b9724ef016fefd19b1bb097d5a9c3fc68dda11f57a2edc060c47db"
+from = "b8d2282f27919b73266bcd63053c861d0108cdf8d3800de09bc835b39efeac58"
 deps = []
 
 [[gobject-introspection-gir.sources]]

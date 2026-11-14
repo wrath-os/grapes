@@ -1,7 +1,7 @@
 [bubblewrap]
 style = "meson"
 record = "c65d245b786669f453c73b0d6010c98a8a76e1f5ab055a2f8fea1c1981505213"
-from = "34e04f091e0f236d543f137f4ea6563b72c9d42ef702f86fb37ad31c3ad3e80b"
+from = "68db3d2e1a1bfbfc5af5f482546f12d7bbb916bd020ec1bee639ed53e8b2edaf"
 deps = []
 
 [[bubblewrap.sources]]

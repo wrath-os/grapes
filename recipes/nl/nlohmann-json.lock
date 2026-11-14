@@ -1,7 +1,7 @@
 [nlohmann-json]
 style = "cmake"
 record = "17ab4386dfc198f67afead39fcc21b3284b32ee8d18816900dc8d2c68242b648"
-from = "b129f7fe7748ff3286851c2cdbc46e32b8260a07842b1a5db487ecefae1fb9a9"
+from = "31d1683fcb044933b9e4a1c9e43896f353d3557129e9a6cef23efe2cf7011721"
 deps = ["cmake", "ninja", "pkgconf"]
 
 [[nlohmann-json.sources]]

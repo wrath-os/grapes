@@ -1,7 +1,7 @@
 [mtr]
 style = "autotools"
 record = "f7fb952f83706bd2140a4416dc45eb03a5254293456974f38e81389914d77693"
-from = "59ef6991da9a9506bd0daf2d2bfb64a3a783c9d68df3577ca720a9400e50dfb9"
+from = "eb8e524e7a779792aef0a546d1dad9ba06a572a6ac9f81c36170f5e89293fc18"
 deps = []
 
 [[mtr.sources]]

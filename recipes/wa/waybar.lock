@@ -1,7 +1,7 @@
 [waybar]
 style = "meson"
 record = "69c4edab74cce4dfd9381b942af03ee4d78e7067631714ca8c75eb973b7a734d"
-from = "4921ae981ca7d917c445733135e8ba858aabcaea32d0e7356ea53f23ea41a071"
+from = "81765a6b71041ae592a6cde456e628a05c0c7a06068660237b5e32bd7a90c475"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[waybar.sources]]

@@ -1,7 +1,7 @@
 [atkmm]
 style = "meson"
 record = "ae147d3eaef2c477320ded4db807b8357fdc9c129084eb8fed56312cd93b0c34"
-from = "d007b4384a8e3cdf9c90c2d8287049b02f7d5b3d7ca0a58bef652a2d444c6db9"
+from = "2bda8af7ab5d34e4be32a54a8e88f5ab4f93226bef06a7f5461600231433a3a8"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[atkmm.sources]]

@@ -1,7 +1,7 @@
 [libadwaita]
 style = "meson"
 record = "094f49625226b28ea01106e9c41e3632fd20736cd9111ebf3d60e2afac7f87c5"
-from = "c865d376af021e503811afb7c9b99676f8bf74e6e25cd7ce64245e6169e6b1e2"
+from = "5aa5dbcfcead09fc1ec843d1ab0310122069881711ec6cfa53b973f6fc3e44e8"
 deps = []
 
 [[libadwaita.sources]]

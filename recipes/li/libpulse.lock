@@ -1,7 +1,7 @@
 [libpulse]
 style = "meson"
 record = "f9c5b47eb6bc2dc92727abbe750d35498d78bf720cd8878f6f484ca0d1eca062"
-from = "e4b5463ebbd9c42615b8a4952e88ecbc9adf162dd5893ddf13c8503557847f2c"
+from = "9ea7efe389a465547edbb488973a5abd2112f0dced42b89839bb97b82f22067c"
 deps = []
 
 [[libpulse.sources]]

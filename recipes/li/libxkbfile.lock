@@ -1,7 +1,7 @@
 [libxkbfile]
 style = "meson"
 record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
-from = "9b371e71c27fde76793473e9bfa6f2074bbd728354c3777d2160086370dc4da5"
+from = "61c38c6b01515ad717a019a7e1e13ef8b0fceefe6ec35161610a8f3c3aeba00b"
 deps = []
 
 [[libxkbfile.sources]]

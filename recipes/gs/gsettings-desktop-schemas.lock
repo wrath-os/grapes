@@ -1,7 +1,7 @@
 [gsettings-desktop-schemas]
 style = "meson"
 record = "31a6e371aa7fdd410ce08276b16a2919da995f6cbd6532921a6e23c4cc4292da"
-from = "16695586949d13fe13acfa37a88eb0478761c1bc089bcf19bca169332830fa60"
+from = "7d5e69c24fd056d98545be58d7f5a3e219ed1903bf42c8c42f44cc43b248d7f8"
 deps = []
 
 [[gsettings-desktop-schemas.sources]]

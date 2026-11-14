@@ -7,7 +7,7 @@ hash = "eb33e51f49a15e023950cd7825ca74a4a2b43db8354825ac24fc1b7ee09e6fa3"
 [zstd-cmake]
 style = "cmake"
 record = "cd325b20deeccc1c70a5ae76e6a8eac1c6610f2f0b8fa27ec76fe78429a31574"
-from = "1c08e822380ac5186736a28fc4b8210358a6587eb7bb75235a70b856de00b02d"
+from = "114ff0df1fb655a33fa04a954f671d4a9ba045a0b96336799d9eef8a99a494f9"
 deps = ["ninja", "pkgconf"]
 
 [[zstd-cmake.sources]]

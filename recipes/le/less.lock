@@ -1,7 +1,7 @@
 [less]
 style = "autotools"
 record = "c9587770dcfb150b8b8414fb524affba26c7e421139fff2854a230e1baac4384"
-from = "97676d04300ed3481b0d3f6541362b9b581f8e4653a454ecad75d68e57e79641"
+from = "49f93bff8921ab4b1ada78c3c28b45982fa5a83029bd6386839df9c65dea6da3"
 deps = []
 
 [[less.sources]]

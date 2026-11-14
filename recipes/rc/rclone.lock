@@ -1,7 +1,7 @@
 [rclone]
 style = "go"
 record = "9cd5ad62af434d40b200c8bdcd6dca9ab08a8136d8796b1b37d490cf9afee92a"
-from = "f98d82b848b380c8ee9bb68f6a89b775e53bc054b60ff8714de7f90a0fae072e"
+from = "fbac0aba5f88444263f675a52cc1b1d6a67d4d3b137e41f4963cca5ad9d209af"
 deps = ["go"]
 
 [[rclone.sources]]

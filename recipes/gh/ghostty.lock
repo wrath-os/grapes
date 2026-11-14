@@ -1,7 +1,7 @@
 [ghostty]
 style = "zig"
 record = "921cbf1b03fac8c8b886f1df39ccccc5abbcfaacdaa7ca953cdca9b154776bfd"
-from = "0e81ce44a322c0f0e452322bbcc89affc7a546cb8b3baa0a7539bc2f286180e7"
+from = "77effbda3be7e15ba4f2fe5925f9d7ad13173eae9eae10c10297652085a341bc"
 deps = ["zig-bin", "pkgconf", "patchelf"]
 
 [[ghostty.sources]]

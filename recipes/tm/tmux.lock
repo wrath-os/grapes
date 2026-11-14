@@ -1,7 +1,7 @@
 [tmux]
 style = "autotools"
 record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
-from = "0696e6adb6c5201b854b82ef91e7f2edd0af2247e889d13945337d93b4f3d7fb"
+from = "620a6bbec395214924e9fb45dd1038705e31e807efd5de5c816ba86032cf9f6b"
 deps = []
 
 [[tmux.sources]]

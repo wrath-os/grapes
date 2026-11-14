@@ -1,7 +1,7 @@
 [sbc]
 style = "autotools"
 record = "27dc173c53435b45dfcc85a3aba276cf6e2b53b14e0c2d98243d97d113019cf6"
-from = "44cde2952dd070b99f3ba8f9206f87ef4f0bc9a8866a785a1dfa31f8b7b334b4"
+from = "d76819804634d461e884e94988c8a18842aff7a50a1a4cd1405bd2ca358baba5"
 deps = []
 
 [[sbc.sources]]

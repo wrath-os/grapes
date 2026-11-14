@@ -1,7 +1,7 @@
 [yazi]
 style = "cargo"
 record = "04733c66a9ae6f6bb76a6369609997575613a1153390a9078a4d39634f86d91c"
-from = "3393def99e2c94c58d28adb3e565d84aa27ce58905e304c04c11b13d59b859e1"
+from = "748a412f3671383c2e5b39156ebfdad0adf6e01afd34862f33a268e476ed77e4"
 deps = ["rust-bin"]
 
 [[yazi.sources]]

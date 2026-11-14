@@ -1,7 +1,7 @@
 [girara]
 style = "meson"
 record = "f4b6daa280397aef87e6251ec17113af58326f7d9e606065765a165ab1e5d6f6"
-from = "de6a71f9c2495dc21a407a2d07e0a5b8a0933f846c891889941074d541e3d89c"
+from = "70563dcd7214ca42b4600236deff32c396a227c6a2d941f41a5d57fe73989a67"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[girara.sources]]

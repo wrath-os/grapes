@@ -1,7 +1,7 @@
 [fribidi]
 style = "meson"
 record = "e93353f7a8a0aeb8a47d286f40c9b2605af0b1d43fa36960429574ed46719537"
-from = "1dbe798d106465a56cd0e222a4d1b7ea891f118c2f5fb1cc71d7bfd7bc6f9d60"
+from = "328154b535e6462c10242af2bfff95d7871519b312e772e3978370203209b8f5"
 deps = []
 
 [[fribidi.sources]]

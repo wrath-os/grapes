@@ -1,7 +1,7 @@
 [libfyaml]
 style = "cmake"
 record = "5e08f358ff08e3329eb4be28a8907e3d98e03814a43ec310450471dd00d28c11"
-from = "f96e50a2c1c9281121ca6de019393072878bdf31c0f5eb3d06d9baeacfe8f6f0"
+from = "11264fe9fdaa41333155976d7d59aec2f2068e94caac219337d7a1ec082e8b24"
 deps = ["pkgconf"]
 
 [[libfyaml.sources]]

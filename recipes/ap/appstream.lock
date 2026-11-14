@@ -1,7 +1,7 @@
 [appstream]
 style = "meson"
 record = "adf12075977bc6fd5bd3ae744d0e30dad0b32693070c133b453a53b7919d6042"
-from = "d3f3de1363e56e58f56d7bb0690c1d887d84cdf2f8ee0440b8809486bfd0c248"
+from = "123834b0b816ec1a18d35f063696196dbd7d753ca40cf495c149fb44aa84dd4e"
 deps = []
 
 [[appstream.sources]]

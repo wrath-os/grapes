@@ -1,7 +1,7 @@
 [automake]
 style = "autotools"
 record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
-from = "ee8e426a92e51a7d661044972b5779ab6a9c96b1c302c4060b594b72a504e215"
+from = "8963698d67b8e5815c3e32bdd0f7dda21f3fbf904c87c9ac1db43748e70bd969"
 deps = []
 
 [[automake.sources]]

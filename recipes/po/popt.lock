@@ -1,7 +1,7 @@
 [popt]
 style = "autotools"
 record = "37d7ccf39eaf70aa5a4e15e80d6a6d59b7186d13bfcf497d9f090c2337310bae"
-from = "c7b4e875f1be7fb1f8009dc9c09a18c50257464e12c5b42956ccf55c92d68573"
+from = "76b86f869e02f4e992d4cdc8a3354b41dc4e296baebbca8395cc8ce5aa619344"
 deps = []
 
 [[popt.sources]]

@@ -1,7 +1,7 @@
 [xwayland]
 style = "meson"
 record = "9f096d5a5c4dc9338ede25146ffe0260f8fc6cc7746fe195b0b3b7ee4db5b397"
-from = "2ff1009e826c0669daa0987cb39f9231b5e180f67bb98a0be34f81ccd0b461dc"
+from = "1ec2f3b84799739d538b2496089a46bf3edc20a4820482a3ffc3758869ae26a6"
 deps = []
 
 [[xwayland.sources]]
@@ -11,7 +11,7 @@ hash = "7311b4bcda22cfc19cb99680eb1c35cfc1ea885981310639f0429fe2948c122e"
 [xwayland-satellite]
 style = "cargo"
 record = "679075c8bd8a36f057d89c41d6090e84653053e6b40c5f7d748dfc73e8fd197c"
-from = "eef198d3ee9bd2e98df33784fb85c85bd40d369c8a8b43f133973bcb763eff45"
+from = "b26c2e4db5d5b570d18188f52ce2cc15f6e4c29090c0221bdf393ed19dd92c59"
 deps = []
 
 [[xwayland-satellite.sources]]

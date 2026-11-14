@@ -1,7 +1,7 @@
 [btrfs-progs]
 style = "autotools"
 record = "df757cca6a45c87497e0c1b1a672d04231315e2002fcfcd984f63e695ca812b9"
-from = "e368ddb7cdb47d9ead05a2b170c7b7440882300cbce62026cd6f4d7b721cceec"
+from = "b7fb6d6996711d4dc0cdc089ee4307b3469b706385e5956812cb5b37362ead06"
 deps = []
 
 [[btrfs-progs.sources]]

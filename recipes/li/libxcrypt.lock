@@ -1,7 +1,7 @@
 [libxcrypt]
 style = "autotools"
 record = "1e24092484ce0d1c5a487daa2c37b97fce92c17093d5621dbe6b267c76e94d06"
-from = "d286595e5a903fedf99796d264a2413d5615c87dfd97ae7ba1c963de6890a78d"
+from = "ea06d767257665fdf83f2ae33a061760d032f6b71599add9fb32020a3ca63b14"
 deps = []
 
 [[libxcrypt.sources]]

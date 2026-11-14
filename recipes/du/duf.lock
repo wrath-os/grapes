@@ -1,7 +1,7 @@
 [duf]
 style = "go"
 record = "7b62b4b079e8f196b74c3f9892f894ee572f86dc0c98f2103fb6ef1fa25adf81"
-from = "acdd2b6eefd11c79fb2c919b4f15379c028ff02ad53fdf7695dc75a1482c1c9a"
+from = "b951d598654db106f025bd6e93016b12eaf7ae8b7f9f817f931c21a623be7664"
 deps = ["go"]
 
 [[duf.sources]]

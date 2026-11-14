@@ -1,7 +1,7 @@
 [gnome-keyring]
 style = "meson"
 record = "ec1c22761e07754ccf2fb2a822fe7bf49e8f95648a62a4d6c4e7da3e7db2fc64"
-from = "faaba8c53bbab95c6759ea43160e17d20ca18f1864b1d8ffdf4372eb9b128b4f"
+from = "115efc69c7a8fe9973350022575f02109cad1fc03488561a7ee95a723ee5231c"
 deps = []
 
 [[gnome-keyring.sources]]

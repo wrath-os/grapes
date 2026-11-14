@@ -1,7 +1,7 @@
 [glibmm]
 style = "meson"
 record = "451cd7d996aacfb02cf316c9a5ca64c17a8c8cbba6d1d282b1f37b860caac6e4"
-from = "7d56f3e3fc68cb8d8d1fe671b15f99458691673e7cc81999989f81b7ff7445dc"
+from = "6305bbabb429df217901284ef70c5f727f54b897934c771e3020958398c36910"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[glibmm.sources]]

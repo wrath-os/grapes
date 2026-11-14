@@ -1,7 +1,7 @@
 [libinput]
 style = "meson"
 record = "1b448e564899180c6c927d49a9b6c1521964b5c8fa5f6f1072752c7eef47b5bc"
-from = "3dbda23e9f0f74cd25fa180ec2a30e4b90ba9b1dff4984977d48d0aa928da767"
+from = "e2fcd9695f95fbbb817cfe861aa6fcef2fe2729d8da08fffcff31067cfced83a"
 deps = []
 
 [[libinput.sources]]

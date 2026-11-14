@@ -1,7 +1,7 @@
 [libxcvt]
 style = "meson"
 record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
-from = "81696f53cc01799e7c504acea74c2bc59ccde5f15f1214e9c69c1e4fa36682ef"
+from = "925221b4b62c9cc5b2a192079a48a426243c73104021235e17beb0fb2859725f"
 deps = []
 
 [[libxcvt.sources]]

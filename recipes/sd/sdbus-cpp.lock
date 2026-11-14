@@ -1,7 +1,7 @@
 [sdbus-cpp]
 style = "cmake"
 record = "e183a21af516c75eb2fc1c4eb28bd08adb6cb61e906e27df6fee5068f03cd655"
-from = "d2eba3bdb6d09aeed45d4d702709120f1547cced32db3bd5a19b011daf1e89ff"
+from = "5862c886bdb8ecc047d42893e2b2ee90b612bbf566cd2ca4d105186f7abcb827"
 deps = ["cmake", "ninja", "pkgconf"]
 
 [[sdbus-cpp.sources]]

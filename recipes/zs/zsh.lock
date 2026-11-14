@@ -1,7 +1,7 @@
 [zsh]
 style = "autotools"
 record = "fc45145a6b7691a2cb587472bd75043733974627a0f4c808897b0d8f3119be55"
-from = "ce1e5a99b3e89d18f0249b58d1f8ff1811ab1b640f851eec300cc849ff0002f3"
+from = "40804c1bbf47692c039e5435d5bd46f4aabfab0a52fe76dcda1320b1bbef78e0"
 deps = []
 
 [[zsh.sources]]

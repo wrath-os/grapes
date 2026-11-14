@@ -1,7 +1,7 @@
 [fontconfig]
 style = "meson"
 record = "714ad9dfd23e33e70784e2e82cc35ce50ff58fc6f67b7d66e7b6fe1b39cd8777"
-from = "6e24e1b28391d795ac1b2fef0b73f1c6eb436f4cdbb53a2a3c43edf8240cc449"
+from = "3973fa948bf6ae812ea92c4e79f0f26d2612e0feb953560bc1ae1315f573cef2"
 deps = []
 
 [[fontconfig.sources]]

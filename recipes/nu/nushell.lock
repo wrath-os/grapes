@@ -1,7 +1,7 @@
 [nushell]
 style = "cargo"
 record = "6067f6e272250cadff628b928161006454562ee711033d4046119ce2cbe11c15"
-from = "04bf02e45ac710ac2ec62ad9f3d0a364bc843a9c2e6fded638be329fb47ce9f2"
+from = "e451870ebc9fbbfff326376d82ec990e202d24ca7fdf06801ce351253d49e953"
 deps = ["rust-bin"]
 
 [[nushell.sources]]

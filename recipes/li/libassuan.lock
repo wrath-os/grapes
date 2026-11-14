@@ -1,7 +1,7 @@
 [libassuan]
 style = "autotools"
 record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
-from = "a8e970bbbf0c6fac3eb556fa51a10daba6418c2ed11dc0166a312b68edc3c5dd"
+from = "3f6df74ab296a5f7f341c9f85f0e3f8c5d3cbb1b47c050f3006c03dca72328ee"
 deps = []
 
 [[libassuan.sources]]

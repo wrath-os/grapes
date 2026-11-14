@@ -1,7 +1,7 @@
 [process-compose]
 style = "go"
 record = "a41f3c7253054fbe9a02882bd806702edf392a8b6dab0abc4091b597893dc2d9"
-from = "28a869aea04d5559fb85b8f9bff2718109a21fb33cd85d0bc008192ca7dc6601"
+from = "b803a4c5a2a25aa9bf5e606b59f4a52a641073f6ec78807344f31a2fd985a692"
 deps = []
 
 [[process-compose.sources]]

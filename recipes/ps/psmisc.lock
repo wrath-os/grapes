@@ -1,7 +1,7 @@
 [psmisc]
 style = "autotools"
 record = "3fc2923e78f0ff926e2c00882c4e068a92f8810e33b1727e1f02775b5c99c1ff"
-from = "bdd9a3e426137480649a7bf6d900b716cb84dcee0af855b0e2a7b43d58654bcc"
+from = "03520ee1fdd144d3b2802c68eb4e90a5a6ff9f65f671a0ade7c7dbf4de6a89e7"
 deps = []
 
 [[psmisc.sources]]

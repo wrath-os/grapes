@@ -1,7 +1,7 @@
 [zen-browser]
 style = "prebuilt"
 record = "6fcca5323275983fefe8e3c94f2ddb3c869adf4bfa7df587fa215bafda609618"
-from = "5fd3894ecacf9a0eca5bf3965cb202e4ae53586ca3d7c7e8615ba71284204913"
+from = "92b99e49e80a84927796078d523b38d9cf783f0d363ba09f92b21afb8c2096f3"
 deps = ["patchelf"]
 
 [[zen-browser.sources]]

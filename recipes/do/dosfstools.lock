@@ -1,7 +1,7 @@
 [dosfstools]
 style = "autotools"
 record = "526f31702172efe9ddf2e9b1729ce805f36d4e687d8e17c5a0105a7e87acc5ec"
-from = "f08d35dc3fde6265b657f261c2226dfa4ab8078213f74ca289b2ab9f1a030c22"
+from = "f1bdd290e9a16b07cbde0dd3e90065c6e644646ae36d36be5c3412ff091b3124"
 deps = []
 
 [[dosfstools.sources]]

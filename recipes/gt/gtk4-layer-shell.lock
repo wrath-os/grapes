@@ -1,7 +1,7 @@
 [gtk4-layer-shell]
 style = "meson"
 record = "3f36c0c9c19dd57a281664cfb82dc35515a605c846ef3d216e2e021180221efb"
-from = "95566237a9800ca0f827554b8f0b82fb570c86783de3151ad78016d1072f08af"
+from = "bfeb1561d0365367a481306ac1ca8ac3d7edd3fdd9adf0cf2ea6443b0f3175b3"
 deps = []
 
 [[gtk4-layer-shell.sources]]

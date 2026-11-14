@@ -1,7 +1,7 @@
 [harfbuzz-gir]
 style = "meson"
 record = "a5b2d151f382c3199759ef8fb8b9b64c00b69d9fd5b27bc4fe778d197e2ee8fa"
-from = "5689bd79719a5c67f10b03f6805f4a630347b5192434a35e92ea49e7c5b5eb54"
+from = "37f9eca86832d7dc6a15dd7a4998677a051d2654e572e50bb3e13fea2e0327a2"
 deps = []
 
 [[harfbuzz-gir.sources]]

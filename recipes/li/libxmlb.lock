@@ -1,7 +1,7 @@
 [libxmlb]
 style = "meson"
 record = "a3508e99c5f4d76e5bcc0fb638b719b384b996ea7457159160582d748954def0"
-from = "1fedca217255aa925b9b314b8cb33ce808aaae74d9e1834b45cbbbc787f34e8e"
+from = "02b20b89ccb1fee7e94dda5b52f7a96830d103c6a76cbc5571a19d25494ab855"
 deps = []
 
 [[libxmlb.sources]]

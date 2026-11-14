@@ -1,7 +1,7 @@
 [util-linux]
 style = "autotools"
 record = "97133846beaf595bca2a7da656ffb812f816d38add1221ed8aa242112f746a71"
-from = "a57e3f0b79806d4ca26f6698cf05c66091ccd1c7dbe59aa098f54b0e25db55da"
+from = "78b66a36ebcd0d86a2b370b9d56cda65e577900be824e95a3808461025a5bd33"
 deps = []
 
 [[util-linux.sources]]

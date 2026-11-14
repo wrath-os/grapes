@@ -1,7 +1,7 @@
 [helm]
 style = "go"
 record = "6ff7b2b32bc1206699d9af62e64cb99153bb688159f6b133b41cd65f95e89895"
-from = "2231f59e97fac41686640fd99506157f7626fc41b29570dfefaee7778dec73a1"
+from = "9089949db66aa8b1c39ce55d2fa16e4be564bb4071bccbbe475cedae5d914d51"
 deps = ["go"]
 
 [[helm.sources]]

@@ -1,7 +1,7 @@
 [fuzzel]
 style = "meson"
 record = "e672f9c587ee96d00d41baa6a7e9d8772148bcca08afc4ec532e4ca0a786ef15"
-from = "8141d9ee0f2c62fab9daceef0437f5dcfa3997a452c22f0531d64668f25cee83"
+from = "bfe8eb426208a81106284211c790147d56f2e76085de63af956dea38ef61bc5f"
 deps = []
 
 [[fuzzel.sources]]

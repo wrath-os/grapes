@@ -1,7 +1,7 @@
 [jq]
 style = "autotools"
 record = "84d739dc4f2b87cbc48e62b07d464f2b03360c06a0fc3356fcc71143980293db"
-from = "bddf18a96b4e3783b29e9f92f7cc43eb7349851c201b75394335f9e65bde081e"
+from = "97d9080d056116532917d2bc9318b939d2556c5fef12473260bacf1468b5fa68"
 deps = []
 
 [[jq.sources]]

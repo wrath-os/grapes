@@ -1,7 +1,7 @@
 [libdrm]
 style = "meson"
 record = "ffc21b5adf271c956d760e83092af4a8a1d559b44995e69e5920e150554a5897"
-from = "d1cff2bf17551ee2c83e0e70fc7f6744cc966fec6496a881ec429a066afdec33"
+from = "83d0142663f6f8e81fb61ff28216f12bb13002bbd85f7f9c0d954551bdd19fa5"
 deps = []
 
 [[libdrm.sources]]

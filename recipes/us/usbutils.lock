@@ -1,7 +1,7 @@
 [usbutils]
 style = "meson"
 record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
-from = "0c4d94d9c3d08f240cda676d3a51bc07b3b55efae8f78786c0c0f92abea9b10d"
+from = "1511100ae45198ee31ea503f5444c8ab769cc24b0902a500a7ea4ee820a994ed"
 deps = []
 
 [[usbutils.sources]]

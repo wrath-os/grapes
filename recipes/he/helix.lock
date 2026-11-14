@@ -1,7 +1,7 @@
 [helix]
 style = "cargo"
 record = "07ac8c738ef8a2ae7df7e03a38ba661f844d53135ae8ef9c04a9051fec4e3f56"
-from = "eb39ce43a989488bd4cc5fe6c52021de7d6bd9db55ab07a6fd70c3962d149344"
+from = "792d875adade85d66d39e2da08378ee44a23d938349c9c08be9424ee7e8b4e7c"
 deps = ["rust-bin"]
 
 [[helix.sources]]

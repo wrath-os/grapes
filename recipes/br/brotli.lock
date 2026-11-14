@@ -1,7 +1,7 @@
 [brotli]
 style = "cmake"
 record = "af4b618bae34d074b0d13f5f3ac6f9deaef14001cabd8ffac88c8d03617eed29"
-from = "0960af103f610bb58d667dadc7182564fd96a4cfbea1fd0d0575860ffca17f84"
+from = "7fcb4b3b33c4fc5559ff3b32523a3b7c62c607e6052120be6150ae52c07a5fd0"
 deps = ["cmake", "ninja", "pkgconf"]
 
 [[brotli.sources]]

@@ -1,7 +1,7 @@
 [mpv]
 style = "meson"
 record = "a04b1048e362e12512995e3fd654465b59c282c304b2adab0a05aa8266b55f0a"
-from = "e4922ea5592902d3c6a1ed00494ca96b0c099cb6817f3389ee71eb13a2214f80"
+from = "c7ed175e2c7e74f1a93b1b23d666f5f0ae3684300eb1ea9b88475fcabf67a6db"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[mpv.sources]]

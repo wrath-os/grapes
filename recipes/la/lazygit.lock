@@ -1,7 +1,7 @@
 [lazygit]
 style = "go"
 record = "770c9d065decf7fef77b9608455530a1a692044742e1579cb0fde8f6f741d65e"
-from = "02510c8e45309f06c28475c58d17806a2eb96af70e6bf58dc7387e9b333aee49"
+from = "5b8752330b75013d20e38a542b094520e22a00f4e5cd9cdd02c96e106514dd24"
 deps = ["go"]
 
 [[lazygit.sources]]

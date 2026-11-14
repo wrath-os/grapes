@@ -1,7 +1,7 @@
 [playerctl]
 style = "meson"
 record = "17802466377e5a4a24a4b8213c9009ab0c9f864597333b1ad0231d819bc17ee5"
-from = "60e85ba2c8ab890e36eb5663c848dca8e581f13d4b53589f4f46107868886dcc"
+from = "b5356fe36231046d2704ca7b94d8d3529a14a85f7610c3be6de315f2992414de"
 deps = ["meson", "ninja", "pkgconf"]
 
 [[playerctl.sources]]
