@@ -19,7 +19,7 @@ user = types.record(
         types.str,
         optional = True,
         account = True,
-        doc = "The backend's default shell when unset.",
+        doc = "The login shell, such as `/run/system/bin/zsh`. Bash when unset.",
     ),
     system = option(types.bool, default = False, account = True),
     packages = option(types.set(types.str)),

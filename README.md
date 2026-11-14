@@ -11,7 +11,9 @@ enable = true
 ```
 
 A configuration pins grapes in its lock like any source, so `wrath update grapes` moves it
-forward and a rollback takes it back with the rest of the system.
+forward and a rollback takes it back with the rest of the system. It isn't published yet, so for
+now clone it beside [wrath](https://github.com/wrath-os/wrath) and give wrath the checkout with
+`--source grapes=../grapes` or `WRATH_GRAPES`.
 
 ## Working on it
 
@@ -22,7 +24,8 @@ wrath build ripgrep --check
 wrath -C ~/machines/laptop plan --source grapes=.
 ```
 
-- `recipes/`: one entry per package; see [docs/recipes.md](docs/recipes.md).
+- `recipes/`: one entry per package; see
+  [recipes and styles](https://github.com/wrath-os/wrath/blob/main/docs/recipes.md).
 - `styles/`: how recipes build, such as meson, cargo or zig.
 - `modules/`: the modules, with their tests in `modules/tests`; `wrath dev test modules/tests`.
 - `seed.pin` and `sources.lock`: what the toolchain starts from, and every source's hash.
