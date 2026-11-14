@@ -2,6 +2,8 @@
 # graphical sessions read `~/.config/environment.d`, and login shells source
 # `~/.config/wrath/session.sh`.
 
+load("lib/environment.star", "fish_line")
+
 def check(ctx: Context, user: str, name: str, v: str) -> None:
     where = ["users", user, "environment", name]
     if "\n" in v:
@@ -36,6 +38,15 @@ def render(ctx: Context) -> None:
             user = user,
             next_login = True,
         )
+        # fish reads no POSIX shell, so it gets the same variables its own way. Nushell's are in
+        # its config, which its module writes.
+        if u.get("shell") == "fish":
+            ctx.file(
+                "~/.config/fish/conf.d/wrath.fish",
+                lines([fish_line(name, v) for name, v in sorted(variables.items())]),
+                user = user,
+                next_login = True,
+            )
 
 module(
     name = "session",

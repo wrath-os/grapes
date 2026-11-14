@@ -3,3 +3,4 @@
 /run/system/bin/bash
 /run/system/bin/zsh
 /run/system/bin/nu
+/run/system/bin/fish

@@ -15,3 +15,13 @@ shell = "nushell"
 [users.bo.programs.nushell]
 settings = { show_banner = false }
 aliases = { ll = "ls -l" }
+
+[users.bo.environment]
+EDITOR = "hx"
+NOTES = "$HOME/notes ($EDITOR)"
+
+[users.cy]
+shell = "fish"
+
+[users.cy.environment]
+PROJECTS = "$HOME/src"

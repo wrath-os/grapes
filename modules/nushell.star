@@ -1,8 +1,13 @@
 # Nushell for each user who has it as their login shell or enables it:
 # `~/.config/nushell/config.nu`, with settings merged into its own, aliases and lines of their own.
 
-def config_nu(nu: dict[str, typing.Any]) -> str:
+load("lib/environment.star", "nu_line")
+
+def config_nu(nu: dict[str, typing.Any], environment: dict[str, str]) -> str:
     lines = ["# Written by wrath from the configuration; changes here are replaced."]
+    # The user's `environment`, which a login gets from PAM only system-wide; other shells read it
+    # from what POSIX shells source.
+    lines += [nu_line(name, value) for name, value in sorted(environment.items())]
     if nu["settings"]:
         # JSON is a Nushell record as it's written, so the settings go in as they are.
         settings = formats.json(nu["settings"]).strip()
@@ -16,7 +21,7 @@ def render(ctx: Context) -> None:
         nu = u["programs"]["nushell"]
         if not (nu["enable"] or u.get("shell") == "nushell"):
             continue
-        ctx.file("~/.config/nushell/config.nu", config_nu(nu), user = user)
+        ctx.file("~/.config/nushell/config.nu", config_nu(nu, u["environment"]), user = user)
         ctx.package("nushell", user = user)
 
 module(
