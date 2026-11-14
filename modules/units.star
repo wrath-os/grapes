@@ -21,6 +21,12 @@ def is_unit_name(name: str) -> bool:
     stem, _, kind = unit.rpartition(".")
     return bool(stem) and kind in KINDS
 
+def runs_from_usr(value: typing.Any) -> bool:
+    """Whether a unit's command, or one of a list of them, runs a program under /usr. systemd's
+    prefixes, such as `-` or `@`, come before the path."""
+    commands = value if type(value) == "list" else [value]
+    return any([str(command).lstrip("-@:+!").startswith("/usr/") for command in commands])
+
 def render(ctx: Context) -> None:
     for name, sections in ctx.read("units").items():
         at = ["units", name]
@@ -29,6 +35,13 @@ def render(ctx: Context) -> None:
         for section, settings in sections.items():
             if type(settings) != "dict":
                 ctx.error(at + [section], "`%s` isn't a section, such as `Service`" % section)
+                continue
+            for key, value in settings.items():
+                if key.startswith("Exec") and runs_from_usr(value):
+                    ctx.error(
+                        at + [section, key],
+                        "a system has no /usr; programs are in /run/system/bin",
+                    )
         if name.endswith(".timer") and "Install" not in sections:
             sections = dict(sections, Install = {"WantedBy": "timers.target"})
         ctx.unit(name, sections)

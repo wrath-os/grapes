@@ -41,6 +41,14 @@ def allocate(
                 break
     return kept
 
+def is_password_hash(text: str) -> bool:
+    """Whether `text` is a crypt hash such as `$6$salt$hash`, or `!` or `*`, which allow no
+    password. A placeholder such as `$6$...` is neither, and would lock the user out."""
+    if text in ["!", "*"]:
+        return True
+    parts = text.split("$")
+    return len(parts) >= 4 and parts[0] == "" and "" not in parts[1:] and "..." not in text
+
 def account_files(
         ctx: Context,
         users: dict[str, typing.Any],
@@ -79,6 +87,16 @@ def account_files(
     shadow = ["root:*:1::::::", "nobody:*:1::::::"]
     for name in sorted(users):
         u = users[name]
+        if not str(u.get("shell", "/")).startswith("/"):
+            ctx.error(
+                ["users", name, "shell"],
+                "a login shell is a path, such as `/run/system/bin/zsh`",
+            )
+        if not is_password_hash(u.get("initial_hashed_password", "!")):
+            ctx.error(
+                ["users", name, "initial_hashed_password"],
+                "this isn't a password hash, which `mkpasswd -m sha-512` makes, or `!` for none",
+            )
         for field in ["description", "home", "shell"]:
             if any([c in str(u.get(field, "")) for c in [":", "\n"]]):
                 ctx.error(

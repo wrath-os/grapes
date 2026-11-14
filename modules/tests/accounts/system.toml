@@ -2,7 +2,7 @@
 hostname = "box"
 
 [users.ann]
-initial_hashed_password = "$y$abc"
+initial_hashed_password = "$y$j9T$salt$hash"
 extra_groups = ["wheel", "video"]
 
 [users.bo]
