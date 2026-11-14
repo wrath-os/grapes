@@ -18,6 +18,11 @@ probes = ["gobject-introspection-1.0"]
 [package.meson]
 args = ["-D build_introspection_data=false", "-D doctool=disabled", "-D tests=false"]
 
+# Typelibs are found on GI_TYPELIB_PATH.
+[[package.search_paths]]
+variable = "GI_TYPELIB_PATH"
+files = ["lib/girepository-1.0"]
+
 # cairo, freetype2, fontconfig and the rest gobject-introspection describes itself.
 [[package]]
 id = "gobject-introspection-gir"

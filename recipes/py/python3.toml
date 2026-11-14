@@ -16,3 +16,8 @@ smoke = [
   "bin/python3 -c 'import ssl, zlib, bz2, lzma, readline, pyexpat'",
 ]
 check = "make test TESTOPTS='-j32 test_zlib test_bz2 test_lzma test_ssl test_xml_etree'"
+
+# Python finds the modules of Python packages, which keep them in `site`, on PYTHONPATH.
+[[package.search_paths]]
+variable = "PYTHONPATH"
+files = ["site"]

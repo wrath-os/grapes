@@ -9,7 +9,7 @@ core = true
 extra_deps = [
   "gtk4", "libadwaita", "gtk4-layer-shell", "fontconfig", "freetype", "harfbuzz", "glslang",
   "highway", "libpng", "zlib", "bzip2", "wayland", "wayland-protocols", "libxkbcommon", "mesa",
-  "gettext", "ncurses", "glib", "blueprint-compiler", "pygobject", "glib-gir",
+  "gettext", "ncurses", "glib", "python3", "blueprint-compiler", "pygobject", "glib-gir",
   "gobject-introspection-gir", "harfbuzz-gir", "pango-gir", "gdk-pixbuf-gir", "graphene-gir",
   "gtk4-gir", "libX11",
 ]
@@ -23,6 +23,3 @@ args = [
   # Without git it calls itself a development build; its own version is in its package list.
   "-Dversion-string=$(sed -n 's/^ *\\.version = \"\\(.*\\)\",$/\\1/p' build.zig.zon)",
 ]
-
-[package.zig.env]
-GI_TYPELIB_PATH = "$WRATH_DEP_glib_gir/lib/girepository-1.0:$WRATH_DEP_gobject_introspection_gir/lib/girepository-1.0:$WRATH_DEP_harfbuzz_gir/lib/girepository-1.0:$WRATH_DEP_pango_gir/lib/girepository-1.0:$WRATH_DEP_gdk_pixbuf_gir/lib/girepository-1.0:$WRATH_DEP_graphene_gir/lib/girepository-1.0:$WRATH_DEP_gtk4_gir/lib/girepository-1.0:$WRATH_DEP_libadwaita/lib/girepository-1.0"

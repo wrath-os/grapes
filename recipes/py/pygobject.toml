@@ -12,3 +12,8 @@ args = [
   "-D pycairo=disabled", "-D tests=false", "-D python.purelibdir=site",
   "-D python.platlibdir=site",
 ]
+
+# Typelibs are found on GI_TYPELIB_PATH.
+[[package.search_paths]]
+variable = "GI_TYPELIB_PATH"
+files = ["lib/girepository-1.0"]
