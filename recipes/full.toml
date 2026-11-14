@@ -188,6 +188,8 @@ version = "3.8.2"
 scope = "runtime"
 core = true
 extra_deps = ["m4-final"]
+# It runs m4 as it works, so whatever uses it gets m4 too.
+propagates = ["m4-final"]
 sources = [{ url = "https://ftp.gnu.org/gnu/bison/bison-{version}.tar.xz" }]
 smoke = ["bin/bison --version", "sh: printf '%%%%\\ns: ;\\n' > /tmp/g.y; $OUT/bin/bison -o /tmp/g.c /tmp/g.y"]
 check_build = "make -j$NPROC check TESTS="
@@ -203,6 +205,7 @@ version = "2.6.4"
 scope = "runtime"
 core = true
 extra_deps = ["m4-final"]
+propagates = ["m4-final"]
 sources = [{ url = "https://github.com/westes/flex/releases/download/v{version}/flex-{version}.tar.gz" }]
 smoke = ["bin/flex --version", "sh: printf '%%%%\\n%%%%\\n' > /tmp/x.l; $OUT/bin/flex -o /tmp/x.c /tmp/x.l"]
 check_build = "make -j$NPROC check TESTS="
@@ -234,6 +237,7 @@ version = "2.72"
 scope = "runtime"
 core = true
 extra_deps = ["m4-final", "perl"]
+propagates = ["m4-final"]
 sources = [{ url = "https://ftp.gnu.org/gnu/autoconf/autoconf-{version}.tar.xz" }]
 smoke = ["bin/autoconf --version"]
 check_in_view = true

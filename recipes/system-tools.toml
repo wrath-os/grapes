@@ -19,7 +19,7 @@ id = "libpcap"
 version = "1.11.0"
 scope = "runtime"
 core = true
-extra_deps = ["flex", "bison-final", "m4-final"]
+extra_deps = ["flex", "bison-final"]
 sources = [{ url = "https://www.tcpdump.org/release/libpcap-{version}.tar.xz" }]
 probes = ["libpcap"]
 
@@ -31,7 +31,7 @@ id = "libnl"
 version = "3.12.0"
 scope = "runtime"
 core = true
-extra_deps = ["flex", "bison-final", "m4-final", "pkgconf"]
+extra_deps = ["flex", "bison-final", "pkgconf"]
 sources = [{ url = "https://github.com/thom311/libnl/releases/download/libnl3_12_0/libnl-{version}.tar.gz" }]
 probes = ["libnl-3.0", "libnl-genl-3.0"]
 
@@ -304,7 +304,7 @@ id = "mtr"
 version = "0.96"
 scope = "runtime"
 core = true
-extra_deps = ["ncurses", "autoconf", "automake", "m4-final", "pkgconf"]
+extra_deps = ["ncurses", "autoconf", "automake", "pkgconf"]
 sources = [{ url = "https://github.com/traviscross/mtr/archive/v{version}/mtr-{version}.tar.gz" }]
 smoke = ["sbin/mtr --version"]
 
@@ -432,7 +432,7 @@ id = "tmux"
 version = "3.8"
 scope = "runtime"
 core = true
-extra_deps = ["ncurses", "libevent", "pkgconf", "bison-final", "m4-final"]
+extra_deps = ["ncurses", "libevent", "pkgconf", "bison-final"]
 sources = [{ url = "https://github.com/tmux/tmux/releases/download/{version}/tmux-{version}.tar.gz" }]
 # It wants a UTF-8 locale, which a machine has from `locales` and the check doesn't, so this
 # only checks that it loads and runs.
