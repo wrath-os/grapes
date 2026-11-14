@@ -2,8 +2,7 @@
 id = "usbutils"
 version = "020"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "libusb", "systemd"]
+deps = ["meson", "ninja", "pkgconf", "libusb", "systemd"]
 sources = [{ url = "https://www.kernel.org/pub/linux/utils/usb/usbutils/usbutils-{version}.tar.xz" }]
 smoke = ["bin/lsusb --version"]
 

@@ -2,7 +2,6 @@
 id = "smartmontools"
 version = "7.5"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-{version}.tar.gz" }]
 smoke = ["sbin/smartctl --version"]
 

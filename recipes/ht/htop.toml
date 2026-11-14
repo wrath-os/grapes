@@ -2,8 +2,7 @@
 id = "htop"
 version = "3.5.3"
 scope = "runtime"
-core = true
-extra_deps = ["ncurses", "pkgconf"]
+deps = ["ncurses", "pkgconf"]
 sources = [{ url = "https://github.com/htop-dev/htop/releases/download/{version}/htop-{version}.tar.xz" }]
 smoke = ["bin/htop --version"]
 

@@ -2,7 +2,6 @@
 id = "lua"
 version = "5.4.9"
 scope = "runtime"
-core = true
 sources = [{ url = "https://www.lua.org/ftp/lua-{version}.tar.gz" }]
 script = '''
 # Lua builds with a plain Makefile and has no pkg-config file, so one is written here. Programs
@@ -23,4 +22,3 @@ Cflags: -I\${includedir}
 PC
 '''
 smoke = ["bin/lua -v"]
-probes = ["lua"]

@@ -2,7 +2,6 @@
 id = "fzf"
 version = "0.75.0"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/junegunn/fzf/archive/v{version}/fzf-{version}.tar.gz" }]
 smoke = ["bin/fzf --version", "sh: printf 'a\\nb\\n' | $OUT/bin/fzf --filter b"]
 

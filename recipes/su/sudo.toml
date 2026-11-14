@@ -2,8 +2,7 @@
 id = "sudo"
 version = "1.9.17p2"
 scope = "runtime"
-core = true
-extra_deps = ["linux-pam", "zlib"]
+deps = ["linux-pam", "zlib"]
 sources = [{ url = "https://www.sudo.ws/dist/sudo-{version}.tar.gz" }]
 # sudoers, the run and state directories are paths on the running system. They're installed into
 # the package instead, where nothing reads them, and wrappers give sudo its setuid bit.

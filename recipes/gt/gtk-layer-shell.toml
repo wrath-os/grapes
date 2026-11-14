@@ -2,10 +2,8 @@
 id = "gtk-layer-shell"
 version = "0.10.1"
 scope = "runtime"
-core = true
-extra_deps = ["gtk3", "wayland-protocols"]
+deps = ["gtk3", "wayland-protocols"]
 sources = [{ url = "https://github.com/wmww/gtk-layer-shell/archive/v{version}/gtk-layer-shell-{version}.tar.gz" }]
-probes = ["gtk-layer-shell-0"]
 
 # Puts a GTK 3 window on a layer of the screen, as bars and docks are.
 [package.meson]

@@ -2,7 +2,6 @@
 id = "ruff"
 version = "0.17.4"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/astral-sh/ruff/archive/{version}/ruff-{version}.tar.gz" }]
 smoke = ["bin/ruff --version"]
 

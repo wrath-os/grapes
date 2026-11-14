@@ -2,6 +2,7 @@
 id = "binutils-stage1"
 version = "2.45"
 scope = "boot"
+toolchain = "seed"
 deps = ["wrapper", "seed"]
 sources = [{ url = "https://ftp.gnu.org/gnu/binutils/binutils-{version}.tar.xz" }]
 script = '''
@@ -16,6 +17,7 @@ make install DESTDIR=$DEST MAKEINFO=true
 id = "binutils"
 version = "2.45"
 scope = "tool"
+toolchain = "seed"
 deps = [
   "wrapper",
   { id = "seed", skip = "compilers" },

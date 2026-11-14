@@ -2,7 +2,6 @@
 id = "7zip"
 version = "26.06"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/ip7z/7zip/releases/download/{version}/7z2606-src.tar.xz" }]
 script = '''
 make -C CPP/7zip/Bundles/Alone2 -f ../../cmpl_gcc.mak -j$NPROC

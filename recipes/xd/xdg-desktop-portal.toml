@@ -2,8 +2,7 @@
 id = "xdg-desktop-portal"
 version = "1.22.1"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3",
   "json-glib", "fuse3", "gdk-pixbuf", "gst-plugins-base", "pipewire",
   "systemd",
@@ -27,10 +26,9 @@ args = [
 id = "xdg-desktop-portal-gtk"
 version = "1.15.3"
 scope = "runtime"
-core = true
 # It reads the desktop's settings by name.
 runtime_deps = ["gsettings-desktop-schemas"]
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "gtk3", "xdg-desktop-portal", "gsettings-desktop-schemas",
 
   "gettext",
@@ -52,8 +50,7 @@ args = [
 id = "xdg-desktop-portal-wlr"
 version = "0.8.4"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "pipewire", "wayland", "wayland-protocols", "inih", "mesa",
   "systemd",
 ]

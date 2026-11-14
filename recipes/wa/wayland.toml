@@ -2,11 +2,9 @@
 id = "wayland"
 version = "1.26.0"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "libffi", "expat", "libxml2"]
+deps = ["meson", "ninja", "pkgconf", "libffi", "expat", "libxml2"]
 sources = [{ url = "https://gitlab.freedesktop.org/wayland/wayland/-/releases/{version}/downloads/wayland-{version}.tar.xz" }]
 smoke = ["bin/wayland-scanner --version"]
-probes = ["wayland-client"]
 
 [package.meson]
 args = ["-D documentation=false", "-D tests=false", "-D dtd_validation=false"]
@@ -15,8 +13,7 @@ args = ["-D documentation=false", "-D tests=false", "-D dtd_validation=false"]
 id = "wayland-protocols"
 version = "1.50"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "wayland"]
+deps = ["meson", "ninja", "pkgconf", "wayland"]
 sources = [{ url = "https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/{version}/downloads/wayland-protocols-{version}.tar.xz" }]
 
 [package.meson]

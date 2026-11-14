@@ -2,8 +2,7 @@
 id = "gsettings-desktop-schemas"
 version = "51.0"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "glib"]
+deps = ["meson", "ninja", "pkgconf", "glib"]
 sources = [{ url = "https://download.gnome.org/sources/gsettings-desktop-schemas/{series}/gsettings-desktop-schemas-{version}.tar.xz" }]
 
 [package.meson]

@@ -2,7 +2,6 @@
 id = "gnu-hello"
 version = "2.12.2"
 scope = "runtime"
-core = true
 sources = [{ url = "https://ftp.gnu.org/gnu/hello/hello-{version}.tar.gz" }]
 smoke = ["bin/hello --version"]
 

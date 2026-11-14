@@ -1,7 +1,7 @@
 [tuigreet]
 style = "cargo"
 record = "a7e15fb8409158d6623f4d63e25952b66739249cdf44e41149fb6c9065c6395e"
-from = "77afbda1a4c7d4358fdc3531e26ec1d74f4ec8b89dd42e699e2ace780cde4a33"
+from = "bbd595fcf91e4ed0c611ce2be9970ab8d221d9baed24848ea69d8b24cc40bff0"
 deps = []
 
 [[tuigreet.sources]]

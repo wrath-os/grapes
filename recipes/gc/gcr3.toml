@@ -4,13 +4,11 @@ version = "3.41.2"
 # GNOME Keyring needs gcr 3; gcr 4 is for GTK 4.
 track = "3.41."
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "glib",
   "libgcrypt", "p11-kit", "systemd", "gettext", "openssh",
 ]
 sources = [{ url = "https://download.gnome.org/sources/gcr/{series}/gcr-{version}.tar.xz" }]
-probes = ["gcr-base-3", "gck-1"]
 
 # The certificate and key library GNOME Keyring uses, without its GTK widgets.
 # It asks where ssh-add is even with its SSH agent off.

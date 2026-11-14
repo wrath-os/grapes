@@ -2,8 +2,7 @@
 id = "niri"
 version = "26.04"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "rust-bin", "pkgconf", "libinput", "libxkbcommon", "mesa", "seatd", "libdisplay-info",
   "pango",
   "libevdev", "mtdev", "wayland",

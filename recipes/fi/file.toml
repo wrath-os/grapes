@@ -2,11 +2,9 @@
 id = "file"
 version = "5.46"
 scope = "runtime"
-core = true
-extra_deps = ["zlib", "bzip2", "xz", "zstd"]
+deps = ["zlib", "bzip2", "xz", "zstd"]
 sources = [{ url = "https://astron.com/pub/file/file-{version}.tar.gz" }]
 smoke = ["bin/file --version", "bin/file /proc/self/exe"]
-probes = ["magic"]
 check_in_view = true
 check = "make -j$NPROC check"
 

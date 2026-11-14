@@ -2,8 +2,7 @@
 id = "socat"
 version = "1.8.1.3"
 scope = "runtime"
-core = true
-extra_deps = ["openssl", "readline"]
+deps = ["openssl", "readline"]
 sources = [{ url = "http://www.dest-unreach.org/socat/download/socat-{version}.tar.gz" }]
 smoke = ["bin/socat -V"]
 

@@ -2,7 +2,6 @@
 id = "packaging"
 version = "25.0"
 scope = "runtime"
-core = true
 sources = [{ url = "https://files.pythonhosted.org/packages/source/p/packaging/packaging-{version}.tar.gz" }]
 script = '''
 mkdir -p $DEST$PREFIX/site

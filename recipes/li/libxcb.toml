@@ -2,10 +2,8 @@
 id = "libxcb"
 version = "1.17.0"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "python3", "xcb-proto", "libXau", "libXdmcp"]
+deps = ["pkgconf", "python3", "xcb-proto", "libXau", "libXdmcp"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libxcb-{version}.tar.xz" }]
-probes = ["xcb"]
 
 [package.autotools]
 args = ["--disable-static", "--disable-devel-docs", "--without-doxygen"]

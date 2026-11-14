@@ -1,7 +1,7 @@
 [librsvg]
 style = "cargo"
 record = "00404b1576d255519cbeaf4cdda579207d09acb7234d458152baf62cc6078dbc"
-from = "5d3590176ec2dfabc51207140dabe8eb5c7f572f2f39cc7882571ce6cb719701"
+from = "2d9a105b6a962703639f3e2270de71a16fe6cc8f6db60a738c395ad435852a75"
 deps = []
 
 [[librsvg.sources]]

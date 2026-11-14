@@ -2,8 +2,7 @@
 id = "mpv"
 version = "0.42.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "python3", "ffmpeg", "libplacebo", "libass", "luajit", "pipewire", "wayland",
   "wayland-protocols", "libxkbcommon", "mesa", "libjpeg-turbo",
 ]

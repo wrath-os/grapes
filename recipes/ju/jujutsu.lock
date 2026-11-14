@@ -1,7 +1,7 @@
 [jujutsu]
 style = "cargo"
 record = "adbc287b3018308692affa3c02ae598658b40af5f88a05b6a1440c573e3604fc"
-from = "d5b26916e49f6cb8bbaa08b07a9f071ccd1843d160e3b5b25ea6bac211008c59"
+from = "a6cd13bdf4ed44f3763f2cfe0eecbf36162da6ef30e6a0af64a23d68c1a76786"
 deps = []
 
 [[jujutsu.sources]]

@@ -2,10 +2,8 @@
 id = "libass"
 version = "0.17.5"
 scope = "runtime"
-core = true
-extra_deps = ["nasm", "fribidi", "harfbuzz", "fontconfig"]
+deps = ["nasm", "fribidi", "harfbuzz", "fontconfig"]
 sources = [{ url = "https://github.com/libass/libass/releases/download/{version}/libass-{version}.tar.xz" }]
-probes = ["libass"]
 
 # Subtitles, styled and placed as they were written.
 [package.meson]

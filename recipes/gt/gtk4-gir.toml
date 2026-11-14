@@ -3,8 +3,7 @@
 id = "gtk4-gir"
 version = "4.22.5"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "python3", "pango", "gdk-pixbuf", "libepoxy", "graphene", "libpng", "libjpeg-turbo",
   "shared-mime-info", "libtiff", "wayland", "wayland-protocols", "libxkbcommon", "libdrm",
   "mesa", "gettext", "gobject-introspection", "setuptools", "glib-gir",

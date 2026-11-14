@@ -2,11 +2,9 @@
 id = "cryptsetup"
 version = "2.7.5"
 scope = "runtime"
-core = true
-extra_deps = ["json-c", "popt", "device-mapper", "openssl", "util-linux", "pkgconf"]
+deps = ["json-c", "popt", "device-mapper", "openssl", "util-linux", "pkgconf"]
 sources = [{ url = "https://www.kernel.org/pub/linux/utils/cryptsetup/v2.7/cryptsetup-{version}.tar.xz" }]
 smoke = ["bin/cryptsetup --version"]
-probes = ["cryptsetup"]
 
 [package.autotools]
 args = [

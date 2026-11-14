@@ -2,7 +2,6 @@
 id = "nerd-fonts-iosevka"
 version = "3.5.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v{version}/Iosevka.tar.xz" }]
 script = '''
 mkdir -p $DEST$PREFIX/share/fonts/nerd-fonts-iosevka
@@ -13,7 +12,6 @@ find . -name "*.ttf" -o -name "*.otf" | xargs cp -t $DEST$PREFIX/share/fonts/ner
 id = "nerd-fonts-iosevka-term"
 version = "3.5.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v{version}/IosevkaTerm.tar.xz" }]
 script = '''
 mkdir -p $DEST$PREFIX/share/fonts/nerd-fonts-iosevka-term

@@ -3,8 +3,7 @@
 id = "glib-gir"
 version = "2.84.4"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "python3", "pkgconf", "zlib", "pcre2", "libffi", "util-linux", "gettext",
   "gobject-introspection", "setuptools",
 ]

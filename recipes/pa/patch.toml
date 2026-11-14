@@ -2,7 +2,7 @@
 id = "patch"
 version = "2.8"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://ftp.gnu.org/gnu/patch/patch-{version}.tar.xz" }]
 script = '''
 ./configure --prefix=$PREFIX

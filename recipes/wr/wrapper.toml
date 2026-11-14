@@ -1,6 +1,7 @@
 [[package]]
 id = "wrapper"
 scope = "boot"
+toolchain = "seed"
 wrap = false
 deps = ["seed"]
 files = ["wrath-cc.c"]

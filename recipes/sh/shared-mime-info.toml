@@ -2,8 +2,7 @@
 id = "shared-mime-info"
 version = "2.5.1"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "glib", "libxml2", "gettext"]
+deps = ["meson", "ninja", "pkgconf", "glib", "libxml2", "gettext"]
 # The MIME database is made from every package's types with each generation.
 indexes = [{ from = "share/mime", run = "bin/update-mime-database share/mime" }]
 sources = [{ url = "https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/{version}/shared-mime-info-{version}.tar.gz" }]

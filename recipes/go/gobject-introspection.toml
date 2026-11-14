@@ -6,14 +6,12 @@ scope = "runtime"
 # Whole: the scanner names its prefix's `lib` and finds its Python module under it, which a split
 # would point at the part with the libraries alone.
 whole = true
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "setuptools", "bison-final", "m4-final", "flex", "glib",
   "libffi",
 ]
 sources = [{ url = "https://download.gnome.org/sources/gobject-introspection/{series}/gobject-introspection-{version}.tar.xz" }]
 smoke = ["bin/g-ir-compiler --version"]
-probes = ["gobject-introspection-1.0"]
 
 [package.meson]
 args = ["-D build_introspection_data=false", "-D doctool=disabled", "-D tests=false"]
@@ -28,8 +26,7 @@ files = ["lib/girepository-1.0"]
 id = "gobject-introspection-gir"
 version = "1.84.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "setuptools", "bison-final", "m4-final", "flex", "glib",
   "libffi", "cairo", "glib-gir",
 ]

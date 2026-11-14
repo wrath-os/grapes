@@ -2,8 +2,7 @@
 id = "e2fsprogs"
 version = "1.47.3"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "util-linux"]
+deps = ["pkgconf", "util-linux"]
 sources = [{ url = "https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v{version}/e2fsprogs-{version}.tar.gz" }]
 script = '''
 mkdir ../b && cd ../b

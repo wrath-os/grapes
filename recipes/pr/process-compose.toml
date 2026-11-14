@@ -2,8 +2,7 @@
 id = "process-compose"
 version = "1.75.1"
 scope = "runtime"
-core = true
-extra_deps = ["go"]
+deps = ["go"]
 sources = [{ url = "https://github.com/F1bonacc1/process-compose/archive/v{version}/process-compose-{version}.tar.gz" }]
 smoke = ["bin/process-compose version"]
 

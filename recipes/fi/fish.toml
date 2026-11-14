@@ -2,8 +2,7 @@
 id = "fish"
 version = "4.9.3"
 scope = "runtime"
-core = true
-extra_deps = ["pcre2", "pkgconf"]
+deps = ["pcre2", "pkgconf"]
 sources = [{ url = "https://github.com/fish-shell/fish-shell/releases/download/{version}/fish-{version}.tar.xz" }]
 smoke = ["bin/fish --version", "bin/fish -c 'echo ok'"]
 

@@ -2,10 +2,8 @@
 id = "ffmpeg"
 version = "9.0.2"
 scope = "runtime"
-core = true
-extra_deps = ["nasm", "pkgconf", "dav1d", "libdrm", "zlib"]
+deps = ["nasm", "pkgconf", "dav1d", "libdrm", "zlib"]
 sources = [{ url = "https://ffmpeg.org/releases/ffmpeg-{version}.tar.xz" }]
-probes = ["libavcodec", "libavformat", "libavfilter", "libavutil", "libswscale"]
 smoke = ["bin/ffmpeg -version", "bin/ffprobe -version"]
 # Its configure is its own, and refuses the options the autotools style passes.
 script = '''

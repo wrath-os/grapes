@@ -2,10 +2,8 @@
 id = "libXfont2"
 version = "2.0.9"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "xtrans", "libfontenc", "freetype"]
+deps = ["pkgconf", "xtrans", "libfontenc", "freetype"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libXfont2-{version}.tar.xz" }]
-probes = ["xfont2"]
 
 [package.autotools]
 args = ["--disable-static", "--disable-devel-docs"]

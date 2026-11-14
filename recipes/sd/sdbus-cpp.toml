@@ -3,10 +3,8 @@
 id = "sdbus-cpp"
 version = "2.3.1"
 scope = "runtime"
-core = true
-extra_deps = ["systemd"]
+deps = ["systemd"]
 sources = [{ url = "https://github.com/Kistler-Group/sdbus-cpp/archive/v{version}/sdbus-cpp-{version}.tar.gz" }]
-probes = ["sdbus-c++"]
 
 [package.cmake]
 args = ["-DSDBUSCPP_BUILD_DOCS=OFF", "-DSDBUSCPP_BUILD_TESTS=OFF", "-DBUILD_SHARED_LIBS=ON"]

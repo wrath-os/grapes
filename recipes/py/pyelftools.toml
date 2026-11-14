@@ -2,7 +2,6 @@
 id = "pyelftools"
 version = "0.32"
 scope = "runtime"
-core = true
 sources = [{ url = "https://files.pythonhosted.org/packages/source/p/pyelftools/pyelftools-{version}.tar.gz" }]
 script = '''
 mkdir -p $DEST$PREFIX/site

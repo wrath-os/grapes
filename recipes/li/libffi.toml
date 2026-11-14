@@ -2,7 +2,7 @@
 id = "libffi"
 version = "3.5.2"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 # What gcc's -march calls each target's baseline, so libffi doesn't tune for the build machine.
 arch_names = { x86_64 = "x86-64", aarch64 = "armv8-a" }
 sources = [{ url = "https://github.com/libffi/libffi/releases/download/v{version}/libffi-{version}.tar.gz" }]
@@ -11,4 +11,3 @@ script = '''
 make -j$NPROC
 make install DESTDIR=$DEST
 '''
-probes = ["ffi"]

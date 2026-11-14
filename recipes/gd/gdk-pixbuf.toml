@@ -2,13 +2,11 @@
 id = "gdk-pixbuf"
 version = "2.44.8"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "glib",
   "libpng",
 ]
 sources = [{ url = "https://download.gnome.org/sources/gdk-pixbuf/{series}/gdk-pixbuf-{version}.tar.xz" }]
-probes = ["gdk-pixbuf-2.0"]
 
 # PNG built in, which is what icons are.
 [package.meson]

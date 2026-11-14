@@ -2,7 +2,6 @@
 id = "tzdata"
 version = "2026f"
 scope = "runtime"
-core = true
 sources = [{ url = "https://data.iana.org/time-zones/releases/tzdata{version}.tar.gz" }]
 smoke = ["test -s share/zoneinfo/Europe/Stockholm", "test -s share/zoneinfo/UTC"]
 script = '''

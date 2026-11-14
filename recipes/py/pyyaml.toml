@@ -2,7 +2,6 @@
 id = "pyyaml"
 version = "6.0.3"
 scope = "runtime"
-core = true
 sources = [{ url = "https://files.pythonhosted.org/packages/source/p/pyyaml/pyyaml-{version}.tar.gz" }]
 script = '''
 # Only its pure Python part, which is all the build tools that read YAML need.

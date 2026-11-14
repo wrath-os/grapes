@@ -2,10 +2,8 @@
 id = "xorgproto"
 version = "2026.1"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf"]
+deps = ["meson", "ninja", "pkgconf"]
 sources = [{ url = "https://www.x.org/archive/individual/proto/xorgproto-{version}.tar.xz" }]
-probes = ["xproto"]
 
 [package.meson]
 args = ["-D legacy=false"]

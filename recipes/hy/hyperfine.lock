@@ -1,7 +1,7 @@
 [hyperfine]
 style = "cargo"
 record = "2ea260080597e592e4c16cecb7598bd29e1db8544ff9b7c5ce7c1695ff37bfcf"
-from = "2c3d1a18829e4b774ac16e77f50588bc70451c4a84663db32c0dabb1edda4657"
+from = "54ac60264fdf026308445271751632284677a9c8603911abcf53ef4670cf456f"
 deps = ["rust-bin"]
 
 [[hyperfine.sources]]

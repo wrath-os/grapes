@@ -2,8 +2,7 @@
 id = "automake"
 version = "1.18.1"
 scope = "runtime"
-core = true
-extra_deps = ["autoconf", "m4-final", "perl"]
+deps = ["autoconf", "m4-final", "perl"]
 sources = [{ url = "https://ftp.gnu.org/gnu/automake/automake-{version}.tar.xz" }]
 smoke = ["bin/automake --version"]
 check_in_view = true

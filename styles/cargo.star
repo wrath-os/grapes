@@ -109,7 +109,7 @@ def build(recipe: Recipe, options: dict[str, typing.Any]) -> dict[str, typing.An
 
     prepare = ""
     if options["lock"] != "Cargo.lock":
-        prepare = "cp %s Cargo.lock\n" % options["lock"].removeprefix("recipes/")
+        prepare = "cp %s Cargo.lock\n" % options["lock"]
     found = ""
     if patches:
         found = CRATE_IN
@@ -180,8 +180,8 @@ style(
         "lock": option(
             types.str,
             default = "Cargo.lock",
-            doc = "The lock, in the source, or kept beside the recipes as `recipes/locks/...` " +
-                  "and listed in `files`, for a project that ships none.",
+            doc = "The lock, in the source, or one of the recipe's own `files`, such as " +
+                  "`locks/zram-generator.Cargo.lock`, for a project that ships none.",
         ),
         "env": option(
             types.map(types.str),

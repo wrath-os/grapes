@@ -3,11 +3,9 @@ id = "glibmm"
 version = "2.66.10"
 track = "2.66."
 scope = "runtime"
-core = true
-extra_deps = ["glib", "libsigc++"]
+deps = ["glib", "libsigc++"]
 propagates = ["glib", "libsigc++"]
 sources = [{ url = "https://download.gnome.org/sources/glibmm/{series}/glibmm-{version}.tar.xz" }]
-probes = ["glibmm-2.4", "giomm-2.4"]
 
 [package.meson]
 args = ["-D build-examples=false", "-D build-documentation=false"]

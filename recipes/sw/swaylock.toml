@@ -2,8 +2,7 @@
 id = "swaylock"
 version = "1.8.6"
 scope = "runtime"
-core = true
-extra_deps = ["cairo", "gdk-pixbuf", "libxkbcommon", "wayland", "wayland-protocols", "linux-pam"]
+deps = ["cairo", "gdk-pixbuf", "libxkbcommon", "wayland", "wayland-protocols", "linux-pam"]
 sources = [{ url = "https://github.com/swaywm/swaylock/releases/download/v{version}/swaylock-{version}.tar.gz" }]
 smoke = ["bin/swaylock -v"]
 

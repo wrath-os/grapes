@@ -2,9 +2,7 @@
 id = "libevent"
 version = "2.1.13"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/libevent/libevent/releases/download/release-{version}-stable/libevent-{version}-stable.tar.gz" }]
-probes = ["libevent"]
 
 [package.autotools]
 args = ["--disable-static", "--disable-samples", "--disable-libevent-regress", "--disable-openssl"]

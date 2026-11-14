@@ -2,8 +2,8 @@
 id = "openssl"
 version = "3.5.2"
 scope = "runtime"
-toolset = true
-extra_deps = ["perl", "zlib"]
+toolchain = "compilers"
+deps = ["perl", "zlib"]
 sources = [{ url = "https://github.com/openssl/openssl/releases/download/openssl-{version}/openssl-{version}.tar.gz" }]
 script = '''
 ./config --prefix=$PREFIX --openssldir=$PREFIX/etc/ssl --libdir=lib shared zlib-dynamic
@@ -13,5 +13,4 @@ make install_sw install_ssldirs DESTDIR=$DEST
 rm -r $DEST$PREFIX/etc/ssl/misc
 '''
 smoke = ["bin/openssl version -a", "bin/openssl dgst -sha256 /proc/self/status"]
-probes = ["ssl", "crypto"]
 check = "make -j$NPROC test HARNESS_JOBS=$NPROC TESTS='-test_afalg'"

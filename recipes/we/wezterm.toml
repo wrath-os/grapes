@@ -5,8 +5,7 @@
 id = "wezterm"
 version = "2026.11.12"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "rust-bin", "pkgconf", "fontconfig", "libxkbcommon", "wayland", "mesa", "openssl", "zlib",
   "libX11", "libxcb", "xcb-util", "xcb-util-image", "libxkbcommon-x11",
 ]

@@ -2,10 +2,8 @@
 id = "graphene"
 version = "1.10.8"
 scope = "runtime"
-core = true
-extra_deps = ["glib"]
+deps = ["glib"]
 sources = [{ url = "https://download.gnome.org/sources/graphene/{series}/graphene-{version}.tar.xz" }]
-probes = ["graphene-gobject-1.0"]
 
 # Vectors and matrices for GTK 4's scene graph.
 [package.meson]

@@ -2,8 +2,7 @@
 id = "bubblewrap"
 version = "0.11.0"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "libcap"]
+deps = ["meson", "ninja", "pkgconf", "libcap"]
 sources = [{ url = "https://github.com/containers/bubblewrap/releases/download/v{version}/bubblewrap-{version}.tar.xz" }]
 smoke = ["bin/bwrap --version"]
 

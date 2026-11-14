@@ -2,7 +2,6 @@
 id = "hdparm"
 version = "9.65"
 scope = "runtime"
-core = true
 sources = [{ url = "https://downloads.sourceforge.net/project/hdparm/hdparm/hdparm-{version}.tar.gz" }]
 script = '''
 make -j$NPROC

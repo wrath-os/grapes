@@ -2,8 +2,7 @@
 id = "alacritty"
 version = "0.15.1"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "rust-bin", "pkgconf", "fontconfig", "freetype", "libxkbcommon", "wayland", "mesa",
 ]
 sources = [{ url = "https://github.com/alacritty/alacritty/archive/v{version}/alacritty-{version}.tar.gz" }]

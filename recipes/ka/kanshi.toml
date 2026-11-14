@@ -2,8 +2,7 @@
 id = "kanshi"
 version = "1.7.0"
 scope = "runtime"
-core = true
-extra_deps = ["wayland", "libscfg"]
+deps = ["wayland", "libscfg"]
 sources = [{ url = "https://git.sr.ht/~emersion/kanshi/archive/v{version}.tar.gz" }]
 smoke = ["bin/kanshi -h"]
 

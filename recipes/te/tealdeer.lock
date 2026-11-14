@@ -1,7 +1,7 @@
 [tealdeer]
 style = "cargo"
 record = "768854bd91221bc5ced06bce2c375b26dd35c3b53d2b70ed66bda55292919eb5"
-from = "c2847ac6da8fa9b21d551f98ce268c7fe7bd233d520b0c9b23db39e1fa63aa34"
+from = "7fa25063fac4570dfe40ceee3b8b0f8e4c9f340306496256891bac3583ba64a8"
 deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[tealdeer.sources]]

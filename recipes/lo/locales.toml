@@ -1,7 +1,6 @@
 [[package]]
 id = "locales"
 scope = "runtime"
-core = true
 script = '''
 # Each locale compiled into a directory of its own for glibc to find through LOCPATH.
 mkdir -p $DEST$PREFIX/lib/locale

@@ -2,8 +2,7 @@
 id = "iputils"
 version = "20250605"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "libcap"]
+deps = ["meson", "ninja", "pkgconf", "libcap"]
 sources = [{ url = "https://github.com/iputils/iputils/archive/{version}/iputils-{version}.tar.gz" }]
 smoke = ["bin/ping -V"]
 

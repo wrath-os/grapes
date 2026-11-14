@@ -3,11 +3,9 @@ id = "pangomm"
 version = "2.46.5"
 track = "2.46."
 scope = "runtime"
-core = true
-extra_deps = ["pango", "glibmm", "cairomm"]
+deps = ["pango", "glibmm", "cairomm"]
 propagates = ["pango", "glibmm", "cairomm"]
 sources = [{ url = "https://download.gnome.org/sources/pangomm/{series}/pangomm-{version}.tar.xz" }]
-probes = ["pangomm-1.4"]
 
 [package.meson]
 args = ["-D build-documentation=false"]

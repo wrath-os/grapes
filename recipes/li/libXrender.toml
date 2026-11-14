@@ -2,10 +2,8 @@
 id = "libXrender"
 version = "0.9.13"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "xorgproto", "libX11"]
+deps = ["pkgconf", "xorgproto", "libX11"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libXrender-{version}.tar.xz" }]
-probes = ["xrender"]
 
 [package.autotools]
 args = ["--disable-static"]

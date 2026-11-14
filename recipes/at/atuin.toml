@@ -2,7 +2,6 @@
 id = "atuin"
 version = "18.24.6"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/atuinsh/atuin/archive/v{version}/atuin-{version}.tar.gz" }]
 smoke = ["bin/atuin --version"]
 

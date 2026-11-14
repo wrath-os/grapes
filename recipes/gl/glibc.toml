@@ -2,7 +2,7 @@
 id = "glibc"
 version = "2.42"
 scope = "runtime"
-fixup = false
+toolchain = "seed"
 deps = [
   "wrapper",
   { id = "seed", skip = "binutils" },

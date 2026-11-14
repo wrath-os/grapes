@@ -2,6 +2,7 @@
 id = "gcc-stage1"
 version = "15.2.0"
 scope = "boot"
+toolchain = "seed"
 deps = ["wrapper", "seed", "m4"]
 sources = [
   { url = "https://ftp.gnu.org/gnu/gcc/gcc-{version}/gcc-{version}.tar.xz" },
@@ -25,6 +26,7 @@ rm -f $DEST$PREFIX/lib/gcc/*/*/include-fixed/*.h
 id = "gcc"
 version = "15.2.0"
 scope = "tool"
+toolchain = "seed"
 deps = [
   "wrapper",
   { id = "seed", skip = "compilers" },

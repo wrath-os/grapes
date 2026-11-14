@@ -2,8 +2,7 @@
 id = "rtkit"
 version = "0.14"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "dbus", "libcap", "polkit"]
+deps = ["meson", "ninja", "pkgconf", "dbus", "libcap", "polkit"]
 sources = [{ url = "https://gitlab.freedesktop.org/pipewire/rtkit/-/archive/v{version}/rtkit-v{version}.tar.gz" }]
 
 # Gives processes that ask, such as PipeWire, realtime priority within limits.

@@ -4,8 +4,7 @@
 id = "unzip"
 version = "6.0"
 scope = "runtime"
-core = true
-extra_deps = ["bzip2"]
+deps = ["bzip2"]
 sources = [
   { url = "https://deb.debian.org/debian/pool/main/u/unzip/unzip_{version}.orig.tar.gz" },
   { url = "https://deb.debian.org/debian/pool/main/u/unzip/unzip_{version}-28.debian.tar.xz", into = "debian" },

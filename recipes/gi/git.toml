@@ -2,8 +2,7 @@
 id = "git"
 version = "2.51.0"
 scope = "runtime"
-core = true
-extra_deps = ["openssl", "zlib", "curl", "expat", "pcre2", "perl"]
+deps = ["openssl", "zlib", "curl", "expat", "pcre2", "perl"]
 sources = [{ url = "https://www.kernel.org/pub/software/scm/git/git-{version}.tar.xz" }]
 script = '''
 # Without the Tcl, Perl and Python parts: gitk, git gui, send-email and p4.

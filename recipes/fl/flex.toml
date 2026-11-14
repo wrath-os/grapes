@@ -2,8 +2,7 @@
 id = "flex"
 version = "2.6.4"
 scope = "runtime"
-core = true
-extra_deps = ["m4-final"]
+deps = ["m4-final"]
 propagates = ["m4-final"]
 sources = [{ url = "https://github.com/westes/flex/releases/download/v{version}/flex-{version}.tar.gz" }]
 smoke = ["bin/flex --version", "sh: printf '%%%%\\n%%%%\\n' > /tmp/x.l; $OUT/bin/flex -o /tmp/x.c /tmp/x.l"]

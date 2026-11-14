@@ -2,7 +2,6 @@
 id = "tree"
 version = "2.3.2"
 scope = "runtime"
-core = true
 sources = [{ url = "https://gitlab.com/OldManProgrammer/unix-tree/-/archive/{version}/unix-tree-{version}.tar.gz" }]
 script = '''
 make -j$NPROC

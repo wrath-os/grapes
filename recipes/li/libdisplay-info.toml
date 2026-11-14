@@ -3,10 +3,8 @@ id = "libdisplay-info"
 version = "0.3.0"
 hold = { below = "0.4", reason = "Smithay, in niri, takes versions below 0.4" }
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "hwdata", "python3"]
+deps = ["meson", "ninja", "pkgconf", "hwdata", "python3"]
 sources = [{ url = "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/{version}/downloads/libdisplay-info-{version}.tar.xz" }]
-probes = ["display-info"]
 
 # What a monitor says about itself.
 [package.meson]

@@ -2,10 +2,8 @@
 id = "attr"
 version = "2.5.2"
 scope = "runtime"
-core = true
 sources = [{ url = "https://download.savannah.gnu.org/releases/attr/attr-{version}.tar.gz" }]
 smoke = ["bin/getfattr --version"]
-probes = ["attr"]
 check_in_view = true
 check = "make -j$NPROC check"
 check_deps = ["perl"]

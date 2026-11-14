@@ -2,8 +2,7 @@
 id = "swayidle"
 version = "1.9.1"
 scope = "runtime"
-core = true
-extra_deps = ["wayland", "wayland-protocols", "systemd"]
+deps = ["wayland", "wayland-protocols", "systemd"]
 sources = [{ url = "https://github.com/swaywm/swayidle/releases/download/v{version}/swayidle-{version}.tar.gz" }]
 # It prints its help and exits with 1.
 smoke = ["bin/swayidle -h 2>&1 | grep -q Usage"]

@@ -2,7 +2,6 @@
 id = "hwdata"
 version = "0.413"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/vcrhonek/hwdata/archive/v{version}/hwdata-{version}.tar.gz" }]
 script = '''
 # The names of hardware vendors and devices, which libdisplay-info reads monitors' makers from.

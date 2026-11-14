@@ -2,7 +2,6 @@
 id = "eza"
 version = "0.23.5"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/eza-community/eza/archive/v{version}/eza-{version}.tar.gz" }]
 smoke = ["bin/eza --version", "bin/eza /"]
 

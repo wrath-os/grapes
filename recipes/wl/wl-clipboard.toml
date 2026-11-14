@@ -2,8 +2,7 @@
 id = "wl-clipboard"
 version = "2.3.0"
 scope = "runtime"
-core = true
-extra_deps = ["wayland", "wayland-protocols"]
+deps = ["wayland", "wayland-protocols"]
 sources = [{ url = "https://github.com/bugaevc/wl-clipboard/archive/v{version}/wl-clipboard-{version}.tar.gz" }]
 smoke = ["bin/wl-copy --version", "bin/wl-paste --version"]
 

@@ -2,8 +2,7 @@
 id = "libudev"
 version = "257.8"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
     "meson", "ninja", "python3", "markupsafe", "jinja2", "pyelftools", "pkgconf", "gperf", "libcap", "util-linux",
     "libxcrypt", "m4-final",
 ]
@@ -23,4 +22,3 @@ ln -s libudev.so.1 $DEST$PREFIX/lib/libudev.so
 cp "/build/b/$pc" $DEST$PREFIX/lib/pkgconfig/
 cp src/libudev/libudev.h $DEST$PREFIX/include/
 '''
-probes = ["udev"]

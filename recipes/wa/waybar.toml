@@ -2,8 +2,7 @@
 id = "waybar"
 version = "0.16.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "gtkmm3", "gtk-layer-shell", "spdlog", "jsoncpp", "wayland-protocols", "libinput",
   "libevdev", "libnl", "wireplumber", "playerctl",
 ]

@@ -2,8 +2,7 @@
 id = "fuzzel"
 version = "1.12.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "tllist", "fcft", "pixman", "libxkbcommon", "wayland",
   "wayland-protocols", "libpng", "scdoc",
 ]

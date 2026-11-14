@@ -2,7 +2,6 @@
 id = "glow"
 version = "3.0.0"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/charmbracelet/glow/archive/v{version}/glow-{version}.tar.gz" }]
 smoke = ["bin/glow --version"]
 

@@ -1,7 +1,7 @@
 [ast-grep]
 style = "cargo"
 record = "de6e8bf04b0df1fadbb701756d86b012bcca4b40376808d310d650db8dc738a7"
-from = "57a7bf3d9f4e2c3d8c4adca08e8f88c2fbc1e5a4fe7348a14299ab181464f893"
+from = "05d33897b8c8d81977a0b99b465c4a2767a5799f4887d7e35681a1b0dddf94a5"
 deps = ["rust-bin"]
 
 [[ast-grep.sources]]

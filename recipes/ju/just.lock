@@ -1,7 +1,7 @@
 [just]
 style = "cargo"
 record = "1674ac0ec68d2e4d6cd79d76bffadb8aa14ce39fca0a49909e078fac73c70a9c"
-from = "25bbae842364e9822a869a257969a24112a6aac3b2096e9cfb03bf5bd81f34be"
+from = "a128d5dbeb7ff375b8d84472b67db13dd408ad80be053165998352ec32261950"
 deps = ["rust-bin"]
 
 [[just.sources]]

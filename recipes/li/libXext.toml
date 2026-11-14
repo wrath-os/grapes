@@ -2,10 +2,8 @@
 id = "libXext"
 version = "1.3.7"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "xorgproto", "libX11"]
+deps = ["pkgconf", "xorgproto", "libX11"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libXext-{version}.tar.xz" }]
-probes = ["xext"]
 
 [package.autotools]
 args = ["--disable-static", "--disable-specs", "--without-xmlto", "--without-fop"]

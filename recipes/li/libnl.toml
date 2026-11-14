@@ -2,10 +2,8 @@
 id = "libnl"
 version = "3.12.0"
 scope = "runtime"
-core = true
-extra_deps = ["flex", "bison-final", "pkgconf"]
+deps = ["flex", "bison-final", "pkgconf"]
 sources = [{ url = "https://github.com/thom311/libnl/releases/download/libnl3_12_0/libnl-{version}.tar.gz" }]
-probes = ["libnl-3.0", "libnl-genl-3.0"]
 
 [package.autotools]
 args = ["--disable-static", "--disable-cli", "--sysconfdir=/etc"]

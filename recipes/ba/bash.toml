@@ -2,8 +2,8 @@
 id = "bash"
 version = "5.3"
 scope = "runtime"
-toolset = true
-extra_deps = ["readline"]
+toolchain = "compilers"
+deps = ["readline"]
 sources = [{ url = "https://ftp.gnu.org/gnu/bash/bash-{version}.tar.gz" }]
 script = '''
 ./configure --prefix=$PREFIX --without-bash-malloc --with-installed-readline

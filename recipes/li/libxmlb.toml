@@ -3,10 +3,8 @@
 id = "libxmlb"
 version = "0.3.30"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "glib", "xz", "zstd"]
+deps = ["meson", "ninja", "pkgconf", "glib", "xz", "zstd"]
 sources = [{ url = "https://github.com/hughsie/libxmlb/archive/{version}/libxmlb-{version}.tar.gz" }]
-probes = ["xmlb"]
 
 [package.meson]
 args = [

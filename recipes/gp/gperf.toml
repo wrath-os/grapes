@@ -2,7 +2,6 @@
 id = "gperf"
 version = "3.3"
 scope = "runtime"
-core = true
 sources = [{ url = "https://ftp.gnu.org/gnu/gperf/gperf-{version}.tar.gz" }]
 smoke = ["bin/gperf --version"]
 check_in_view = true

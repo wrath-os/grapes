@@ -3,10 +3,8 @@
 id = "libsndfile"
 version = "1.2.2"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "python3"]
+deps = ["pkgconf", "python3"]
 sources = [{ url = "https://github.com/libsndfile/libsndfile/releases/download/{version}/libsndfile-{version}.tar.xz" }]
-probes = ["sndfile"]
 
 [package.autotools]
 args = ["--disable-static", "--disable-external-libs", "--disable-mpeg", "--disable-full-suite"]

@@ -2,8 +2,7 @@
 id = "curl"
 version = "8.15.0"
 scope = "runtime"
-core = true
-extra_deps = ["openssl", "zlib", "perl"]
+deps = ["openssl", "zlib", "perl"]
 sources = [{ url = "https://curl.se/download/curl-{version}.tar.xz" }]
 smoke = ["bin/curl --version"]
 

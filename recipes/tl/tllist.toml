@@ -2,8 +2,7 @@
 id = "tllist"
 version = "1.1.0"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja"]
+deps = ["meson", "ninja"]
 sources = [{ url = "https://codeberg.org/dnkl/tllist/archive/{version}.tar.gz" }]
 
 # A typed linked list in one header, which fcft and fuzzel use.

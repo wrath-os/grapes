@@ -2,8 +2,7 @@
 id = "greetd"
 version = "0.10.3"
 scope = "runtime"
-core = true
-extra_deps = ["rust-bin", "linux-pam"]
+deps = ["rust-bin", "linux-pam"]
 sources = [{ url = "https://git.sr.ht/~kennylevinsen/greetd/archive/{version}.tar.gz" }]
 smoke = ["bin/greetd --help"]
 

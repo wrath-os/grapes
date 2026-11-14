@@ -2,10 +2,8 @@
 id = "pixman"
 version = "0.46.4"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf"]
+deps = ["meson", "ninja", "pkgconf"]
 sources = [{ url = "https://cairographics.org/releases/pixman-{version}.tar.gz" }]
-probes = ["pixman-1"]
 
 [package.meson]
 args = ["-D tests=disabled", "-D demos=disabled", "-D gtk=disabled", "-D libpng=disabled"]

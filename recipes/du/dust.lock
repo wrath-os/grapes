@@ -1,7 +1,7 @@
 [dust]
 style = "cargo"
 record = "4e94c97ab6287a5e8e64234371a3288637093cc886fc9ed225307c889ca141d8"
-from = "ff66230fff3b4b2280c61e670921bd1d06671ed3413828a033dec839f8ebcf7e"
+from = "db623370d37c598e2c11fbac26e9fa14b72fa28e706eaf66f62ac2fcf79f5d1a"
 deps = ["rust-bin"]
 
 [[dust.sources]]

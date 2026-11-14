@@ -2,10 +2,8 @@
 id = "libtiff"
 version = "4.7.2"
 scope = "runtime"
-core = true
-extra_deps = ["zlib", "libjpeg-turbo", "zstd", "xz"]
+deps = ["zlib", "libjpeg-turbo", "zstd", "xz"]
 sources = [{ url = "https://download.osgeo.org/libtiff/tiff-{version}.tar.xz" }]
-probes = ["libtiff-4"]
 
 # TIFF images, which GTK 4 loads itself.
 [package.cmake]

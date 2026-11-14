@@ -4,10 +4,8 @@
 id = "nss"
 version = "3.133"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "perl", "nspr", "sqlite", "zlib"]
+deps = ["pkgconf", "perl", "nspr", "sqlite", "zlib"]
 sources = [{ url = "https://ftp.mozilla.org/pub/security/nss/releases/NSS_{underscored}_RTM/src/nss-{version}.tar.gz" }]
-probes = ["nss"]
 script = '''
 cd nss
 make -j1 all BUILD_OPT=1 USE_64=1 NSS_USE_SYSTEM_SQLITE=1 USE_SYSTEM_ZLIB=1 \

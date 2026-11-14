@@ -2,9 +2,7 @@
 id = "mtdev"
 version = "1.1.7"
 scope = "runtime"
-core = true
 sources = [{ url = "http://bitmath.org/code/mtdev/mtdev-{version}.tar.bz2" }]
-probes = ["mtdev"]
 
 [package.autotools]
 args = ["--disable-static"]

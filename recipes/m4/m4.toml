@@ -2,6 +2,7 @@
 id = "m4"
 version = "1.4.20"
 scope = "boot"
+toolchain = "seed"
 deps = ["wrapper", "seed"]
 sources = [{ url = "https://ftp.gnu.org/gnu/m4/m4-{version}.tar.xz" }]
 script = '''

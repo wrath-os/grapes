@@ -5,8 +5,7 @@
 id = "zen-browser"
 version = "1.24.2b"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "gtk3", "glib", "at-spi2-core", "cairo", "pango", "gdk-pixbuf", "dbus", "fontconfig",
   "freetype", "alsa-lib", "libpulse", "libX11", "libxcb", "libXext", "libXrender", "libXi",
   "libXrandr", "libXcursor", "libXdamage", "libXfixes", "libXcomposite", "mesa", "libdrm",

@@ -2,10 +2,8 @@
 id = "libinput"
 version = "1.32.0"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "systemd", "libevdev", "mtdev"]
+deps = ["meson", "ninja", "pkgconf", "systemd", "libevdev", "mtdev"]
 sources = [{ url = "https://gitlab.freedesktop.org/libinput/libinput/-/archive/{version}/libinput-{version}.tar.gz" }]
-probes = ["libinput"]
 
 # Keyboards, mice and touchpads, for the compositor.
 [package.meson]

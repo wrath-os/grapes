@@ -1,7 +1,7 @@
 [nano]
 style = "autotools"
-record = "7cd10214d76ac1127c76a5e372c1de7c652ee02b86f05ca10e493d389257d7b2"
-from = "634c8aaaa763037b4d30f84b72e878a871f4a1bb1fbafd7be2f4fae23a012f18"
+record = "0c238800f6c01b181e94ce7b2e4e1eb55d7ae5caa1c5c55e75e5bde9f5234ab5"
+from = "681e4e8f15f6c05f04d90baed3d8512598cc42c59478842afe0cc0a4f7d81c72"
 deps = []
 
 [[nano.sources]]

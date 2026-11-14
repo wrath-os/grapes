@@ -2,10 +2,8 @@
 id = "libXi"
 version = "1.8.4"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "xorgproto", "libX11", "libXext", "libXfixes"]
+deps = ["pkgconf", "xorgproto", "libX11", "libXext", "libXfixes"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libXi-{version}.tar.xz" }]
-probes = ["xi"]
 
 [package.autotools]
 args = [

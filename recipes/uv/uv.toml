@@ -2,7 +2,6 @@
 id = "uv"
 version = "0.13.7"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/astral-sh/uv/archive/{version}/uv-{version}.tar.gz" }]
 smoke = ["bin/uv --version", "bin/uvx --version"]
 

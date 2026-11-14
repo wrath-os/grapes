@@ -2,8 +2,7 @@
 id = "iw"
 version = "6.17"
 scope = "runtime"
-core = true
-extra_deps = ["libnl", "pkgconf"]
+deps = ["libnl", "pkgconf"]
 sources = [{ url = "https://www.kernel.org/pub/software/network/iw/iw-{version}.tar.xz" }]
 script = '''
 make -j$NPROC

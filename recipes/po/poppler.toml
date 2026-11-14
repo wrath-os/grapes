@@ -2,13 +2,11 @@
 id = "poppler"
 version = "26.11.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "python3", "cairo", "glib", "fontconfig", "freetype", "harfbuzz", "libjpeg-turbo", "libpng",
   "libtiff", "lcms2", "zlib",
 ]
 sources = [{ url = "https://poppler.freedesktop.org/poppler-{version}.tar.xz" }]
-probes = ["poppler", "poppler-glib"]
 smoke = ["bin/pdfinfo -v"]
 
 # PDFs, drawn with cairo for GLib programs, and the pdfinfo and pdftotext tools.

@@ -2,8 +2,7 @@
 id = "ethtool"
 version = "7.2"
 scope = "runtime"
-core = true
-extra_deps = ["libmnl", "pkgconf"]
+deps = ["libmnl", "pkgconf"]
 sources = [{ url = "https://www.kernel.org/pub/software/network/ethtool/ethtool-{version}.tar.xz" }]
 smoke = ["sbin/ethtool --version"]
 

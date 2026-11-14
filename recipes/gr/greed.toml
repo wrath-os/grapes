@@ -5,9 +5,8 @@
 id = "greed"
 version = "0.4.2"
 scope = "runtime"
-core = true
 # wasmtime builds its C API, and aws-lc its crypto, with cmake.
-extra_deps = ["cmake", "wayland", "libxkbcommon", "mesa"]
+deps = ["cmake", "wayland", "libxkbcommon", "mesa"]
 sources = [{ url = "https://github.com/johnae/greed/archive/v{version}/greed-{version}.tar.gz" }]
 smoke = ["bin/greed --version"]
 

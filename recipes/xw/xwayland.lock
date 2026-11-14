@@ -11,7 +11,7 @@ hash = "7311b4bcda22cfc19cb99680eb1c35cfc1ea885981310639f0429fe2948c122e"
 [xwayland-satellite]
 style = "cargo"
 record = "679075c8bd8a36f057d89c41d6090e84653053e6b40c5f7d748dfc73e8fd197c"
-from = "b26c2e4db5d5b570d18188f52ce2cc15f6e4c29090c0221bdf393ed19dd92c59"
+from = "3f23d005d55eb5acc256102404eefe369246b0e4dba008682518b57238d5546b"
 deps = []
 
 [[xwayland-satellite.sources]]

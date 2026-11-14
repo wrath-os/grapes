@@ -2,7 +2,7 @@
 id = "coreutils"
 version = "9.7"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://ftp.gnu.org/gnu/coreutils/coreutils-{version}.tar.xz" }]
 script = '''
 FORCE_UNSAFE_CONFIGURE=1 ./configure --prefix=$PREFIX --disable-nls --enable-no-install-program=kill,uptime

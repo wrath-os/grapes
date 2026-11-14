@@ -2,10 +2,8 @@
 id = "tpm2-tss"
 version = "4.2.1"
 scope = "runtime"
-core = true
-extra_deps = ["openssl", "pkgconf"]
+deps = ["openssl", "pkgconf"]
 sources = [{ url = "https://github.com/tpm2-software/tpm2-tss/releases/download/{version}/tpm2-tss-{version}.tar.gz" }]
-probes = ["tss2-esys", "tss2-rc", "tss2-mu", "tss2-tcti-device"]
 
 # The libraries systemd talks to the TPM through, to unlock disks with it. The feature API and
 # policy library need a JSON parser and a web client, and systemd uses neither.

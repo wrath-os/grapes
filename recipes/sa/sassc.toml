@@ -4,7 +4,6 @@
 id = "sassc"
 version = "3.6.2"
 scope = "runtime"
-core = true
 sources = [
   { url = "https://github.com/sass/sassc/archive/{version}/sassc-{version}.tar.gz" },
   { url = "https://github.com/sass/libsass/archive/3.6.6/libsass-3.6.6.tar.gz", into = "libsass" },

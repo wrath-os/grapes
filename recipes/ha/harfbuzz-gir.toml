@@ -3,8 +3,7 @@
 id = "harfbuzz-gir"
 version = "15.1.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "freetype", "glib", "gobject-introspection",
   "setuptools", "glib-gir", "gobject-introspection-gir",
 ]

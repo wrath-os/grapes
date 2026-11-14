@@ -2,8 +2,7 @@
 id = "mtr"
 version = "0.96"
 scope = "runtime"
-core = true
-extra_deps = ["ncurses", "autoconf", "automake", "pkgconf"]
+deps = ["ncurses", "autoconf", "automake", "pkgconf"]
 sources = [{ url = "https://github.com/traviscross/mtr/archive/v{version}/mtr-{version}.tar.gz" }]
 smoke = ["sbin/mtr --version"]
 

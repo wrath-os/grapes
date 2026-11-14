@@ -2,8 +2,7 @@
 id = "pango-gir"
 version = "1.56.4"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "harfbuzz", "fribidi", "cairo",
   "gobject-introspection", "setuptools", "glib-gir", "gobject-introspection-gir",
   "harfbuzz-gir",

@@ -2,8 +2,7 @@
 id = "bison-final"
 version = "3.8.2"
 scope = "runtime"
-core = true
-extra_deps = ["m4-final"]
+deps = ["m4-final"]
 # It runs m4 as it works, so whatever uses it gets m4 too.
 propagates = ["m4-final"]
 sources = [{ url = "https://ftp.gnu.org/gnu/bison/bison-{version}.tar.xz" }]

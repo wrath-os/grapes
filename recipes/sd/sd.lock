@@ -1,7 +1,7 @@
 [sd]
 style = "cargo"
 record = "72ac550a8d26ded4fab291e254fcce1654a2410ede31f2de58801ed9fb52a5cd"
-from = "c20d56526ee161bdcd472a8b40d85b789526a9f9eb21b860df2f4fc769b85f4a"
+from = "4e683393ff43360f5e23001f0eed7df9e9aaae49ae81a17aa0d42c0787efadbd"
 deps = ["rust-bin"]
 
 [[sd.sources]]

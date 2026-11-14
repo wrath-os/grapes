@@ -5,8 +5,7 @@
 id = "ghostty"
 version = "1.4.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "gtk4", "libadwaita", "gtk4-layer-shell", "fontconfig", "freetype", "harfbuzz", "glslang",
   "highway", "libpng", "zlib", "bzip2", "wayland", "wayland-protocols", "libxkbcommon", "mesa",
   "gettext", "ncurses", "glib", "python3", "blueprint-compiler", "pygobject", "glib-gir",

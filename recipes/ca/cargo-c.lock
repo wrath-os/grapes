@@ -1,7 +1,7 @@
 [cargo-c]
 style = "cargo"
 record = "9e1c63d0324314016cfbe2f13110967069cab4881d5505b1629b6997fac88045"
-from = "475de45cfac477cd4880eb20812f1c90c13c3116f2bbd95a2dfde722729c72c0"
+from = "412aacc29d992e9a4398968a8390927c855ec9f9e89cdab1ac18404a76a889b1"
 deps = []
 
 [[cargo-c.sources]]

@@ -2,11 +2,9 @@
 id = "pcre2"
 version = "10.45"
 scope = "runtime"
-core = true
-extra_deps = ["zlib", "bzip2"]
+deps = ["zlib", "bzip2"]
 sources = [{ url = "https://github.com/PCRE2Project/pcre2/releases/download/pcre2-{version}/pcre2-{version}.tar.bz2" }]
 smoke = ["bin/pcre2grep --version"]
-probes = ["pcre2-8"]
 check_build = "make -j$NPROC check TESTS="
 check = "make -j$NPROC check"
 check_in_view = true

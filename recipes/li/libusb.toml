@@ -2,10 +2,8 @@
 id = "libusb"
 version = "1.0.30"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "systemd"]
+deps = ["pkgconf", "systemd"]
 sources = [{ url = "https://github.com/libusb/libusb/releases/download/v{version}/libusb-{version}.tar.bz2" }]
-probes = ["libusb-1.0"]
 
 [package.autotools]
 args = ["--disable-static"]

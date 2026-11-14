@@ -2,8 +2,7 @@
 id = "device-mapper"
 version = "2.03.30"
 scope = "runtime"
-core = true
-extra_deps = ["util-linux", "pkgconf", "libudev"]
+deps = ["util-linux", "pkgconf", "libudev"]
 sources = [{ url = "https://sourceware.org/pub/lvm2/LVM2.{version}.tgz" }]
 script = '''
 ./configure --prefix=$PREFIX --sbindir=$PREFIX/bin --libdir=$PREFIX/lib --disable-static_link \
@@ -14,4 +13,3 @@ make -j$NPROC device-mapper
 make install_device-mapper DESTDIR=$DEST
 '''
 smoke = ["bin/dmsetup --version"]
-probes = ["devmapper"]

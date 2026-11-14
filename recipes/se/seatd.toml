@@ -2,10 +2,8 @@
 id = "seatd"
 version = "0.9.1"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "systemd"]
+deps = ["meson", "ninja", "pkgconf", "systemd"]
 sources = [{ url = "https://git.sr.ht/~kennylevinsen/seatd/archive/{version}.tar.gz" }]
-probes = ["libseat"]
 
 # libseat, which the compositor opens displays and input devices through, with logind.
 [package.meson]

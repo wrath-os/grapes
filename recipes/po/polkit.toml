@@ -2,8 +2,7 @@
 id = "polkit"
 version = "127"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
     "meson", "ninja", "pkgconf", "glib", "expat", "duktape", "linux-pam",
     "systemd", "gettext", "perl",
     "python3",

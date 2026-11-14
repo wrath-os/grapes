@@ -2,8 +2,7 @@
 id = "dbus"
 version = "1.16.2"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "python3", "pkgconf", "expat", "systemd", "libcap"]
+deps = ["meson", "ninja", "python3", "pkgconf", "expat", "systemd", "libcap"]
 sources = [{ url = "https://dbus.freedesktop.org/releases/dbus/dbus-{version}.tar.xz" }]
 smoke = ["bin/dbus-daemon --version"]
 

@@ -1,8 +1,7 @@
 [[package]]
 id = "zlib-version"
 scope = "runtime"
-core = true
-extra_deps = ["zlib"]
+deps = ["zlib"]
 script = '''
 mkdir -p $DEST$PREFIX/bin
 cat > v.c <<'C'

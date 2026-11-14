@@ -3,9 +3,8 @@
 id = "tomlplusplus"
 version = "3.4.0"
 scope = "runtime"
-core = true
 # Its build writes CMake package files too, with cmake.
-extra_deps = ["cmake"]
+deps = ["cmake"]
 sources = [{ url = "https://github.com/marzer/tomlplusplus/archive/v{version}/tomlplusplus-{version}.tar.gz" }]
 
 [package.meson]

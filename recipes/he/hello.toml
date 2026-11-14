@@ -1,6 +1,7 @@
 [[package]]
 id = "hello"
 scope = "runtime"
+toolchain = "seed"
 deps = [
   "wrapper",
   { id = "seed", skip = "compilers" },

@@ -2,8 +2,7 @@
 id = "grim"
 version = "1.5.0"
 scope = "runtime"
-core = true
-extra_deps = ["pixman", "libpng", "libjpeg-turbo", "wayland", "wayland-protocols"]
+deps = ["pixman", "libpng", "libjpeg-turbo", "wayland", "wayland-protocols"]
 sources = [{ url = "https://gitlab.freedesktop.org/emersion/grim/-/archive/v{version}/grim-v{version}.tar.gz" }]
 smoke = ["bin/grim -h"]
 

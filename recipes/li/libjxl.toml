@@ -3,10 +3,8 @@
 id = "libjxl"
 version = "0.13.0"
 scope = "runtime"
-core = true
-extra_deps = ["brotli", "highway", "lcms2", "pkgconf"]
+deps = ["brotli", "highway", "lcms2", "pkgconf"]
 sources = [{ url = "https://github.com/libjxl/libjxl/archive/v{version}/libjxl-{version}.tar.gz" }]
-probes = ["jxl", "jxl_threads"]
 
 [package.cmake]
 args = [

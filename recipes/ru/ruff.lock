@@ -1,7 +1,7 @@
 [ruff]
 style = "cargo"
 record = "818763f443491e68612fdd590afbbf2bd17a2446d37c27b7759ad3b19ddd94ac"
-from = "ec299185d0e0946780632a5c014829ecb4b3447cd7fdc5c69711f8b06345e063"
+from = "fbc278568a1e29789d913bf808a7f7ef516056fa26dd756bea691cbd86826fcf"
 deps = ["rust-bin"]
 
 [[ruff.sources]]

@@ -2,10 +2,8 @@
 id = "libXcursor"
 version = "1.2.3"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "xorgproto", "libX11", "libXrender", "libXfixes"]
+deps = ["pkgconf", "xorgproto", "libX11", "libXrender", "libXfixes"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libXcursor-{version}.tar.xz" }]
-probes = ["xcursor"]
 
 [package.autotools]
 args = ["--disable-static"]

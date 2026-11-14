@@ -2,10 +2,8 @@
 id = "harfbuzz"
 version = "15.1.0"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "python3", "freetype", "glib"]
+deps = ["meson", "ninja", "pkgconf", "python3", "freetype", "glib"]
 sources = [{ url = "https://github.com/harfbuzz/harfbuzz/releases/download/{version}/harfbuzz-{version}.tar.xz" }]
-probes = ["harfbuzz", "harfbuzz-gobject"]
 
 # With its GObject library, which bindings made from Pango's typelib link, such as Ghostty's.
 [package.meson]

@@ -2,7 +2,6 @@
 id = "nasm"
 version = "3.02"
 scope = "runtime"
-core = true
 sources = [{ url = "https://www.nasm.us/pub/nasm/releasebuilds/{version}/nasm-{version}.tar.xz" }]
 smoke = ["bin/nasm -v"]
 

@@ -3,11 +3,9 @@ id = "cairomm"
 version = "1.14.5"
 track = "1.14."
 scope = "runtime"
-core = true
-extra_deps = ["cairo", "libsigc++"]
+deps = ["cairo", "libsigc++"]
 propagates = ["cairo", "libsigc++"]
 sources = [{ url = "https://www.cairographics.org/releases/cairomm-{version}.tar.xz" }]
-probes = ["cairomm-1.0"]
 
 [package.meson]
 args = ["-D build-examples=false", "-D build-documentation=false", "-D build-tests=false"]

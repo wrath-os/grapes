@@ -2,8 +2,7 @@
 id = "wget"
 version = "1.25.0"
 scope = "runtime"
-core = true
-extra_deps = ["openssl", "zlib", "pkgconf", "perl"]
+deps = ["openssl", "zlib", "pkgconf", "perl"]
 sources = [{ url = "https://ftp.gnu.org/gnu/wget/wget-{version}.tar.gz" }]
 smoke = ["bin/wget --version"]
 

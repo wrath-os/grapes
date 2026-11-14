@@ -1,7 +1,7 @@
 [zellij]
 style = "cargo"
 record = "7e80f8fa49c3a9a9c805bef8cc7fb738940945f3e740783ec3d19321aababd41"
-from = "49fafe14773ddd86378081989ba627cb78c8b981e4826ebdcb838072d17727f3"
+from = "889bcdbd292c4343a3a5e23fffa81c44721e468ddc43694dc425b154c9c17096"
 deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[zellij.sources]]

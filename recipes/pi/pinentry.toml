@@ -2,8 +2,7 @@
 id = "pinentry"
 version = "1.3.3"
 scope = "runtime"
-core = true
-extra_deps = ["libassuan", "libgpg-error", "ncurses"]
+deps = ["libassuan", "libgpg-error", "ncurses"]
 sources = [{ url = "https://gnupg.org/ftp/gcrypt/pinentry/pinentry-{version}.tar.bz2" }]
 smoke = ["bin/pinentry --version"]
 

@@ -2,8 +2,7 @@
 id = "xkbcomp"
 version = "1.5.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "bison-final", "m4-final", "libxkbfile",
 ]
 sources = [{ url = "https://www.x.org/archive/individual/app/xkbcomp-{version}.tar.xz" }]

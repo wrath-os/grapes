@@ -2,8 +2,7 @@
 id = "iperf3"
 version = "3.22"
 scope = "runtime"
-core = true
-extra_deps = ["openssl"]
+deps = ["openssl"]
 sources = [{ url = "https://downloads.es.net/pub/iperf/iperf-{version}.tar.gz" }]
 smoke = ["bin/iperf3 --version"]
 

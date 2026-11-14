@@ -2,7 +2,7 @@
 id = "cmake"
 version = "4.1.0"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://cmake.org/files/v4.1/cmake-{version}.tar.gz" }]
 script = '''
 ./bootstrap --prefix=$PREFIX --parallel=$NPROC --no-qt-gui -- -DCMAKE_USE_OPENSSL=OFF

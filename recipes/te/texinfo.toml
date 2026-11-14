@@ -2,8 +2,7 @@
 id = "texinfo"
 version = "7.2"
 scope = "runtime"
-core = true
-extra_deps = ["perl", "ncurses"]
+deps = ["perl", "ncurses"]
 sources = [{ url = "https://ftp.gnu.org/gnu/texinfo/texinfo-{version}.tar.xz" }]
 smoke = ["bin/makeinfo --version"]
 check_in_view = true

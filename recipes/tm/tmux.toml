@@ -2,8 +2,7 @@
 id = "tmux"
 version = "3.8"
 scope = "runtime"
-core = true
-extra_deps = ["ncurses", "libevent", "pkgconf", "bison-final"]
+deps = ["ncurses", "libevent", "pkgconf", "bison-final"]
 sources = [{ url = "https://github.com/tmux/tmux/releases/download/{version}/tmux-{version}.tar.gz" }]
 # It wants a UTF-8 locale, which a machine has from `locales` and the check doesn't, so this
 # only checks that it loads and runs.

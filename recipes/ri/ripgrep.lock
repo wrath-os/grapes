@@ -1,7 +1,7 @@
 [ripgrep]
 style = "cargo"
 record = "c06ae3d4e5983666c56ccd33e85a72101b026058af1b4a345657466ce7b14087"
-from = "398a4c03877954bb2dd2448d1e65da0d7efc9d043d1e7a34b8d2a08a5609d586"
+from = "d88de4bded814f5ea89fb9d4d182c556a7e0b3693506e82fc93da151430a2b75"
 deps = []
 
 [[ripgrep.sources]]

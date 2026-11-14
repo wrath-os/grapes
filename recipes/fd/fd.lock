@@ -1,7 +1,7 @@
 [fd]
 style = "cargo"
 record = "a41a04e32f41f33b9057ebdeeb940aa291d91e7cf32bbb6f4b18d13bf37fd42f"
-from = "3207753d10eddba99e5febd3963847f3fd4fcaa2fbb3e6bd51deacf30e2393cf"
+from = "d44c90dac94eaf9e94e1753475e1ec841007d6d9d7abe0ad3c33fe210d28bed7"
 deps = ["rust-bin"]
 
 [[fd.sources]]

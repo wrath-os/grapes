@@ -2,10 +2,8 @@
 id = "libxkbcommon"
 version = "1.13.2"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "bison-final", "m4-final", "xkeyboard-config", "libxml2"]
+deps = ["meson", "ninja", "pkgconf", "bison-final", "m4-final", "xkeyboard-config", "libxml2"]
 sources = [{ url = "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-{version}/libxkbcommon-xkbcommon-{version}.tar.gz" }]
-probes = ["xkbcommon"]
 
 # Keymaps from keyboard layouts, read from xkeyboard-config where it is in the store.
 [package.meson]
@@ -22,13 +20,11 @@ args = [
 id = "libxkbcommon-x11"
 version = "1.13.2"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "bison-final", "m4-final", "xkeyboard-config", "libxml2",
   "libxcb", "libxkbcommon",
 ]
 sources = [{ url = "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-{version}/libxkbcommon-xkbcommon-{version}.tar.gz" }]
-probes = ["xkbcommon-x11"]
 
 [package.meson]
 args = [

@@ -1,8 +1,7 @@
 [[package]]
 id = "wrath"
 scope = "runtime"
-core = true
-extra_deps = ["rust-bin"]
+deps = ["rust-bin"]
 sources = [{ url = "tree:@wrath", include = ["Cargo.toml", "Cargo.lock", "crates"] }]
 smoke = ["bin/wrath --version", "bin/wrath-agent --help"]
 

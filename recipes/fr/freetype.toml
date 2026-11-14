@@ -2,10 +2,8 @@
 id = "freetype"
 version = "2.15.0"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "libpng"]
+deps = ["meson", "ninja", "pkgconf", "libpng"]
 sources = [{ url = "https://download.savannah.gnu.org/releases/freetype/freetype-{version}.tar.xz" }]
-probes = ["freetype2"]
 
 # Without HarfBuzz, which is built on FreeType.
 [package.meson]

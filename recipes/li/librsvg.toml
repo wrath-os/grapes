@@ -4,13 +4,11 @@
 id = "librsvg"
 version = "2.62.4"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "rust-bin", "cargo-c", "meson", "ninja", "pkgconf", "cairo", "pango", "glib", "freetype",
   "harfbuzz", "fontconfig", "libxml2", "gdk-pixbuf", "python3",
 ]
 sources = [{ url = "https://download.gnome.org/sources/librsvg/{series}/librsvg-{version}.tar.xz" }]
-probes = ["rsvg-2"]
 
 [package.cargo]
 vendor_only = true

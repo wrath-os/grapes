@@ -2,10 +2,8 @@
 id = "libnotify"
 version = "0.8.9"
 scope = "runtime"
-core = true
-extra_deps = ["gdk-pixbuf"]
+deps = ["gdk-pixbuf"]
 sources = [{ url = "https://download.gnome.org/sources/libnotify/{series}/libnotify-{version}.tar.xz" }]
-probes = ["libnotify"]
 smoke = ["bin/notify-send --version"]
 
 # Desktop notifications, and notify-send to show one from a shell.

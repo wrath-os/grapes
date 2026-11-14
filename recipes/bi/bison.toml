@@ -2,6 +2,7 @@
 id = "bison"
 version = "3.8.2"
 scope = "boot"
+toolchain = "seed"
 deps = ["wrapper", "seed", "m4"]
 sources = [{ url = "https://ftp.gnu.org/gnu/bison/bison-{version}.tar.xz" }]
 script = '''

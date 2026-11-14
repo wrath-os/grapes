@@ -2,7 +2,6 @@
 id = "pciutils"
 version = "3.15.0"
 scope = "runtime"
-core = true
 sources = [{ url = "https://mj.ucw.cz/download/linux/pci/pciutils-{version}.tar.gz" }]
 script = '''
 # With the PCI ID list the release carries, so devices have names.

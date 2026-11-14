@@ -1,7 +1,7 @@
 [fish]
 style = "cargo"
 record = "5699b6e83af1dd92d080a7a3bb221d189a5edf61e2aad279bc1599be944d1e76"
-from = "5c72a2437b92b8a5e5eb720abff25fb85ac14fffa199bd5b1bae9b72049540d4"
+from = "64253e565e603c0eab98bd89a1471a29dd0ab5b133454a84891d58e798f6c652"
 deps = ["rust-bin"]
 
 [[fish.sources]]

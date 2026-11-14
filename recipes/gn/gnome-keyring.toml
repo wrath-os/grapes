@@ -2,8 +2,7 @@
 id = "gnome-keyring"
 version = "51.1"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3",
   "gcr3", "libgcrypt", "systemd", "linux-pam", "gettext",
 ]

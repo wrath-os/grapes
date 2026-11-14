@@ -1,7 +1,7 @@
 [bat]
 style = "cargo"
 record = "6d91cacf0478dc0cbd5fd4775b64f6a3289f65b8947d35607c7cee80c89c61ef"
-from = "d76061d6d52977da24e6fc5239bc848dac7d7ecd4eef40282c44f176ffecef17"
+from = "72021f27cd9c31c683a2160e607f85901d99bac38e5a7a98a47a763801d31c90"
 deps = ["rust-bin"]
 
 [[bat.sources]]

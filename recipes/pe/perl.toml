@@ -2,8 +2,8 @@
 id = "perl"
 version = "5.42.0"
 scope = "runtime"
-toolset = true
-extra_deps = ["zlib", "bzip2"]
+toolchain = "compilers"
+deps = ["zlib", "bzip2"]
 sources = [{ url = "https://www.cpan.org/src/5.0/perl-{version}.tar.xz" }]
 script = '''
 export BUILD_ZLIB=False BUILD_BZIP2=0

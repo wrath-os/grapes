@@ -2,8 +2,7 @@
 id = "zram-generator"
 version = "1.2.1"
 scope = "runtime"
-core = true
-extra_deps = ["rust-bin", "systemd"]
+deps = ["rust-bin", "systemd"]
 sources = [{ url = "https://github.com/systemd/zram-generator/archive/v{version}/zram-generator-{version}.tar.gz" }]
 files = ["locks/zram-generator.Cargo.lock"]
 

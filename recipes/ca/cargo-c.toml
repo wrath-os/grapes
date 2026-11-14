@@ -3,8 +3,7 @@
 id = "cargo-c"
 version = "0.10.26+cargo-0.100.0"
 scope = "runtime"
-core = true
-extra_deps = ["rust-bin", "pkgconf", "openssl", "zlib", "curl"]
+deps = ["rust-bin", "pkgconf", "openssl", "zlib", "curl"]
 # The crate as published, which has the lock the repository leaves out.
 sources = [{ url = "https://static.crates.io/crates/cargo-c/cargo-c-{version}.crate" }]
 smoke = ["bin/cargo-cbuild --version"]

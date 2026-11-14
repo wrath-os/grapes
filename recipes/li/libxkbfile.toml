@@ -2,9 +2,7 @@
 id = "libxkbfile"
 version = "1.2.0"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf", "libX11"]
+deps = ["meson", "ninja", "pkgconf", "libX11"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libxkbfile-{version}.tar.xz" }]
-probes = ["xkbfile"]
 
 [package.meson]

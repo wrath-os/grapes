@@ -4,10 +4,8 @@
 id = "libcups"
 version = "2.4.20"
 scope = "runtime"
-core = true
-extra_deps = ["pkgconf", "openssl", "zlib", "perl"]
+deps = ["pkgconf", "openssl", "zlib", "perl"]
 sources = [{ url = "https://github.com/OpenPrinting/cups/releases/download/v{version}/cups-{version}-source.tar.gz" }]
-probes = ["cups"]
 
 [package.autotools]
 args = [

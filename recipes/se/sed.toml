@@ -2,7 +2,7 @@
 id = "sed"
 version = "4.9"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://ftp.gnu.org/gnu/sed/sed-{version}.tar.xz" }]
 script = '''
 ./configure --prefix=$PREFIX --disable-nls

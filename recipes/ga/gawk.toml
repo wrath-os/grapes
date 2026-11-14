@@ -2,7 +2,7 @@
 id = "gawk"
 version = "5.3.2"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://ftp.gnu.org/gnu/gawk/gawk-{version}.tar.xz" }]
 script = '''
 ./configure --prefix=$PREFIX --disable-nls

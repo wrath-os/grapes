@@ -2,8 +2,7 @@
 id = "graphene-gir"
 version = "1.10.8"
 scope = "runtime"
-core = true
-extra_deps = ["python3", "glib", "gobject-introspection", "setuptools", "glib-gir"]
+deps = ["python3", "glib", "gobject-introspection", "setuptools", "glib-gir"]
 sources = [{ url = "https://download.gnome.org/sources/graphene/{series}/graphene-{version}.tar.xz" }]
 
 [package.meson]

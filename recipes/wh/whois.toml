@@ -2,8 +2,7 @@
 id = "whois"
 version = "5.6.6"
 scope = "runtime"
-core = true
-extra_deps = ["perl"]
+deps = ["perl"]
 sources = [{ url = "https://deb.debian.org/debian/pool/main/w/whois/whois_{version}.tar.xz" }]
 script = '''
 make -j$NPROC whois HAVE_ICONV=1

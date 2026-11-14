@@ -3,10 +3,8 @@
 id = "libical"
 version = "4.0.7"
 scope = "runtime"
-core = true
-extra_deps = ["perl"]
+deps = ["perl"]
 sources = [{ url = "https://github.com/libical/libical/archive/v{version}/libical-{version}.tar.gz" }]
-probes = ["ical"]
 
 [package.cmake]
 args = [

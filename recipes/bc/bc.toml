@@ -2,7 +2,6 @@
 id = "bc"
 version = "7.0.3"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/gavinhoward/bc/releases/download/{version}/bc-{version}.tar.xz" }]
 smoke = ["bin/bc --version"]
 check = "make test"

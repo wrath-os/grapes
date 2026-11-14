@@ -2,8 +2,7 @@
 id = "systemd"
 version = "257.8"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
     "meson", "ninja", "python3", "markupsafe", "jinja2", "pyelftools", "pkgconf", "gperf", "libcap",
     "libxcrypt", "acl", "kmod", "lz4", "kbd", "gettext", "m4-final",
     "linux-pam", "cryptsetup", "tpm2-tss",
@@ -11,7 +10,6 @@ extra_deps = [
 sources = [{ url = "https://github.com/systemd/systemd/archive/v{version}/systemd-{version}.tar.gz" }]
 smoke = ["bin/systemctl --version", "lib/systemd/systemd --version", "bin/udevadm --version",
     "bin/systemd-repart --version", "lib/systemd/systemd-cryptsetup --version"]
-probes = ["systemd"]
 
 [package.meson]
 args = [

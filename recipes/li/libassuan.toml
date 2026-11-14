@@ -2,10 +2,8 @@
 id = "libassuan"
 version = "3.0.2"
 scope = "runtime"
-core = true
 deps = ["libgpg-error"]
 sources = [{ url = "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-{version}.tar.bz2" }]
-probes = ["libassuan"]
 
 [package.autotools]
 args = ["--disable-static"]

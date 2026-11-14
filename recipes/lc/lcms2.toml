@@ -3,9 +3,7 @@
 id = "lcms2"
 version = "2.20"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/mm2/Little-CMS/releases/download/lcms{version}/lcms2-{version}.tar.gz" }]
-probes = ["lcms2"]
 
 [package.autotools]
 args = ["--disable-static"]

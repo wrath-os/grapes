@@ -2,8 +2,7 @@
 id = "nginx"
 version = "1.28.0"
 scope = "runtime"
-core = true
-extra_deps = ["pcre2", "zlib"]
+deps = ["pcre2", "zlib"]
 sources = [{ url = "https://nginx.org/download/nginx-{version}.tar.gz" }]
 smoke = ["bin/nginx -v"]
 

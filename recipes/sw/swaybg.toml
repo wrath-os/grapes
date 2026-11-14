@@ -2,8 +2,7 @@
 id = "swaybg"
 version = "1.2.2"
 scope = "runtime"
-core = true
-extra_deps = ["cairo", "gdk-pixbuf", "wayland", "wayland-protocols"]
+deps = ["cairo", "gdk-pixbuf", "wayland", "wayland-protocols"]
 sources = [{ url = "https://github.com/swaywm/swaybg/releases/download/v{version}/swaybg-{version}.tar.gz" }]
 smoke = ["bin/swaybg -v"]
 

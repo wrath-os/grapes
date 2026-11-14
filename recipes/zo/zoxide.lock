@@ -1,7 +1,7 @@
 [zoxide]
 style = "cargo"
 record = "b3e20377e34e013aaceb1ff878570e14c59a19be8311bbc5d69edaf30245bb49"
-from = "5d2633bc270ff6904f424046657f415a1f73fbbb38ecea7d7a7970ef62798bd5"
+from = "d7c93c8a13ce650ffe8792234c8bb7c757d6b6066522a865d049ed05f665066d"
 deps = ["rust-bin"]
 
 [[zoxide.sources]]

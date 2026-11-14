@@ -2,11 +2,9 @@
 id = "kmod"
 version = "34.2"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "python3", "pkgconf", "zlib", "xz", "zstd", "openssl"]
+deps = ["meson", "ninja", "python3", "pkgconf", "zlib", "xz", "zstd", "openssl"]
 sources = [{ url = "https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-{version}.tar.xz" }]
 smoke = ["bin/kmod --version"]
-probes = ["kmod"]
 
 [package.meson]
 args = [

@@ -3,13 +3,11 @@ id = "appstream"
 hold = { below = "1.2", reason = "1.2 needs libfyaml 1.0, a release candidate for now" }
 version = "1.1.2"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "gperf", "glib", "curl", "libxml2", "libfyaml", "libxmlb",
   "gettext", "wayland",
 ]
 sources = [{ url = "https://github.com/ximion/appstream/archive/v{version}/appstream-{version}.tar.gz" }]
-probes = ["appstream"]
 smoke = ["bin/appstreamcli --version"]
 
 [package.meson]

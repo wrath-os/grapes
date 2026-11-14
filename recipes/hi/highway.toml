@@ -2,9 +2,7 @@
 id = "highway"
 version = "1.4.0"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/google/highway/archive/{version}/highway-{version}.tar.gz" }]
-probes = ["hwy"]
 
 [package.cmake]
 args = [

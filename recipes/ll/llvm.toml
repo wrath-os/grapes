@@ -2,11 +2,10 @@
 id = "llvm"
 version = "23.1.5"
 scope = "runtime"
-core = true
 # clang finds its own headers relative to libclang.
 whole = true
 silent_for = "3h"
-extra_deps = ["cmake", "ninja", "python3", "zlib", "zstd"]
+deps = ["cmake", "ninja", "python3", "zlib", "zstd"]
 sources = [{ url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-{version}/llvm-project-{version}.src.tar.xz" }]
 smoke = ["bin/clang --version", "bin/llvm-config --version"]
 

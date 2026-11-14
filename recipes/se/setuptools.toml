@@ -4,7 +4,6 @@
 id = "setuptools"
 version = "84.2.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://files.pythonhosted.org/packages/source/s/setuptools/setuptools-{version}.tar.gz" }]
 script = '''
 mkdir -p $DEST$PREFIX/site

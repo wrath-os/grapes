@@ -2,11 +2,9 @@
 id = "spdlog"
 version = "1.17.0"
 scope = "runtime"
-core = true
-extra_deps = ["fmt"]
+deps = ["fmt"]
 propagates = ["fmt"]
 sources = [{ url = "https://github.com/gabime/spdlog/archive/v{version}/spdlog-{version}.tar.gz" }]
-probes = ["spdlog"]
 
 # Logging for C++, with the fmt above instead of a copy of its own.
 [package.cmake]

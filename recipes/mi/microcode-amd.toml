@@ -2,7 +2,6 @@
 id = "microcode-amd"
 version = "20250917"
 scope = "runtime"
-core = true
 whole = true
 sources = [{ url = "https://cdn.kernel.org/pub/linux/kernel/firmware/linux-firmware-{version}.tar.xz" }]
 script = '''

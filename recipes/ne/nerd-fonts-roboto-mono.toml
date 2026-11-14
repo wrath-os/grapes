@@ -2,7 +2,6 @@
 id = "nerd-fonts-roboto-mono"
 version = "3.5.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v{version}/RobotoMono.tar.xz" }]
 script = '''
 mkdir -p $DEST$PREFIX/share/fonts/nerd-fonts-roboto-mono

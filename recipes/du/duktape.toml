@@ -2,7 +2,6 @@
 id = "duktape"
 version = "2.7.0"
 scope = "runtime"
-core = true
 sources = [{ url = "https://duktape.org/duktape-{version}.tar.xz" }]
 script = '''
 # A small JavaScript engine, which polkit runs its rules in.
@@ -10,4 +9,3 @@ make -f Makefile.sharedlibrary -j$NPROC INSTALL_PREFIX=$PREFIX
 make -f Makefile.sharedlibrary install INSTALL_PREFIX=$DEST$PREFIX
 sed -i "s#$DEST##g" $DEST$PREFIX/lib/pkgconfig/duktape.pc 2>/dev/null || true
 '''
-probes = ["duktape"]

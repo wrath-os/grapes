@@ -2,7 +2,6 @@
 id = "bat"
 version = "0.26.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/sharkdp/bat/archive/v{version}/bat-{version}.tar.gz" }]
 smoke = ["bin/bat --version", "sh: echo hello > /tmp/x; $OUT/bin/bat --plain /tmp/x"]
 

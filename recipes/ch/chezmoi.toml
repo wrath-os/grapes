@@ -2,7 +2,6 @@
 id = "chezmoi"
 version = "2.74.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/twpayne/chezmoi/archive/v{version}/chezmoi-{version}.tar.gz" }]
 smoke = ["bin/chezmoi --version"]
 

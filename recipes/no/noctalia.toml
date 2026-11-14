@@ -2,8 +2,7 @@
 id = "noctalia"
 version = "5.4.1"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "sdbus-cpp", "wayland", "wayland-protocols", "mesa", "freetype", "fontconfig", "cairo",
   "pango", "harfbuzz", "librsvg", "libxkbcommon", "glib", "libsecret", "libsodium", "polkit",
   "pipewire", "wireplumber", "curl", "libqalculate", "libxml2", "md4c", "nlohmann-json",

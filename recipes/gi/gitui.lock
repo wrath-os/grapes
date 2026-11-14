@@ -1,7 +1,7 @@
 [gitui]
 style = "cargo"
 record = "8d1dbb555f2b48b0fcf0528220309987657780902259563a4372a4e06a65adbb"
-from = "3b129a40066715c35c3fca91b1bfbce7142eda1c6217a4ab03a5ba5b11634c43"
+from = "5d9512f30513971315add331c397a93ad5622079ff5dac2a9bfe9d60afef9a6d"
 deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[gitui.sources]]

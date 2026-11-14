@@ -2,7 +2,6 @@
 id = "lsof"
 version = "4.99.7"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/lsof-org/lsof/releases/download/{version}/lsof-{version}.tar.gz" }]
 # Only the program: its manual needs groff's soelim.
 script = '''

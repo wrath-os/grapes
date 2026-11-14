@@ -4,7 +4,6 @@ version = "1.99.1"
 scope = "runtime"
 # rustc finds its standard library relative to librustc_driver.
 whole = true
-core = true
 sources = [{ url = "https://static.rust-lang.org/dist/rust-{version}-{triple}.tar.xz" }]
 script = '''
 sh install.sh --prefix=$PREFIX --destdir=$DEST --disable-ldconfig \
@@ -22,5 +21,5 @@ find $DEST$PREFIX/bin $DEST$PREFIX/lib -type f | while read -r file; do
     fi
 done
 '''
-extra_deps = ["zlib"]
+deps = ["zlib"]
 smoke = ["bin/rustc --version", "bin/cargo --version"]

@@ -1,7 +1,7 @@
 [tokei]
 style = "cargo"
 record = "e39ef564e6c5bfe2ae00bcf216f915b0ac31a67cbf87b6db7de94157cb43c345"
-from = "72a3dc07eccf53c13ae690b5bd50198fecc4dfe49d779f4fbe0551c85053588b"
+from = "29de8780a69514806e37743c7e2c8df11ca1a730a41a8027c9faf22099e529c2"
 deps = ["rust-bin"]
 
 [[tokei.sources]]

@@ -2,8 +2,8 @@
 id = "readline"
 version = "8.3"
 scope = "runtime"
-toolset = true
-extra_deps = ["ncurses"]
+toolchain = "compilers"
+deps = ["ncurses"]
 sources = [{ url = "https://ftp.gnu.org/gnu/readline/readline-{version}.tar.gz" }]
 script = '''
 sed -i '/MV.*old/d' Makefile.in
@@ -12,4 +12,3 @@ sed -i '/{OLDSUFF}/c:' support/shlib-install
 make -j$NPROC SHLIB_LIBS="-lncursesw"
 make SHLIB_LIBS="-lncursesw" install DESTDIR=$DEST
 '''
-probes = ["readline"]

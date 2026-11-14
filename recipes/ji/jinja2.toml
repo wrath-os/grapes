@@ -2,7 +2,6 @@
 id = "jinja2"
 version = "3.1.6"
 scope = "runtime"
-core = true
 sources = [{ url = "https://files.pythonhosted.org/packages/source/j/jinja2/jinja2-{version}.tar.gz" }]
 script = '''
 mkdir -p $DEST$PREFIX/site

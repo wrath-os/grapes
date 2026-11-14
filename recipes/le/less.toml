@@ -2,8 +2,7 @@
 id = "less"
 version = "679"
 scope = "runtime"
-core = true
-extra_deps = ["ncurses"]
+deps = ["ncurses"]
 sources = [{ url = "https://www.greenwoodsoftware.com/less/less-{version}.tar.gz" }]
 smoke = ["bin/less --version"]
 

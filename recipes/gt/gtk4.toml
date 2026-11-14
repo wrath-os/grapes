@@ -4,15 +4,13 @@ version = "4.22.5"
 # 4.24 needs GLib 2.90 and Pango 1.58, which would rebuild every desktop package.
 track = "4.22."
 scope = "runtime"
-core = true
 runtime_deps = ["shared-mime-info", "hicolor-icon-theme"]
-extra_deps = [
+deps = [
   "python3", "pango", "gdk-pixbuf", "libepoxy", "graphene", "libpng", "libjpeg-turbo",
   "shared-mime-info", "libtiff", "wayland", "wayland-protocols", "libxkbcommon", "libdrm",
   "mesa", "gettext",
 ]
 sources = [{ url = "https://download.gnome.org/sources/gtk/{series}/gtk-{version}.tar.xz" }]
-probes = ["gtk4"]
 # Its programs all want a display, so the library loading is what gets checked.
 smoke = ["bin/gtk4-builder-tool --help"]
 

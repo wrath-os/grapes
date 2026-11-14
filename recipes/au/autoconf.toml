@@ -2,8 +2,7 @@
 id = "autoconf"
 version = "2.72"
 scope = "runtime"
-core = true
-extra_deps = ["m4-final", "perl"]
+deps = ["m4-final", "perl"]
 propagates = ["m4-final"]
 sources = [{ url = "https://ftp.gnu.org/gnu/autoconf/autoconf-{version}.tar.xz" }]
 smoke = ["bin/autoconf --version"]

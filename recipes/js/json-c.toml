@@ -2,10 +2,8 @@
 id = "json-c"
 version = "0.18"
 scope = "runtime"
-core = true
-extra_deps = ["cmake", "ninja"]
+deps = ["cmake", "ninja"]
 sources = [{ url = "https://s3.amazonaws.com/json-c_releases/releases/json-c-{version}.tar.gz" }]
-probes = ["json-c"]
 
 [package.cmake]
 args = [

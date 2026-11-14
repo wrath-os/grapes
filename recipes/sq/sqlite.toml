@@ -2,10 +2,8 @@
 id = "sqlite"
 version = "3.54.1"
 scope = "runtime"
-core = true
-extra_deps = ["readline", "zlib"]
+deps = ["readline", "zlib"]
 sources = [{ url = "https://sqlite.org/2026/sqlite-autoconf-3540100.tar.gz" }]
-probes = ["sqlite3"]
 smoke = ["bin/sqlite3 --version"]
 
 [package.autotools]

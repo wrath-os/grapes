@@ -2,8 +2,7 @@
 id = "mesa"
 version = "26.3.0"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "mako", "markupsafe", "pyyaml", "packaging", "libdrm",
   "wayland",
   "wayland-protocols", "expat", "elfutils", "systemd", "bison-final",
@@ -11,7 +10,6 @@ extra_deps = [
   "glslang",
 ]
 sources = [{ url = "https://archive.mesa3d.org/mesa-{version}.tar.xz" }]
-probes = ["egl", "gbm"]
 
 # OpenGL and Vulkan for AMD GPUs: radeonsi and RADV, which compile shaders with ACO, so without
 # LLVM. softpipe draws without a GPU, slowly, so a shell still starts on a machine without one

@@ -1,7 +1,7 @@
 [starship]
 style = "cargo"
 record = "db4556e5b00d376881f2a6252371c14fd5905c43dfeaba495bdc64ebec0f9bbc"
-from = "d06813b268f38441c876fe86f8c1157c7014e896bc44c0736178d8f5ff9caf31"
+from = "abf6bcf1b808070a1c6c3384bb2f44dece23fd5c5f64a2ae1fa150584e2ec316"
 deps = ["rust-bin"]
 
 [[starship.sources]]

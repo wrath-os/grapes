@@ -1,7 +1,7 @@
 [niri]
 style = "cargo"
 record = "b00a145d0fee302fecde94895bd79fa876c68949a6044d3cb72b9896ee53ce3e"
-from = "cb5ea9df0cdbcea106fe07fc38f1ed68cae5ee420e59ce18dbb9a547e636e2e7"
+from = "256bfb58ad4c215b2924bf8fb6c482d0dbed9e496f2e20d1e32b9d63df5088cf"
 deps = []
 
 [[niri.sources]]

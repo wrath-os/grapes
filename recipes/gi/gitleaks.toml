@@ -2,7 +2,6 @@
 id = "gitleaks"
 version = "8.30.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/gitleaks/gitleaks/archive/v{version}/gitleaks-{version}.tar.gz" }]
 smoke = ["bin/gitleaks version"]
 

@@ -2,10 +2,8 @@
 id = "libpcap"
 version = "1.11.0"
 scope = "runtime"
-core = true
-extra_deps = ["flex", "bison-final"]
+deps = ["flex", "bison-final"]
 sources = [{ url = "https://www.tcpdump.org/release/libpcap-{version}.tar.xz" }]
-probes = ["libpcap"]
 
 [package.autotools]
 args = ["--disable-dbus", "--disable-rdma", "--disable-bluetooth"]

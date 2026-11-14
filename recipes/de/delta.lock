@@ -1,7 +1,7 @@
 [delta]
 style = "cargo"
 record = "ed730cbd14d2a7e5ee9f8389b22e97d95232e1a0638d8e6ac969f2d172d767f7"
-from = "53c3ed8a2ec4d19eecd6000008045af3ad43f45a9c6a438e9bcbc50c45bb7178"
+from = "8daf5ad57b6fb1a743535b17aa170abfb1b33b6667a9f4067cedc7dac58bb680"
 deps = ["rust-bin"]
 
 [[delta.sources]]

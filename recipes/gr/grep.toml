@@ -2,7 +2,7 @@
 id = "grep"
 version = "3.12"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://ftp.gnu.org/gnu/grep/grep-{version}.tar.xz" }]
 script = '''
 ./configure --prefix=$PREFIX --disable-nls

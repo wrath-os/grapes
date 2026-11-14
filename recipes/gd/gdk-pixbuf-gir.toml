@@ -2,8 +2,7 @@
 id = "gdk-pixbuf-gir"
 version = "2.44.8"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "glib", "libpng", "gobject-introspection",
   "setuptools", "glib-gir",
 ]

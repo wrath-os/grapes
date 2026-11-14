@@ -2,7 +2,7 @@
 id = "gzip"
 version = "1.14"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://ftp.gnu.org/gnu/gzip/gzip-{version}.tar.xz" }]
 script = '''
 ./configure --prefix=$PREFIX

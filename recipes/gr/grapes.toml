@@ -3,7 +3,6 @@
 [[package]]
 id = "grapes"
 scope = "runtime"
-core = true
 whole = true
 sources = [{ url = "tree:.", include = ["set.toml", "platform.toml", "seed.pin", "recipes", "styles", "modules"] }]
 script = '''

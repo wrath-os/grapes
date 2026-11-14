@@ -4,9 +4,7 @@ version = "2.12.1"
 # gtkmm 3 needs the 2 series; 3 is gtkmm 4's.
 track = "2."
 scope = "runtime"
-core = true
 sources = [{ url = "https://download.gnome.org/sources/libsigc++/{series}/libsigc++-{version}.tar.xz" }]
-probes = ["sigc++-2.0"]
 
 # Signals and slots for C++.
 [package.meson]

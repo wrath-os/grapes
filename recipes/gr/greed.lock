@@ -1,7 +1,7 @@
 [greed]
 style = "cargo"
 record = "3dc8d425722ae6a832af6413ad1934258012c63f59f92e4cf0cd6556d70590b7"
-from = "7239cd627e2437abfdc44ba4c87cc3a7078f75d28c7897179fcc7b6bbef1f7aa"
+from = "ef8d1487818f630184477b3d9aec0a228bc4d2bbc42038c8d8893e6979b4a546"
 deps = ["rust-bin"]
 
 [[greed.sources]]

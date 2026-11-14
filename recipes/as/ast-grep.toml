@@ -2,7 +2,6 @@
 id = "ast-grep"
 version = "0.51.2"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/ast-grep/ast-grep/archive/{version}/ast-grep-{version}.tar.gz" }]
 smoke = ["bin/ast-grep --version"]
 

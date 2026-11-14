@@ -2,7 +2,7 @@
 id = "bzip2"
 version = "1.0.8"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://www.sourceware.org/pub/bzip2/bzip2-{version}.tar.gz" }]
 script = '''
 sed -i 's@\(ln -s -f \)$(PREFIX)/bin/@\1@' Makefile
@@ -32,5 +32,4 @@ Cflags: -I\${includedir}
 EOF
 '''
 smoke = ["bin/bzip2 --help"]
-probes = ["bz2"]
 check = "make test"

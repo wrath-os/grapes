@@ -2,9 +2,7 @@
 id = "fmt"
 version = "12.2.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://github.com/fmtlib/fmt/archive/{version}/fmt-{version}.tar.gz" }]
-probes = ["fmt"]
 
 # Formatting text in C++.
 [package.cmake]

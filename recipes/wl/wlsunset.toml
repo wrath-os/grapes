@@ -2,8 +2,7 @@
 id = "wlsunset"
 version = "0.4.0"
 scope = "runtime"
-core = true
-extra_deps = ["wayland", "wayland-protocols"]
+deps = ["wayland", "wayland-protocols"]
 sources = [{ url = "https://git.sr.ht/~kennylevinsen/wlsunset/archive/{version}.tar.gz" }]
 smoke = ["bin/wlsunset -h"]
 

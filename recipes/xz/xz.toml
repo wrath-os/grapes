@@ -2,7 +2,7 @@
 id = "xz"
 version = "5.8.1"
 scope = "runtime"
-toolset = true
+toolchain = "compilers"
 sources = [{ url = "https://github.com/tukaani-project/xz/releases/download/v{version}/xz-{version}.tar.xz" }]
 script = '''
 ./configure --prefix=$PREFIX --disable-static --disable-nls
@@ -10,7 +10,6 @@ make -j$NPROC
 make install DESTDIR=$DEST
 '''
 smoke = ["bin/xz --version"]
-probes = ["lzma"]
 check_build = "make -j$NPROC check TESTS="
 check = "make -j$NPROC check"
 check_in_view = true

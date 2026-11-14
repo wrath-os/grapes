@@ -2,10 +2,8 @@
 id = "libxcrypt"
 version = "4.4.38"
 scope = "runtime"
-core = true
-extra_deps = ["perl"]
+deps = ["perl"]
 sources = [{ url = "https://github.com/besser82/libxcrypt/releases/download/v{version}/libxcrypt-{version}.tar.xz" }]
-probes = ["crypt"]
 check_in_view = true
 check_build = "make -j$NPROC check TESTS="
 check = "make -j$NPROC check"

@@ -3,9 +3,8 @@
 id = "blueprint-compiler"
 version = "0.22.2"
 scope = "runtime"
-core = true
 runtime_deps = ["pygobject", "glib-gir"]
-extra_deps = ["meson", "ninja", "python3"]
+deps = ["meson", "ninja", "python3"]
 sources = [{ url = "https://gitlab.gnome.org/GNOME/blueprint-compiler/-/archive/v{version}/blueprint-compiler-v{version}.tar.gz" }]
 
 [package.meson]

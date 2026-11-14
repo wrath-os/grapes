@@ -2,7 +2,6 @@
 id = "pkgconf"
 version = "2.5.1"
 scope = "runtime"
-core = true
 sources = [{ url = "https://distfiles.ariadne.space/pkgconf/pkgconf-{version}.tar.xz" }]
 script = '''
 ./configure --prefix=$PREFIX --disable-static --with-pkg-config-dir=/usr/lib/pkgconfig:/usr/share/pkgconfig

@@ -2,7 +2,6 @@
 id = "zd1211fw"
 version = "1.5"
 scope = "runtime"
-core = true
 whole = true
 sources = [{ url = "https://downloads.sourceforge.net/project/zd1211/zd1211-firmware/{version}/zd1211-firmware-{version}.tar.bz2" }]
 script = '''

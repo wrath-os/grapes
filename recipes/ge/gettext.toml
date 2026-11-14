@@ -2,8 +2,7 @@
 id = "gettext"
 version = "0.26"
 scope = "runtime"
-core = true
-extra_deps = ["ncurses", "libxml2", "expat"]
+deps = ["ncurses", "libxml2", "expat"]
 sources = [{ url = "https://ftp.gnu.org/gnu/gettext/gettext-{version}.tar.xz" }]
 smoke = ["bin/gettext --version", "bin/msgfmt --version"]
 check_in_view = true

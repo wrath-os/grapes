@@ -2,8 +2,7 @@
 id = "hicolor-icon-theme"
 version = "0.18"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja"]
+deps = ["meson", "ninja"]
 sources = [{ url = "https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-{version}.tar.xz" }]
 
 # The theme every icon theme falls back to, where programs put their own icons.

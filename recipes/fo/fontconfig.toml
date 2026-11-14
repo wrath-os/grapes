@@ -3,12 +3,10 @@ id = "fontconfig"
 version = "2.17.1"
 hold = { below = "2.18", reason = "2.18 needs Meson 1.11" }
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "python3", "gperf", "freetype", "expat",
 ]
 sources = [{ url = "https://gitlab.freedesktop.org/api/v4/projects/890/packages/generic/fontconfig/{version}/fontconfig-{version}.tar.xz" }]
-probes = ["fontconfig"]
 
 # Finds fonts by name. The configuration and cache are in /etc and /var, where the system keeps
 # them.

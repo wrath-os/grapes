@@ -2,12 +2,10 @@
 id = "fcft"
 version = "3.3.1"
 scope = "runtime"
-core = true
-extra_deps = [
+deps = [
   "meson", "ninja", "pkgconf", "tllist", "fontconfig", "freetype", "pixman", "harfbuzz",
 ]
 sources = [{ url = "https://codeberg.org/dnkl/fcft/archive/{version}.tar.gz" }]
-probes = ["fcft"]
 
 # Fonts drawn into pixman images, for fuzzel.
 [package.meson]

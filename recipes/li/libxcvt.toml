@@ -2,9 +2,7 @@
 id = "libxcvt"
 version = "0.1.3"
 scope = "runtime"
-core = true
-extra_deps = ["meson", "ninja", "pkgconf"]
+deps = ["meson", "ninja", "pkgconf"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libxcvt-{version}.tar.xz" }]
-probes = ["libxcvt"]
 
 [package.meson]
