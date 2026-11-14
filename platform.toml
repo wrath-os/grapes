@@ -1,0 +1,3 @@
+# The modules a system on grapes is made of. A configuration gets them without naming grapes; a
+# platform of its own can keep some of them with `from-grapes`.
+modules = ["modules"]
