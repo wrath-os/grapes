@@ -1,4 +1,8 @@
 [librsvg]
+style = "cargo"
+record = "00404b1576d255519cbeaf4cdda579207d09acb7234d458152baf62cc6078dbc"
+from = "ccf1bee981718363f3daabb0b5fea8af175bfa6f925d38d9e4343eb87d0798b1"
+deps = []
 
 [[librsvg.sources]]
 url = "https://download.gnome.org/sources/librsvg/2.62/librsvg-2.62.4.tar.xz"

@@ -1,4 +1,8 @@
 [libXdamage]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "e1661f52a6ec41afd0f98b6230577c9935f4a6cd36b15abd14d17b6fcd801882"
+deps = []
 
 [[libXdamage.sources]]
 url = "https://www.x.org/archive/individual/lib/libXdamage-1.1.7.tar.xz"

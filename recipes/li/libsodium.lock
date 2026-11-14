@@ -1,4 +1,8 @@
 [libsodium]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "651f9c036c30b92dacf2caabff3183ed0a9a018583d641cdbecf5ad1e99de3ee"
+deps = []
 
 [[libsodium.sources]]
 url = "https://download.libsodium.org/libsodium/releases/libsodium-1.0.22.tar.gz"

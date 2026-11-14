@@ -1,4 +1,8 @@
 [wlsunset]
+style = "meson"
+record = "c8a6ef56e6b5971b6c1508318ecdf665afe5e5ad98fbd9a7a973a6b81f0c632b"
+from = "d0b44c5dcb74b959efb48b4a0694aa9336f794375bcd9ae5f452d03ca78bc839"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[wlsunset.sources]]
 url = "https://git.sr.ht/~kennylevinsen/wlsunset/archive/0.4.0.tar.gz"

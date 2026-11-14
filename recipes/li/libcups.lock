@@ -1,4 +1,8 @@
 [libcups]
+style = "autotools"
+record = "e9480947f215fdb4d9bb90067c1b3d9d34026ae08c42200ccd3c86d737e56db6"
+from = "973eb9b9e570ebbc0a99fd7bcf298de531f8b22a1471b20d3102ff4a23579462"
+deps = []
 
 [[libcups.sources]]
 url = "https://github.com/OpenPrinting/cups/releases/download/v2.4.20/cups-2.4.20-source.tar.gz"

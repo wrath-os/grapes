@@ -1,4 +1,8 @@
 [sbc]
+style = "autotools"
+record = "27dc173c53435b45dfcc85a3aba276cf6e2b53b14e0c2d98243d97d113019cf6"
+from = "44cde2952dd070b99f3ba8f9206f87ef4f0bc9a8866a785a1dfa31f8b7b334b4"
+deps = []
 
 [[sbc.sources]]
 url = "https://www.kernel.org/pub/linux/bluetooth/sbc-2.2.tar.xz"

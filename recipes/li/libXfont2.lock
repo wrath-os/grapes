@@ -1,4 +1,8 @@
 [libXfont2]
+style = "autotools"
+record = "55ce8dc5fa3e264a1c584578c7d98aa0f0955543fdd8c3bc975546ad034b2503"
+from = "47f5b7a379f5421a583822993e4319a0c2f0bf9748114e7e0f7cfdfde5b889ac"
+deps = []
 
 [[libXfont2.sources]]
 url = "https://www.x.org/archive/individual/lib/libXfont2-2.0.9.tar.xz"

@@ -5,6 +5,10 @@ url = "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.4.tar.xz"
 hash = "b11b6df8295e8e991ff040b71aaa4994a8b55caa23b6b092907f195b5840fd1f"
 
 [linux-pam]
+style = "meson"
+record = "ab23048f24ea958a8195f38fd6acea7a209301029c4c43963e8fd673db55e39f"
+from = "e5317585a98faf47496fe1e53ed86831c366a3dedf9d4e483203b6fc5b92ddc5"
+deps = []
 
 [[linux-pam.sources]]
 url = "https://github.com/linux-pam/linux-pam/releases/download/v1.7.1/Linux-PAM-1.7.1.tar.xz"

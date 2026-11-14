@@ -1,4 +1,8 @@
 [hicolor-icon-theme]
+style = "meson"
+record = "abfb3c3ae54a852dccae982798011a9139f97fe9de2338670a022b98eac78154"
+from = "14a7fadd07f1bae27112c909bfebee30e484d3f381a50bda5e0621cc1140ef27"
+deps = ["pkgconf"]
 
 [[hicolor-icon-theme.sources]]
 url = "https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.18.tar.xz"

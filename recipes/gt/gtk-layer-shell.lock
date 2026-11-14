@@ -1,4 +1,8 @@
 [gtk-layer-shell]
+style = "meson"
+record = "6a412f1cb773cc2225863ffc7da04657a4ccf5d8239f859cb2b8eefb31c9961d"
+from = "7c35575b5e9e7df0ae2de30cb48dd88280909185e5ee16f4d6e10c492aa38b81"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[gtk-layer-shell.sources]]
 url = "https://github.com/wmww/gtk-layer-shell/archive/v0.10.1/gtk-layer-shell-0.10.1.tar.gz"

@@ -1,4 +1,8 @@
 [noctalia]
+style = "meson"
+record = "5bd0b66db74a66af9ab50a138fcfa5357c9c8acd4de3c327d94f08e6bed1e10b"
+from = "596d194ec35edee6a1d091a754ed0afa94810f138ff51421f79245c303eb5254"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[noctalia.sources]]
 url = "https://github.com/noctalia-dev/noctalia/archive/v5.4.1/noctalia-5.4.1.tar.gz"

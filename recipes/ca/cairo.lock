@@ -1,4 +1,8 @@
 [cairo]
+style = "meson"
+record = "d3c5326f6c70dc0d678c1f5f1d8adcab4606a55262beae2332cf198df8ab6cab"
+from = "6fa674802c95318feef401e1ab4240ccda09ecd2ff7e20c58302979673fdf88d"
+deps = []
 
 [[cairo.sources]]
 url = "https://cairographics.org/releases/cairo-1.18.6.tar.xz"

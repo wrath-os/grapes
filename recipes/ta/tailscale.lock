@@ -1,4 +1,8 @@
 [tailscale]
+style = "go"
+record = "ca7d507621144ead706d9c06573458abf3729e220393c86ca13903e5c0228fb8"
+from = "209a53a3eee876e13e920aad74038e3b96d63b9c94611155d764c4cbfe236bbe"
+deps = []
 
 [[tailscale.sources]]
 url = "https://github.com/tailscale/tailscale/archive/v1.86.2/tailscale-1.86.2.tar.gz"

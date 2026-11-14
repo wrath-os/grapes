@@ -1,4 +1,8 @@
 [tomlplusplus]
+style = "meson"
+record = "a203af7506ebc7cdd7fdfe855bc0010d8f20db7d17c6477f0e7a06b1c30b4f49"
+from = "be5cdc59187544f147054589bf91f585e64372cf98e000faa967aa0fc95d069b"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[tomlplusplus.sources]]
 url = "https://github.com/marzer/tomlplusplus/archive/v3.4.0/tomlplusplus-3.4.0.tar.gz"

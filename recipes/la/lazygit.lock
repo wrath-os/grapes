@@ -1,4 +1,8 @@
 [lazygit]
+style = "go"
+record = "770c9d065decf7fef77b9608455530a1a692044742e1579cb0fde8f6f741d65e"
+from = "02510c8e45309f06c28475c58d17806a2eb96af70e6bf58dc7387e9b333aee49"
+deps = ["go"]
 
 [[lazygit.sources]]
 url = "https://github.com/jesseduffield/lazygit/archive/v0.66.3/lazygit-0.66.3.tar.gz"

@@ -1,4 +1,8 @@
 [gst-plugins-base]
+style = "meson"
+record = "a9628b33bd3fabcdd08c74a2e5140f7082cf95091981cb0dc6339ede8c086a76"
+from = "89ab8b3e7841df89b11ced56da55f172cf8f55d85451cd8216b5806cf09cf221"
+deps = []
 
 [[gst-plugins-base.sources]]
 url = "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.28.9.tar.xz"

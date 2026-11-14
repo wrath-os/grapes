@@ -1,4 +1,8 @@
 [libXcomposite]
+style = "autotools"
+record = "d5f62c18bd43ce817d809668fe0a07d8691f11b83b3d7322483fc249812eae1f"
+from = "3ef78f68e458b385e28b17abd47a9321cb3bd2dcd79734db9af78ff645c7d272"
+deps = []
 
 [[libXcomposite.sources]]
 url = "https://www.x.org/archive/individual/lib/libXcomposite-0.4.7.tar.xz"

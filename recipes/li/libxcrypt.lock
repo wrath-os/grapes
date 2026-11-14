@@ -1,4 +1,8 @@
 [libxcrypt]
+style = "autotools"
+record = "1e24092484ce0d1c5a487daa2c37b97fce92c17093d5621dbe6b267c76e94d06"
+from = "d286595e5a903fedf99796d264a2413d5615c87dfd97ae7ba1c963de6890a78d"
+deps = []
 
 [[libxcrypt.sources]]
 url = "https://github.com/besser82/libxcrypt/releases/download/v4.4.38/libxcrypt-4.4.38.tar.xz"

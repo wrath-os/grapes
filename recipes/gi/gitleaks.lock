@@ -1,4 +1,8 @@
 [gitleaks]
+style = "go"
+record = "8ce71cb6001f3a1beb645fcd6a921c89463297f213fda043954562b35256767d"
+from = "61b04ba92e51e62b7f17b69f4e5aff017ea5a5173898d1ae0b9aed6b8e902d36"
+deps = ["go"]
 
 [[gitleaks.sources]]
 url = "https://github.com/gitleaks/gitleaks/archive/v8.30.1/gitleaks-8.30.1.tar.gz"

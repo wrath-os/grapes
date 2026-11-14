@@ -1,4 +1,8 @@
 [sd]
+style = "cargo"
+record = "72ac550a8d26ded4fab291e254fcce1654a2410ede31f2de58801ed9fb52a5cd"
+from = "1362588df2375f9b19562780e3f894124f831c8107337d7ebd5b55cbd77170d5"
+deps = ["rust-bin"]
 
 [[sd.sources]]
 url = "https://github.com/chmln/sd/archive/v1.1.0/sd-1.1.0.tar.gz"

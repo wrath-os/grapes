@@ -1,4 +1,8 @@
 [libnotify]
+style = "meson"
+record = "666bda7f8315a7eefa021c0b510c8997b2731df5214383826d92adbc3746dd97"
+from = "aed42ff89000a245bb6c0615c962ac762bf3f00f1b1667ddea1751ac84580d47"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[libnotify.sources]]
 url = "https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.9.tar.xz"

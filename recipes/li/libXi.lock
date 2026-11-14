@@ -1,4 +1,8 @@
 [libXi]
+style = "autotools"
+record = "88df656313eddac701257d9ae406c133283931bd6533eee36916c97f09a2becc"
+from = "686a488aa1c62ad792b05157cb403c425b7f2e26bf5ffff54ac84cbdac87b590"
+deps = []
 
 [[libXi.sources]]
 url = "https://www.x.org/archive/individual/lib/libXi-1.8.4.tar.xz"

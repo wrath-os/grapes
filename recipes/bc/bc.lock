@@ -1,4 +1,8 @@
 [bc]
+style = "autotools"
+record = "dc901f3c8cc9b0b73914a1177a51c590716e6d4b1a1712144587c52f69c8dfc8"
+from = "a71206edfc296f92ba9093b41ca96ee0938ad2dd92d4facddca82d67304e465f"
+deps = []
 
 [[bc.sources]]
 url = "https://github.com/gavinhoward/bc/releases/download/7.0.3/bc-7.0.3.tar.xz"

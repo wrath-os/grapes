@@ -1,4 +1,8 @@
 [duf]
+style = "go"
+record = "7b62b4b079e8f196b74c3f9892f894ee572f86dc0c98f2103fb6ef1fa25adf81"
+from = "acdd2b6eefd11c79fb2c919b4f15379c028ff02ad53fdf7695dc75a1482c1c9a"
+deps = ["go"]
 
 [[duf.sources]]
 url = "https://github.com/muesli/duf/archive/v0.9.1/duf-0.9.1.tar.gz"

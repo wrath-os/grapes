@@ -1,4 +1,8 @@
 [libjpeg-turbo]
+style = "cmake"
+record = "160a8a0f1a50725e64909292f500dc0e0a233b43557748a9be6d3917836181df"
+from = "1284c21718ecd19461d907adf573ab5a11664ae488e8e866d7b0f32bd6d9a191"
+deps = ["cmake", "ninja", "pkgconf"]
 
 [[libjpeg-turbo.sources]]
 url = "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.2.1/libjpeg-turbo-3.2.1.tar.gz"

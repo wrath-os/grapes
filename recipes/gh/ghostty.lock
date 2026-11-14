@@ -1,4 +1,8 @@
 [ghostty]
+style = "zig"
+record = "b1a40cc97a2c78059418c46f66220056130707be09a5dccff2d77684f993005f"
+from = "dd2e3f20674c679171a6abfcd0afa5cbe8f28ee76e89b091c61d57f1a621bb7a"
+deps = ["zig-bin", "pkgconf", "patchelf"]
 
 [[ghostty.sources]]
 url = "git+https://codeberg.org/ziglang/arocc#d0c8c4d9c55daa7ef6e40cf0f630a5b5e900989b"

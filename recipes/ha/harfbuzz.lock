@@ -1,4 +1,8 @@
 [harfbuzz]
+style = "meson"
+record = "a080877d266d2362db7a00bcaaa4188dbe8ddd38280107a9fb3937006f74e771"
+from = "460e8ad26b19af68a97ad96e3a93dac0f711f669139757fd523b3dece2378db7"
+deps = []
 
 [[harfbuzz.sources]]
 url = "https://github.com/harfbuzz/harfbuzz/releases/download/15.1.0/harfbuzz-15.1.0.tar.xz"

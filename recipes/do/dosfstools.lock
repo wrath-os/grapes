@@ -1,4 +1,8 @@
 [dosfstools]
+style = "autotools"
+record = "526f31702172efe9ddf2e9b1729ce805f36d4e687d8e17c5a0105a7e87acc5ec"
+from = "f08d35dc3fde6265b657f261c2226dfa4ab8078213f74ca289b2ab9f1a030c22"
+deps = []
 
 [[dosfstools.sources]]
 url = "https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz"

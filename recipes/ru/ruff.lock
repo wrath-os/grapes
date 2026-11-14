@@ -1,4 +1,8 @@
 [ruff]
+style = "cargo"
+record = "818763f443491e68612fdd590afbbf2bd17a2446d37c27b7759ad3b19ddd94ac"
+from = "aed84cbfb13cc3bb8d48f35d46e430bd70a77a4280f030a92d2f4ffb40f078ca"
+deps = ["rust-bin"]
 
 [[ruff.sources]]
 url = "https://github.com/astral-sh/ruff/archive/0.17.4/ruff-0.17.4.tar.gz"

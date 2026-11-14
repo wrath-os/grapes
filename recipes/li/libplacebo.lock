@@ -1,4 +1,8 @@
 [libplacebo]
+style = "meson"
+record = "e6b2016c28ed792c069864a69d8530da9d94a255a4af48dfd3b03040a7dbecfa"
+from = "f9fb9f3944de65345f51eded786403da2d5ecefb1a192a7ef99ec04a91dab24e"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[libplacebo.sources]]
 url = "https://github.com/Dav1dde/glad/archive/v2.0.8/glad-2.0.8.tar.gz"

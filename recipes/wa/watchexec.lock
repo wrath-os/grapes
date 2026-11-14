@@ -1,4 +1,8 @@
 [watchexec]
+style = "cargo"
+record = "a05c8088495164160d20cabd4f37988f3683d0bdb9c720097ae69cd7c4b59c02"
+from = "0964d7937963b76bf275c15507b46ca4a702e712aeff5f7a334374bd55f3c3d4"
+deps = ["rust-bin"]
 
 [[watchexec.sources]]
 url = "https://github.com/watchexec/watchexec/archive/v2.8.0/watchexec-2.8.0.tar.gz"

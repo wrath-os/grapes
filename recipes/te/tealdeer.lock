@@ -1,4 +1,8 @@
 [tealdeer]
+style = "cargo"
+record = "768854bd91221bc5ced06bce2c375b26dd35c3b53d2b70ed66bda55292919eb5"
+from = "b38d0caa547ee8e2e99f32c3b24f63e37ad1a2e790efa0a28a43d8a819d83970"
+deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[tealdeer.sources]]
 url = "https://github.com/tealdeer-rs/tealdeer/archive/v1.9.1/tealdeer-1.9.1.tar.gz"

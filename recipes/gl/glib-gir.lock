@@ -1,4 +1,8 @@
 [glib-gir]
+style = "meson"
+record = "813f8eb94e2b1654393bb1857aeb7877a30bf256f3a08c61578e44a6ddc23e05"
+from = "fee199cca70a25f423d998880889af33590ccb36b19e3f662e2fa66479915f0a"
+deps = []
 
 [[glib-gir.sources]]
 url = "https://download.gnome.org/sources/glib/2.84/glib-2.84.4.tar.xz"

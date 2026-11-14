@@ -1,4 +1,8 @@
 [ripgrep]
+style = "cargo"
+record = "c06ae3d4e5983666c56ccd33e85a72101b026058af1b4a345657466ce7b14087"
+from = "1002471654a5e712d10946662d9d09b983af21adf6ee94c91275e6aa623b4a45"
+deps = []
 
 [[ripgrep.sources]]
 url = "https://github.com/BurntSushi/ripgrep/archive/14.1.1/ripgrep-14.1.1.tar.gz"

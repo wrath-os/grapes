@@ -1,4 +1,8 @@
 [swaylock]
+style = "meson"
+record = "7dd62c1c79eae1c356a8e35838a90ee79c4e8256b53f3545ab02f7a7b398e502"
+from = "02c5865e36fa15989f11fe19e8fe0be85aee33631f2ee7c7a47b8a23c34ab1fe"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[swaylock.sources]]
 url = "https://github.com/swaywm/swaylock/releases/download/v1.8.6/swaylock-1.8.6.tar.gz"

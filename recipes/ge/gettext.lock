@@ -1,4 +1,8 @@
 [gettext]
+style = "autotools"
+record = "1b12c945dab2109724892df0b14fae82b159c0db9a39c990de007f1f63b72069"
+from = "2dfc0c5f55e43513a8de6e7f814470f1322be125b23fe401433fa7b960fcdfdb"
+deps = []
 
 [[gettext.sources]]
 url = "https://ftp.gnu.org/gnu/gettext/gettext-0.26.tar.xz"

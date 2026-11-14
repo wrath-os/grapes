@@ -1,4 +1,8 @@
 [libXdmcp]
+style = "autotools"
+record = "71c5fef61af044481177505f6fc4ce37944dea14aab047b5779c66067ed9d025"
+from = "2723df181f18d6a46304259dbc939a37b28702f6a249e6df5ae7c0d01516be51"
+deps = []
 
 [[libXdmcp.sources]]
 url = "https://www.x.org/archive/individual/lib/libXdmcp-1.1.5.tar.xz"

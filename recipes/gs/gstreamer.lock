@@ -1,4 +1,8 @@
 [gstreamer]
+style = "meson"
+record = "7f75e67733aea8fa685823b48eb7ee9cf6047c92325c19f2d80835e8a91b6d04"
+from = "a60e9357d0c7d3492bb8c72af81fbb1e1065584939eb4b3fb52ed83f72f43653"
+deps = []
 
 [[gstreamer.sources]]
 url = "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.9.tar.xz"

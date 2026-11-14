@@ -1,4 +1,8 @@
 [patchelf]
+style = "autotools"
+record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
+from = "8c60a2ac9ddb1f61fb457b27bcd69cf209538095a9388f04f61db9a484baa2d4"
+deps = []
 
 [[patchelf.sources]]
 url = "https://github.com/NixOS/patchelf/releases/download/0.18.0/patchelf-0.18.0.tar.bz2"

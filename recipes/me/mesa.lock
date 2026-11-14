@@ -1,4 +1,8 @@
 [mesa]
+style = "meson"
+record = "9a6b756b9c3175aa775aa02c3dbf029f651cb366e52c59c86ff654739e1fc276"
+from = "a425f3638a8cbcf3c2bbf2d003e693e51ddcf1f07b39fdb69d28e94c327d1cd9"
+deps = []
 
 [[mesa.sources]]
 url = "https://archive.mesa3d.org/mesa-26.3.0.tar.xz"

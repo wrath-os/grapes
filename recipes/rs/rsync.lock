@@ -1,4 +1,8 @@
 [rsync]
+style = "autotools"
+record = "e994cd8fa0f10c806cd624d39f99c7d6db594b7d954d2249d182fdf0d0c00a28"
+from = "d7d470c9597b36a18af7f885bc0f9b7228f3e6353c33bc01a3697f16eb5b27d9"
+deps = []
 
 [[rsync.sources]]
 url = "https://download.samba.org/pub/rsync/src/rsync-3.5.2.tar.gz"

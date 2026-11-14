@@ -1,4 +1,8 @@
 [libfyaml]
+style = "cmake"
+record = "5e08f358ff08e3329eb4be28a8907e3d98e03814a43ec310450471dd00d28c11"
+from = "f96e50a2c1c9281121ca6de019393072878bdf31c0f5eb3d06d9baeacfe8f6f0"
+deps = ["pkgconf"]
 
 [[libfyaml.sources]]
 url = "https://github.com/pantoniou/libfyaml/archive/v0.9.3/libfyaml-0.9.3.tar.gz"

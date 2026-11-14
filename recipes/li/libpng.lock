@@ -1,4 +1,8 @@
 [libpng]
+style = "cmake"
+record = "e328b9cceda15146d69b6daa561cf353fff849dab70ce6fe00508782f043ad2e"
+from = "89ef10f7c093da6a8209e15e4c83c3c91512f8df433b78211ab11dd869de82c4"
+deps = ["pkgconf"]
 
 [[libpng.sources]]
 url = "https://github.com/pnggroup/libpng/archive/v1.6.59/libpng-1.6.59.tar.gz"

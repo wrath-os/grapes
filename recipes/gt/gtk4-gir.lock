@@ -1,4 +1,8 @@
 [gtk4-gir]
+style = "meson"
+record = "450b4b082dbb991b4469bb8b9f588fbd74b32a127fbbf4ac8733629486a437d3"
+from = "54b72a5e49f8c5457bac1c0601bf4c37077c318e33ddf4aa3337b5f395dfbb49"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[gtk4-gir.sources]]
 url = "https://download.gnome.org/sources/gtk/4.22/gtk-4.22.5.tar.xz"

@@ -1,4 +1,8 @@
 [inih]
+style = "meson"
+record = "084a7dcbe7d15f456521ceaf65bf0df33c074daae598caa1011e2de6850d1010"
+from = "831ca9ce999014b79859e4fe79e0ef9fc45d0b84313ed358cfb787fec9dce1a6"
+deps = []
 
 [[inih.sources]]
 url = "https://github.com/benhoyt/inih/archive/refs/tags/r62.tar.gz"

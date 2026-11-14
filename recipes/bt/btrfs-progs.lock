@@ -1,4 +1,8 @@
 [btrfs-progs]
+style = "autotools"
+record = "df757cca6a45c87497e0c1b1a672d04231315e2002fcfcd984f63e695ca812b9"
+from = "e368ddb7cdb47d9ead05a2b170c7b7440882300cbce62026cd6f4d7b721cceec"
+deps = []
 
 [[btrfs-progs.sources]]
 url = "https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v6.14.tar.xz"

@@ -1,4 +1,8 @@
 [kmod]
+style = "meson"
+record = "e4334040469a8d6e00e0ccc8a7ccf2ff88e413440faad0c313f1db220eea2b84"
+from = "893167c0922d432c174f2a17c90c6b7514849ae97363458f9a94eb46b23dd27c"
+deps = []
 
 [[kmod.sources]]
 url = "https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-34.2.tar.xz"

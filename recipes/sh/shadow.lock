@@ -1,4 +1,8 @@
 [shadow]
+style = "autotools"
+record = "53248d087e4bbe1e66f28762c46add6318606fe84b0b65edb9f7e7405a59e680"
+from = "f4747089688a14bf95915b785aa47f4c021820c4e4e25ac366511c663d0119ed"
+deps = []
 
 [[shadow.sources]]
 url = "https://github.com/shadow-maint/shadow/releases/download/4.18.0/shadow-4.18.0.tar.xz"

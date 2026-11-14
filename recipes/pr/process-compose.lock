@@ -1,4 +1,8 @@
 [process-compose]
+style = "go"
+record = "a41f3c7253054fbe9a02882bd806702edf392a8b6dab0abc4091b597893dc2d9"
+from = "28a869aea04d5559fb85b8f9bff2718109a21fb33cd85d0bc008192ca7dc6601"
+deps = []
 
 [[process-compose.sources]]
 url = "https://github.com/F1bonacc1/process-compose/archive/v1.75.1/process-compose-1.75.1.tar.gz"

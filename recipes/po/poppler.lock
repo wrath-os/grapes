@@ -1,4 +1,8 @@
 [poppler]
+style = "cmake"
+record = "69999b07b9d2c3e6ed0d29dc9044810c6989b8ce7f82425b5d0174c08ae6c752"
+from = "41fc21f971c5fad86906fa76af9c53113a69d76214347bce3d202652a192e2ed"
+deps = ["cmake", "ninja", "pkgconf"]
 
 [[poppler.sources]]
 url = "https://poppler.freedesktop.org/poppler-26.11.0.tar.xz"

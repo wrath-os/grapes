@@ -1,4 +1,8 @@
 [polkit]
+style = "meson"
+record = "32e93fc0c81b6af44dd9fd1495c86c3ce353de77813e40c8413bb67e0d0cd9d7"
+from = "f96737ef8bf16a4d2102e655a1a5ed43ac517d19e6937dd31daa2b5f5907e321"
+deps = []
 
 [[polkit.sources]]
 url = "https://github.com/polkit-org/polkit/archive/127/polkit-127.tar.gz"

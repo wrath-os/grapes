@@ -1,4 +1,8 @@
 [xkeyboard-config]
+style = "meson"
+record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
+from = "3a73833486d85ce12a21918adebd37a6fe9565de6b5b9ddcf26d23c936caa417"
+deps = []
 
 [[xkeyboard-config.sources]]
 url = "https://www.x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-2.48.tar.xz"

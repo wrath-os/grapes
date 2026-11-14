@@ -1,4 +1,8 @@
 [swayidle]
+style = "meson"
+record = "8f16e219115b0a757a5bb80af99d04008e94e4fdf4168fe86deb839d4d77e90f"
+from = "e6b212b084b63c3fa2576f34217316aa372593c53e07ca31ffce4cb8d3627b86"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[swayidle.sources]]
 url = "https://github.com/swaywm/swayidle/releases/download/v1.9.1/swayidle-1.9.1.tar.gz"

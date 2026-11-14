@@ -1,4 +1,8 @@
 [texinfo]
+style = "autotools"
+record = "3fc2923e78f0ff926e2c00882c4e068a92f8810e33b1727e1f02775b5c99c1ff"
+from = "949c9f2880449ec91126884c1b652f010b8b2239497eeb4e5830fd970714a35b"
+deps = []
 
 [[texinfo.sources]]
 url = "https://ftp.gnu.org/gnu/texinfo/texinfo-7.2.tar.xz"

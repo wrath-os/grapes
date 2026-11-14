@@ -1,16 +1,28 @@
 [xdg-desktop-portal]
+style = "meson"
+record = "38382e3393a4c47bbeb7513e32250e63b64e1c5ff0827ffc483306f537f84c05"
+from = "80af13020813b70ec85a75ea26bf19934c43ced9cbb1066da251e369be8f777d"
+deps = []
 
 [[xdg-desktop-portal.sources]]
 url = "https://github.com/flatpak/xdg-desktop-portal/releases/download/1.22.1/xdg-desktop-portal-1.22.1.tar.xz"
 hash = "d4879ddb3d65ff1a8f19187497e6f13dc5d267bcac404a5d501218be355753d3"
 
 [xdg-desktop-portal-gtk]
+style = "meson"
+record = "b4b3e0ac94d65bb5d728c198607bd8f33e63b25a893e753271a34d5df884e551"
+from = "03a907ab26620d0aefa0d0a6096a391fa528ab759dcb55db9f00fc7b284885df"
+deps = []
 
 [[xdg-desktop-portal-gtk.sources]]
 url = "https://github.com/flatpak/xdg-desktop-portal-gtk/releases/download/1.15.3/xdg-desktop-portal-gtk-1.15.3.tar.xz"
 hash = "47a3743d2419a8601e691db37e85bb5fac5ae4b26842177065cd5f22ada23b37"
 
 [xdg-desktop-portal-wlr]
+style = "meson"
+record = "3f47e07cb2b60b30898be7b3c8d8878a40bdb7d0c677c56bdd4cc738469a2e19"
+from = "75a4dd20ee315ad49070f4cee8ad75c7a94b52495311fe1be79ff48d189f9602"
+deps = []
 
 [[xdg-desktop-portal-wlr.sources]]
 url = "https://github.com/emersion/xdg-desktop-portal-wlr/archive/refs/tags/v0.8.4.tar.gz"

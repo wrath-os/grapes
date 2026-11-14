@@ -1,4 +1,8 @@
 [xorgproto]
+style = "meson"
+record = "f89f11983b3bfeeab9739dcba58375cac57244b99c1644330ddaae8a120c0dbe"
+from = "c3935a1ac57aaf17613f9f2f35b9d6d0df6c3be874c0c69b875aaab50a00a1d0"
+deps = []
 
 [[xorgproto.sources]]
 url = "https://www.x.org/archive/individual/proto/xorgproto-2026.1.tar.xz"

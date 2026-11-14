@@ -1,4 +1,8 @@
 [jujutsu]
+style = "cargo"
+record = "adbc287b3018308692affa3c02ae598658b40af5f88a05b6a1440c573e3604fc"
+from = "ac1ff166a57b1c637e2e6f6bceb9f5d17ec385f24c9a8c1a22e405d4aa9c0016"
+deps = []
 
 [[jujutsu.sources]]
 url = "https://github.com/jj-vcs/jj/archive/v0.34.0/jj-0.34.0.tar.gz"

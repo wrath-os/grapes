@@ -1,4 +1,8 @@
 [gdk-pixbuf-gir]
+style = "meson"
+record = "5d8eb040ba959507b64a155559247bb5e6c5654b414a560eb1b14434081fed2f"
+from = "2f9cecac27b811823983e9a1f72c4af1633413a86604e9648781b10d04d50d78"
+deps = []
 
 [[gdk-pixbuf-gir.sources]]
 url = "https://download.gnome.org/sources/gdk-pixbuf/2.44/gdk-pixbuf-2.44.8.tar.xz"

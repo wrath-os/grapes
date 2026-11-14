@@ -1,4 +1,8 @@
 [eza]
+style = "cargo"
+record = "6efc2308ec545a28ec74c4f405dadf1982243b1cb63e7e32289e50c6a1d3f321"
+from = "65adf7e9eb65684806c8fa89b8da0bce56a3bfdbe6f002dbe09a687c10f36d9e"
+deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[eza.sources]]
 url = "https://github.com/eza-community/eza/archive/v0.23.5/eza-0.23.5.tar.gz"

@@ -1,4 +1,8 @@
 [hyperfine]
+style = "cargo"
+record = "2ea260080597e592e4c16cecb7598bd29e1db8544ff9b7c5ce7c1695ff37bfcf"
+from = "72e212c70df1f153c2d1b9be5aa327cfd2051481696b806758301c2a95260170"
+deps = ["rust-bin"]
 
 [[hyperfine.sources]]
 url = "https://github.com/sharkdp/hyperfine/archive/v2.0.0/hyperfine-2.0.0.tar.gz"

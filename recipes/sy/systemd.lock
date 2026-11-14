@@ -1,4 +1,8 @@
 [systemd]
+style = "meson"
+record = "8b76edd7561cebc9231a198610f2efad8cd6bc8a5a7f87a57f92f8fe4fd81aaa"
+from = "dae7fd34c5076e94754e3cf70277db8b90fb7e1dec302e68c4c18de9633e5249"
+deps = []
 
 [[systemd.sources]]
 url = "https://github.com/systemd/systemd/archive/v257.8/systemd-257.8.tar.gz"

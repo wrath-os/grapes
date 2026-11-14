@@ -1,4 +1,8 @@
 [freetype]
+style = "meson"
+record = "32a77f5d89a996a73f7ca4c4093e3d6ac7daf4de407a80427a86a5ca8612d440"
+from = "0671ac97a10d920e2ed98eb7a3d9465f6c5193aaedbc94d4f159fcffb4bafd32"
+deps = []
 
 [[freetype.sources]]
 url = "https://download.savannah.gnu.org/releases/freetype/freetype-2.15.0.tar.xz"

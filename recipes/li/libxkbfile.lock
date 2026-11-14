@@ -1,4 +1,8 @@
 [libxkbfile]
+style = "meson"
+record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
+from = "9b371e71c27fde76793473e9bfa6f2074bbd728354c3777d2160086370dc4da5"
+deps = []
 
 [[libxkbfile.sources]]
 url = "https://www.x.org/archive/individual/lib/libxkbfile-1.2.0.tar.xz"

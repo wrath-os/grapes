@@ -1,4 +1,8 @@
 [gnupg]
+style = "autotools"
+record = "e729c1a7930e8f0e3835c561d1feda99e9e98a83fff2517ca5232f97cb166a73"
+from = "347ca99039cb592e58d92897579e4aa46a1f9fa68a0ba352f913a8bb263672a8"
+deps = []
 
 [[gnupg.sources]]
 url = "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.5.24.tar.bz2"

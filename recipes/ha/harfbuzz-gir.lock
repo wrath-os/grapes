@@ -1,4 +1,8 @@
 [harfbuzz-gir]
+style = "meson"
+record = "a5b2d151f382c3199759ef8fb8b9b64c00b69d9fd5b27bc4fe778d197e2ee8fa"
+from = "5689bd79719a5c67f10b03f6805f4a630347b5192434a35e92ea49e7c5b5eb54"
+deps = []
 
 [[harfbuzz-gir.sources]]
 url = "https://github.com/harfbuzz/harfbuzz/releases/download/15.1.0/harfbuzz-15.1.0.tar.xz"

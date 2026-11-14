@@ -1,4 +1,8 @@
 [nftables]
+style = "autotools"
+record = "ccfe1aaae5268ecf1116ea80088c8f568346e65b3faa218212786e9c1b1c8c8d"
+from = "ef14f6c181ce1c5c339ddc49835f3c442137ac62f191d90d5ae07a3331a32b64"
+deps = []
 
 [[nftables.sources]]
 url = "https://www.netfilter.org/pub/nftables/nftables-1.1.3.tar.xz"

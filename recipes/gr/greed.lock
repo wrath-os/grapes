@@ -1,4 +1,8 @@
 [greed]
+style = "cargo"
+record = "3dc8d425722ae6a832af6413ad1934258012c63f59f92e4cf0cd6556d70590b7"
+from = "145a5940286a31be2ae5c3b03c58e2162a17531393ae8402ec7fb8f70603a216"
+deps = ["rust-bin"]
 
 [[greed.sources]]
 url = "https://github.com/johnae/greed/archive/v0.4.2/greed-0.4.2.tar.gz"

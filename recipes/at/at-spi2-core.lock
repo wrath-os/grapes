@@ -1,4 +1,8 @@
 [at-spi2-core]
+style = "meson"
+record = "a44f4645349873138ba92724ec5097fafdc03a27b4ab439a6e5e66ad0c366c58"
+from = "b1764044336b108856a52d483b894c1fac4c990fe54be8db026e71e328f5bb22"
+deps = []
 
 [[at-spi2-core.sources]]
 url = "https://download.gnome.org/sources/at-spi2-core/2.60/at-spi2-core-2.60.7.tar.xz"

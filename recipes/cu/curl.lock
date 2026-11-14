@@ -1,4 +1,8 @@
 [curl]
+style = "autotools"
+record = "3a2f2e8fd761a2af7e0a9b81f0bafd23f6b6bf1c8fe3a0455fb9e08548888006"
+from = "83809d4ea9cdd6524aefa014c37ad621b126a12212844b1d711dd71a4ecfd6f9"
+deps = []
 
 [[curl.sources]]
 url = "https://curl.se/download/curl-8.15.0.tar.xz"

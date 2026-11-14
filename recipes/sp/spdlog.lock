@@ -1,4 +1,8 @@
 [spdlog]
+style = "cmake"
+record = "9cd62bc8cd7ed470e0d6b2bd62da9951093a5f8c9370300777bc911fa6e9dafc"
+from = "18ffe75dbf939d2439e5b57dd2ed672c58934f75d5b5a43b3a822bbdc613ca5d"
+deps = ["cmake", "ninja", "pkgconf"]
 
 [[spdlog.sources]]
 url = "https://github.com/gabime/spdlog/archive/v1.17.0/spdlog-1.17.0.tar.gz"

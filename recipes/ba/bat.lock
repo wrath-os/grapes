@@ -1,4 +1,8 @@
 [bat]
+style = "cargo"
+record = "6d91cacf0478dc0cbd5fd4775b64f6a3289f65b8947d35607c7cee80c89c61ef"
+from = "e53740a84e472950c134130a58dfff5ac4a6ef5bfcf2d00cc6d34a62d684ef81"
+deps = ["rust-bin"]
 
 [[bat.sources]]
 url = "https://github.com/sharkdp/bat/archive/v0.26.1/bat-0.26.1.tar.gz"

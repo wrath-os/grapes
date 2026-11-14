@@ -1,4 +1,8 @@
 [shfmt]
+style = "go"
+record = "95bc3249ae5ba57c43ed20ec2fd70a102d0b032ffa56a45bd6531c5e01b40db5"
+from = "8f36a0d29934cb5acca6e62492afded9b1fe1eb62a16971f97b17c3447ccc536"
+deps = ["go"]
 
 [[shfmt.sources]]
 url = "https://github.com/mvdan/sh/archive/v3.14.1/sh-3.14.1.tar.gz"

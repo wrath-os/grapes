@@ -1,4 +1,8 @@
 [foot]
+style = "meson"
+record = "484c82d73fa702a5e3df47c457c17c047c3a543ae05eed812a507053dcb4892a"
+from = "978f79b1b3e47320585f5ee20320b7ca5ae7e6ac59e1f8aa7e4453acc675ff6a"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[foot.sources]]
 url = "https://codeberg.org/dnkl/foot/archive/1.28.0.tar.gz"

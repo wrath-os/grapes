@@ -1,4 +1,8 @@
 [libXrender]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "26af9aacba60850854499c6d325585d7cc3a6d815b1d0252a99ff49857f74530"
+deps = []
 
 [[libXrender.sources]]
 url = "https://www.x.org/archive/individual/lib/libXrender-0.9.13.tar.xz"

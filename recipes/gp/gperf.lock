@@ -1,4 +1,8 @@
 [gperf]
+style = "autotools"
+record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
+from = "3aad7dd0be8aa038c6ace0a6028fc666becbd5158f582d8c97b9d6c0c254a6ca"
+deps = []
 
 [[gperf.sources]]
 url = "https://ftp.gnu.org/gnu/gperf/gperf-3.3.tar.gz"

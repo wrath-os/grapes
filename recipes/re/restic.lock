@@ -1,4 +1,8 @@
 [restic]
+style = "go"
+record = "3c9847bf5e884b6983efaa4fbd0e5ddb1c216515232b7c42139fd0a79e10a5ac"
+from = "0c57a305ca0ec3c852c37939dd15387e0f21ecdd99df2ada6025152a515168a3"
+deps = ["go"]
 
 [[restic.sources]]
 url = "https://github.com/restic/restic/archive/v0.19.1/restic-0.19.1.tar.gz"

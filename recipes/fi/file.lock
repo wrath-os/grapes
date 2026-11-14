@@ -1,4 +1,8 @@
 [file]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "ad74ca00a868798d3374f37f8279cd98bab9fc3f3f2351a49321dfce5dcb35a1"
+deps = []
 
 [[file.sources]]
 url = "https://astron.com/pub/file/file-5.46.tar.gz"

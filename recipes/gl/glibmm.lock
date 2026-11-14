@@ -1,4 +1,8 @@
 [glibmm]
+style = "meson"
+record = "451cd7d996aacfb02cf316c9a5ca64c17a8c8cbba6d1d282b1f37b860caac6e4"
+from = "7d56f3e3fc68cb8d8d1fe671b15f99458691673e7cc81999989f81b7ff7445dc"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[glibmm.sources]]
 url = "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.10.tar.xz"

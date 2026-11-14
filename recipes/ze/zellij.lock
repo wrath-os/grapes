@@ -1,4 +1,8 @@
 [zellij]
+style = "cargo"
+record = "7e80f8fa49c3a9a9c805bef8cc7fb738940945f3e740783ec3d19321aababd41"
+from = "9dfa9c56c4ff7c34908b020042ed51580511a24880567173ac108d5126f62f77"
+deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[zellij.sources]]
 url = "https://github.com/zellij-org/zellij/archive/v0.46.0/zellij-0.46.0.tar.gz"

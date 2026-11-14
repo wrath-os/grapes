@@ -1,4 +1,8 @@
 [libgpg-error]
+style = "autotools"
+record = "af49716334a9414ffe1354e073b90951845960b92d87c4be62b67da438cea2a8"
+from = "c28fcb52a0b0629a58b2a5f0bdcd3d3bffd4ac35a5e517e611bb6478a821d371"
+deps = []
 
 [[libgpg-error.sources]]
 url = "https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.61.tar.bz2"

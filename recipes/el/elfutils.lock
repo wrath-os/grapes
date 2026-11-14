@@ -1,4 +1,8 @@
 [elfutils]
+style = "autotools"
+record = "c3685df2893b425b6f8037b4fa533ec8f3358b0db254d45be4960c7319e8809d"
+from = "8d4277b517acb02b497f8c378e0554d9dd00c253509331e7bf0a99c00a871801"
+deps = []
 
 [[elfutils.sources]]
 url = "https://sourceware.org/ftp/elfutils/0.193/elfutils-0.193.tar.bz2"

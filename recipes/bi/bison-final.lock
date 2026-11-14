@@ -1,4 +1,8 @@
 [bison-final]
+style = "autotools"
+record = "3fc2923e78f0ff926e2c00882c4e068a92f8810e33b1727e1f02775b5c99c1ff"
+from = "67cd8a5b5d7aed85bc914a801fbd0166d5c012b60a8491cf06a334e79a286f21"
+deps = []
 
 [[bison-final.sources]]
 url = "https://ftp.gnu.org/gnu/bison/bison-3.8.2.tar.xz"

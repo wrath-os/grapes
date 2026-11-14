@@ -1,4 +1,8 @@
 [tmux]
+style = "autotools"
+record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
+from = "0696e6adb6c5201b854b82ef91e7f2edd0af2247e889d13945337d93b4f3d7fb"
+deps = []
 
 [[tmux.sources]]
 url = "https://github.com/tmux/tmux/releases/download/3.8/tmux-3.8.tar.gz"

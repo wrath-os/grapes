@@ -1,4 +1,8 @@
 [gtkmm3]
+style = "meson"
+record = "a20cc282b330cae17cb0838e62bfa4f4f43ba001707272f8fbb227ebb6912934"
+from = "53f4ea189940280bf4e95d7887d9340cb2701045b8393846eabba2636909b6b5"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[gtkmm3.sources]]
 url = "https://download.gnome.org/sources/gtkmm/3.24/gtkmm-3.24.11.tar.xz"

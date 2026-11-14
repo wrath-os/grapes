@@ -1,4 +1,8 @@
 [alacritty]
+style = "cargo"
+record = "2e9d37c6e333596effbbf764dabc163315e3a58fd530595488ab4c99e74b3d96"
+from = "b35cd237f5fe3f8a44e28a551b09d822b04504b0468d1501478c14f2020301f6"
+deps = []
 
 [[alacritty.sources]]
 url = "https://github.com/alacritty/alacritty/archive/v0.15.1/alacritty-0.15.1.tar.gz"

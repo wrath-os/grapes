@@ -1,4 +1,8 @@
 [libass]
+style = "meson"
+record = "3efb5bdbc755b23c686355010c803f34367826434f8c6c5bcba5e84b9a737a13"
+from = "cb5a15818c03cd1c06c406cb79c4495f2411700b67efd2ae57dd8b0cde28ec8a"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[libass.sources]]
 url = "https://github.com/libass/libass/releases/download/0.17.5/libass-0.17.5.tar.xz"

@@ -1,4 +1,8 @@
 [util-linux]
+style = "autotools"
+record = "97133846beaf595bca2a7da656ffb812f816d38add1221ed8aa242112f746a71"
+from = "a57e3f0b79806d4ca26f6698cf05c66091ccd1c7dbe59aa098f54b0e25db55da"
+deps = []
 
 [[util-linux.sources]]
 url = "https://www.kernel.org/pub/linux/utils/util-linux/v2.41/util-linux-2.41.1.tar.xz"

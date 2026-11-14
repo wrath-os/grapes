@@ -1,4 +1,8 @@
 [atkmm]
+style = "meson"
+record = "ae147d3eaef2c477320ded4db807b8357fdc9c129084eb8fed56312cd93b0c34"
+from = "d007b4384a8e3cdf9c90c2d8287049b02f7d5b3d7ca0a58bef652a2d444c6db9"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[atkmm.sources]]
 url = "https://download.gnome.org/sources/atkmm/2.28/atkmm-2.28.5.tar.xz"

@@ -1,4 +1,8 @@
 [fcft]
+style = "meson"
+record = "f80ac9e2cd3ffdb55b1aefdff2323ede3354a8a817498df32407f17d83d7e515"
+from = "8008a6f9cfb73ec8491b79440d68eed039fdf9c64349263483a734ebe752d942"
+deps = []
 
 [[fcft.sources]]
 url = "https://codeberg.org/dnkl/fcft/archive/3.3.1.tar.gz"

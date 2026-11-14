@@ -1,4 +1,8 @@
 [sqlite]
+style = "autotools"
+record = "7ba01ce909eec2a834b97cb619465c6d612c93b708512bc13d82cfdafde45355"
+from = "88b2a323e18e34742914a79a6e1bbcd8c8565533dba8ba2f0a7243befbeb645c"
+deps = []
 
 [[sqlite.sources]]
 url = "https://sqlite.org/2026/sqlite-autoconf-3540100.tar.gz"

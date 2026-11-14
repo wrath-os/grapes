@@ -1,10 +1,18 @@
 [libxkbcommon]
+style = "meson"
+record = "5f317a03852d5d4addd949cdf4d1fa4185cd9b60341bf727fe2554b06ce52f34"
+from = "a757acb2c4cfa78262035b71d5936adb7e5556d943a4eeabf0730c667c6c3e34"
+deps = []
 
 [[libxkbcommon.sources]]
 url = "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-1.13.2/libxkbcommon-xkbcommon-1.13.2.tar.gz"
 hash = "acc4d5f7c3cbba5f9f8d08d8bdbeede84ecede46792f47929aa9321873385528"
 
 [libxkbcommon-x11]
+style = "meson"
+record = "0feea4640ebedf9e6a9043f1858f6cd88ca880cc3aa46bea0326f0cc27ee54a9"
+from = "11470737cfbba9bf1f6e837137fa7e263c977b26fcecf57fae3a5512036701b6"
+deps = []
 
 [[libxkbcommon-x11.sources]]
 url = "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-1.13.2/libxkbcommon-xkbcommon-1.13.2.tar.gz"

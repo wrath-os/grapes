@@ -1,4 +1,8 @@
 [cairomm]
+style = "meson"
+record = "a0722ee785e94429381fc76dec7c2edd17de4f8c37f8808ba46b2df6c81ce48f"
+from = "3787276f24d305c31d1650370c734144d62341cbed8077fef834087ef93da0b9"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[cairomm.sources]]
 url = "https://www.cairographics.org/releases/cairomm-1.14.5.tar.xz"

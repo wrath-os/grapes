@@ -1,4 +1,8 @@
 [appstream]
+style = "meson"
+record = "adf12075977bc6fd5bd3ae744d0e30dad0b32693070c133b453a53b7919d6042"
+from = "d3f3de1363e56e58f56d7bb0690c1d887d84cdf2f8ee0440b8809486bfd0c248"
+deps = []
 
 [[appstream.sources]]
 url = "https://github.com/ximion/appstream/archive/v1.1.2/appstream-1.1.2.tar.gz"

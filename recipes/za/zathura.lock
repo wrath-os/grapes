@@ -1,4 +1,8 @@
 [zathura]
+style = "meson"
+record = "3caca30cd26953ab680f4f349e18a6839cb9b1b83bff32e44bbd69eef12b793c"
+from = "bad86819812600a9125a38119738d8f1f48302577a1d9c0d0172965ff8330914"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[zathura.sources]]
 url = "https://github.com/pwmt/zathura-pdf-poppler/archive/2026.07.18/zathura-pdf-poppler-2026.07.18.tar.gz"

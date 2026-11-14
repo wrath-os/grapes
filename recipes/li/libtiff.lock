@@ -1,4 +1,8 @@
 [libtiff]
+style = "cmake"
+record = "f14e4cb7a15f69c1df990c0f8a790f84229502c2feb8a9428f87daf9dbe98af7"
+from = "726b26812d0a866585d69591a573087c4d9f8a44c562dc9460c2f2602cfb0668"
+deps = ["cmake", "ninja", "pkgconf"]
 
 [[libtiff.sources]]
 url = "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.xz"

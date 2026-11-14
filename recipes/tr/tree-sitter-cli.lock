@@ -1,4 +1,8 @@
 [tree-sitter-cli]
+style = "cargo"
+record = "7c53de0789fe4f8a47350d6acd7bf3d14150c494e322147c42dbe53840ec80d1"
+from = "44f4e4172f33a6f275b228f7fb4d108f2500cfca5f7c607d52d2fe32bd4e4b6c"
+deps = ["rust-bin"]
 
 [[tree-sitter-cli.sources]]
 url = "https://github.com/tree-sitter/tree-sitter/archive/v0.27.2/tree-sitter-0.27.2.tar.gz"

@@ -1,4 +1,8 @@
 [age]
+style = "go"
+record = "d729eef13435fcef7ef3ad87571fbaf98b34fe20cfa11edd31c675a45af83966"
+from = "902268c8e7897dfd43f48ca9d5e05c6d748c7acb24e2ffff8f22b83d37b6cfc4"
+deps = []
 
 [[age.sources]]
 url = "https://github.com/FiloSottile/age/archive/v1.2.1/age-1.2.1.tar.gz"

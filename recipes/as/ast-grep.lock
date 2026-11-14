@@ -1,4 +1,8 @@
 [ast-grep]
+style = "cargo"
+record = "de6e8bf04b0df1fadbb701756d86b012bcca4b40376808d310d650db8dc738a7"
+from = "bc7df034e357e6bbe90b2ffabf7ed92d44663c85df8b138e4b46cb2a39889d8c"
+deps = ["rust-bin"]
 
 [[ast-grep.sources]]
 url = "https://github.com/ast-grep/ast-grep/archive/0.51.2/ast-grep-0.51.2.tar.gz"

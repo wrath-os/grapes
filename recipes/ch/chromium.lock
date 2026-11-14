@@ -1,4 +1,8 @@
 [chromium]
+style = "prebuilt"
+record = "c4367157d52733d02d804739abc606f72adefeaa81370f32e89b5877b509d21f"
+from = "a05404431128f29b24de54fe4ff2d20fc9f95cd4a6813ff96291af9373e91ab7"
+deps = ["patchelf"]
 
 [[chromium.sources]]
 url = "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/156.0.8078.79-1/ungoogled-chromium-156.0.8078.79-1-x86_64_linux.tar.xz"

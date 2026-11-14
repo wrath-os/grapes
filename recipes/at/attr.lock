@@ -1,4 +1,8 @@
 [attr]
+style = "autotools"
+record = "5e744a1b0594669eb8a662b194ba1d8135943d8bceb72b141cc3bf240d460d0a"
+from = "1bdb36d53da7370519d15d2456af6280ed06cc6cfc1282a7015b96ea0829231c"
+deps = []
 
 [[attr.sources]]
 url = "https://download.savannah.gnu.org/releases/attr/attr-2.5.2.tar.gz"

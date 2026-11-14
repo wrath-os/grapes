@@ -1,4 +1,8 @@
 [zsh]
+style = "autotools"
+record = "fc45145a6b7691a2cb587472bd75043733974627a0f4c808897b0d8f3119be55"
+from = "ce1e5a99b3e89d18f0249b58d1f8ff1811ab1b640f851eec300cc849ff0002f3"
+deps = []
 
 [[zsh.sources]]
 url = "https://www.zsh.org/pub/zsh-5.9.2.tar.xz"

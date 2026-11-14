@@ -1,4 +1,8 @@
 [libepoxy]
+style = "meson"
+record = "96b3f102d863efb213e302cf80012254a82c32a2995820aa82c9975f081312b8"
+from = "b2a1f56a2fe6229f3859575fa2e4763bc32c5c31c499a8aa18eca28b6abfe18a"
+deps = []
 
 [[libepoxy.sources]]
 url = "https://github.com/anholt/libepoxy/archive/1.5.10/libepoxy-1.5.10.tar.gz"

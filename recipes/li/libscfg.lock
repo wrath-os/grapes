@@ -1,4 +1,8 @@
 [libscfg]
+style = "meson"
+record = "a203af7506ebc7cdd7fdfe855bc0010d8f20db7d17c6477f0e7a06b1c30b4f49"
+from = "07ef7a989dafb45337d41beb5d122c146eba8955e9a94d6b1ebf26938319e0b5"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[libscfg.sources]]
 url = "https://git.sr.ht/~emersion/libscfg/archive/v0.1.1.tar.gz"

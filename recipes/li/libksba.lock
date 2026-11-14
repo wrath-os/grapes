@@ -1,4 +1,8 @@
 [libksba]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "540a40619b1842f7707480233b5084173d29afe06b44cac60da00ec3c5bcd6ec"
+deps = []
 
 [[libksba.sources]]
 url = "https://gnupg.org/ftp/gcrypt/libksba/libksba-1.8.1.tar.bz2"

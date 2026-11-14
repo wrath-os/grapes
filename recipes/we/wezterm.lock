@@ -1,4 +1,8 @@
 [wezterm]
+style = "cargo"
+record = "e36748f312d9cc253bbd2705f4d84b0fbf813710c36a3518908d37774e5dd4bc"
+from = "8343916ba60b0a75890406d9926f338afc4f6eb455c3155db6b5d9d75ab7f2cb"
+deps = []
 
 [[wezterm.sources]]
 url = "git+https://github.com/wez/finl_unicode.git#a1892f26245529f2ef3877a9ebd610c96cec07a6"

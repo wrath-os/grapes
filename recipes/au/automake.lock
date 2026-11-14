@@ -1,4 +1,8 @@
 [automake]
+style = "autotools"
+record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
+from = "ee8e426a92e51a7d661044972b5779ab6a9c96b1c302c4060b594b72a504e215"
+deps = []
 
 [[automake.sources]]
 url = "https://ftp.gnu.org/gnu/automake/automake-1.18.1.tar.xz"

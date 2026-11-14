@@ -1,4 +1,8 @@
 [fish]
+style = "cargo"
+record = "5699b6e83af1dd92d080a7a3bb221d189a5edf61e2aad279bc1599be944d1e76"
+from = "d41b667aa6ec602ad9e750a1af79ececd2309170576ed958c3dc73fc0666b776"
+deps = ["rust-bin"]
 
 [[fish.sources]]
 url = "git+https://codeberg.org/danielrainer/fluent-ftl-tools#5917664c8f2e4928ef1e480ff5c13bbe1e226066"

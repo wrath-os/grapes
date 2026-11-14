@@ -1,4 +1,8 @@
 [gcr3]
+style = "meson"
+record = "f0057168bc8658e250a93085096830b8051923ee71bd4bb22feecb074195bb55"
+from = "9bd1a33f003994960c636414e99d2721e738c075497dcf4dcfd1db3805ded838"
+deps = []
 
 [[gcr3.sources]]
 url = "https://download.gnome.org/sources/gcr/3.41/gcr-3.41.2.tar.xz"

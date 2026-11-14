@@ -1,4 +1,8 @@
 [zoxide]
+style = "cargo"
+record = "b3e20377e34e013aaceb1ff878570e14c59a19be8311bbc5d69edaf30245bb49"
+from = "3f2881834a5ee0884091568c46001fcc51c119cd551687edfb037706fae4b06a"
+deps = ["rust-bin"]
 
 [[zoxide.sources]]
 url = "https://github.com/ajeetdsouza/zoxide/archive/v0.10.0/zoxide-0.10.0.tar.gz"

@@ -1,4 +1,8 @@
 [zram-generator]
+style = "cargo"
+record = "33f22d07f8f76522de619a3fb2aaa18b6e6e65b342aa4f296cd3cd18370ced09"
+from = "94bb55a7447539652ebb48393644b7a716150a987687155aa5c97bef6d126ab0"
+deps = []
 
 [[zram-generator.sources]]
 url = "https://github.com/systemd/zram-generator/archive/v1.2.1/zram-generator-1.2.1.tar.gz"

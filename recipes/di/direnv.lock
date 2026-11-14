@@ -1,4 +1,8 @@
 [direnv]
+style = "go"
+record = "81619253535b77ef1a6f9163a52a7becebad033976c1f3ac873198a8cc9f2450"
+from = "a5ff3dbd1c5a6d529f503d4b844eadc6e188ea02177d38b089c5e4a7bed3d7d1"
+deps = ["go"]
 
 [[direnv.sources]]
 url = "https://github.com/direnv/direnv/archive/v2.38.2/direnv-2.38.2.tar.gz"

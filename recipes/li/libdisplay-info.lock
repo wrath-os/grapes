@@ -1,4 +1,8 @@
 [libdisplay-info]
+style = "meson"
+record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
+from = "4f3a8267f0b2a0335bb93cc10b50d7c8dc3ffe3ddbaef70a29b2cd0aff62b3ee"
+deps = []
 
 [[libdisplay-info.sources]]
 url = "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.3.0/downloads/libdisplay-info-0.3.0.tar.xz"

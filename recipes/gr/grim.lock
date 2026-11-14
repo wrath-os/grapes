@@ -1,4 +1,8 @@
 [grim]
+style = "meson"
+record = "8ccfc3c70df44b64b84ed87d8ca1d99e8dcc0eaf247118664c5aa19522dff2ba"
+from = "145e922ace2b332710c8e945aefaa7250d760a9b9d72c67e109b2b2bda299b98"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[grim.sources]]
 url = "https://gitlab.freedesktop.org/emersion/grim/-/archive/v1.5.0/grim-v1.5.0.tar.gz"

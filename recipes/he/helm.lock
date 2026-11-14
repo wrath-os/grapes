@@ -1,4 +1,8 @@
 [helm]
+style = "go"
+record = "6ff7b2b32bc1206699d9af62e64cb99153bb688159f6b133b41cd65f95e89895"
+from = "2231f59e97fac41686640fd99506157f7626fc41b29570dfefaee7778dec73a1"
+deps = ["go"]
 
 [[helm.sources]]
 url = "https://github.com/helm/helm/archive/v4.3.1/helm-4.3.1.tar.gz"

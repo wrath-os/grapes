@@ -1,4 +1,8 @@
 [libXfixes]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "c3c0670017902313fc0dfef8d409634169435f7bc27ef8e358b71e89e5c835da"
+deps = []
 
 [[libXfixes.sources]]
 url = "https://www.x.org/archive/individual/lib/libXfixes-6.0.2.tar.xz"

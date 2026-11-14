@@ -1,4 +1,8 @@
 [mpfr]
+style = "autotools"
+record = "fca8e313d64ce6788dca7db35e643d0616cfa20ebd7d6558dc1d8ea3ff6b44d2"
+from = "09ec28359b51dd6aec29f0201c0eb87fe1317cfbe26f3d4671edabcbb27b8955"
+deps = []
 
 [[mpfr.sources]]
 url = "https://ftp.gnu.org/gnu/mpfr/mpfr-4.2.2.tar.xz"

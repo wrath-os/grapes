@@ -1,4 +1,8 @@
 [dav1d]
+style = "meson"
+record = "9f7af28f203f50b2ea7abb7a833338e9a495ad6ba73c33bedba0a6b73a764ee7"
+from = "2ab9ea767318a43efccd368a2005728fb0036604cd32e37b59d86b2a3bb028d7"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[dav1d.sources]]
 url = "https://github.com/videolan/dav1d/archive/1.5.4/dav1d-1.5.4.tar.gz"

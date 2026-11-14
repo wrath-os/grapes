@@ -1,4 +1,8 @@
 [fuzzel]
+style = "meson"
+record = "e672f9c587ee96d00d41baa6a7e9d8772148bcca08afc4ec532e4ca0a786ef15"
+from = "8141d9ee0f2c62fab9daceef0437f5dcfa3997a452c22f0531d64668f25cee83"
+deps = []
 
 [[fuzzel.sources]]
 url = "https://codeberg.org/dnkl/fuzzel/archive/1.12.0.tar.gz"

@@ -1,4 +1,8 @@
 [parted]
+style = "autotools"
+record = "e22660576d1f9024ff0eddac07f65bca8ed62e07785a6d2b4f4d7b9035abb5fd"
+from = "fc678dc8a998cf47445498e82c92d5d5a8ee5c32abb152ed10e453652d9eb2e1"
+deps = []
 
 [[parted.sources]]
 url = "https://ftp.gnu.org/gnu/parted/parted-3.8.tar.xz"

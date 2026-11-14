@@ -1,4 +1,8 @@
 [girara]
+style = "meson"
+record = "f4b6daa280397aef87e6251ec17113af58326f7d9e606065765a165ab1e5d6f6"
+from = "de6a71f9c2495dc21a407a2d07e0a5b8a0933f846c891889941074d541e3d89c"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[girara.sources]]
 url = "https://github.com/pwmt/girara/archive/2026.07.18/girara-2026.07.18.tar.gz"

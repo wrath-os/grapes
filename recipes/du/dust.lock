@@ -1,4 +1,8 @@
 [dust]
+style = "cargo"
+record = "4e94c97ab6287a5e8e64234371a3288637093cc886fc9ed225307c889ca141d8"
+from = "7e3a849190faa9bbed0f34cb72db46e05a13f759a8304e1b76afeec47ff0d3a7"
+deps = ["rust-bin"]
 
 [[dust.sources]]
 url = "https://github.com/bootandy/dust/archive/v1.2.7/dust-1.2.7.tar.gz"

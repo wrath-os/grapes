@@ -1,4 +1,8 @@
 [mpv]
+style = "meson"
+record = "a04b1048e362e12512995e3fd654465b59c282c304b2adab0a05aa8266b55f0a"
+from = "e4922ea5592902d3c6a1ed00494ca96b0c099cb6817f3389ee71eb13a2214f80"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[mpv.sources]]
 url = "https://github.com/mpv-player/mpv/archive/v0.42.0/mpv-0.42.0.tar.gz"

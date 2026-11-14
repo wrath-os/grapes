@@ -1,4 +1,8 @@
 [nlohmann-json]
+style = "cmake"
+record = "17ab4386dfc198f67afead39fcc21b3284b32ee8d18816900dc8d2c68242b648"
+from = "b129f7fe7748ff3286851c2cdbc46e32b8260a07842b1a5db487ecefae1fb9a9"
+deps = ["cmake", "ninja", "pkgconf"]
 
 [[nlohmann-json.sources]]
 url = "https://github.com/nlohmann/json/archive/v3.12.0/json-3.12.0.tar.gz"

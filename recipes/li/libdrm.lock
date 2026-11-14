@@ -1,4 +1,8 @@
 [libdrm]
+style = "meson"
+record = "ffc21b5adf271c956d760e83092af4a8a1d559b44995e69e5920e150554a5897"
+from = "d1cff2bf17551ee2c83e0e70fc7f6744cc966fec6496a881ec429a066afdec33"
+deps = []
 
 [[libdrm.sources]]
 url = "https://dri.freedesktop.org/libdrm/libdrm-2.4.134.tar.xz"

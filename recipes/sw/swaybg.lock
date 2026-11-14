@@ -1,4 +1,8 @@
 [swaybg]
+style = "meson"
+record = "f874ec27f431e8a4f3a45be9cab291f4b0bd3a4da6a9ad0c206edbe9ae3d3560"
+from = "98cd54cefb0b6863397330d34a16329f0b3a4e7e967721456119437116ad6218"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[swaybg.sources]]
 url = "https://github.com/swaywm/swaybg/releases/download/v1.2.2/swaybg-1.2.2.tar.gz"

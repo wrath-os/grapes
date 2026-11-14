@@ -1,4 +1,8 @@
 [lcms2]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "202a04a3fcb31a4de1bfd4fbb8873f21761434d9cd5e450cc1db67853a5e501c"
+deps = []
 
 [[lcms2.sources]]
 url = "https://github.com/mm2/Little-CMS/releases/download/lcms2.20/lcms2-2.20.tar.gz"

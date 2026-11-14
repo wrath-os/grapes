@@ -1,4 +1,8 @@
 [cryptsetup]
+style = "autotools"
+record = "0ff27546139d5bdf098ffea3a02ed5be050ace594e8d7a129c06f3232df04924"
+from = "87da8f554dc0a2f6a80021cf71a1317214f386125cb1b8f84c232c3b537efad0"
+deps = []
 
 [[cryptsetup.sources]]
 url = "https://www.kernel.org/pub/linux/utils/cryptsetup/v2.7/cryptsetup-2.7.5.tar.xz"

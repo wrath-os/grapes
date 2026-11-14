@@ -1,4 +1,8 @@
 [libX11]
+style = "autotools"
+record = "b62f632777a6fa491e6cdc48072c967f3f44e772be9fc34173ca01386071d5f6"
+from = "5c3be269b2547bfadf8df790ce22bd364f4b151404c65f88634bb1d7fc29db8b"
+deps = []
 
 [[libX11.sources]]
 url = "https://www.x.org/archive/individual/lib/libX11-1.8.14.tar.xz"

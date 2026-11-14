@@ -1,4 +1,8 @@
 [vulkan-headers]
+style = "cmake"
+record = "9ef6bf4fdc2eeb992d975385e279b1cb721e290443f8c60530183bb9cd0274e5"
+from = "3051009e5c317ce595430b2dfbbdbc9da5c6c77f396fd63c918633b165117dc5"
+deps = ["cmake", "ninja", "pkgconf"]
 
 [[vulkan-headers.sources]]
 url = "https://github.com/KhronosGroup/Vulkan-Headers/archive/vulkan-sdk-1.4.363.0/Vulkan-Headers-1.4.363.0.tar.gz"

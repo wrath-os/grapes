@@ -1,4 +1,8 @@
 [libqalculate]
+style = "autotools"
+record = "c73c08727337b687cdfb42a8d27dbc4e237d3dc9f9cbb99b5fc76fd10bccf694"
+from = "563da2a9f0bf27e58a0db3c0bb84570360ad804067c93838f1a0fc4b70596b50"
+deps = []
 
 [[libqalculate.sources]]
 url = "https://github.com/Qalculate/libqalculate/releases/download/v5.13.2/libqalculate-5.13.2.tar.gz"

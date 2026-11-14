@@ -1,4 +1,8 @@
 [starship]
+style = "cargo"
+record = "db4556e5b00d376881f2a6252371c14fd5905c43dfeaba495bdc64ebec0f9bbc"
+from = "018e740e45869108e95aee14aeb3ffff681e9b83a2e01108efcefec246ca89c1"
+deps = ["rust-bin"]
 
 [[starship.sources]]
 url = "https://github.com/starship/starship/archive/v1.27.0/starship-1.27.0.tar.gz"

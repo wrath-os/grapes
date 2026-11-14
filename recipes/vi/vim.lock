@@ -1,4 +1,8 @@
 [vim]
+style = "autotools"
+record = "618e0b73eb3ec20ba5d0acdda7cb5fadf99e0b97e576800b3ca34fa0ab74062e"
+from = "8623398e434c379a53a03915a2a12cb573a25b18ce7a3aed4257389d91235d6a"
+deps = []
 
 [[vim.sources]]
 url = "https://github.com/vim/vim/archive/v9.2.1332/vim-9.2.1332.tar.gz"

@@ -1,4 +1,8 @@
 [helix]
+style = "cargo"
+record = "07ac8c738ef8a2ae7df7e03a38ba661f844d53135ae8ef9c04a9051fec4e3f56"
+from = "eb39ce43a989488bd4cc5fe6c52021de7d6bd9db55ab07a6fd70c3962d149344"
+deps = ["rust-bin"]
 
 [[helix.sources]]
 url = "https://github.com/helix-editor/helix/archive/25.07.1/helix-25.07.1.tar.gz"

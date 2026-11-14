@@ -1,4 +1,8 @@
 [libusb]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "69c5788372e8bd7b26b7820b813a2283f271bc4d66fe88585e919d4ff1d1d700"
+deps = []
 
 [[libusb.sources]]
 url = "https://github.com/libusb/libusb/releases/download/v1.0.30/libusb-1.0.30.tar.bz2"

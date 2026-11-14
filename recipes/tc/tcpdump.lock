@@ -1,4 +1,8 @@
 [tcpdump]
+style = "autotools"
+record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
+from = "6f98a09963a523bd24ab2fc463c688cfaa794c7cc8767ec7de36a6115f81eb52"
+deps = []
 
 [[tcpdump.sources]]
 url = "https://www.tcpdump.org/release/tcpdump-4.99.7.tar.xz"

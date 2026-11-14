@@ -1,4 +1,8 @@
 [k9s]
+style = "go"
+record = "c57dd39fab852bc53b957f9da149156fed54c91e792b0bc0209a07ac121a189b"
+from = "d06b4d5f9ff8dcf87be7020435ce6a904c2ad4e026cce8b3ce8cd869bda756c6"
+deps = ["go"]
 
 [[k9s.sources]]
 url = "https://github.com/derailed/k9s/archive/v0.51.0/k9s-0.51.0.tar.gz"

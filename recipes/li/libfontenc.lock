@@ -1,4 +1,8 @@
 [libfontenc]
+style = "meson"
+record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
+from = "a04400de4edd613b4eb531caf2a581c46f4a06255c8052e265247a940534e6bd"
+deps = []
 
 [[libfontenc.sources]]
 url = "https://www.x.org/archive/individual/lib/libfontenc-1.1.9.tar.xz"

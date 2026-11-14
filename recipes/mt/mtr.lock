@@ -1,4 +1,8 @@
 [mtr]
+style = "autotools"
+record = "f7fb952f83706bd2140a4416dc45eb03a5254293456974f38e81389914d77693"
+from = "59ef6991da9a9506bd0daf2d2bfb64a3a783c9d68df3577ca720a9400e50dfb9"
+deps = []
 
 [[mtr.sources]]
 url = "https://github.com/traviscross/mtr/archive/v0.96/mtr-0.96.tar.gz"

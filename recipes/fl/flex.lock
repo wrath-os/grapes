@@ -1,4 +1,8 @@
 [flex]
+style = "autotools"
+record = "d6cecec54ef060eb7436ec056e745ccf38b19e3187e311273de69f105d25f393"
+from = "cfb97fdd546796918eb145bf33ea4a266416c4b38fee9048dba481a74cf0ee02"
+deps = []
 
 [[flex.sources]]
 url = "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"

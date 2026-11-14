@@ -1,4 +1,8 @@
 [gnome-keyring]
+style = "meson"
+record = "ec1c22761e07754ccf2fb2a822fe7bf49e8f95648a62a4d6c4e7da3e7db2fc64"
+from = "faaba8c53bbab95c6759ea43160e17d20ca18f1864b1d8ffdf4372eb9b128b4f"
+deps = []
 
 [[gnome-keyring.sources]]
 url = "https://download.gnome.org/sources/gnome-keyring/51/gnome-keyring-51.1.tar.xz"

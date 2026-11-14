@@ -1,4 +1,8 @@
 [libevdev]
+style = "meson"
+record = "00ab13554a14df1e3a180587ef0a040a8b7d47c6cfed4f4c8ce0100e143a52df"
+from = "7caf395ab1607187797dbacfd225da93d6777635b9e1c7e98f9001709e4e3f13"
+deps = []
 
 [[libevdev.sources]]
 url = "https://www.freedesktop.org/software/libevdev/libevdev-1.14.0.tar.xz"

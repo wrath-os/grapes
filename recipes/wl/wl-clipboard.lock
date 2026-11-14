@@ -1,4 +1,8 @@
 [wl-clipboard]
+style = "meson"
+record = "9122c81b7ad24e304135baf7915ae6453a3a1165e6a227ec23312d1414a12f3b"
+from = "1a2b3507855c100c5eda9ca155ba57dc3433887696d0ba69a0e17392f895f273"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[wl-clipboard.sources]]
 url = "https://github.com/bugaevc/wl-clipboard/archive/v2.3.0/wl-clipboard-2.3.0.tar.gz"

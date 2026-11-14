@@ -1,4 +1,8 @@
 [bubblewrap]
+style = "meson"
+record = "c65d245b786669f453c73b0d6010c98a8a76e1f5ab055a2f8fea1c1981505213"
+from = "34e04f091e0f236d543f137f4ea6563b72c9d42ef702f86fb37ad31c3ad3e80b"
+deps = []
 
 [[bubblewrap.sources]]
 url = "https://github.com/containers/bubblewrap/releases/download/v0.11.0/bubblewrap-0.11.0.tar.xz"

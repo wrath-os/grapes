@@ -1,4 +1,8 @@
 [nano]
+style = "autotools"
+record = "7cd10214d76ac1127c76a5e372c1de7c652ee02b86f05ca10e493d389257d7b2"
+from = "ba548c7c8251fccfdfd625801f44346f9dd5c522a75916d39d46dc684b22543e"
+deps = []
 
 [[nano.sources]]
 url = "https://www.nano-editor.org/dist/v8/nano-8.4.tar.xz"

@@ -1,4 +1,8 @@
 [fd]
+style = "cargo"
+record = "a41a04e32f41f33b9057ebdeeb940aa291d91e7cf32bbb6f4b18d13bf37fd42f"
+from = "dee70e3fa65d1b600c8bf367c0b809789c7d036a661f73b9d74155560425cf66"
+deps = ["rust-bin"]
 
 [[fd.sources]]
 url = "https://github.com/sharkdp/fd/archive/v10.5.2/fd-10.5.2.tar.gz"

@@ -1,4 +1,8 @@
 [alsa-lib]
+style = "autotools"
+record = "26cfa796a54ad021ea3016d3b69ddbabcaf63e360f44496a191c1daa3408b90a"
+from = "633cbd9236343aca7a4985367266f4805e327b58660c27ceeba1f5e3c90a7291"
+deps = []
 
 [[alsa-lib.sources]]
 url = "https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.16.1.tar.bz2"

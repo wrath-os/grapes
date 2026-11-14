@@ -1,4 +1,8 @@
 [json-glib]
+style = "meson"
+record = "119c1adcb12b894d0ea7eb823aa57943d9f10bd86718a6bdef71ffca269d382d"
+from = "b9ff27c7489794669540196bbde7edbda2715e94534a3010872a38b49b24e60b"
+deps = []
 
 [[json-glib.sources]]
 url = "https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.8.tar.xz"

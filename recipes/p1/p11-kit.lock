@@ -1,4 +1,8 @@
 [p11-kit]
+style = "meson"
+record = "a4de5aa4b8ec7a407d095d9f2c357cdbfde22a6850704c07f0c3a37bfea502da"
+from = "fb2bdf5b2276c5ef01ba897a5e92dddd97e65826953662362aefb1237f6be451"
+deps = []
 
 [[p11-kit.sources]]
 url = "https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz"

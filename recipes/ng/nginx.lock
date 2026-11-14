@@ -1,4 +1,8 @@
 [nginx]
+style = "autotools"
+record = "5eaecf1c9e0a487db2953967380fc53d64b8661dc20790d3bbbc854c5ad717d2"
+from = "eb1999430a16501e7f4fd19ff0b62a5d8921eb2413c1af0d5e74ae881bc5456f"
+deps = []
 
 [[nginx.sources]]
 url = "https://nginx.org/download/nginx-1.28.0.tar.gz"

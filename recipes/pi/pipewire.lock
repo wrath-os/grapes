@@ -1,4 +1,8 @@
 [pipewire]
+style = "meson"
+record = "7b4342f28f90f4084ae8929066535ee1b144e06f7491b104b7ce510666c634a4"
+from = "399cab124be0579e916d0d7399fcab3f6a7c83362a6ebd9dea21856cb1ae2a1f"
+deps = []
 
 [[pipewire.sources]]
 url = "https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/1.6.11/pipewire-1.6.11.tar.gz"

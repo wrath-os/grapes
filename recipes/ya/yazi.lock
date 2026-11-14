@@ -1,4 +1,8 @@
 [yazi]
+style = "cargo"
+record = "04733c66a9ae6f6bb76a6369609997575613a1153390a9078a4d39634f86d91c"
+from = "3393def99e2c94c58d28adb3e565d84aa27ce58905e304c04c11b13d59b859e1"
+deps = ["rust-bin"]
 
 [[yazi.sources]]
 url = "git+https://github.com/yazi-rs/ratatui.git#dde5e05eccfe5b7cb7712b4bdf76edd0c2cd1f25"

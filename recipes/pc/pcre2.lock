@@ -1,4 +1,8 @@
 [pcre2]
+style = "autotools"
+record = "3d98b36c97b7c7fc672508df5bce143f17fab1ab399b97713cae5d9ff108db54"
+from = "3d0341889eb3a613a421da36b45c06e3df853c2d7d8f1b1fb267bfbdfa876f84"
+deps = []
 
 [[pcre2.sources]]
 url = "https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.45/pcre2-10.45.tar.bz2"

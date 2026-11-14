@@ -1,4 +1,8 @@
 [json-c]
+style = "cmake"
+record = "e78adda0a43c58370b70c91f5a8edd03ddde5bcfcba45895cd90dceab8aba0f1"
+from = "15223e6955d6aaa610b0ec796b08f9b91d4cd9fced22306df2ce7e4a5600d68b"
+deps = ["pkgconf"]
 
 [[json-c.sources]]
 url = "https://s3.amazonaws.com/json-c_releases/releases/json-c-0.18.tar.gz"

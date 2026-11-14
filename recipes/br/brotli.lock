@@ -1,4 +1,8 @@
 [brotli]
+style = "cmake"
+record = "af4b618bae34d074b0d13f5f3ac6f9deaef14001cabd8ffac88c8d03617eed29"
+from = "0960af103f610bb58d667dadc7182564fd96a4cfbea1fd0d0575860ffca17f84"
+deps = ["cmake", "ninja", "pkgconf"]
 
 [[brotli.sources]]
 url = "https://github.com/google/brotli/archive/v1.2.1/brotli-1.2.1.tar.gz"

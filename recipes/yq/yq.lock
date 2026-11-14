@@ -1,4 +1,8 @@
 [yq]
+style = "go"
+record = "d59196b47973ae3acf0ea16fa34d85ea6dc22a4351a8119d1356d1d67f28fcc0"
+from = "0437dcef056402f113f85f57115027a123972376ed65aafc8d8a3b36f5887c34"
+deps = ["go"]
 
 [[yq.sources]]
 url = "https://github.com/mikefarah/yq/archive/v4.54.3/yq-4.54.3.tar.gz"

@@ -1,4 +1,8 @@
 [pinentry]
+style = "autotools"
+record = "2d3bb37d24d5db6f59c7e04c9284f0cc809b808377705c051cd4b299f472372c"
+from = "b9fdc6f12543e467ac909b96e4331bfaadc3b1f91eec599e0f4390f9e17667ac"
+deps = []
 
 [[pinentry.sources]]
 url = "https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.3.3.tar.bz2"

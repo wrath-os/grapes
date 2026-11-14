@@ -1,4 +1,8 @@
 [gh]
+style = "go"
+record = "4055756f3609e2d33fd82600fe243a657a65c11caceccfa02b8249b1d0e31420"
+from = "279773b20ce84eadfc7d5e6ad72d1f66a7bb8d0e76bc8875b8733386a38c8ee1"
+deps = ["go"]
 
 [[gh.sources]]
 url = "https://github.com/cli/cli/archive/v2.103.3/cli-2.103.3.tar.gz"

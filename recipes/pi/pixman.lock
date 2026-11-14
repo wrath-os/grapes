@@ -1,4 +1,8 @@
 [pixman]
+style = "meson"
+record = "08b9a1c897ea38cb097b81db29d4c1271ec26b66a12ce21d4dd2878f8016ea7a"
+from = "1b0f0e0e8f48dfbc22c9af64e69a70eecb621ac5a34dd42aa7822a592ab330c3"
+deps = []
 
 [[pixman.sources]]
 url = "https://cairographics.org/releases/pixman-0.46.4.tar.gz"

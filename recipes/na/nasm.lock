@@ -1,4 +1,8 @@
 [nasm]
+style = "autotools"
+record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
+from = "fee83a36d91128f4deef43154bf1feccf9d285b1377bde2b17e5b734668be057"
+deps = []
 
 [[nasm.sources]]
 url = "https://www.nasm.us/pub/nasm/releasebuilds/3.02/nasm-3.02.tar.xz"

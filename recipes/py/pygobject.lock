@@ -1,4 +1,8 @@
 [pygobject]
+style = "meson"
+record = "051a92cbca6d82118cdcd0453db67f7d1425e9018f03101d3532c1b23f3e1061"
+from = "b6f1e2b800f62a8d3698c8ae95cede571852e4c8c4eecc335c68c9ef44fa7e86"
+deps = []
 
 [[pygobject.sources]]
 url = "https://download.gnome.org/sources/pygobject/3.54/pygobject-3.54.5.tar.gz"

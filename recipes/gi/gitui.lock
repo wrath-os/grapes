@@ -1,4 +1,8 @@
 [gitui]
+style = "cargo"
+record = "8d1dbb555f2b48b0fcf0528220309987657780902259563a4372a4e06a65adbb"
+from = "e8edda7d0a37bbef81027c2f9bc05c8205ab3e65b2f12724c4bb0c6ab6ac35b8"
+deps = ["rust-bin", "openssl", "pkgconf"]
 
 [[gitui.sources]]
 url = "https://github.com/gitui-org/gitui/archive/v0.28.1/gitui-0.28.1.tar.gz"

@@ -1,4 +1,8 @@
 [greetd]
+style = "cargo"
+record = "ea35496a497537e2b457312d9aa5d30e821458f9ff3280c9818a241cd989f738"
+from = "75ce4aa768134bd6b7af072b13bac56fec601650660f1a24c5dbad17f16914e0"
+deps = []
 
 [[greetd.sources]]
 url = "https://git.sr.ht/~kennylevinsen/greetd/archive/0.10.3.tar.gz"

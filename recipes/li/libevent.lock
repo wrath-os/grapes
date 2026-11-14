@@ -1,4 +1,8 @@
 [libevent]
+style = "autotools"
+record = "df93278fb9671cf501bb278acd85b1067cb9bc14a14f6377636834312d65e373"
+from = "1b6fcd8a7ef834a8f5ce0591ea6cacfdfaf8dfd72377b2fb1aa7bd7d689f1462"
+deps = []
 
 [[libevent.sources]]
 url = "https://github.com/libevent/libevent/releases/download/release-2.1.13-stable/libevent-2.1.13-stable.tar.gz"

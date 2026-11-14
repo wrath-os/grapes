@@ -1,4 +1,8 @@
 [libinput]
+style = "meson"
+record = "1b448e564899180c6c927d49a9b6c1521964b5c8fa5f6f1072752c7eef47b5bc"
+from = "3dbda23e9f0f74cd25fa180ec2a30e4b90ba9b1dff4984977d48d0aa928da767"
+deps = []
 
 [[libinput.sources]]
 url = "https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.32.0/libinput-1.32.0.tar.gz"

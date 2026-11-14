@@ -1,4 +1,8 @@
 [tokei]
+style = "cargo"
+record = "e39ef564e6c5bfe2ae00bcf216f915b0ac31a67cbf87b6db7de94157cb43c345"
+from = "9215c18d8fe18564ac1992430812c9a4b399569762feb5cf02779edf7c64b8e7"
+deps = ["rust-bin"]
 
 [[tokei.sources]]
 url = "https://github.com/XAMPPRocky/tokei/archive/v15.0.0/tokei-15.0.0.tar.gz"

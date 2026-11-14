@@ -1,4 +1,8 @@
 [highway]
+style = "cmake"
+record = "c798ac4bfb3b273fbc6126ae70049c99371ddc13c7d0514c7dc43e42809804ec"
+from = "e6c1c6299e31b283d14aee55ab3f6629e070377cb57388236b51f94274906df9"
+deps = ["cmake", "ninja", "pkgconf"]
 
 [[highway.sources]]
 url = "https://github.com/google/highway/archive/1.4.0/highway-1.4.0.tar.gz"

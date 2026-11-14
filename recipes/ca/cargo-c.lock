@@ -1,4 +1,8 @@
 [cargo-c]
+style = "cargo"
+record = "9e1c63d0324314016cfbe2f13110967069cab4881d5505b1629b6997fac88045"
+from = "6b37e397f139671a7b4dd81f88316eb88f6e0ae0a1741af08f6e3ebca126f86c"
+deps = []
 
 [[cargo-c.sources]]
 url = "https://static.crates.io/crates/cargo-c/cargo-c-0.10.26+cargo-0.100.0.crate"

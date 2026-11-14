@@ -1,4 +1,8 @@
 [smartmontools]
+style = "autotools"
+record = "22d1b52bba6ca87d262d0b8756e61b87b6caa7d79352c49cc954bb368b68b6e0"
+from = "f40e4e46ac8418074f95f8c341d2728acd6e3327f6c8b1c8bec48e080fad2c0b"
+deps = []
 
 [[smartmontools.sources]]
 url = "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz"

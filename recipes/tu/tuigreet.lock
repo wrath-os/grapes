@@ -1,4 +1,8 @@
 [tuigreet]
+style = "cargo"
+record = "a7e15fb8409158d6623f4d63e25952b66739249cdf44e41149fb6c9065c6395e"
+from = "15c0164a17754d7abaed180b07b8fe8cd5d29347bce3b3425c5c8c50186aef31"
+deps = []
 
 [[tuigreet.sources]]
 url = "https://github.com/tuigreet/tuigreet/archive/0.9.1/tuigreet-0.9.1.tar.gz"

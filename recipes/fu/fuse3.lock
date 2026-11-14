@@ -1,4 +1,8 @@
 [fuse3]
+style = "meson"
+record = "1e572723cb61f57ccf607d4d06eeb448fa9040293f388109362b278639c217ce"
+from = "64364b6c873263820f399cdc6be800a0a22975cacd9368040d7d064271aa26db"
+deps = []
 
 [[fuse3.sources]]
 url = "https://github.com/libfuse/libfuse/releases/download/fuse-3.18.3/fuse-3.18.3.tar.gz"

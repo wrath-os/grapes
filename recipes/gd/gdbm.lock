@@ -1,4 +1,8 @@
 [gdbm]
+style = "autotools"
+record = "6c453b0ddc6e6417176dcc2cd16c66bcc66e07791d3a5a948f3a80d62c2e6493"
+from = "7a0f55d7726cddfa94257823b2a530ebcba5b8bb71a1e0c7e7dc139694e78cc5"
+deps = []
 
 [[gdbm.sources]]
 url = "https://ftp.gnu.org/gnu/gdbm/gdbm-1.26.tar.gz"

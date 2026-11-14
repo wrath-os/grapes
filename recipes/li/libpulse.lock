@@ -1,4 +1,8 @@
 [libpulse]
+style = "meson"
+record = "f9c5b47eb6bc2dc92727abbe750d35498d78bf720cd8878f6f484ca0d1eca062"
+from = "e4b5463ebbd9c42615b8a4952e88ecbc9adf162dd5893ddf13c8503557847f2c"
+deps = []
 
 [[libpulse.sources]]
 url = "https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz"

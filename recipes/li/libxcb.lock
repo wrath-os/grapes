@@ -1,4 +1,8 @@
 [libxcb]
+style = "autotools"
+record = "6a65eee9c40caf569d6d1d120b85ecf82c2c31110e91f98b83e2a93422538b9a"
+from = "56cc35e31e6da539b9bf868a5a486bf0c89b54f7f589aa69ebc3877ca9a4dc0a"
+deps = []
 
 [[libxcb.sources]]
 url = "https://www.x.org/archive/individual/lib/libxcb-1.17.0.tar.xz"

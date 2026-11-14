@@ -1,4 +1,8 @@
 [glslang]
+style = "cmake"
+record = "48c13e937429adb9f9deea49ec87849a6c48df60f4f42304102dffd2bb381104"
+from = "4a0939357287898a0df35f22045dea0a3a6c66dad5362cea804056656555337d"
+deps = ["pkgconf"]
 
 [[glslang.sources]]
 url = "https://github.com/KhronosGroup/glslang/archive/16.6.0/glslang-16.6.0.tar.gz"

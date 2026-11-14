@@ -1,4 +1,8 @@
 [ethtool]
+style = "autotools"
+record = "b13837309b2556a5bab0963f4666920e66586fd226febdc61059ec56df2a2aba"
+from = "8c5ea2d8ef9bffcc03452a892c56252b635e885c18e5dba8a03ca06e28ac8f22"
+deps = []
 
 [[ethtool.sources]]
 url = "https://www.kernel.org/pub/software/network/ethtool/ethtool-7.2.tar.xz"

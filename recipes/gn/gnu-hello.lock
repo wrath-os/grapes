@@ -1,4 +1,8 @@
 [gnu-hello]
+style = "autotools"
+record = "3fc2923e78f0ff926e2c00882c4e068a92f8810e33b1727e1f02775b5c99c1ff"
+from = "a06ba7edd691b9b9dd55a22b804a20859fcd43f448ada817cd2d217fe92bd5cb"
+deps = []
 
 [[gnu-hello.sources]]
 url = "https://ftp.gnu.org/gnu/hello/hello-2.12.2.tar.gz"

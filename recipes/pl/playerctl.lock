@@ -1,4 +1,8 @@
 [playerctl]
+style = "meson"
+record = "17802466377e5a4a24a4b8213c9009ab0c9f864597333b1ad0231d819bc17ee5"
+from = "60e85ba2c8ab890e36eb5663c848dca8e581f13d4b53589f4f46107868886dcc"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[playerctl.sources]]
 url = "https://github.com/altdesktop/playerctl/archive/v2.4.1/playerctl-2.4.1.tar.gz"

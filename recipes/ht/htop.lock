@@ -1,4 +1,8 @@
 [htop]
+style = "autotools"
+record = "9de8195622102710e5d9af4c949977b64e0d93172f0433dda71208811e44d467"
+from = "7c24ba5bb80dc54d37e8cc3e6ebcb79a46dcb2c4abbbb518e5910033a9d686ed"
+deps = []
 
 [[htop.sources]]
 url = "https://github.com/htop-dev/htop/releases/download/3.5.3/htop-3.5.3.tar.xz"

@@ -1,10 +1,18 @@
 [gobject-introspection]
+style = "meson"
+record = "dd5aedf164bd3374672e1656eb1d1a23d4900f5ff5791991a89ca557270b50d6"
+from = "a724b381bca029bfb583a578c24cd2d980639caee602b7d889f64037bc2580b0"
+deps = []
 
 [[gobject-introspection.sources]]
 url = "https://download.gnome.org/sources/gobject-introspection/1.84/gobject-introspection-1.84.0.tar.xz"
 hash = "945b57da7ec262e5c266b89e091d14be800cc424277d82a02872b7d794a84779"
 
 [gobject-introspection-gir]
+style = "meson"
+record = "f5cc8cdacbbb467c580a137b34a1fd899c02bd2e242e785d3ffad4003c170c39"
+from = "5e14c175a9b9724ef016fefd19b1bb097d5a9c3fc68dda11f57a2edc060c47db"
+deps = []
 
 [[gobject-introspection-gir.sources]]
 url = "https://download.gnome.org/sources/gobject-introspection/1.84/gobject-introspection-1.84.0.tar.xz"

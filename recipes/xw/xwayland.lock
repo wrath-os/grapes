@@ -1,10 +1,18 @@
 [xwayland]
+style = "meson"
+record = "9f096d5a5c4dc9338ede25146ffe0260f8fc6cc7746fe195b0b3b7ee4db5b397"
+from = "2ff1009e826c0669daa0987cb39f9231b5e180f67bb98a0be34f81ccd0b461dc"
+deps = []
 
 [[xwayland.sources]]
 url = "https://www.x.org/archive/individual/xserver/xwayland-24.1.15.tar.xz"
 hash = "7311b4bcda22cfc19cb99680eb1c35cfc1ea885981310639f0429fe2948c122e"
 
 [xwayland-satellite]
+style = "cargo"
+record = "679075c8bd8a36f057d89c41d6090e84653053e6b40c5f7d748dfc73e8fd197c"
+from = "eef198d3ee9bd2e98df33784fb85c85bd40d369c8a8b43f133973bcb763eff45"
+deps = []
 
 [[xwayland-satellite.sources]]
 url = "https://github.com/Supreeeme/xwayland-satellite/archive/v0.8.3/xwayland-satellite-0.8.3.tar.gz"

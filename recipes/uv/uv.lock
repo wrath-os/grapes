@@ -1,4 +1,8 @@
 [uv]
+style = "cargo"
+record = "98953ea5bed8fddccb851ba5da827a13f1ad7e576bbcdf1469219593a5b5571c"
+from = "067375e41bc819b8c196f86678d1532154412f77ad90500e78b8a13051f465ef"
+deps = ["rust-bin"]
 
 [[uv.sources]]
 url = "https://github.com/astral-sh/uv/archive/0.13.7/uv-0.13.7.tar.gz"

@@ -1,22 +1,38 @@
 [xcb-util]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "0a4a43dd6b91d7082d0c3221b5c97080a284f95fa67eedf73c4339b6b6e13390"
+deps = []
 
 [[xcb-util.sources]]
 url = "https://www.x.org/archive/individual/xcb/xcb-util-0.4.1.tar.xz"
 hash = "5abe3bbbd8e54f0fa3ec945291b7e8fa8cfd3cccc43718f8758430f94126e512"
 
 [xcb-util-cursor]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "3b802999b376d19d5fa26512e96c39f496773f1578ccb42dcedf20e6f0420088"
+deps = []
 
 [[xcb-util-cursor.sources]]
 url = "https://www.x.org/archive/individual/xcb/xcb-util-cursor-0.1.6.tar.xz"
 hash = "fdeb8bd127873519be5cc70dcd0d3b5d33b667877200f9925a59fdcad8f7a933"
 
 [xcb-util-image]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "03707f1e4ba113e70c18a6d8edf11ae226a0c245a56e9146d1bcdb1852fd2309"
+deps = []
 
 [[xcb-util-image.sources]]
 url = "https://www.x.org/archive/individual/xcb/xcb-util-image-0.4.1.tar.xz"
 hash = "ccad8ee5dadb1271fd4727ad14d9bd77a64e505608766c4e98267d9aede40d3d"
 
 [xcb-util-renderutil]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "2acc1800ed11d9225fd4875eb90e0737eedc9cfd9f3a5a26ae02350f1e4b9176"
+deps = []
 
 [[xcb-util-renderutil.sources]]
 url = "https://www.x.org/archive/individual/xcb/xcb-util-renderutil-0.3.10.tar.xz"

@@ -1,4 +1,8 @@
 [libXrandr]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "c13847f6a64172c9a261685d526abd63db68ff2a3a0218eca1d5e642ffe2f1e2"
+deps = []
 
 [[libXrandr.sources]]
 url = "https://www.x.org/archive/individual/lib/libXrandr-1.5.5.tar.xz"

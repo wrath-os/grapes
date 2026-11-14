@@ -1,4 +1,8 @@
 [kanshi]
+style = "meson"
+record = "255ed79d7cbb30099f5687a84a7335f0beb6d352ee2966d7061e882bccb9e2c0"
+from = "4f4e7902328e4acd58ed5b3144dddbaf38b1363832ecc7a096eb98cca9f02ecc"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[kanshi.sources]]
 url = "https://git.sr.ht/~emersion/kanshi/archive/v1.7.0.tar.gz"

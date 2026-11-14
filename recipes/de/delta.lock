@@ -1,4 +1,8 @@
 [delta]
+style = "cargo"
+record = "ed730cbd14d2a7e5ee9f8389b22e97d95232e1a0638d8e6ac969f2d172d767f7"
+from = "d0955a57cbb1607061058e95d2ac6afc5dfc847e864f5e715c20fed162a53e22"
+deps = ["rust-bin"]
 
 [[delta.sources]]
 url = "https://github.com/dandavison/delta/archive/0.20.1/delta-0.20.1.tar.gz"

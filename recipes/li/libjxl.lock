@@ -1,4 +1,8 @@
 [libjxl]
+style = "cmake"
+record = "57258daa8b794eb926a213ca9379998716d18d9d6ddac88e08228780410768ab"
+from = "b4c647c9d362aa86ede6d421c68831bd44c2456b390981706b16cdebc6149e8d"
+deps = ["cmake", "ninja"]
 
 [[libjxl.sources]]
 url = "https://github.com/libjxl/libjxl/archive/v0.13.0/libjxl-0.13.0.tar.gz"

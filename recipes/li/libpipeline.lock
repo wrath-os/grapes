@@ -1,4 +1,8 @@
 [libpipeline]
+style = "autotools"
+record = "8b25dabebdb5904b3967c639b090e0e907022c41f0c3b6ad4b420eaa783294a3"
+from = "e45c7930e005f7235ea4bfb77bfeaa27e9ff0066cb6de403f7fd7e16eec72f4a"
+deps = []
 
 [[libpipeline.sources]]
 url = "https://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.5.8.tar.gz"

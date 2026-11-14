@@ -1,4 +1,8 @@
 [graphene]
+style = "meson"
+record = "d02cd5eb85b75bb0a744d044d99a5cde3354188be432cb9b69104c40d73573ae"
+from = "dc8075362bbda2a8405c62344eeaf1cd86c4d1776186fccf0002e403c7d474f6"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[graphene.sources]]
 url = "https://download.gnome.org/sources/graphene/1.10/graphene-1.10.8.tar.xz"

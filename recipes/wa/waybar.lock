@@ -1,4 +1,8 @@
 [waybar]
+style = "meson"
+record = "69c4edab74cce4dfd9381b942af03ee4d78e7067631714ca8c75eb973b7a734d"
+from = "4921ae981ca7d917c445733135e8ba858aabcaea32d0e7356ea53f23ea41a071"
+deps = ["meson", "ninja", "pkgconf"]
 
 [[waybar.sources]]
 url = "https://github.com/Alexays/Waybar/archive/0.16.0/waybar-0.16.0.tar.gz"

@@ -1,4 +1,8 @@
 [rclone]
+style = "go"
+record = "9cd5ad62af434d40b200c8bdcd6dca9ab08a8136d8796b1b37d490cf9afee92a"
+from = "f98d82b848b380c8ee9bb68f6a89b775e53bc054b60ff8714de7f90a0fae072e"
+deps = ["go"]
 
 [[rclone.sources]]
 url = "https://github.com/rclone/rclone/archive/v1.76.0/rclone-1.76.0.tar.gz"

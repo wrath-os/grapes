@@ -1,4 +1,8 @@
 [libgcrypt]
+style = "autotools"
+record = "bb5f2bb5b1d5c317337bfa2bb2e3a885ef73d5e446f9da286c3a6f0a61c0e9f6"
+from = "c109da8f41cb10e5f7f7670ce6a57c395f5f7b89d542dd8185de6125b8c73588"
+deps = []
 
 [[libgcrypt.sources]]
 url = "https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.12.4.tar.bz2"
