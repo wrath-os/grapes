@@ -1,0 +1,18 @@
+[[package]]
+id = "python3"
+version = "3.13.7"
+scope = "runtime"
+toolset = true
+extra_deps = ["libffi", "zlib", "bzip2", "xz", "expat", "openssl", "readline"]
+sources = [{ url = "https://www.python.org/ftp/python/{version}/Python-{version}.tar.xz" }]
+script = '''
+# The pilot has no pkg-config, without which configure can't work out how to use ncurses.
+py_cv_module__curses=n/a py_cv_module__curses_panel=n/a \
+./configure --prefix=$PREFIX --enable-shared --without-ensurepip --with-system-expat
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = [
+  "bin/python3 -c 'import ssl, zlib, bz2, lzma, readline, pyexpat'",
+]
+check = "make test TESTOPTS='-j32 test_zlib test_bz2 test_lzma test_ssl test_xml_etree'"

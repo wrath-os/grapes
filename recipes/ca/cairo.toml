@@ -1,0 +1,19 @@
+[[package]]
+id = "cairo"
+version = "1.18.6"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "pixman", "fontconfig",
+  "glib", "libX11", "libXext", "libXrender",
+]
+sources = [{ url = "https://cairographics.org/releases/cairo-{version}.tar.xz" }]
+probes = ["cairo"]
+
+# With Xlib, which GTK 3's X11 backend draws through.
+[package.meson]
+args = [
+  "-D xlib=enabled", "-D xcb=disabled", "-D lzo=disabled", "-D tests=disabled",
+  "-D spectre=disabled", "-D symbol-lookup=disabled", "-D glib=enabled", "-D png=enabled",
+  "-D freetype=enabled", "-D fontconfig=enabled",
+]

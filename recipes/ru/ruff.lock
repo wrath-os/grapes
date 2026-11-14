@@ -1,0 +1,5 @@
+[ruff]
+
+[[ruff.sources]]
+url = "https://github.com/astral-sh/ruff/archive/0.17.4/ruff-0.17.4.tar.gz"
+hash = "a466d837b406c888f4f76e4be808658f36846288aa87f81ac89afcf078ad386a"

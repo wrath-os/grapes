@@ -1,0 +1,801 @@
+[lazygit]
+
+[[lazygit.sources]]
+url = "https://github.com/jesseduffield/lazygit/archive/v0.66.3/lazygit-0.66.3.tar.gz"
+hash = "49e80d28e03e53048105f6ebb5afefbe5caacffa8549347d8a59eab3a00dafe1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/dario.cat/mergo/@v/v1.0.2.mod"
+hash = "d4c65d7a5f68051187d1385f0de39cc4a7f47a88dc37f45d2dfe494403e25ee2"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/dario.cat/mergo/@v/v1.0.2.zip"
+hash = "67d2e9d83ca57d3a8ce1a0e0e626a7c03753b3966b58b41b95e97ca4e7b2c640"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/adrg/xdg/@v/v0.5.3.mod"
+hash = "a90821b125d2e3cb77c833f7b7e34e7e8ce7502f07fcb101b5cfea7f14dfeea1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/adrg/xdg/@v/v0.5.3.zip"
+hash = "52847b48afcd46cfd312bc857a8df08643cfffc4103d59a40c3ce648e0196c13"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.mod"
+hash = "871822cbc7df3792f78a100886b7f499f73555938e336b918682119688ea8ad0"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.zip"
+hash = "d67b2c36c662751309fd2ec351df3651584bea840bd27be9a90702c3a238b43f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/aybabtme/humanlog/@v/v0.4.1.mod"
+hash = "b9d358268ac01583cb2bcfdb99565a571c1bf0a97dcfb9177dbaa2c1ffb78b76"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/aybabtme/humanlog/@v/v0.4.1.zip"
+hash = "3a3ca52ec8d7a629a5476a66df9a999c1e9537f91d4f27969df1d1d0c41e6a52"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/aybabtme/rgbterm/@v/v0.0.0-20170906152045-cc83f3b3ce59.mod"
+hash = "00e8683917480c11afb1da3688a0c0abc2e8313f4fa839b122b2f42dd135b79c"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/bahlo/generic-list-go/@v/v0.2.0.mod"
+hash = "963215560d40b8b6b6363b343e042a84389b76ec6ca6ff4b1322038f42ee95de"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/bahlo/generic-list-go/@v/v0.2.0.zip"
+hash = "e773fa812176a62f1d27d7a1e7589683f5e5af2d36628fa6a5a522e59474c504"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/buger/jsonparser/@v/v1.1.2.mod"
+hash = "587c18b3f32f8b7dcd3fccc82a5f5520ea624c037c85d597b2eb5d958063a1b5"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/buger/jsonparser/@v/v1.1.2.zip"
+hash = "07495b55fbdae886bcc970b6f5d5073435b5980291dc92674c53ab31d1ad298f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/cli/go-gh/v2/@v/v2.16.2.mod"
+hash = "810a2fc60618a6a591224f8e93a6b87fdee776ce3908f6e465a5d1509fc70a20"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/cli/go-gh/v2/@v/v2.16.2.zip"
+hash = "645c1bb607593080d8e5abeff39defed49574637e5f86c04d53e66eb5da1f13a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/cli/safeexec/@v/v1.0.1.mod"
+hash = "f0c7a1bd509d267d05f9498d8b990de0e3fd579954ae2801d2806bd330ac1833"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/cli/safeexec/@v/v1.0.1.zip"
+hash = "c867d2a3ad61200cc84e2604372e9bd5815cb283b2ff2b183e57fe29d00e01ba"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/displaywidth/@v/v0.11.0.mod"
+hash = "643bf909351d7bc8ff29a8a7bb44cca11efe181ed66e5efe57d695bb023effb3"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/displaywidth/@v/v0.11.0.zip"
+hash = "27830c91cdfb2a648748db21f7a2734dcb50d21c620edde51d488ba4e7967e3d"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/uax29/v2/@v/v2.7.0.mod"
+hash = "f3c5f4e4f9e7fb16aea5fd9dc5f24c3ff9c157b1a67576c0f2140117589507a0"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/uax29/v2/@v/v2.7.0.zip"
+hash = "67b1278f1ffb4e4d783a390e48fe7396864650138e785d4b4bfca5914333f761"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/cloudfoundry/jibber_jabber/@v/v0.0.0-20151120183258-bcc4c8345a21.mod"
+hash = "50999e93117519da98040e29d25f8b1de873a165a51fe2c8c55f6348708bb878"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/cloudfoundry/jibber_jabber/@v/v0.0.0-20151120183258-bcc4c8345a21.zip"
+hash = "ccdd12db6e21484997c713ec6a62ce3b12d4ff5df59fd0a3ad94d32836ca883a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.24.mod"
+hash = "a3979fd32c00f35d17eb3b97d0b3cc6f4efb057bf78271361fa773531e601531"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.24.zip"
+hash = "754e25253e76a5583b80d57d3add3afe68fc4d9f2a490968a9d1eda8c8fd8815"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v0.0.0-20161028175848-04cdfd42973b.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.0.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.7.1-0.20180516100307-2d684516a886.mod"
+hash = "4c3949e65c12a24e0bbb2d52118bc048e6980c29bc49402c59658ade035198a3"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.9.0.mod"
+hash = "c13ad20dd1ccdd163e424c1b5c6ca3681ed37c2a2800d2d25736b5f755b430ed"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.9.0.zip"
+hash = "33d21fd662beb497f642ffbb42305261004d849fe7028ce037e2b15475b4ecd1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/encoding/@v/v1.0.1.mod"
+hash = "67621ac302247c0bc8fa24bbf137210836e0c06d67c4116c8c8f981e163d0043"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/encoding/@v/v1.0.1.zip"
+hash = "e584303c743306ae55be21a5703900d0628aa2ef840ce49d5f0bbf7c51379e33"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/tcell/v3/@v/v3.6.0.mod"
+hash = "53d90df05f63baf30d995f201ace73faf20c0bc8374e59c8d2ffd2971230ab9e"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/tcell/v3/@v/v3.6.0.zip"
+hash = "f8455638cccdd7de893d8c35d503eba0e2120377ad5efad4a03ed5b9848d3da2"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/go-errors/errors/@v/v1.5.1.mod"
+hash = "54812529e90caecfd1b3f7cd8c90152a10b174ecb9fb56904682440f21168174"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/go-errors/errors/@v/v1.5.1.zip"
+hash = "9630a42ecb17920a5f9ce332356f8a28ad4aaff529e2ecb676b4a1d11d3149c0"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/go-logfmt/logfmt/@v/v0.4.0.mod"
+hash = "496161c9b253bfd71dfdb40233c322786d55e9e42953785c3be4838983fe7e79"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/go-logfmt/logfmt/@v/v0.5.0.mod"
+hash = "e23d20d0d9d1e72e042c6e234195b9f8ef5621da7f8b9860d6a318d799c960d1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/go-logfmt/logfmt/@v/v0.5.0.zip"
+hash = "59a6b59ae3da84f7a58373844ca8d298f5007ce0e173437fc85c26d4fc76ca8b"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/go-quicktest/qt/@v/v1.102.0.mod"
+hash = "2f9fe3cadcc7baeeee7068510a4ae02486bd3807b222113e8711e81b14a5ad65"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/go-quicktest/qt/@v/v1.102.0.zip"
+hash = "cbcd567d482081f6379d844c6a75137f2bf9a89defd06046659951ca03a44134"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.mod"
+hash = "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip"
+hash = "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/gookit/assert/@v/v0.1.1.mod"
+hash = "2214ebbc557aa97bc9a150cf50e5db36ea0a5d22eba40c97e869c06d3d12426a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/gookit/assert/@v/v0.1.1.zip"
+hash = "99d9ebedecd73267c8cd292df63e9b2d190edf9835b30e5cb588af8f5b7e4a2c"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/gookit/color/@v/v1.6.1.mod"
+hash = "d44f051eba04201f819e86324c48076e95af68453927b7c454c826ff5f135732"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/gookit/color/@v/v1.6.1.zip"
+hash = "e4e0694c8af528d723400892906f52bca3a700676e2b3da3ca1195f9f6638645"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/hpcloud/tail/@v/v1.0.0.mod"
+hash = "0005c9955199580a5b950e2a03416555cc0dd8d362ed9a919b4a266b837e209a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/hpcloud/tail/@v/v1.0.0.zip"
+hash = "3cba484748e2e2919d72663599b8cc6454058976fbca96f9ac78d84f195b922a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/integrii/flaggy/@v/v1.8.0.mod"
+hash = "13f731b0187c94cde57ad4a8b0ce43fe360505ff332ae73d98281f4df0ce060d"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/integrii/flaggy/@v/v1.8.0.zip"
+hash = "0a872bf7ed47042824ff6e407db5ce73ac965ebd6d31cd011ee8fdf510296b4a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/invopop/jsonschema/@v/v0.10.0.mod"
+hash = "5c4c16adbb46281fbfe0ad032e69c7160af6bba6436fa9dbfae578efca7b34ea"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/invopop/jsonschema/@v/v0.10.0.zip"
+hash = "6f6e7b8ca47f059c5049986a44abaf81238ed4965cbaa80fc66c802b35b94f7f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/jesseduffield/generics/@v/v0.0.0-20250517122708-b0b4a53a6f5c.mod"
+hash = "5d3be3a6816289f85603952a5e73e66f4a85a215942b4787cf9aab03c2ab6605"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/jesseduffield/generics/@v/v0.0.0-20250517122708-b0b4a53a6f5c.zip"
+hash = "8407555195282500f87ea237541822bf7edfe339a0f15a0f58fe64fb5d34c450"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/jesseduffield/lazycore/@v/v0.0.0-20221012050358-03d2e40243c5.mod"
+hash = "4cf8ddd5729222c9e8e360791c7cebe9c4dd2637158729ee2bfd78c8e6c612f6"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/jesseduffield/lazycore/@v/v0.0.0-20221012050358-03d2e40243c5.zip"
+hash = "ac4489edc1973976999be0fbdd9da0a5f6ab80ca6b840880ac2115f8633d5ca3"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/josharian/intern/@v/v1.0.0.mod"
+hash = "b5027a67f5c127bb46b9ffac9d35a333b1df71cfc220e7196a7993e16a10a2b2"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kardianos/osext/@v/v0.0.0-20190222173326-2bc1f35cddc0.mod"
+hash = "17396af04af567624e5bd52d63176ec676c8c16bf7c082069757da098630c8e0"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kardianos/osext/@v/v0.0.0-20190222173326-2bc1f35cddc0.zip"
+hash = "10976c39b58f218a6e29687d19763845e7650d04ac86096cd67ace58f4e56346"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/karimkhaleel/jsonschema/@v/v0.0.0-20231001195015-d933f0d94ea3.mod"
+hash = "9a003acc7163582da38500956e37e9fa23259ac0e5eb089823178246a06b3592"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/karimkhaleel/jsonschema/@v/v0.0.0-20231001195015-d933f0d94ea3.zip"
+hash = "14e4ffab1c6f420eb42b8847f6c81cbc8f368f3078aff467e045ef5fa0782bfc"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/logfmt/@v/v0.0.0-20140226030751-b84e30acd515.mod"
+hash = "eea467153d80336f6174d40d1ca022618c4f3b93610fd62040929ffe009ba9a6"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/logfmt/@v/v0.0.0-20140226030751-b84e30acd515.zip"
+hash = "ebd95653aaca6182184a1b9b309a65d55eb4c7c833c5e790aee11efd73d4722c"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.2.1.mod"
+hash = "c2ae28bd5bb8e8f9076955126768ab7a147952deea9fdbcb373c53cc18870f82"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.mod"
+hash = "84f3e40803b1ebd4a802e55794b9997df0b173c4809e8572ff9042ec558ca1bc"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.zip"
+hash = "ecf5a4af24826c3ad758ce06410ca08e2d58e4d95053be3b9dde2e14852c0cdc"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/pty/@v/v1.1.1.mod"
+hash = "6da4c9c7364446894e5ef877e19f985cd51d671ce6e8f4ca87862b449f6dd7f6"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.1.0.mod"
+hash = "2fba9529e5c13dde62f371ef7383baf04d7132501dac6aa08e910f9ec0bf85c5"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.mod"
+hash = "f63879b204f6ce895cea53594b814f5ac0af08486b33b1ca79c657384efbc726"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.zip"
+hash = "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod"
+hash = "1605871e895331a39f5952559ebbc91228d86b8100354f857b562866eca5bb13"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.zip"
+hash = "dbbd0ce8c2f4932bb03704d73026b21af12bd68d5b8f4798dbf10a487a2b6d13"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kyokomi/emoji/v2/@v/v2.2.14.mod"
+hash = "6d53c4a026caa0c42c064909e98c0b76a59b7251794daaf08c5af84e5334725e"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/kyokomi/emoji/v2/@v/v2.2.14.zip"
+hash = "a1484dce5e4465753330df783e0cbdbb70668f0cb960efcc200695711feae312"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.4.1.mod"
+hash = "84f9c38e9884ab013c837cb16aee139500d3d5c6ccab02439881db2ecf28f660"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.4.1.zip"
+hash = "399a71ecf3e3aaa0af96a779f1c106688b095dbfd0a85455a7c706d3d7ff9ebd"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mailru/easyjson/@v/v0.7.7.mod"
+hash = "03ccdeb9f770bd5de2a0bc9f000878b08f52fa094b3f5e7e1b7390959b008f98"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mailru/easyjson/@v/v0.7.7.zip"
+hash = "139387981a220d499c9f47cece42a2002f105e4ee3ab9c74188a7fb8a9be711e"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.0.mod"
+hash = "42e24895f7279f25a71f4301827c952047b1d779a6c8d0cc602f6f9a8dfd990a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.13.mod"
+hash = "d6743ae2eae65716122f12b42c9f3f83a805c0ae32bd3c553d4a6f1bcb9243a5"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.13.zip"
+hash = "08be322dcc584a9fcfde5caf0cf878b4e11cd98f252e32bc704e92c5a4ba9d15"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.4.mod"
+hash = "a1161e694ac3bdfebf8550b34d8273fafddbe76fda0c62e85440f71799e56b9d"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.11.mod"
+hash = "fa4f67fef16cdebef54b24e43e01f8ad2a6ddc2db3c42e02caa432491bb39b20"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.16.mod"
+hash = "714766ec82d67db895ade8af6b8054ad430c3cea5e15b3a888f23ed2f3e1b863"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.20.mod"
+hash = "1eeabef1b4d98db73c6c2073289163649bc9a044552aca86b9d592fe84eaa1c8"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.20.zip"
+hash = "f2d5f89ca451577e17464b9bb596dc0d0ecececb5eaa63622c41b57cd0b7b8cc"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.4.mod"
+hash = "7cf699428410e50d5c4cf08c54c091fdc3b46809a18e471abb8cff0604d7a550"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.8.mod"
+hash = "4f775a89be9a80189a826ef22dc303e389557c558f14bfd40b75b5ef2845e56f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mgutz/str/@v/v1.2.0.mod"
+hash = "6cebee7c5767917ea94a29c69ae02dfcac6602210b30780d7a9973b92cd8ab08"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mgutz/str/@v/v1.2.0.zip"
+hash = "bf640c2048957f183e72664ff08745ae3d016f64072a5967f5269ccb5fc4b318"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-ps/@v/v1.0.0.mod"
+hash = "4c9cf17f3fdf28ca0f95c15e1bf976e3b5065bebec1e76a8052373f32a9846c4"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-ps/@v/v1.0.0.zip"
+hash = "f2f0400b1d5e136419daed275c27a930b0f5447ac12bb8acd3ddbe39547b2834"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.10.3.mod"
+hash = "edfaa65a8835fd58b75c994930a210417b77add7c697c906fbf591cc22fe1ee6"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.10.3.zip"
+hash = "088314495acb90d1e520519b243f4dbdd17b43469e6fb83bd45d600796856e63"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.34.1.mod"
+hash = "edcb61f4f4c068368e7b0512cecb1202a0ffd9225c3ce4d90d9a94b14969f846"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.34.1.zip"
+hash = "1ee4fadbf25a01e7fabba93aa88cbf6c4c79ac2d8a45a6017e3ea4f696d51993"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/petermattis/goid/@v/v0.0.0-20250813065127-a731cc31b4fe.mod"
+hash = "7a9463cb866b7b5560996d7d0ce2491c0fcd8c1edae80ad5f159b54223ca9e1d"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/petermattis/goid/@v/v0.0.0-20250813065127-a731cc31b4fe.zip"
+hash = "9bf0da79dd558ac6695d99ae547993fb34502eb255ce7cc6494fb03131b959c2"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v0.0.0-20151028094244-d8ed2627bdf0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.mod"
+hash = "a1e174890fc9f252450211fadeb53756f9cf5ab7b19697765f9fb255f81ea898"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.zip"
+hash = "b995e4aa0cc1e5779cc61138ac925cb8c1e963e40c80e4b93ee8553812ebb792"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.15.0.mod"
+hash = "1ffa3f3c1d2ad9d40513af6610c21d52ae2839628679854df421212f6a29ec27"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.15.0.zip"
+hash = "c84d958181618407e61f0f837c0a226016cc7bb0de6d26d2d82fd476e3bf1f70"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/sahilm/fuzzy/@v/v0.1.3.mod"
+hash = "65031811e1fd30cf3402438ba852756d95990a9e7e4a466592b9e92ab6e22f8a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/sahilm/fuzzy/@v/v0.1.3.zip"
+hash = "d93c49af536d39cd2f25be6f75e4bd4c3af5b0ca8f9b19121f9b7a6536d05c30"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/samber/lo/@v/v1.53.0.mod"
+hash = "28308b11ace5b7f1f940ab42b5360fecd5285cdf1b183f3067b02a8a5972fe2f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/samber/lo/@v/v1.53.0.zip"
+hash = "4969cf0094a1736a16ca0f89c42dea92369ba0ebacdbd9b22f1299ff7fe1f579"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/sanity-io/litter/@v/v1.5.8.mod"
+hash = "9202c4b43d62a291b37a6cecab10a3d844767826c22e9af4bea9804667fe060b"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/sanity-io/litter/@v/v1.5.8.zip"
+hash = "4880fcf58f4d2f712273bfd123a14d93161659054685ccb11aba31561e1bb17b"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/sasha-s/go-deadlock/@v/v0.3.9.mod"
+hash = "048542b00ce45b9a8d6b74b59e869ee9f99313f870f166ced09eafd106fe3ef5"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/sasha-s/go-deadlock/@v/v0.3.9.zip"
+hash = "603eddd49aad94a38bb8acfcdde952a6d545aa78e0cb013203f00e9b6f1ac986"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.10.2.mod"
+hash = "0ae1e8f2e690807fd54e3c2e3cb8326815baa54dbb2b0bf7798c73f3ec061c48"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.10.2.zip"
+hash = "73a40737da86682dd536ec2c87dff0f589eeeed81873362b08ed009818747b52"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/spf13/afero/@v/v1.15.0.mod"
+hash = "b9ecbcbeeccb9da252f2b75a7f05a10c21f874a448a5e1294f115e47ba893e22"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/spf13/afero/@v/v1.15.0.zip"
+hash = "d03a0bbce87eeaa1c23f0c0276707bb2d59f46efee875d7d7f1d570201be6e1f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/spkg/bom/@v/v1.0.1.mod"
+hash = "252106b3bcb65dae0375552ac606db06bb64a7e56fee57af11582ad05d87c0a0"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/spkg/bom/@v/v1.0.1.zip"
+hash = "f0e0127d67c1edbe32b43de52fa933f4a67b144e80271d5b5845e90779fbc7e9"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/stefanhaller/git-todo-parser/@v/v0.0.7-0.20250905083220-c50528f08304.mod"
+hash = "47d1513d38e52c698a838530babac251067184381e3c297f077706015a06e192"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/stefanhaller/git-todo-parser/@v/v0.0.7-0.20250905083220-c50528f08304.zip"
+hash = "4ef0feec3c327164b0379efc37fafe5f6f460f022c4ef4d12da8d8ded7bf8379"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.0.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v0.0.0-20161117074351-18a02ba4a312.mod"
+hash = "4ab463f68c370041f950c10cab5104903d4598c50cf824f9aad1b7b7f69255af"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.mod"
+hash = "a6aa921ea6dedc1cbb384d3c1b79c58b6e5d6ce26d13b786ec60a99809ae1daa"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.zip"
+hash = "6874ed1c4b0b7e9feb27989b16c179b36590020633436ae260cefc5f5565589f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.0.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/@v/v1.20.1-0.20180226030253-8e01ec4cd3e2.mod"
+hash = "022dc959fde1be99bb1a3c065567c56b24f729ed326a9f0182e15ab60925cf79"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/wk8/go-ordered-map/v2/@v/v2.1.8.mod"
+hash = "96c4c41598652730ba9bc9fa427d70d338d5acea1867c93e5969bb6a95bc3f31"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/wk8/go-ordered-map/v2/@v/v2.1.8.zip"
+hash = "c1781435c64e4cd92dd3ca585d5075eda12c0bb719a0c5f9e6ed272b65282e38"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/xo/terminfo/@v/v1.2.0.mod"
+hash = "12b94fc7704c723ed862da212257099bacb248ad07eeeb03da5d7cba9f8871e4"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/xo/terminfo/@v/v1.2.0.zip"
+hash = "90294795cef18ff941af0d4bf314a685c864818308212d7594716b4d682bb07b"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.4.13.mod"
+hash = "ee7fe4466203a01d3ac19adc134cdec99bc6de71992c28f3dd9a74480bff0603"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.5.mod"
+hash = "4bf9de8891d4d71507d92568022f8241fb828d8d0a6c9204c130bf030f3e3b2f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.5.zip"
+hash = "f2d70caa35f66283aec58b889af8c5f07c374c5934be27a738c1215263e19205"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod"
+hash = "33ed070a5a66e0960685ac5386440e1b59899e74d8a38a1180685e72a2195ded"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210921155107-089bfa567519.mod"
+hash = "cd6311612a2aa4d0d7e03c41b3aa1fbc2d5f895ab3f61089fab80bfe9f8f5485"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20240719175910-8a7402abbf56.mod"
+hash = "ec2cf13c01fcd5b259acf53de81a521bb6ad32b850fd838bf9383e9791039e3d"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20240719175910-8a7402abbf56.zip"
+hash = "8232d7fe1ac8f2d9f05cdce15c7fa64f0c54c6dd35256c5312c1381d1d1eca79"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.41.0.mod"
+hash = "fc5b64ef51fd92f4b8763ebbd6fa95a70069d299c7de0f7c66661ef24283eb0c"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.41.0.zip"
+hash = "201e678d0a35b18b246abe58d80017b75d60be21cbaf4cbb9e963b48872565a9"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.6.0-dev.0.20220419223038-86c51ed26bb4.mod"
+hash = "42d19023ff8f2eae700bc5495f371ecd998a22d19ba985d0af5f69900b254083"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.8.0.mod"
+hash = "624567459c6e9947ac4abde0b7034ee61dcbb6a9373f5970094c0bb3e8121964"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20210226172049-e18ecbb05110.mod"
+hash = "fef5896d103a0bce5055fdb5e96e830944334792437865347718edceb633348a"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220722155237-a158d28d115b.mod"
+hash = "b315c52647d2da2f76e5cdb9d367e1d6727784236a9bffb612192b19b10a128d"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.58.0.mod"
+hash = "7527ef545bf4e1ec8e38b4afddcc46480d75d3c2ae38a80cff1831d3152fabfe"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.58.0.zip"
+hash = "aa78bbf8d55db3e6995630165e2bcd7dce6d0b8831c166fa03b80ac94fb650e7"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.6.0.mod"
+hash = "41ec76ea2172f3ee3031e38f9a535939a584d6bb35ef480854fdcb8c2026701b"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20220722155255-886fb9371eb4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.1.0.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.24.0.mod"
+hash = "febf4fed5dc12c0de24528f7065bf071cc74a2424070194aaf24617b91066cda"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.24.0.zip"
+hash = "ca3fcf3ea8259e75891f7947e1a816a5b89402c542d45d8bbbd9e061b0c58019"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20170407050850-f3918c30c5c2.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190222072716-a9d3bda3a223.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191026070338-33540a1f6037.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201119102817-f84b799fce68.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220520151302-bc2c85ada10a.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220722155257-8c9f86f7a55f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220811171246-fbc7d0a398ab.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.49.0.mod"
+hash = "9522f4c9806d1c26586ea80fa56292929bd295865e71981927f52996c6b1c831"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.49.0.zip"
+hash = "e73a06591ca0d7016ce3ccb45c36a8ed7128468aecc1a357f94d815c760c6b31"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.5.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.6.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20201126162022-7de9c90e9dd1.mod"
+hash = "4cbab14f7706771b271d995a1b3cc131fe5a246aadc7ee6d1ba6f0bd894781fa"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.46.0.mod"
+hash = "f94c7bd036a7d189950b7759a3f105e7bcc7164dc89d80d186c7e8a903d6c332"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.46.0.zip"
+hash = "9147fdd982f1aed1392183d5b48055f4f74c85d496604766c7f0b1d3bbd61c7c"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.5.0.mod"
+hash = "0d6f58228aadc1a6528e6755da018516566e3ae5c5201f7ade1773f56fa8d934"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.14.0.mod"
+hash = "971579f17e9abc5926ab76214f533bd517cf4925c885243ac4755a1a0a7c69ef"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.0.mod"
+hash = "36879d586fd8001e84da8787190a11e4f78749e2a81dfe8b9b6931899fff31cf"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.3.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod"
+hash = "c45d669089427bc4635d07b185f9b9680332d1c48c75b3c49cb715b81a04a5b0"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.42.0.mod"
+hash = "4756c4b8eeeae2a20cb43c198c10701d20c53493bd90b91c6632153c9cbac240"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.42.0.zip"
+hash = "a7b64e003056b6470303f408202098d8f3714a115f23091b8cac85edeb265476"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.7.0.mod"
+hash = "15929e76fce04aea4c92a354426bb43370684645a4ee03f2e75d0c2eb1466304"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191119224855-298f0cb1881e.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.1.12.mod"
+hash = "2a8b9365898f0822face65ba089a1353e68a65d342f300ca317cceccde6421f3"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.49.0.mod"
+hash = "86e34efea35b8aa52aabff0ea18c0ef217f074dff67ef7b4c700ae833968cf62"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.49.0.zip"
+hash = "babd2d5a0ccf4eac49b6c9785be2b9e39b261097ad8b8a6b92578b9f248703d5"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.6.0.mod"
+hash = "830ed78dcd3e9927c412e2641230308447749d513d31024d276e2443b2016609"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.mod"
+hash = "6e6e2fca40eb8fe1455e6a08cd39833c7c2e9a2341a81fb181b89d0b1c725f48"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.zip"
+hash = "f555684e5c5dacc2850dddb345fef1b8f93f546b72685589789da6d2b062710e"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/fsnotify.v1/@v/v1.4.7.mod"
+hash = "25e8db5f993b882b3c6ef286c481937ea5d527df3a92051fd9e4b29b716dbfbc"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/fsnotify.v1/@v/v1.4.7.zip"
+hash = "ce003d540f42b3c0a3dec385deb387b255b536b25ea4438baa65b89458b28f75"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/ozeidan/fuzzy-patricia.v3/@v/v3.0.0.mod"
+hash = "b9de5f6afdd001d5cb4513e8048cbd85b2b6747b8ffae367bb0b7dbadc20fab9"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/ozeidan/fuzzy-patricia.v3/@v/v3.0.0.zip"
+hash = "5187d14d19cf28f4acbeec6b7b7552caad1d296a5b64b0ddee0f2fd1aa148884"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.mod"
+hash = "3663081d0d18fd2eccbdbe45e90193d3194d587441f7afafb33674d68702e0aa"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.zip"
+hash = "34898dc0e38ba7a792ab74a3e0fa113116313fd9142ffb444b011fd392762186"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200313102051-9f266ea9e77c.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/mvdan.cc/gofumpt/@v/v0.11.0.mod"
+hash = "e9cd7ae73dc0b422e6edb8a56f4f8a9544acfe70ba6e2b0dbe72bc543a1339a6"
+
+[[lazygit.sources]]
+url = "https://proxy.golang.org/mvdan.cc/gofumpt/@v/v0.11.0.zip"
+hash = "84ea0e54985056ca39894c70e4294553352b39fe7c0beaa330d4f22fe1a8391f"

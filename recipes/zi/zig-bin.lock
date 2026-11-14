@@ -1,0 +1,5 @@
+[zig-bin]
+
+[[zig-bin.sources]]
+url = "https://ziglang.org/download/0.17.1/zig-x86_64-linux-0.17.1.tar.xz"
+hash = "3581863e3cbcfd0fce0efc682ce7e9e93da96668a977791d356a26d2a7e9b17a"

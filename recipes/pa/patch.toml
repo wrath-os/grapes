@@ -1,0 +1,14 @@
+[[package]]
+id = "patch"
+version = "2.8"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://ftp.gnu.org/gnu/patch/patch-{version}.tar.xz" }]
+script = '''
+./configure --prefix=$PREFIX
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = ["bin/patch --version"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"

@@ -1,0 +1,11 @@
+[[package]]
+id = "iperf3"
+version = "3.22"
+scope = "runtime"
+core = true
+extra_deps = ["openssl"]
+sources = [{ url = "https://downloads.es.net/pub/iperf/iperf-{version}.tar.gz" }]
+smoke = ["bin/iperf3 --version"]
+
+[package.autotools]
+args = ["--disable-static"]

@@ -1,0 +1,10 @@
+[[package]]
+id = "dejavu-fonts"
+version = "2.37"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-{version}.tar.bz2" }]
+script = '''
+mkdir -p $DEST$PREFIX/share/fonts/dejavu
+cp ttf/*.ttf $DEST$PREFIX/share/fonts/dejavu/
+'''

@@ -1,0 +1,11 @@
+[[package]]
+id = "jsoncpp"
+version = "1.9.8"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/open-source-parsers/jsoncpp/archive/{version}/jsoncpp-{version}.tar.gz" }]
+probes = ["jsoncpp"]
+
+# JSON for C++.
+[package.meson]
+args = ["-D tests=false"]

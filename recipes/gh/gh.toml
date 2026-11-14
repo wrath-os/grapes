@@ -1,0 +1,11 @@
+[[package]]
+id = "gh"
+version = "2.103.3"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/cli/cli/archive/v{version}/cli-{version}.tar.gz" }]
+smoke = ["bin/gh --version"]
+
+[package.go]
+packages = ["./cmd/gh"]
+ldflags = "-X github.com/cli/cli/v2/internal/build.Version=2.103.3"

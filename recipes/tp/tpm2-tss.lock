@@ -1,0 +1,5 @@
+[tpm2-tss]
+
+[[tpm2-tss.sources]]
+url = "https://github.com/tpm2-software/tpm2-tss/releases/download/4.2.1/tpm2-tss-4.2.1.tar.gz"
+hash = "d4aadbc1610876385a370494bbfd7d994356f446dff60cd09eea5933befb1471"

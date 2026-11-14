@@ -1,0 +1,5 @@
+[usbutils]
+
+[[usbutils.sources]]
+url = "https://www.kernel.org/pub/linux/utils/usb/usbutils/usbutils-020.tar.xz"
+hash = "20287d68fcd9ebb50a05ba0645a4af7583bd8dfc7307215ba121e4bc6d057aa1"

@@ -1,0 +1,11 @@
+[[package]]
+id = "yazi"
+version = "26.9.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/sxyazi/yazi/archive/v{version}/yazi-{version}.tar.gz" }]
+smoke = ["bin/yazi --version", "bin/ya --version"]
+
+[package.cargo]
+packages = ["yazi-fm", "yazi-cli"]
+programs = ["yazi", "ya"]

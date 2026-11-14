@@ -1,0 +1,20 @@
+[[package]]
+id = "wireplumber"
+version = "0.5.19"
+scope = "runtime"
+core = true
+# Its library finds its modules by adding their directory to its own at run time.
+whole = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "pipewire", "glib", "lua", "systemd",
+]
+sources = [{ url = "https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/{version}/wireplumber-{version}.tar.gz" }]
+smoke = ["bin/wireplumber --version"]
+
+# The session manager: it links PipeWire's devices and streams, by its Lua scripts.
+[package.meson]
+args = [
+  "-D system-lua=true", "-D introspection=disabled", "-D doc=disabled", "-D tests=false",
+  "-D dbus-tests=false", "-D elogind=disabled", "-D systemd=enabled",
+  "-D systemd-user-service=true", "-D systemd-system-service=false",
+]

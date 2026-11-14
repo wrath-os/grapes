@@ -1,0 +1,5 @@
+[lsof]
+
+[[lsof.sources]]
+url = "https://github.com/lsof-org/lsof/releases/download/4.99.7/lsof-4.99.7.tar.gz"
+hash = "4a10391aab0b8ce1f539e82a1966693b2a6cf225972a6504ebb7ec4fa71675de"

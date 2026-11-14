@@ -1,0 +1,11 @@
+[[package]]
+id = "scdoc"
+version = "1.11.3"
+scope = "runtime"
+core = true
+sources = [{ url = "https://git.sr.ht/~sircmpwn/scdoc/archive/{version}.tar.gz" }]
+script = '''
+# Man pages from a small markup, which fuzzel's build makes its own with.
+make -j$NPROC PREFIX=$PREFIX
+make install PREFIX=$PREFIX DESTDIR=$DEST
+'''

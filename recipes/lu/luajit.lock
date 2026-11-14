@@ -1,0 +1,5 @@
+[luajit]
+
+[[luajit.sources]]
+url = "https://github.com/LuaJIT/LuaJIT/archive/63c8f1a9b479ba5518cf6a170ff7729178bc3cfd.tar.gz"
+hash = "8cad76f444b76001b7123dc626c5d0bfc24f1f790333737443345f7e6b41bb5f"

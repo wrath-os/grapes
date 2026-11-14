@@ -1,0 +1,17 @@
+[[package]]
+id = "p11-kit"
+version = "0.26.5"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "libffi"]
+sources = [{ url = "https://github.com/p11-glue/p11-kit/releases/download/{version}/p11-kit-{version}.tar.xz" }]
+probes = ["p11-kit-1"]
+
+# Loads PKCS#11 modules, such as GNOME Keyring's. Without the trust module, which would hold
+# certificates.
+[package.meson]
+args = [
+  "--sysconfdir=/etc", "-D trust_module=disabled", "-D systemd=disabled",
+  "-D bash_completion=disabled", "-D zsh_completion=disabled", "-D gtk_doc=false",
+  "-D man=false", "-D nls=false", "-D test=false",
+]

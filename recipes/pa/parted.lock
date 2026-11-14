@@ -1,0 +1,5 @@
+[parted]
+
+[[parted.sources]]
+url = "https://ftp.gnu.org/gnu/parted/parted-3.8.tar.xz"
+hash = "a2b7811f47b0ddb1f7b1d0aa456f7c1270da70708ce231c2fe054c7199eafa63"

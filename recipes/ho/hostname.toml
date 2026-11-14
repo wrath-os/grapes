@@ -1,0 +1,12 @@
+[[package]]
+id = "hostname"
+version = "3.25"
+scope = "runtime"
+core = true
+sources = [{ url = "https://deb.debian.org/debian/pool/main/h/hostname/hostname_{version}.tar.xz" }]
+script = '''
+# The small `hostname` program Debian keeps, which prints or sets the machine's name.
+make -j$NPROC CFLAGS="-O2"
+install -Dm755 hostname $DEST$PREFIX/bin/hostname
+'''
+smoke = ["bin/hostname --version"]

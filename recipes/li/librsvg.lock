@@ -1,0 +1,5 @@
+[librsvg]
+
+[[librsvg.sources]]
+url = "https://download.gnome.org/sources/librsvg/2.62/librsvg-2.62.4.tar.xz"
+hash = "c982b8157a054b803493bf994d31e50105eb948dd8da6b4ab9734e8d392712a3"

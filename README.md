@@ -24,11 +24,12 @@ wrath build ripgrep --check
 wrath -C ~/machines/laptop plan --source grapes=.
 ```
 
-- `recipes/`: one entry per package; see
+- `recipes/`: a file per package or family, such as `recipes/jq/jq.toml`, with the lock pinning
+  its sources beside it; see
   [recipes and styles](https://github.com/wrath-os/wrath/blob/main/docs/recipes.md).
 - `styles/`: how recipes build, such as meson, cargo or zig.
 - `modules/`: the modules, with their tests in `modules/tests`; `wrath dev test modules/tests`.
-- `seed.pin` and `sources.lock`: what the toolchain starts from, and every source's hash.
+- `seed.pin`: what the toolchain starts from.
 - [docs/reference/options.md](docs/reference/options.md): every option the modules declare,
   written by `wrath dev docs`.
 - [docs/packaging-findings.md](docs/packaging-findings.md): what went wrong packaging, and what

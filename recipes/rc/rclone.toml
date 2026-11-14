@@ -1,0 +1,10 @@
+[[package]]
+id = "rclone"
+version = "1.76.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/rclone/rclone/archive/v{version}/rclone-{version}.tar.gz" }]
+smoke = ["bin/rclone version"]
+
+[package.go]
+ldflags = "-X github.com/rclone/rclone/fs.Version=v1.76.0"

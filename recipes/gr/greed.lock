@@ -1,0 +1,5 @@
+[greed]
+
+[[greed.sources]]
+url = "https://github.com/johnae/greed/archive/v0.4.2/greed-0.4.2.tar.gz"
+hash = "3de9ee6ff0034b9d5f5ab621ae75b06f026221a0fea656ef623f96eeb8d2c362"

@@ -1,0 +1,22 @@
+[[package]]
+id = "util-linux"
+version = "2.41.1"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "ncurses", "zlib"]
+sources = [{ url = "https://www.kernel.org/pub/linux/utils/util-linux/v2.41/util-linux-{version}.tar.xz" }]
+smoke = ["bin/lsblk --version", "bin/mount --version"]
+probes = ["blkid", "uuid"]
+check_build = "make -j$NPROC check-programs"
+check = "tests/run.sh --parallel=$NPROC --exclude=script"
+check_in_view = true
+
+[package.autotools]
+args = [
+    "--bindir=$PREFIX/bin", "--sbindir=$PREFIX/bin", "--libdir=$PREFIX/lib", "--runstatedir=/run",
+    "--disable-static", "--disable-nls", "--disable-liblastlog2", "--disable-chfn-chsh",
+    "--disable-login", "--disable-nologin", "--disable-su", "--disable-setpriv",
+    "--disable-runuser", "--disable-pylibmount", "--without-python", "--without-systemd",
+    "--without-systemdsystemunitdir", "--disable-makeinstall-chown",
+    "--disable-makeinstall-setuid",
+]

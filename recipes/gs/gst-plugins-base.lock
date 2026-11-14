@@ -1,0 +1,5 @@
+[gst-plugins-base]
+
+[[gst-plugins-base.sources]]
+url = "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.28.9.tar.xz"
+hash = "c1fda668b520e6aef763c0eb962c032c9fe52bce322e8b00c69b4e9e847bddc1"

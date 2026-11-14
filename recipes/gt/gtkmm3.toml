@@ -1,0 +1,13 @@
+[[package]]
+id = "gtkmm3"
+version = "3.24.11"
+track = "3.24."
+scope = "runtime"
+core = true
+extra_deps = ["gtk3", "pangomm", "atkmm"]
+propagates = ["gtk3", "glibmm", "cairomm", "pangomm", "atkmm"]
+sources = [{ url = "https://download.gnome.org/sources/gtkmm/{series}/gtkmm-{version}.tar.xz" }]
+probes = ["gtkmm-3.0"]
+
+[package.meson]
+args = ["-D build-demos=false", "-D build-tests=false", "-D build-documentation=false"]

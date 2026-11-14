@@ -1,0 +1,9 @@
+[yazi]
+
+[[yazi.sources]]
+url = "git+https://github.com/yazi-rs/ratatui.git#dde5e05eccfe5b7cb7712b4bdf76edd0c2cd1f25"
+hash = "ce3934556700105b0d5860ad329a55181ac0eab4caf31c305d919c5b41b0c858"
+
+[[yazi.sources]]
+url = "https://github.com/sxyazi/yazi/archive/v26.9.1/yazi-26.9.1.tar.gz"
+hash = "66857f1b670469daf258edd0bb2ea51d9ad3e2cab4eea9684028c80059fd6862"

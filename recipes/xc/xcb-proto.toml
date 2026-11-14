@@ -1,0 +1,11 @@
+[[package]]
+id = "xcb-proto"
+version = "1.17.0"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "python3"]
+sources = [{ url = "https://www.x.org/archive/individual/proto/xcb-proto-{version}.tar.xz" }]
+script = '''
+./configure --prefix=$PREFIX
+make DESTDIR=$DEST install
+'''

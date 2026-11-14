@@ -1,0 +1,12 @@
+[[package]]
+id = "dav1d"
+version = "1.5.4"
+scope = "runtime"
+core = true
+extra_deps = ["nasm"]
+sources = [{ url = "https://github.com/videolan/dav1d/archive/{version}/dav1d-{version}.tar.gz" }]
+probes = ["dav1d"]
+
+# AV1, which FFmpeg decodes in software with it.
+[package.meson]
+args = ["-D enable_tools=false", "-D enable_tests=false", "-D enable_examples=false"]

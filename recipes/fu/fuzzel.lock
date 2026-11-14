@@ -1,0 +1,5 @@
+[fuzzel]
+
+[[fuzzel.sources]]
+url = "https://codeberg.org/dnkl/fuzzel/archive/1.12.0.tar.gz"
+hash = "963a9c15aecf3b3234be9daa5cb40c340a0e75425d2630ba2d75c94231f393f2"

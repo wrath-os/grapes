@@ -1,0 +1,5 @@
+[device-mapper]
+
+[[device-mapper.sources]]
+url = "https://sourceware.org/pub/lvm2/LVM2.2.03.30.tgz"
+hash = "ad76abecb8dc887733e06c449cb9add04a3506f9f0780c128817a6e1a17cec05"

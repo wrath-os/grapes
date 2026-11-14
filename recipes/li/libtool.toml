@@ -1,0 +1,14 @@
+[[package]]
+id = "libtool"
+version = "2.5.4"
+scope = "runtime"
+core = true
+extra_deps = ["m4-final"]
+sources = [{ url = "https://ftp.gnu.org/gnu/libtool/libtool-{version}.tar.xz" }]
+smoke = ["bin/libtool --version"]
+probes = ["ltdl"]
+check_in_view = true
+check = "make -j$NPROC check"
+
+[package.autotools]
+args = ["--disable-static"]

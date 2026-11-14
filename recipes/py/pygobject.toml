@@ -1,0 +1,14 @@
+# GObject libraries from Python, through their typelibs: what blueprint-compiler reads them with.
+[[package]]
+id = "pygobject"
+version = "3.54.5"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "python3", "glib", "libffi", "glib-gir"]
+sources = [{ url = "https://download.gnome.org/sources/pygobject/{series}/pygobject-{version}.tar.gz" }]
+
+[package.meson]
+args = [
+  "-D pycairo=disabled", "-D tests=false", "-D python.purelibdir=site",
+  "-D python.platlibdir=site",
+]

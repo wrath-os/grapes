@@ -1,0 +1,5 @@
+[bluez]
+
+[[bluez.sources]]
+url = "https://www.kernel.org/pub/linux/bluetooth/bluez-5.88.tar.xz"
+hash = "6952c39eb5f8b0ee712cc50ab3bcff03be17c410dd97ca640f4849d9a1653ba3"

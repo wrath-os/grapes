@@ -1,0 +1,5 @@
+[eza]
+
+[[eza.sources]]
+url = "https://github.com/eza-community/eza/archive/v0.23.5/eza-0.23.5.tar.gz"
+hash = "bbf179f2611c904014431740b559e8055276c12fcf978a7e31c271663548337f"

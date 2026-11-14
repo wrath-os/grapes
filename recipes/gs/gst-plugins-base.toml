@@ -1,0 +1,17 @@
+[[package]]
+id = "gst-plugins-base"
+version = "1.28.9"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "gstreamer",
+]
+sources = [{ url = "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-{version}.tar.xz" }]
+probes = ["gstreamer-pbutils-1.0"]
+
+# The base libraries, among them pbutils, which the portal checks sounds with. No plugins.
+[package.meson]
+args = [
+  "-D auto_features=disabled", "-D introspection=disabled", "-D doc=disabled",
+  "-D tests=disabled", "-D examples=disabled", "-D nls=disabled",
+]

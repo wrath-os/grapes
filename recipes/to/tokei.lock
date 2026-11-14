@@ -1,0 +1,5 @@
+[tokei]
+
+[[tokei.sources]]
+url = "https://github.com/XAMPPRocky/tokei/archive/v15.0.0/tokei-15.0.0.tar.gz"
+hash = "966da7b9a81ac6cb777b9f159f4c02e5b83a8b8bd30ebf5991007839926b600c"

@@ -1,0 +1,14 @@
+[[package]]
+id = "grep"
+version = "3.12"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://ftp.gnu.org/gnu/grep/grep-{version}.tar.xz" }]
+script = '''
+./configure --prefix=$PREFIX --disable-nls
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = ["bin/grep --version"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"

@@ -1,0 +1,5 @@
+[brightnessctl]
+
+[[brightnessctl.sources]]
+url = "https://github.com/Hummer12007/brightnessctl/archive/0.5.1/brightnessctl-0.5.1.tar.gz"
+hash = "a68869e23f56ac4f2e28f1783002810ddbf10f95e1af9b48b2912fb169f46994"

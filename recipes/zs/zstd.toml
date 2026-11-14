@@ -1,0 +1,29 @@
+[[package]]
+id = "zstd"
+version = "1.5.7"
+scope = "runtime"
+core = true
+extra_deps = ["zlib", "xz", "lz4"]
+sources = [{ url = "https://github.com/facebook/zstd/releases/download/v{version}/zstd-{version}.tar.gz" }]
+script = '''
+make -j$NPROC prefix=$PREFIX
+make install prefix=$PREFIX DESTDIR=$DEST
+rm -f $DEST$PREFIX/lib/libzstd.a
+'''
+smoke = ["bin/zstd --version"]
+probes = ["zstd"]
+check_in_view = true
+check = "mkdir -p /build/shim; printf '#!/bin/sh\nexit 0\n' > /build/shim/file; chmod +x /build/shim/file; PATH=/build/shim:$PATH make -j$NPROC check"
+
+[[package]]
+id = "zstd-cmake"
+version = "1.5.7"
+scope = "runtime"
+core = true
+extra_deps = ["cmake"]
+sources = [{ url = "https://github.com/facebook/zstd/releases/download/v{version}/zstd-{version}.tar.gz" }]
+smoke = ["bin/zstd --version"]
+
+[package.cmake]
+source = "build/cmake"
+args = ["-DZSTD_BUILD_TESTS=OFF"]

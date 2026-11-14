@@ -1,0 +1,11 @@
+[[package]]
+id = "helm"
+version = "4.3.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/helm/helm/archive/v{version}/helm-{version}.tar.gz" }]
+smoke = ["bin/helm version --short"]
+
+[package.go]
+packages = ["./cmd/helm"]
+ldflags = "-X helm.sh/helm/v4/internal/version.version=v4.3.1"

@@ -1,0 +1,29 @@
+[wezterm]
+
+[[wezterm.sources]]
+url = "git+https://github.com/wez/finl_unicode.git#a1892f26245529f2ef3877a9ebd610c96cec07a6"
+hash = "10f1c5579edc798ecc5da8df94515f13db4afc9272f548ab0e734db854ca278c"
+
+[[wezterm.sources]]
+url = "git+https://github.com/wezterm/xcb-imdkit-rs.git#212330f7c6c37794d78061a773e8f4f9e4785bbb"
+hash = "f948fe303117d9c25bc6771ba8cb5a3755585b1f04bf8410887ee7edcb91542f"
+
+[[wezterm.sources]]
+url = "https://github.com/freetype/freetype2/archive/42608f77f20749dd6ddc9e0536788eaad70ea4b5.tar.gz"
+hash = "68ce87bb59ea209eb7350f41a94a27519ce16b37011b475a1e62d4abee154b66"
+
+[[wezterm.sources]]
+url = "https://github.com/glennrp/libpng/archive/f5e92d76973a7a53f517579bc95d61483bf108c0.tar.gz"
+hash = "3689d30176661b821ce02c92baf801050bc3849d3428ff99c8afeb1ef4390c8c"
+
+[[wezterm.sources]]
+url = "https://github.com/harfbuzz/harfbuzz/archive/33a3f8de60dcad7535f14f07d6710144548853ac.tar.gz"
+hash = "326e6c3e0fdab4e9a3df8c6daeb6251a6a8997711a58bf4f8da421195d279bf9"
+
+[[wezterm.sources]]
+url = "https://github.com/madler/zlib/archive/51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf.tar.gz"
+hash = "d9e270d46252734aa49770fbc544125391617956266f220bd63216c834f3a522"
+
+[[wezterm.sources]]
+url = "https://github.com/wezterm/wezterm/archive/ce8e6b140c2a52c8be1cc31c1274104b01422fdc.tar.gz"
+hash = "8ee1d1e0c2560d20c43032aca05c399d4e9b7b304c14c67e7e61ff5f2f984bba"

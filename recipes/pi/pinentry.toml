@@ -1,0 +1,16 @@
+[[package]]
+id = "pinentry"
+version = "1.3.3"
+scope = "runtime"
+core = true
+extra_deps = ["libassuan", "libgpg-error", "ncurses"]
+sources = [{ url = "https://gnupg.org/ftp/gcrypt/pinentry/pinentry-{version}.tar.bz2" }]
+smoke = ["bin/pinentry --version"]
+
+# The terminal's pinentry; desktop ones wait for their toolkits.
+[package.autotools]
+args = [
+  "--enable-pinentry-tty", "--enable-pinentry-curses", "--disable-pinentry-gtk2",
+  "--disable-pinentry-gnome3", "--disable-pinentry-qt", "--disable-pinentry-qt5",
+  "--disable-pinentry-emacs", "--disable-libsecret", "--disable-fallback-curses",
+]

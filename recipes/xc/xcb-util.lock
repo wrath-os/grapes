@@ -1,0 +1,23 @@
+[xcb-util]
+
+[[xcb-util.sources]]
+url = "https://www.x.org/archive/individual/xcb/xcb-util-0.4.1.tar.xz"
+hash = "5abe3bbbd8e54f0fa3ec945291b7e8fa8cfd3cccc43718f8758430f94126e512"
+
+[xcb-util-cursor]
+
+[[xcb-util-cursor.sources]]
+url = "https://www.x.org/archive/individual/xcb/xcb-util-cursor-0.1.6.tar.xz"
+hash = "fdeb8bd127873519be5cc70dcd0d3b5d33b667877200f9925a59fdcad8f7a933"
+
+[xcb-util-image]
+
+[[xcb-util-image.sources]]
+url = "https://www.x.org/archive/individual/xcb/xcb-util-image-0.4.1.tar.xz"
+hash = "ccad8ee5dadb1271fd4727ad14d9bd77a64e505608766c4e98267d9aede40d3d"
+
+[xcb-util-renderutil]
+
+[[xcb-util-renderutil.sources]]
+url = "https://www.x.org/archive/individual/xcb/xcb-util-renderutil-0.3.10.tar.xz"
+hash = "3e15d4f0e22d8ddbfbb9f5d77db43eacd7a304029bf25a6166cc63caa96d04ba"

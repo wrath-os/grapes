@@ -1,0 +1,14 @@
+# The calculator Noctalia's launcher evaluates expressions with.
+[[package]]
+id = "libqalculate"
+version = "5.13.2"
+scope = "runtime"
+core = true
+extra_deps = ["gmp-lib", "mpfr", "libxml2", "curl", "pkgconf"]
+# Its headers include gmp.h and mpfr.h, which its .pc file doesn't name.
+propagates = ["gmp-lib", "mpfr"]
+sources = [{ url = "https://github.com/Qalculate/libqalculate/releases/download/v{version}/libqalculate-{version}.tar.gz" }]
+probes = ["qalculate"]
+
+[package.autotools]
+args = ["--disable-static", "--without-icu", "--disable-nls"]

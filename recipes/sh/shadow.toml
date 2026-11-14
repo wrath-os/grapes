@@ -1,0 +1,18 @@
+[[package]]
+id = "shadow"
+version = "4.18.0"
+scope = "runtime"
+core = true
+extra_deps = ["linux-pam", "libxcrypt", "pkgconf"]
+sources = [{ url = "https://github.com/shadow-maint/shadow/releases/download/{version}/shadow-{version}.tar.xz" }]
+smoke = ["bin/passwd --help"]
+
+[package.autotools]
+args = [
+    "--bindir=$PREFIX/bin", "--sbindir=$PREFIX/bin", "--sysconfdir=/etc", "--disable-static",
+    "--disable-nls", "--disable-man", "--disable-account-tools-setuid",
+    "--disable-subordinate-ids", "--disable-lastlog", "--disable-logind", "--with-libpam",
+    "--with-yescrypt", "--without-libbsd", "--without-selinux", "--without-audit",
+    "--without-acl", "--without-attr", "--without-tcb", "--without-nscd", "--without-sssd",
+    "--without-btrfs", "--without-group-name-max-length",
+]

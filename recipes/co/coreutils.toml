@@ -1,0 +1,14 @@
+[[package]]
+id = "coreutils"
+version = "9.7"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://ftp.gnu.org/gnu/coreutils/coreutils-{version}.tar.xz" }]
+script = '''
+FORCE_UNSAFE_CONFIGURE=1 ./configure --prefix=$PREFIX --disable-nls --enable-no-install-program=kill,uptime
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = ["bin/ls --version", "bin/cat --version", "bin/sort --version"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check XFAIL_TESTS='test-chown test-fchownat test-lchown tests/chgrp/basic.sh tests/chgrp/default-no-deref.sh tests/chgrp/no-x.sh tests/chgrp/posix-H.sh tests/chgrp/recurse.sh'"

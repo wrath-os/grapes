@@ -1,0 +1,10 @@
+[[package]]
+id = "xkeyboard-config"
+version = "2.48"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "python3", "gettext", "perl"]
+sources = [{ url = "https://www.x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-{version}.tar.xz" }]
+
+# Keyboard layouts, which libxkbcommon reads.
+[package.meson]

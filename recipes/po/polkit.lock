@@ -1,0 +1,5 @@
+[polkit]
+
+[[polkit.sources]]
+url = "https://github.com/polkit-org/polkit/archive/127/polkit-127.tar.gz"
+hash = "9b7bc16f086479dcc626c575976568ba4a85d34297a750d8ab3d2e57f6d8b988"

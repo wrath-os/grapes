@@ -1,0 +1,11 @@
+[[package]]
+id = "python"
+version = "3.13.7"
+scope = "boot"
+deps = ["wrapper", "seed"]
+sources = [{ url = "https://www.python.org/ftp/python/{version}/Python-{version}.tar.xz" }]
+script = '''
+./configure --prefix=$PREFIX --without-ensurepip
+make -j$NPROC
+make install DESTDIR=$DEST
+'''

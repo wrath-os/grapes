@@ -1,0 +1,14 @@
+[[package]]
+id = "xxhash"
+version = "0.8.4"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/Cyan4973/xxHash/archive/v{version}/xxHash-{version}.tar.gz" }]
+probes = ["libxxhash"]
+smoke = ["bin/xxhsum -V"]
+script = '''
+# Fast hashes, which zathura names the files it remembers by.
+make -j$NPROC PREFIX=$PREFIX
+make install PREFIX=$PREFIX DESTDIR=$DEST
+rm $DEST$PREFIX/lib/libxxhash.a
+'''

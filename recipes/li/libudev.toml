@@ -1,0 +1,26 @@
+[[package]]
+id = "libudev"
+version = "257.8"
+scope = "runtime"
+core = true
+extra_deps = [
+    "meson", "ninja", "python3", "markupsafe", "jinja2", "pyelftools", "pkgconf", "gperf", "libcap", "util-linux",
+    "libxcrypt", "m4-final",
+]
+sources = [{ url = "https://github.com/systemd/systemd/archive/v{version}/systemd-{version}.tar.gz" }]
+script = '''
+# Only systemd's udev library, for device-mapper, which systemd itself builds on through cryptsetup.
+meson setup /build/b --prefix=$PREFIX --libdir=lib --buildtype=release --auto-features=disabled \
+    -D mode=release -D man=disabled -D html=disabled -D tests=false -D install-tests=false
+# The library, named by its full version, and its pkg-config file, wherever meson puts them.
+library=$(ninja -C /build/b -t targets all | awk -F: '$1 ~ /libudev\.so\.[0-9.]*[0-9]$/ { print $1; exit }')
+pc=$(ninja -C /build/b -t targets all | awk -F: '$1 ~ /libudev\.pc$/ { print $1; exit }')
+ninja -C /build/b -j$NPROC "$library" "$pc"
+mkdir -p $DEST$PREFIX/lib/pkgconfig $DEST$PREFIX/include
+cp "/build/b/$library" $DEST$PREFIX/lib/
+ln -s "${library##*/}" $DEST$PREFIX/lib/libudev.so.1
+ln -s libudev.so.1 $DEST$PREFIX/lib/libudev.so
+cp "/build/b/$pc" $DEST$PREFIX/lib/pkgconfig/
+cp src/libudev/libudev.h $DEST$PREFIX/include/
+'''
+probes = ["udev"]

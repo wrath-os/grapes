@@ -1,0 +1,12 @@
+[[package]]
+id = "playerctl"
+version = "2.4.1"
+scope = "runtime"
+core = true
+extra_deps = ["glib"]
+sources = [{ url = "https://github.com/altdesktop/playerctl/archive/v{version}/playerctl-{version}.tar.gz" }]
+smoke = ["bin/playerctl --version"]
+
+# Plays, pauses and skips in whichever media player is running.
+[package.meson]
+args = ["-D gtk-doc=false", "-D introspection=false", "-D bash-completions=false"]

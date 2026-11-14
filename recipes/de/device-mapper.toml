@@ -1,0 +1,17 @@
+[[package]]
+id = "device-mapper"
+version = "2.03.30"
+scope = "runtime"
+core = true
+extra_deps = ["util-linux", "pkgconf", "libudev"]
+sources = [{ url = "https://sourceware.org/pub/lvm2/LVM2.{version}.tgz" }]
+script = '''
+./configure --prefix=$PREFIX --sbindir=$PREFIX/bin --libdir=$PREFIX/lib --disable-static_link \
+    --enable-pkgconfig --disable-selinux --disable-readline --enable-udev_sync \
+    --with-udev-prefix=$PREFIX --with-systemdsystemunitdir=$PREFIX/lib/systemd/system \
+    --with-default-dm-run-dir=/run --with-default-run-dir=/run/lvm --with-default-locking-dir=/run/lock/lvm
+make -j$NPROC device-mapper
+make install_device-mapper DESTDIR=$DEST
+'''
+smoke = ["bin/dmsetup --version"]
+probes = ["devmapper"]

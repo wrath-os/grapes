@@ -1,0 +1,10 @@
+[[package]]
+id = "libsodium"
+version = "1.0.22"
+scope = "runtime"
+core = true
+sources = [{ url = "https://download.libsodium.org/libsodium/releases/libsodium-{version}.tar.gz" }]
+probes = ["sodium"]
+
+[package.autotools]
+args = ["--disable-static"]

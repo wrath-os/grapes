@@ -1,0 +1,5 @@
+[atuin]
+
+[[atuin.sources]]
+url = "https://github.com/atuinsh/atuin/archive/v18.24.6/atuin-18.24.6.tar.gz"
+hash = "fdfcaab891ecc33561372d6763b8c279112a0d10c7ddb3a3b464abe039045423"

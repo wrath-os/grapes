@@ -1,0 +1,13 @@
+[[package]]
+id = "tree"
+version = "2.3.2"
+scope = "runtime"
+core = true
+sources = [{ url = "https://gitlab.com/OldManProgrammer/unix-tree/-/archive/{version}/unix-tree-{version}.tar.gz" }]
+script = '''
+make -j$NPROC
+install -Dm755 tree $DEST$PREFIX/bin/tree
+'''
+smoke = ["bin/tree --version"]
+
+# Shells and editors.

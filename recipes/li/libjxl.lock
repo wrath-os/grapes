@@ -1,0 +1,5 @@
+[libjxl]
+
+[[libjxl.sources]]
+url = "https://github.com/libjxl/libjxl/archive/v0.13.0/libjxl-0.13.0.tar.gz"
+hash = "24d18c9af2d1f5a17730b3f8d3f70a5c16e5ac303f5d9d5fe9dc00cf7ca82af2"

@@ -1,0 +1,10 @@
+[[package]]
+id = "k9s"
+version = "0.51.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/derailed/k9s/archive/v{version}/k9s-{version}.tar.gz" }]
+smoke = ["bin/k9s version --short"]
+
+[package.go]
+ldflags = "-X github.com/derailed/k9s/cmd.version=v0.51.0"

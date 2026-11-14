@@ -1,0 +1,1429 @@
+[process-compose]
+
+[[process-compose.sources]]
+url = "https://github.com/F1bonacc1/process-compose/archive/v1.75.1/process-compose-1.75.1.tar.gz"
+hash = "d1f380bc2ebc931aaf663b8bb84fc06269a4d75b9c8c9b9ed8ad4b5417499437"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/dario.cat/mergo/@v/v1.0.2.mod"
+hash = "d4c65d7a5f68051187d1385f0de39cc4a7f47a88dc37f45d2dfe494403e25ee2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/dario.cat/mergo/@v/v1.0.2.zip"
+hash = "67d2e9d83ca57d3a8ce1a0e0e626a7c03753b3966b58b41b95e97ca4e7b2c640"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/!d!a!t!a-!d!o!g/go-sqlmock/@v/v1.3.3.mod"
+hash = "00e8125ff56d73bc6bf8e38cda57c149409941b2241d5062c9a381aab7831169"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/!d!a!t!a-!d!o!g/go-sqlmock/@v/v1.3.3.zip"
+hash = "5dc430c2836af3bfc85f590366a6e284a251978e9397d0d54fa97db913263461"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/!in!vision!app/go-logger/@v/v1.0.1.mod"
+hash = "64e3f73080a809c1663381482004219de5f0a3b2ffe0afc5c4416694c02a440a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/!in!vision!app/go-logger/@v/v1.0.1.zip"
+hash = "49aa453002cb0605133055abd7906c4ba707174eebc655b7be11142238acbfac"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/!kyle!banks/depth/@v/v1.2.1.mod"
+hash = "4774af9f5f4325d84334f2e66783a59225193a073a8f6708bfd4fd83cc97a46e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/!kyle!banks/depth/@v/v1.2.1.zip"
+hash = "8f3e9af2e038f561d9c34b631fddc7db39e39992a121fd087f0bf980026464d9"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/!stack!exchange/wmi/@v/v0.0.0-20190523213315-cbe66965904d.mod"
+hash = "93030902e16bca6e43080d16640d04a033e2e05e03e5179021a11f941cadc96b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/adrg/xdg/@v/v0.5.3.mod"
+hash = "a90821b125d2e3cb77c833f7b7e34e7e8ce7502f07fcb101b5cfea7f14dfeea1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/adrg/xdg/@v/v0.5.3.zip"
+hash = "52847b48afcd46cfd312bc857a8df08643cfffc4103d59a40c3ce648e0196c13"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/assert/v2/@v/v2.11.0.mod"
+hash = "affdd4e877804b0c227bfac5db50af91ef501e7b6d4befad53f90978d8635e1c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/assert/v2/@v/v2.11.0.zip"
+hash = "87ddcb6a9c42228ba1b3b61c581bf2ff358f014078bd274b8ff5b47f7a4759eb"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/chroma/v2/@v/v2.20.0.mod"
+hash = "3e25e9a58e4e22d7e30e9086f9ad52a17a2c640a2c3f2b17f193d7ca41d755c2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/chroma/v2/@v/v2.20.0.zip"
+hash = "ff549a1706f8d23a7120053a4eac0013d77d2dfedbff7c94b5dcfbd0018065ff"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/repr/@v/v0.5.1.mod"
+hash = "2bf2cbe500e28f4ba81107985bf0f311221c5889aefb926d52306068894432b4"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/repr/@v/v0.5.1.zip"
+hash = "a792543a9dccdb50ecb0723ff6d033a44e78993f8461ba4b71de0e74615d1c09"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/alicebob/gopher-json/@v/v0.0.0-20180125190556-5a6b3ba71ee6.mod"
+hash = "07ce7c4f6e205027ca01f55daf3ec3820dc46d9acf7f751af87c589e30082800"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/alicebob/miniredis/@v/v2.5.0+incompatible.mod"
+hash = "507b34b37f05a254d061537f29208e01e7a72d3ee52b35609b4de3857579de1e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bahlo/generic-list-go/@v/v0.2.0.mod"
+hash = "963215560d40b8b6b6363b343e042a84389b76ec6ca6ff4b1322038f42ee95de"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bahlo/generic-list-go/@v/v0.2.0.zip"
+hash = "e773fa812176a62f1d27d7a1e7589683f5e5af2d36628fa6a5a522e59474c504"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/boltdb/bolt/@v/v1.3.1.mod"
+hash = "d1b476390f5d4952ee46abc76fd725f58d79bb9d46adf84f828476539ebd119c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bradfitz/gomemcache/@v/v0.0.0-20190913173617-a41fca850d0b.mod"
+hash = "e041a3ecd041b881c38876945336c47a9991e5629b75026b3b685baf16a30d76"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/buger/jsonparser/@v/v1.1.1.mod"
+hash = "587c18b3f32f8b7dcd3fccc82a5f5520ea624c037c85d597b2eb5d958063a1b5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/buger/jsonparser/@v/v1.1.1.zip"
+hash = "be17ef1b44c22eac645eeac80f0e26cdfc70d77262e631358e00c2aa817eab8c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/gopkg/@v/v0.1.3.mod"
+hash = "d61595b22cfbcdf116ff37f794821be3ac83b119ce62efddb7f8b999ba1dca00"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/gopkg/@v/v0.1.3.zip"
+hash = "469cea5a668cb1552e4f8784fa6267b65ed08a468f472a2aa3c95cb097579793"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/@v/v1.14.0.mod"
+hash = "8eb711ee3f97e3cb79ffb0230604d73a534e33a2b36b7e8b3e038686f9c414db"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/@v/v1.14.0.zip"
+hash = "ed59f43bbc9bedc8a6c372029116aa83fc8fadaafda280ab41a13d2251f17503"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/@v/v1.14.1.mod"
+hash = "3b408e43c230de05d1ca0c66ab8732bd53a9c1bf97958677c56c9f54122ce226"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/@v/v1.14.1.zip"
+hash = "677ed853dfdb350dc2dfa1eb2bce8697c969c76bfd93ebb43eec0faac8d8f080"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/loader/@v/v0.3.0.mod"
+hash = "1235cd86fbdaf29fa9f2b6050f907b90be31688208f5d7199dcba9d6aecec31f"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/loader/@v/v0.3.0.zip"
+hash = "fd4f31b860a007dd572b8fc1ecbf8e6a12254ae33a174d29d5feaa8d10e74fc2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/logex/@v/v1.1.10.mod"
+hash = "f7d3104eac4c5674dc4847cf5b1193c2e03bd24fe521243a34d72c709ad83a3a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/readline/@v/v0.0.0-20180603132655-2972be24d48e.mod"
+hash = "900b797c531f2df182e431a895ecd3109aacfedfdddab23a48f7c0a9d5a75659"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/test/@v/v0.0.0-20180213035817-a1ea475d72b1.mod"
+hash = "d075c4e4b6624ea6f8031883c8d66ff430abc2ffe1fb4e89c3b9115699f29c3b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/cloudwego/base64x/@v/v0.1.6.mod"
+hash = "8b494d199b3660a3320b502e73d59e20ef7da2ee802d643d3a5dfb33ef132121"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/cloudwego/base64x/@v/v0.1.6.zip"
+hash = "33ac18dc1e8db381d96eaf64899045dd27db6dbf2f6f2b361a096e2848c8f66f"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-systemd/v22/@v/v22.5.0.mod"
+hash = "de93395fe93086f80553820d140489e31e93bfe0457e1b4de3c772556d534840"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.6.mod"
+hash = "bb81a9e2d14d9a586f0591853bdaad230d8cdf0d8d6ffa71dddae249ad573cc9"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.7.mod"
+hash = "bb81a9e2d14d9a586f0591853bdaad230d8cdf0d8d6ffa71dddae249ad573cc9"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.7.zip"
+hash = "9ad5f2cbc644c0bb648a9b182d6b70f92e7ac4dfab5cf0ef746bbeef944fda59"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.24.mod"
+hash = "a3979fd32c00f35d17eb3b97d0b3cc6f4efb057bf78271361fa773531e601531"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.24.zip"
+hash = "754e25253e76a5583b80d57d3add3afe68fc4d9f2a490968a9d1eda8c8fd8815"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.0.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.zip"
+hash = "6b44a843951f371b7010c754ecc3cabefe815d5ced1c5b9409fb2d697e8a890d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/dlclark/regexp2/@v/v1.11.5.mod"
+hash = "7017e81fb9fa9227a3180a62e323158b4523c67062f0a8aa08637c092b8d4aa7"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/dlclark/regexp2/@v/v1.11.5.zip"
+hash = "cb2418e33b59eaaf5f57874db895cb620833e7a5e6eaf5a2c2deef7d47b70610"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/drone/envsubst/@v/v1.0.3.mod"
+hash = "45cc03d23b198415e8c5ba934b643bcc2566d8871ec2047818ac27a85b4b3028"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/drone/envsubst/@v/v1.0.3.zip"
+hash = "fcd55205ac10b2992f74041da205dadf4ae28a86ebdc79705c5eb2bad4d5c6d7"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.8.4.mod"
+hash = "4920ecc5239d79446d9b61542c3749c7389d2178d3a142e557e0379051866514"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.8.4.zip"
+hash = "ebe52346f8e06cbfe85968a7d48731b77a260eed44875915b3de05ba7bc18380"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/f1bonacc1/glippy/@v/v0.0.0-20230614190937-e7ca07f99f6f.mod"
+hash = "2cbc08dd62f4713b1a423cc61a89bfc58824be3cfedf79c10eaa7f927ab01c3c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/f1bonacc1/glippy/@v/v0.0.0-20230614190937-e7ca07f99f6f.zip"
+hash = "bd38c9bbc7646ea72145952f6bf9bf4003c6fcd4bcb6a289f8556d507f56d015"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/f1bonacc1/go-health/v2/@v/v2.1.5-0.20250716071924-704bdc47a43a.mod"
+hash = "aac2db3d06eafb86215ed69607690ca12cad54784c4ad2bac4c174e57262e536"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/f1bonacc1/go-health/v2/@v/v2.1.5-0.20250716071924-704bdc47a43a.zip"
+hash = "507500ff2300e046e898fc5fa1da83d78b9cc596e0ec58996e8d736590799051"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/f1bonacc1/netstat/@v/v0.0.0-20230714090734-adb3fa07cab7.mod"
+hash = "6790f656eda4f63231d61caa0e2073e8aa159024423691fabfd4a2264215e64a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/f1bonacc1/netstat/@v/v0.0.0-20230714090734-adb3fa07cab7.zip"
+hash = "9a4595f28f85e7fd68a7186039cb6b34597210bad53de5b618075009d886b470"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.18.0.mod"
+hash = "8732da74f45ec4c0ea5a7a3072c4d458aafb6102af75155d459dcb70afce6ae6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.18.0.zip"
+hash = "4dc6907b7f6807b37c21ad527d966437d398f03472115f471eaa8fe5875363d3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.4.7.mod"
+hash = "ea2d0a6a0e84f5d39d0c05711a55dafb1d56a974a1a9187fb24e8657196c5454"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gabriel-vasile/mimetype/@v/v1.4.10.mod"
+hash = "ecab76221a15ac31b69269ae2221b728d9d14c7052f0cf2c9a4f1cf3e399ad56"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gabriel-vasile/mimetype/@v/v1.4.10.zip"
+hash = "790052865391d7804b406234063e90458ba3dee9617d01186db6b5e5d7ec5704"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gabriel-vasile/mimetype/@v/v1.4.9.mod"
+hash = "5c023ab17f016fa648d4bd7c11853d68606794449bbe694e4cecd496ab14fa56"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gabriel-vasile/mimetype/@v/v1.4.9.zip"
+hash = "aa76f204c89a76ada41d4451a50cd301561f2a149b8c4e02e995717ccc1054dd"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/encoding/@v/v1.0.1.mod"
+hash = "67621ac302247c0bc8fa24bbf137210836e0c06d67c4116c8c8f981e163d0043"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/encoding/@v/v1.0.1.zip"
+hash = "e584303c743306ae55be21a5703900d0628aa2ef840ce49d5f0bbf7c51379e33"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/tcell/v2/@v/v2.9.0.mod"
+hash = "88d4c59e9c7fa9f32d8ec69461c951538bb868806c156caa6d29cf7e5f4233fd"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/tcell/v2/@v/v2.9.0.zip"
+hash = "e36d0cb01474c5456b4fd28dc6b0c1dc115d1788ed174885afd4bf5fa2b9af42"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gin-contrib/gzip/@v/v0.0.6.mod"
+hash = "50c62d40a342e188c015821c81ac3462df309edcfcb3560adf5f860329da6598"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gin-contrib/gzip/@v/v0.0.6.zip"
+hash = "5bd0613e598c20ea1806c43c51397b2884da325d46b9f8517bcdb1ca1ac60902"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gin-contrib/sse/@v/v1.1.0.mod"
+hash = "e5074342f2f9ff068b2fa2775a166b16c241d0d183659a3cb52e93b403944157"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gin-contrib/sse/@v/v1.1.0.zip"
+hash = "8157997f3f5303dcdc8e9a63b886f67164dce3ae50b6811851f1441d7c3e47ee"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gin-gonic/gin/@v/v1.10.1.mod"
+hash = "2ddbeaea6b917e76aac346777a47b2e022ffc91a1c72568ae39fbb218badb00d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gin-gonic/gin/@v/v1.10.1.zip"
+hash = "9dacb88b9d0f4b9e92b24344bcbb4e8646acaaa13182cbad491063e33061d11b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/globalsign/mgo/@v/v0.0.0-20181015135952-eeefdecb41b8.mod"
+hash = "06c31b319f5833a7b0c4ee73497b7ba2bc8c762cddfd1de59fa7e18273b5f5ad"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.2.4.mod"
+hash = "9eb34b77c569cc51e435357b1c66b5a3baf1018a85160e702925620d048f2881"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.2.6.mod"
+hash = "de7da59858d6121956da002ded711242cc14ecf597e932a8625246418fd3bbaa"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.3.0.mod"
+hash = "fcf0840f2ff50fbc3b5a54b9d4cb240c64d47003ab03e420aeff0057015a8953"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.3.0.zip"
+hash = "bbf5b3bfa227a5daa06eb16ecdecccc0b20e08749bf103afb523fd72764e727a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v0.21.1.mod"
+hash = "a901e814d52ee31a8a6ca93cbb1797646ebe2c0a991db17fd00145c30bc5e8d3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v0.21.1.zip"
+hash = "5f8833d920a6bd3b38157c9b0bd89a33419606d4993beb91597304c263fba547"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v0.22.0.mod"
+hash = "bf68a45ca876fa2ffecb38b823b760f9b562bcdeb0f0177d8e8daf1b0ec30de5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v0.22.0.zip"
+hash = "a797968440c74cd052f6800742db039b048ebc3f58b0dbb1b67079bc9b0c2cb1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonreference/@v/v0.21.0.mod"
+hash = "b3236bc220b2c1aad62cd903ad5494707e30bfcc05e7defd01f16e50fc227341"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonreference/@v/v0.21.0.zip"
+hash = "53b9b8491e1791f5c561a5325e0e167bed2ae421b18bb798524c11cad5afe5c4"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonreference/@v/v0.21.1.mod"
+hash = "3035abfe4cca60346b2090622d30cb5518efc408f1be6e5d0264f996c1acc6d5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonreference/@v/v0.21.1.zip"
+hash = "d5fdc93f36d84727d5f2628ff4376bb3a359c2a8755cc40795ef7ea7d0866a1f"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/spec/@v/v0.21.0.mod"
+hash = "59aceabb3002090b5e72ff13e5893563a2166f8c37dadeafa3eefa1cfec60239"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/spec/@v/v0.21.0.zip"
+hash = "14c938ac62955b4354762fbdf45148d3847c427af0f6fe662ee280ca43b6518c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.23.1.mod"
+hash = "6f492e62f70a777c25fb0cb396666ce63b7390bf4f7bdc866c4ce9f31004d8d8"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.23.1.zip"
+hash = "788093d8d1045e55064b513b13f3a40e4b4c9944584c8df8cacd9db3c3beb44d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.24.1.mod"
+hash = "6c10719daf8e00ce7523b5bc85a819022a4a114dc6e083d1e78a6b0d8a3b47aa"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.24.1.zip"
+hash = "8202f50fa04c8c231933565ef95d789badcf2cc3b163c311510bf16e0752d9a4"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/cmdutils/@v/v0.24.0.mod"
+hash = "4a8d5ca3fe6d206936701a17c78c7cfce669f363232c635ebe32f994f876f47b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/cmdutils/@v/v0.24.0.zip"
+hash = "40df787d870e2f8c93fe4cab7931a6055b9deb8a6e58575b8c47780fc2eb1930"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/conv/@v/v0.24.0.mod"
+hash = "2b62e3995add85ebfe9654f51341bfe42032e871c04c1b71e1e9e2e8ea5024de"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/conv/@v/v0.24.0.zip"
+hash = "bb5b49351564d766d1ff5647e11cbefc357b3e76995ea2b4096d29121f9eb2b6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/fileutils/@v/v0.24.0.mod"
+hash = "1bbb3a148eb6e695af5affc34e23d89560ec9af3bae4d3a8b6abce8f2726195b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/fileutils/@v/v0.24.0.zip"
+hash = "ec0030a3a0c04fd98d318195ed6e108f4c87852e7a056a69c36fbccf1a9dcbd7"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/jsonname/@v/v0.24.0.mod"
+hash = "2b60144af735dd77804ae0d395811e1394c989121f07f52c47439ce47fef55a3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/jsonname/@v/v0.24.0.zip"
+hash = "256885ab3ba057136709ffa5092d80b4cdfa3f83b53e591be827629346e3d868"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/jsonutils/@v/v0.24.0.mod"
+hash = "c63bbc3ff6fca31f9b9e68ab04c85a7c3cb2d688715cf4aab401ad3896cf7295"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/jsonutils/@v/v0.24.0.zip"
+hash = "79f13b24a8d90a4244932121fac8931b8ab2aa11afa5e5ebd788fcb659a32bce"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/loading/@v/v0.24.0.mod"
+hash = "82078285e133f20286dcce8df642dd50ffba12b2e039339d349e4d56401ceb4c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/loading/@v/v0.24.0.zip"
+hash = "19b114651a6fad9396d93fe09dc666363ca82c6e606df611c3d160c24b82a303"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/mangling/@v/v0.24.0.mod"
+hash = "4462857daacaa2ccf61e392babea11d620f00c45598ac8c17926af34613e666b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/mangling/@v/v0.24.0.zip"
+hash = "5f725e29e55c377fd6669aa9e457f8cd71759df2a8f228886d7d68eda3b2b2b0"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/netutils/@v/v0.24.0.mod"
+hash = "96499846e870b5e11f24398be71400c19eebefdd41ad09d1fa26482ba32f845a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/netutils/@v/v0.24.0.zip"
+hash = "db826c00497bab512fe074b15b4c1450938531439b99a45c6a67bc73e4a92b75"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/stringutils/@v/v0.24.0.mod"
+hash = "fff26e055c3129ce5d171a478e8f5efe137c7e9a7711c966ac9631a1d6c0b467"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/stringutils/@v/v0.24.0.zip"
+hash = "9ace7fcc43c9d6c2002b5228a1ec6d5108aa0da4d3eb1fce4f12222e867b5fee"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/typeutils/@v/v0.24.0.mod"
+hash = "3d5254632b7ac7e518ba99b35269a0af35195210ae88565e8c20be3fad7ab331"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/typeutils/@v/v0.24.0.zip"
+hash = "2fff82d4f57833bab3f172472f4ac01d428d1663755ccffd1298ed4b0a2e6066"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/yamlutils/@v/v0.24.0.mod"
+hash = "09cd9036348e66ba4e0d2f3031ef10c9e064a491d0cc5a18a3e25b949393920e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/yamlutils/@v/v0.24.0.zip"
+hash = "6c2ba3e8848a5c925295a78041f312f3a9a5ea5d488bef2543171febd99f0b26"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/assert/v2/@v/v2.2.0.mod"
+hash = "817256f9cba4a191e90bd32d71f2536f1ddd7d4b72f9b670daa6515bbd70eff6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/assert/v2/@v/v2.2.0.zip"
+hash = "1d77d82cc5dcdbb7789e93276b37e437b0182be698a1a6558a17d80cb01b859a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/locales/@v/v0.14.1.mod"
+hash = "6a9beefd077ba42be0aa1c3073dedb050ce2f9aec7446e051846f8048a045a09"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/locales/@v/v0.14.1.zip"
+hash = "f33b53f2eef290d8b43b1011285f1f9cfcb1295c690defcb452598773baace7b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/universal-translator/@v/v0.18.1.mod"
+hash = "828307af963e5c7a338c582cb49d6ac1999c4613ac0ccfb4673eefa73d387d00"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/universal-translator/@v/v0.18.1.zip"
+hash = "77fc966f2d045c208ddeaa8343924f83688841b6f4c2ae005dc9ea5550c7d171"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/validator/v10/@v/v10.27.0.mod"
+hash = "63fb1ebb9d6149da8fa3c61df412f5f4f211c8574d20be7a96c3aee68ba86e57"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/validator/v10/@v/v10.27.0.zip"
+hash = "8617750e5fa66bdc81b5f8f5c9fe1bc427e000c20093632bd00a26b32dc64eae"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/go-redis/redis/@v/v6.15.5+incompatible.mod"
+hash = "a5b2a051c79b37186da551dd5a31f15ce5860d38b16e76cecc74bb63ae332360"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/goccy/go-json/@v/v0.10.5.mod"
+hash = "9027c83efc1eb1e1f4dfdc0ecd03d6de89dcb68ecae41d442485028f366fa98b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/goccy/go-json/@v/v0.10.5.zip"
+hash = "96e417d4493705f470f7f29858a09cdbe68330f2d7e74cd024fbace4745c0615"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/godbus/dbus/v5/@v/v5.0.4.mod"
+hash = "8743ea72fed21cc143c4a067408e21f7787610e662fdbe8d5943312ea8ae8816"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.2.0.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gomodule/redigo/@v/v1.8.9.mod"
+hash = "f71c51e99cae6466c640682d9b6ba24031cb8699aee66aedfe8bd5cf313c5bc0"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.2.0.mod"
+hash = "9c2736ea2c03fb1d94b2a1d496aa1a51726c764f158b9f6cde1d7465fc90f412"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.mod"
+hash = "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip"
+hash = "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/google/gofuzz/@v/v1.0.0.mod"
+hash = "fb009c01ee165bbaa85c85e8a3a794ea8e83f80714d4183465dc81d811b54427"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/websocket/@v/v1.5.3.mod"
+hash = "09dc8a9227a54c1069ea065d610a5f2ca195f1f5fba6e7dbb2d7eb0fd6e01df6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/websocket/@v/v1.5.3.zip"
+hash = "dbbd31dd0f08548c5dc43e4c2f12bbba66abff5252b224b1cd06afbb72783a76"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/hexops/gotextdiff/@v/v1.0.3.mod"
+hash = "a947dd8b78793dd398ea20adee1f7d33ccf2767dbf8ee6b3cd77b71f19e6fb9b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/hexops/gotextdiff/@v/v1.0.3.zip"
+hash = "a10c3942f09bc5132268d22d4bb9d0c1849122d533fe8cdf65ea69da05cebbaf"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/hpcloud/tail/@v/v1.0.0.mod"
+hash = "0005c9955199580a5b950e2a03416555cc0dd8d362ed9a919b4a266b837e209a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/hpcloud/tail/@v/v1.0.0.zip"
+hash = "3cba484748e2e2919d72663599b8cc6454058976fbca96f9ac78d84f195b922a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.mod"
+hash = "1c1b15911aa8a0bd5cd0f6670ec23d1086496f3615fdf53306aff2b476ce9be1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.zip"
+hash = "526674de624d7db108cfe7653ef110ccdfd97bc85026254224815567928ed243"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/invopop/jsonschema/@v/v0.13.0.mod"
+hash = "5c4c16adbb46281fbfe0ad032e69c7160af6bba6436fa9dbfae578efca7b34ea"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/invopop/jsonschema/@v/v0.13.0.zip"
+hash = "43eb8b97636e7f7c17441db165e9c624c38033c9fca44c57db46b202e8841875"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/jezek/xgb/@v/v1.1.1.mod"
+hash = "ac32ba24dc0db84def00c4ac165e3cfa57022de7009dc82371e884d4b7a2d7d6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/jezek/xgb/@v/v1.1.1.zip"
+hash = "30eff002b2bde97fd19540fe91734f0f3b80ce10cfb2c049a51ece409b337aeb"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/joho/godotenv/@v/v1.5.1.mod"
+hash = "17bf16ae5dcbf139150e383764b63c8a60434f3b0c07400ef31d24b2cfabaab5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/joho/godotenv/@v/v1.5.1.zip"
+hash = "f42307794eb323a7f173a75dec68fb91078c23f69882c1c6b642ffd9797c034c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/josharian/intern/@v/v1.0.0.mod"
+hash = "b5027a67f5c127bb46b9ffac9d35a333b1df71cfc220e7196a7993e16a10a2b2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/josharian/intern/@v/v1.0.0.zip"
+hash = "5679bfd11c14adccdb45bd1a0f9cf4b445b95caeed6fb507ba96ecced11c248d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.12.mod"
+hash = "518e57c22d1781c59ab33788c9a9fc2edc43583ef7c9fc8892a3490c12d61226"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.12.zip"
+hash = "d001ea57081afd0e378467c8f4a9b6a51259996bb8bb763f78107eaf12f99501"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.3.0.mod"
+hash = "ff61d47f254f2333bf44a8ff4187a2f2e973693807c10025033bb37143577237"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.3.0.zip"
+hash = "e6766f75ecfadf12fd045e4bdd9383f2a5bd3f9bd4c88a6db72861c84cf41486"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/konsorten/go-windows-terminal-sequences/@v/v1.0.1.mod"
+hash = "6b69dafd3cf64d7b57e978848a7e271a2be0a04d9a2564dd2556491d27d0a034"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/konsorten/go-windows-terminal-sequences/@v/v1.0.1.zip"
+hash = "7fd0273fc0855ed08172c150f756e708d6e43c4a6d52ca4939a8b43d03356091"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.mod"
+hash = "84f3e40803b1ebd4a802e55794b9997df0b173c4809e8572ff9042ec558ca1bc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.zip"
+hash = "ecf5a4af24826c3ad758ce06410ca08e2d58e4d95053be3b9dde2e14852c0cdc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.mod"
+hash = "f63879b204f6ce895cea53594b814f5ac0af08486b33b1ca79c657384efbc726"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.zip"
+hash = "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/leodido/go-urn/@v/v1.4.0.mod"
+hash = "3346df32ef9a461bd9c36f7085a22f042624ec90605010c321ccdb48a582413e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/leodido/go-urn/@v/v1.4.0.zip"
+hash = "948fe5f705b9eab6c3bc7e34a3ad2549ead87a8f5f73e5a85a8c66f347612ab2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.mod"
+hash = "84f9c38e9884ab013c837cb16aee139500d3d5c6ccab02439881db2ecf28f660"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.zip"
+hash = "78d5d0e0737f0f54bbed77b6dfa847d8c871bed2668a9dc44328c7c3411ada10"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.3.0.mod"
+hash = "84f9c38e9884ab013c837cb16aee139500d3d5c6ccab02439881db2ecf28f660"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.3.0.zip"
+hash = "9c7c8ac20d1b2ffe1b43956e6be94c979d9d42f2ecc182d1bbb2c91f11647c15"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/lufia/plan9stats/@v/v0.0.0-20250317134145-8bc96cf8fc35.mod"
+hash = "37a53f16d9ab910339d4395983695afb4490aae01435c0a59980675c45d0bd95"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/lufia/plan9stats/@v/v0.0.0-20250317134145-8bc96cf8fc35.zip"
+hash = "d311f0fde84af8c86a4f069dad61c0d6256273fd6fcf7890ce2c48a7390bccd5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/lufia/plan9stats/@v/v0.0.0-20250827001030-24949be3fa54.mod"
+hash = "37a53f16d9ab910339d4395983695afb4490aae01435c0a59980675c45d0bd95"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/lufia/plan9stats/@v/v0.0.0-20250827001030-24949be3fa54.zip"
+hash = "6a59d531b9d1897ca5549ec9f7d5de0acf84e1b66e92a6498a6741109b299fe7"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mailru/easyjson/@v/v0.9.0.mod"
+hash = "de3af8b5bd930bf4a2e35444a227e1f32b77d92e387f9e2c166380bc09aec923"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mailru/easyjson/@v/v0.9.0.zip"
+hash = "090087778afa675a863f7f6c9c7e5dff41523639a72235c5a9014811dfd0a4bc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.13.mod"
+hash = "d6743ae2eae65716122f12b42c9f3f83a805c0ae32bd3c553d4a6f1bcb9243a5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.14.mod"
+hash = "c199aee551968c8290b917524e0b232a862790a4831b0ed4cb43687e8c08aa18"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.14.zip"
+hash = "5e0e7925a070bb5bd11b4097e1a7b608167f0217ee83901b44c135f6e5e85c78"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.16.mod"
+hash = "714766ec82d67db895ade8af6b8054ad430c3cea5e15b3a888f23ed2f3e1b863"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.19.mod"
+hash = "1eeabef1b4d98db73c6c2073289163649bc9a044552aca86b9d592fe84eaa1c8"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.20.mod"
+hash = "1eeabef1b4d98db73c6c2073289163649bc9a044552aca86b9d592fe84eaa1c8"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.20.zip"
+hash = "f2d5f89ca451577e17464b9bb596dc0d0ecececb5eaa63622c41b57cd0b7b8cc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.16.mod"
+hash = "216c93d19310612c81d5c741024989f83897d2333c3a9f967b58b1317587f519"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.16.zip"
+hash = "179d2d900c76ee3560fbeda60d0237a3be6acb734d0cb7423b55e5ccb0cedbca"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180228061459-e0a39a4cb421.mod"
+hash = "27a5e9f05c71089b6fd5e119fc1c8ce81f0c16da4ec3357157b1d85e2ba85ae2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180306012644-bacd9c7ef1dd.mod"
+hash = "27a5e9f05c71089b6fd5e119fc1c8ce81f0c16da4ec3357157b1d85e2ba85ae2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180306012644-bacd9c7ef1dd.zip"
+hash = "91ef49599bec459869d94ff3dec128871ab66bd2dfa61041f1e1169f9b4a8073"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.2.mod"
+hash = "099ee58ec210155280692f9e2360f523272e525f06272754be7a2a44dbfa0623"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.2.zip"
+hash = "f46f41409c2e74293f82cfe6c70b5d582bff8ada0106a7d3ff5706520c50c21c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.6.0.mod"
+hash = "edfaa65a8835fd58b75c994930a210417b77add7c697c906fbf591cc22fe1ee6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.6.0.zip"
+hash = "04ccd635943d80d8767d83738e9058091d50517860dce86f7f8ac7a55f6c2959"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.7.0.mod"
+hash = "ad8a30c923c467e015efecb0b4c8f897bfd35ea3d5c6bfd802b53e9807c67730"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.7.0.zip"
+hash = "e8363e0d1821268bd19a248bd4fe0613e47fbb5b46c49baf03b0e7860f9bf5a8"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/pelletier/go-toml/v2/@v/v2.2.4.mod"
+hash = "72b2ddd20583039d110a50147c63fd1e419a5c4acc1ba8f28881f1df4486abae"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/pelletier/go-toml/v2/@v/v2.2.4.zip"
+hash = "82162be7b85077f3be49bfe0f1e01f308b9c9554c72a980a22a34432f94885f0"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.zip"
+hash = "de04cecc1a4b8d53e4357051026794bcbc54f2e6a260cfac508ce69d5d6457a0"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/power-devops/perfstat/@v/v0.0.0-20240221224432-82ca36839d55.mod"
+hash = "05744a9262bcd294613e65624f3f8bae83d79a58aa48b8328c7df91190aa07bf"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/power-devops/perfstat/@v/v0.0.0-20240221224432-82ca36839d55.zip"
+hash = "66cb26a26f3282bc0cea7dc89da5f83249705a53e566259f226dc03477036f32"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rivo/tview/@v/v0.42.0.mod"
+hash = "a2f3b131206042b58863c3c04474e7a9dd865c74c54f41d4179b77a34bafd9d9"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rivo/tview/@v/v0.42.0.zip"
+hash = "49acb1cd8fcda0bda8702e25283b6651e444fb5f21deca81157299be624b9b12"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.mod"
+hash = "6c7318a27a8d5473a8eb661e75fb00528176e0efc59310ed277ca13bd12a53f1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.mod"
+hash = "a1e174890fc9f252450211fadeb53756f9cf5ab7b19697765f9fb255f81ea898"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.zip"
+hash = "b995e4aa0cc1e5779cc61138ac925cb8c1e963e40c80e4b93ee8553812ebb792"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.11.0.mod"
+hash = "cd129432f693acdb4e912c63932cb1206d5459c8dba02dec1b418f807dcb78eb"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.11.0.zip"
+hash = "3629d4b2e457fdba5e9d51a376e2bead9b28a20696fa905b701c79250188c4e3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rs/xid/@v/v1.6.0.mod"
+hash = "2ebd8a4c48bf66680d0fba5ca0d9ea1ec134396497802c75f3b39683e6e662ef"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rs/zerolog/@v/v1.34.0.mod"
+hash = "0df0f95d5ee1e1e02cf7f50085e6e5caade4ed4d6ac9ff0318abcacac443aa0a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/rs/zerolog/@v/v1.34.0.zip"
+hash = "2edf6294b838727c208831325d8a7951e8084c7b37f125381d8254747c4987e3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.mod"
+hash = "c39547cce6e866e8cfa395d2937bce30801cd07f0b901c2133248f1fba12f58d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.zip"
+hash = "7852750d58a053ce38b01f2c203208817564f552ebf371b2b630081d7004c6ae"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/shirou/gopsutil/@v/v2.18.12+incompatible.mod"
+hash = "2bb7d1e998eeb28fa43f6bafa6ee1e6a3b0cc6bad18cf2584abffc85652ac4ee"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/shirou/gopsutil/v4/@v/v4.25.8.mod"
+hash = "98305230f64c7ce3736d0f1a1695bfc67ded02e562a1f6cfade48f251faf5f74"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/shirou/gopsutil/v4/@v/v4.25.8.zip"
+hash = "c79f74d9e5466578ffcb6031e02424e4687b60cf86b25bf5edafcd3310db9be5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.4.2.mod"
+hash = "6c6bbbca5fad7ea9b863d9ec99c30caa77805785405b21e70d75783b5194c678"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.4.2.zip"
+hash = "9a8e55830261a4b1c9350d7c45db029c8586c0b2d934d1224cde469425031edd"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.1.mod"
+hash = "a501ef186772adafdaabb7aa78623b691890e87accd0715674e69949da6b586e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.1.zip"
+hash = "00955783267c9ced54274df456377a15bc1b658362f93f85dfda0708b54f9a28"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.9.1.mod"
+hash = "c6b11572b04c87aee664fdaabd91e94cd3fb8c4b69d811d598b06747bed04663"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.9.1.zip"
+hash = "e44a319d167f096bd3ba0bd0c13cf17d8dc0b7d51ac784fa7440d005dd2ed5cb"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.zip"
+hash = "a246b8c9d3daa87d6c634cdfee1bdf7fa53d5817eeef4fa0c6da43edd12de4ca"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.6.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.7.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.7.zip"
+hash = "dca1daf09c8d99e5487b3feab60ab47e46d4c26267d1882fe93318d26e0f9e8d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.9.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stoewer/go-strcase/@v/v1.3.1.mod"
+hash = "6d4558788a0ebd7c38015e42dfcb2f89a4d1df54a7e166376764bbd1d39ba526"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stoewer/go-strcase/@v/v1.3.1.zip"
+hash = "78b204eff3f93d6d3558c084a1d78d44be2cc80ffa30f6eb160e9e219f2ff068"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.0.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.1.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.4.0.mod"
+hash = "31b2fdcdee870f0f61bffafafb96220967e5bca08a76a920d574216fc1f91355"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.0.mod"
+hash = "cb326540efcb1274a6e4e970d7fc9de2e8062f08a058fc296d859025e62e807a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.11.1.mod"
+hash = "5846af204043f29df285026109bf32db6519c3d7e1d5c3a65fefb174f9d81d33"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.11.1.zip"
+hash = "b7325b561ead5304b72b9f32aebc871ff49b3823667d530a49fd6c8f3adfc96e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.2.2.mod"
+hash = "4ab463f68c370041f950c10cab5104903d4598c50cf824f9aad1b7b7f69255af"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.3.0.mod"
+hash = "ab063d5154a8e8730bced4c52698e5770eb50bfae347bebc35eca488b8e3f6e3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.0.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.0.mod"
+hash = "e076074c1560ad1dda98b8b00fea6308c4b6ccd06ddd088d22db4626ed68f738"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.1.mod"
+hash = "af1a5dcb331ace7a3f9fc1b5d7eee9c0bc82b4a2a182fe4cec2add217e2853d6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/swaggo/files/@v/v1.0.1.mod"
+hash = "901d238d40d110a78e61fe26de61effb3cb4e02d4e4a006862aef8f2bece0b71"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/swaggo/files/@v/v1.0.1.zip"
+hash = "c13251f621c1d8fac66ca3719b0e923c46158ed99207659624b4c354cd62c92e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/swaggo/gin-swagger/@v/v1.6.0.mod"
+hash = "17a9026ffae78d7946cf7510efa8ddba6425552eec16669e0555f3ba3f16f001"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/swaggo/gin-swagger/@v/v1.6.0.zip"
+hash = "db140c5ea00dead91145f440e9a63c1d77531c73a06337055de6b2a39ddd0846"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/swaggo/gin-swagger/@v/v1.6.1.mod"
+hash = "05efc4f2cc17ba5c9503728cdbb80497f8a7ddac8464be4ea9928a7a3652e923"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/swaggo/gin-swagger/@v/v1.6.1.zip"
+hash = "dca0cb0b2c8e337b08d4a306a17e94fd8824667b6772ca352d6b7c060ac8c10e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/swaggo/swag/@v/v1.16.6.mod"
+hash = "5c9e0313c5bf023f833de142d4e49908ee6a965161ff2302b55b45faea3c3d21"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/swaggo/swag/@v/v1.16.6.zip"
+hash = "0e0e48e9fb9b90caa181f9faa427d81c67fd5a71ca310dd1ee283217ed7cf44d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/go-sysconf/@v/v0.3.15.mod"
+hash = "5a1fd0c98e457e27f054124d196bd9a17bacbfeee44698755ceeaf92d3baba2a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/go-sysconf/@v/v0.3.15.zip"
+hash = "caa29c6df6c316969c9f2559186bd1ca8f8aceafbef236233e415c1d974f0383"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/numcpus/@v/v0.10.0.mod"
+hash = "7c03e222f6fcc66f0f9c9c77213457349007403d9127145f355c41987a6e9984"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/numcpus/@v/v0.10.0.zip"
+hash = "b2526d47517ccff481cc7baad7f450bdde58ddb9b65d53e3eec7c3504f94e853"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/twitchyliquid64/golang-asm/@v/v0.15.1.mod"
+hash = "b198a096146daeff6177f0a11bdee5a2cbe0e6fec80714ccf1f2dd6b95a7dd6f"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/twitchyliquid64/golang-asm/@v/v0.15.1.zip"
+hash = "448f87fb680adda839b60bbaa0b371c28f99f3928dea7a069f42800e5100018d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/ugorji/go/codec/@v/v1.3.0.mod"
+hash = "31adfb818104944d0d2d404cbd397b5249444a4658990282f322b22450c7a5c9"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/ugorji/go/codec/@v/v1.3.0.zip"
+hash = "74f6a21eb0ace6b3b53cdc57b8a6c6e239f1e2288078ebc62864839200e94d62"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/wk8/go-ordered-map/v2/@v/v2.1.8.mod"
+hash = "96c4c41598652730ba9bc9fa427d70d338d5acea1867c93e5969bb6a95bc3f31"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/wk8/go-ordered-map/v2/@v/v2.1.8.zip"
+hash = "c1781435c64e4cd92dd3ca585d5075eda12c0bb719a0c5f9e6ed272b65282e38"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.4.13.mod"
+hash = "ee7fe4466203a01d3ac19adc134cdec99bc6de71992c28f3dd9a74480bff0603"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/yuin/gopher-lua/@v/v0.0.0-20190514113301-1cd887cd7036.mod"
+hash = "cdf84fecd5a9bcc57fd41c220a86544c453a071f0863d6fc14c6546605e5ac51"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/yusufpapurcu/wmi/@v/v1.2.4.mod"
+hash = "ff2a9c8c99aaed6bc6984eae094a9e8cdc36f6ab2ef2c56779dd98ecc583135b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/yusufpapurcu/wmi/@v/v1.2.4.zip"
+hash = "c2a0a12203162ef8fd6f65e191aac359823d370e113122cbd8e80711ddc9c1f9"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/github.com/zaffka/mongodb-boltdb-mock/@v/v0.0.0-20221014194232-b4bb03fbe3a0.mod"
+hash = "3c4fe8e21e95d464d921d7574a4a87ff3e32a6a508a9d359cf8acebbb0e07d19"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/arch/@v/v0.20.0.mod"
+hash = "8acc0bf56eb0c167a8a43f221018ccba15e8265907387ba2c85d4628bb454826"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/arch/@v/v0.20.0.zip"
+hash = "c6650844aa62e39644fa177326badcfb25c2e2cb250c72e2ae21e4cbee3165f8"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/arch/@v/v0.21.0.mod"
+hash = "2b3407010c7d9109ad4d3e044d43df252b194235e9a44dd06f0207f52f260ca0"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/arch/@v/v0.21.0.zip"
+hash = "cd64f3961ccac6a6ead6aa7bf372f778c7c103051c4ba45b895675b364cf7374"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod"
+hash = "33ed070a5a66e0960685ac5386440e1b59899e74d8a38a1180685e72a2195ded"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210921155107-089bfa567519.mod"
+hash = "cd6311612a2aa4d0d7e03c41b3aa1fbc2d5f895ab3f61089fab80bfe9f8f5485"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.41.0.mod"
+hash = "e4fd109052ee9be5365272aa1744f592f57c031179e887d1b56ff07509c1ac77"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.41.0.zip"
+hash = "7da981b09d79d021f79ea2953637a85e3c72e43fc88b6a3230e7976fbbeec2de"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.42.0.mod"
+hash = "68845acdeae2efec8dcf23dca9c759c0328cbaec288e2a2565d9eb7f70e00eb7"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.42.0.zip"
+hash = "dd13a44ed4e46d97aebf16b3bb654323f199c3bb37b9484e0104a5e537721c71"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.27.0.mod"
+hash = "b20d6c1f4b46742e6af828327160346aeb3e622ab1780ad51b80e1d67adfe95b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.27.0.zip"
+hash = "19fb241d46e4397d3193b5fa899e2a9d62bb5d1c41f73d09d29c17c3c0d3953c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.28.0.mod"
+hash = "dfcf96d66b86f2a3527cbfb7a194970713c51a8b50f7daa71f2b7ec6837d6236"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.28.0.zip"
+hash = "1033fb59927549a16c7000369f6d534b652fcd201746a7d6d8cfd521e1ad85e2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.6.0-dev.0.20220419223038-86c51ed26bb4.mod"
+hash = "42d19023ff8f2eae700bc5495f371ecd998a22d19ba985d0af5f69900b254083"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.8.0.mod"
+hash = "624567459c6e9947ac4abde0b7034ee61dcbb6a9373f5970094c0bb3e8121964"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20180906233101-161cd47e91fd.mod"
+hash = "3e08f487ddda1851b891df5b1d04bb1a01b84d6d702aa82d9efbccde0aa7df81"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20210226172049-e18ecbb05110.mod"
+hash = "fef5896d103a0bce5055fdb5e96e830944334792437865347718edceb633348a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220722155237-a158d28d115b.mod"
+hash = "b315c52647d2da2f76e5cdb9d367e1d6727784236a9bffb612192b19b10a128d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.43.0.mod"
+hash = "4a24c4398df8c261eae7ba52cdb4b01691725cdc46e4ad497811aad357c25832"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.43.0.zip"
+hash = "24d4f49b7e781763942533d5a5acc49ebd054e05c50bf4402b264695ef8d10c5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.44.0.mod"
+hash = "b64ec375b819035044e5091608f3ee4ad3ba7a7c2aa6e6e1ebe52b13675ab821"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.44.0.zip"
+hash = "e45c82aff473f14b51b0e4b1ca25274364885af81ad3eb433c84c61aae7506cd"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.6.0.mod"
+hash = "41ec76ea2172f3ee3031e38f9a535939a584d6bb35ef480854fdcb8c2026701b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.7.0.mod"
+hash = "41ec76ea2172f3ee3031e38f9a535939a584d6bb35ef480854fdcb8c2026701b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20180314180146-1d60e4601c6f.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20220722155255-886fb9371eb4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.1.0.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.16.0.mod"
+hash = "720b98f1bf033d6b64a454ca8c29cdca6e9265ab7d70db3b834dff49560f1587"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.16.0.zip"
+hash = "ca43984183eb14f7f50d33da350312fed1c42e106dceac2437bfd5084b497dcd"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.17.0.mod"
+hash = "d333c54b74af8a0b8ec748d37c5972d27b9d088b9e45c8bf5c3ab520d2113090"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.17.0.zip"
+hash = "c5dcfd32e223edc7a003a51a166a81759a4beccb9a91eb85385b4d67a1c820c6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20180909124046-d0be0721c37e.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190204203706-41f3e6584952.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190422165155-953cdadca894.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190916202348-b4ddaad3f8a3.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201119102817-f84b799fce68.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201204225414-ed752295db88.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220520151302-bc2c85ada10a.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220722155257-8c9f86f7a55f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220811171246-fbc7d0a398ab.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.1.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.12.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.36.0.mod"
+hash = "f411814d83a96e86781b1dee41c125b9504da5422dba37cc1d63b016ae39cfe2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.36.0.zip"
+hash = "894ee9a48e191265cd3d2200ddd81b8d75c554a0eabe9fc1a9afbab25a4b29c4"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.5.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.6.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20201126162022-7de9c90e9dd1.mod"
+hash = "4cbab14f7706771b271d995a1b3cc131fe5a246aadc7ee6d1ba6f0bd894781fa"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.35.0.mod"
+hash = "c210e4c5cb0c2f3a1fc3f64588acc627cbf8bbf8ce29e578a387e9ed8456c4fc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.35.0.zip"
+hash = "ec4f6a729019902f333d2e6f40cd6160a63e1f7fa0d3f4c233e899d9aaec2db6"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.5.0.mod"
+hash = "0d6f58228aadc1a6528e6755da018516566e3ae5c5201f7ade1773f56fa8d934"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.14.0.mod"
+hash = "971579f17e9abc5926ab76214f533bd517cf4925c885243ac4755a1a0a7c69ef"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.28.0.mod"
+hash = "5114acdbfab7e7a097808d0bd4cdf06e3a3043e4bc5e4e4974715d664502698a"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.28.0.zip"
+hash = "46259e1416ae7ec6adf1867c5f9fab32af0476a148e3c95f1dfbb134f4acf48d"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.29.0.mod"
+hash = "b57bcc7ffdfddb1b8235f77262bf41422c75d72dda5a145543cc36bccac43ad3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.29.0.zip"
+hash = "fb47744565fd36da42ab2ebd3ee4db0038dfed4f703c926a9e7327debab8af77"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.0.mod"
+hash = "36879d586fd8001e84da8787190a11e4f78749e2a81dfe8b9b6931899fff31cf"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.3.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod"
+hash = "c45d669089427bc4635d07b185f9b9680332d1c48c75b3c49cb715b81a04a5b0"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.7.0.mod"
+hash = "15929e76fce04aea4c92a354426bb43370684645a4ee03f2e75d0c2eb1466304"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191119224855-298f0cb1881e.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.1.12.mod"
+hash = "2a8b9365898f0822face65ba089a1353e68a65d342f300ca317cceccde6421f3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.36.0.mod"
+hash = "53792e623827ef40be8f1af36dcf12790e82780b3d33b4b0944f56a3584bc429"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.36.0.zip"
+hash = "85b486030e995cd5b4d56dea92f247b32bf4e0ae2fe6816b29d4514b5a43fec8"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.37.0.mod"
+hash = "dbd04ecd296d4dab2706766adfcdd2d52c27345613d631682f8fa4371af54aef"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.37.0.zip"
+hash = "429b25131b8564084cce722043b12dd8e3ff5231ac6cd63a405b4f3e6fd69204"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.6.0.mod"
+hash = "830ed78dcd3e9927c412e2641230308447749d513d31024d276e2443b2016609"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.7.mod"
+hash = "e11082f89ab1be94e778e4bd2c53172f481135604dd9f2d60140e5514bc53623"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.7.zip"
+hash = "f2bf05f71fffdb479282f643d6917069519e5345de5db12b82415c718412a813"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.9.mod"
+hash = "66595c5b637107cec82b3faddea4b105be9a3e113788eaf02252b409bd5d3f89"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.9.zip"
+hash = "a8cd9b7f4b9e2d58784b247f4419b589e5b5286e986adc0477dd77b6994c5bb2"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.mod"
+hash = "6e6e2fca40eb8fe1455e6a08cd39833c7c2e9a2341a81fb181b89d0b1c725f48"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.zip"
+hash = "f555684e5c5dacc2850dddb345fef1b8f93f546b72685589789da6d2b062710e"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/fsnotify.v1/@v/v1.4.7.mod"
+hash = "25e8db5f993b882b3c6ef286c481937ea5d527df3a92051fd9e4b29b716dbfbc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/fsnotify.v1/@v/v1.4.7.zip"
+hash = "ce003d540f42b3c0a3dec385deb387b255b536b25ea4438baa65b89458b28f75"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/natefinch/lumberjack.v2/@v/v2.2.1.mod"
+hash = "c1a7991aeb39d574ee13d0a35de32d5bf9258f3f0f7de9fcb7432810f72e3506"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/natefinch/lumberjack.v2/@v/v2.2.1.zip"
+hash = "e28804b050e7debf4f5b2dd8d241d804f5d592d0519b6e7a3dc9d4cce6f075b3"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.mod"
+hash = "3663081d0d18fd2eccbdbe45e90193d3194d587441f7afafb33674d68702e0aa"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.zip"
+hash = "34898dc0e38ba7a792ab74a3e0fa113116313fd9142ffb444b011fd392762186"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.1.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.2.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.mod"
+hash = "c3b11ba9a0775ff9bc6f11dbb58a1e48cc1e68bac378a8cdc620becc661d4c33"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.zip"
+hash = "ede49e27c4cca6cdd2ec719aed8ea4d363710cceb3d411e7a786fbdec0d391fd"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200313102051-9f266ea9e77c.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[process-compose.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"

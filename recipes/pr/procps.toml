@@ -1,0 +1,13 @@
+[[package]]
+id = "procps"
+version = "4.0.5"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "ncurses"]
+sources = [{ url = "https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-{version}.tar.xz/download" }]
+smoke = ["bin/ps --version"]
+probes = ["proc2"]
+
+[package.autotools]
+args = ["--disable-static", "--disable-nls", "--disable-kill", "--without-systemd"]
+cflags = ["-include", "stdbool.h"]

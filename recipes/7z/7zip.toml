@@ -1,0 +1,12 @@
+[[package]]
+id = "7zip"
+version = "26.06"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/ip7z/7zip/releases/download/{version}/7z2606-src.tar.xz" }]
+script = '''
+make -C CPP/7zip/Bundles/Alone2 -f ../../cmpl_gcc.mak -j$NPROC
+install -Dm755 CPP/7zip/Bundles/Alone2/b/g/7zz $DEST$PREFIX/bin/7zz
+ln -s 7zz $DEST$PREFIX/bin/7z
+'''
+smoke = ["bin/7zz i"]

@@ -1,0 +1,21 @@
+[[package]]
+id = "alacritty"
+version = "0.15.1"
+scope = "runtime"
+core = true
+extra_deps = [
+  "rust-bin", "pkgconf", "fontconfig", "freetype", "libxkbcommon", "wayland", "mesa",
+]
+sources = [{ url = "https://github.com/alacritty/alacritty/archive/v{version}/alacritty-{version}.tar.gz" }]
+smoke = ["bin/alacritty --version"]
+
+# Wayland only. It opens libwayland, libEGL and libxkbcommon by name when it starts, so their
+# names in it keep them in its run path.
+[package.cargo]
+packages = ["alacritty"]
+default_features = false
+features = ["wayland"]
+install = '''
+mkdir -p $DEST$PREFIX/share/applications
+cp extra/linux/Alacritty.desktop $DEST$PREFIX/share/applications/
+'''

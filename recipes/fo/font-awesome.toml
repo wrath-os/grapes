@@ -1,0 +1,13 @@
+# Version 5, whose family names bars written for it ask for: "Font Awesome 5 Free".
+[[package]]
+id = "font-awesome"
+version = "5.15.4"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/FortAwesome/Font-Awesome/archive/{version}/Font-Awesome-{version}.tar.gz" }]
+script = '''
+mkdir -p $DEST$PREFIX/share/fonts/font-awesome
+cp otfs/*.otf $DEST$PREFIX/share/fonts/font-awesome/
+'''
+
+# Nerd Fonts: programming faces with icons added, which shells, prompts and bars draw with.

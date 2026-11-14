@@ -1,0 +1,14 @@
+[[package]]
+id = "gtk4-layer-shell"
+version = "1.3.0"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "glib", "gtk4", "wayland", "wayland-protocols"]
+sources = [{ url = "https://github.com/wmww/gtk4-layer-shell/archive/v{version}/gtk4-layer-shell-{version}.tar.gz" }]
+probes = ["gtk4-layer-shell-0"]
+
+[package.meson]
+args = [
+  "-D introspection=false", "-D vapi=false", "-D examples=false", "-D docs=false",
+  "-D tests=false", "-D smoke-tests=false",
+]

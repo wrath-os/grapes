@@ -1,0 +1,12 @@
+[[package]]
+id = "m4-final"
+version = "1.4.20"
+scope = "runtime"
+core = true
+sources = [{ url = "https://ftp.gnu.org/gnu/m4/m4-{version}.tar.xz" }]
+smoke = ["bin/m4 --version"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"
+
+[package.autotools]
+args = ["--disable-nls"]

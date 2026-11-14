@@ -1,0 +1,13 @@
+[[package]]
+id = "kbd"
+version = "2.8.0"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "flex", "bison-final", "m4-final", "autoconf", "automake", "perl"]
+sources = [{ url = "https://www.kernel.org/pub/linux/utils/kbd/kbd-{version}.tar.xz" }]
+smoke = ["bin/loadkeys --version"]
+check_in_view = true
+check = "PATH=/build/src:$PATH make -j$NPROC check"
+
+[package.autotools]
+args = ["--disable-vlock", "--disable-nls"]

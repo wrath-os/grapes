@@ -1,0 +1,11 @@
+[[package]]
+id = "graphene-gir"
+version = "1.10.8"
+scope = "runtime"
+core = true
+extra_deps = ["python3", "glib", "gobject-introspection", "setuptools", "glib-gir"]
+sources = [{ url = "https://download.gnome.org/sources/graphene/{series}/graphene-{version}.tar.xz" }]
+
+[package.meson]
+args = ["-D tests=false", "-D installed_tests=false", "-D introspection=enabled"]
+keep = ["share/gir-1.0", "lib/girepository-1.0"]

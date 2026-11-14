@@ -1,0 +1,19 @@
+# With its typelib, which blueprint-compiler reads Ghostty's interfaces against.
+[[package]]
+id = "libadwaita"
+version = "1.9.4"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "sassc", "glib", "gtk4", "fribidi", "appstream",
+  "gettext", "gobject-introspection", "setuptools", "glib-gir", "gobject-introspection-gir",
+  "harfbuzz-gir", "pango-gir", "gdk-pixbuf-gir", "graphene-gir", "gtk4-gir",
+]
+sources = [{ url = "https://download.gnome.org/sources/libadwaita/{series}/libadwaita-{version}.tar.xz" }]
+probes = ["libadwaita-1"]
+
+[package.meson]
+args = [
+  "-D introspection=enabled", "-D vapi=false", "-D documentation=false", "-D tests=false",
+  "-D examples=false",
+]

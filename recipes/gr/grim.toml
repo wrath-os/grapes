@@ -1,0 +1,12 @@
+[[package]]
+id = "grim"
+version = "1.5.0"
+scope = "runtime"
+core = true
+extra_deps = ["pixman", "libpng", "libjpeg-turbo", "wayland", "wayland-protocols"]
+sources = [{ url = "https://gitlab.freedesktop.org/emersion/grim/-/archive/v{version}/grim-v{version}.tar.gz" }]
+smoke = ["bin/grim -h"]
+
+# Screenshots, of the whole screen or of the region slurp picks.
+[package.meson]
+args = ["-D jpeg=enabled", "-D man-pages=disabled"]

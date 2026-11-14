@@ -1,0 +1,11 @@
+[[package]]
+id = "psmisc"
+version = "23.7"
+scope = "runtime"
+core = true
+extra_deps = ["ncurses"]
+sources = [{ url = "https://sourceforge.net/projects/psmisc/files/psmisc/psmisc-{version}.tar.xz/download" }]
+smoke = ["bin/pstree --version"]
+
+[package.autotools]
+args = ["--disable-nls"]

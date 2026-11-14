@@ -1,0 +1,5 @@
+[zram-generator]
+
+[[zram-generator.sources]]
+url = "https://github.com/systemd/zram-generator/archive/v1.2.1/zram-generator-1.2.1.tar.gz"
+hash = "9c82cd3db386e82fba2adfe01c3d09436c9e9cfe3ca8bb341d7eb882768c58af"

@@ -1,0 +1,5 @@
+[pygobject]
+
+[[pygobject.sources]]
+url = "https://download.gnome.org/sources/pygobject/3.54/pygobject-3.54.5.tar.gz"
+hash = "b6656f6348f5245606cf15ea48c384c7f05156c75ead206c1b246c80a22fb585"

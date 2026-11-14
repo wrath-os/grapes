@@ -1,0 +1,5 @@
+[ast-grep]
+
+[[ast-grep.sources]]
+url = "https://github.com/ast-grep/ast-grep/archive/0.51.2/ast-grep-0.51.2.tar.gz"
+hash = "757f89f99b2559af7314b460c8397fda0221ad6b958cf6439358b83ef0364ada"

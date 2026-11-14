@@ -1,0 +1,10 @@
+[[package]]
+id = "libpipeline"
+version = "1.5.8"
+scope = "runtime"
+core = true
+sources = [{ url = "https://download.savannah.gnu.org/releases/libpipeline/libpipeline-{version}.tar.gz" }]
+probes = ["pipeline"]
+
+[package.autotools]
+args = ["--disable-static"]

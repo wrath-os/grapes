@@ -1,0 +1,5 @@
+[harfbuzz-gir]
+
+[[harfbuzz-gir.sources]]
+url = "https://github.com/harfbuzz/harfbuzz/releases/download/15.1.0/harfbuzz-15.1.0.tar.xz"
+hash = "0fc7c565443a5f4be7da65ac5ee5bd737d9b158dc908708b7689a0a5796b0c8d"

@@ -1,0 +1,14 @@
+[[package]]
+id = "json-c"
+version = "0.18"
+scope = "runtime"
+core = true
+extra_deps = ["cmake", "ninja"]
+sources = [{ url = "https://s3.amazonaws.com/json-c_releases/releases/json-c-{version}.tar.gz" }]
+probes = ["json-c"]
+
+[package.cmake]
+args = [
+    "-DBUILD_STATIC_LIBS=OFF", "-DDISABLE_WERROR=ON", "-DBUILD_APPS=OFF",
+    "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
+]

@@ -1,0 +1,5 @@
+[btop]
+
+[[btop.sources]]
+url = "https://github.com/aristocratos/btop/archive/v1.4.8/btop-1.4.8.tar.gz"
+hash = "67e07c21b770a6d884c5e50ba1d2cfc90732ea57459367d8732ec7ecbeb3be5f"

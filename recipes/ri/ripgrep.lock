@@ -1,0 +1,5 @@
+[ripgrep]
+
+[[ripgrep.sources]]
+url = "https://github.com/BurntSushi/ripgrep/archive/14.1.1/ripgrep-14.1.1.tar.gz"
+hash = "4dad02a2f9c8c3c8d89434e47337aa654cb0e2aa50e806589132f186bf5c2b66"

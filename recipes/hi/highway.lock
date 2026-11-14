@@ -1,0 +1,5 @@
+[highway]
+
+[[highway.sources]]
+url = "https://github.com/google/highway/archive/1.4.0/highway-1.4.0.tar.gz"
+hash = "e72241ac9524bb653ae52ced768b508045d4438726a303f10181a38f764a453c"

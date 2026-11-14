@@ -1,0 +1,11 @@
+[[package]]
+id = "btop"
+version = "1.4.8"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/aristocratos/btop/archive/v{version}/btop-{version}.tar.gz" }]
+script = '''
+make -j$NPROC
+make install PREFIX=$PREFIX DESTDIR=$DEST
+'''
+smoke = ["bin/btop --version"]

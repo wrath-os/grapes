@@ -1,0 +1,15 @@
+[[package]]
+id = "luajit"
+# A rolling release: each commit on its v2.1 branch is one, numbered by its time.
+version = "2.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/LuaJIT/LuaJIT/archive/63c8f1a9b479ba5518cf6a170ff7729178bc3cfd.tar.gz" }]
+probes = ["luajit"]
+smoke = ["bin/luajit -v"]
+script = '''
+# mpv's on-screen controls and scripts are Lua 5.1, which LuaJIT is.
+make -j$NPROC PREFIX=$PREFIX
+make install PREFIX=$PREFIX DESTDIR=$DEST
+rm $DEST$PREFIX/lib/libluajit-5.1.a
+'''

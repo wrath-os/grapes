@@ -1,0 +1,12 @@
+# YAML, as AppStream reads its catalogs in.
+[[package]]
+id = "libfyaml"
+version = "0.9.3"
+scope = "runtime"
+core = true
+extra_deps = ["cmake", "ninja"]
+sources = [{ url = "https://github.com/pantoniou/libfyaml/archive/v{version}/libfyaml-{version}.tar.gz" }]
+probes = ["libfyaml"]
+
+[package.cmake]
+args = ["-D BUILD_SHARED_LIBS=ON", "-D BUILD_TESTING=OFF"]

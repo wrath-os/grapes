@@ -1,0 +1,5 @@
+[vim]
+
+[[vim.sources]]
+url = "https://github.com/vim/vim/archive/v9.2.1332/vim-9.2.1332.tar.gz"
+hash = "3cd253ad44a42be755579174e4554e20bc7863abf82fb2de5a6914f3e8a2f617"

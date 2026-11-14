@@ -1,0 +1,12 @@
+[[package]]
+id = "age"
+version = "1.2.1"
+scope = "runtime"
+core = true
+extra_deps = ["go"]
+sources = [{ url = "https://github.com/FiloSottile/age/archive/v{version}/age-{version}.tar.gz" }]
+smoke = ["bin/age --version", "bin/age-keygen -o /tmp/key"]
+
+[package.go]
+packages = ["./cmd/age", "./cmd/age-keygen"]
+ldflags = "-X main.Version=v1.2.1"

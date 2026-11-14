@@ -1,0 +1,14 @@
+[[package]]
+id = "sed"
+version = "4.9"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://ftp.gnu.org/gnu/sed/sed-{version}.tar.xz" }]
+script = '''
+./configure --prefix=$PREFIX --disable-nls
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = ["bin/sed --version"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"

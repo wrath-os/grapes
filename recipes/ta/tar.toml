@@ -1,0 +1,14 @@
+[[package]]
+id = "tar"
+version = "1.35"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://ftp.gnu.org/gnu/tar/tar-{version}.tar.xz" }]
+script = '''
+FORCE_UNSAFE_CONFIGURE=1 ./configure --prefix=$PREFIX --disable-nls
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = ["bin/tar --version"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"

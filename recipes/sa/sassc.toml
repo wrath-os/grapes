@@ -1,0 +1,16 @@
+# Sass to CSS, which libadwaita compiles its stylesheet with. libsass goes in whole, as sassc's
+# own build does.
+[[package]]
+id = "sassc"
+version = "3.6.2"
+scope = "runtime"
+core = true
+sources = [
+  { url = "https://github.com/sass/sassc/archive/{version}/sassc-{version}.tar.gz" },
+  { url = "https://github.com/sass/libsass/archive/3.6.6/libsass-3.6.6.tar.gz", into = "libsass" },
+]
+script = '''
+make -j$NPROC SASS_LIBSASS_PATH=$PWD/libsass SASSC_VERSION=3.6.2 LIBSASS_VERSION=3.6.6
+install -Dm755 bin/sassc $DEST$PREFIX/bin/sassc
+'''
+smoke = ["bin/sassc --version"]

@@ -1,0 +1,32 @@
+[[package]]
+id = "perl"
+version = "5.42.0"
+scope = "runtime"
+toolset = true
+extra_deps = ["zlib", "bzip2"]
+sources = [{ url = "https://www.cpan.org/src/5.0/perl-{version}.tar.xz" }]
+script = '''
+export BUILD_ZLIB=False BUILD_BZIP2=0
+sh Configure -des -Dprefix=$PREFIX -Dvendorprefix=$PREFIX -Dman1dir=$PREFIX/share/man/man1 \
+    -Dman3dir=$PREFIX/share/man/man3 -Dpager=/bin/less -Duseshrplib -Dusethreads -Dcc=gcc \
+    -Dinstallprefix=$DEST$PREFIX
+# Configure records when and where it ran, and the kernel it ran on.
+sed -i -E "s/^(cf_by|cf_time|cf_email|perladmin|myhostname|myuname|osvers)=.*/\1='wrath'/" config.sh
+sed -i -E "s/^# (Configuration time|Target system).*/# \1: wrath/" config.sh
+# Only a record of the compiler's search path, which would keep all of gcc referenced.
+sed -i -E "s/^incpth=.*/incpth=''/" config.sh
+sh Configure -S
+make -j$NPROC
+make install
+'''
+smoke = ["bin/perl -e 'print 1+1'", "bin/perl -MCompress::Zlib -e 1"]
+check = '''
+ln -sf ../perl t/perl
+cd t
+TEST_JOBS=$NPROC LD_LIBRARY_PATH=/build/src ./perl -I../lib harness > /build/perl-tests.out 2>&1 || true
+sed -n '/^Test Summary/,$p' /build/perl-tests.out | grep 'Failed: [1-9]' | cut -d' ' -f1 | sort > /build/failed
+cat /build/failed
+printf '%s\n' ../cpan/ExtUtils-Constant/t/Constant.t ../cpan/ExtUtils-MakeMaker/t/02-xsdynamic.t \
+    ../lib/ExtUtils/t/Embed.t op/stat.t porting/extrefs.t | sort > /build/waived
+diff /build/waived /build/failed
+'''

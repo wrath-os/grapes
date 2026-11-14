@@ -1,0 +1,14 @@
+# Sound files, for Noctalia's sounds. WAV and the like only, without FLAC, Ogg or MP3.
+[[package]]
+id = "libsndfile"
+version = "1.2.2"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "python3"]
+sources = [{ url = "https://github.com/libsndfile/libsndfile/releases/download/{version}/libsndfile-{version}.tar.xz" }]
+probes = ["sndfile"]
+
+[package.autotools]
+args = ["--disable-static", "--disable-external-libs", "--disable-mpeg", "--disable-full-suite"]
+# Its ALAC code defines `bool` itself, which C23, GCC 15's default, doesn't allow.
+cflags = ["-std=gnu17"]

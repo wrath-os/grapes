@@ -1,0 +1,5 @@
+[iwd]
+
+[[iwd.sources]]
+url = "https://mirrors.edge.kernel.org/pub/linux/network/wireless/iwd-3.12.tar.xz"
+hash = "d89a5e45c7180170e19be828f9e944a768c593758094fc57a358d0e7c4cb1a49"

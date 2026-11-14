@@ -1,0 +1,15 @@
+[[package]]
+id = "expat"
+version = "2.7.1"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://github.com/libexpat/libexpat/releases/download/R_2_7_1/expat-{version}.tar.xz" }]
+script = '''
+./configure --prefix=$PREFIX --disable-static
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = ["bin/xmlwf -v"]
+probes = ["expat"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"

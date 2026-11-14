@@ -1,0 +1,13 @@
+[[package]]
+id = "rsync"
+version = "3.5.2"
+scope = "runtime"
+core = true
+extra_deps = ["openssl", "zstd", "lz4", "popt", "acl"]
+sources = [{ url = "https://download.samba.org/pub/rsync/src/rsync-{version}.tar.gz" }]
+smoke = ["bin/rsync --version"]
+
+[package.autotools]
+args = [
+  "--disable-xxhash", "--without-included-popt", "--disable-md2man", "--disable-idn",
+]

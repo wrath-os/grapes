@@ -1,0 +1,15 @@
+[[package]]
+id = "libcap"
+version = "2.76"
+scope = "runtime"
+core = true
+extra_deps = ["attr", "perl"]
+sources = [{ url = "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-{version}.tar.xz" }]
+script = '''
+sed -i '/install -m.*STA/d' libcap/Makefile
+make -j$NPROC prefix=$PREFIX lib=lib GOLANG=no
+make prefix=$PREFIX lib=lib DESTDIR=$DEST GOLANG=no install
+'''
+probes = ["cap"]
+check_in_view = true
+check = "make -C libcap test"

@@ -1,0 +1,101 @@
+[[package]]
+id = "linux"
+version = "7.3.4"
+scope = "runtime"
+core = true
+extra_deps = ["flex", "bison-final", "m4-final", "bc", "elfutils", "perl", "pkgconf", "kmod"]
+sources = [{ url = "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-{version}.tar.xz" }]
+script = '''
+export KBUILD_BUILD_TIMESTAMP=@1 KBUILD_BUILD_USER=wrath KBUILD_BUILD_HOST=wrath
+make ${WRATH_ARCH}_defconfig
+make kvm_guest.config
+scripts/config --enable DEVTMPFS --enable DEVTMPFS_MOUNT --enable EXT4_FS --enable VIRTIO_BLK \
+    --enable VIRTIO_PCI --enable AUTOFS_FS --enable FHANDLE --enable CGROUPS --enable CGROUP_BPF \
+    --enable BPF_SYSCALL --enable TMPFS --enable TMPFS_POSIX_ACL --enable TMPFS_XATTR \
+    --enable INOTIFY_USER --enable SIGNALFD --enable TIMERFD --enable EPOLL --enable UNIX \
+    --enable NAMESPACES --enable SECCOMP --enable DMIID --enable SERIAL_8250_CONSOLE \
+    --enable OVERLAY_FS --enable OVERLAY_FS_METACOPY --enable OVERLAY_FS_REDIRECT_DIR \
+    --enable SQUASHFS --enable BLK_DEV_LOOP --enable EROFS_FS --enable EROFS_FS_XATTR \
+    --enable EROFS_FS_POSIX_ACL --enable EROFS_FS_ZIP --enable EROFS_FS_ZIP_ZSTD \
+    --enable FS_VERITY --enable NETFILTER --enable NF_CONNTRACK --enable NF_TABLES \
+    --enable NF_TABLES_INET --enable NFT_CT --enable MODULES --enable EFI --enable EFI_STUB \
+    --enable BLK_DEV_INITRD --enable RD_ZSTD --module VIRTIO_BLK --disable DEBUG_INFO --disable DEBUG_INFO_BTF
+# The clock starts from the machine's, which Linux 7's defaults leave to programs to set.
+scripts/config --enable RTC_HCTOSYS
+# Programs mount files through FUSE, such as the desktop portal's documents.
+scripts/config --enable FUSE_FS
+# What a PC needs to boot from USB or NVMe and log in at its screen.
+scripts/config --enable PCI --enable BLK_DEV_NVME --enable USB_SUPPORT --enable USB \
+    --enable USB_PCI --enable USB_XHCI_HCD --enable USB_XHCI_PCI --enable USB_STORAGE --enable USB_UAS \
+    --enable SCSI --enable BLK_DEV_SD --enable HID --enable HID_GENERIC --enable USB_HID \
+    --enable KEYBOARD_ATKBD --enable VT --enable VT_CONSOLE --enable DRM --enable DRM_SIMPLEDRM \
+    --enable DRM_FBDEV_EMULATION --enable SYSFB_SIMPLEFB --enable FB --enable FRAMEBUFFER_CONSOLE \
+    --enable FAT_FS --enable VFAT_FS --enable NLS_CODEPAGE_437 --enable NLS_ISO8859_1 \
+    --enable EFI_PARTITION --enable R8169 --enable REALTEK_PHY --disable DRM_RADEON
+# AMD graphics, such as the Framework Desktop's, loaded once the root and its firmware are there.
+scripts/config --module DRM_AMDGPU --enable DRM_AMD_DC --enable HSA_AMD
+# The VM tests talk to their agent over vsock. Install encrypts disks, unlocked by passphrase or TPM.
+scripts/config --enable VSOCKETS --enable VIRTIO_VSOCKETS --enable MD --enable BLK_DEV_DM \
+    --enable DM_CRYPT --enable CRYPTO_XTS --enable CRYPTO_AES_NI_INTEL --enable TCG_TPM \
+    --enable TCG_TIS --enable TCG_CRB
+# Installs put the store and what's kept on btrfs subvolumes.
+scripts/config --enable BTRFS_FS --enable BTRFS_FS_POSIX_ACL --enable CRYPTO_CRC32C
+# Modules configurations ask for by name, and the Framework Desktop's wifi.
+scripts/config --module DUMMY --module BLK_DEV_NBD --enable WLAN --enable WLAN_VENDOR_MEDIATEK \
+    --module CFG80211 --module MAC80211 --module MT7925E --enable MICROCODE_AMD
+# Tunnels, such as the one Tailscale runs, and user namespaces, which sandboxes such as
+# bubblewrap and browsers make without root.
+scripts/config --enable TUN --enable USER_NS
+# What iwd does its cryptography with: the kernel's ciphers and keys, which it asks for through
+# sockets and keyrings. And simulated radios, for testing wifi in a VM.
+scripts/config --enable CRYPTO_USER_API_HASH --enable CRYPTO_USER_API_SKCIPHER --enable KEYS \
+    --enable KEY_DH_OPERATIONS --enable CRYPTO_ECB --enable CRYPTO_MD4 --enable CRYPTO_MD5 \
+    --enable CRYPTO_CBC --enable CRYPTO_SHA256 --enable CRYPTO_SHA512 --enable CRYPTO_SHA1 \
+    --enable CRYPTO_AES --enable CRYPTO_DES --enable CRYPTO_CMAC --enable CRYPTO_HMAC \
+    --enable ASYMMETRIC_KEY_TYPE --enable ASYMMETRIC_PUBLIC_KEY_SUBTYPE \
+    --enable X509_CERTIFICATE_PARSER --enable PKCS7_MESSAGE_PARSER \
+    --enable PKCS8_PRIVATE_KEY_PARSER --module MAC80211_HWSIM
+# Swap on compressed memory.
+scripts/config --module ZRAM --enable ZRAM_BACKEND_ZSTD --enable ZRAM_DEF_COMP_ZSTD --enable CRYPTO_ZSTD
+# Firmware stored compressed, which takes a third of the room.
+scripts/config --enable FW_LOADER_COMPRESS --enable FW_LOADER_COMPRESS_ZSTD
+# Bluetooth, for keyboards, mice and headphones, with the Framework Desktop's MediaTek radio on
+# USB, which reads its firmware once the root is there.
+scripts/config --module BT --enable BT_BREDR --enable BT_LE --module BT_RFCOMM --module BT_BNEP \
+    --module BT_HIDP --module BT_HCIBTUSB --enable BT_HCIBTUSB_MTK --enable BT_HCIBTUSB_AUTOSUSPEND \
+    --module UHID
+# Sound: the HD-audio codecs behind the controller, the Framework Desktop's Realtek jack and its
+# graphics' HDMI and DisplayPort, which the controller finds nothing on without; and USB headsets.
+scripts/config --enable SND_HDA_CODEC_REALTEK --enable SND_HDA_CODEC_HDMI \
+    --enable SND_HDA_GENERIC --module SND_USB_AUDIO
+make olddefconfig
+make -j$NPROC bzImage modules
+mkdir -p $DEST$PREFIX /build/tools
+cp arch/x86/boot/bzImage .config $DEST$PREFIX/
+# kmod is one program that behaves by the name it's called.
+ln -s $WRATH_DEP_kmod/bin/kmod /build/tools/depmod
+make modules_install INSTALL_MOD_PATH=$DEST$PREFIX INSTALL_MOD_STRIP=1 DEPMOD=/build/tools/depmod
+rm -f $DEST$PREFIX/lib/modules/*/build
+'''
+
+[[package]]
+id = "linux-pam"
+version = "1.7.1"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "python3", "pkgconf", "libxcrypt", "flex", "bison-final", "m4-final"]
+sources = [{ url = "https://github.com/linux-pam/linux-pam/releases/download/v{version}/Linux-PAM-{version}.tar.xz" }]
+probes = ["pam"]
+
+[package.meson]
+args = [
+    "--sysconfdir=/etc", "--sbindir=bin", "-D i18n=disabled", "-D docs=disabled",
+    "-D audit=disabled", "-D econf=disabled", "-D logind=disabled", "-D elogind=disabled",
+    "-D selinux=disabled", "-D nis=disabled", "-D pam_userdb=disabled", "-D examples=false",
+    "-D xtests=false",
+]
+# pam_unix checks a password for someone who isn't root, such as a lock screen, by running
+# unix_chkpwd, which reads /etc/shadow only when setuid: the system's wrapper, not the store copy.
+prepare = '''
+sed -i "s|sbindir / 'unix_chkpwd'|'/run/wrappers/bin/unix_chkpwd'|" modules/*/meson.build
+'''

@@ -1,0 +1,12 @@
+[[package]]
+id = "ninja"
+version = "1.13.1"
+scope = "runtime"
+core = true
+extra_deps = ["python3"]
+sources = [{ url = "https://github.com/ninja-build/ninja/archive/v{version}/ninja-{version}.tar.gz" }]
+script = '''
+python3 configure.py --bootstrap
+install -D ninja $DEST$PREFIX/bin/ninja
+'''
+smoke = ["bin/ninja --version"]

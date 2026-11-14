@@ -1,0 +1,5 @@
+[gtk4-gir]
+
+[[gtk4-gir.sources]]
+url = "https://download.gnome.org/sources/gtk/4.22/gtk-4.22.5.tar.xz"
+hash = "7fd725deb2cb3f8dc218ad862c5056ff8548f49d3b0e4081796e444c22d19686"

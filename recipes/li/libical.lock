@@ -1,0 +1,5 @@
+[libical]
+
+[[libical.sources]]
+url = "https://github.com/libical/libical/archive/v4.0.7/libical-4.0.7.tar.gz"
+hash = "47c05bc96e41416578cf1803bb2ba3f8d292cb17d5ac2fca539dee922bae8a94"

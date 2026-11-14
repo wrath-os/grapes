@@ -1,0 +1,13 @@
+[[package]]
+id = "xkbcomp"
+version = "1.5.0"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "bison-final", "m4-final", "libxkbfile",
+]
+sources = [{ url = "https://www.x.org/archive/individual/app/xkbcomp-{version}.tar.xz" }]
+smoke = ["bin/xkbcomp -version"]
+
+# Compiles keymaps for Xwayland.
+[package.meson]

@@ -1,0 +1,25 @@
+[[package]]
+id = "sudo"
+version = "1.9.17p2"
+scope = "runtime"
+core = true
+extra_deps = ["linux-pam", "zlib"]
+sources = [{ url = "https://www.sudo.ws/dist/sudo-{version}.tar.gz" }]
+# sudoers, the run and state directories are paths on the running system. They're installed into
+# the package instead, where nothing reads them, and wrappers give sudo its setuid bit.
+script = '''
+# configure looks for a compiler named after the host, which our toolchain doesn't have.
+mkdir -p /build/bin
+printf '#!/bin/sh\nexec gcc "$@"\n' > /build/bin/$WRATH_ARCH-pc-linux-gnu-gcc
+chmod +x /build/bin/$WRATH_ARCH-pc-linux-gnu-gcc
+export PATH=/build/bin:$PATH
+./configure --prefix=$PREFIX --sbindir=$PREFIX/bin --libexecdir=$PREFIX/libexec \
+    --sysconfdir=/etc --with-rundir=/run/sudo --with-vardir=/var/db/sudo \
+    --with-logpath=/var/log/sudo.log --with-pam --without-sendmail --disable-nls \
+    --disable-static --enable-tmpfiles.d=no --with-sssd=no --without-lecture \
+    --with-env-editor --with-secure-path=no
+make -j$NPROC
+make install DESTDIR=$DEST INSTALL_OWNER= sysconfdir=$PREFIX/etc rundir=$PREFIX/run \
+    vardir=$PREFIX/var
+'''
+smoke = ["bin/sudo --version"]

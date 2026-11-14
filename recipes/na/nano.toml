@@ -1,0 +1,22 @@
+[[package]]
+id = "nano"
+version = "8.4"
+scope = "runtime"
+core = true
+deps = ["ncurses"]
+sources = [{ url = "https://www.nano-editor.org/dist/v8/nano-{version}.tar.xz" }]
+smoke = ["bin/nano --version"]
+
+[package.options.enableTiny]
+type = "bool"
+default = false
+doc = "Leave out everything but editing, for rescue systems."
+
+[package.autotools]
+args = ["--disable-nls", "$tiny"]
+prepare = '''
+tiny=
+if [ "$OPTION_enableTiny" = true ]; then
+    tiny=--enable-tiny
+fi
+'''

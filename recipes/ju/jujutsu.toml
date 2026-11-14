@@ -1,0 +1,13 @@
+[[package]]
+id = "jujutsu"
+version = "0.34.0"
+scope = "runtime"
+core = true
+extra_deps = ["rust-bin", "pkgconf", "openssl", "zlib"]
+sources = [{ url = "https://github.com/jj-vcs/jj/archive/v{version}/jj-{version}.tar.gz" }]
+smoke = ["bin/jj --version"]
+
+# It fetches and pushes by running git.
+[package.cargo]
+packages = ["jj-cli"]
+programs = ["jj"]

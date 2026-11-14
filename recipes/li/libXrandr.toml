@@ -1,0 +1,11 @@
+[[package]]
+id = "libXrandr"
+version = "1.5.5"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "xorgproto", "libX11", "libXext", "libXrender"]
+sources = [{ url = "https://www.x.org/archive/individual/lib/libXrandr-{version}.tar.xz" }]
+probes = ["xrandr"]
+
+[package.autotools]
+args = ["--disable-static"]

@@ -1,0 +1,17 @@
+# PulseAudio's client library alone, which programs that play sound through PulseAudio load, such
+# as browsers from their projects. PipeWire's PulseAudio server answers them, so there's no daemon.
+[[package]]
+id = "libpulse"
+version = "17.0"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "python3", "m4-final", "libsndfile"]
+sources = [{ url = "https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-{version}.tar.xz" }]
+probes = ["libpulse"]
+
+[package.meson]
+args = [
+  "-D auto_features=disabled", "-D daemon=false", "-D client=true", "-D doxygen=false",
+  "-D man=false", "-D tests=false", "-D database=simple", "-D bashcompletiondir=no",
+  "-D zshcompletiondir=no",
+]

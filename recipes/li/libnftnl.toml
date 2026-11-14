@@ -1,0 +1,10 @@
+[[package]]
+id = "libnftnl"
+version = "1.2.9"
+scope = "runtime"
+core = true
+extra_deps = ["libmnl", "pkgconf"]
+sources = [{ url = "https://www.netfilter.org/pub/libnftnl/libnftnl-{version}.tar.xz" }]
+
+[package.autotools]
+args = ["--disable-static"]

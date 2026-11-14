@@ -1,0 +1,12 @@
+# GTK interfaces written in Blueprint, compiled to the `.ui` files GTK loads.
+[[package]]
+id = "blueprint-compiler"
+version = "0.22.2"
+scope = "runtime"
+core = true
+runtime_deps = ["pygobject", "glib-gir"]
+extra_deps = ["meson", "ninja", "python3"]
+sources = [{ url = "https://gitlab.gnome.org/GNOME/blueprint-compiler/-/archive/v{version}/blueprint-compiler-v{version}.tar.gz" }]
+
+[package.meson]
+args = ["-D python.purelibdir=site"]

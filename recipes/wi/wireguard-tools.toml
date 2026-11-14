@@ -1,0 +1,12 @@
+[[package]]
+id = "wireguard-tools"
+version = "1.0.20260223"
+scope = "runtime"
+core = true
+sources = [{ url = "https://git.zx2c4.com/wireguard-tools/snapshot/wireguard-tools-{version}.tar.xz" }]
+script = '''
+make -C src -j$NPROC
+make -C src install PREFIX=$PREFIX DESTDIR=$DEST WITH_BASHCOMPLETION=no WITH_WGQUICK=no \
+    WITH_SYSTEMDUNITS=no
+'''
+smoke = ["bin/wg --version"]

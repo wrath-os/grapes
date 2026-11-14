@@ -1,0 +1,17 @@
+[[package]]
+id = "hello"
+scope = "runtime"
+deps = [
+  "wrapper",
+  { id = "seed", skip = "compilers" },
+  "gcc",
+  "binutils",
+  "glibc",
+  "linux-headers",
+]
+files = ["hello.c", "hello.cc"]
+script = '''
+mkdir -p $DEST$PREFIX/bin
+gcc -O2 hello.c -o $DEST$PREFIX/bin/hello
+g++ -O2 hello.cc -o $DEST$PREFIX/bin/hello-cxx
+'''

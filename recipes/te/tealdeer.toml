@@ -1,0 +1,10 @@
+[[package]]
+id = "tealdeer"
+version = "1.9.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/tealdeer-rs/tealdeer/archive/v{version}/tealdeer-{version}.tar.gz" }]
+smoke = ["bin/tldr --version"]
+
+[package.cargo]
+programs = ["tldr"]

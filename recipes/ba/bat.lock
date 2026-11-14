@@ -1,0 +1,5 @@
+[bat]
+
+[[bat.sources]]
+url = "https://github.com/sharkdp/bat/archive/v0.26.1/bat-0.26.1.tar.gz"
+hash = "4474de87e084953eefc1120cf905a79f72bbbf85091e30cf37c9214eafcaa9c9"

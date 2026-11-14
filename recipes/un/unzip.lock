@@ -1,0 +1,9 @@
+[unzip]
+
+[[unzip.sources]]
+url = "https://deb.debian.org/debian/pool/main/u/unzip/unzip_6.0-28.debian.tar.xz"
+hash = "e51364116c84739c591728ecc841113a914fa11358fd10ff0d6813524d811bb9"
+
+[[unzip.sources]]
+url = "https://deb.debian.org/debian/pool/main/u/unzip/unzip_6.0.orig.tar.gz"
+hash = "036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37"

@@ -1,0 +1,11 @@
+[xwayland]
+
+[[xwayland.sources]]
+url = "https://www.x.org/archive/individual/xserver/xwayland-24.1.15.tar.xz"
+hash = "7311b4bcda22cfc19cb99680eb1c35cfc1ea885981310639f0429fe2948c122e"
+
+[xwayland-satellite]
+
+[[xwayland-satellite.sources]]
+url = "https://github.com/Supreeeme/xwayland-satellite/archive/v0.8.3/xwayland-satellite-0.8.3.tar.gz"
+hash = "8b32873d7d740143ce9efa3cfb43c17d0176b89d2e8ffaa497db709f154fc478"

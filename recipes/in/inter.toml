@@ -1,0 +1,13 @@
+[[package]]
+id = "inter"
+version = "2026.11.11"
+scope = "runtime"
+core = true
+sources = [
+  { url = "https://raw.githubusercontent.com/google/fonts/c30b221beb0c1da59d563feb91ec8656a1fa972a/ofl/inter/Inter%5Bopsz,wght%5D.ttf", into = "Inter.ttf", file = true },
+  { url = "https://raw.githubusercontent.com/google/fonts/c30b221beb0c1da59d563feb91ec8656a1fa972a/ofl/inter/Inter-Italic%5Bopsz,wght%5D.ttf", into = "Inter-Italic.ttf", file = true },
+]
+script = '''
+mkdir -p $DEST$PREFIX/share/fonts/inter
+cp *.ttf $DEST$PREFIX/share/fonts/inter/
+'''

@@ -1,0 +1,5 @@
+[tealdeer]
+
+[[tealdeer.sources]]
+url = "https://github.com/tealdeer-rs/tealdeer/archive/v1.9.1/tealdeer-1.9.1.tar.gz"
+hash = "78e7dbfcc2c8975c143a9746b073a3af875cdee72819bc383fbd411bae2c553c"

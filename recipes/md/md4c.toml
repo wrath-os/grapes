@@ -1,0 +1,11 @@
+[[package]]
+id = "md4c"
+version = "0.5.3"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/mity/md4c/archive/release-{version}/md4c-release-{version}.tar.gz" }]
+probes = ["md4c"]
+
+# Markdown, for notifications and the changelog.
+[package.cmake]
+args = ["-DBUILD_MD2HTML_EXECUTABLE=OFF"]

@@ -1,0 +1,10 @@
+[[package]]
+id = "sbc"
+version = "2.2"
+scope = "runtime"
+core = true
+sources = [{ url = "https://www.kernel.org/pub/linux/bluetooth/sbc-{version}.tar.xz" }]
+probes = ["sbc"]
+
+[package.autotools]
+args = ["--disable-static", "--disable-tools", "--disable-tester"]

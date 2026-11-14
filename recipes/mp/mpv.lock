@@ -1,0 +1,5 @@
+[mpv]
+
+[[mpv.sources]]
+url = "https://github.com/mpv-player/mpv/archive/v0.42.0/mpv-0.42.0.tar.gz"
+hash = "bcfebbfa2b65a6d88dc97ea18117831072373e38b5785a2afb874ed4df5070dd"

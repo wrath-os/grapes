@@ -1,0 +1,26 @@
+[[package]]
+id = "appstream"
+hold = { below = "1.2", reason = "1.2 needs libfyaml 1.0, a release candidate for now" }
+version = "1.1.2"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "gperf", "glib", "curl", "libxml2", "libfyaml", "libxmlb",
+  "gettext", "wayland",
+]
+sources = [{ url = "https://github.com/ximion/appstream/archive/v{version}/appstream-{version}.tar.gz" }]
+probes = ["appstream"]
+smoke = ["bin/appstreamcli --version"]
+
+[package.meson]
+# Without the translated description of its own command-line tool, which needs itstool and
+# libxml2's Python bindings to make.
+prepare = '''
+sed -i '/^metainfo_i18n = i18n.itstool_join(/,/^)/d; s/metainfo_i18n\]/metainfo_with_relinfo]/' data/meson.build
+! grep -q itstool_join data/meson.build
+'''
+args = [
+  "-D stemming=false", "-D systemd=false", "-D vapi=false", "-D qt=false", "-D compose=false",
+  "-D gir=false", "-D zstd-support=false", "-D docs=false", "-D apidocs=false",
+  "-D install-docs=false", "-D man=false", "-D bash-completion=false", "-D svg-support=false",
+]

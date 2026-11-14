@@ -1,0 +1,25 @@
+[[package]]
+id = "waybar"
+version = "0.16.0"
+scope = "runtime"
+core = true
+extra_deps = [
+  "gtkmm3", "gtk-layer-shell", "spdlog", "jsoncpp", "wayland-protocols", "libinput",
+  "libevdev", "libnl", "wireplumber", "playerctl",
+]
+sources = [{ url = "https://github.com/Alexays/Waybar/archive/{version}/waybar-{version}.tar.gz" }]
+smoke = ["bin/waybar --version"]
+
+# The bar, with niri's workspaces and windows, sound, network, the media player and a tray.
+[package.meson]
+# Its user unit would go where systemd's pkg-config file says, which is systemd's own directory.
+prepare = '''
+sed -i "s#systemd.get_variable(pkgconfig: 'systemduserunitdir')#'$PREFIX/lib/systemd/user'#" \
+  meson.build
+'''
+args = [
+  "-D man-pages=disabled", "-D tests=disabled", "-D cava=disabled", "-D gps=disabled",
+  "-D wwan=disabled", "-D mpd=disabled", "-D jack=disabled", "-D sndio=disabled",
+  "-D pulseaudio=disabled", "-D upower_glib=disabled", "-D dbusmenu-gtk=disabled",
+  "-D niri=true",
+]

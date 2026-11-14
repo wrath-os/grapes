@@ -1,0 +1,11 @@
+[[package]]
+id = "m4"
+version = "1.4.20"
+scope = "boot"
+deps = ["wrapper", "seed"]
+sources = [{ url = "https://ftp.gnu.org/gnu/m4/m4-{version}.tar.xz" }]
+script = '''
+./configure --prefix=$PREFIX
+make -j$NPROC
+make install DESTDIR=$DEST
+'''

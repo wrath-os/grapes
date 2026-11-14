@@ -1,0 +1,18 @@
+[[package]]
+id = "dbus"
+version = "1.16.2"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "python3", "pkgconf", "expat", "systemd", "libcap"]
+sources = [{ url = "https://dbus.freedesktop.org/releases/dbus/dbus-{version}.tar.xz" }]
+smoke = ["bin/dbus-daemon --version"]
+
+[package.meson]
+args = [
+    "--auto-features=disabled", "--sysconfdir=/etc", "--localstatedir=/var",
+    "-D systemd=enabled", "-D systemd_system_unitdir=$PREFIX/lib/systemd/system",
+    "-D systemd_user_unitdir=$PREFIX/lib/systemd/user", "-D runtime_dir=/run",
+    "-D system_socket=/run/dbus/system_bus_socket", "-D system_pid_file=/run/dbus/pid",
+    "-D message_bus=true", "-D tools=true", "-D modular_tests=disabled", "-D xml_docs=disabled",
+    "-D doxygen_docs=disabled", "-D ducktype_docs=disabled", "-D qt_help=disabled",
+]

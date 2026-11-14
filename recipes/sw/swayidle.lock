@@ -1,0 +1,5 @@
+[swayidle]
+
+[[swayidle.sources]]
+url = "https://github.com/swaywm/swayidle/releases/download/v1.9.1/swayidle-1.9.1.tar.gz"
+hash = "6e1655ecba30db14de3df1652ef9dd1db72784946fa65cb222404a87ac825d57"

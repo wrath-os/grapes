@@ -1,0 +1,12 @@
+[[package]]
+id = "iw"
+version = "6.17"
+scope = "runtime"
+core = true
+extra_deps = ["libnl", "pkgconf"]
+sources = [{ url = "https://www.kernel.org/pub/software/network/iw/iw-{version}.tar.xz" }]
+script = '''
+make -j$NPROC
+make install PREFIX=$PREFIX SBINDIR=$PREFIX/bin DESTDIR=$DEST
+'''
+smoke = ["bin/iw --version"]

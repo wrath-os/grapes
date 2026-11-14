@@ -1,0 +1,37 @@
+[[package]]
+id = "noctalia"
+version = "5.4.1"
+scope = "runtime"
+core = true
+extra_deps = [
+  "sdbus-cpp", "wayland", "wayland-protocols", "mesa", "freetype", "fontconfig", "cairo",
+  "pango", "harfbuzz", "librsvg", "libxkbcommon", "glib", "libsecret", "libsodium", "polkit",
+  "pipewire", "wireplumber", "curl", "libqalculate", "libxml2", "md4c", "nlohmann-json",
+  "tomlplusplus", "libical", "linux-pam", "stb", "libwebp", "libjxl", "libsndfile", "git",
+]
+sources = [{ url = "https://github.com/noctalia-dev/noctalia/archive/v{version}/noctalia-{version}.tar.gz" }]
+smoke = ["bin/noctalia --version"]
+
+# Without jemalloc, which only speeds up allocation. It runs as a user service for the graphical
+# session, in the foreground; `--daemon` would fork away from it.
+[package.meson]
+args = ["-D jemalloc=disabled", "-D tests=disabled"]
+# stb ships no pkg-config file, and the build checks for its header directly.
+env = { CPPFLAGS = "-I$WRATH_DEP_stb/include" }
+install = '''
+mkdir -p $DEST$PREFIX/lib/systemd/user
+cat > $DEST$PREFIX/lib/systemd/user/noctalia.service <<UNIT
+[Unit]
+Description=Noctalia desktop shell
+PartOf=graphical-session.target
+After=graphical-session.target
+Requisite=graphical-session.target
+
+[Service]
+ExecStart=$PREFIX/bin/noctalia
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target
+UNIT
+'''

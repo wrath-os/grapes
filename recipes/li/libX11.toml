@@ -1,0 +1,11 @@
+[[package]]
+id = "libX11"
+version = "1.8.14"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "xtrans", "libxcb"]
+sources = [{ url = "https://www.x.org/archive/individual/lib/libX11-{version}.tar.xz" }]
+probes = ["x11"]
+
+[package.autotools]
+args = ["--disable-static", "--disable-specs", "--without-xmlto", "--without-fop"]

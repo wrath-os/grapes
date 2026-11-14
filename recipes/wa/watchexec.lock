@@ -1,0 +1,5 @@
+[watchexec]
+
+[[watchexec.sources]]
+url = "https://github.com/watchexec/watchexec/archive/v2.8.0/watchexec-2.8.0.tar.gz"
+hash = "861496cd1e7d8546f770551893077e9b898fef1a6623d5e2207cf28c932e7738"

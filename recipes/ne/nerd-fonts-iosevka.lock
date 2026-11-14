@@ -1,0 +1,11 @@
+[nerd-fonts-iosevka]
+
+[[nerd-fonts-iosevka.sources]]
+url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Iosevka.tar.xz"
+hash = "3b94ea1dc3955756762f977b7677bca671947dd56bc755a6f8465a8e83b5f257"
+
+[nerd-fonts-iosevka-term]
+
+[[nerd-fonts-iosevka-term.sources]]
+url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IosevkaTerm.tar.xz"
+hash = "054a4a369cdcc5d57e9bc91ea56dfefd66c71c253dcb0c0d7b72c0810373da26"

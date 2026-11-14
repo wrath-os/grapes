@@ -1,0 +1,5 @@
+[setuptools]
+
+[[setuptools.sources]]
+url = "https://files.pythonhosted.org/packages/source/s/setuptools/setuptools-84.2.1.tar.gz"
+hash = "3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc"

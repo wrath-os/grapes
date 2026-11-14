@@ -1,0 +1,25 @@
+# Gtk, Gdk and Gsk.
+[[package]]
+id = "gtk4-gir"
+version = "4.22.5"
+scope = "runtime"
+core = true
+extra_deps = [
+  "python3", "pango", "gdk-pixbuf", "libepoxy", "graphene", "libpng", "libjpeg-turbo",
+  "shared-mime-info", "libtiff", "wayland", "wayland-protocols", "libxkbcommon", "libdrm",
+  "mesa", "gettext", "gobject-introspection", "setuptools", "glib-gir",
+  "gobject-introspection-gir", "harfbuzz-gir", "pango-gir", "gdk-pixbuf-gir", "graphene-gir",
+]
+sources = [{ url = "https://download.gnome.org/sources/gtk/{series}/gtk-{version}.tar.xz" }]
+
+[package.meson]
+args = [
+  "-D x11-backend=false", "-D wayland-backend=true", "-D broadway-backend=false",
+  "-D media-gstreamer=disabled", "-D print-cups=disabled", "-D print-cpdb=disabled",
+  "-D vulkan=disabled", "-D cloudproviders=disabled", "-D sysprof=disabled",
+  "-D tracker=disabled", "-D colord=disabled", "-D accesskit=disabled",
+  "-D introspection=enabled", "-D documentation=false", "-D man-pages=false",
+  "-D build-demos=false", "-D build-testsuite=false", "-D build-examples=false",
+  "-D build-tests=false",
+]
+keep = ["share/gir-1.0", "lib/girepository-1.0"]

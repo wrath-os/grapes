@@ -1,0 +1,5 @@
+[linux-headers]
+
+[[linux-headers.sources]]
+url = "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.1.tar.xz"
+hash = "ea43491bc7ace1e414b3b2d957f8cf96e7049155123f0acce798accf8da1acba"

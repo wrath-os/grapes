@@ -1,0 +1,15 @@
+[[package]]
+id = "nspr"
+version = "4.40"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf"]
+sources = [{ url = "https://ftp.mozilla.org/pub/nspr/releases/v{version}/src/nspr-{version}.tar.gz" }]
+probes = ["nspr"]
+script = '''
+cd nspr
+./configure --prefix=$PREFIX --enable-64bit --enable-optimize --disable-debug
+make
+make DESTDIR=$DEST install
+rm -f $DEST$PREFIX/lib/*.a
+'''

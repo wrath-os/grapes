@@ -1,0 +1,5 @@
+[zen-browser]
+
+[[zen-browser.sources]]
+url = "https://github.com/zen-browser/desktop/releases/download/1.24.2b/zen.linux-x86_64.tar.xz"
+hash = "bcf7e43160ecfe5f29953ed2a984e7a8028a58f2ec0e3114d36bb904d5f5ce80"

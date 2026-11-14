@@ -1,0 +1,5 @@
+[nerd-fonts-droid-sans-mono]
+
+[[nerd-fonts-droid-sans-mono.sources]]
+url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DroidSansMono.tar.xz"
+hash = "8e383ba1fde4e413996dcf47fbfaecbf544a7de940147a03af61fccd9ec9b8c4"

@@ -1,0 +1,19 @@
+# Without its grammars, which it fetches from git as it builds: highlighting and indenting
+# wait for those to be sources of their own. Themes and queries come from its runtime directory.
+[[package]]
+id = "helix"
+version = "25.07.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/helix-editor/helix/archive/{version}/helix-{version}.tar.gz" }]
+smoke = ["bin/hx --version"]
+
+[package.cargo]
+packages = ["helix-term"]
+programs = ["hx"]
+env = { HELIX_DISABLE_AUTO_GRAMMAR_BUILD = "1", HELIX_DEFAULT_RUNTIME = "$PREFIX/share/helix/runtime" }
+install = '''
+mkdir -p $DEST$PREFIX/share/helix
+rm -rf runtime/grammars/sources
+cp -r runtime $DEST$PREFIX/share/helix/
+'''

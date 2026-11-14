@@ -1,0 +1,15 @@
+[[package]]
+id = "process-compose"
+version = "1.75.1"
+scope = "runtime"
+core = true
+extra_deps = ["go"]
+sources = [{ url = "https://github.com/F1bonacc1/process-compose/archive/v{version}/process-compose-{version}.tar.gz" }]
+smoke = ["bin/process-compose version"]
+
+[package.go]
+packages = ["./src"]
+ldflags = "-X github.com/f1bonacc1/process-compose/src/config.Version=v1.75.1"
+install = '''
+mv $DEST$PREFIX/bin/src $DEST$PREFIX/bin/process-compose
+'''

@@ -1,0 +1,21 @@
+[[package]]
+id = "libplacebo"
+version = "7.387.0"
+scope = "runtime"
+core = true
+extra_deps = ["python3", "jinja2", "markupsafe", "lcms2", "mesa", "vulkan-headers"]
+propagates = ["vulkan-headers"]
+sources = [
+  { url = "https://github.com/haasn/libplacebo/archive/v{version}/libplacebo-{version}.tar.gz" },
+  # The OpenGL loader is generated with glad, a submodule archives leave out.
+  { url = "https://github.com/Dav1dde/glad/archive/v2.0.8/glad-2.0.8.tar.gz", into = "3rdparty/glad" },
+]
+probes = ["libplacebo"]
+
+# The renderer under mpv's video output, with OpenGL.
+[package.meson]
+args = [
+  "-D vulkan=disabled", "-D opengl=enabled", "-D glslang=disabled", "-D shaderc=disabled",
+  "-D lcms=enabled", "-D libdovi=disabled", "-D unwind=disabled", "-D xxhash=disabled",
+  "-D demos=false", "-D tests=false",
+]

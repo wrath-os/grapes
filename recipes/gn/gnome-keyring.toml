@@ -1,0 +1,27 @@
+[[package]]
+id = "gnome-keyring"
+version = "51.1"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3",
+  "gcr3", "libgcrypt", "systemd", "linux-pam", "gettext",
+]
+sources = [{ url = "https://download.gnome.org/sources/gnome-keyring/{series}/gnome-keyring-{version}.tar.xz" }]
+
+# The secrets service, started in each user's session. Its PAM module unlocks it at login.
+[package.meson]
+args = [
+  "-D ssh-agent=false", "-D selinux=disabled", "-D systemd=enabled", "-D pam=true",
+  "-D manpage=false", "-D libcap-ng=disabled", "-D pkcs11-modules=$PREFIX/lib/pkcs11",
+  "-D pkcs11-config=$PREFIX/share/p11-kit/modules",
+]
+install = '''
+# The module config names the library alone, which p11-kit would look for in its own directory.
+sed -i "s|^module: .*|module: $PREFIX/lib/pkcs11/gnome-keyring-pkcs11.so|" \
+    $DEST$PREFIX/share/p11-kit/modules/gnome-keyring.module
+# The compiled schemas are made for a whole system, from every package's.
+rm $DEST$PREFIX/share/glib-2.0/schemas/gschemas.compiled
+'''
+
+# A terminal and a launcher, which niri's own settings start with Mod+T and Mod+D.

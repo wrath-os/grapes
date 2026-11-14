@@ -1,0 +1,39 @@
+# The scanner and compiler, without descriptions of their own, which need glib's first.
+[[package]]
+id = "gobject-introspection"
+version = "1.84.0"
+scope = "runtime"
+# Whole: the scanner names its prefix's `lib` and finds its Python module under it, which a split
+# would point at the part with the libraries alone.
+whole = true
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "setuptools", "bison-final", "m4-final", "flex", "glib",
+  "libffi",
+]
+sources = [{ url = "https://download.gnome.org/sources/gobject-introspection/{series}/gobject-introspection-{version}.tar.xz" }]
+smoke = ["bin/g-ir-compiler --version"]
+probes = ["gobject-introspection-1.0"]
+
+[package.meson]
+args = ["-D build_introspection_data=false", "-D doctool=disabled", "-D tests=false"]
+
+# cairo, freetype2, fontconfig and the rest gobject-introspection describes itself.
+[[package]]
+id = "gobject-introspection-gir"
+version = "1.84.0"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "setuptools", "bison-final", "m4-final", "flex", "glib",
+  "libffi", "cairo", "glib-gir",
+]
+sources = [{ url = "https://download.gnome.org/sources/gobject-introspection/{series}/gobject-introspection-{version}.tar.xz" }]
+
+[package.meson]
+args = [
+  "-D build_introspection_data=true", "-D cairo=enabled", "-D doctool=disabled", "-D tests=false",
+]
+keep = ["share/gir-1.0", "lib/girepository-1.0"]
+# The schema for `.gir` files is gobject-introspection's own.
+install = "rm $DEST$PREFIX/share/gir-1.0/gir-1.2.rnc\n"

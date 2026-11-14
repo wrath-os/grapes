@@ -1,0 +1,81 @@
+[cliphist]
+
+[[cliphist.sources]]
+url = "https://github.com/sentriz/cliphist/archive/v0.7.0/cliphist-0.7.0.tar.gz"
+hash = "8d7dc7b4495e5812b5613274c250ba5d3900933d78888ce7921c01247f191cc8"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.zip"
+hash = "6b44a843951f371b7010c754ecc3cabefe815d5ced1c5b9409fb2d697e8a890d"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.zip"
+hash = "de04cecc1a4b8d53e4357051026794bcbc54f2e6a260cfac508ce69d5d6457a0"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.mod"
+hash = "a1e174890fc9f252450211fadeb53756f9cf5ab7b19697765f9fb255f81ea898"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.zip"
+hash = "b995e4aa0cc1e5779cc61138ac925cb8c1e963e40c80e4b93ee8553812ebb792"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.12.0.mod"
+hash = "7bfe5b03ab2d4d954d9b74eacdb2ccbf6bdef634201b000b97f9a0d20231dc7e"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.12.0.zip"
+hash = "d4539e716c2b7f2824584e4c4a17f64c508bd6e5359106a406a7e23e77109cde"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.1.zip"
+hash = "36f64e4f229f87672ef8de1c756648c4165e76abd034362517578397e824856c"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/go.etcd.io/bbolt/@v/v1.3.9.mod"
+hash = "973fb2c837df2cde77c1d472c6a44f0f24e898af11fb95fcbcbc2cf1d9fc920b"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/go.etcd.io/bbolt/@v/v1.3.9.zip"
+hash = "412ac7f1928d89b1a5efc240ece45e02150c0e02374a0dd550fd0695b2f37c8e"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/go.senan.xyz/flagconf/@v/v0.1.9.mod"
+hash = "e71edcc581e1aa848263558e0685e5ec12f60e809fe77112b4b78a4ad3803a09"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/go.senan.xyz/flagconf/@v/v0.1.9.zip"
+hash = "728dc8c307e490f55ffbd71c335b35d4142b007a28cf39d19ca986387a9bc9c0"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.21.0.mod"
+hash = "a93695836ebd2d5303520ed1d0252d120c230f937932d6fb2666fff151d93c9c"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.21.0.zip"
+hash = "7ca937a1f9501b5d0b46631a6813f833292e33a9c5070f03630f18ab8d65bba3"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.8.0.zip"
+hash = "c79473c265ca571d389bf64fa1e7b2d8999b4ab3eb7af5e3bc185644783a1087"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.26.0.mod"
+hash = "d227b325f621f4ebe28d39ba773ea99b870f393b7c09c34592c365b16dd560de"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.26.0.zip"
+hash = "f44842acff792af010dcb5a24308b72272ebd57c74e00d5f530c9e5d55b86979"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.24.0.mod"
+hash = "82819e438fe12dba2ae05162302d3ce19cc5351f00a887ad22628b125345d989"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.24.0.zip"
+hash = "92607be1cacf4647fd31b19ee64b1a7c198178f1005c75371e38e7b08fb138e7"
+
+[[cliphist.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"

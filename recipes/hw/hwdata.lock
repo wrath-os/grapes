@@ -1,0 +1,5 @@
+[hwdata]
+
+[[hwdata.sources]]
+url = "https://github.com/vcrhonek/hwdata/archive/v0.413/hwdata-0.413.tar.gz"
+hash = "5a71ab7a48c668ef912fcfdbec046949087019f8dd7fb967445d36fbeb778350"

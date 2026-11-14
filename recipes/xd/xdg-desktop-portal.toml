@@ -1,0 +1,66 @@
+[[package]]
+id = "xdg-desktop-portal"
+version = "1.22.1"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3",
+  "json-glib", "fuse3", "gdk-pixbuf", "gst-plugins-base", "pipewire",
+  "systemd",
+]
+sources = [{ url = "https://github.com/flatpak/xdg-desktop-portal/releases/download/{version}/xdg-desktop-portal-{version}.tar.xz" }]
+
+# The portal programs talk to, which hands each request to the portal that implements it for the
+# desktop. It checks images and sounds in process, without a sandbox of its own.
+[package.meson]
+args = [
+  "-D dbus-service-dir=$PREFIX/share/dbus-1/services",
+  "-D systemd-user-unit-dir=$PREFIX/lib/systemd/user", "-D flatpak-interfaces=disabled",
+  "-D geoclue=disabled", "-D gudev=disabled", "-D systemd=enabled", "-D documentation=disabled",
+  "-D tests=disabled", "-D installed-tests=false", "-D man-pages=disabled",
+  "-D sandboxed-image-validation=disabled", "-D sandboxed-sound-validation=disabled",
+]
+
+# Xwayland, which runs X programs in a Wayland session, and the X libraries it and they use.
+
+[[package]]
+id = "xdg-desktop-portal-gtk"
+version = "1.15.3"
+scope = "runtime"
+core = true
+# It reads the desktop's settings by name.
+runtime_deps = ["gsettings-desktop-schemas"]
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "gtk3", "xdg-desktop-portal", "gsettings-desktop-schemas",
+
+  "gettext",
+]
+sources = [{ url = "https://github.com/flatpak/xdg-desktop-portal-gtk/releases/download/{version}/xdg-desktop-portal-gtk-{version}.tar.xz" }]
+
+# The file chooser, app chooser and settings; the wallpaper portal needs GNOME's desktop library.
+[package.meson]
+args = [
+  "-D dbus-service-dir=$PREFIX/share/dbus-1/services",
+  "-D systemd-user-unit-dir=$PREFIX/lib/systemd/user", "-D wallpaper=disabled",
+  "-D settings=enabled", "-D appchooser=enabled", "-D lockdown=enabled",
+]
+
+# The wlroots portal, which shares screens and takes screenshots on compositors with wlroots'
+# screen copying, niri among them.
+
+[[package]]
+id = "xdg-desktop-portal-wlr"
+version = "0.8.4"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "pipewire", "wayland", "wayland-protocols", "inih", "mesa",
+  "systemd",
+]
+sources = [{ url = "https://github.com/emersion/xdg-desktop-portal-wlr/archive/refs/tags/v{version}.tar.gz" }]
+
+# Its user unit goes under its own prefix, which systemd's pkg-config file gives when asked.
+[package.meson]
+args = ["-D sd-bus-provider=libsystemd", "-D systemd=enabled", "-D man-pages=disabled"]
+
+# GNOME Keyring, which keeps secrets for programs, and the crypto libraries it's built on.

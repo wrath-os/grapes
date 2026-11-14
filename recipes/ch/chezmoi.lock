@@ -1,0 +1,3313 @@
+[chezmoi]
+
+[[chezmoi.sources]]
+url = "https://github.com/twpayne/chezmoi/archive/v2.74.1/chezmoi-2.74.1.tar.gz"
+hash = "818984475f981bb79d516f144386d0f4aeb03f035bca3c6d6287da2bdae61829"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/c2sp.org/!c!c!t!v/age/@v/v0.0.0-20260829155415-4448f2097b2d.mod"
+hash = "e331dacf82bb8ccd2811ffd1b109300132544592437683f600d375b185c21622"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/c2sp.org/!c!c!t!v/age/@v/v0.0.0-20260829155415-4448f2097b2d.zip"
+hash = "6720e26a39fdea14c0f94fe1aa4d1a112b19d284996cdd0a419bd71ca7895fb1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cel.dev/expr/@v/v0.24.0.mod"
+hash = "c0c7b17f056e5877abbcfb06744cf5238cb9a0b0a1a08e1384cf2685a22114d1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cel.dev/expr/@v/v0.24.0.zip"
+hash = "4456189315133136b72bfb40312d731c8957cce38a2807ac21d09f5158259bb7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/@v/v0.121.6.mod"
+hash = "73dd1713082ebc27fea02d0bc08701766f907a22575d9113a5fc67ad86b8066f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/@v/v0.121.6.zip"
+hash = "ceebcec0b2c967fa3081f01d155cfb5c38b9e0f650d3173736b6fdb919f3daf3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/@v/v0.18.0.mod"
+hash = "186605f1a1358f1ff59f25d217e9b7a87ff0933ade82a7bd9a65299022800229"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/@v/v0.18.0.zip"
+hash = "ce1a952acf86a930f759f4ab09718e5f5875f16e24e3ce2c2f1f0a4dc9a205a7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/oauth2adapt/@v/v0.2.8.mod"
+hash = "17738c6a081204b38fee07bd815473d8d536a703ea78afa01ff63f0973c359d4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/oauth2adapt/@v/v0.2.8.zip"
+hash = "4cd64264bafc4dd05f645452d6e1485adf92309130bd82b4c595db10cd534963"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/compute/metadata/@v/v0.9.0.mod"
+hash = "80aefcb99e7ffca922974c5ebae6cc480e6be8845b9f4b28e7a1d3055525df08"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/compute/metadata/@v/v0.9.0.zip"
+hash = "f97e35d1c96239b8574054a77e312c95d2c82a89c21daf46ffeaea6d5fc59eca"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/iam/@v/v1.5.3.mod"
+hash = "19791a60bba6f282f15a046507fa0809f021430f45f69f465c98043293c584df"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/iam/@v/v1.5.3.zip"
+hash = "f153dabeb45cbb3fed0f840da4394f21818451421cbfb2e28740d7efe87123d1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/monitoring/@v/v1.24.3.mod"
+hash = "43ab60989ca4aa6dcc5bd14199c08454af9eb241b06427c6c11441330d806c9b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/monitoring/@v/v1.24.3.zip"
+hash = "e28a4ca46eef2ade6df229ee71065993a56673584e5f69a2ecf7d90e0e72fa8a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/storage/@v/v1.56.0.mod"
+hash = "16a669da84797376458fe5a2061299b45dcee17ec1ca78520e749ae8caea0c6d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/storage/@v/v1.56.0.zip"
+hash = "180a4041c86e7733a7e31285315e08c163463ec0848a74eb9f669bb060df125a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/codeberg.org/tslocum/cbind/@v/v0.1.9.mod"
+hash = "810867f4a9be669da8fbd4816a84bab1b24c558e7026f7aac1437000d2f58ecc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/codeberg.org/tslocum/cbind/@v/v0.1.9.zip"
+hash = "9869e0ceac7d356d0427e2e9ac382ebedf0fe94d478b34f6b9cc19457c9a0438"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cyphar.com/go-pathrs/@v/v0.2.5.mod"
+hash = "77eba3c67c7d0691cc969be77dca27d3afbc4fce4933bb459cea8da00b8cdd3a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/cyphar.com/go-pathrs/@v/v0.2.5.zip"
+hash = "2b80f10c4c1ed1c2965873b484ece9298c30b49c59a6498ea4287fab5c2b4bf0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/dario.cat/mergo/@v/v1.0.2.mod"
+hash = "d4c65d7a5f68051187d1385f0de39cc4a7f47a88dc37f45d2dfe494403e25ee2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/dario.cat/mergo/@v/v1.0.2.zip"
+hash = "67d2e9d83ca57d3a8ce1a0e0e626a7c03753b3966b58b41b95e97ca4e7b2c640"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/filippo.io/age/@v/v1.3.2.mod"
+hash = "05dbd7dee5f80e6cf918465356ea24ec0077bcbdc487741e632405d23e81a2bc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/filippo.io/age/@v/v1.3.2.zip"
+hash = "531f9b8b966827d356766c024a1ae86bbcaef21caf58ccbe56f378f0a6ce59f7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.2.0.mod"
+hash = "7492c767dc361b86e96933ca1790d492c2f7c368c3ec0e00e1050eddad7baa7d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.2.0.zip"
+hash = "98f2d3ca9b88daa031b0fb2fb521b7ea386af1fed61b6f445a20bef7fa381c17"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/filippo.io/hpke/@v/v0.4.0.mod"
+hash = "fe6b11808b41e7355e1f1a35be9d3e9c80f31368979186c93556276161cd5702"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/filippo.io/hpke/@v/v0.4.0.zip"
+hash = "2048be40875f1d70262251d784b28315d9a5af6a3a71d6606c272423c88c7439"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/filippo.io/nistec/@v/v0.0.4.mod"
+hash = "c026009ddbc56d0847876904024a001d61230268a6a4a83118a277aab3135684"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/filippo.io/nistec/@v/v0.0.4.zip"
+hash = "f3020dbc50113d6781815c1cafbbf6f97b266d55c8a4597ce4c61a7c1100c78f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-extensions-for-go/cache/@v/v0.1.1.mod"
+hash = "25f47cf39d4b7808d4860451a48f37eba322268cc2ef7fd95d46c9bd8c0cd22f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-extensions-for-go/cache/@v/v0.1.1.zip"
+hash = "de8edfcf96b8879307ea318c939dd4a07d666137e1bdf87733072a6c160e9e1a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-library-for-go/@v/v1.10.1.mod"
+hash = "1e649668e3f2fca9fcd26cb8bba22ff301c0f2431150da6670f902c83e9458a8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-library-for-go/@v/v1.10.1.zip"
+hash = "adc8dd050c3f5b194f49b40ff9c9138da3e67b112f76c1fb77d8ce650def4e41"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azcore/@v/v1.24.0.mod"
+hash = "78be1f3f34485fa17625cc993a16a5a63088097ee14a7f9b2455a92dffff268d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azcore/@v/v1.24.0.zip"
+hash = "436f1ce6f8eefdc1d56082abe7a7c85d107609e535ded6371f4c182100dfe74a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/@v/v1.15.0.mod"
+hash = "9948bef442eb868379cd93046c6ae1122820fd907d34c8e98fc84ee0bbb97fc7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/@v/v1.15.0.zip"
+hash = "818f833ae8f19c24b0f5f8c34f31ef910c5d4280802dda1f43a8a60cc07a6ae4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/cache/@v/v0.4.0.mod"
+hash = "0344cb0c2225d657af7fb823275e6099288de4f2f6da5730d4e131b61e5ff818"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/cache/@v/v0.4.0.zip"
+hash = "29a59f8fb8be3065e081a3bd8ec67658e97d396204f3a9f84a4724d89f13c150"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/internal/@v/v1.13.0.mod"
+hash = "45895e884464961f1237191af2daedfd89ab387023d916ba0552284327afb814"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/internal/@v/v1.13.0.zip"
+hash = "206818577e4ffcc34cbd55da36e52194226dc3a561817b4df422f42870506113"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/security/keyvault/azsecrets/@v/v1.5.1.mod"
+hash = "399f1d104cef2e45920e0a8c578843a19b333bf3da71979c3cb21d29cc7431d0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/security/keyvault/azsecrets/@v/v1.5.1.zip"
+hash = "520f1e6308b87fc1d0b832f88ebfd7a24fc563e61a2d6cd53d34f6ff63d9d2af"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/security/keyvault/internal/@v/v1.2.0.mod"
+hash = "d9a642e52d99731a2685b5ff6f41d8f2c84f84a3c22cd7d0ec5d91a7086baf21"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/security/keyvault/internal/@v/v1.2.0.zip"
+hash = "fea8b9a6517633da1b023698f9be20868fa21ef5886847bc9a939fbac89c7dee"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!burnt!sushi/toml/@v/v1.6.0.mod"
+hash = "45d78b80571999b6a258da0f21673da39e6b501349c033a4acd169437411d733"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!burnt!sushi/toml/@v/v1.6.0.zip"
+hash = "01f03d6c3f4bfee108bda3202407b54ac0c295b8302a1315512f12ac05011fd8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/detectors/gcp/@v/v1.30.0.mod"
+hash = "6f2f0085d34c5e437e3a3dddab30ef8a3f4ad55acb5ce150951b4eb740e7d173"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/detectors/gcp/@v/v1.30.0.zip"
+hash = "d74de494fd880eac405aa1cdc136f032c8c3c1732ac6f1e3b73898113e544c85"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/exporter/metric/@v/v0.53.0.mod"
+hash = "cebd77fdc073a727d38d8e7113b0d19461aa5ca0618e72bea644bd476099beb9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/exporter/metric/@v/v0.53.0.zip"
+hash = "9369e086fa6b716be788eab847c20a0f0294ca805526acce34076fc16830164e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/resourcemapping/@v/v0.53.0.mod"
+hash = "5255cc83db30635db04ad14dba6fa897b766585f50dab278d50a4c7d6ab296fb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/resourcemapping/@v/v0.53.0.zip"
+hash = "721f444365acda4d14443e39993b95f56843872be153a5884f943a8a45edb9c9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!make!now!just/heredoc/@v/v1.0.0.mod"
+hash = "dc1d84bb336e71e8696b999eeca5c0bd5cd6b40870a4cdc71ad118873e01014a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!make!now!just/heredoc/@v/v1.0.0.zip"
+hash = "062afe6e11aa3c3ac0035d08907b80d5e5b7563905603391ee774bda440abf16"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/goutils/@v/v1.1.1.mod"
+hash = "4efa82512d1b88c438c122671324c4b968b5a55af04388c7bcf100a6c4b1974d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/goutils/@v/v1.1.1.zip"
+hash = "ef8778a20c37e98a92e3b1db5ab027cc201743a2f5bfb26ba228bf0515e20b48"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/sprig/v3/@v/v3.3.0.mod"
+hash = "e05abb962d0f1db4f2b9f0fb28851b7fa8823339d5872d7793f718725ce3f83c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/sprig/v3/@v/v3.3.0.zip"
+hash = "c731370f7601711d1df9b4b0c9bb8488fc381b32fd3e7de97a03673e8287b719"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.5.2.mod"
+hash = "19b8fbe9d4419278bb1e9d0cf2fd5aec879e42829c53ba3efd5656b8d1b35ae7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.6.4.mod"
+hash = "79dfc7d5fafc2dbca35727f008b6fb8146b109d59c962efa76ebf9b172aaa17c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.6.4.zip"
+hash = "0bb0285b68150970584752c9792137af693579c51ae5ff9c082d031f5b9cfdf1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v1.5.2.mod"
+hash = "ed1f85c71a923884ce7d473567633be6029daa68cc80f277ff15278756943635"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v1.5.2.zip"
+hash = "6ce5df4da97350b69637df5918fa1431816180ca1ab3a9850b3f69c14575a7e8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!s!t!a!r!r!y-!s/zip/@v/v0.2.3.mod"
+hash = "47b253600e3da7116d4bd63a2f095562830a6fab74ccbddc40af260b35cca0e3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!s!t!a!r!r!y-!s/zip/@v/v0.2.3.zip"
+hash = "7b7af5c34cdc6d4b55be309ef0c7bfa5147029f8484d799c092be3141463a76b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!shopify/ejson/@v/v1.6.0.mod"
+hash = "102d20596ff9155c1a91ef6cc179d96bb5769e896832f5215eae1ef834189f0a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/!shopify/ejson/@v/v1.6.0.zip"
+hash = "e7e1c739f76dec9e9c56ba961372a0fe4fa114b84711271bfd5ac8603c296f24"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aclements/go-moremath/@v/v0.0.0-20210112150236-f10218a38794.mod"
+hash = "a148db942c03ab2f8b077c387f6c0052aa1697c213bda978667ff57c44c42841"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aclements/go-moremath/@v/v0.0.0-20210112150236-f10218a38794.zip"
+hash = "d83b2a13bee30e772c4f414ccb02c8fec9a4d614e814e1a2c740a6567974861d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/akavel/rsrc/@v/v0.10.2.mod"
+hash = "18b7d6652beec9ed8b5a3e7d27a8765e5c3718fc819ee73b9e3b14effc15fdba"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/akavel/rsrc/@v/v0.10.2.zip"
+hash = "4a1f17e289dec94b49610f74b467c7e2053332e856a8766ec8c3e7c3d39af04f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/assert/v2/@v/v2.11.0.mod"
+hash = "affdd4e877804b0c227bfac5db50af91ef501e7b6d4befad53f90978d8635e1c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/assert/v2/@v/v2.11.0.zip"
+hash = "87ddcb6a9c42228ba1b3b61c581bf2ff358f014078bd274b8ff5b47f7a4759eb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/chroma/v2/@v/v2.27.0.mod"
+hash = "eeaef52bd74315d588d6799990ba08cc209a70e748473c3a4333349944871a10"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/chroma/v2/@v/v2.27.0.zip"
+hash = "8eb074aaf4a7b4cf406e81062cf5d6b54c32797be53f5287d88ef570fa73625f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/repr/@v/v0.5.4.mod"
+hash = "2bf2cbe500e28f4ba81107985bf0f311221c5889aefb926d52306068894432b4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/repr/@v/v0.5.4.zip"
+hash = "54d756f1b363c943c3c2981f48e199405ef3c1a554715260c886114c990a5492"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/andybalholm/brotli/@v/v1.2.8.mod"
+hash = "9836ed7059e6b6be9d42e666c866deea8646d5815216fcf6216966074744cb1f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/andybalholm/brotli/@v/v1.2.8.zip"
+hash = "9158dea4517a2a90c9023628bb541f858d91fdd3d0869c0b014ef7f35a725904"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/andybalholm/brotli/@v/v1.3.0.mod"
+hash = "9836ed7059e6b6be9d42e666c866deea8646d5815216fcf6216966074744cb1f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/andybalholm/brotli/@v/v1.3.0.zip"
+hash = "2bf3f7fc5a7e898cca45b947908c909f8d46ff27eb92df008cdb14fe870a9993"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/anmitsu/go-shlex/@v/v0.0.0-20200514113438-38f4b401e2be.mod"
+hash = "605bf0aa0d98223540f5daf7fa97091eafbbf48989c7d17652af992ca764afb6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/anmitsu/go-shlex/@v/v0.0.0-20200514113438-38f4b401e2be.zip"
+hash = "2a5cf7c9a2709f649fd508cbacb2be96e4fba4d534a28a122ee4d7574af40b5e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/armon/go-socks5/@v/v0.0.0-20160902184237-e75332964ef5.mod"
+hash = "787f5f98ab21174f71164cab8eea65125e60aa72f5d7517e12e08e7b8eecccd2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/armon/go-socks5/@v/v0.0.0-20160902184237-e75332964ef5.zip"
+hash = "f473e6dce826a0552639833cf72cfaa8bc7141daa7b537622d7f78eacfd9dfb3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.mod"
+hash = "871822cbc7df3792f78a100886b7f499f73555938e336b918682119688ea8ad0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.zip"
+hash = "d67b2c36c662751309fd2ec351df3651584bea840bd27be9a90702c3a238b43f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/@v/v1.47.8.mod"
+hash = "f74bb1e38b5b81ba10ef0011a637a389c0410f9765ee2c07ebee3bfeee0bc702"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/@v/v1.47.8.zip"
+hash = "de1e5d2bf91b3a7f0d6c25a23a02ce04348ef56c24be35b177f92248cea2779e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/@v/v1.48.0.mod"
+hash = "e90da8ada1d4938da7080f9510bf34f22f3cfd1acb62f436a09dc5bfaa62bec6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/@v/v1.48.0.zip"
+hash = "ee10d22373523e8c23430c56661105c785e017d64d5ed69285f04edde177fee6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/config/@v/v1.33.17.mod"
+hash = "dc61892b8a4a5842617365a4f8dc16eea75bfa0809202dd241184261bd3aaa1e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/config/@v/v1.33.17.zip"
+hash = "0ba4b1be34082ceea983a0ebe130fd7eb95c495f6e5ecdb68c52319fd2c2eb7e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/config/@v/v1.33.18.mod"
+hash = "4e95d1f50865fddca1829e32519280e6341d10a3bf236df952ea49c8332d4ffb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/config/@v/v1.33.18.zip"
+hash = "4cfd5a1a954f5d229e7a8e5abd3de94c934dccd8855f7cf8534a8163e57356fe"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/credentials/@v/v1.20.17.mod"
+hash = "0c0fe196471e53837c528fd0d096e69e130c976d88633fb9477919f4e97241a7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/credentials/@v/v1.20.17.zip"
+hash = "94b22064e64ba18d31dea316f93077a27d39025c1d0da8205d1581ecae565325"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/credentials/@v/v1.21.0.mod"
+hash = "dc39962601e8f6ec0caff1860aba4adb4c02645bc4ab905ea831f1dadc59fcca"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/credentials/@v/v1.21.0.zip"
+hash = "f7416ea17510f388fe1ce39c6e1af6429ddf3d2d6ac82deba4588e29bc036a0c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/ec2/imds/@v/v1.20.8.mod"
+hash = "206eb5b103e816445180eb197a3b2e788946c78d7ec6eff4773819de7d7ed500"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/ec2/imds/@v/v1.20.8.zip"
+hash = "2e042c3f606f0be45ca11cf0061f51bdab6aacf8f24b32ed7ac57e530182d394"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/ec2/imds/@v/v1.20.9.mod"
+hash = "4fdcd4afe515746c0fb45584bb33abfa49f48bcbc5b7c3e2f91aa461b9faf15d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/ec2/imds/@v/v1.20.9.zip"
+hash = "762789a32c47ebab34bb520da37f0646eeb0943b8e20654e36ab1dafae29ed34"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/configsources/@v/v1.5.11.mod"
+hash = "53a6c939f864679b55f830b023f4400575e3713157d3d467317ff6ca5b3e686b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/configsources/@v/v1.5.11.zip"
+hash = "c3b11245a6f8b7db68196b60a83ca2a16747b15cd08c92b95808db1aeb469dcb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/configsources/@v/v1.5.12.mod"
+hash = "9841e32d8eb8e8ac13ccce42fc217954268eb399e5cb6b8378b4dc303f16a9ab"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/configsources/@v/v1.5.12.zip"
+hash = "ea178c0acd85da16c7b59942b3142eff847f75ff2a4b708562bb849a64d8122d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2/@v/v2.8.11.mod"
+hash = "07bb52c1aa854fe7566dfbaac37d43549b0732688720682625948aefd5155c9e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2/@v/v2.8.11.zip"
+hash = "b215677b43b0af225618cab5b5032743dd5440dd7a6471a9dbd2bb96fed093ff"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2/@v/v2.8.12.mod"
+hash = "fb5a9892892d42c935d0b305619b3d6e451b6101ce8eb51394a15f4f653a7ba2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2/@v/v2.8.12.zip"
+hash = "ed8923c8c5e03c6eaf936344c29ee5b16dba2a77cdc4742508eb01a344a0acae"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/v4a/@v/v1.5.11.mod"
+hash = "07e2f4b20c329f47063e0c52831505ec0e87931b6fa5ac217fa5cdc2ef977e03"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/v4a/@v/v1.5.11.zip"
+hash = "93ceabd3b8ecd32e0e1ce027f848562d90b8cfd606faa67cd1c00da1efd60c81"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/v4a/@v/v1.5.12.mod"
+hash = "7bc3337ba7aeb1934aa377ea3ce80468f8d5365b6c150cd2e92779bbfd54e81a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/v4a/@v/v1.5.12.zip"
+hash = "0926870c17f638f5b3f208b86e33870360683e6d6bf4484916e8a4161b1517a9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/@v/v1.13.24.mod"
+hash = "d527e257ddff912a775562a4e60dd69f4dbad9426e94f010befb717aec1e7523"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/@v/v1.13.24.zip"
+hash = "8d7eac26c3a35c626be1c68496556047d07adbeed22ebb01c262c92fcc925983"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/@v/v1.13.25.mod"
+hash = "c273aa1151e44667c48b4d650b5117cc761dd1d82e609821a213ff9111664984"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/@v/v1.13.25.zip"
+hash = "42b50669f30b16e7d20aa10c193408ef2aa36030773a8f903229805c644d2c25"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url/@v/v1.14.11.mod"
+hash = "618ed2c67504bb2b13853bda9d82bcf1fcf17f12183d2a31adbb5bf57c3cafc8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url/@v/v1.14.11.zip"
+hash = "85035404ae8a37b03f6ca7fbc1b5039003788fa9366fbf784db5294939159f61"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url/@v/v1.14.12.mod"
+hash = "7009075346393521dc8eb133ebaf800442da5c7316044966864e0f4d8427efdb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url/@v/v1.14.12.zip"
+hash = "032be925b0ef565368e08173045dede1f63ba37c6852bcd84a5cfb97d09dac39"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/secretsmanager/@v/v1.50.11.mod"
+hash = "93822f7bb3d5dd69959d286c5f713ddd4f88ffb2cc30177dd1c4751fdcf49662"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/secretsmanager/@v/v1.50.11.zip"
+hash = "5496017a0ee93baae92f33d18c31bba6424190932ac3c66181f282b7bce1f890"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/secretsmanager/@v/v1.50.12.mod"
+hash = "55a8a869b919a3b0c566750b5bfb18aaa21e3161f032749c82edde7066718365"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/secretsmanager/@v/v1.50.12.zip"
+hash = "9ac59d79e59321787e6c71e1876dda42ec922a80358506ce4d6a84989ebb4fdf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/signin/@v/v1.13.0.mod"
+hash = "7f573e538e616a0d667cccd7a9acb1dd432a0032389eccc370a907f53f91f0c0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/signin/@v/v1.13.0.zip"
+hash = "edde75b0ee08e204f2cc313fbe04cc9ea83d2370f7510ac05967f8fa385bf20b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/signin/@v/v1.13.1.mod"
+hash = "09943e0ce7505fcbe938a8ff6c0b8fa9d0834ffac1d438431919717b337531bd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/signin/@v/v1.13.1.zip"
+hash = "825b71518b461615dac70e0c5c26d114cab49110bd08055ab504715fb72f4165"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sso/@v/v1.39.4.mod"
+hash = "9d8ddebae9559ec81570ec903c3562a4eae8b4e3532aef7195dac6f62bc21387"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sso/@v/v1.39.4.zip"
+hash = "7bed0e6c25530c91927e9d471dddc1e9e9a9872d0b8a6455130786a84f892f44"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sso/@v/v1.39.5.mod"
+hash = "624eb94f1d49003c2f3cfd4a6733fe8689a1080e23b26c70c32f90de08228da1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sso/@v/v1.39.5.zip"
+hash = "dd9cdf75c4c5b754fefd9d751af37989e42a5cb63c9b0d431a57bc8a717b26f8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/ssooidc/@v/v1.44.4.mod"
+hash = "e61757fbf92fddcd4a87a2d83863f276a093cceea746a33b6a3b467327e832ed"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/ssooidc/@v/v1.44.4.zip"
+hash = "610dbaeefdaa9c7ab3ce29fdc2f57e73014d9ee2353dc6a374c94fceda87b3b8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/ssooidc/@v/v1.44.5.mod"
+hash = "e55177f098d3dc3a164ccc9d130e21031e1ed9cbca63f849b63195aab4b93447"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/ssooidc/@v/v1.44.5.zip"
+hash = "63b148b63bab85a2c5f9d4cf23b6aa70b5700f14c5d1cd1c78a43917fdfee94d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sts/@v/v1.51.9.mod"
+hash = "57424f972f1e31d9025e3075e46c839713631ef7cebfea08cbd622801406ec3e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sts/@v/v1.51.9.zip"
+hash = "37cd218c927fe9bddda500f61d51122843c90367f94717d7cd7383cfc43df71a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sts/@v/v1.52.0.mod"
+hash = "e77e75478ddd41e0ae763aae2abdb8160a964bca1805366a66474b215ba8580b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sts/@v/v1.52.0.zip"
+hash = "f5a5cbd8fa955a8bba2e420eecb71166be717b40f20eb3132617c260e52e6d62"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/smithy-go/@v/v1.28.8.mod"
+hash = "77bb1f126ec520dade5c97d14a05deb9696fc29a853520b943aecd3849219e81"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/smithy-go/@v/v1.28.8.zip"
+hash = "e49de683d654b4fe326200b2ce475f2575c6f91b449d040c3aa9dd76e099f1fb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/smithy-go/@v/v1.28.9.mod"
+hash = "77bb1f126ec520dade5c97d14a05deb9696fc29a853520b943aecd3849219e81"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aws/smithy-go/@v/v1.28.9.zip"
+hash = "02cca4a17267c2e8a6af7b751cd29dec0197ab7c4d35031d4025c9af0a1ae28e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aymanbagabas/go-osc52/v2/@v/v2.0.1.mod"
+hash = "4646f9f19a822aebf4296bce24d5f2b7b2700ea1c44f5cc978300263cb7b5611"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aymanbagabas/go-osc52/v2/@v/v2.0.1.zip"
+hash = "939ebf2a5481f2172e1a5e0c318d05aef5b6d950a960556216c3da7879a927f8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aymanbagabas/go-udiff/@v/v0.2.0.mod"
+hash = "f076ebc53bd18e46ae73fef2f91c309a0a783a9afe16f050bfa6afa3beb7a6dc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aymanbagabas/go-udiff/@v/v0.2.0.zip"
+hash = "fae0683c7383d99b89827983df2931b60cce5b3a1274bb498ce03d3ca7e45a43"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aymerick/douceur/@v/v0.2.0.mod"
+hash = "5e0454241c257b4c4f9dbddc84e78e99e29c5275b3cfaee8afd2bb476e724897"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/aymerick/douceur/@v/v0.2.0.zip"
+hash = "dcbf69760cc1a8b32384495438e1086e4c3d669b2ebc0debd92e1865ffd6be60"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bartventer/httpcache/@v/v0.14.0.mod"
+hash = "7bf859ddfc7ecc1bceb89a1057b28aa26f388c1ef3d2dc3ab85fc66d99bb3d23"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bartventer/httpcache/@v/v0.14.0.zip"
+hash = "cf2da8c7852b3c912ad456cea84c07db45e7382da345e783d4cb8a83d3a7ad64"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/betterleaks/betterleaks/@v/v1.10.0.mod"
+hash = "0ec7238722faca0293b8aefe2de39ae0f63699c3cea7449864c0c8b29eaf587e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/betterleaks/betterleaks/@v/v1.10.0.zip"
+hash = "9974ec1e8522d23d41c8a3b9694100819ed349155aabde77b279d697cd445804"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/betterleaks/go-re2/@v/v1.11.0-betterleaks.3.mod"
+hash = "076b28cfd7d414d5776b313c42e724f951722e78432cadd2ae211dc5b8b13187"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/betterleaks/go-re2/@v/v1.11.0-betterleaks.3.zip"
+hash = "33d65c9f7c76867a844c127a7313bf3c0c455e4bd23618fba635ff813d9b4033"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bits-and-blooms/bitset/@v/v1.24.6.mod"
+hash = "e1d76f51cb52ad77a366c14e391f29ff1adba192135a9a4cbeca5e87ad7e41fd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bits-and-blooms/bitset/@v/v1.24.6.zip"
+hash = "755718ffe81e5e54a3f15e46ca3573e0d52fdfbcdcbe40ecc7021834d80f57df"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/blang/semver/v4/@v/v4.0.0.mod"
+hash = "992dea6053fd3ec4af475364d9197c528fd94c847389deab955681397dc6bb5c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/blang/semver/v4/@v/v4.0.0.zip"
+hash = "96a2bbe11960f3a3c16db0da822c69ce9ac4b738ee731a0476031bbb71987504"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bmatcuk/doublestar/v4/@v/v4.10.4.mod"
+hash = "4eeea45a0d1d95576ac99c9adddecd77878b98445bf679d3f193a51669bd1450"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bmatcuk/doublestar/v4/@v/v4.10.4.zip"
+hash = "59c0b96a9a10f87143896503513d985ef57524d31c8dfc45dcec921c4c9b5b5a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/plumbing/@v/v1.3.0.mod"
+hash = "47c6e79a0285fbacce06096f0f8e7d730aa1491d5b7b015c3198ba0b80647570"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/plumbing/@v/v1.3.0.zip"
+hash = "15c80dc98fd6b972798a6c24a002f6fb00b28abdc9928185206a5abc5e56a089"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/sevenzip/@v/v1.6.5.mod"
+hash = "9ee7fc34113ae01d113cc2389a0f5fcb0d7a2ec8043314a5f94f7e6399f2445f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/sevenzip/@v/v1.6.5.zip"
+hash = "9dbad89992338ff0c408a351e9135221715d309acf4234f52fe69d23da7ace7c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/windows/@v/v1.0.1.mod"
+hash = "89f0c3b76ed9bc76f2f3ffe449890b627465d7cd6893e860168f5b75feec85fe"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/windows/@v/v1.0.1.zip"
+hash = "cbe5f1c687372fd463b19c05b2cfdd3cdcaad86baea38f83ebe580b26f19e956"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/boombuler/barcode/@v/v1.1.0.mod"
+hash = "c2405ce221f1d08638f38282a9bc43a079adcb1b9515fe4e08ab494d0ef7fca3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/boombuler/barcode/@v/v1.1.0.zip"
+hash = "b8e43377b2810f32ba102ccde887d32d2e05471a68122818173e85132debae76"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bradenhilton/cityhash/@v/v1.0.0.mod"
+hash = "d5336344ba770993676ebee0d79e2e1670810d031532568a260e4405e06a19b8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bradenhilton/cityhash/@v/v1.0.0.zip"
+hash = "0de836da3a206d2745b7a954316c4812e68fe6d168a6499c944974f602ccbaae"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bradenhilton/mozillainstallhash/@v/v1.0.1.mod"
+hash = "f53f5d9c39c63f0563cae22b5a92072b0f36d4961d49ca6e9d8e67842ac87172"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bradenhilton/mozillainstallhash/@v/v1.0.1.zip"
+hash = "317aea5dd2120565ac52eb57d092cd1e2b1c2d57a32064c4c3b7ae3be98eca39"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bwesterb/go-ristretto/@v/v1.2.4.mod"
+hash = "368aca1757be8745cce3b90deb401e7be5740963ca5359c4a954cc03502d8f03"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/bwesterb/go-ristretto/@v/v1.2.4.zip"
+hash = "a0684400a11639564fea4186998c9a10e4d347c59dba40861dc3d3bf96008300"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/caspr-io/yamlpath/@v/v0.0.0-20200722075116-502e8d113a9b.mod"
+hash = "316a3862224953b3582848f287c3ab98a147071a71d40b220606feff1bd5e69c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/caspr-io/yamlpath/@v/v0.0.0-20200722075116-502e8d113a9b.zip"
+hash = "e1f9dbb887463c26ad76c6e6c4dac6c411e07f8ce1b6fca35071cad916eebcd1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v4/@v/v4.3.0.mod"
+hash = "83d4122d49127f13cda95fb79397cfe516c23cdd7fc07a2886ad764dd1422be3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v4/@v/v4.3.0.zip"
+hash = "ef220b1ebf3bff4c46bbad5b2e123030e812b722b9e9dc88bc35956f9c622c2a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.mod"
+hash = "a090f8eaaf59cc2adf163299ebefe797e1dca3f6add2c8e88a6a3b90ba538b02"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.zip"
+hash = "145a26cdc7c49db566017b807c4989ee7f7ddeb569423e9cb99f995fac3621d3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charlievieth/fastwalk/@v/v1.0.14.mod"
+hash = "663f7905754c96d807ce61a7e83521cd676192efe0986926451d4fc4353e25a0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charlievieth/fastwalk/@v/v1.0.14.zip"
+hash = "08fb812ab587d7bb10d70d88adce496218e7501c7b1719138937a54d81f5fec9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/bubbles/@v/v0.20.0.mod"
+hash = "57cc309a2879c8cd308a598a0de55bfd19878f8fe1c109592c2170f432e7c3a9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/bubbles/@v/v0.20.0.zip"
+hash = "b9b230bb428477290e42ff29fba320f6ebadb612e2813b7592d293b80c81c1b9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v1.3.10.mod"
+hash = "903f2904b09b37dd74092f437ad306794e7633329ddc5af7b201d469e2d937fb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v1.3.10.zip"
+hash = "8afc524c11d18878b0ac3426fd3318fdf05ad576e65883c597996296c1b27117"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/colorprofile/@v/v0.4.3.mod"
+hash = "4da50dc5179ea48dc7c55db78f05b4911047341ef749027b3969130edf1fd43b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/colorprofile/@v/v0.4.3.zip"
+hash = "656472ff48f01a098418a31667f3253cf34e04d4e1cb6c1a0a80f76ad370b689"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/glamour/@v/v1.0.0.mod"
+hash = "751174f2415242bbef53d0d3bfe80a63ba00d7f39b6aee441c10560bfad0e80a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/glamour/@v/v1.0.0.zip"
+hash = "a52ce6c1d9d7822fc0a9827d6a226baf04713e41fed9a93f857d150739245fd2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/harmonica/@v/v0.2.0.mod"
+hash = "febcf2a805f63ad7d34b707ead4839a517b13075dbc912e66632ac586ae8a383"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/harmonica/@v/v0.2.0.zip"
+hash = "8494d728916551f0fc9a065fa854dfae2d75c7191ce839bae07de1a6290db40a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v1.1.1-0.20250404203927-76690c660834.mod"
+hash = "b1920c927dec202564f9f21822f746639347da161ed3d1a190992c0009b20cf0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v1.1.1-0.20250404203927-76690c660834.zip"
+hash = "626c107b5c002b297a36aab58949904266eac5c6a030face80a771084bdb279a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/ansi/@v/v0.11.9.mod"
+hash = "37eb859ba45ddd27690bfa8d617e8744c37b090e121c03a3b8c8d72b1a3437f5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/ansi/@v/v0.11.9.zip"
+hash = "9815535699efc21636755cc84dbc92250182246e876e4ea83e87464d871cbf82"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/cellbuf/@v/v0.0.15.mod"
+hash = "5867c27bb93af066945f3c7b5487f721c1f6dc05a382a9e83af0de7ee9ac00f2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/cellbuf/@v/v0.0.15.zip"
+hash = "2c5c421edef869c7f4b7b3fa29530a66897134764d95a750eed59ed5886d84f7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/conpty/@v/v0.2.0.mod"
+hash = "34d0bc76497277b41cc303be2c9cf47ec133fd2b1acb45a70923c19da6d8f4a4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/conpty/@v/v0.2.0.zip"
+hash = "ddffcf3a0fa96dba80867713caac0463975e0fd9a7882bbf53db1fda7aeebf51"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/exp/golden/@v/v0.0.0-20240815200342-61de596daa2b.mod"
+hash = "a8e422edf34a0b6e84e6691a7974926a49ea5b9e11dee87b02e737da0a00734b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/exp/golden/@v/v0.0.0-20240815200342-61de596daa2b.zip"
+hash = "3e97e6a879ec58a2dd6afa0565882ba6f9921e850fa6fa9cb8e0658b00a2b925"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/exp/slice/@v/v0.1.0.mod"
+hash = "aa42adc3336ddd5a73c7562e0924cba45c840024f84ae2d5e7db2c67699629ac"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/exp/slice/@v/v0.1.0.zip"
+hash = "880715c12d1ccef16c553be450abde74fc73e912ce1fa63614009ad487316039"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/term/@v/v0.2.2.mod"
+hash = "6df18166815b45f523a79580acfa95f12990a1568e6325f9d60b5825df952962"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/term/@v/v0.2.2.zip"
+hash = "0452a430f7e6882393f81ba19a70a63709960acb9743e1199a7b04d908e6b506"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/termios/@v/v0.1.1.mod"
+hash = "4094a8d0a57055f0bfb8a1191e69ee282e2de40d3ab7724cc134ca26fc02b9d1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/termios/@v/v0.1.1.zip"
+hash = "3dd9823ed5db08d398c276e216e4150560d3a6894814c4404251b4210b22abed"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/xpty/@v/v0.1.4.mod"
+hash = "623a0d031b68faf5822f8b5b6ab33521143adb93ee48af466b727bc0747de9f5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/charmbracelet/x/xpty/@v/v0.1.4.zip"
+hash = "47236f2cbc5c48e745e3640d3cf9ae073752c79c147f059c4f95ec622873ab60"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/displaywidth/@v/v0.11.0.mod"
+hash = "643bf909351d7bc8ff29a8a7bb44cca11efe181ed66e5efe57d695bb023effb3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/displaywidth/@v/v0.11.0.zip"
+hash = "27830c91cdfb2a648748db21f7a2734dcb50d21c620edde51d488ba4e7967e3d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/stringish/@v/v0.1.1.mod"
+hash = "1f6bf9cd22f45b59bf4c7987d69df990d83611c0fe5bf7bdf7d20886eb1b9b81"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/stringish/@v/v0.1.1.zip"
+hash = "b64486091fd9c743a51a025c0c171b0d6f43e5a8fbba799e6d3029f79315621f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/uax29/v2/@v/v2.7.0.mod"
+hash = "f3c5f4e4f9e7fb16aea5fd9dc5f24c3ff9c157b1a67576c0f2140117589507a0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/uax29/v2/@v/v2.7.0.zip"
+hash = "67b1278f1ffb4e4d783a390e48fe7396864650138e785d4b4bfca5914333f761"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.6.5.mod"
+hash = "79b9daccc7f033377bcbc70524418d999a1677849924d7b5e488e646c4cf00d7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.6.5.zip"
+hash = "aa6391f45b543ee70c2d57e137c426e318fb98be81f61aa07ab5663fcf667708"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cncf/xds/go/@v/v0.0.0-20251022180443-0feb69152e9f.mod"
+hash = "39b6c39b44c91b2038cb6d962d2fd1b6ff58c1e8bf74c4cf11bebf3e5241aeed"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cncf/xds/go/@v/v0.0.0-20251022180443-0feb69152e9f.zip"
+hash = "d688e9a17f9558c41939fea8895a51c5b7963173c5f021dc33e2b1be36e51839"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-semver/@v/v0.3.1.mod"
+hash = "08609c644cbcd0a4801e2585ee5a9dd283f92a412224d86e0dbd431530e6ce38"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-semver/@v/v0.3.1.zip"
+hash = "e72820542b5913afe0a52e956e0b3834e9fbb080641fed183117f862fab74e8a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-systemd/v22/@v/v22.7.0.mod"
+hash = "502642c96e9d9996d696fcb269ac99aa9f5ab9f3a4d98b21931230af69967140"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-systemd/v22/@v/v22.7.0.zip"
+hash = "25c78b5dae5afa61291a8559328007cc77e60dd6747454af5c83423c26cfdfba"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.6.mod"
+hash = "bb81a9e2d14d9a586f0591853bdaad230d8cdf0d8d6ffa71dddae249ad573cc9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.6.zip"
+hash = "b8059316e38bcfd28b69d2c2b32d34b9e800ccaa1ff4b5a61022cbe98fa7c710"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.24.mod"
+hash = "a3979fd32c00f35d17eb3b97d0b3cc6f4efb057bf78271361fa773531e601531"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.24.zip"
+hash = "754e25253e76a5583b80d57d3add3afe68fc4d9f2a490968a9d1eda8c8fd8815"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cyphar/filepath-securejoin/@v/v0.7.0.mod"
+hash = "6c4b862cf5c5bbf854024d3357bfa909b0eb22a515917bdbaa5c0112d749a8fa"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/cyphar/filepath-securejoin/@v/v0.7.0.zip"
+hash = "601684f1d3cfc8391cbaf7e5973b0485db6a5037426d9cccf47935ca0a4d65dd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/danieljoos/wincred/@v/v1.2.3.mod"
+hash = "ad34e5960e261cb0e08e931baf7450b8faa942b14bd52f09a213a396238e55d6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/danieljoos/wincred/@v/v1.2.3.zip"
+hash = "a24ece3a299344e6c6cb45da1b5c147e6b14d074a8cfedd7d66488a63ca9dbd5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.0.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.2-0.20180830191138-d8f796af33cc.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.2-0.20180830191138-d8f796af33cc.zip"
+hash = "b4d0923b169b194f0016ec46f3df1ab0c68e27999743e43fe2de59ecb2484128"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dlclark/regexp2/@v/v1.12.0.mod"
+hash = "7017e81fb9fa9227a3180a62e323158b4523c67062f0a8aa08637c092b8d4aa7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dlclark/regexp2/@v/v1.12.0.zip"
+hash = "dac93d7598b95a6a2c8b334f98078c77d22e29a85b4f73573591bcda65406636"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dlclark/regexp2/v2/@v/v2.13.0.mod"
+hash = "369b6fa60dfc57254cc1baee2becffe594ec1b4ec4f63f46a3c714fb1e2eb107"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dlclark/regexp2/v2/@v/v2.13.0.zip"
+hash = "24e34b3f6bca1a99195808c443b41b184139a5187d4b8a6f30e96e00a87526b1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/compress/@v/v0.0.2-0.20230904184137-39efe44ab707.mod"
+hash = "1e93ee12b35fefe8156bacc3e39931303ecdec8739edd4414db0e51e9a063f35"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/compress/@v/v0.0.2-0.20230904184137-39efe44ab707.zip"
+hash = "bc6111029c5b2a663b69e6d622d1082ccaf114b31162ea046681c2e4b689ee43"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/golib/@v/v0.0.0-20171103203638-1ea166775780.mod"
+hash = "3b5266f69965a715f27de5d5e34da0ff809eb54a2ae6d7f5453d064d5a3dd5df"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/golib/@v/v0.0.0-20171103203638-1ea166775780.zip"
+hash = "e259ca856b65e3f893c5fc83739f7001f91e082b0e0f77e470149273f9e941d5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.1.0.mod"
+hash = "73ef52590e41200a113c6f8fbffd10cc5eb90dc0dc11d79bc5d46d85bddf9c0d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.1.0.zip"
+hash = "b87af6613bff30e9b4f7e7b8e740eabcd921dee3bf0bda563af2278e1be9aaed"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dustin/gojson/@v/v0.0.0-20160307161227-2e71ec9dd5ad.mod"
+hash = "1c7f8dba2b6888928860c440198a26424a6d79ee0578bdb7d02212ab24232006"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/dustin/gojson/@v/v0.0.0-20160307161227-2e71ec9dd5ad.zip"
+hash = "64b29c12029f6dcab248aff029982f5b7d9164e28bad3e8c30faf9abcc51eeb8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.11.1.mod"
+hash = "b63c9137b0c2608c4cd43a0234cbaeb777bc0d43a29744f2058c1da82b6d358e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.11.1.zip"
+hash = "f314003767757fd3c150029496aedbae2592b2d85b0e76db0f907f77f0170f26"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/editorconfig-checker/editorconfig-checker/v4/@v/v4.0.2.mod"
+hash = "4c073a7bb2bb83b0b92a1bfcfe4193cf013a7698e70ad6424fc674c6ea0c1bb4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/editorconfig-checker/editorconfig-checker/v4/@v/v4.0.2.zip"
+hash = "10d942905c7067b09b540d8831d9f498a15bb89dd8fca1e40ed8171bb1add2ca"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/editorconfig/editorconfig-core-go/v2/@v/v2.6.4.mod"
+hash = "add1d7f517ed436c9b8e74ed880510ed06d0866b18bd85ce104eac1b7bcf32fa"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/editorconfig/editorconfig-core-go/v2/@v/v2.6.4.zip"
+hash = "04b3446fd5ab943060f66509d6765dd8121b49d67b3adc66ed907f1ec97a69f0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/elazarl/goproxy/@v/v1.7.2.mod"
+hash = "1862636116cca09c0031cf8c6c45add2d8b9fe38eeeb43f9363bca7438fa3439"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/elazarl/goproxy/@v/v1.7.2.zip"
+hash = "5459c32a441fe243c3129654d55632421a3068050df1bef70f133c46ed706532"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/emirpasic/gods/@v/v1.18.1.mod"
+hash = "0e157c7ef1975139b752696ba9058a5e96f51fc828e1e72a0942b1900652ce8e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/emirpasic/gods/@v/v1.18.1.zip"
+hash = "1d75e291ac15cf9ca2fcd8bd24e2f7203abad319cd3622cd1b19db5c4fb9daa5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.35.0.mod"
+hash = "5b0c89579891da6c1eb2f32317a12048025f0b03e97d0c9cd7f98d7d86d12dfb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.35.0.zip"
+hash = "e9fa9b000b19989956d0c16b93c461f88138316d1c5d384d00b250c30c462519"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/protoc-gen-validate/@v/v1.2.1.mod"
+hash = "c639d0b78633862b3b78f90e77ee5c322b57aa461248e0149f864678e1153317"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/protoc-gen-validate/@v/v1.2.1.zip"
+hash = "ad9d2639aff17db6be291069c5463c46ed8ac37a0c6c1b57fae5465c5effb567"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/ergochat/readline/@v/v0.1.3.mod"
+hash = "b6b48db3d2fc0bb76e97ad07fedf398b1a01222f956a2aa1efa1a61a8fa725b2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/ergochat/readline/@v/v0.1.3.zip"
+hash = "76d4c820cf08826f351fa2c45f63a44e365430a52150efd9980e25ad38077355"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/erikgeiser/coninput/@v/v0.0.0-20211004153227-1c3628e74d0f.mod"
+hash = "48c6ce643a4c56e550e8d5735fba0776b460d9cfb83e80d17a5a500573b9692f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/erikgeiser/coninput/@v/v0.0.0-20211004153227-1c3628e74d0f.zip"
+hash = "bd7f9a62374dc4d111863491729763a0eafcdc440d4a6ebead61d3af4a2c3f2f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/expr-lang/expr/@v/v1.17.8.mod"
+hash = "257ec8bf588caa33dc310e26ee1c6763759ad3b7fc0a9da8e6efa43da847b558"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/expr-lang/expr/@v/v1.17.8.zip"
+hash = "82210321f9078349af5dbf774e2a2d9f4aabe79db23a3124034722cdc632cd80"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.19.0.mod"
+hash = "fea48cc3b2ed755595426699c1af8023cb61cb0fb1a477bafc78ca10750f6871"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.19.0.zip"
+hash = "694b4265dc678e2a65b196371d5a6ec4eed3739f12a16021dcd2f0c1355d0ec6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/fatih/semgroup/@v/v1.3.0.mod"
+hash = "16c2965eb56bb6113a6d1d1e858162a1fdc557902eb48369684c98a0e86b0018"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/fatih/semgroup/@v/v1.3.0.zip"
+hash = "40ac6f733c63e267f4a4b98f79b8098b8cf1c04f02be6afdcc7acc1b75b9c232"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.0.4.mod"
+hash = "3d0a6d397b775e49388eb75e7903691058d7a8cb7ce4f11637a876f387115bb9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.0.4.zip"
+hash = "75aa471311265e9860df0e523400b4650ed0c1a33262786a421f07226792e494"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/frankban/quicktest/@v/v1.14.6.mod"
+hash = "68b2ad84a2273d23bac4a5741775a3fa594a07d2a71f80e847a7d63c53a5bd9f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/frankban/quicktest/@v/v1.14.6.zip"
+hash = "8c7377023523780b2a6508f3c06bd3bbefd3dda064533ad6ff6724986234988d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.10.1.mod"
+hash = "7f66141649a948423ba88d648bf44b111bdf72f556cd55d01dea8a50fcbe287f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.10.1.zip"
+hash = "b2c6a334e0d518da2e046066bdd9da34cb26bad6df9f17701802d3de522ab016"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gabriel-vasile/mimetype/@v/v1.4.15.mod"
+hash = "f40af104c0b75b00988c788128ae3ad1aa253c832a8ab59920df42542e6e7793"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gabriel-vasile/mimetype/@v/v1.4.15.zip"
+hash = "33ca0896cfdc7e0b412d7b676ed461428b28a952f86170cea545e112a5e86ef1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/encoding/@v/v1.0.1.mod"
+hash = "67621ac302247c0bc8fa24bbf137210836e0c06d67c4116c8c8f981e163d0043"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/encoding/@v/v1.0.1.zip"
+hash = "e584303c743306ae55be21a5703900d0628aa2ef840ce49d5f0bbf7c51379e33"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/tcell/v3/@v/v3.5.0.mod"
+hash = "be8e73e20c84421ca750dec2e18ee9578b42509c1299ff9fd8cb5c654aeca1e6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/tcell/v3/@v/v3.5.0.zip"
+hash = "088d4d6c6503da1e61a53c199324e0e97ffba5a831117f3c4dcf5d9bb85997b9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gen2brain/shm/@v/v0.1.1.mod"
+hash = "32f18e145541c48e4d41a908104eaae8f53c9e5d3a89ce593dc5c6565be0c146"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gen2brain/shm/@v/v0.1.1.zip"
+hash = "577aef55feba0a305308af4d00eed95e6cc09073ab0974faf08b90e9685dd461"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gitleaks/go-gitdiff/@v/v0.9.1.mod"
+hash = "0de679d2bc48ae91ea2f197f43a5c03a97a6bd570f1cc9c7e347492be8e02c03"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gitleaks/go-gitdiff/@v/v0.9.1.zip"
+hash = "8b6369317c580540df0504ebce72a5f0347e1ed34e0d9e08601884ecf2cb61ba"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gkampitakis/ciinfo/@v/v0.3.4.mod"
+hash = "73116a39667482a07842a367d597bb0c5934e603513e2701c02461d8f76a49ef"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gkampitakis/ciinfo/@v/v0.3.4.zip"
+hash = "d72810038e35518d5558e69d4f06a054cb3be66af456d0f2ef07b9262b7276e9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gkampitakis/go-snaps/@v/v0.5.23.mod"
+hash = "d4952a262a168ccc9629b5e150c57d140e7edbb09f654f1e6f2b60021556a8e7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gkampitakis/go-snaps/@v/v0.5.23.zip"
+hash = "11fcf55d1ba9f0f931350b13776ded4e87a80023f3c6eab97a3222c4ead36681"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gliderlabs/ssh/@v/v0.3.8.mod"
+hash = "344dc4650ea5bcf7ecdde32c836a00ffaaa20be80b2cf6f048f918373236ee87"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gliderlabs/ssh/@v/v0.3.8.zip"
+hash = "3e9697b8a4c4aff1916002ed8cd2da5b9f356fadf8b230af094c9bf0c5d238f6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-git/gcfg/@v/v1.5.1-0.20230307220236-3a3c6141e376.mod"
+hash = "2f4d530de5e356bc1bf1510110d9ca0406d323b6cb941978e1dd7311d418ba8f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-git/gcfg/@v/v1.5.1-0.20230307220236-3a3c6141e376.zip"
+hash = "4cd67689e108cfd654591c4a7f693ac5110634a73dabc12686fb07854556c480"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-git/go-billy/v5/@v/v5.9.2.mod"
+hash = "ca36abc546e8898d5bf3fc5eda190d6f3da852e88c66ec90406bd0cd51c84691"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-git/go-billy/v5/@v/v5.9.2.zip"
+hash = "9974a305102f61aca7626622e24d9dbe307d7b62c1e690be648af326c1f274af"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-git/go-git-fixtures/v4/@v/v4.3.2-0.20231010084843-55a94097c399.mod"
+hash = "0bdc42811cb65370a30e67ccdaece7d5db61dd35a6dc8273c0f515432f974247"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-git/go-git-fixtures/v4/@v/v4.3.2-0.20231010084843-55a94097c399.zip"
+hash = "50918111651335001cd5837ba71283647baab911842a20d233381148752100c2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-git/go-git/v5/@v/v5.19.3.mod"
+hash = "a311444e53edee7d44ab3d0ebb5d16c1bad89ee8e8d4e51cbd9d98fc8b0b03d3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-git/go-git/v5/@v/v5.19.3.zip"
+hash = "7c4113f00a23f361a6e8b5063f981f09a981686e374271ab6dd5a613ee4fe763"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.3.mod"
+hash = "e069e6002d29495b8c2dc6cf0d3b56a075ec5be7abb6c2eb1a1c0845cb66b8b3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.3.zip"
+hash = "ec019b110f6cdc3f55f067f52573be4474d5051b9b7c7fc11eb846b13c56beb4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.3.mod"
+hash = "c496f30d700f02b49a1b50bc2486a27c2f74df3dce75d9db6d2d43975b381727"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.3.zip"
+hash = "523d7a3587fe73f61ef41c8bc627f7d7f38de8104d46278154b307e60770ad70"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.mod"
+hash = "0812160f77474d8dbf692b7caaee7fd5508448c705d9b54b5a3496ac44468c2c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.zip"
+hash = "9dd6893bf700198485ae699640b49bc1efbc6c73b37cb5792a0476e1fd8f7fef"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-quicktest/qt/@v/v1.102.0.mod"
+hash = "2f9fe3cadcc7baeeee7068510a4ae02486bd3807b222113e8711e81b14a5ad65"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-quicktest/qt/@v/v1.102.0.zip"
+hash = "cbcd567d482081f6379d844c6a75137f2bf9a89defd06046659951ca03a44134"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-sprout/sprout/@v/v1.1.2.mod"
+hash = "699d33fc0cb5b72efbe2fa24af2a30eb329aa9c9215bb7ff8a101cb5a3984bb2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-sprout/sprout/@v/v1.1.2.zip"
+hash = "88449ab83de88abe2fcb00144be135258e056ea387ff11d316bbf84de11b1ffc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-viper/mapstructure/v2/@v/v2.5.0.mod"
+hash = "5393fe364f1a200c6a84ee2c7bf727f02c9e0b1f844ca13b188ca925f4718b08"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/go-viper/mapstructure/v2/@v/v2.5.0.zip"
+hash = "326f8e00f648af4ae8e6e18c606325e4206a92d6ed42f486dc2f4da8e1897547"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gobwas/glob/@v/v1.1.0.mod"
+hash = "3e8e591074657af3bad34b51b6c345049c390643cbd0aff911f07f5cd2d9d756"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gobwas/glob/@v/v1.1.0.zip"
+hash = "64b6adb1ee7fc22b74fa1d132e4c57f5bd3730f77948b174fe5f51e60394dd88"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/goccy/go-yaml/@v/v1.19.2.mod"
+hash = "8bfcd303c773142077b4e9bf26b891a8bfbf9f31d8fcb75cbcfab6ea731545a7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/goccy/go-yaml/@v/v1.19.2.zip"
+hash = "9ea8b466385c1ecf61fa55b68e409ea048b3d7fb1178eba66c1e24a7a30dfffb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/godbus/dbus/v5/@v/v5.2.4.mod"
+hash = "d008ac84f404c6fbc7a1f378099dd21794843d10d6cdc129cfc403d39656f5a6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/godbus/dbus/v5/@v/v5.2.4.zip"
+hash = "2a3a2996c274cbb735aa7f634dbcc0b292c0dff154447896d3a95955d078fb83"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gokyle/twofactor/@v/v1.0.1.mod"
+hash = "3cde43ffd93ff5f03e9d71029865febc4823e798d87c711e00466d8b4278fcdb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gokyle/twofactor/@v/v1.0.1.zip"
+hash = "c64b11f037cf728bdbda8a1a18bd959a48cbe48729cf5596d3c6dee79a0c4981"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.3.1.mod"
+hash = "ce98fa479154259db056ded8254a6ae9c66f2b42e613e76ba0f026699b5e542f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.3.1.zip"
+hash = "5c9a74494e2bc746cee56558b5473252af5767f7ea4044caa9ea0fa2a056fec7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/golang/groupcache/@v/v0.0.0-20241129210726-2c02b8208cf8.mod"
+hash = "4e019acbe58a7af43d2316b6f825797636072cb48c31ea6ff7aae7d75ad51a89"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/golang/groupcache/@v/v0.0.0-20241129210726-2c02b8208cf8.zip"
+hash = "163367355442a630b12b0b452892cd98e99fcfdf7e40b68d358be73479cc1c23"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/golang/mock/@v/v1.6.0.mod"
+hash = "bfb6a97ee76c72a56da2e8ac5dfd926166f793dfeafbbfb80cb33e6a060301a8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/golang/mock/@v/v1.6.0.zip"
+hash = "fa25916b546f90da49418f436e3a61e4c5dae898cf3c82b0007b5a6fab74261b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.mod"
+hash = "c5f873c621cfaaf563f8b66a0501a5be14390cb0859e5187ce616d0312a6c8f8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.zip"
+hash = "9a2f43d3eac8ceda506ebbeb4f229254b87235ce90346692a0e233614182190b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/capslock/@v/v0.3.4.mod"
+hash = "59aa4a7fa221ccedfa04d7d13bffd40a7c2cfb58dde809cfc535fa525f45375c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/capslock/@v/v0.3.4.zip"
+hash = "795a3d84494d128c1cd58b094d8ad1500f5d2d7e9dec7661c9e02e47f9eeb78c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmdtest/@v/v0.4.0.mod"
+hash = "601082c1eff896cd4627c3c23d156b583fbce42461e5484734b6467b964eb64d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmdtest/@v/v0.4.0.zip"
+hash = "e7509b9f75fbad5b2393fecfe97b0ee35b817f62ecff711a1f4ff117c67a90c6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.3.0.mod"
+hash = "81df7917c225a9da7604b230d952fa278c60a8832c10d799385d134b05d5b087"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.5.5.mod"
+hash = "4036ab5636aa42bd313296cd3bfcb4c88912760c56a9e6655ae422d8767c80da"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.6.0.mod"
+hash = "e7c7669d4a1dd589ba3e024ba27f43f293db611fe075ce20d7b884370d63febd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.mod"
+hash = "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip"
+hash = "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-github/v61/@v/v61.0.0.mod"
+hash = "a2af98b5746fc3623171768200127a5f63dc3f4225d9fa021f070c6d3bb1404f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-github/v61/@v/v61.0.0.zip"
+hash = "81c8199e9fae06865d65a50545ddb45a4877c33809a701da839c3a558120f62c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-github/v72/@v/v72.0.0.mod"
+hash = "0a6b637d9ae262f2b234689603f9f8f63a4fa623b523588dd6c8c926e026b729"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-github/v72/@v/v72.0.0.zip"
+hash = "70a5ebe23f7b5112b3cd3a54ac2acc78eb9bb64d902073a607f57b2e2fef5c6c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-querystring/@v/v1.2.0.mod"
+hash = "13dacd2a2f20dc65fbf9f795ce21fb1d09ccb68920034dd99ba6f72f9e3e77d7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/go-querystring/@v/v1.2.0.zip"
+hash = "57b7ce2b82b33c68f59a224c6dd1305753e5ee3eecbefd09d43423a14f541e31"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/renameio/@v/v0.1.0.mod"
+hash = "ba9b5eb0878008a891e16b08c17922b03f92c76a03e7bfe1832635eada1c1a35"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/renameio/@v/v0.1.0.zip"
+hash = "b8510bb34078691a20b8e4902d371afe0eb171b2daf953f67cb3960d1926ccf3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/renameio/v2/@v/v2.0.2.mod"
+hash = "25cd9ce5db36440be86b35725d325199cc5606329c02ae91d063d362753aa2c0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/renameio/v2/@v/v2.0.2.zip"
+hash = "4ea1f7ec938cc2206827f129f40ed9a266f4df30198fcff08de07da4b72276cb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/s2a-go/@v/v0.1.9.mod"
+hash = "47d4257200a74c3210f4bf07264f3a27eb39817ff01e24d92cc069dfb421325b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/s2a-go/@v/v0.1.9.zip"
+hash = "bf8f4b159d3fc201477822ed2514e4f05f58c764b78ffed73ec0accce5fb7f07"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/shlex/@v/v0.0.0-20191202100458-e7afc7fbc510.mod"
+hash = "84c69808d21bc6848e1ad78d6b64965433b5baaba665548338b7daa39faa70be"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/shlex/@v/v0.0.0-20191202100458-e7afc7fbc510.zip"
+hash = "1bf70bdb4c889b47b1976370832da79060c36cad282f278f279603200623775c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.mod"
+hash = "73da47b6338b00a082fd451aa35a3273d3adc09b8e9bba98dab01091e402af6e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.zip"
+hash = "d0f02f377217f42702e259684e06441edbf5140dddcc34ba9bea56038b38a6ed"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/enterprise-certificate-proxy/@v/v0.3.7.mod"
+hash = "bf9bd1baeff172cae0cc8043b40ef7153ec98686d73e1cabeedb289d6c049ffa"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/enterprise-certificate-proxy/@v/v0.3.7.zip"
+hash = "b19a86dce95102b203b87de561be26137ba54aa12dde2adb39075f0e267d391c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/gax-go/v2/@v/v2.16.0.mod"
+hash = "b5406781e0d601ab579f7ca86be3d799992beed366ab312284abf5c06d7d75a1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/gax-go/v2/@v/v2.16.0.zip"
+hash = "10871c123a6572c86013e2dd33f5eeace096fa9e4e915442f3d8f94d89b12c02"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gopasspw/clipboard/@v/v0.0.5.mod"
+hash = "bc5096d30c53c9961112d46df799de0722fa512385509dd9705ca6ff2b339f50"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gopasspw/clipboard/@v/v0.0.5.zip"
+hash = "7f66059fff22483b444f02c45fda33e10ce2d09d65d5784cf6342da377d775e7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gopasspw/gitconfig/@v/v0.0.5.mod"
+hash = "d2fd16312a3fecfa38cdd26367565cb86e73935b37c51b2947edd77b093f788d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gopasspw/gitconfig/@v/v0.0.5.zip"
+hash = "9e219f89438ec772d68b9799c25bcd21367c09ba1de93348c357e86889c91b6d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gopasspw/gopass/@v/v1.17.4.mod"
+hash = "59da7fefc1b8d8d9dec2e804b5e2d5e045f316a5840002e4637a1d802a7d075a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gopasspw/gopass/@v/v1.17.4.zip"
+hash = "cd1bcef4f81756d672891a7821359142b78e920edbe2ea5717d95700a35fc1d4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gopherjs/gopherjs/@v/v1.17.2.mod"
+hash = "7a0b1313493d34829e52e976bd787069c20d0a62fcd45a758565332c2ac7308e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gopherjs/gopherjs/@v/v1.17.2.zip"
+hash = "10a579f358ed01b90d8efa08878e7068b91bef929929f7c3532ffad3e20b7e67"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/css/@v/v1.0.1.mod"
+hash = "c8ebcaf74e2ef78530fbe2f63aeedd6bd6ba8845f4b3537f77ea55c0fda0f55c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/css/@v/v1.0.1.zip"
+hash = "870531962ce9787f8dfa2d7a5476be66e08a133c6c75155b20c551e7ac5bc25c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/h2non/filetype/@v/v1.1.3.mod"
+hash = "822e086ea76ccf0b88395458eac8ab5abed21dd63599df82d3d46d6898beba48"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/h2non/filetype/@v/v1.1.3.zip"
+hash = "7ed1f569442848fb3f6bc43592da0b14797057cd60a0c9833ceb15ddb8c118e9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-version/@v/v1.9.0.mod"
+hash = "eaae97e899a62e9c8e02ac5d173c3ab6834385fc18ef89b6dcbdf6986bab3ed1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-version/@v/v1.9.0.zip"
+hash = "b6c05489bf11a28c81cf38119782284c859d6c2d193b811d3f0117592eb31fcb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.7.mod"
+hash = "c6b886c0242ffeac92b6b6aecf1123bc63c86faee81b16fff3a13273e50f6824"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.7.zip"
+hash = "2eb92ff13970bccd460efae14255bfc03bb51474da0137e477a60f95561acc30"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/hexops/gotextdiff/@v/v1.0.3.mod"
+hash = "a947dd8b78793dd398ea20adee1f7d33ccf2767dbf8ee6b3cd77b71f19e6fb9b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/hexops/gotextdiff/@v/v1.0.3.zip"
+hash = "a10c3942f09bc5132268d22d4bb9d0c1849122d533fe8cdf65ea69da05cebbaf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/huandu/xstrings/@v/v1.6.3.mod"
+hash = "33c7a6cfa483a6d2c3da52bf870469c716fe5948bbc3177868c726e7d73bba00"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/huandu/xstrings/@v/v1.6.3.zip"
+hash = "fc2bef8b05016d0a639f858937e9c100e9b03c587d37b22fe84ec595e5a3a8f6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.mod"
+hash = "1c1b15911aa8a0bd5cd0f6670ec23d1086496f3615fdf53306aff2b476ce9be1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.zip"
+hash = "526674de624d7db108cfe7653ef110ccdfd97bc85026254224815567928ed243"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/itchyny/go-yaml/@v/v0.0.0-20261030110000-18a91f8189a6.mod"
+hash = "dbd78d5cac235cf27a9c90c39a5f460409c76fde9aeac55d0cbf883234bc8e87"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/itchyny/go-yaml/@v/v0.0.0-20261030110000-18a91f8189a6.zip"
+hash = "7a4cf0a9e27611c2a0190567f73ad75478071e2bf005080c6457ffde811051b4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/itchyny/gojq/@v/v0.12.20.mod"
+hash = "faf173abf8c2ca0481fe7ffbe38927fefcdd428b3f5b676b838d2b7d37b0d0b9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/itchyny/gojq/@v/v0.12.20.zip"
+hash = "17848fe14e7f76305472fb1a3c51f0c06786ee8e540b8315c93e5f19d2d9ad22"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/itchyny/timefmt-go/@v/v0.1.9.mod"
+hash = "b8087605b92c03c9ccf3e73e7d21fa9b039c46beb4b866b41fee784055e31c96"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/itchyny/timefmt-go/@v/v0.1.9.zip"
+hash = "c26a71d8ce908a6014514ba2acb338d828540aa38bea207f0d6e8b7ab5faf35e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jbenet/go-context/@v/v0.0.0-20150711004518-d14ea06fba99.mod"
+hash = "e3ef3b37b30a0e4322bb36d30769363a0d43bf462ccdda464fa63862d1694f97"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jbenet/go-context/@v/v0.0.0-20150711004518-d14ea06fba99.zip"
+hash = "4cd0955abeea43dc4b5a08b8769e696109e0376f2a113a9b8eff13cc90cac1c7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jessevdk/go-flags/@v/v1.4.0.mod"
+hash = "9fff48f350dbc6bb066594e94496defa195e8b55206d261ca5b2f989f6782a2d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jessevdk/go-flags/@v/v1.4.0.zip"
+hash = "a26e72c3f4c220df8b65ac6eb3d358a8ad2efc300b212318582893ea882726f9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jezek/xgb/@v/v1.1.1.mod"
+hash = "ac32ba24dc0db84def00c4ac165e3cfa57022de7009dc82371e884d4b7a2d7d6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jezek/xgb/@v/v1.1.1.zip"
+hash = "30eff002b2bde97fd19540fe91734f0f3b80ce10cfb2c049a51ece409b337aeb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/josephspurrier/goversioninfo/@v/v1.7.0.mod"
+hash = "d9b53badba01479688b78f3318c5a6dc931e9c9300cb74ab5c0da7a3eac67c2c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/josephspurrier/goversioninfo/@v/v1.7.0.zip"
+hash = "fbd5f0441b698eab2541842cf43d7737804cc70f6d720a3aa9775947466430ae"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jsimonetti/pwscheme/@v/v0.0.0-20220922140336-67a4d090f150.mod"
+hash = "0a3ce1dbb7b3bd2ac71e090d9b9ac874981f38753518577b11b10045dc9fe0d5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jsimonetti/pwscheme/@v/v0.0.0-20220922140336-67a4d090f150.zip"
+hash = "a43f279119a4563ad42fd90494b6eb2e304b8cd4512dd921185bda40afebab6d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jtolds/gls/@v/v4.20.0+incompatible.mod"
+hash = "36d5a8f7e885fc4a9afc85264f4601186c26ba2396777d523524457ace9f0936"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jtolds/gls/@v/v4.20.0+incompatible.zip"
+hash = "2f51f8cb610e846dc4bd9b3c0fbf6bebab24bb06d866db7804e123a61b0bd9ec"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jwalton/gchalk/@v/v1.3.0.mod"
+hash = "4dd0b048a655d51fad84f20d02c5a34381dcf7a2113af1e789490853063f2c14"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jwalton/gchalk/@v/v1.3.0.zip"
+hash = "b6a156254540c8ce0124464d1ae3e1b919c01419321b8fa5a26777327641c4c2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jwalton/go-supportscolor/@v/v1.2.0.mod"
+hash = "4501efba8513c3fc13c9f29df40e4a6239ed1c0f1f74407b47feeeab9a23dccd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/jwalton/go-supportscolor/@v/v1.2.0.zip"
+hash = "cb971fc9496e6f0d9b8698aa0cada8c02a1e3f2b81af90a91dc3471a6e6d9204"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kballard/go-shellquote/@v/v0.0.0-20180428030007-95032a82bc51.mod"
+hash = "49a2d6c73f667dc0f46322a0d6acfcba14209bfb76ef7e622d61e1091962ff34"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kballard/go-shellquote/@v/v0.0.0-20180428030007-95032a82bc51.zip"
+hash = "ae4cb7b097dc4eb0c248dff00ed3bbf0f36984c4162ad1d615266084e58bd6cc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kbinani/screenshot/@v/v0.0.0-20250624051815-089614a94018.mod"
+hash = "d69944c80672273a6bd1d42100caa4dbdb9aef88da1496220240c1bc0a5fb820"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kbinani/screenshot/@v/v0.0.0-20250624051815-089614a94018.zip"
+hash = "a53f8b45819c76b4970c452f519fe0646789de2feb04d2589c3172efc45eec27"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kevinburke/ssh_config/@v/v1.6.0.mod"
+hash = "2a786cf387e46473d733cc5f3036ec692b1e882edd2709d9589c32808ea09275"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kevinburke/ssh_config/@v/v1.6.0.zip"
+hash = "cb3e2a23c10382dac238ea51ed1162c75cb7e986532d1ce92a2051469ca24e44"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/keybase/go-keychain/@v/v0.0.1.mod"
+hash = "edf93d90bd575dcf3935df71f8f647c0f76e7c762e65e4746407e1b70ea31a92"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/keybase/go-keychain/@v/v0.0.1.zip"
+hash = "9514a68da08d39d60a47640bef049e44c829aab5dbbddd03d272e9252039a5c7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.20.4.mod"
+hash = "0d4e90d99acbc19eea5706e7390f8c925b26b1f5861385bb4f1321d454a1d48c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.20.4.zip"
+hash = "680860caaacbb74f2010f32e4eb81f14cdc597e8a4633c7316946ab7cca5895a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.4.1.mod"
+hash = "28a209d31984fd50b6724085eda0425f5d7b40de3b692bd98b296eac29fd1ed0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/@v/v1.2.0.mod"
+hash = "9b443b5b06355eca91f4e773a4df7d8a3bf0c9abad5ff472d6973e688e6a9392"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/@v/v1.2.0.zip"
+hash = "56ce63262455651063647600681afe3bf50c93a0a2274b8115d6886a9a0df4fc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.4.2.mod"
+hash = "4bd71f7c099dbf6aa86987c62ab49004366200ace82b8cf557694ccb3ddbed2d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.4.2.zip"
+hash = "4cd77a9cc99022734e2efdaaab8c1b6459c55490d75b954dc4d2560f50b178a3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/pgzip/@v/v1.3.0.mod"
+hash = "e973345fbfbef2c9d201ad3bc83adc4704e72c8c535f009282bb4cc53f331efd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/pgzip/@v/v1.3.0.zip"
+hash = "e443bc66e64394fdd9f64b55d33e58f1571733150b05c295e83203485b8a2040"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.1.0.mod"
+hash = "e3d5d46d2f6ac94a666a54b5e867ec16bf199d9f4b700827cd731607efdd109a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.mod"
+hash = "84f3e40803b1ebd4a802e55794b9997df0b173c4809e8572ff9042ec558ca1bc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.zip"
+hash = "ecf5a4af24826c3ad758ce06410ca08e2d58e4d95053be3b9dde2e14852c0cdc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kr/pty/@v/v1.1.1.mod"
+hash = "6da4c9c7364446894e5ef877e19f985cd51d671ce6e8f4ca87862b449f6dd7f6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kr/pty/@v/v1.1.1.zip"
+hash = "10474d7a875cbd2b9d74c9bb8fb99264b7863f204c7610607797ff18d580bf00"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.1.0.mod"
+hash = "2fba9529e5c13dde62f371ef7383baf04d7132501dac6aa08e910f9ec0bf85c5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.mod"
+hash = "f63879b204f6ce895cea53594b814f5ac0af08486b33b1ca79c657384efbc726"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.zip"
+hash = "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod"
+hash = "1605871e895331a39f5952559ebbc91228d86b8100354f857b562866eca5bb13"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.zip"
+hash = "dbbd0ce8c2f4932bb03704d73026b21af12bd68d5b8f4798dbf10a487a2b6d13"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.4.1.mod"
+hash = "84f9c38e9884ab013c837cb16aee139500d3d5c6ccab02439881db2ecf28f660"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.4.1.zip"
+hash = "399a71ecf3e3aaa0af96a779f1c106688b095dbfd0a85455a7c706d3d7ff9ebd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/lucasjones/reggen/@v/v0.0.0-20200904144131-37ba4fa293bb.mod"
+hash = "37dcc6ff8e717b34103a25d03d6c5ff2061ae9f81f70b22a86ba4cd16aa35301"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/lucasjones/reggen/@v/v0.0.0-20200904144131-37ba4fa293bb.zip"
+hash = "ca096b9b8a4595e87f2f8aca3bee823295ce2a809980bcd3ab31fff704486cf4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/lxn/win/@v/v0.0.0-20210218163916-a377121e959e.mod"
+hash = "cce9a9db3d3a626572a705cc1de26b325f129ea8ff3c75c5d4199036c52999b3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/lxn/win/@v/v0.0.0-20210218163916-a377121e959e.zip"
+hash = "1a48535cd1b61b93cf8ed609d3f2a6d0f683b10fefeb3f35d86527aaa85d1501"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/makiuchi-d/gozxing/@v/v0.1.1.mod"
+hash = "8bf7ea09ecd81a6b2755ae344109e6555f40c2dc6363064b61b4757d9f7ae0fc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/makiuchi-d/gozxing/@v/v0.1.1.zip"
+hash = "2889dc9829e8158174cb3dabcc7291ce7d5db01cb3d318e06ff9ea85e2f97e2b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/martinhoefling/goxkcdpwgen/@v/v0.1.2-0.20231122080842-e51aa57005ca.mod"
+hash = "6acec7e3b214474314f491141c8f13c410b23e2136cc4fe2a92916d311373830"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/martinhoefling/goxkcdpwgen/@v/v0.1.2-0.20231122080842-e51aa57005ca.zip"
+hash = "069f3b54a4b24eaadf52f33aa436fc961a9a4d8b1542c57ef2bfc7d1518142b2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/maruel/natural/@v/v1.3.0.mod"
+hash = "da971df8265df5c39d599b32e5d5b516dbd4a7a7eb423c9f36f0240caad9f246"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/maruel/natural/@v/v1.3.0.zip"
+hash = "2abea434a97d45807d30b11dcd39cf8daedde137aed4181f83abc33b52454c48"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.16.mod"
+hash = "c199aee551968c8290b917524e0b232a862790a4831b0ed4cb43687e8c08aa18"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.16.zip"
+hash = "1b43236db9dc34e69edf02373e3ba86c058cc34c672f3e3610425cadcf6efd57"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.24.mod"
+hash = "41b885f68c2fa4dfb26a8ffa30d095a931b27699b6b2b1974af3949400dc060f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.24.zip"
+hash = "4fcffec0bae0ad4af7bf96e2497a817d85de64af19ffe31d82bda362148234b8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-localereader/@v/v0.0.1.mod"
+hash = "f7e77590fe4e1f139df43931a85df4205026ea7110d9e0428c11653030fa5f64"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-localereader/@v/v0.0.1.zip"
+hash = "aa67306797b071ce93188fe2834f63ffd7963faf623d49229d891ef52e595b35"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.12.mod"
+hash = "4136aaa23fcb3176a292822f2a8a98ccc7b2fde38a59922c152b006f59d59695"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.31.mod"
+hash = "9091c793e255036ba8ced617fa3225972a745eaee5cad4cf264c1576e5c1347e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.31.zip"
+hash = "96e004d61b6755f0190ae250c3ce8aa2d2e73968d0b31236f4dc54477d65bc00"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-shellwords/@v/v1.0.12.mod"
+hash = "29bfff16ff57b7dada64e6a74806d931549acce61cb70c458a389d099c2d0ec2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-shellwords/@v/v1.0.12.zip"
+hash = "6d35c3edc92e47a06988788d683c1ad389719b55ef19d5a7f239ab4708b6da11"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-tty/@v/v0.0.8.mod"
+hash = "6884f964e99a630a218e7b0d0f78ff212f3dbf563b6410ace745d21436951ce8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-tty/@v/v0.0.8.zip"
+hash = "d2b533e9e100ffccc4a37bef34158ac7abcbcea6c020225e4c29b4063a7dfcb3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mholt/archives/@v/v0.1.6-0.20260429171216-ef71b7a32fae.mod"
+hash = "663400eaf160e30ae87b6532926f7300c6989741cedefef9f5189d494045be19"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mholt/archives/@v/v0.1.6-0.20260429171216-ef71b7a32fae.zip"
+hash = "a19a5d34cbcc1140ef7eb07dc4fc7919219d905d29c8c093d4b5e3de4d049952"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/microcosm-cc/bluemonday/@v/v1.0.27.mod"
+hash = "4e042dd3e15e847f65e8fabbd3601cfc063a58e840605f82fff22e908307c8e0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/microcosm-cc/bluemonday/@v/v1.0.27.zip"
+hash = "dbbc62b06600331e29a4d453b8b3e95b1ba48e50baddfd981a3825f8d0043011"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mikelolasagasti/xz/@v/v1.0.1.mod"
+hash = "59a7bed4a09e3c11ca0f08d2490a52fc145f542120a802d1c47fd4cce8b3f947"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mikelolasagasti/xz/@v/v1.0.1.zip"
+hash = "a4672995fd823a9d6793bcb8de131739d629438fe787c99985c69cf8638da8d5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/minio/minlz/@v/v1.2.4.mod"
+hash = "3d6bb4a508f6675f995ca5006760d0d5ce74a8fa00b3d4a56da7ac1695186b14"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/minio/minlz/@v/v1.2.4.zip"
+hash = "eb64cb02cb7a647ff4b941f84eef487e30c35b92a38362c1c6eecd9c93c475ab"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/copystructure/@v/v1.2.0.mod"
+hash = "046f6180ae4fb25811c47c3b49f1f839d7ca83839641b6407e9f39b05e0c8bc3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/copystructure/@v/v1.2.0.zip"
+hash = "4a1ce1f3c66bf99883e55da50fe1b3122299b79ad1d11c5407abbd74ace12550"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-ps/@v/v1.0.0.mod"
+hash = "4c9cf17f3fdf28ca0f95c15e1bf976e3b5065bebec1e76a8052373f32a9846c4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-ps/@v/v1.0.0.zip"
+hash = "f2f0400b1d5e136419daed275c27a930b0f5447ac12bb8acd3ddbe39547b2834"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/reflectwalk/@v/v1.0.2.mod"
+hash = "7a5fefd3afb6a309c9c38b51a5448e01cdc9cff07be066e29d53609f3290f2bb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/reflectwalk/@v/v1.0.2.zip"
+hash = "c96eed6b50f00b1acdc79224e8e55f66ef3e98e3f7c6373afa3e3b8c6ef440d1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/montanaflynn/stats/@v/v0.7.0.mod"
+hash = "8d3ddfb92635e5fbc36f2c33e8e3d0d30633733c8071e7982754f96a7affa858"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/montanaflynn/stats/@v/v0.7.0.zip"
+hash = "661546beb7c49f92a2c798709323f5cb175251bc359c061e5933071679f9b2ef"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/ansi/@v/v0.0.0-20230316100256-276c6243b2f6.mod"
+hash = "2b1bf9e02f09e84b49a2a5e350911428530150f4c4fabf74da62114df33dbbc1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/ansi/@v/v0.0.0-20230316100256-276c6243b2f6.zip"
+hash = "59c0d420908d51df3c701510337fbe42bfb4d48fcc5f490b5eb2f36fc25f91b9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.2.mod"
+hash = "4343f36dcc06d4ce4e170190062b5d224ff5be831f742531ec27a3d709378fe1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.2.zip"
+hash = "f0654e7f8f8a49b02ff10a75ccaa0eb08a65aaacbc45f5ba93305276e2ac7f61"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/combinator/@v/v0.3.0.mod"
+hash = "7485bec904f1afc01123a9fb07264f155ca49f3f6ef469c5a3558b013114710d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/combinator/@v/v0.3.0.zip"
+hash = "e1e690a37d314a76fb20679251c4aa2eab1006b2d204ea2231904dbb0bbdec06"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/crunchy/@v/v0.4.0.mod"
+hash = "04b72dce09833ec09dc932c5d9919bd8496535df65e02d1cece57ecf182ea002"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/crunchy/@v/v0.4.0.zip"
+hash = "f51ce08b9e8dfcfaa4b34dfbde27bf0bd094b6f7f56a28fe163b7a7e596f0a07"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.mod"
+hash = "f193cfd78694efff82f6226c1252ca9d1826dd6dd2c2662422be4c4de2cdb739"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.zip"
+hash = "78e2cebf5a46a9b7c7c52d55d4ac4650cabd9135f180092e3f476293bb86696e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/termenv/@v/v0.16.0.mod"
+hash = "07581751f5b61fdae253960c3992898b64b6ad5573a69ba22ad249d7f0a889c1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/muesli/termenv/@v/v0.16.0.zip"
+hash = "ba02d3ebd9c1d87e2c2133b1f2bb61a7001b3765196e8016029ce9fe54c5c0fc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/noborus/guesswidth/@v/v0.5.0.mod"
+hash = "44a6a7a7d3b1a94c147799c08baa59f3b5bf341bca0bc4df2962237a34353a6f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/noborus/guesswidth/@v/v0.5.0.zip"
+hash = "9068a0a12eabc8adbddd87b828abf201976cb969113d6dd749c38bda150afcf1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/noborus/ov/@v/v0.55.0.mod"
+hash = "e9b8a43746d1fd5c5bd55514520e0eef80dfebf4a68b22accc5418e14e83ab02"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/noborus/ov/@v/v0.55.0.zip"
+hash = "6f9d3491ecff9905d64133dfb0e73cae3831a05f09bfe2a9c9cd247a827d071c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/noborus/tcellansi/@v/v0.4.1.mod"
+hash = "8fde86d37109892b8c25c19de653f9ad87353100c2fe266685bcb653ec26c529"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/noborus/tcellansi/@v/v0.4.1.zip"
+hash = "bdda39b0cd6594f207c9a6efd912bd48f75bfdf3080a748f80890d1da96147ae"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/nwaples/rardecode/v2/@v/v2.4.6.mod"
+hash = "2025852256195ee47898f50d558724951fc4c951e1760ee8ddf1a229ef9b5a58"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/nwaples/rardecode/v2/@v/v2.4.6.zip"
+hash = "898b8d480569923cf052ffaa597a57cff6d7fa5ea638e50195f74808c0414a0d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.34.1.mod"
+hash = "edcb61f4f4c068368e7b0512cecb1202a0ffd9225c3ce4d90d9a94b14969f846"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.34.1.zip"
+hash = "1ee4fadbf25a01e7fabba93aa88cbf6c4c79ac2d8a45a6017e3ea4f696d51993"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pelletier/go-toml/v2/@v/v2.4.3.mod"
+hash = "72b2ddd20583039d110a50147c63fd1e419a5c4acc1ba8f28881f1df4486abae"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pelletier/go-toml/v2/@v/v2.4.3.zip"
+hash = "bc0de16d4942df8503be13bde0447e0b7ce1694f3bb1b840f485ce839f8974cf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pete-woods/go-expect/@v/v0.1.4.mod"
+hash = "38040475b0aebeefa38d2d5d4af8787967164845ffbf503e706f5d5533c7b211"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pete-woods/go-expect/@v/v0.1.4.zip"
+hash = "85fa06e1efcfe78061e8ab897df40a8369334979744cb436815272fd1093d98e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pierrec/lz4/v4/@v/v4.1.33.mod"
+hash = "97f713e0687025bf51fccdb1ae3dd82fd41d2f9a286eb9e93d606b8ebccb76bf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pierrec/lz4/v4/@v/v4.1.33.zip"
+hash = "b848476e729bbdf587a80940fa84b45680a63052e6c021201baa38ee61275686"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pjbgf/sha1cd/@v/v0.7.0.mod"
+hash = "3eeda8551e3e293424ee4cc529d10432d06d7a68b77d90aa534f64ba54cc5454"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pjbgf/sha1cd/@v/v0.7.0.zip"
+hash = "5d641862b1f2ba4f19d99089a973663378dc446b1b42d6d381c5be8300fe5bd6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pkg/browser/@v/v0.0.0-20240102092130-5ac0b6a4141c.mod"
+hash = "6600c2386895b44c985cb3cfcabe72f09b259674995cf4b51628ca461575a1b2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pkg/browser/@v/v0.0.0-20240102092130-5ac0b6a4141c.zip"
+hash = "8524ae36d809564d1f218978593b5c565cf3ee8dccd035d66b336ad0c56e60d1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.8.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.zip"
+hash = "d4c36b8bcd0616290a3913215e0f53b931bd6e00670596f2960df1b44af2bd07"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pkoukk/tiktoken-go/@v/v0.1.8.mod"
+hash = "3e6a11d9d612267db4c02ae1a0f799f1a3072cf63ade3d4e6fbaafb105f7dfb4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pkoukk/tiktoken-go/@v/v0.1.8.zip"
+hash = "6e842885737399d35cdb475003c004d168c7433dd4680fcc5b78c640818a7063"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/planetscale/vtprotobuf/@v/v0.6.1-0.20240319094008-0393e58bdf10.mod"
+hash = "e94bb181f3ef78dec16609d3c2d276c75c5668694bdc97b72bac22c84528debb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/planetscale/vtprotobuf/@v/v0.6.1-0.20240319094008-0393e58bdf10.zip"
+hash = "6fdbac53c6ace58d732be8ec29c1aae928639eb12960cc4c52a9f7a25395ca05"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.zip"
+hash = "24ff45e356f638a53bd0c89fff961fbeaecfdb0dc5e482ceed0a2230e0e5f3b7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pquerna/otp/@v/v1.5.0.mod"
+hash = "b51ce08b68e09865ba30891031499605ca37921a36840e8fd323d2b1bf102eef"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/pquerna/otp/@v/v1.5.0.zip"
+hash = "9b28aa98d40a2d00fe4477d2468c933112ba1818782be349999ea98b5b44d885"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rhysd/actionlint/@v/v1.7.12.mod"
+hash = "858b82eb613822def66e73aefca4c97189cfea3a25706854be03b6737c818818"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rhysd/actionlint/@v/v1.7.12.zip"
+hash = "d954c3f877cc5b98a10852bbb642c49758948d9527f1b588a544b6309d336ec2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.1.0.mod"
+hash = "6c7318a27a8d5473a8eb661e75fb00528176e0efc59310ed277ca13bd12a53f1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.mod"
+hash = "6c7318a27a8d5473a8eb661e75fb00528176e0efc59310ed277ca13bd12a53f1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.mod"
+hash = "a1e174890fc9f252450211fadeb53756f9cf5ab7b19697765f9fb255f81ea898"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.zip"
+hash = "b995e4aa0cc1e5779cc61138ac925cb8c1e963e40c80e4b93ee8553812ebb792"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/robfig/cron/v3/@v/v3.0.1.mod"
+hash = "f895601ed42554966d2979f56420f655966b079254d92205b53828422298244f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/robfig/cron/v3/@v/v3.0.1.zip"
+hash = "ebe6454642220832a451b8cc50eae5f9150fd8d36b90b242a5de27676be86c70"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.16.0.mod"
+hash = "1ffa3f3c1d2ad9d40513af6610c21d52ae2839628679854df421212f6a29ec27"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.16.0.zip"
+hash = "02048d8a3aee2ad0f9bcde5ae6659a19b68c24483d2358cb2a5f0f41d42db5c6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rrethy/ahocorasick/@v/v1.0.0.mod"
+hash = "d72ad259bf9ec097be4796a6d59fe70795b0e22f0bb6fc26c6e1315c31f6fc6a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rrethy/ahocorasick/@v/v1.0.0.zip"
+hash = "07be0381c029ed7038e96a03f5631c08f1f2cd0b2520686835817a01af97ad06"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rs/xid/@v/v1.6.0.mod"
+hash = "2ebd8a4c48bf66680d0fba5ca0d9ea1ec134396497802c75f3b39683e6e662ef"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rs/xid/@v/v1.6.0.zip"
+hash = "395b1caa8a7e835e4721291e629dac4f6608db3918d6fe1eb2ed5e7561b62eb2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rs/zerolog/@v/v1.35.1.mod"
+hash = "5b53a8134965f077ed8ced9b5e277592b1ce8bba52ff346d3ee070369468bcf6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rs/zerolog/@v/v1.35.1.zip"
+hash = "91ae94de887e861afc3c9aff30a0ec3b7563c1d330fe2f619dd16b1b51684d2f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.mod"
+hash = "c39547cce6e866e8cfa395d2937bce30801cd07f0b901c2133248f1fba12f58d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.zip"
+hash = "7852750d58a053ce38b01f2c203208817564f552ebf371b2b630081d7004c6ae"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rwcarlsen/goexif/@v/v0.0.0-20190401172101-9e8deecbddbd.mod"
+hash = "c2c4b69a438e080bf2624671594153b8d1de3c8c916f855ea0ce73cdfce8ede9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/rwcarlsen/goexif/@v/v0.0.0-20190401172101-9e8deecbddbd.zip"
+hash = "98e8ce7bf484716bdf272f31ee01354599f4ec4b4ece7c04156c15b264d8f6ec"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sagikazarmark/locafero/@v/v0.12.0.mod"
+hash = "d49b6147a542e8ea8fcb5fdd1cba0d060cf330b9d396d322d5b5a9aff982d1fb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sagikazarmark/locafero/@v/v0.12.0.zip"
+hash = "e42751ae533e4f7642df550b2fafb70a0e5d16dc1ce0551c800b07b86407fd11"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sahilm/fuzzy/@v/v0.1.1.mod"
+hash = "bbdcc8e6b5c13d65f0aed0d9c029c39f117b71b8f03343edd9a9d974a2d042cf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sahilm/fuzzy/@v/v0.1.1.zip"
+hash = "ea29d62ead95ddb604f29ea9f26805ce20d451440fa511d7aaa7356bcebdaa1f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/schollz/closestmatch/@v/v2.1.0+incompatible.mod"
+hash = "d223b999e8a0b29f5e15e5857c0b8a02691c99ebafe578bebe1ed2582645a3b6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/schollz/closestmatch/@v/v2.1.0+incompatible.zip"
+hash = "f267729efc7a639bb816e2586a17237a8c8e7ff327c0c3dd58766d1433ad2d3a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sergi/go-diff/@v/v1.4.0.mod"
+hash = "1eb393c3f9006362fe3044798890e578af6ae6d69270aaf3eb9bfe819ce654db"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sergi/go-diff/@v/v1.4.0.zip"
+hash = "63aef1860b251af1421ba0a014a6bb08a60833f13f948f3d88d66754bb484f53"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/shopspring/decimal/@v/v1.6.0.mod"
+hash = "fc8a8e1fa14e49884ec9f962563a4ef51fa0a9bbfb7dbcb2ec8958e1f00988c9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/shopspring/decimal/@v/v1.6.0.zip"
+hash = "293d1b930e2398a92b4c81ecd692cd25c5d363d9b859fa2a6e5d69eeff7a3f4f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/shurcoo!l/githubv4/@v/v0.0.0-20260209031235-2402fdf4a9ed.mod"
+hash = "6fb4c16a2abdcd32551fdf28fcb8bdc1d6ea772bcf80ac19fb601186388fc645"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/shurcoo!l/githubv4/@v/v0.0.0-20260209031235-2402fdf4a9ed.zip"
+hash = "ade5ba3d96d670b2fdabfb10b848b5bbd7d49d5fed11d4a1e8d42d3b54e5f802"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/shurcoo!l/graphql/@v/v0.0.0-20240915155400-7ee5256398cf.mod"
+hash = "9b898b6f60c2b50cca2aedbc88f24585d559704e8899735150ca364e1006072d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/shurcoo!l/graphql/@v/v0.0.0-20240915155400-7ee5256398cf.zip"
+hash = "ddab8a2d4ce71fc207664c397ed7488700a2f9f33d6f3c44920f70c75fa72d75"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.10.2.mod"
+hash = "0ae1e8f2e690807fd54e3c2e3cb8326815baa54dbb2b0bf7798c73f3ec061c48"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.10.2.zip"
+hash = "73a40737da86682dd536ec2c87dff0f589eeeed81873362b08ed009818747b52"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.7.0.mod"
+hash = "da2caaacef970c4c3f36c137d5567faef9403e6f62194804c7672a3975219322"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/skeema/knownhosts/@v/v1.3.3.mod"
+hash = "c4e13fbe353860d10f56317a23a3383a877dcfd19d663e27f9bb4666e21c47b7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/skeema/knownhosts/@v/v1.3.3.zip"
+hash = "8ac36cdf4af4402fedb6f8ded07c517c90441d48d50fb7b345dda2fe0f384a3f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/skip2/go-qrcode/@v/v0.0.0-20200617195104-da1b6568686e.mod"
+hash = "e519dc3b42ebec4eabb3da439929e811c27785026e4df25226e8fdc015f7ff0e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/skip2/go-qrcode/@v/v0.0.0-20200617195104-da1b6568686e.zip"
+hash = "3fc1c4d11c79001d1cc2df0de87493b324b9af141cc59ae8c212612dd2c90e90"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/smarty/assertions/@v/v1.15.0.mod"
+hash = "645efbd088177acd7b8b37fe36b42a8c3c6edfb6b4a9bbc80440ad06e6a7504a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/smarty/assertions/@v/v1.15.0.zip"
+hash = "c3e160180b54d9364f5b00185fa315f3017f848d9f0c34d0aa905a5510873226"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/smartystreets/goconvey/@v/v1.8.1.mod"
+hash = "6e40d14f291ab6e567a4a260dab1c818cdcd8d580d375db33f5bb26bfe80e52c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/smartystreets/goconvey/@v/v1.8.1.zip"
+hash = "386d6cbaf30c8d7fd4daad50639408e80cb78cb994eb76aafc9f9b8cb18689e7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sorairolake/lzip-go/@v/v0.3.8.mod"
+hash = "e731f8bef4d7660e47dc2e4d36f7cbfbfa5f918fad6fdfae48bf577732f940f2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/sorairolake/lzip-go/@v/v0.3.8.zip"
+hash = "edfafbfe20952eb2140254adb2e5b9e0bb3ce1feb63e90b023f2226338dcca32"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/afero/@v/v1.15.0.mod"
+hash = "b9ecbcbeeccb9da252f2b75a7f05a10c21f874a448a5e1294f115e47ba893e22"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/afero/@v/v1.15.0.zip"
+hash = "d03a0bbce87eeaa1c23f0c0276707bb2d59f46efee875d7d7f1d570201be6e1f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cast/@v/v1.10.0.mod"
+hash = "fef5e4baa2ea6235860469e13b663f5fb26a7047983e05fdb3bf60ea843530f1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cast/@v/v1.10.0.zip"
+hash = "7c7ba27f9979ada980c2a69f6b2fdf7b4ce1f2b766e245c0a4716f546ad7ddce"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.mod"
+hash = "cc6098fd1118fb3bb349c72bcd6e9c665d3a1b2a516ea9807ee24521ad2ddf8c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.zip"
+hash = "a00aae6fcd631e0fde52c98604452ff70e1b73c3b8a560d68db15aff5e26872d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.3.mod"
+hash = "c0119b5dfbbf3c0cb02b168ce0fcc19e7edefa73c9844c4609ebcb57f4394d14"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.9.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.1.0.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.1.0.zip"
+hash = "041f4b3813dc90681ef0d976b607a6f40a360acdd00e5dfe4111fd85f82bae46"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/viper/@v/v1.21.0.mod"
+hash = "671ff6030ff3b0300240c833789512a5b8819cee89a819db7bb20a6a44906b29"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spf13/viper/@v/v1.21.0.zip"
+hash = "4096e4ccdbb74027c49f0dfede6d67193053b0d1c1ecce57543cf3dacc7b249e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spiffe/go-spiffe/v2/@v/v2.6.0.mod"
+hash = "ecf27caa6c27d87f6561869c5eecb6ec995fb1c8bd2a7d9f3800501bdd8513b3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/spiffe/go-spiffe/v2/@v/v2.6.0.zip"
+hash = "b90f378c70e2c985f61893ca20bf3e8258bb4f66920af759276d330513d0d7d6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stangelandcl/ppmd/@v/v0.1.1.mod"
+hash = "361fecdf477b4c1cdfcbb417e9b467196ed59b036425f0d84bf4b5c0c6db50ad"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stangelandcl/ppmd/@v/v0.1.1.zip"
+hash = "e832489fca0e2a2455bc76235c9681509b3666b89f154afcd994814929a9081b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.0.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.4.0.mod"
+hash = "31b2fdcdee870f0f61bffafafb96220967e5bca08a76a920d574216fc1f91355"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.0.mod"
+hash = "cb326540efcb1274a6e4e970d7fc9de2e8062f08a058fc296d859025e62e807a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.2.mod"
+hash = "58eca54d26728427806f40908828e8762d352cc3b0a0b0b60dc60ce61767fff6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.3.mod"
+hash = "6791b5edf7bd0ad12f53a046718d24b3a395191419167aa0bda604e866892cc5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.3.zip"
+hash = "cdc804051b06efceea75ee9b0b6349d2f92f17cd46c6193c4a8dfb0f51465a44"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.11.1.mod"
+hash = "5846af204043f29df285026109bf32db6519c3d7e1d5c3a65fefb174f9d81d33"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.mod"
+hash = "a6aa921ea6dedc1cbb384d3c1b79c58b6e5d6ce26d13b786ec60a99809ae1daa"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.zip"
+hash = "6874ed1c4b0b7e9feb27989b16c179b36590020633436ae260cefc5f5565589f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.2.2.mod"
+hash = "4ab463f68c370041f950c10cab5104903d4598c50cf824f9aad1b7b7f69255af"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.4.0.mod"
+hash = "6b0c7b71030d4fc55d4e6e6e24c0bfc025621341f76141e3aec0044c4ce89950"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.0.mod"
+hash = "e076074c1560ad1dda98b8b00fea6308c4b6ccd06ddd088d22db4626ed68f738"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.1.mod"
+hash = "af1a5dcb331ace7a3f9fc1b5d7eee9c0bc82b4a2a182fe4cec2add217e2853d6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.4.mod"
+hash = "05e26cd069285a33cf2af46fdacdef569d5ae185e7963a76c0178328f68e97f9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/subosito/gotenv/@v/v1.6.0.mod"
+hash = "8b2d8bc78b5def106360867a82ad82c5a4e9de93542f0a207087bb38384f55bf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/subosito/gotenv/@v/v1.6.0.zip"
+hash = "142db3dd2328e744c157e85cf3291d027013b79f92a45984f860fe38bc0f1f8d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tailscale/hujson/@v/v0.0.0-20260727124030-b80ff77dac4f.mod"
+hash = "7b1262b365926efa60ca1b07ffa1ad8d53374e946c08ec777c3689db2da77b1a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tailscale/hujson/@v/v0.0.0-20260727124030-b80ff77dac4f.zip"
+hash = "844d7b9f2ab7cd7a7c9b0b0bbf933feae2ef43a5fb9507884fe08cef059dee3d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tetratelabs/wazero/@v/v1.12.0.mod"
+hash = "b3f66757e2f84bfc66ad7d5132c620a2392bd9c39c9d5401e253ff52895ceedc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tetratelabs/wazero/@v/v1.12.0.zip"
+hash = "dcee360162e809d1273c685d20f6faf6df7ae0d925a73bf8f1af1a4756bfe587"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tidwall/gjson/@v/v1.19.0.mod"
+hash = "22020a837a3000290937b1795ea2505a97de8ebf0ec6bd7b8e56bd3c9be66e28"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tidwall/gjson/@v/v1.19.0.zip"
+hash = "7ba89e2bab7ae946a22f6fc7317e8b5d6d5b65885185d986676553a440a3a6b6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tidwall/match/@v/v1.1.1.mod"
+hash = "02364e515327d9988d1f6bd37af9c584f8b98d3b4f43f9e1f18e26d76aec0f44"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tidwall/match/@v/v1.1.1.zip"
+hash = "2ba41f7f27330d49e0e432cbf96bf90720a33e4a97be58fe53f63a7e66f04d37"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tidwall/pretty/@v/v1.2.1.mod"
+hash = "6e5c5fa493d8f18e8974b38ed63e8c71863cce59e659d98d0ef8417bf81e3ecf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tidwall/pretty/@v/v1.2.1.zip"
+hash = "9327579bf9e610de753eeb7c35c8cf1e3f56e6e5623cbf65e47bc8076023d1ab"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tidwall/sjson/@v/v1.2.5.mod"
+hash = "38b09323ab8ef8f803b3d86bae2c94765d3815a2d5b751fd4f07039f4551cc6f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tidwall/sjson/@v/v1.2.5.zip"
+hash = "fc40fda87c7de55362f6386e069d674772f25c9d76411ee823acb9ac78b20565"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tobischo/argon2/@v/v0.2.0.mod"
+hash = "0ce1887f94a9cb8ab6d37dbc4bd67f496f6fd7ee306ad6245b1b5d7fdb3c5ddd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tobischo/argon2/@v/v0.2.0.zip"
+hash = "e2ff6c8e833c0859db5adb54f0b3cf0cf294e2cbeac41f90abd798c2880e7a4b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tobischo/gokeepasslib/v3/@v/v3.7.1.mod"
+hash = "7f6d9bb0da6d3e020a9b4c60caf7f9c0ddfde3d475f6ef0e829ba35c9e4be5c5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/tobischo/gokeepasslib/v3/@v/v3.7.1.zip"
+hash = "b9f1692387863a96ac1a636330e761be227438d5711cb9dbe2f1e2ae97cfd62f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/!masterminds-semver/v3/@v/v3.0.0-20261015232208-6461e72e87c2.mod"
+hash = "7462a48cd90958d6fc79f674abb7ec89fa477a1cf4f292994ecb72a043c57d03"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/!masterminds-semver/v3/@v/v3.0.0-20261015232208-6461e72e87c2.zip"
+hash = "1fd78c30eb11b5915c2ca54225597f6a986bfa31c4f8c7e81f2f272656b423e2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/find-typos/@v/v0.0.3.mod"
+hash = "9179efc062fffd138ebaff8d7fa9edc6a5307e2eec91ac3f90171d8538cacfe6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/find-typos/@v/v0.0.3.zip"
+hash = "c3c5230e13795a9f1c68f797581185959324c9e04717881626d868ab7f918e99"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/go-pinentry/v4/@v/v4.0.1.mod"
+hash = "5c2e44ec2f13e0ff2cb21da420acb25ea99c46a6a99c5c69d8727dd288ca5289"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/go-pinentry/v4/@v/v4.0.1.zip"
+hash = "3784c922557cfec6dfef3527d6a507d893975001012386af288ef1857659b61c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/go-shell/@v/v0.5.0.mod"
+hash = "1d51ffaff309c10b9e495364e569fc4e1fe2946f05ea1422f95c2bfcd923b3e1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/go-shell/@v/v0.5.0.zip"
+hash = "b72013135919d39a4b367bc63256d1128117eaa0f614e9dd1a01d7bd9c9404cf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/go-vfs/v5/@v/v5.0.5.mod"
+hash = "1a40d43b918f65eaf5e63c3651a086660e5c785053b2f04ea2c59b07dc562655"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/go-vfs/v5/@v/v5.0.5.zip"
+hash = "5ab49e03cf7df934181e8c7240284e5753fe89c063b6a81bf22c18c7f4c3f605"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/go-xdg/v6/@v/v6.1.3.mod"
+hash = "ac155727cc2d00d7cd454f088c68835b79d6415724fe0d6cd0be22c80122e991"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/twpayne/go-xdg/v6/@v/v6.1.3.zip"
+hash = "bb1ce6651b5f87113760a17bd650ce298145f41fc3f524daebfe1d9096022dee"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/ulikunitz/xz/@v/v0.5.17.mod"
+hash = "2e46a9bedbed1417b347937057054c463a5e9ab62f4ffbd512d9c8bb76e98db2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/ulikunitz/xz/@v/v0.5.17.zip"
+hash = "14fd36aba2f4bae6ed85e8b8b2269f3fe5743dc3b6e3d73a3ef7469f20d5cc5e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/ulikunitz/xz/@v/v0.5.8.mod"
+hash = "393876046d63d90f35f21c1bb4651b0985e76d8f14a48a7279ff947b96956e7b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/@v/v1.22.14.mod"
+hash = "f735676ce5a0f532c18d0599c222d1fa20b82a34e62fb81d7e77290e11fa80ca"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/@v/v1.22.14.zip"
+hash = "2f81167982dc6b78d14299612b158aa4914a3273775b76fa1768d0cdb2d3b3fb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/v3/@v/v3.14.0.mod"
+hash = "eba867754757a1c553dfeee81965d7364ab88c48788283c72cebb1747764da5d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/v3/@v/v3.14.0.zip"
+hash = "c02184a74258fa8a4a78d5e45aaf38958489fa6a780971f3f5558d9e3c96f3c8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/wasilibs/wazero-helpers/@v/v0.0.0-20250123031827-cd30c44769bb.mod"
+hash = "49ca46dffde7100373e17172bfb5217cddbd98e9e24898e6367ebb764abf270f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/wasilibs/wazero-helpers/@v/v0.0.0-20250123031827-cd30c44769bb.zip"
+hash = "64f949dc77386e83881a6d5b60e49823e9c3446240c1476394db1a07bc5a762c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/wlynxg/chardet/@v/v1.0.5.mod"
+hash = "46605274c2a8b19478331e61a432c3f022190f7640c207b3d0e498ed11fce143"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/wlynxg/chardet/@v/v1.0.5.zip"
+hash = "7c5169fbd867eaa575cdb67815968e2311171b605c093a3bfe0e297fd3c5bdca"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xanzy/ssh-agent/@v/v0.3.3.mod"
+hash = "1ce1cc509889b738c1f63dbfcc5ad522ceb63272d9deff6eef7499ed301aa125"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xanzy/ssh-agent/@v/v0.3.3.zip"
+hash = "19a86c2623b20cc98687bddd89e3f023db0ca51c8bc9e38b9ad9c56e5b7d110d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xhit/go-str2duration/v2/@v/v2.2.0.mod"
+hash = "65b4b4d7f142b91f81e2b42631f980360021a72a6801825109b3e585edd02553"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xhit/go-str2duration/v2/@v/v2.2.0.zip"
+hash = "0390673c902291a8d62c241f7116cc0a58294b204283df2cd36800be822453d9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xo/terminfo/@v/v1.3.1.mod"
+hash = "12b94fc7704c723ed862da212257099bacb248ad07eeeb03da5d7cba9f8871e4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xo/terminfo/@v/v1.3.1.zip"
+hash = "6b2d619ee049f5856ad9378237d228c4e7eef3772f01354c07419d299a6d7c83"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xrash/smetrics/@v/v0.0.0-20170218160415-a3153f7040e9.mod"
+hash = "2b3f612727e062bc25643ab97394bb7f417a297a9ff6522a0f18ecf77877f042"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xrash/smetrics/@v/v0.0.0-20261013231157-39c47d93efba.mod"
+hash = "db44dc9d1124d1c88cfd8bcd3322f987e7ac94d293404fd2a2ea8e8af84538aa"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xrash/smetrics/@v/v0.0.0-20261013231157-39c47d93efba.zip"
+hash = "a02f59ba193d72a7ba00839ff3479129375d9a917f3e1e4fcac338c44d17de40"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xyproto/randomstring/@v/v1.0.5.mod"
+hash = "a7d51dd77422d16f9cf46888d7ce14a3e8f11a7c3c7f024916f50c065805fc8a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/xyproto/randomstring/@v/v1.0.5.zip"
+hash = "58ea0c70496fc698c4597625395b3f35321df09be013ee880a6ce10e94969261"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark-emoji/@v/v1.0.6.mod"
+hash = "1932f18ec83e8073b275a4d41ce10f856b44a5063235dabcb07b5b34cfff02b8"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark-emoji/@v/v1.0.6.zip"
+hash = "a993ef47fd534db3246a5676611906bf9636dae575c6526410db4c60f38cdb2a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.4.13.mod"
+hash = "ee7fe4466203a01d3ac19adc134cdec99bc6de71992c28f3dd9a74480bff0603"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.8.7.mod"
+hash = "b78e60b0c300e7d48dcc234a7e0103eeb8d6cf40ca9cde9d01e6a3a7f1086045"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.8.7.zip"
+hash = "6f535e479535715264fa2032f70667aeae07420ab835956925b2ec59e0fc7b3f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/zalando/go-keyring/@v/v0.2.8.mod"
+hash = "582f27ac41f2bd0c05436116ff91436aa36d4687c1dad243d4d74e780f3feb87"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/zalando/go-keyring/@v/v0.2.8.zip"
+hash = "af9d1310d6e1eaadb6c975f2f9b1c22c8a2d1ea2497645f5ee62eac26472c97a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/assert/@v/v1.1.0.mod"
+hash = "cb8cea69ecbc99692af21d44909083f4d962e95dcb7adcb5fd0676b773587e9c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/assert/@v/v1.1.0.zip"
+hash = "14795d89e1d9937bab9e3d6d54df37a870fb70efb74d8bc1e1abc676de8a32a3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/blake3/@v/v0.2.4.mod"
+hash = "9e2d9f5afaefb91d63405907f73f80f1d1471fd2bec2642068106dd19d1df141"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/blake3/@v/v0.2.4.zip"
+hash = "65aaa3487c097fa0140f52041e8e6fe8214c244a29223fd4caaa60986192a08f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/pcg/@v/v1.0.1.mod"
+hash = "4d5bb3fec7485e54c1c7d9119091aaddd071f9f4a8969b6c82a588f4c8e08179"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/pcg/@v/v1.0.1.zip"
+hash = "39ff069b9eb1fd6f9edd138b12338a1b0a761f47b0544f4148d3d27dd74c52c0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.etcd.io/bbolt/@v/v1.5.0.mod"
+hash = "3acf3f97a95e4028c1bbe27e58a1a6ba4ec8fc510e17d3166c47c50f601b4a2e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.etcd.io/bbolt/@v/v1.5.0.zip"
+hash = "2c350ca36afba707b917529a8049b001c71915c99c152d5e2600ed4bac6fbc37"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.etcd.io/gofail/@v/v0.2.0.mod"
+hash = "5034a8e45fbe452344bfa52de607c8e092f2aeb346a209cf62cfd4c6bf911030"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.etcd.io/gofail/@v/v0.2.0.zip"
+hash = "136c5e74ee835b126de670d9e462fa83c48d3ca5fa0f4c51fda10ec6995764ec"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.mod"
+hash = "6c4d2df014d59fd6555897fd4e5bbc0316e8df4c737fbfdde5cd119fdefeeea9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.zip"
+hash = "a08a16fc0a7041cdb875f47a260a56000632212c85f65a302a043c76380c8335"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/detectors/gcp/@v/v1.38.0.mod"
+hash = "34718c28331babbd05f0ca78eca22d2379f4f2b96aa9973f35e60eba62b56dca"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/detectors/gcp/@v/v1.38.0.zip"
+hash = "3bc606bb6ce32b4b349ae0259da212552a087b81f6f96847448181764d82eb69"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/@v/v0.61.0.mod"
+hash = "32f5eb32d140df1cb37042486b0534f2e85fedf1533d863a338fcdcf164c8e58"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/@v/v0.61.0.zip"
+hash = "9812bf570350cd1377bf458b71ea5d9fffe44733fc2dccbcfd1f5c564a6b27b7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.61.0.mod"
+hash = "8f6904a1667e00d48f8aeb0b58b45d2bd564755bef469f50d9ffd06fb3fa96a3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.61.0.zip"
+hash = "0009120ed94c4279573eea0f01841f7c9ff51cafd1c9559fc09820c9f870f399"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.38.0.mod"
+hash = "14d9c9e6538dfddb2f35d9ee886f45830cdea7ba4d1f88e09b10e1c520ebc950"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.38.0.zip"
+hash = "1f9f344b9f15382834c7f2ea15f13ca1d0516c98116c59e7bb29fed0b4748d8a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.38.0.mod"
+hash = "896c14f19bac2b145819564a1cbc9f6179c5e47bea7ff3eb4a758dd0b35e8574"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.38.0.zip"
+hash = "39dc88030971236b0cbba0d94a834c448d9301ceec749f717994a2a7f9ab838d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.38.0.mod"
+hash = "1aa22b89d4a93631541875131f27735ea9a45fcd14845d657f931a397fcde7bc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.38.0.zip"
+hash = "a3e822297026d4171ed2260a6f4ed9e125f1ea59396162b1f80620a058b02b26"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.38.0.mod"
+hash = "01ddb6dfdb248fa25a5bff3fba18fde4a17a87e32c2d0ef7e868a14814354238"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.38.0.zip"
+hash = "1b9026686549a952ff49acd68b2781ca822f657050a3b6a23784d740fe0852d7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.38.0.mod"
+hash = "8709b30d297aec2567de3beff9f1d9652c88ed6c72876688fa3ee45dbe2651dd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.38.0.zip"
+hash = "f040f84581707a0123aec182596cd34700860e7866f556e7900ac4c17233150e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.4.mod"
+hash = "2989f8b800605890ad40cf49109b0b6a972bda79d92df236d40ddb798093127e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.6.mod"
+hash = "4bf9de8891d4d71507d92568022f8241fb828d8d0a6c9204c130bf030f3e3b2f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.6.zip"
+hash = "5ec6b154ced05b5fe8b15aef1287d647a70c9a53f43aa14e42d2bb5aee6cffac"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v4/@v/v4.0.0-rc.3.mod"
+hash = "d42a0149da4645f3fc9d08f5b4d4302df9234908c48e622c5aeef16c68edebd5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v4/@v/v4.0.0-rc.3.zip"
+hash = "d5ca6a029979bc52760f17ed1a9393637a46095b9e0e8f504f1dc5d70ece46ac"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go4.org/@v/v0.0.0-20261028031214-ed6929a230fe.mod"
+hash = "e49ed65fb04f1956fe61e4e7226ad4680089a043560be9ba80eed64299d67422"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/go4.org/@v/v0.0.0-20261028031214-ed6929a230fe.zip"
+hash = "0d0d9beb5f4f074bcd5e389b05b8f9b01e363bc9fc766d513cc08c2092bd2cd2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.design/x/clipboard/@v/v0.11.0.mod"
+hash = "4d9c30c12e12c18e6382856b145e02e487aae6525e47a595b214ed251a1f6b1b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.design/x/clipboard/@v/v0.11.0.zip"
+hash = "042a74e0d914a8a33f26c0e583ef00ae0e1dd940796921b4ae4046b20e5eb647"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.design/x/x11/@v/v0.2.0.mod"
+hash = "9bb0b35bc98e4ef5b979f89d32675d844601a12b12320a02eb9070ca15cf7e9d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.design/x/x11/@v/v0.2.0.zip"
+hash = "bc71cf8d24c893749041372c047cc5577f1830b9c4e194d21fe7d87388e9152b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod"
+hash = "33ed070a5a66e0960685ac5386440e1b59899e74d8a38a1180685e72a2195ded"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210921155107-089bfa567519.mod"
+hash = "cd6311612a2aa4d0d7e03c41b3aa1fbc2d5f895ab3f61089fab80bfe9f8f5485"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20220622213112-05595931fe9d.mod"
+hash = "af2c88eebff03e3a2afecb1b03669fc54e9d122c88f7b2ecfed051ec5dbc8bbb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20220919173607-35f4265a4bc0.mod"
+hash = "af2c88eebff03e3a2afecb1b03669fc54e9d122c88f7b2ecfed051ec5dbc8bbb"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.58.0.mod"
+hash = "938883ec4a74e7fc05c46269e924dda334c2b7ca7ca219e4d27ca56d1891ccd3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.58.0.zip"
+hash = "b0a45594cda20ddb4264d84aeff9b588b8570bf6a2833c51a0b821734a298d95"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20261109185158-a52e3aef5920.mod"
+hash = "37378f5cab37aac2fd17fa519b29a989688145344853e4c578ba6710f87aede5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20261109185158-a52e3aef5920.zip"
+hash = "5b42c17122830ed077ca91968498d852025711531b0150785e44672c43a23743"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/shiny/@v/v0.0.0-20260908205506-85c1c2202aba.mod"
+hash = "7b7f7464898dcc763b50e652d7af2c0cac5e15e8fc0b5078b4623ffd78e420d2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/shiny/@v/v0.0.0-20260908205506-85c1c2202aba.zip"
+hash = "505d25754c8d274df9f28a61707b6788b8190f0769e806808985d8175d9b2fb2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.46.0.mod"
+hash = "ef449fc2ce81261b7b416f8e3547bdddcb7be42daab2b9702e167ffe376587ce"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.46.0.zip"
+hash = "10459a17c3533cc9ca4d1ac7a86674bf0c0514b7bac721531b3c1178cfcda82e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/mobile/@v/v0.0.0-20260908204917-8b95e45f8d3e.mod"
+hash = "eed9b930da40a4b66ec7cea0d40efb726d49bb092424b6a7022b7febfe7c2b1b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/mobile/@v/v0.0.0-20260908204917-8b95e45f8d3e.zip"
+hash = "cff623409ada423ce6769efb09ceef4f16a39ac6f022ba8d44f4c8e2fd665d5d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.42.0.mod"
+hash = "92defdc3237bf4f850e9e5c7d7ad6d06b9ef6a10caa12c2c8e54150a4c370270"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.42.0.zip"
+hash = "2770e372e42c30dd498d63bb094fe257edfad6882c611f8e0d82925feac159f3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.6.0-dev.0.20220419223038-86c51ed26bb4.mod"
+hash = "42d19023ff8f2eae700bc5495f371ecd998a22d19ba985d0af5f69900b254083"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.8.0.mod"
+hash = "624567459c6e9947ac4abde0b7034ee61dcbb6a9373f5970094c0bb3e8121964"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190311183353-d8887717615a.mod"
+hash = "f7046769daac02beb57cbcc481280df59fb403c96fe8262282aba858c7f7fa4d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20210226172049-e18ecbb05110.mod"
+hash = "fef5896d103a0bce5055fdb5e96e830944334792437865347718edceb633348a"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20211112202133-69e39bad7dc2.mod"
+hash = "fa915f5d022cfb0cb865aa2ee37d3a7741b406f84eb4a837862e29cc69ab4ef4"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220722155237-a158d28d115b.mod"
+hash = "b315c52647d2da2f76e5cdb9d367e1d6727784236a9bffb612192b19b10a128d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220921155015-db77216a4ee9.mod"
+hash = "45c86549c6da888d06cb9076bbafeec99f4fb56c259cb6e294ed3e80433dbca0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.6.0.mod"
+hash = "41ec76ea2172f3ee3031e38f9a535939a584d6bb35ef480854fdcb8c2026701b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.62.0.mod"
+hash = "7bbcec6b6af859939ec01bbe5234e556c867bf80e171abc23ad16c2c8e3951fe"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.62.0.zip"
+hash = "50e869800f4921e910eb6550369f937c7187d130a7f7f78a26ef9b589a7071a6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.38.0.mod"
+hash = "90facdcd7c6602d3a28dbaa32354a0398d22bbaea3b48ca94aa2235fb427358b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.38.0.zip"
+hash = "d5a749d3b9bc1ccaaa21642643771f3164f2f56b0fa024b4fa2fce1ddfa28c90"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/perf/@v/v0.0.0-20250813145418-2f7363a06fe1.mod"
+hash = "1fa0631564f7beab744f6191cab9995e88a93345543ca38049c59995cb00e18d"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/perf/@v/v0.0.0-20250813145418-2f7363a06fe1.zip"
+hash = "2e43f266f27857099f82d0218bd5fba7bc37c6899af76583b8425c82bd8d7393"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20220722155255-886fb9371eb4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.1.0.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.25.0.mod"
+hash = "febf4fed5dc12c0de24528f7065bf071cc74a2424070194aaf24617b91066cda"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.25.0.zip"
+hash = "c27da17d7e217dec0c2f8c715e5ce2b92815fa76fc08da13c41a73dd6a67dfe0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191026070338-33540a1f6037.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201119102817-f84b799fce68.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210124154548-22da62e12c0c.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210423082822-04245dca01da.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210809222454-d867a43fc93e.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220520151302-bc2c85ada10a.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220715151400-c0bba94af5f8.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220722155257-8c9f86f7a55f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220728004956-3c1f35247d10.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220919091848-fb04ddd9f9c8.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.1.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.5.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.50.0.mod"
+hash = "9522f4c9806d1c26586ea80fa56292929bd295865e71981927f52996c6b1c831"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.50.0.zip"
+hash = "b115e8a144a7c9d1df3ffb8af20b283e162844b5b624a97ee342955cca69b9e6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/telemetry/@v/v0.0.0-20261009151841-97e8ea77aa2a.mod"
+hash = "b3db3a6093c95190ba4c799a41b18ed8cab5f9d5329e6d327eecd8bb54d7ff76"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/telemetry/@v/v0.0.0-20261009151841-97e8ea77aa2a.zip"
+hash = "d716edef11729767caecb52ed5d76bb0d7cf17c9f91cc5a57a698e9847d3f2ba"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20201126162022-7de9c90e9dd1.mod"
+hash = "4cbab14f7706771b271d995a1b3cc131fe5a246aadc7ee6d1ba6f0bd894781fa"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20220919170432-7a66f970e087.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.48.0.mod"
+hash = "318f24e4b41f082587d444e6b2053bd9ec2a6149f9b19772c3256d037123da6e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.48.0.zip"
+hash = "3f6dfe1b6031005d556ad54027c191636299aa4496fd631d1b1dcd23ada8bec7"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.5.0.mod"
+hash = "0d6f58228aadc1a6528e6755da018516566e3ae5c5201f7ade1773f56fa8d934"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.0.mod"
+hash = "36879d586fd8001e84da8787190a11e4f78749e2a81dfe8b9b6931899fff31cf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.3.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.6.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod"
+hash = "c45d669089427bc4635d07b185f9b9680332d1c48c75b3c49cb715b81a04a5b0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.44.0.mod"
+hash = "3ca6d2dce274503d9a474a63448b0afac858be1cac8e6ea5dfdb1d0c38bb64da"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.44.0.zip"
+hash = "e51c60a7d121a493048b1638023983ce183bd5d70df1db495423ce1415663202"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.7.0.mod"
+hash = "15929e76fce04aea4c92a354426bb43370684645a4ee03f2e75d0c2eb1466304"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.8.0.mod"
+hash = "436f592e77b593b02fbea374e23ad3369c8623ff0d29c91de7de1e6672db9a41"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.14.0.mod"
+hash = "aa3637dd0ff835535d1f78e9430f121038d363b4a36967c26fa3502302d90d11"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.14.0.zip"
+hash = "0e2d2e47d107859130c7088346966d99a14ec0f7a42290c4acc0e2cc568e7a81"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20190624222133-a101b041ded4.mod"
+hash = "7eeccd01252b0a8983093e5b905aac5a041528477e1348f54b8aa35b6bb3406f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191119224855-298f0cb1881e.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.1.12.mod"
+hash = "2a8b9365898f0822face65ba089a1353e68a65d342f300ca317cceccde6421f3"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.52.1-0.20261106145633-d407941a339a.mod"
+hash = "b4272bcb2c99901b1878e04a56c8a584ac1dce9d5844a3c1cc68a627546fe6fe"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.52.1-0.20261106145633-d407941a339a.zip"
+hash = "2ad5dae9407fef3badb3cd2d073e108911cad7415ab0ee98b87ddb64e2c333af"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.6.0.mod"
+hash = "830ed78dcd3e9927c412e2641230308447749d513d31024d276e2443b2016609"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/go/expect/@v/v0.1.1-deprecated.mod"
+hash = "0995d960f35334cd5c1caa9748e280ce531f2e06fe092466c77817ceb7a32f08"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/go/expect/@v/v0.1.1-deprecated.zip"
+hash = "b2389159ddd768c6bd83a0cc92bbf9be01c32ca973c366fc224b79762d90dd79"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/go/packages/packagestest/@v/v0.1.1-deprecated.mod"
+hash = "f61084d3a3625bc96725aaf19c6a0341ea42715254bc1e617943d2ff836383fd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/go/packages/packagestest/@v/v0.1.1-deprecated.zip"
+hash = "15792a78ef9338b2c08d5010b24211f85c4d39e8c31db316f1ca4a891605ed01"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20191204190536-9bdfabe68543.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20240903120638-7835f813f4da.mod"
+hash = "097a3f1d073ed5fb8ccdeaaa7da6828ee60cbf4c49e243f73ff6ce59625dfa09"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20240903120638-7835f813f4da.zip"
+hash = "07ee9f680118861ee732ce0df4553b834383b87e0519fb9a0990c51d7abd6885"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/api/@v/v0.259.0.mod"
+hash = "1746aca5a8c96c594276c061ee2a65e6532110fd0c02ede8e699ae450088c9d6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/api/@v/v0.259.0.zip"
+hash = "b102f5cf8a6d878f866f524a0474a7b975817b6b3f4bcda047ff05ecd0ab52f0"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/@v/v0.0.0-20251202230838-ff82c1b0f217.mod"
+hash = "bc4f358d8cf2493fcd224537c1d43af3b0d514b1e8b5ba43469423cbe39eee22"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/@v/v0.0.0-20251202230838-ff82c1b0f217.zip"
+hash = "745453fac8a1631ac199985717788a9ac8014f949fb6069316380a5f3413f58b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20251202230838-ff82c1b0f217.mod"
+hash = "9e49d1d56c5cc3d41cb1643076b2d5ade2d8af4e532505d93e2528319692874c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20251202230838-ff82c1b0f217.zip"
+hash = "b4372ac21c7316d4885e04d9fe5110277edb58a3b8ab6345ccfef23e1e972544"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20251222181119-0a764e51fe1b.mod"
+hash = "12a765633eed00a863cdf1111e8a0d8e7becd25ddf79cf5e851bf8d2a78337b5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20251222181119-0a764e51fe1b.zip"
+hash = "ec99aa6a116abdf3f38e85398e85ad919777b901f2e40955db3aebdabe9a2f54"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.78.0.mod"
+hash = "c3baf692089f71a7bdaabeba71b5ba5ab848d2475b3cc1275704bf9de6015be6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.78.0.zip"
+hash = "2aea1bc859f3b80c1f07454a6b59b34974b8bcc9f26ab0cbbea91f527e28dbc5"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.mod"
+hash = "a75c105a852fbd8da8d8cfac09c2eab9a206cfd27ed37c973737e23f632ca96e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.zip"
+hash = "68f8a3174aff42950fd9bd02c11b45c6986eb8060508d124d1c3dd6bf86b9be6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20190902080502-41f04d3bba15.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.mod"
+hash = "6e6e2fca40eb8fe1455e6a08cd39833c7c2e9a2341a81fb181b89d0b1c725f48"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.zip"
+hash = "f555684e5c5dacc2850dddb345fef1b8f93f546b72685589789da6d2b062710e"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/ini.v1/@v/v1.67.3.mod"
+hash = "bbaaff022cbbee98f0c099e7217d0bde01261a518980d118423ed656406a5abf"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/ini.v1/@v/v1.67.3.zip"
+hash = "20ab7e3150a9d0a098b5f642cc2a1ba1886da48ae0ec4080240bf33f7a7086c2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/warnings.v0/@v/v0.1.2.mod"
+hash = "cce6c236be750d350cb9126c5b4c4dfe039945fde031eaf83601923bf117bebc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/warnings.v0/@v/v0.1.2.zip"
+hash = "c412b1f704c1e8ba59b6cfdb1072f8be847c03f77d6507c692913d6d9454e51c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v1/@v/v1.0.0-20140924161607-9f9df34309c0.mod"
+hash = "17b76a6ecf3c4d0aff62a58bfe7e401a5f58fe9bc38f9c4b6fd8da660bca4135"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v1/@v/v1.0.0-20140924161607-9f9df34309c0.zip"
+hash = "7abff7973fdab7386de5a1e9e197d8dc50d41ded9d24ff914685900caa0eb742"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.2.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.mod"
+hash = "c3b11ba9a0775ff9bc6f11dbb58a1e48cc1e68bac378a8cdc620becc661d4c33"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.zip"
+hash = "ede49e27c4cca6cdd2ec719aed8ea4d363710cceb3d411e7a786fbdec0d391fd"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200121175148-a6ecf24a6d71.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200313102051-9f266ea9e77c.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gotest.tools/v3/@v/v3.0.2.mod"
+hash = "b3c7b4e1c868b27b514bad5037278772d3e4cfcc0d19291428c1c49c7d08b74c"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gotest.tools/v3/@v/v3.5.2.mod"
+hash = "e9353cd880d398afaacb0ba54e12575213b975f3cd7991d7b42aa3bfe5f6f9d6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/gotest.tools/v3/@v/v3.5.2.zip"
+hash = "d7c40ae135e4a34dee9ca4847ad18208f138847721e693647b897259287a1d4b"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/howett.net/plist/@v/v1.0.1.mod"
+hash = "c82cd5b5579d83db1ba908f04184b56c04fb4a9052042e832ce68f7adc739335"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/howett.net/plist/@v/v1.0.1.zip"
+hash = "a73da26d715d28d6086411893d10d9efdf7c023f208518180aeaec7da7485a21"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/mvdan.cc/editorconfig/@v/v0.3.0.mod"
+hash = "ea1976f4398463035a84edcfb9ead0590e1aa8fded31e7e8ff7a0dca310e22e6"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/mvdan.cc/editorconfig/@v/v0.3.0.zip"
+hash = "aa50c43e789b025f04bea950f104314946d2faa5035442bf5f7415eb97860fe1"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/mvdan.cc/sh/v3/@v/v3.14.1.mod"
+hash = "95c0b4d2dab2c59a017949cec731d3ba685666802ca283133415adf2932ff8d2"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/mvdan.cc/sh/v3/@v/v3.14.1.zip"
+hash = "744b518b28db4b256f88954b7f5461fe2d2822f6f5818b137887bf9713175e25"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/rsc.io/qr/@v/v0.2.0.mod"
+hash = "ac5f0befbcf404aa723bfe79806cd614f915a1b7f2d07a98b9ef5579824299ab"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/rsc.io/qr/@v/v0.2.0.zip"
+hash = "8eb213702cd69a31bf7ce2783a0e82d0fa80dfb98178bfb0201f79452a4067c9"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/znkr.io/diff/@v/v1.1.4.mod"
+hash = "6cf1abfd75d92b1cc43aa256c76a6cc4e66dfea512deb01e9b9a48a19238dc49"
+
+[[chezmoi.sources]]
+url = "https://proxy.golang.org/znkr.io/diff/@v/v1.1.4.zip"
+hash = "31c965d69438d2dfbc8aaa6b5133596bd7cb8bae84fcce041ee295e106c7b6c4"

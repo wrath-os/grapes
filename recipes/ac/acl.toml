@@ -1,0 +1,15 @@
+[[package]]
+id = "acl"
+version = "2.3.2"
+scope = "runtime"
+core = true
+extra_deps = ["attr"]
+sources = [{ url = "https://download.savannah.gnu.org/releases/acl/acl-{version}.tar.xz" }]
+smoke = ["bin/getfacl --version"]
+probes = ["acl"]
+check_in_view = true
+check = "make -j$NPROC check"
+check_deps = ["perl"]
+
+[package.autotools]
+args = ["--disable-static", "--disable-nls"]

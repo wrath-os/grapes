@@ -1,0 +1,17 @@
+[xdg-desktop-portal]
+
+[[xdg-desktop-portal.sources]]
+url = "https://github.com/flatpak/xdg-desktop-portal/releases/download/1.22.1/xdg-desktop-portal-1.22.1.tar.xz"
+hash = "d4879ddb3d65ff1a8f19187497e6f13dc5d267bcac404a5d501218be355753d3"
+
+[xdg-desktop-portal-gtk]
+
+[[xdg-desktop-portal-gtk.sources]]
+url = "https://github.com/flatpak/xdg-desktop-portal-gtk/releases/download/1.15.3/xdg-desktop-portal-gtk-1.15.3.tar.xz"
+hash = "47a3743d2419a8601e691db37e85bb5fac5ae4b26842177065cd5f22ada23b37"
+
+[xdg-desktop-portal-wlr]
+
+[[xdg-desktop-portal-wlr.sources]]
+url = "https://github.com/emersion/xdg-desktop-portal-wlr/archive/refs/tags/v0.8.4.tar.gz"
+hash = "3122966d46ab108f505525bcb2498f9121b446ee8438fbfceb73a7a1fa1ad400"

@@ -1,0 +1,5 @@
+[at-spi2-core]
+
+[[at-spi2-core.sources]]
+url = "https://download.gnome.org/sources/at-spi2-core/2.60/at-spi2-core-2.60.7.tar.xz"
+hash = "92893c8188355264ba639ca3d27943437b26ef069971ea9faa4b20de40595b9a"

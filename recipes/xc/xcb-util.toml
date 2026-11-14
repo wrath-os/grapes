@@ -1,0 +1,49 @@
+[[package]]
+id = "xcb-util"
+version = "0.4.1"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "libxcb"]
+sources = [{ url = "https://www.x.org/archive/individual/xcb/xcb-util-{version}.tar.xz" }]
+probes = ["xcb-util"]
+
+[package.autotools]
+args = ["--disable-static"]
+
+[[package]]
+id = "xcb-util-renderutil"
+version = "0.3.10"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "libxcb"]
+sources = [{ url = "https://www.x.org/archive/individual/xcb/xcb-util-renderutil-{version}.tar.xz" }]
+probes = ["xcb-renderutil"]
+
+[package.autotools]
+args = ["--disable-static"]
+
+[[package]]
+id = "xcb-util-image"
+version = "0.4.1"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "xcb-util"]
+sources = [{ url = "https://www.x.org/archive/individual/xcb/xcb-util-image-{version}.tar.xz" }]
+probes = ["xcb-image"]
+
+[package.autotools]
+args = ["--disable-static"]
+
+[[package]]
+id = "xcb-util-cursor"
+version = "0.1.6"
+scope = "runtime"
+core = true
+extra_deps = [
+  "pkgconf", "m4-final", "xcb-util", "xcb-util-renderutil", "xcb-util-image",
+]
+sources = [{ url = "https://www.x.org/archive/individual/xcb/xcb-util-cursor-{version}.tar.xz" }]
+probes = ["xcb-cursor"]
+
+[package.autotools]
+args = ["--disable-static"]

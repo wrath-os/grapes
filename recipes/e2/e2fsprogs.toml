@@ -1,0 +1,18 @@
+[[package]]
+id = "e2fsprogs"
+version = "1.47.3"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "util-linux"]
+sources = [{ url = "https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v{version}/e2fsprogs-{version}.tar.gz" }]
+script = '''
+mkdir ../b && cd ../b
+../src/configure --prefix=$PREFIX --sysconfdir=/etc --enable-elf-shlibs --disable-libblkid \
+    --disable-libuuid --disable-uuidd --disable-fsck --disable-nls
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = ["sbin/mke2fs -V"]
+check_in_view = true
+check = "cd ../b && make -j$NPROC check"
+check_deps = ["perl"]

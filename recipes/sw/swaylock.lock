@@ -1,0 +1,5 @@
+[swaylock]
+
+[[swaylock.sources]]
+url = "https://github.com/swaywm/swaylock/releases/download/v1.8.6/swaylock-1.8.6.tar.gz"
+hash = "a15154348fef852fdb224112d137c393c826478b777f63479beb15e8d3812eaf"

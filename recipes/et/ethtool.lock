@@ -1,0 +1,5 @@
+[ethtool]
+
+[[ethtool.sources]]
+url = "https://www.kernel.org/pub/software/network/ethtool/ethtool-7.2.tar.xz"
+hash = "44256ddf4631ed08d816b7b8725f4b2e0f05e96b8c7ca64ee5c81449da2b6507"

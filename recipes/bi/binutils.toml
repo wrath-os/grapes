@@ -1,0 +1,34 @@
+[[package]]
+id = "binutils-stage1"
+version = "2.45"
+scope = "boot"
+deps = ["wrapper", "seed"]
+sources = [{ url = "https://ftp.gnu.org/gnu/binutils/binutils-{version}.tar.xz" }]
+script = '''
+mkdir ../b && cd ../b
+../src/configure --prefix=$PREFIX --disable-nls --disable-werror --disable-gprofng \
+    --enable-deterministic-archives MAKEINFO=true
+make -j$NPROC MAKEINFO=true
+make install DESTDIR=$DEST MAKEINFO=true
+'''
+
+[[package]]
+id = "binutils"
+version = "2.45"
+scope = "tool"
+deps = [
+  "wrapper",
+  { id = "seed", skip = "compilers" },
+  { id = "gcc-stage1", rpath = false },
+  { id = "binutils-stage1", rpath = false },
+  "glibc",
+  "linux-headers",
+]
+sources = [{ url = "https://ftp.gnu.org/gnu/binutils/binutils-{version}.tar.xz" }]
+script = '''
+mkdir ../b && cd ../b
+../src/configure --prefix=$PREFIX --disable-nls --disable-werror --disable-gprofng \
+    --enable-deterministic-archives MAKEINFO=true CFLAGS=-O2 CXXFLAGS=-O2
+make -j$NPROC MAKEINFO=true
+make install DESTDIR=$DEST MAKEINFO=true
+'''

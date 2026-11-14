@@ -1,0 +1,5 @@
+[poppler]
+
+[[poppler.sources]]
+url = "https://poppler.freedesktop.org/poppler-26.11.0.tar.xz"
+hash = "41c32680160addf5a8dd7a830e4869c01e9f6bee1abb91e44fabd1ba9d7828fb"

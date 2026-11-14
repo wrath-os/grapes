@@ -1,0 +1,13 @@
+[[package]]
+id = "lsof"
+version = "4.99.7"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/lsof-org/lsof/releases/download/{version}/lsof-{version}.tar.gz" }]
+# Only the program: its manual needs groff's soelim.
+script = '''
+./configure --prefix=$PREFIX
+make -j$NPROC lsof
+install -Dm755 lsof $DEST$PREFIX/bin/lsof
+'''
+smoke = ["bin/lsof -v"]

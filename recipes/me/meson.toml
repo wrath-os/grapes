@@ -1,0 +1,16 @@
+[[package]]
+id = "meson"
+version = "1.8.3"
+scope = "runtime"
+core = true
+extra_deps = ["python3", "ninja"]
+sources = [{ url = "https://github.com/mesonbuild/meson/releases/download/{version}/meson-{version}.tar.gz" }]
+script = '''
+mkdir -p $DEST$PREFIX/bin
+# meson rewrites RPATHs when it installs, and would drop what the compiler wrapper put there.
+sed -i '/def fix_rpath(self, fname: str, rpath_dirs_to_remove/a\        return' mesonbuild/scripts/depfixer.py
+# The zipapp stores modification times, and the edit above just changed one.
+find meson.py mesonbuild -exec touch -h -d @315619200 {} +
+python3 packaging/create_zipapp.py --outfile $DEST$PREFIX/bin/meson --interpreter $WRATH_DEP_python3/bin/python3
+'''
+smoke = ["bin/meson --version"]

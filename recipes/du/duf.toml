@@ -1,0 +1,10 @@
+[[package]]
+id = "duf"
+version = "0.9.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/muesli/duf/archive/v{version}/duf-{version}.tar.gz" }]
+smoke = ["bin/duf --version"]
+
+[package.go]
+ldflags = "-X main.Version=0.9.1"

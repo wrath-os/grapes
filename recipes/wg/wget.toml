@@ -1,0 +1,18 @@
+[[package]]
+id = "wget"
+version = "1.25.0"
+scope = "runtime"
+core = true
+extra_deps = ["openssl", "zlib", "pkgconf", "perl"]
+sources = [{ url = "https://ftp.gnu.org/gnu/wget/wget-{version}.tar.gz" }]
+smoke = ["bin/wget --version"]
+
+[package.autotools]
+args = [
+    "--with-ssl=openssl", "--without-libpsl", "--disable-nls", "--disable-pcre",
+    "--disable-pcre2", "--disable-iri",
+]
+install = '''
+# Certificates come from the system's bundle, as for curl.
+echo "ca_certificate = /etc/ssl/certs/ca-certificates.crt" >> $DEST$PREFIX/etc/wgetrc
+'''

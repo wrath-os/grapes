@@ -1,0 +1,10 @@
+[[package]]
+id = "zellij"
+version = "0.46.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/zellij-org/zellij/archive/v{version}/zellij-{version}.tar.gz" }]
+smoke = ["bin/zellij --version"]
+
+[package.cargo]
+packages = ["zellij"]

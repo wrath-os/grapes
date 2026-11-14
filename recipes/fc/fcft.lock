@@ -1,0 +1,5 @@
+[fcft]
+
+[[fcft.sources]]
+url = "https://codeberg.org/dnkl/fcft/archive/3.3.1.tar.gz"
+hash = "9949fbce0826669369c3b9361ac04b0459fdc51037e2ccf2e2483794909903f4"

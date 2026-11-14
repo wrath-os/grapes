@@ -1,0 +1,13 @@
+[[package]]
+id = "glslang"
+version = "16.6.0"
+scope = "runtime"
+core = true
+extra_deps = ["cmake", "ninja", "python3"]
+sources = [{ url = "https://github.com/KhronosGroup/glslang/archive/{version}/glslang-{version}.tar.gz" }]
+smoke = ["bin/glslangValidator --version"]
+
+# The GLSL compiler, which Mesa compiles its built-in Vulkan shaders with. Without the SPIR-V
+# optimizer, which nothing here uses.
+[package.cmake]
+args = ["-DENABLE_OPT=OFF", "-DGLSLANG_TESTS=OFF", "-DBUILD_SHARED_LIBS=ON"]

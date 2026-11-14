@@ -1,0 +1,5 @@
+[firefox]
+
+[[firefox.sources]]
+url = "https://download-installer.cdn.mozilla.net/pub/firefox/releases/160.0/linux-x86_64/en-US/firefox-160.0.tar.xz"
+hash = "fde774e9757c8878534c05ec210db592bf6a1b244c57941ffb2e364c04f35fcd"

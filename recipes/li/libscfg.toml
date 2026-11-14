@@ -1,0 +1,10 @@
+[[package]]
+id = "libscfg"
+version = "0.1.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://git.sr.ht/~emersion/libscfg/archive/v{version}.tar.gz" }]
+probes = ["scfg"]
+
+# The configuration format kanshi reads.
+[package.meson]

@@ -1,0 +1,10 @@
+[[package]]
+id = "opentofu"
+version = "1.13.9"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/opentofu/opentofu/archive/v{version}/opentofu-{version}.tar.gz" }]
+smoke = ["bin/tofu version"]
+
+[package.go]
+packages = ["./cmd/tofu"]

@@ -1,0 +1,21 @@
+[[package]]
+id = "glib"
+version = "2.84.4"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "python3", "pkgconf", "zlib", "pcre2", "libffi", "util-linux", "gettext"]
+# GSettings reads one file compiled from every package's schemas, made with each generation.
+indexes = [
+  { from = "share/glib-2.0/schemas", run = "bin/glib-compile-schemas share/glib-2.0/schemas" },
+]
+sources = [{ url = "https://download.gnome.org/sources/glib/{series}/glib-{version}.tar.xz" }]
+smoke = ["bin/gio version", "bin/glib-compile-schemas --version"]
+probes = ["glib-2.0", "gio-2.0"]
+check_in_view = true
+check = "meson test -C /build/b --num-processes $NPROC --print-errorlogs"
+
+[package.meson]
+args = [
+    "-D tests=true", "-D introspection=disabled", "-D man-pages=disabled", "-D selinux=disabled",
+    "-D xattr=false",
+]

@@ -1,0 +1,16 @@
+# Single-header image libraries, under stb/, which Noctalia includes as such. stb has no
+# releases, so this is the commit it was taken at.
+[[package]]
+id = "stb"
+version = "4e9b368"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/nothings/stb/archive/4e9b368bfc071e97206ea5c6adba68dd0cbf8897.tar.gz" }]
+# Headers its users need, so a move upstream fails here and not two packages later.
+smoke = ["test -f include/stb/stb_image.h", "test -f include/stb/stb_image_resize2.h"]
+script = '''
+mkdir -p $DEST$PREFIX/include/stb
+cp stb_*.h $DEST$PREFIX/include/stb/
+# The resizer moved among the deprecated headers, where programs still use it.
+cp deprecated/stb_image_resize2.h $DEST$PREFIX/include/stb/
+'''

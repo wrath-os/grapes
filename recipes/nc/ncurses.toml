@@ -1,0 +1,16 @@
+[[package]]
+id = "ncurses"
+version = "6.5"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://ftp.gnu.org/gnu/ncurses/ncurses-{version}.tar.gz" }]
+script = '''
+./configure --prefix=$PREFIX --mandir=$PREFIX/share/man --with-shared --without-debug \
+    --without-normal --without-cxx-binding --enable-pc-files --enable-widec --enable-overwrite \
+    --with-pkg-config-libdir=$PREFIX/lib/pkgconfig
+make -j$NPROC
+make install DESTDIR=$DEST
+ln -s libncursesw.so $DEST$PREFIX/lib/libncurses.so
+'''
+smoke = ["bin/clear -V", "bin/infocmp -V"]
+probes = ["ncursesw"]

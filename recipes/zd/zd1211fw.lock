@@ -1,0 +1,5 @@
+[zd1211fw]
+
+[[zd1211fw.sources]]
+url = "https://downloads.sourceforge.net/project/zd1211/zd1211-firmware/1.5/zd1211-firmware-1.5.tar.bz2"
+hash = "f11d3810d7f72833997f634584a586dcced71a353f965abf81062ec431d02b12"

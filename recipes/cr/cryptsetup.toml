@@ -1,0 +1,17 @@
+[[package]]
+id = "cryptsetup"
+version = "2.7.5"
+scope = "runtime"
+core = true
+extra_deps = ["json-c", "popt", "device-mapper", "openssl", "util-linux", "pkgconf"]
+sources = [{ url = "https://www.kernel.org/pub/linux/utils/cryptsetup/v2.7/cryptsetup-{version}.tar.xz" }]
+smoke = ["bin/cryptsetup --version"]
+probes = ["cryptsetup"]
+
+[package.autotools]
+args = [
+    "--sbindir=$PREFIX/bin", "--disable-static", "--disable-nls", "--disable-asciidoc",
+    "--disable-ssh-token", "--disable-selinux", "--with-crypto_backend=openssl",
+    "--disable-internal-argon2", "--disable-libargon2",
+    "--with-tmpfilesdir=$PREFIX/lib/tmpfiles.d",
+]

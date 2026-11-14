@@ -1,0 +1,10 @@
+[[package]]
+id = "libgpg-error"
+version = "1.61"
+scope = "runtime"
+core = true
+sources = [{ url = "https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-{version}.tar.bz2" }]
+probes = ["gpg-error"]
+
+[package.autotools]
+args = ["--disable-static", "--disable-doc", "--disable-nls"]

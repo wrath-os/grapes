@@ -1,0 +1,13 @@
+[[package]]
+id = "brightnessctl"
+version = "0.5.1"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "systemd"]
+sources = [{ url = "https://github.com/Hummer12007/brightnessctl/archive/{version}/brightnessctl-{version}.tar.gz" }]
+smoke = ["bin/brightnessctl --version"]
+# The screen's and keyboard's backlight, set through logind so no group or setuid is needed.
+script = '''
+make -j$NPROC ENABLE_SYSTEMD=1 PREFIX=$PREFIX
+make install ENABLE_SYSTEMD=1 PREFIX=$PREFIX DESTDIR=$DEST INSTALL_UDEV_RULES=0
+'''

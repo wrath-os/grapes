@@ -1,0 +1,5 @@
+[dav1d]
+
+[[dav1d.sources]]
+url = "https://github.com/videolan/dav1d/archive/1.5.4/dav1d-1.5.4.tar.gz"
+hash = "a1d5b63d2d38ec9bd03acf643caa51fa22edd1e89c5a109c4807717216bbec07"

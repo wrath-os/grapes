@@ -1,0 +1,11 @@
+[[package]]
+id = "vulkan-headers"
+version = "1.4.363.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/KhronosGroup/Vulkan-Headers/archive/vulkan-sdk-{version}/Vulkan-Headers-{version}.tar.gz" }]
+probes = ["vulkan"]
+
+# Vulkan's headers, which libplacebo includes even when it draws with OpenGL.
+[package.cmake]
+args = ["-D VULKAN_HEADERS_ENABLE_TESTS=OFF", "-D VULKAN_HEADERS_ENABLE_MODULE=OFF"]

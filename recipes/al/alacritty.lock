@@ -1,0 +1,5 @@
+[alacritty]
+
+[[alacritty.sources]]
+url = "https://github.com/alacritty/alacritty/archive/v0.15.1/alacritty-0.15.1.tar.gz"
+hash = "b814e30c6271ae23158c66e0e2377c3600bb24041fa382a36e81be564eeb2e36"

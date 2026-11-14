@@ -1,0 +1,5 @@
+[slurp]
+
+[[slurp.sources]]
+url = "https://github.com/emersion/slurp/releases/download/v1.5.0/slurp-1.5.0.tar.gz"
+hash = "eeb282b2adc8db5614b852596340b69da6f3954cf6cfbdc4392da509c934208a"

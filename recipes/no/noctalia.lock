@@ -1,0 +1,5 @@
+[noctalia]
+
+[[noctalia.sources]]
+url = "https://github.com/noctalia-dev/noctalia/archive/v5.4.1/noctalia-5.4.1.tar.gz"
+hash = "6069d922e9d72488c74e4ce335314ce2203f08bd4641380bfe1bd137004597fa"

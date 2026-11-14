@@ -1,0 +1,23 @@
+# SVG drawing, in Rust, built by Meson calling Cargo and cargo-c. Only the library: no pixbuf
+# loader, no rsvg-convert, no introspection.
+[[package]]
+id = "librsvg"
+version = "2.62.4"
+scope = "runtime"
+core = true
+extra_deps = [
+  "rust-bin", "cargo-c", "meson", "ninja", "pkgconf", "cairo", "pango", "glib", "freetype",
+  "harfbuzz", "fontconfig", "libxml2", "gdk-pixbuf", "python3",
+]
+sources = [{ url = "https://download.gnome.org/sources/librsvg/{series}/librsvg-{version}.tar.xz" }]
+probes = ["rsvg-2"]
+
+[package.cargo]
+vendor_only = true
+install = '''
+meson setup /build/b . --prefix=$PREFIX --libdir=lib --buildtype=release -D introspection=disabled \
+    -D pixbuf=disabled -D pixbuf-loader=disabled -D rsvg-convert=disabled -D docs=disabled \
+    -D vala=disabled -D tests=false -D avif=disabled
+ninja -C /build/b -j$NPROC
+DESTDIR=$DEST ninja -C /build/b install
+'''

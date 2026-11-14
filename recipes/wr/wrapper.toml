@@ -1,0 +1,18 @@
+[[package]]
+id = "wrapper"
+scope = "boot"
+wrap = false
+deps = ["seed"]
+files = ["wrath-cc.c"]
+script = '''
+S=$WRATH_SEED
+gcc -O2 wrath-cc.c -o wrath-cc -Wl,--dynamic-linker=$S/lib/$WRATH_LOADER_NAME -Wl,-rpath,$S/lib
+mkdir -p $OUT/bin
+cp wrath-cc $OUT/bin/
+for name in gcc g++ cc c++; do
+  ln -s wrath-cc $OUT/bin/$name
+  for target in $WRATH_TRIPLE $WRATH_ARCH-pc-linux-gnu $WRATH_ARCH-unknown-linux-gnu; do
+    ln -sf wrath-cc $OUT/bin/$target-$name
+  done
+done
+'''

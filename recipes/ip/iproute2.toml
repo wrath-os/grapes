@@ -1,0 +1,13 @@
+[[package]]
+id = "iproute2"
+version = "6.16.0"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "bison-final", "m4-final", "flex", "libcap", "zlib"]
+sources = [{ url = "https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-{version}.tar.xz" }]
+script = '''
+sed -i /ARPD/d Makefile
+make -j$NPROC NETNS_RUN_DIR=/run/netns PREFIX=$PREFIX SBINDIR=$PREFIX/bin LIBDIR=$PREFIX/lib
+make PREFIX=$PREFIX SBINDIR=$PREFIX/bin LIBDIR=$PREFIX/lib DESTDIR=$DEST install
+'''
+smoke = ["bin/ip -V"]

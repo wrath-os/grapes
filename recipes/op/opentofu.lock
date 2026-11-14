@@ -1,0 +1,3301 @@
+[opentofu]
+
+[[opentofu.sources]]
+url = "https://github.com/opentofu/opentofu/archive/v1.13.9/opentofu-1.13.9.tar.gz"
+hash = "acb73b84a4f32150f8a097841fe2c48a2e13d35656ddab4851f46a4d681cdde4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cel.dev/expr/@v/v0.25.2.mod"
+hash = "67452750d57eccae2633b174e66468b72632ede744addb4de2c0b26ddd38a8e1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cel.dev/expr/@v/v0.25.2.zip"
+hash = "c39e70b056124141413ba8c80cfca8a5f6becd0c870a4c48788cd15d625db975"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/@v/v0.123.0.mod"
+hash = "d0db7eaf5641f2724ec47b9880cf1920de0e1dd56014ddbf794845d960c53dba"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/@v/v0.123.0.zip"
+hash = "e9c9509cf75beb9516795eeb113d01a20e2a71496a66ed736b6ed2a516878d52"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/@v/v0.23.0.mod"
+hash = "45c2f3b99333b7b78340de895db41ad2bff7dd562abdace20d7314c2eb8c6c9d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/@v/v0.23.0.zip"
+hash = "d15459553aa29f868ae831758c25c212c6a714d1a0dde724f03aba62fe1a630b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/oauth2adapt/@v/v0.2.8.mod"
+hash = "17738c6a081204b38fee07bd815473d8d536a703ea78afa01ff63f0973c359d4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/oauth2adapt/@v/v0.2.8.zip"
+hash = "4cd64264bafc4dd05f645452d6e1485adf92309130bd82b4c595db10cd534963"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/compute/metadata/@v/v0.9.0.mod"
+hash = "80aefcb99e7ffca922974c5ebae6cc480e6be8845b9f4b28e7a1d3055525df08"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/compute/metadata/@v/v0.9.0.zip"
+hash = "f97e35d1c96239b8574054a77e312c95d2c82a89c21daf46ffeaea6d5fc59eca"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/iam/@v/v1.12.0.mod"
+hash = "bf4aa865b2ca92f8355a8cfaed0da8c5783b632e0c0f780fe26b2c95facab596"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/iam/@v/v1.12.0.zip"
+hash = "84efb601dffffd17bd31058cbc144b8b6a5088532030914470405b85f24f331b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/kms/@v/v1.33.0.mod"
+hash = "122ea8f3acd9a26ee1956e264e6f0235de2cf8f43e6015a664ffbb25a55da106"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/kms/@v/v1.33.0.zip"
+hash = "aee3bc55a09786e1c559b1aeb23a401c73b6b6c5e17166f265ae727b9dde931e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/logging/@v/v1.19.0.mod"
+hash = "f8054b2c7228f3b441d7d3fa8187c27c9f5dcfcf3ccb62ba8c0365145609b15c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/logging/@v/v1.19.0.zip"
+hash = "85199155669222acaec7584090d3f52eb2dfd10088b20d9bb767e53a5ddb9ec9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/longrunning/@v/v1.2.0.mod"
+hash = "f9ea668eed32a4fc5b497d23e63a09ee2b87ad67ec1bb929a1f5d7e676c23e2d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/longrunning/@v/v1.2.0.zip"
+hash = "fd66688ea2a5828626a3efa71614d9cf0d16be6011adc2bf3de7da1c29a547ba"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/monitoring/@v/v1.30.0.mod"
+hash = "7feb16bf42f0bc321d9e9ba9f0c35f9472a9e91811af4614606ddf7e6ef9966e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/monitoring/@v/v1.30.0.zip"
+hash = "5726b06143f5a46007f514f0755911543752b674dbd0a08170ce4f0de2d2564f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/storage/@v/v1.65.0.mod"
+hash = "58f127cd9ea7f8203449326dd66248cad99892bba36d21aa6978d60bf2923834"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/storage/@v/v1.65.0.zip"
+hash = "314902eea2d7b2ed5f2670ffd598fc950b952a0590c77bfd63e73b67830cdcdb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/trace/@v/v1.16.0.mod"
+hash = "866a4c198ba2d9bb1b540c623dec80be1942adc183e9b13381f61064ff587ad9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/trace/@v/v1.16.0.zip"
+hash = "07b78db647156ee6edfbcd3566679d52d5db67196e95fd2db9ad1594b0404ffc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/dmitri.shuralyov.com/gpu/mtl/@v/v0.0.0-20190408044501-666a987793e9.mod"
+hash = "fac4c5d8f682f9ec97721b2fc9fd53062ab170b2d2b7fab8ffc10ae183a1951e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-extensions-for-go/cache/@v/v0.1.1.mod"
+hash = "25f47cf39d4b7808d4860451a48f37eba322268cc2ef7fd95d46c9bd8c0cd22f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-extensions-for-go/cache/@v/v0.1.1.zip"
+hash = "de8edfcf96b8879307ea318c939dd4a07d666137e1bdf87733072a6c160e9e1a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-library-for-go/@v/v1.7.2.mod"
+hash = "b2fd1b4e34d43d197311535e96767bfdc330af998f5add0d9f9aaa1a86ad5f73"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-library-for-go/@v/v1.7.2.zip"
+hash = "dcd0ef2964e09743ceb7b6cff837253caab8f28ba92a40bfc6948eea4f667913"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azcore/@v/v1.23.0.mod"
+hash = "1e5197f84a44c2c36ba5a0ca6c79f4780666cdb7c1e02560b691833970697e59"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azcore/@v/v1.23.0.zip"
+hash = "587221d0d7430e7fe099d0737c2c5e0cbe9ea23709780ce2c95c8eb71678e59c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/@v/v1.14.0.mod"
+hash = "94f4984093ecefeca063f8a435a1fccc6caa34700c45b0e722099073ed63a951"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/@v/v1.14.0.zip"
+hash = "044868f3512461266db8282dde160e28cb465daf58b040349e13cc45f651a5d9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/cache/@v/v0.4.0.mod"
+hash = "0344cb0c2225d657af7fb823275e6099288de4f2f6da5730d4e131b61e5ff818"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/cache/@v/v0.4.0.zip"
+hash = "29a59f8fb8be3065e081a3bd8ec67658e97d396204f3a9f84a4724d89f13c150"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/internal/@v/v1.12.0.mod"
+hash = "8fe0f2ea6b42803e33800c0f17db82e5dbda8eba85d038da52a0d82f80b20b51"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/internal/@v/v1.12.0.zip"
+hash = "27800de3838500d4f3a0aaacea147fb49e0da3a7a6079a595c3e9d42df116ecf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/internal/v2/@v/v2.0.0.mod"
+hash = "1b9e92268ea44f12528ab5dfa14bc5748827291dc03792c7cd5ce7e5bee96199"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/internal/v2/@v/v2.0.0.zip"
+hash = "ca118b980624e02a37bf1b312771344e665dee30b8e9dd64aba7cb19201dd348"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/internal/v3/@v/v3.1.0.mod"
+hash = "20203b7d86f34ed32ee46cdc71766ef6fa98f68975a8817444ecfeb525ab6b71"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/internal/v3/@v/v3.1.0.zip"
+hash = "5af2515d8fc408ca575ab99651c1dc16878b85f841cd9291652dbed3093f8b11"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/managementgroups/armmanagementgroups/@v/v1.0.0.mod"
+hash = "4d5656d68a38fdc45934525128daa39649b652c0724d3fad69a8730be8022d33"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/managementgroups/armmanagementgroups/@v/v1.0.0.zip"
+hash = "b1729f422f11438e786729951e4944bf2b88523fc07ee785bf1d98fe0a222167"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources/@v/v1.2.0.mod"
+hash = "f953587ee0aae3413287ce2ae6bd901ca1c29555c62984fbdf4b116efb2560f4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources/@v/v1.2.0.zip"
+hash = "3bcaabeb817a212ddf0d5b0b3bf0cb2b85a2c578d273f319e7c1eb5a43d85b89"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage/@v/v1.8.1.mod"
+hash = "f996b652f8ed2da6784515e0937a1cebf7d5832aecb015117c72e70bc869499e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage/@v/v1.8.1.zip"
+hash = "e2e4a3536aaef9a113c9bd88e1a0c254b6efe510e432e76bd67020d0fa15628d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/security/keyvault/azkeys/@v/v1.5.0.mod"
+hash = "ea116b2c8f7d6776fe35636ed9a787a1f760bc3b8e3238bf114584d73484a7c8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/security/keyvault/azkeys/@v/v1.5.0.zip"
+hash = "957dd5a34b39bacf0503b17a3ecfd77d77ce3f90cce3da443e14daeb863ee7bf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/security/keyvault/internal/@v/v1.2.0.mod"
+hash = "d9a642e52d99731a2685b5ff6f41d8f2c84f84a3c22cd7d0ec5d91a7086baf21"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/security/keyvault/internal/@v/v1.2.0.zip"
+hash = "fea8b9a6517633da1b023698f9be20868fa21ef5886847bc9a939fbac89c7dee"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/azblob/@v/v1.8.0.mod"
+hash = "67d173ae44120104e35ea7f7fd51f1e1ebbe13b3fb9c7a2ecf2daabf80cb3568"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/azblob/@v/v1.8.0.zip"
+hash = "ff9c0d8c7a937cfb47bca75d86cf61642537886fb0352d1f119d478257cd5921"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!burnt!sushi/toml/@v/v1.2.1.mod"
+hash = "2677c82fe74f203772889a5a801afb329d9517550877ddacb17219169bab3edd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!burnt!sushi/toml/@v/v1.2.1.zip"
+hash = "6fb658e8262179ffd34d57eaef6b076b25c77e8b2129659b66697cded29a7121"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!burnt!sushi/xgb/@v/v0.0.0-20160522181843-27f122750802.mod"
+hash = "96ebde202b092f6f4d1f3930bc07cf18a5699998ddea51b94fe858113b29a8d8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!data!dog/datadog-go/@v/v3.2.0+incompatible.mod"
+hash = "5deca8a8fe39c63aba49666bc8ed0e86f6099bacd09766ecf0741e13fedc58a3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/detectors/gcp/@v/v1.33.0.mod"
+hash = "ad4ae93e27e351152492d6660bb2a25822773979de564fb6a3f01abdd59902e2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/detectors/gcp/@v/v1.33.0.zip"
+hash = "ace6d62b201e1894e1effea4a5b213a5c96d9945ff6658b0c1ee1e13b251cbcb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/exporter/metric/@v/v0.57.0.mod"
+hash = "1bca601cbc62e364dd19db08e5e9c7534cf5855220d6d90e375979c8e4b9e8d0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/exporter/metric/@v/v0.57.0.zip"
+hash = "52a49b23d1cf625b39b03018684546814dcda532d6ad6da9aadbfd3df419b42f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/cloudmock/@v/v0.57.0.mod"
+hash = "3a73d1fbae4bc2ceb531096ae0779ba63e15b7ee5af796179c52bf679a0f35e6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/cloudmock/@v/v0.57.0.zip"
+hash = "ae2472b878af7c35b7ee3ebe9fcb3485d1b3a746d026ade789bc16e81694c859"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/resourcemapping/@v/v0.57.0.mod"
+hash = "8baa773017b9dd7f106b6f66363daea1a258a45400b5ac3bd4e28238b8059b54"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/resourcemapping/@v/v0.57.0.zip"
+hash = "2d24f5866c4d9978043bf7c830aa09ac17fc3eb3916e9dd1e9edb2078e61e922"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!hdr!histogram/hdrhistogram-go/@v/v1.1.2.mod"
+hash = "7eb30b12b688fe8741b455e24688cff50edb8fccae7f99ebca8711954e61d264"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/goutils/@v/v1.1.1.mod"
+hash = "4efa82512d1b88c438c122671324c4b968b5a55af04388c7bcf100a6c4b1974d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/goutils/@v/v1.1.1.zip"
+hash = "ef8778a20c37e98a92e3b1db5ab027cc201743a2f5bfb26ba228bf0515e20b48"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/semver/v3/@v/v3.1.1.mod"
+hash = "0c22bf64508de083dc1e895935cffd9188ca546af08244e2f0b7a21e9ea023e4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/semver/v3/@v/v3.2.0.mod"
+hash = "dcfed332546566ccebdfb44841c8d7b7c865f54eabfe1984a6cc44acb5d6ed84"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/semver/v3/@v/v3.4.0.mod"
+hash = "7462a48cd90958d6fc79f674abb7ec89fa477a1cf4f292994ecb72a043c57d03"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/semver/v3/@v/v3.4.0.zip"
+hash = "20cf1a0cf1820860c47cb87a0daa1422824e39ca15f47bb59a52b33bce31a239"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/sprig/v3/@v/v3.2.1.mod"
+hash = "53cff4ee139d41d606de8fd2bbc9573af26f17f42ae881db959cbafde54d8222"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/sprig/v3/@v/v3.2.3.mod"
+hash = "06d6fcfefd11fbdf9acf88f0b4960c337546f0690968ca817bb999243570d981"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/sprig/v3/@v/v3.2.3.zip"
+hash = "2c533a1f9e700498bff05b051656e1024ffade38fe9a3e8bdfc439ee51d4821b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.5.2.mod"
+hash = "19b8fbe9d4419278bb1e9d0cf2fd5aec879e42829c53ba3efd5656b8d1b35ae7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.6.2.mod"
+hash = "47fb19990ebb31954f3aa784ff45f4c93a9e86ac3e1297d7ca87c614aeffe2cb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.6.2.zip"
+hash = "cd007bdb877a578efde2780bf5dd2f57dd557b5b08c3614597b820d0369ebb0f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!netflix/go-expect/@v/v0.0.0-20220104043353-73e0943537d2.mod"
+hash = "7e6a4e2dcf2df58a58cb81042f0d0ed99506f8c87667a89b11445116e6100b90"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!netflix/go-expect/@v/v0.0.0-20220104043353-73e0943537d2.zip"
+hash = "040ba69510995f02859c5651f5d22f73aab87dc5b41bc0c0ae63dee08650c48c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v1.4.1.mod"
+hash = "54a615125cdd4e48ce23567071b5b8d2965d83c045d8ec32e5b700628c69b152"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v1.4.1.zip"
+hash = "70bbdc0f9e926738193aed968f7901efab41493752277c4c94c9b751aa55c42a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/agext/levenshtein/@v/v1.2.3.mod"
+hash = "4472c50e7e1c3fe6e1e37881d0627b97b0a1329725849997e0b4c257d0b22ebb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/agext/levenshtein/@v/v1.2.3.zip"
+hash = "f24dcae174b3418f6340fb8f54797788a71130b960da4f07d3e08206cbcbdc02"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/ajstarks/svgo/@v/v0.0.0-20180226025133-644b8db467af.mod"
+hash = "b1bd5b7c4211b630297aa62c55249c9ddd3b68e0c7b4a2cce2d13cf79e4bcaa6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/template/@v/v0.0.0-20160405071501-a0175ee3bccc.mod"
+hash = "c02193cdaff23f70224597390832f568250af384f98dc4378aeb5bf8fec690fc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/template/@v/v0.0.0-20190718012654-fb15b899a751.mod"
+hash = "c02193cdaff23f70224597390832f568250af384f98dc4378aeb5bf8fec690fc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/units/@v/v0.0.0-20151022065526-2efee857e7cf.mod"
+hash = "3827e93d732af56cc9c1a033f29599c1397330de452bb51663d9891c79982f50"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/units/@v/v0.0.0-20190717042225-c3de453c63f4.mod"
+hash = "3827e93d732af56cc9c1a033f29599c1397330de452bb51663d9891c79982f50"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aliyun/alibaba-cloud-sdk-go/@v/v1.63.107.mod"
+hash = "bea8b0784af219facf416794f0801ea59ded76df1b973f093fe4f073079495de"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aliyun/alibaba-cloud-sdk-go/@v/v1.63.107.zip"
+hash = "371f328ae47e52de0f47d91804a85be791368cb87292cbdb296bb5d1cbcd3286"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aliyun/aliyun-oss-go-sdk/@v/v3.0.2+incompatible.mod"
+hash = "cc09e1d14a18977b350a6194aa3d2ce2e2afdcf4380c857a474d75b8112fbe90"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aliyun/aliyun-oss-go-sdk/@v/v3.0.2+incompatible.zip"
+hash = "d9fdda3fde5885381761bb164c7004e4e1d40de5a6da603cc597f029bd7e868c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aliyun/aliyun-tablestore-go-sdk/@v/v4.1.3+incompatible.mod"
+hash = "02e10c3514dcacbf22142d3bd246760cc064d36322f03bdde158dfd31b802bf4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aliyun/aliyun-tablestore-go-sdk/@v/v4.1.3+incompatible.zip"
+hash = "72859c01dc30f7c3dad19bbfee76236a91196a15a84eb2ed729f7d2d6914f712"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-cidr/@v/v1.1.1.mod"
+hash = "36847bdcdcb38658733f3b55df00cc436d25a908cec96a3399874217c94013a7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-cidr/@v/v1.1.1.zip"
+hash = "6bc2578905c487bdc42c3e8bea78c9247c8a0c11234b6aba332c005690ff278e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-shquot/@v/v0.0.1.mod"
+hash = "11fc9c4a1328dca480c9758289bd40f287804e0ae4f9127cccbf7af8fbebc22b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-shquot/@v/v0.0.1.zip"
+hash = "5888ae354faf38f63aad2f51b8b15fe6a37554f8354afcd5813fb3ea5cc66cc7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-textseg/v15/@v/v15.0.0.mod"
+hash = "3a0961608508606b7a1aabe47b586f0d9574c2ae483f76b0f98c39ac9044d95e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-textseg/v15/@v/v15.0.0.zip"
+hash = "4886c2e43b8cd2f6ffbd3a78ef436bd7bc8da7825ab7426257969f346e7bb7eb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-textseg/v17/@v/v17.0.1.mod"
+hash = "429fc0eaca9355b0606caa24c7e116b9965e16c7651f1d6eff68dd5127e3b4f0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-textseg/v17/@v/v17.0.1.zip"
+hash = "746c453b65a0d1474f9f8ff58e8379cdd6d897238a166990be4a96f9c6432832"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-userdirs/@v/v0.0.0-20200915174352-b0c018a67c13.mod"
+hash = "ad27bb34dd1e28109b9a92436c2f83bda2e79ab86bbece77330c1109b7989284"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-userdirs/@v/v0.0.0-20200915174352-b0c018a67c13.zip"
+hash = "ec53bbd1e0eaaca6196c683bce231536267d6d406a66c868ef486a3d62292856"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-versions/@v/v1.0.3.mod"
+hash = "e15799fe5149947e9f0d1c9c69e07ca1d902cc666a292a6ff760b42c4e7e71f0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-versions/@v/v1.0.3.zip"
+hash = "d0dad7f195e06c1e6b9462ce49a1570945f0b96c4a5ac84c21db85c766c1101c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-workgraph/@v/v0.0.0-20250609024419-b3453ef8d3e6.mod"
+hash = "c72f6c1a688890cfd44a403f395267f95369d2e0d1e421b997ff8c37d0b57f81"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/apparentlymart/go-workgraph/@v/v0.0.0-20250609024419-b3453ef8d3e6.zip"
+hash = "1a211e6ce730ba46d25dde07a26f2a285835937df1ab43113b9f1071f828688a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/armon/circbuf/@v/v0.0.0-20190214190532-5111143e8da2.mod"
+hash = "2422a1e1f3bb9468429f36e06bce454781336a4097262f74f5dda5a754e9be78"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/armon/circbuf/@v/v0.0.0-20190214190532-5111143e8da2.zip"
+hash = "c8b7ba977844b5378a2413c123c3e55d0885fb67f64ad6cf06575a791a36b827"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/armon/go-metrics/@v/v0.4.1.mod"
+hash = "e90361536c8a84d4b862654d13a31544476cf05733df96103225850e51bdced9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/armon/go-metrics/@v/v0.4.1.zip"
+hash = "f1b9155b8635eea48fb8929934b1268bf624cec2d51fcef8b62fa4aa91e05cc9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/armon/go-radix/@v/v0.0.0-20180808171621-7fddfc383310.mod"
+hash = "2dcdaf62ec29f7afa0d38534d48f5a97fa3e027343b0f8bf661aedb710214fd6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/armon/go-radix/@v/v1.0.0.mod"
+hash = "2dcdaf62ec29f7afa0d38534d48f5a97fa3e027343b0f8bf661aedb710214fd6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/armon/go-radix/@v/v1.0.0.zip"
+hash = "df93c816505baf12c3efe61328dc6f8fa42438f68f80b0b3725cae957d021c90"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/@v/v1.43.5.mod"
+hash = "12447d0ab125dba7c06e6b53066e10d083d1ea8128888b49034f0b9bd63a0dbb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/@v/v1.43.5.zip"
+hash = "6482ee1349f2513c7278ff0ad0edb815f6ad75f100a1349f42418988064e371b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/@v/v1.7.17.mod"
+hash = "63f9a653a4b35b463b2de5044e63af9b0e46ec7bb1779051e231c38aae6b1955"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/@v/v1.7.17.zip"
+hash = "565526598e4d4f0ff16027ade633003e149e95d27efeaf72e91c1a5c78812d9e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/config/@v/v1.32.35.mod"
+hash = "2dde3655994cdc3db24071a093dbfb38d0d7f74faf6dec4f4dba916abba6ebd1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/config/@v/v1.32.35.zip"
+hash = "167680ee7552f3033dee1b9270f57f2095156826e22f81d2257373924445268c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/credentials/@v/v1.19.34.mod"
+hash = "d88b7123b5c1e4b476a2bb2cf9bbc60e16e3563196946768a685b7ace475fabd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/credentials/@v/v1.19.34.zip"
+hash = "b123b25275f46717a305c983f6a4a510035ac4cd9ed993a07bc01768e1140205"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/ec2/imds/@v/v1.18.36.mod"
+hash = "827a39552a3e93bd63426cd822607c8a79aaaf09472f8d23194d899b11b8e284"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/ec2/imds/@v/v1.18.36.zip"
+hash = "d897199a68342e8e0333e42cdf0e7c537e280a0bad89d5f70d07687fec0acd57"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/configsources/@v/v1.4.36.mod"
+hash = "7680ad6eef13505325055814aa85753be28dcbb59f57ad321c78299a4a1e1b59"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/configsources/@v/v1.4.36.zip"
+hash = "aef73651f853c85aede6d718b95c6a93b596d1e175b599bbe5991cde6440e96e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2/@v/v2.7.36.mod"
+hash = "d2470f1fdd247306631c13e7085627cf29e2d6e43bb8ce20f2452d105803fa6c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2/@v/v2.7.36.zip"
+hash = "8ec6c96bcfeae55be78ff5e3a4b3af0b012b735a325fbc5184ac2fa5ff75b702"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/v4a/@v/v1.4.37.mod"
+hash = "457d516306240f6fa042634d36dcfea65e9183d7281f79840e026587a7f42d24"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/v4a/@v/v1.4.37.zip"
+hash = "3108ab2f5104970e61179f657431bd88ca174fcf39f55ed13dd734d4ebaa5b2c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/dynamodb/@v/v1.63.2.mod"
+hash = "71fe360dc00dd42a7c7ab9e4ef70c7fe62b759d355a29c577bfd79d587da4883"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/dynamodb/@v/v1.63.2.zip"
+hash = "28ee7a179abe6d0c9103eb7f28d5a5b6492a08dfc8189b48a4faa2a8c7485187"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/iam/@v/v1.56.1.mod"
+hash = "399c0979bd08e7a588b183cf955093af9ebc52578d72bcb35550645486f4ca14"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/iam/@v/v1.56.1.zip"
+hash = "4e7eb4818b7322035199a5e86f83d1401eadad7d3e4d859df9cc4c5dc20d815d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/@v/v1.13.16.mod"
+hash = "49e3aad82d40d602ef38d7a9260fb52cbfd41c701013d8499241a7c308359310"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/@v/v1.13.16.zip"
+hash = "7414556048a686e0fd1d9d312c69f5f4f88be041a363a2468ef8976f5483166a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/checksum/@v/v1.9.29.mod"
+hash = "23ca2054c14b88229e68e1e1013293437af5f0350bae9e16024d4c67ccb717f8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/checksum/@v/v1.9.29.zip"
+hash = "589267bcbf41e153b7a3bf820f09034463a14a346502d2d10ab1645b09e230de"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery/@v/v1.12.13.mod"
+hash = "c66f0b7a1ffaf1d42e93ba9964720ed27c8df657bd8b36c6d268e2aa66155c9a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery/@v/v1.12.13.zip"
+hash = "ba3ec8a7e8ed660a03f66f46a7823906088b1f8c6a8a2e23372b75fbc679d3ea"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url/@v/v1.13.36.mod"
+hash = "a95d361a6d55d2642d1a57cb516f766e8dae3da1a06861b3f8f7cfea14d77150"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url/@v/v1.13.36.zip"
+hash = "b0327249b8e6fff76c7cdbd3ce596c83bbdadef59579ac92c7480c865fc0b0b5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/s3shared/@v/v1.19.37.mod"
+hash = "cb17dcb76ae8e73d0a20930d042c597126ccb25142810cbcb1bb9041d1d5c50b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/s3shared/@v/v1.19.37.zip"
+hash = "fb6022faf993947d2f8480c52f2f09a3ff9de00aa636477684fe7e4b8640541d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/kms/@v/v1.55.5.mod"
+hash = "8dc72812be52775c93384c4c75ef77b1c656fe121dd6173a92db6432b6874f36"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/kms/@v/v1.55.5.zip"
+hash = "323b7630367422723394a976b8ddfae44f263d97843ed8a498a8784bdaa62faa"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/route53/@v/v1.62.7.mod"
+hash = "311fcccfe7861c65a39cede24c99f413c619922abb099a6c022f06949140c94c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/route53/@v/v1.62.7.zip"
+hash = "f020ba9e75be5f192c61738e3e2e392b45ffb5641917089aa4e71e41415a168a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/s3/@v/v1.107.1.mod"
+hash = "f9f5063055224fdffb0a2334fcfbfdeaf1c9ce22d56a2b85e479a2264d24d0d8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/s3/@v/v1.107.1.zip"
+hash = "1d3f9fe504c81ea8a0cbad621b1ff2834818eb91eacd178ebb2c59d36dd3034b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/signin/@v/v1.5.4.mod"
+hash = "b75d20240570d0b3eb299f870d563bfdee43ea900e36bd1e8773b5bd82477943"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/signin/@v/v1.5.4.zip"
+hash = "95ab66a1e242c357e68d3e6289d58c5e2215c8d89fae22a421c5ead84be28155"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sns/@v/v1.39.17.mod"
+hash = "57409e1822efccc9cde9cc098cfdebd964002da8020de873d2a178e8fe6a0f69"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sns/@v/v1.39.17.zip"
+hash = "d5af946a30b0293e3e52923894bb7e18154d425ca9c132ba1019a10a558c3bd3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sqs/@v/v1.46.1.mod"
+hash = "fc472f72210b196324fa71e0612d191ae7c2b4aac1caf4b358a12ca8b8fa6313"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sqs/@v/v1.46.1.zip"
+hash = "a9887c8e1e4dfbf7ba01644f9f158891eb6b7c9f8d09760551588dcf51cdddd9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sso/@v/v1.33.4.mod"
+hash = "8f4db90aac2529960af98130bdcacfc6d3b07c333e5fe832b95eaf00c6c7bb4c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sso/@v/v1.33.4.zip"
+hash = "b446d87a0694e8ec4c0c914ad73c0412f109feabad87a83e98dec627ddb81094"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/ssooidc/@v/v1.38.4.mod"
+hash = "9f9e33e1658325bcfb8b2d13b6d66de2e88a865b8a1f5cb27dbf0f19ccdc38dd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/ssooidc/@v/v1.38.4.zip"
+hash = "57be06c54739a591715856628a3c7d8118ad0763f70568b64f0b4a98d9689201"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sts/@v/v1.45.4.mod"
+hash = "5c905a5a3989045f5abdedffb55bc07a38deb25be4bef8169bbef3da1bb43af2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sts/@v/v1.45.4.zip"
+hash = "e584a70bc4a792d401852fe3a0fe4a75653e78be2c7bee141d4bfca19b004a03"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/smithy-go/@v/v1.27.7.mod"
+hash = "77bb1f126ec520dade5c97d14a05deb9696fc29a853520b943aecd3849219e81"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/aws/smithy-go/@v/v1.27.7.zip"
+hash = "590b8c9362f39c2618602623d0ea0470f8274af01cf6ff26bc76db05e85bfb9a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v0.0.0-20180321164747-3a771d992973.mod"
+hash = "cc4d1faad75965fa69eb13120bf956827719005ff3ecdc704b36fb58fb1fd16e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.0.mod"
+hash = "c0dc6e5b72a5cd23c6f76390a1efca27e568b9b94f3cabe5df35a4fa61862484"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.1.mod"
+hash = "c870b3fe50b6944fab095b06208d9c8898763e9173cb1eed3258c3d58309ba66"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.1.zip"
+hash = "25bd9e2d94aca770e6dbc1f53725f84f6af4432f631d35dd2c46f96ef0512f1a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bgentry/go-netrc/@v/v0.0.0-20140422174119-9fd32a8b3d3d.mod"
+hash = "b13873ae7b76696e5d0ae101be9475154da4b394114a5b992daedfa34204b8b9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bgentry/go-netrc/@v/v0.0.0-20140422174119-9fd32a8b3d3d.zip"
+hash = "59fbb1e8e307ccd7052f77186990d744284b186e8b1c5ebdfb12405ae8d7f935"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bgentry/speakeasy/@v/v0.1.0.mod"
+hash = "ddcc290dbdf013f4aac95f19d37fe35df7a4cad7b02f27e530a88935cfeb2c38"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bgentry/speakeasy/@v/v0.2.0.mod"
+hash = "ddcc290dbdf013f4aac95f19d37fe35df7a4cad7b02f27e530a88935cfeb2c38"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bgentry/speakeasy/@v/v0.2.0.zip"
+hash = "54db02088d979118dabe83139b80efa5d84d8bba03f3effe458be5c61f20f09f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bmatcuk/doublestar/v4/@v/v4.10.0.mod"
+hash = "4eeea45a0d1d95576ac99c9adddecd77878b98445bf679d3f193a51669bd1450"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bmatcuk/doublestar/v4/@v/v4.10.0.zip"
+hash = "381882762d63ad35709a6a426be336d6b714b26f13a391fde52911fadec07949"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bufbuild/protocompile/@v/v0.14.1.mod"
+hash = "078602f8c57881b9ec4445d39018513ead5f6e8888855c82231d394404f7b755"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/bufbuild/protocompile/@v/v0.14.1.zip"
+hash = "e91f690874eeec2dce2c24b777a79b0569501b4c5014e0360ad746566cf719ef"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v5/@v/v5.0.3.mod"
+hash = "43ecf1255f004bf9e5e18749c275507326aa1f26b2b504185dd6db07efbbffc7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v5/@v/v5.0.3.zip"
+hash = "58e4d9014277bc1c5c7ab64539137923964cc3920303a4f771d02a532939bedb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.1.1.mod"
+hash = "a090f8eaaf59cc2adf163299ebefe797e1dca3f6add2c8e88a6a3b90ba538b02"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.mod"
+hash = "a090f8eaaf59cc2adf163299ebefe797e1dca3f6add2c8e88a6a3b90ba538b02"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.zip"
+hash = "145a26cdc7c49db566017b807c4989ee7f7ddeb569423e9cb99f995fac3621d3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/logex/@v/v1.2.1.mod"
+hash = "c9133edf3ffc200bdfeb056da30903c2c065e4c3f18c6ed2e03de657d6bf0812"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/logex/@v/v1.2.1.zip"
+hash = "8bc36e064d4f53348c25a5745bd3a9030e3710c7083407da632905114d878bae"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/readline/@v/v1.5.1.mod"
+hash = "40b07659685e93f0e52ca42a8096117f81a3799f71e989c92d0108fa1c2ed90e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/readline/@v/v1.5.1.zip"
+hash = "ce25854a8beae5c20bdde840d5142e6fbd1f86f0e58442705b8fb21dfce48501"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/test/@v/v1.0.0.mod"
+hash = "7b0e1c7b009a0cb18d7e45ca3ca615014bf14e96c3bbdff5f47fffda51bd1a2c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/test/@v/v1.0.0.zip"
+hash = "4025a598a01e950ee44ba078b493e61e527dad8171b6ba10b7ae30371dbc630a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/circonus-labs/circonus-gometrics/@v/v2.3.1+incompatible.mod"
+hash = "d265e594e624d5c8477c1b7b8363f356f74f05935d8d6d314520d0369bbe4b52"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/circonus-labs/circonusllhist/@v/v0.1.3.mod"
+hash = "43397c98639eedf692cc4de8dd068d255e24a00efae8a5781c27087059d861f3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/clbanning/mxj/@v/v1.8.4.mod"
+hash = "33c2213e63374aa82786182cc8b4912ca659faa2ee6b6d536253e82cff1c531e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/clbanning/mxj/@v/v1.8.4.zip"
+hash = "8947cf617bdd9efc62817c8ddb17bafe497f35abdf10a3c60f295e387f633f70"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cli/browser/@v/v1.3.0.mod"
+hash = "242b6a7ed16d019444add79b8a750a0661acfffd31f1e21aa826e1f458310905"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cli/browser/@v/v1.3.0.zip"
+hash = "5d743729fcb6d5467f206328e476b0bdc124426a77e2d8e13320ad929afd0127"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.6.3.mod"
+hash = "2eeb15c166c5960d63e47e44432e12b93f1ab5ec997d6d61a0deb73d989ab5e5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.6.3.zip"
+hash = "9aed6385d52ccd66e0a3b8cc093b5f0e7744640485405dd08c8ef89ef6bbeb06"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cncf/xds/go/@v/v0.0.0-20260202195803-dba9d589def2.mod"
+hash = "6ca3a45f07732c4a65537a01eee4f8907d951bd7506401c693fca5eadb709e1b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/cncf/xds/go/@v/v0.0.0-20260202195803-dba9d589def2.zip"
+hash = "6f1b8ceaaa6e773dba2595bfe7b75f54d98f901c8f1340d420138095b36778fa"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.17.mod"
+hash = "0413a4191dccd6c75b0cc74cb71af1564070f2ecbfce3ab4ba3ccc9d701fd82c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.18.mod"
+hash = "0413a4191dccd6c75b0cc74cb71af1564070f2ecbfce3ab4ba3ccc9d701fd82c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.18.zip"
+hash = "7dcada7782e04f0d4b47d50d4ef35f36f2c80f909231019149480429bdb176e5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.9.mod"
+hash = "eab0705bc4a18dd315c27a4e3dba8f20a9e123065fa20633966332b5cccf7731"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.0.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.2-0.20180830191138-d8f796af33cc.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.2-0.20180830191138-d8f796af33cc.zip"
+hash = "b4d0923b169b194f0016ec46f3df1ab0c68e27999743e43fe2de59ecb2484128"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/emicklei/go-restful/v3/@v/v3.13.0.mod"
+hash = "de61515c41eaf0be524b2c8aa7a3f321b339f19788129ac44449af7e1278fd5e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/emicklei/go-restful/v3/@v/v3.13.0.zip"
+hash = "06bd60484b324de0b8e4366d4ed326db2e1dc730459b46e19a5306a108439c77"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/@v/v0.14.0.mod"
+hash = "d8a4b948f183dbf5c98a8e589a6e6bc164b09514674538e1dbe3d64869f43a90"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/@v/v0.14.0.zip"
+hash = "79424a75c005ee0981601e44449347c62a3f35b3b2ea57af79a89c1f31d80906"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.37.0.mod"
+hash = "ff5016c87ec3a93b80826deecc7b71c216e97fa4a946525fd938c6b2fb1f5cac"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.37.0.zip"
+hash = "dea96dd46aa4480f6f5dad6b52b9059d088d06a090968557dafa8cd633f629a2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/ratelimit/@v/v0.1.0.mod"
+hash = "c64805e312c68210f504ec5c4ba69be9af8dc99d9d31a0be8c1d1fd7f0902dbb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/ratelimit/@v/v0.1.0.zip"
+hash = "1165c3cf1efb096a04a3d65b345f3780adce78f126583f7b98465c413a440766"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/protoc-gen-validate/@v/v1.3.3.mod"
+hash = "a6d1c9cd0c0384f119901637ace30d175f6c0a59b99035494f23ebef1ac0d03a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/protoc-gen-validate/@v/v1.3.3.zip"
+hash = "83a909ec95b94609da1f610a866e0553dd4ac3a7b485f7dc5c734692fa326754"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.13.0.mod"
+hash = "f0ac49fdf878d4b36897025bfb18639e2fe67d884cea8e324e5c1915697f8b1c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.19.0.mod"
+hash = "fea48cc3b2ed755595426699c1af8023cb61cb0fb1a477bafc78ca10750f6871"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.19.0.zip"
+hash = "694b4265dc678e2a65b196371d5a6ec4eed3739f12a16021dcd2f0c1355d0ec6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.7.0.mod"
+hash = "4c3949e65c12a24e0bbb2d52118bc048e6980c29bc49402c59658ade035198a3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.1.0.mod"
+hash = "e6c8e044418c809ceea7acbc002c297bd433ea635e0ac9e4fc2019c9bf895b6e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.1.0.zip"
+hash = "e3405a361843f8e69f64e41b523512925cd50fd5ea108b7912534922c31b00e7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/fogleman/gg/@v/v1.2.1-0.20190220221249-0403632d5b90.mod"
+hash = "4bad40c896fc9d7d557ba4f711d8c3b7312a6c9ad57ff5bf1116a70d427b68dd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/frankban/quicktest/@v/v1.14.3.mod"
+hash = "f9ee7d28c5f54978eb47619d56495c8cd3cb8c8e6ef146768860e52ceee932ba"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/frankban/quicktest/@v/v1.14.3.zip"
+hash = "35014be7acc79de33c58785d9372f48702556bf35fd89067c3ecbedf49c2e987"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/fxamacker/cbor/v2/@v/v2.9.0.mod"
+hash = "d7bbc7167a38275831838773356370c370d2ce3ed28c60486f52cdd5a799c92b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/fxamacker/cbor/v2/@v/v2.9.0.zip"
+hash = "5b0ec6424bd522aeeeab30cbdcad6f40bf976a9a2ddf125ab27b97826140d97a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-gl/glfw/@v/v0.0.0-20190409004039-e6da0acd62b1.mod"
+hash = "510b2d54bf2c8b48ef87c5d05576f8771224c7e7ee2a85a5a97ea01925603eb7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.4.mod"
+hash = "e069e6002d29495b8c2dc6cf0d3b56a075ec5be7abb6c2eb1a1c0845cb66b8b3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.4.zip"
+hash = "06a37b6668012a2dd109a5f71f6ae15387dc808b35d3cf73f5e406e78a17b027"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-kit/kit/@v/v0.8.0.mod"
+hash = "807c52d36bed2dbf7c6dc993567a386e6bd1307396a335ef2ef9ec8ce7b5c2db"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-kit/kit/@v/v0.9.0.mod"
+hash = "807c52d36bed2dbf7c6dc993567a386e6bd1307396a335ef2ef9ec8ce7b5c2db"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-logfmt/logfmt/@v/v0.3.0.mod"
+hash = "79398bccbcbc130ad00f98a99ce69ffe5cacc3458bf4d332f1589bf99babd948"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-logfmt/logfmt/@v/v0.4.0.mod"
+hash = "496161c9b253bfd71dfdb40233c322786d55e9e42953785c3be4838983fe7e79"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.2.2.mod"
+hash = "519b1d6da5eeef675b4a1857d628f05f110a2b8cb3c423b715fea80d0975a518"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.4.mod"
+hash = "c496f30d700f02b49a1b50bc2486a27c2f74df3dce75d9db6d2d43975b381727"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.4.zip"
+hash = "3ab107c1d280ce798eaa744efd595982fa709d4023f3f38d24189827483c1710"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.mod"
+hash = "0812160f77474d8dbf692b7caaee7fd5508448c705d9b54b5a3496ac44468c2c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.zip"
+hash = "9dd6893bf700198485ae699640b49bc1efbc6c73b37cb5792a0476e1fd8f7fef"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v0.19.6.mod"
+hash = "e9ed6d9efc9b866e3477e83c40b0aa88ac05aa445ab90cc53da8b68bd9b4d8b7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v0.21.0.mod"
+hash = "41324be3e0f1c60b2408cfd4971a4938e682fd5601483396709948b565eec17f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v0.21.0.zip"
+hash = "8a36ba84f6f6148834875fff96da79fcc2b383ace69cc34d71756b3fa84b9952"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonreference/@v/v0.20.2.mod"
+hash = "3bb2d13031b975d838650f3e5d7eebaaefe88e444f0927848632cb59131c2366"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonreference/@v/v0.20.2.zip"
+hash = "27afd0bef56453e463eba6093afb04dc08d97b5ad0e15b2266cac867d062ae1b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.22.3.mod"
+hash = "0e3160943959708f7f7ee3fecfec0079c678fbd3dba6c5d7adb85f12e898c424"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.23.0.mod"
+hash = "600645ad65f4973a17dcee32b4c95c1d9cee6d0acc913bbaaceb5656b1fa5f03"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.23.0.zip"
+hash = "a604425d0d3ff6936ffd056e86cd776c80e06874ef026e53da528208a986df94"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-stack/stack/@v/v1.8.0.mod"
+hash = "591552a7ca5f4351d9bef6b868f2d85a61ea028271442581f5f487dced196129"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-test/deep/@v/v1.0.1.mod"
+hash = "d1879e1f0d4d967bad2f1da3782b6094f3697935615575be97d171695c1d4aae"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-test/deep/@v/v1.1.1.mod"
+hash = "1ba3a610cf409ae0c639e3675c7e471f34ee168f47bfff7f596d952562265822"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-test/deep/@v/v1.1.1.zip"
+hash = "52844b1cc8b3e4e5613bef80f0f88b02d73edb3c6b24d58f14a20c76d86cb2dc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-viper/mapstructure/v2/@v/v2.5.0.mod"
+hash = "5393fe364f1a200c6a84ee2c7bf727f02c9e0b1f844ca13b188ca925f4718b08"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/go-viper/mapstructure/v2/@v/v2.5.0.zip"
+hash = "326f8e00f648af4ae8e6e18c606325e4206a92d6ed42f486dc2f4da8e1897547"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/gogo/protobuf/@v/v1.1.1.mod"
+hash = "ffc140935ea14be7245f05cc8206e4933a4620965a7ee1108d253564f984026a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/goji/httpauth/@v/v0.0.0-20160601135302-2da839ab0f4d.mod"
+hash = "e70fd2953b983c8d9cc5166f79faa9f813d30aa8ba7621d38bc86e95a04e8c0a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.2.3.mod"
+hash = "3ea9a4810104feb6bfc26ee805e7e427a018ee497065e7b1b117c0131e4ee30a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.3.1.mod"
+hash = "ce98fa479154259db056ded8254a6ae9c66f2b42e613e76ba0f026699b5e542f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.3.1.zip"
+hash = "5c9a74494e2bc746cee56558b5473252af5767f7ea4044caa9ea0fa2a056fec7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang/freetype/@v/v0.0.0-20170609003504-e2365dfdc4a0.mod"
+hash = "26d471ad5950334d990718ffb46734113226ef134f19fbb87354e3d87dd34853"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.2.0.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.3.1.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.3.2.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.mod"
+hash = "c5f873c621cfaaf563f8b66a0501a5be14390cb0859e5187ce616d0312a6c8f8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.zip"
+hash = "9a2f43d3eac8ceda506ebbeb4f229254b87235ce90346692a0e233614182190b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/btree/@v/v1.1.3.mod"
+hash = "671a2227c5628cbb94ce027ab4232858c4f0dd0cbb98aaa83d7a265d7ec194d7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/btree/@v/v1.1.3.zip"
+hash = "11b736bc8252b52fecdf346d3707ccf3a2b6d458ba21b4f843616fc12eeb30b2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/gnostic-models/@v/v0.7.0.mod"
+hash = "d7c113d94383eb3acf6dece22054fa47b8101ffaeca6e351d0c82ddfe3e8b953"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/gnostic-models/@v/v0.7.0.zip"
+hash = "797a05cd73a30624ece79633c4db4631676adc1f30f07a0a7051ab39beca96c8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.3.0.mod"
+hash = "81df7917c225a9da7604b230d952fa278c60a8832c10d799385d134b05d5b087"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.3.1.mod"
+hash = "81df7917c225a9da7604b230d952fa278c60a8832c10d799385d134b05d5b087"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.4.0.mod"
+hash = "4036ab5636aa42bd313296cd3bfcb4c88912760c56a9e6655ae422d8767c80da"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.5.4.mod"
+hash = "4036ab5636aa42bd313296cd3bfcb4c88912760c56a9e6655ae422d8767c80da"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.6.0.mod"
+hash = "e7c7669d4a1dd589ba3e024ba27f43f293db611fe075ce20d7b884370d63febd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.mod"
+hash = "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip"
+hash = "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-querystring/@v/v1.0.0.mod"
+hash = "0fe9c90cd52aeac9dbd445cf638d0083d8ad0cdfad3dc85a2ce8c7502f7a0787"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-querystring/@v/v1.2.0.mod"
+hash = "13dacd2a2f20dc65fbf9f795ce21fb1d09ccb68920034dd99ba6f72f9e3e77d7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/go-querystring/@v/v1.2.0.zip"
+hash = "57b7ce2b82b33c68f59a224c6dd1305753e5ee3eecbefd09d43423a14f541e31"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/gofuzz/@v/v1.0.0.mod"
+hash = "fb009c01ee165bbaa85c85e8a3a794ea8e83f80714d4183465dc81d811b54427"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/martian/v3/@v/v3.3.3.mod"
+hash = "4bd33b1ecb29aa09dfc0b5de32892e8f645682725f81b22ac0815775939c9d53"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/martian/v3/@v/v3.3.3.zip"
+hash = "86fde455cfd8d04425d845d9a3c766069f3f1ab892c983be03ed9545c0889485"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/s2a-go/@v/v0.1.9.mod"
+hash = "47d4257200a74c3210f4bf07264f3a27eb39817ff01e24d92cc069dfb421325b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/s2a-go/@v/v0.1.9.zip"
+hash = "bf8f4b159d3fc201477822ed2514e4f05f58c764b78ffed73ec0accce5fb7f07"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.1.1.mod"
+hash = "73da47b6338b00a082fd451aa35a3273d3adc09b8e9bba98dab01091e402af6e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.1.2.mod"
+hash = "73da47b6338b00a082fd451aa35a3273d3adc09b8e9bba98dab01091e402af6e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.mod"
+hash = "73da47b6338b00a082fd451aa35a3273d3adc09b8e9bba98dab01091e402af6e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.zip"
+hash = "d0f02f377217f42702e259684e06441edbf5140dddcc34ba9bea56038b38a6ed"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/enterprise-certificate-proxy/@v/v0.3.20.mod"
+hash = "cd84f86fd5b3ca10cd8c7f6ba2a603592d8cada3956d77f08d7cef2cfd19d73d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/enterprise-certificate-proxy/@v/v0.3.20.zip"
+hash = "45223f043df0c3132546ce277befc8014ec561e5cde52a90b751ba54e4eea9a3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/gax-go/v2/@v/v2.24.0.mod"
+hash = "c89e11dd9b7518025edd799e8fb42c2dd6eb1dfdaa9dfddd30928ebdc4ee057a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/gax-go/v2/@v/v2.24.0.zip"
+hash = "b9d0bdf890ece7df5876904acb494808f1c0a1a0cfd3760b4a9a047358ea16ce"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/grpc-ecosystem/grpc-gateway/v2/@v/v2.29.0.mod"
+hash = "0d759d4a6c23af4bd39f85fd0c9f4de3931ce0d480432683e806c5bd116ffa45"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/grpc-ecosystem/grpc-gateway/v2/@v/v2.29.0.zip"
+hash = "92aa0dbc15037aeddca97ff7f8e4c61bdc3841a34a0df9bc27af30265e598f2d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/aws-sdk-go-base/v2/@v/v2.0.0-beta.74.mod"
+hash = "1c2d46d634c1546539ca7beb309ca0bf935fe815dd1de067e02f2d8974e9c8e0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/aws-sdk-go-base/v2/@v/v2.0.0-beta.74.zip"
+hash = "9ab3285b841d02ef0081bd3cb46f74a997dace10afab5222f44fd961465a69bc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/consul/api/@v/v1.34.4.mod"
+hash = "c75a9dd44d77ee0d38a3076c77e2ae112985fc7b004e9e577aa66d725b9480dd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/consul/api/@v/v1.34.4.zip"
+hash = "b99e56e2c3a19a19ae62955130afaeb21086041ccb2fff0f27d4c85c89ae77f6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/consul/sdk/@v/v0.18.1.mod"
+hash = "d2030a8c8c89ea84cb5afcf06d4ea44e9490e0b235054d60101c6015fc5dc170"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/consul/sdk/@v/v0.18.1.zip"
+hash = "021f182e4715d797684158985c5f27944f1577e04842ebd3f01167bbf8bfe221"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/errwrap/@v/v1.0.0.mod"
+hash = "93985e11af40e6301f25d7f83cc4032d2d6d22f338aee277471a89364c700b29"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/errwrap/@v/v1.1.0.mod"
+hash = "93985e11af40e6301f25d7f83cc4032d2d6d22f338aee277471a89364c700b29"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/errwrap/@v/v1.1.0.zip"
+hash = "209ae99bc039443e28e4d6bb66517d1756d9468b7578d31f1b63a28103d8e18c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-cleanhttp/@v/v0.5.0.mod"
+hash = "3b0ef4f198843e4c9a68f74b456d9ae25c4eb5098c3e52665b19153176c080df"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-cleanhttp/@v/v0.5.2.mod"
+hash = "5f02d28672d1bc0c8ea1fc95699582c7595495b4f8606bd551591cebe3daa011"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-cleanhttp/@v/v0.5.2.zip"
+hash = "e9f3dcfcb33172ba499b4f8e888169252d7f1e072082182124a6e2053523f7df"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-getter/@v/v1.8.8.mod"
+hash = "b9393cd0f322a039edf302ab4ab669dffa54eb681f7eeb61bc6a96321fbaa395"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-getter/@v/v1.8.8.zip"
+hash = "99715dbba8d2163e63c5ee2fe1a5ddaf182f5a285a9daed592965d85bf899742"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-hclog/@v/v1.6.3.mod"
+hash = "ad842f365a0834bf8aabb8ce10985deb7991daf45cc6c5ac0705f4b0eae4fb05"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-hclog/@v/v1.6.3.zip"
+hash = "ebab3136e5327ad17606485f633c2d033c61eadb843b2f3629b6d65d6fbb1400"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-immutable-radix/@v/v1.0.0.mod"
+hash = "171a92df70eb519629fec3566c37a67ca67dcda669878e523571b7888617b487"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-immutable-radix/@v/v1.3.1.mod"
+hash = "171a92df70eb519629fec3566c37a67ca67dcda669878e523571b7888617b487"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-immutable-radix/@v/v1.3.1.zip"
+hash = "47f3d79b57082d5db3f966547ad4de2a00544dfb362790fbf2cef1a161b4de3f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-metrics/@v/v0.6.0.mod"
+hash = "f73d222a68d8c728da0088e95e58a37b5a4668425324b1cecf0f5d08705816d0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-metrics/@v/v0.6.0.zip"
+hash = "6152c13d1922bf06994b0476c062369acd900c389b7bef3ecb5462224d8593e7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-msgpack/v2/@v/v2.1.5.mod"
+hash = "b1394bd312d5bf584a720ad1bf65fd1ffc0b06b2ba665b9281f56cda9897162c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-msgpack/v2/@v/v2.1.5.zip"
+hash = "723720f55e982d05fbd76888cedb5935cad3336c3450caa98be1aa6e9591d9d5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-multierror/@v/v1.0.0.mod"
+hash = "4e607899c8ddb9bc93ed33f24d7af119ff10241249d639864821173149e1cbc2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-multierror/@v/v1.1.1.mod"
+hash = "6b44c7b8cf8c5ec59df682c5e882d5daf4d4a2f036a98f9e5add13919bc22d0d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-multierror/@v/v1.1.1.zip"
+hash = "972cd841ee51fdeac69c5a301e57f8ea27aebf15fddd7f621d5c240f28c3000c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-plugin/@v/v1.8.0.mod"
+hash = "94f1db9e878d38e2b3f3107a80e9cefb3e3dd8f21fc372baa9a1ed9a17b21928"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-plugin/@v/v1.8.0.zip"
+hash = "4d2ec76dfd4266342eadebb3b12e198983684e9a9208d0e257fa2b8f65717aa9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-retryablehttp/@v/v0.5.3.mod"
+hash = "660941c82d8c3afcbc307bdb799fa626ca6b708252343c999d1dca1c99f4edfb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-retryablehttp/@v/v0.7.8.mod"
+hash = "099ff2b88e2ed64f7222f84a8d7cbf7e727261d4d181338a68184fe9f60dc49c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-retryablehttp/@v/v0.7.8.zip"
+hash = "9e2c175e4af37cdfeba28ed89250ad1fd691eda0fab167fafa9928222646b71e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-rootcerts/@v/v1.0.2.mod"
+hash = "35a1cf75e24cb06f2b6013c16fdfbb13b740a8dd289fc33214b0c03b29976513"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-rootcerts/@v/v1.0.2.zip"
+hash = "864a48e642e87a273fb5ef60bb3575bd74a7090510f93143163fa6700be31948"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-secure-stdlib/parseutil/@v/v0.2.0.mod"
+hash = "ff8dfe492601be6c96e6423ac0682b04c7019bfe758b213cdb8c5ed7216b3d5a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-secure-stdlib/parseutil/@v/v0.2.0.zip"
+hash = "715aecec5d925467704774d3ab4bd3c4eead5ddb525a4bceb06c6f1e697ddba8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-secure-stdlib/strutil/@v/v0.1.2.mod"
+hash = "d917c78e26192161a179c7ea4f1fc407602586c660a677b4a0d256746b294698"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-secure-stdlib/strutil/@v/v0.1.2.zip"
+hash = "8070c67bc97e15488b99b172ddb6631412dca0fcb8cea90e37fe55d95e1af00a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-slug/@v/v0.16.8.mod"
+hash = "2956d021ce01d2b3300b7067b63347fc3e445548fd22687d7539ede6f3192507"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-slug/@v/v0.16.8.zip"
+hash = "c042bec910a3481ba3b4b1483c2eee048f136a22fa3cec08130dd370a6ba0d94"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-sockaddr/@v/v1.0.7.mod"
+hash = "4211f73ac7f74479a5250c373e08ec93a5bdbf5b7565ef78379fdb997f9a3e83"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-sockaddr/@v/v1.0.7.zip"
+hash = "53ea8d77b68056fe7f40a53338aa73ed6ddca9558fe1156804070a060f1a930f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-tfe/@v/v1.101.0.mod"
+hash = "171b8503686c797fa5de0e225e93ab3727419b06dd5db0863e5dd5105817217b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-tfe/@v/v1.101.0.zip"
+hash = "9113eb07b052d3cc72bf9d7b1e45652e2c49bf5d7b9cf5fac151bfaa20dc0e53"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-uuid/@v/v1.0.0.mod"
+hash = "1c4a96ad155de1eab04062a5be4010bb9aaa371252aed524217c2e69c14adecf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-uuid/@v/v1.0.3.mod"
+hash = "1c4a96ad155de1eab04062a5be4010bb9aaa371252aed524217c2e69c14adecf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-uuid/@v/v1.0.3.zip"
+hash = "5e9dc2bb3785d69a65d287a4b3fa7e9f583a127e41c6a2fd095ac862fed71dad"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-version/@v/v1.0.0.mod"
+hash = "eaae97e899a62e9c8e02ac5d173c3ab6834385fc18ef89b6dcbdf6986bab3ed1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-version/@v/v1.9.0.mod"
+hash = "eaae97e899a62e9c8e02ac5d173c3ab6834385fc18ef89b6dcbdf6986bab3ed1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-version/@v/v1.9.0.zip"
+hash = "b6c05489bf11a28c81cf38119782284c859d6c2d193b811d3f0117592eb31fcb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/@v/v0.5.0.mod"
+hash = "ecc563d3f4cecb531a6f029401d45ba6c1d04330e104bc4535d84a5187249ab0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/@v/v1.0.2.mod"
+hash = "1618fd16c29c3e3a09499a103e2e32b63c268d8206c901d48da72e281f4e3bbe"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/@v/v1.0.2.zip"
+hash = "175d78ffe7391f3f6369cf58ddb87fc51016ba61f2de25bf4ea3962a0b4a0fac"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/hcl/@v/v1.0.1-vault-7.mod"
+hash = "2dfdfe886be6165b7de82e00dc3514e171615612e578d1aa19105755eadce2e0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/hcl/@v/v1.0.1-vault-7.zip"
+hash = "84fea514e70253c65e3caf90a8d9f366808bdfb4099914d1e6ab0d1fdba976b7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/jsonapi/@v/v1.5.0.mod"
+hash = "99ce8c9d7a40568990252c4eb6ec6a30a8cf963121fdf6b54cc90734c3e80754"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/jsonapi/@v/v1.5.0.zip"
+hash = "cb9c30df201eed78f8dfa2ffb0710cccca533c5b0c0ac0f56838cead818e4b67"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/memberlist/@v/v0.6.0.mod"
+hash = "5e58da5dd8595ed32854cbab94bb07c90ba0b6f5db064e73608b269db32de25c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/memberlist/@v/v0.6.0.zip"
+hash = "b2c7ebd03f36b0dd22604e65b73b1e87ee1ce75eb36a333b1b6666b1f54497ff"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/serf/@v/v0.10.4.mod"
+hash = "b8ac96e60d98530d067252ead4a3fe6277cc0f395633e56bd38141ae2902c9d8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/serf/@v/v0.10.4.zip"
+hash = "f009201887ef8d3cb7df13b99bc92ba85bab1621fd649878817d56dc01aef526"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/terraform-plugin-log/@v/v0.10.1-0.20260721164921-2f73dc013b2c.mod"
+hash = "f4802c6179def781dcf9d2a5029d330513b2febb8386e9f9d0698718631c1c36"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/terraform-plugin-log/@v/v0.10.1-0.20260721164921-2f73dc013b2c.zip"
+hash = "848cf454da02e9f1681841ba7827266d320925f52cffc9b5c540b4b067f201e3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/yamux/@v/v0.1.2.mod"
+hash = "31a9f29ca536613f168950c06ce5044e36c7d965c3bb57a37a91c63268ec4eaa"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/yamux/@v/v0.1.2.zip"
+hash = "8ba2b4b2d37260d4aeabf85ac9c26841a287a264c02bc629f40f19d2bd977df4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/huandu/xstrings/@v/v1.3.1.mod"
+hash = "33c7a6cfa483a6d2c3da52bf870469c716fe5948bbc3177868c726e7d73bba00"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/huandu/xstrings/@v/v1.3.2.mod"
+hash = "33c7a6cfa483a6d2c3da52bf870469c716fe5948bbc3177868c726e7d73bba00"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/huandu/xstrings/@v/v1.3.3.mod"
+hash = "33c7a6cfa483a6d2c3da52bf870469c716fe5948bbc3177868c726e7d73bba00"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/huandu/xstrings/@v/v1.3.3.zip"
+hash = "7d6a369dc14946ae93ad4a694a111965261d6550fc3965be62b887605ea141f5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/imdario/mergo/@v/v0.3.11.mod"
+hash = "31bbd3c9d8b390093bf1f10994207cbf5c158797283911af5dad728a344e3af9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/imdario/mergo/@v/v0.3.13.mod"
+hash = "ca5731139deb241ecd04a991864e74e16cc922493ee217b59ae6c5ae309a07ac"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/imdario/mergo/@v/v0.3.13.zip"
+hash = "04f72d0e4695b4a004846a5d4f60d2dc381bacb032ebb8d58905e6eb00d121d2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/jhump/protoreflect/@v/v1.17.0.mod"
+hash = "046afd84d98a5cb4ae83661cb7d1352ad4d06f71787f16559c20e7ac3d547871"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/jhump/protoreflect/@v/v1.17.0.zip"
+hash = "9d3b30e1d635f8116a746b1e59fd6bd1edeb11f9f32fc267c92a8765c5644efe"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/jmespath/go-jmespath/@v/v0.4.0.mod"
+hash = "4fb88edabb17564f6048fda3b494274cae04d9627e697c54d0b42cd5c3aebd9f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/jmespath/go-jmespath/@v/v0.4.0.zip"
+hash = "d1f77b6790d7c4321a74260f3675683d3ac06b0a614b5f83e870beae0a8b2867"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/jmespath/go-jmespath/internal/testify/@v/v1.5.1.mod"
+hash = "1f752c12be8dea178927871891b0bd5dffc1ef3f3edc62702a65136475b45d99"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/jmespath/go-jmespath/internal/testify/@v/v1.5.1.zip"
+hash = "338f73832eb2a63ab0c912197e653c7b62426fc4387e0a76ab0d43c65e29b3e1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/josharian/intern/@v/v1.0.0.mod"
+hash = "b5027a67f5c127bb46b9ffac9d35a333b1df71cfc220e7196a7993e16a10a2b2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/josharian/intern/@v/v1.0.0.zip"
+hash = "5679bfd11c14adccdb45bd1a0f9cf4b445b95caeed6fb507ba96ecced11c248d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.12.mod"
+hash = "518e57c22d1781c59ab33788c9a9fc2edc43583ef7c9fc8892a3490c12d61226"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.12.zip"
+hash = "d001ea57081afd0e378467c8f4a9b6a51259996bb8bb763f78107eaf12f99501"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.6.mod"
+hash = "b19a228769664c12bf25dd18d51c5c53fdaf45c22971a973545f0b0213504e4f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.9.mod"
+hash = "45bc9de2a05f3378f7a9de50b23b0f40683ec10ce9e5eb93336f357edaad7a32"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/julienschmidt/httprouter/@v/v1.2.0.mod"
+hash = "91419d7ed83ae8ed754f26db1570f05b97ff6a615fbc91cb7fe8148af567fb25"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/jung-kurt/gofpdf/@v/v1.0.3-0.20190309125859-24315acbbda5.mod"
+hash = "423bc5735a6cad4fed7132fba639997aa739b90f89f4f71f93b297335fbc80d9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kardianos/osext/@v/v0.0.0-20190222173326-2bc1f35cddc0.mod"
+hash = "17396af04af567624e5bd52d63176ec676c8c16bf7c082069757da098630c8e0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kardianos/osext/@v/v0.0.0-20190222173326-2bc1f35cddc0.zip"
+hash = "10976c39b58f218a6e29687d19763845e7650d04ac86096cd67ace58f4e56346"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/keybase/go-keychain/@v/v0.0.1.mod"
+hash = "edf93d90bd575dcf3935df71f8f647c0f76e7c762e65e4746407e1b70ea31a92"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/keybase/go-keychain/@v/v0.0.1.zip"
+hash = "9514a68da08d39d60a47640bef049e44c829aab5dbbddd03d272e9252039a5c7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.19.2.mod"
+hash = "0d66d6069d9e2fb875c5b464d15b2c80232cfc8991e6f88336ce461ca810e0cf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.19.2.zip"
+hash = "3b3a3540125ad9b3ae1ab0f5df06ac32d11b8330c3140f977d213e0f6df482e9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/konsorten/go-windows-terminal-sequences/@v/v1.0.1.mod"
+hash = "6b69dafd3cf64d7b57e978848a7e271a2be0a04d9a2564dd2556491d27d0a034"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/logfmt/@v/v0.0.0-20140226030751-b84e30acd515.mod"
+hash = "eea467153d80336f6174d40d1ca022618c4f3b93610fd62040929ffe009ba9a6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.1.0.mod"
+hash = "e3d5d46d2f6ac94a666a54b5e867ec16bf199d9f4b700827cd731607efdd109a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.2.1.mod"
+hash = "c2ae28bd5bb8e8f9076955126768ab7a147952deea9fdbcb373c53cc18870f82"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.mod"
+hash = "84f3e40803b1ebd4a802e55794b9997df0b173c4809e8572ff9042ec558ca1bc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.zip"
+hash = "ecf5a4af24826c3ad758ce06410ca08e2d58e4d95053be3b9dde2e14852c0cdc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/pty/@v/v1.1.1.mod"
+hash = "6da4c9c7364446894e5ef877e19f985cd51d671ce6e8f4ca87862b449f6dd7f6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.1.0.mod"
+hash = "2fba9529e5c13dde62f371ef7383baf04d7132501dac6aa08e910f9ec0bf85c5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.mod"
+hash = "f63879b204f6ce895cea53594b814f5ac0af08486b33b1ca79c657384efbc726"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.zip"
+hash = "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v0.0.0-20170820004349-d65d576e9348.mod"
+hash = "eff9d132b7b92dce0687585618a0d0cc5ca7073d69ab1d186e46acd05712676d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod"
+hash = "1605871e895331a39f5952559ebbc91228d86b8100354f857b562866eca5bb13"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.zip"
+hash = "dbbd0ce8c2f4932bb03704d73026b21af12bd68d5b8f4798dbf10a487a2b6d13"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/lib/pq/@v/v1.12.3.mod"
+hash = "95aa0cfe3f3fa5821805cccfd885595eb862e91a3beb802da86dc15714c1d229"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/lib/pq/@v/v1.12.3.zip"
+hash = "fef0e04c63badcfba51272ecfa1d555e393ae53901c5834e9e0b5aa39e5e151e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mailru/easyjson/@v/v0.7.7.mod"
+hash = "03ccdeb9f770bd5de2a0bc9f000878b08f52fa094b3f5e7e1b7390959b008f98"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mailru/easyjson/@v/v0.7.7.zip"
+hash = "139387981a220d499c9f47cece42a2002f105e4ee3ab9c74188a7fb8a9be711e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.0.9.mod"
+hash = "42e24895f7279f25a71f4301827c952047b1d779a6c8d0cc602f6f9a8dfd990a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.12.mod"
+hash = "301b4efcc69da40b91ccc8d2cc58e88595e8ad8712aca01403f10086d96b1813"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.15.mod"
+hash = "c199aee551968c8290b917524e0b232a862790a4831b0ed4cb43687e8c08aa18"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.15.zip"
+hash = "221144f51cc5eeda0a72bd7b5832181b94240c1d760bde0b3428895e63e63339"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.9.mod"
+hash = "adff3e24384bcd2ecf0c6d6a1a9e4e31065401e9b5d29ce6a120255ab3c02313"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.12.mod"
+hash = "1a062e56c0266d004bea51115acf8c2b597d1407ca55ad56cce01e97ada3da4b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.14.mod"
+hash = "e9299133cd7243ec2667aa25a04b2dac6009234ae4c1cda4edb45749970dae9f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.24.mod"
+hash = "41b885f68c2fa4dfb26a8ffa30d095a931b27699b6b2b1974af3949400dc060f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.24.zip"
+hash = "4fcffec0bae0ad4af7bf96e2497a817d85de64af19ffe31d82bda362148234b8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.3.mod"
+hash = "7cf699428410e50d5c4cf08c54c091fdc3b46809a18e471abb8cff0604d7a550"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-shellwords/@v/v1.0.14.mod"
+hash = "29bfff16ff57b7dada64e6a74806d931549acce61cb70c458a389d099c2d0ec2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-shellwords/@v/v1.0.14.zip"
+hash = "b6939f402c7e38e6a6310c6c83a54a5ecd496fac15d60b4b12f01cde0a4439e3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/matttproud/golang_protobuf_extensions/@v/v1.0.1.mod"
+hash = "5c9c0086b9b2eb6dc9f27ba1d33b28a66463fe30c2f876ff05b7c848e779ea77"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/miekg/dns/@v/v1.1.72.mod"
+hash = "226bacb99b8c5b372b58fa660895755cfc0997b45f9e71e7a144b4a68bdc963a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/miekg/dns/@v/v1.1.72.zip"
+hash = "092608d919335ff22154862c59abe8b4d651be3ef0b75d22001a07c03106a3b6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/cli/@v/v1.1.5.mod"
+hash = "a483b4a9d5373dfdc9651222d48d1b1d388055c24f6ab286b95607d255b81af1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/cli/@v/v1.1.5.zip"
+hash = "6312caaef28c6e58f6667d1b3b731ad77f7830d0ada62e09e6d0b72d18d0689f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/colorstring/@v/v0.0.0-20190213212951-d06e56a500db.mod"
+hash = "a1d37ed8a94e33545097d6e905c56e4942b97c5e25ccfb6d4b191bf51d95db1d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/colorstring/@v/v0.0.0-20190213212951-d06e56a500db.zip"
+hash = "d0733284b20567055e374b420373f5508fa47e95204e59e4b8a66834e7e3964d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/copystructure/@v/v1.0.0.mod"
+hash = "f1caf5434296b380a55af8ea9994a01cac975e1170dc63b50cb33569d65bc5e1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/copystructure/@v/v1.2.0.mod"
+hash = "046f6180ae4fb25811c47c3b49f1f839d7ca83839641b6407e9f39b05e0c8bc3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/copystructure/@v/v1.2.0.zip"
+hash = "4a1ce1f3c66bf99883e55da50fe1b3122299b79ad1d11c5407abbd74ace12550"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-homedir/@v/v1.1.0.mod"
+hash = "ec2c40e2ac86bdd92d64a25589ddeef65227789a8f428bede86bdc42064f60f1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-homedir/@v/v1.1.0.zip"
+hash = "fffec361fc7e776bb71433560c285ee2982d2c140b8f5bfba0db6033c0ade184"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-linereader/@v/v0.0.0-20190213213312-1b945b3263eb.mod"
+hash = "771e7ae603a0bccd622dfeee7687667a2e968f41bfea503bd9efc85a5884a703"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-linereader/@v/v0.0.0-20190213213312-1b945b3263eb.zip"
+hash = "7b83ef857c71fe8d4937b57923923176dd43c7b1b7632a9779bac411924e87e1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-testing-interface/@v/v1.14.1.mod"
+hash = "147cfd713c08e45343fe1265a48f04f9b5949bf15377b2d3b64d61e18e0f66e8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-testing-interface/@v/v1.14.1.zip"
+hash = "c178afbb9d041b7ecaebf40d3fee1b169f2f11f929accca7642f9b57f801ff4c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-wordwrap/@v/v1.0.1.mod"
+hash = "4f2239514c1de72e2f5b0f544b61d8c404eb2f04057d6ba1441875d7ac8311f0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-wordwrap/@v/v1.0.1.zip"
+hash = "5f96426c4b3b3e90a9b7471568cb1d61d6a306744f5d4765a30fa8a61e1c0b47"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/gox/@v/v1.0.1.mod"
+hash = "4018273b6fb637f9916558195795b7befc6c62f69f5136f8dafb0e9c348d23c7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/gox/@v/v1.0.1.zip"
+hash = "30a69e17ba5cafe6f1ac436bcc99368a5a34f0a0763926d2c6780a781f8e9e95"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/iochan/@v/v1.0.0.mod"
+hash = "56bcfb27da04bd5bd5204fb27c83b576ce173615233d73483c0a5d342c7a17f5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/iochan/@v/v1.0.0.zip"
+hash = "f3eede01adb24c22945bf71b4f84ae25e3744a12b9d8bd7c016705adc0d778b8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/mapstructure/@v/v1.4.3.mod"
+hash = "d12bdf0950c494088fd93604ade1596974054ba165729d6ba133633c27daffe3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/mapstructure/@v/v1.5.0.mod"
+hash = "d12bdf0950c494088fd93604ade1596974054ba165729d6ba133633c27daffe3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/mapstructure/@v/v1.5.0.zip"
+hash = "118d5b2cb65c50dba967fb6d708f450a9caf93f321f8fc99080675b2ee374199"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/reflectwalk/@v/v1.0.0.mod"
+hash = "7a5fefd3afb6a309c9c38b51a5448e01cdc9cff07be066e29d53609f3290f2bb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/reflectwalk/@v/v1.0.2.mod"
+hash = "7a5fefd3afb6a309c9c38b51a5448e01cdc9cff07be066e29d53609f3290f2bb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/reflectwalk/@v/v1.0.2.zip"
+hash = "c96eed6b50f00b1acdc79224e8e55f66ef3e98e3f7c6373afa3e3b8c6ef440d1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180228061459-e0a39a4cb421.mod"
+hash = "27a5e9f05c71089b6fd5e119fc1c8ce81f0c16da4ec3357157b1d85e2ba85ae2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180306012644-bacd9c7ef1dd.mod"
+hash = "27a5e9f05c71089b6fd5e119fc1c8ce81f0c16da4ec3357157b1d85e2ba85ae2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180306012644-bacd9c7ef1dd.zip"
+hash = "91ef49599bec459869d94ff3dec128871ab66bd2dfa61041f1e1169f9b4a8073"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v0.0.0-20180701023420-4b7aa43c6742.mod"
+hash = "b455521ad42d16fab08ef1d7488c22ef240c94a86847360ad3a16719a087132b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.1.mod"
+hash = "b455521ad42d16fab08ef1d7488c22ef240c94a86847360ad3a16719a087132b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.2.mod"
+hash = "099ee58ec210155280692f9e2360f523272e525f06272754be7a2a44dbfa0623"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.3-0.20250322232337-35a7c28c31ee.mod"
+hash = "099ee58ec210155280692f9e2360f523272e525f06272754be7a2a44dbfa0623"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.3-0.20250322232337-35a7c28c31ee.zip"
+hash = "49f3fb0f76b1b98b52b5e6e8eab2a48454eab33904b937625941c28138a7fea4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mozillazg/go-httpheader/@v/v0.2.1.mod"
+hash = "5128e3e6304885988592bf62a3f8a89f667e5b352a781c1073b164f57ddf09c2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mozillazg/go-httpheader/@v/v0.3.0.mod"
+hash = "c22a24d5bc712b5db14890d951ac09ef15243a69415857d929383088e5ff1a76"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mozillazg/go-httpheader/@v/v0.3.0.zip"
+hash = "5193846a91625b5a59364b6be4bd3e67c5956bf40033bfe4fa04da37afd6f488"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/munnerz/goautoneg/@v/v0.0.0-20191010083416-a7dc8b61c822.mod"
+hash = "90d8fdca000e05d751cfafb1546f4a1440a5696ab06c8c91c365cf9bbbc8bcef"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/munnerz/goautoneg/@v/v0.0.0-20191010083416-a7dc8b61c822.zip"
+hash = "3d7ce17916779890be02ea6b3dd6345c3c30c1df502ad9d8b5b9b310e636afd9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/mwitkow/go-conntrack/@v/v0.0.0-20161129095857-cc309e4a2223.mod"
+hash = "3f15a518f37228f2d08c6b43762d43869a5ab8ae7ba3b5124bf961035e71cc18"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/niemeyer/pretty/@v/v0.0.0-20200227124842-a10e7caefd8e.mod"
+hash = "8f1401890801165bbd3da1758c6c96438f12aa3248666ac1581c18a864244d47"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/oklog/run/@v/v1.1.0.mod"
+hash = "ab08ef5ea8071299e8e64b7b30fe56c582c2fcf118d5565d5a87bbf165e3ae79"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/oklog/run/@v/v1.1.0.zip"
+hash = "d6f69fc71aa155043f926c2a98fc1e5b3a8ebab422f2f36d785cfba38a7ebee4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/openbao/openbao/api/v2/@v/v2.6.0.mod"
+hash = "90203cda192defdc0059f81edf1ee768a70eebe7a89e21fed0af9bb729d7ee71"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/openbao/openbao/api/v2/@v/v2.6.0.zip"
+hash = "8428284bf02e80e0d189bf704532edcd75b0a66f48edfc01f9a240be037f884c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opencontainers/go-digest/@v/v1.0.0.mod"
+hash = "8de0250a4ba6811f7703fbb499ed889672597699f335b12f47d788d1df087b4a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opencontainers/go-digest/@v/v1.0.0.zip"
+hash = "615efb31ff6cd71035b8aa38c3659d8b4da46f3cd92ac807cb50449adfe37c86"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opencontainers/image-spec/@v/v1.1.1.mod"
+hash = "1905f5f90061e422d1a23a8b3becf2b8847c4ae00704d44de2bb7f585fa0fed6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opencontainers/image-spec/@v/v1.1.1.zip"
+hash = "3a32eeb459719172947c20be78b5b7293c6ea84f4039184e846f6b676bc19574"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opentofu/hcl/v2/@v/v2.20.2-0.20260427110253-11bc5ebf0f63.mod"
+hash = "052a856133e0741412200f9dfcfd22845ce5ff79bfcb7de0ca03fbb83442f9f7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opentofu/hcl/v2/@v/v2.20.2-0.20260427110253-11bc5ebf0f63.zip"
+hash = "47aa15c79a4a743b3bfd7999413e2c3551a31e024dcdcec6198ccce17917554e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opentofu/registry-address/v2/@v/v2.0.0-20260307135325-45f3562374e4.mod"
+hash = "5f376215180fccd4eba54dbd65da477ef3cc46b8fedfd62633d4184e72daeed0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opentofu/registry-address/v2/@v/v2.0.0-20260307135325-45f3562374e4.zip"
+hash = "ecf12d67ce1f82bde530562d8ae14174c56f36bad646f4a0535424723ac360d2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opentofu/svchost/@v/v0.0.0-20260410171206-1a42986aa3f4.mod"
+hash = "e92a8a5dba2a4806bc79e44a462e62c0b63c070af46c3c7838f2f49d456acf19"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opentofu/svchost/@v/v0.0.0-20260410171206-1a42986aa3f4.zip"
+hash = "c00a133a29b4a389968bd2245a8729c5b796559494401a6785be7a7ce311846a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opentracing/opentracing-go/@v/v1.2.1-0.20220228012449-10b1cf09e00b.mod"
+hash = "75ab6a04ad65ad3fde02da1fa352427ac8d9b4618bd836c077710d6986ef730a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/opentracing/opentracing-go/@v/v1.2.1-0.20220228012449-10b1cf09e00b.zip"
+hash = "a3c4767ca6b5cb6d87b0a26443ee0bf2fa787e7e39d327935fe0cc632a44d1d8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pascaldekloe/goe/@v/v0.1.0.mod"
+hash = "07772a11d813fab617f99018f06ec1521579e9c72b15364028f0d8af2e486a0c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pascaldekloe/goe/@v/v0.1.0.zip"
+hash = "37b73886f1eec9b093143e7b03f547b90ab55d8d5c9aa3966e90f9df2d07353c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pkg/browser/@v/v0.0.0-20240102092130-5ac0b6a4141c.mod"
+hash = "6600c2386895b44c985cb3cfcabe72f09b259674995cf4b51628ca461575a1b2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pkg/browser/@v/v0.0.0-20240102092130-5ac0b6a4141c.zip"
+hash = "8524ae36d809564d1f218978593b5c565cf3ee8dccd035d66b336ad0c56e60d1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.8.0.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.8.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.zip"
+hash = "d4c36b8bcd0616290a3913215e0f53b931bd6e00670596f2960df1b44af2bd07"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/planetscale/vtprotobuf/@v/v0.6.1-0.20240319094008-0393e58bdf10.mod"
+hash = "e94bb181f3ef78dec16609d3c2d276c75c5668694bdc97b72bac22c84528debb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/planetscale/vtprotobuf/@v/v0.6.1-0.20240319094008-0393e58bdf10.zip"
+hash = "6fdbac53c6ace58d732be8ec29c1aae928639eb12960cc4c52a9f7a25395ca05"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.zip"
+hash = "24ff45e356f638a53bd0c89fff961fbeaecfdb0dc5e482ceed0a2230e0e5f3b7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/posener/complete/@v/v1.1.1.mod"
+hash = "7c1359966651053afec11e00be379f917018439f27ff380189100490f3a47343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/posener/complete/@v/v1.2.3.mod"
+hash = "6f0250b50a42e2599ae414a01f40eecf7ee5dfd83fead46d6c0580363c8de330"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/posener/complete/@v/v1.2.3.zip"
+hash = "88b48005b995dc6592fa6fda08130488c83f63bcaa4ccb0fb8e926fee63112ec"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v0.9.1.mod"
+hash = "aa78fc9a1301ae94f44703846ddddf254defec30356e3f1300bbb4db0eb3db65"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.0.0.mod"
+hash = "c40de1800d9751d32d7d2593d98bf1a3984dc9470d828745e22bf516cbafd8c0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.24.1.mod"
+hash = "7182f5b80fd56a1b0632595002cd9cb82b9ea2a8c27cdafbdabcc420fb2ee81d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.24.1.zip"
+hash = "90b627e392d9936cf410ed23066d6198fecc11130bbab2e17dda627da3a86fc3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.4.0.mod"
+hash = "cb433bd7f1d8c1e5b4dd3018cdb7e0841a5ab799725c4c0e000ecaa69dc8921b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.0.0-20180712105110-5c3871d89910.mod"
+hash = "9ecd481d10e3f3b86ba0755986a85852028b86f2ba597965d3d3672b2f2fb738"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.0.0-20190129233127-fd36f4220a90.mod"
+hash = "8ae247f8b1ced742fbc4aa7ebc6b6c935172eaafa61a2be52ba0bd41286db031"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.2.0.mod"
+hash = "8ae247f8b1ced742fbc4aa7ebc6b6c935172eaafa61a2be52ba0bd41286db031"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.6.2.mod"
+hash = "8a9728c4147247a572808ef22e997265fe9a7c5464a60d4eda48dc35f9dc2626"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.6.2.zip"
+hash = "67017b19f220c6ab91ecfdd10a93824e2a8b09fcb6390054dbdc49df3354a9ca"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.4.1.mod"
+hash = "aad8503b85be2616008ba40f3e63277fc9653bd9c148c3d510000f173a16bdba"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.70.1.mod"
+hash = "ef9be0ac3982f25cf61f67085f50c14b580e629f866bc146c8256bca2b2f986f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.70.1.zip"
+hash = "587d6d0890642e7f9ef2ce6a76cdf6dcbd71f70c59437282a2e19c98cf68c2b8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.9.1.mod"
+hash = "3dd9002d4351fd53cedcfb755b924fca8e86148c6313a670113b95e92256ea2f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/otlptranslator/@v/v1.0.0.mod"
+hash = "96c4801607ff9256c068f2d7cf2700fca2606cac212228c812ee5dc0a9e4ec51"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/otlptranslator/@v/v1.0.0.zip"
+hash = "b4a3a9d8b0dfd8d7a54937d6916beb08108e57afdd8f0e21544a0d163181ffb4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.0.0-20181005140218-185b4288413d.mod"
+hash = "52ded709607588200eff4bcfbd61fce32bb0c3f0efdd32d846e3ea150b196352"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.0.2.mod"
+hash = "28218c2e5063d74fabb5b62d160b133b1634761922ed7a0e7372144aab4b7f75"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.0.8.mod"
+hash = "e312b9bdea92499677ecbdcb713419fd2b72eca025050ea0941393d9b7daa107"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.21.1.mod"
+hash = "129232c45b86548cedb3cd2ae1aa6cc1fb46826847ce0ab24be7a3cee2191d23"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.21.1.zip"
+hash = "b417ab3081ad334ce4c6b367b2d5e74dea49e2eb3b5431c1dd5a65e1256736f9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.14.1.mod"
+hash = "5146850223a460d7bfb5e3e4caf323337f745903e829c96083bd2c9a722caf8d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.14.1.zip"
+hash = "ab3d18283cef2f46ddfd489b6b14b970eb7dbbb642786f025ee1ac5291dc4e70"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/rs/dnscache/@v/v0.0.0-20230804202142-fc85eb664529.mod"
+hash = "349f094e36ffc322b5b16fe3a536f461f893e89378d28ccc29fa3391eba471bb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/ryanuber/go-glob/@v/v1.0.0.mod"
+hash = "8cb3cb5ed08de825290e18af213d9c40935f25f8a9fb48b47c726755d7c9a7e4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/ryanuber/go-glob/@v/v1.0.0.zip"
+hash = "2084f36ead38a505489fdb46329502fb627f568224dcc22ef11ec173b61fc2cf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/sean-/seed/@v/v0.0.0-20170313163322-e2103e2c3529.mod"
+hash = "13322d50770f4e621832d65c467ed80fe7249077442bb1fcee3d23d4a779560f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/sean-/seed/@v/v0.0.0-20170313163322-e2103e2c3529.zip"
+hash = "0bc8e6e0a07e554674b0bb92ef4eb7de1650056b50878eed8d5d631aec9b6362"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/shopspring/decimal/@v/v1.2.0.mod"
+hash = "983f79d79f2dfb76233371da2a6d6bd7980eed64c3e43ef7d815ebd37dae9c1e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/shopspring/decimal/@v/v1.3.1.mod"
+hash = "983f79d79f2dfb76233371da2a6d6bd7980eed64c3e43ef7d815ebd37dae9c1e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/shopspring/decimal/@v/v1.3.1.zip"
+hash = "7986d6c8489c4a55c077e3469a3c9a218f7ce4afbd25d68aa2b26a6ea5015438"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.2.0.mod"
+hash = "d67049652749abc6560f22dee3a27aab795a32ee2c7e078a54615a61b7abb99b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.4.2.mod"
+hash = "6c6bbbca5fad7ea9b863d9ec99c30caa77805785405b21e70d75783b5194c678"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.7.0.mod"
+hash = "da2caaacef970c4c3f36c137d5567faef9403e6f62194804c7672a3975219322"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spf13/afero/@v/v1.15.0.mod"
+hash = "b9ecbcbeeccb9da252f2b75a7f05a10c21f874a448a5e1294f115e47ba893e22"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spf13/afero/@v/v1.15.0.zip"
+hash = "d03a0bbce87eeaa1c23f0c0276707bb2d59f46efee875d7d7f1d570201be6e1f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cast/@v/v1.3.1.mod"
+hash = "b98f2c1774e0b7c0c5747531a6a0c6c8c25a37cf397ff05f1971bbdd97d52fae"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cast/@v/v1.5.0.mod"
+hash = "6077a9a9a1c19d4b1c9f1022658bc2cd432a7a6aed3138b09f3d2949cc484f6b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cast/@v/v1.5.0.zip"
+hash = "0d6f70dc849ce1e56f2b50ceeac0a7eec9dd2b8414b556ad183a35cc5c84342a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.9.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.9.zip"
+hash = "83910188d8735f84a48a80ab78351edac0b569896f2b3a244c696a07da9aa5ed"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spiffe/go-spiffe/v2/@v/v2.7.0.mod"
+hash = "f37ce8ffb796dae0df025ad6ad6f1bf6e36e6c202aaeccd6b040c865f80c4cd0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/spiffe/go-spiffe/v2/@v/v2.7.0.zip"
+hash = "b203c6cee1fb1d324460e6da38e22e5d43c5f1a619f207d9f2751bdbe7da02f6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.0.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.1.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.4.0.mod"
+hash = "31b2fdcdee870f0f61bffafafb96220967e5bca08a76a920d574216fc1f91355"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.0.mod"
+hash = "cb326540efcb1274a6e4e970d7fc9de2e8062f08a058fc296d859025e62e807a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.2.mod"
+hash = "58eca54d26728427806f40908828e8762d352cc3b0a0b0b60dc60ce61767fff6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.2.zip"
+hash = "3c22c1d1c4c4024eb16a12f0187775640bf35d51b0a06649febc7797119451c0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.11.1.mod"
+hash = "5846af204043f29df285026109bf32db6519c3d7e1d5c3a65fefb174f9d81d33"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.11.1.zip"
+hash = "b7325b561ead5304b72b9f32aebc871ff49b3823667d530a49fd6c8f3adfc96e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.2.2.mod"
+hash = "4ab463f68c370041f950c10cab5104903d4598c50cf824f9aad1b7b7f69255af"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.3.0.mod"
+hash = "ab063d5154a8e8730bced4c52698e5770eb50bfae347bebc35eca488b8e3f6e3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.4.0.mod"
+hash = "6b0c7b71030d4fc55d4e6e6e24c0bfc025621341f76141e3aec0044c4ce89950"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.5.1.mod"
+hash = "e3a11c2a6c5fe06f8a221e7289684917ac49ad01233f81b51c8360773707e700"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.6.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.0.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.2.mod"
+hash = "1606b50c960da56308912c2d6e261885c36978894ff407b0e20ee8799182b402"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.0.mod"
+hash = "e076074c1560ad1dda98b8b00fea6308c4b6ccd06ddd088d22db4626ed68f738"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.1.mod"
+hash = "af1a5dcb331ace7a3f9fc1b5d7eee9c0bc82b4a2a182fe4cec2add217e2853d6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/@v/v1.0.563.mod"
+hash = "19aba80d5d6c5e50ebbc04e06a481db570e2e146665fc0f5b8d37909a8632f5a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/@v/v1.1.0.mod"
+hash = "31a563d345f2f5460e5824a9ae15983340bce62d0b1d93b3e2303b527370b5d3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/@v/v1.1.11.mod"
+hash = "31a563d345f2f5460e5824a9ae15983340bce62d0b1d93b3e2303b527370b5d3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/@v/v1.1.41.mod"
+hash = "31a563d345f2f5460e5824a9ae15983340bce62d0b1d93b3e2303b527370b5d3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/@v/v1.1.41.zip"
+hash = "bd145e3a3d03b5f1f609dfbf823d7b700aae07a6a1a3dc1f4de1b72f89fad3fa"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/kms/@v/v1.0.563.mod"
+hash = "4fa8bbbeac7dd51e703f377f49d8328728ce243e09778cbf26bbbded87003e09"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sts/@v/v1.1.11.mod"
+hash = "c4e4df526cff1c4059b0e013660c0ee2246c3c8e6089ba56fb43c9812b92d30b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sts/@v/v1.1.11.zip"
+hash = "69bc289f66b594863ac019b254529fab67bf4ef5364549532506691f73c6ea0e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tag/@v/v1.1.0.mod"
+hash = "64aa3e301db77f36d88f112ab7f925c7f494603685526df37e271d513abb4d9f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tag/@v/v1.1.0.zip"
+hash = "6e87b65a254cf76e500a1da74c1501b1a43c34fb37e4fb85c262be1ca502ef10"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentyun/cos-go-sdk-v5/@v/v0.7.70.mod"
+hash = "988167270374771c79c2f98653ec535f39991a91b7f7e52720ffd27bced29b93"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentyun/cos-go-sdk-v5/@v/v0.7.70.zip"
+hash = "7b7d983606e9a325fba3b000c86aaa088a7980eb90c6ba943ab6b10491876769"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tencentyun/qcloud-cos-sts-sdk/@v/v0.0.0-20250515025012-e0eec8a5d123.mod"
+hash = "330adadfa69e8762d4dabad4339d1ec3d9ff90ec64d10bd7927fb2ceaa3ef28c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/tv42/httpunix/@v/v0.0.0-20150427012821-b75d8614f926.mod"
+hash = "dccb98af4b371cf1bb27e948f6b97d9e9e45d6fc62bc28de62e656bd24318b6f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/uber/jaeger-client-go/@v/v2.30.0+incompatible.mod"
+hash = "752fafddced514bbc98351a54743836c8947c58d1613d2909243e70b0311ada7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/uber/jaeger-client-go/@v/v2.30.0+incompatible.zip"
+hash = "9af585cfb27d69829b8e3f421fedf409a9ea771fcb142f2354bdfbbac77068a8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/uber/jaeger-lib/@v/v2.4.1+incompatible.mod"
+hash = "968ad79424e16ebc1687474e154a4081c1a7dbcda08a3a9a64380e65cd171fc1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/uber/jaeger-lib/@v/v2.4.1+incompatible.zip"
+hash = "b43fc0c89c3c54498ae6108453ca2af987e074680742dd79bdceda94685a7efb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/ulikunitz/xz/@v/v0.5.16.mod"
+hash = "2e46a9bedbed1417b347937057054c463a5e9ab62f4ffbd512d9c8bb76e98db2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/ulikunitz/xz/@v/v0.5.16.zip"
+hash = "0a7e01908924983df9118e62c1f49131e1e365f17b4e4e3020805e8fdfe6307a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/v3/@v/v3.10.1.mod"
+hash = "8ed409664718a19f7df4294ca08e667feb9b7f5065c79fdcd0441b3a63835fdb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/v3/@v/v3.10.1.zip"
+hash = "fa5d544a9922bf4aaa6b8e0d2bb25ffc966345360fc585f4c4770bab098d179b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/vmihailenco/msgpack/v5/@v/v5.3.5.mod"
+hash = "c91bb3270513c6abb628d318f4da3e05965baa08d3c2036d5dde398a15aed289"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/vmihailenco/msgpack/v5/@v/v5.3.5.zip"
+hash = "3437e7dc0e9a55985c6a68b4a331e685f1125aeb98a0cec0585145b8353a66ae"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/vmihailenco/tagparser/v2/@v/v2.0.0.mod"
+hash = "421006040b7c0c6e4e4257ec9f69a85fb0d6120f5a526b5ef174d6cd34ce4f34"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/vmihailenco/tagparser/v2/@v/v2.0.0.zip"
+hash = "70096ead331b4ac4efc0bf740674cbe55772beee6eace39507a610c5652aa8b5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/x448/float16/@v/v0.8.4.mod"
+hash = "f8a8238aa734c1d2463d48f8808e35124546bd5222b13e4c097746ded5a57e1e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/x448/float16/@v/v0.8.4.zip"
+hash = "73b24a41037ea999ab66851e3798a0973dbb1f214925915b01f0820f7b2f1500"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/xanzy/ssh-agent/@v/v0.3.3.mod"
+hash = "1ce1cc509889b738c1f63dbfcc5ad522ceb63272d9deff6eef7499ed301aa125"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/xanzy/ssh-agent/@v/v0.3.3.zip"
+hash = "19a86c2623b20cc98687bddd89e3f023db0ca51c8bc9e38b9ad9c56e5b7d110d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/xlab/treeprint/@v/v1.2.0.mod"
+hash = "3d7d189d05e18e2e05fc264c60b2d9291cf62386c18fe4ef237748245c18216c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/xlab/treeprint/@v/v1.2.0.zip"
+hash = "3270bc1e24fc2e2030f7c5214439573c12c07a7250635371a3d2b0ee14b22a0e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.4.13.mod"
+hash = "ee7fe4466203a01d3ac19adc134cdec99bc6de71992c28f3dd9a74480bff0603"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/zclconf/go-cty-debug/@v/v0.0.0-20240509010212-0d6042c53940.mod"
+hash = "d64fddcd34b47c1c2dc7276a04188702110accc1e7daa0591fe438cfa175eb38"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/zclconf/go-cty-debug/@v/v0.0.0-20240509010212-0d6042c53940.zip"
+hash = "67852801b1e308972f24a0e4cb87125a01ad233ee9883f3ce6018e6b553ef80e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/zclconf/go-cty-yaml/@v/v1.2.0.mod"
+hash = "7a1ad027151f829d5c69d60aa3d934d8f99388066f199b43162fe3ea220c3ddd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/zclconf/go-cty-yaml/@v/v1.2.0.zip"
+hash = "84cd48191428a94ab2fc4f7b06d9826538e970d0a3ac3ef62c54088b161cbf8f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/zclconf/go-cty/@v/v1.19.0.mod"
+hash = "37872856ce58744b80ee7f53df6d9bc20d8a616ddc155a620a662cf7720a10b7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/github.com/zclconf/go-cty/@v/v1.19.0.zip"
+hash = "82a4d3f7339a8139b0fd6f7664bbf3e89eec5db1cbb2d394a9ac97df850c76c6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.mod"
+hash = "6c4d2df014d59fd6555897fd4e5bbc0316e8df4c737fbfdde5cd119fdefeeea9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.zip"
+hash = "a08a16fc0a7041cdb875f47a260a56000632212c85f65a302a043c76380c8335"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/bridges/prometheus/@v/v0.70.0.mod"
+hash = "262dc6e2fb0e0b0cdb8a0980b4483be825bad6b7c136d651890cf5de02f2cfbd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/bridges/prometheus/@v/v0.70.0.zip"
+hash = "032be0311c85d6d64bf81398a7c342295e2d893da2bf1204ddaa444d12740014"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/detectors/gcp/@v/v1.44.0.mod"
+hash = "e2ac99000466308cb9b22cd0c177caabdaf363366e2428d5fb3ac50aeac6d5aa"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/detectors/gcp/@v/v1.44.0.zip"
+hash = "5d071282c30ae2ba273984315615de34bf670216d2adac37137b346f52ac2cb2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/exporters/autoexport/@v/v0.70.0.mod"
+hash = "1550d2a290b2423143dadf8b591b58fc3513ca62ffdd9d7f35486e9746710187"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/exporters/autoexport/@v/v0.70.0.zip"
+hash = "95e65947cdef6acf3119794559a12daa139ce4d1983e5d4af4312b0d17ccd723"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/@v/v0.69.0.mod"
+hash = "d0d8bc2ef911ee225987e958265a90c81067a3bfe50053f7864a1960b318c045"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/@v/v0.69.0.zip"
+hash = "cb61dab5d32c08886e308305d3c8e794f6ba6d5679b6ca6f26c70e61cd107b88"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/@v/v0.68.0.mod"
+hash = "68e9a01735011b6352c1aa42789152aee4ada1c8fb0d18ebd3018850398803bd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/@v/v0.68.0.zip"
+hash = "ddc8a80568f4d34ed938e8372295b3e7745af69b57f03475b449318d01d7fde7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.70.0.mod"
+hash = "1066ff9ecc445bab0cd0857b9aa749f136e8ba3d6918eb08f974a1bf3f8103bc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.70.0.zip"
+hash = "5afae012c182ed95c9068c4b4de772677fbfecb9fbe41605046f907abba8bc92"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.45.0.mod"
+hash = "5fbed2c6d71624dd869501048d52436832e3d8b2da7bea539d44b982b62d6fe0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.45.0.zip"
+hash = "65b5fc93c93f4eaef740b4bba81fd2543f248d5df85cf4d1ddf9ab459b30f7a2"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc/@v/v0.21.0.mod"
+hash = "9fc58cbc5025a6c2d1503eb913ea5f4713c906da91da21ab9f25eda04451ecd9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc/@v/v0.21.0.zip"
+hash = "b1b915fa9f06de4c44eb78eddb7af9282780cf960fc50c6e887e7e161ef87750"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp/@v/v0.21.0.mod"
+hash = "7f35deff7509a38e76020b3a172a8ff1f3bfbf220180670c1dfabad5eb7034ff"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp/@v/v0.21.0.zip"
+hash = "33a184e67a41fd159a3567b7732bd1a2f5f510a8400bd02cd2336c47ab51f6cc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc/@v/v1.45.0.mod"
+hash = "986c0d44bed291ed028b5e54c2420fd918b48b0caa9332396fccdf0433142d05"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc/@v/v1.45.0.zip"
+hash = "d0e3a1a9ff0d82f41b4a575cd627b0967463b850ab965553182a70c7a0547dda"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp/@v/v1.45.0.mod"
+hash = "5a8a847ec93f00307f578fe901a820786265f2f6d84f0245d95c6623e8160785"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp/@v/v1.45.0.zip"
+hash = "ca745f1febc54991f34978215fa0b87db1e7394f1effa57182304e44426e666a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/@v/v1.45.0.mod"
+hash = "d95c37571c16ae53c04144b74c4eac22df7ca1b349d1c9cfdcbc87131db2688e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/@v/v1.45.0.zip"
+hash = "17e5b206e5ea76d8a1e4e8ef340d888894a0776fc1d66848530346347e0b47c3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.45.0.mod"
+hash = "5bdfdbe5b1877e402b8ef6c1decd97e7d25e589c834a0f25f71c44e25c377545"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.45.0.zip"
+hash = "0cacecb3afc00395bf88712ec047e32e39a7e69575ba313254314673c1f1087e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/@v/v1.45.0.mod"
+hash = "98985f8b17f02c46bcedbf7881ff315d7a23642612f5212cb48076095c027c4c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/@v/v1.45.0.zip"
+hash = "8eea4ce8ed5af97d4c77d1b7c5800f17f24f47aebd7ef1a78ddd27cf9000fc13"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/prometheus/@v/v0.67.0.mod"
+hash = "b025d69a51e92268676d42e8962c2150a5624c5e2ea912bee3df4777dc8c3e35"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/prometheus/@v/v0.67.0.zip"
+hash = "ce725796160333dcee033dc9e6a2a81ea8d6fb24846f9ddbdc714c5bc86d6d43"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutlog/@v/v0.21.0.mod"
+hash = "1e1bfeb1abd9d3a9771e8143210a03699111b061d053d432a774e1e195c3d55e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutlog/@v/v0.21.0.zip"
+hash = "9fbf6619658c798b673367647fa9dc1bbbf04e8a886da325b877dc73e985bf47"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutmetric/@v/v1.45.0.mod"
+hash = "34b7050a175623f51638dcc8f0a34996ffa0f51c05b43900d5c6b75f7f76705d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutmetric/@v/v1.45.0.zip"
+hash = "d22c88b14cbda39cec15d292da4cb1bd80bd5d225ac140e3d332ea4ab0217603"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdouttrace/@v/v1.45.0.mod"
+hash = "882b24df22ed8370b5a736261d0b4d7f20db6e1d9fd5c4bbf945bd860c3018f8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdouttrace/@v/v1.45.0.zip"
+hash = "ec252dacbb2cbadc4b9c5ea17a2642562fe5b65c8486c79c0a5a8e164752cad3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/log/@v/v0.21.0.mod"
+hash = "f2b948926a84f3cf6ae632cb0dcfa69899aaf8db6bab5aa0a58e96a99c221427"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/log/@v/v0.21.0.zip"
+hash = "215f0a19b752073dfd519e5da14bf9a5aac8e567c63ba5838b5766283ef954af"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.45.0.mod"
+hash = "d5abe3973aa7d3f6c4302641b1f95a13fa9976a46d79717020f7583748842998"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.45.0.zip"
+hash = "8f30ef0039306bf3a4421b8c08e3fc8922d13503dce53b3438e860b3628faecd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/x/@v/v0.67.0.mod"
+hash = "af7951953a3c293f5bb5f724086d940a501b2c6a8fae2da5905e65846f327c10"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/x/@v/v0.67.0.zip"
+hash = "da52ed38815ac0a5a70bd271b1d5c29dee224a8ccf01e61f7f080ba785b8a065"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.45.0.mod"
+hash = "ff9df2ce87f84e675122c83844b544b6da1c4aa9f4723ead3d825b4237010239"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.45.0.zip"
+hash = "ad0e63fa1cfc01dffec2a90a8f2d2c1bc0f55d0462940176dc41b7ada0d03258"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/log/@v/v0.21.0.mod"
+hash = "642ff563adf29b7b8830ca7bc18952c52eb8aa69944570496cd83ff254b93d67"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/log/@v/v0.21.0.zip"
+hash = "01307d9ca425f64b23c253857e59490b347864ddf361c5b75912a9e2c5346cab"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/log/logtest/@v/v0.21.0.mod"
+hash = "5757e5a127b9450348682a8dba6a8b2f9f71efb4cd2e075cc6a24525b6e4dcc4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/log/logtest/@v/v0.21.0.zip"
+hash = "7c784cbd7f81785aa17f56e522b0562031c480f6b7cbd31cead501fdeaaa4468"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.45.0.mod"
+hash = "cd1f44b4ed257620aab5a9bef05e8cf13c73092ca37fe1530778aeb21c396793"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.45.0.zip"
+hash = "535731f380b12313c4ed5d7adb4b7d3a357609b212b03c8b7dc437809787be91"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.45.0.mod"
+hash = "8deb258105daad00ccd15be702c3afd78517327191cb0c4903dec33ff466c92d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.45.0.zip"
+hash = "32d7d64ea5991378184b03a9ed7b7822b17691a239508a6905fdd73819cb6c6f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/proto/otlp/@v/v1.11.0.mod"
+hash = "1c64c5758bc16721f8ee0f1405be68cc464252de31f12eba72bb8a73228fe720"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/proto/otlp/@v/v1.11.0.zip"
+hash = "790b98d472e7095511fa7feddd04e1d85bd844226e03ba482bd4105ef2217e09"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.uber.org/atomic/@v/v1.9.0.mod"
+hash = "f7476ceca88ad6eceea6936b4902d27c5071e88c24ed262e814923260e9778c7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.uber.org/atomic/@v/v1.9.0.zip"
+hash = "6a1b34a0510c5d0d09f141b3afcd40e6500a2005f5f36578e29b5fc6dc64c24a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.uber.org/goleak/@v/v1.3.0.mod"
+hash = "3f15dc6354aae8fe42d3cbd130230731d5c6aae6aa651ca6a73f4c646cda8fec"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.uber.org/goleak/@v/v1.3.0.zip"
+hash = "70edef0ce7d830d992f024e527fd3452069b884f94a27787a718bd68dd620702"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.uber.org/mock/@v/v0.6.0.mod"
+hash = "6e7cbfe58aed5f4ab25b241d9d84e263fd8c5d8d8a3c18ef0baf70a1adc0e4c8"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.uber.org/mock/@v/v0.6.0.zip"
+hash = "64e9c159c974cd05c09eae2e0fa1558e7f5eef0c85434208526b052785e1b90f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v2/@v/v2.4.4.mod"
+hash = "4bba343588a8a81f5cc4884d3d7ac7f5dd612b21af59d3f2ebea37ec476079bb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v2/@v/v2.4.4.zip"
+hash = "1b98a6a498cf255c5f2982d32c74633bc7969770957e98103ac1e14345aa4576"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.4.mod"
+hash = "2989f8b800605890ad40cf49109b0b6a972bda79d92df236d40ddb798093127e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.4.zip"
+hash = "0317dae56eaa9e9954467c8768fd6a89ba2005f1534e2c26fce5163ad8d2ef31"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20180904163835-0709b304e793.mod"
+hash = "5d01144d948412591d8f11d49f7a74fadace58e12d7366cf0af992147e52486d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod"
+hash = "33ed070a5a66e0960685ac5386440e1b59899e74d8a38a1180685e72a2195ded"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190510104115-cbcb75029529.mod"
+hash = "3ab9f01f4610fe7b39bd85d68e8d97825351e7e282c39cda41457c2a276f3be3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20200414173820-0848c9571904.mod"
+hash = "b2b12d09f81915fbcf4226009e50f9efda8bd3757d2055d8ec07977e65bc6618"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20200820211705-5c72a883971a.mod"
+hash = "b2b12d09f81915fbcf4226009e50f9efda8bd3757d2055d8ec07977e65bc6618"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210921155107-089bfa567519.mod"
+hash = "cd6311612a2aa4d0d7e03c41b3aa1fbc2d5f895ab3f61089fab80bfe9f8f5485"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20220622213112-05595931fe9d.mod"
+hash = "af2c88eebff03e3a2afecb1b03669fc54e9d122c88f7b2ecfed051ec5dbc8bbb"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.3.0.mod"
+hash = "b795106f8b8deb7ed77523a81de01ab4601f0f0381353918457d2d78ad9e3ce9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.56.0.mod"
+hash = "f9b8206155379c41362fecd719b0ef242de7b9c1dc700e621c72b231547c6e72"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.56.0.zip"
+hash = "fdffb67dc8c0ecea55664eb42c323c2e3b5af9fa72cd120939106c2cdc11dcb4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20180321215751-8460e604b9de.mod"
+hash = "9ff1d07ca8c09458450eb5f4076aa0390ef5c7db0c7a942150e88258a78b5383"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20180807140117-3d87b88a115f.mod"
+hash = "9ff1d07ca8c09458450eb5f4076aa0390ef5c7db0c7a942150e88258a78b5383"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20190125153040-c74c464bbbf2.mod"
+hash = "9ff1d07ca8c09458450eb5f4076aa0390ef5c7db0c7a942150e88258a78b5383"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20190306152737-a1d7652674e8.mod"
+hash = "9ff1d07ca8c09458450eb5f4076aa0390ef5c7db0c7a942150e88258a78b5383"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20191030013958-a1ab85dbe136.mod"
+hash = "216515d46656a348a831b48d80b07b77e8a1bc8d0efea2b80a1a16ffb4397821"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20260218203240-3dfff04db8fa.mod"
+hash = "7fb8de6bb62b618b4cafd309170ae435823493fd921a22bd70c494524f6c6bc5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20260218203240-3dfff04db8fa.zip"
+hash = "5f3c7eb1e584454c2cce4f4aeb521fd2f194be3d79871aaa3ef665afb9f25068"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/typeparams/@v/v0.0.0-20221208152030-732eee02a75a.mod"
+hash = "49064f2b6b5944e091bc67f34eeb5719b0052df7333d88871735d3e8ac0715aa"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/typeparams/@v/v0.0.0-20221208152030-732eee02a75a.zip"
+hash = "9bd73f186851c6229484f486981f608d16e2b86acbbef6f4f7cc0480a508a4a4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.0.0-20180708004352-c73c2afc3b81.mod"
+hash = "750f3c9741e41fe464879a60b1df257f3a311aff01d19f43f4987dba30007098"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.0.0-20190227222117-0694c2d4d067.mod"
+hash = "9b905a7a8c84ce9e164760c09071b95301e8d3d402ed962173f12f92b8ad62fc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.0.0-20190802002840-cff245a6509b.mod"
+hash = "4fa94ad41d9c4b097044b0b7fc21ca03d78e070e9ec10a6c9c311f05d0d51d00"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/mobile/@v/v0.0.0-20190719004257-d2bd2a29d028.mod"
+hash = "6bb86972375503a74822f0750f14d8e60e82ed73bf079522b8f564ad2077eaed"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.1.0.mod"
+hash = "14244b61ad6d46ffffc42b90a2b570c49d99aa3db1753062284d7dcf7d4d3e4a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.39.0.mod"
+hash = "703a6d7f3f0211742e81ad77b09a66d0a500de85855af65b09cb7691ac2aeb5c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.39.0.zip"
+hash = "e28d7d73fc1f5f6f80f7177ed5e26324c5ccd42bb6aab0fc124964f4fcf9c371"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.6.0-dev.0.20220419223038-86c51ed26bb4.mod"
+hash = "42d19023ff8f2eae700bc5495f371ecd998a22d19ba985d0af5f69900b254083"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20181114220301-adae6a3d119a.mod"
+hash = "3e08f487ddda1851b891df5b1d04bb1a01b84d6d702aa82d9efbccde0aa7df81"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190404232315-eb5bcb51f2a3.mod"
+hash = "f7046769daac02beb57cbcc481280df59fb403c96fe8262282aba858c7f7fa4d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190613194153-d28f0bde5980.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20210226172049-e18ecbb05110.mod"
+hash = "fef5896d103a0bce5055fdb5e96e830944334792437865347718edceb633348a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20211112202133-69e39bad7dc2.mod"
+hash = "fa915f5d022cfb0cb865aa2ee37d3a7741b406f84eb4a837862e29cc69ab4ef4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220722155237-a158d28d115b.mod"
+hash = "b315c52647d2da2f76e5cdb9d367e1d6727784236a9bffb612192b19b10a128d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.2.0.mod"
+hash = "07ec645e3353fc2673f2d8dee5c14eb928b9c13127a409fe3ec40eaba4dbdb30"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.57.0.mod"
+hash = "bfc4c34b9fa5d70e4837542577560e92f743e24f584a39877850650c19a444a1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.57.0.zip"
+hash = "f8d652c629374b43846ef4f2efd419e8d1c81779eb728306d09f0de1cc1bab80"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.36.0.mod"
+hash = "90ff0f4a036bc1c24e6c006fe18d97d6d11683431f8f197b7ad48a341da72682"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.36.0.zip"
+hash = "15bf65ff103e5dafc809d78cd037a1d1e88ccb8451824e851156002a13304504"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20181108010431-42b317875d0f.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20181221193216-37e7f081c4d4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190911185100-cd5d95a43a6e.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20220722155255-886fb9371eb4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.22.0.mod"
+hash = "a3e29e76060bd561060454b1fa2bdcd66674f60c9ca93833b8106355e34c603c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.22.0.zip"
+hash = "4bc67d258ce7867cfc1a43765c43d98b4c49b90c46dd0b86f896a5a4909fade0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20180905080454-ebe1bf3edb33.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20181116152217-5ac8a444bdc5.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190312061237-fead79001313.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190412213103-97732733099d.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190422165155-953cdadca894.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190509141414-a5b02f93d862.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191026070338-33540a1f6037.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20200116001909-b77594299b42.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20200122134326-e047566fdf82.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20200223170610-d5e6a3e2c0ae.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201119102817-f84b799fce68.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210124154548-22da62e12c0c.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210423082822-04245dca01da.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210630005230-0f9fa26af87c.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210927094055-39ccf1dd6fa6.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220310020820-b874c991c1a5.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220503163025-988cb79eb6c6.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220520151302-bc2c85ada10a.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220715151400-c0bba94af5f8.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220722155257-8c9f86f7a55f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.1.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.2.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.47.0.mod"
+hash = "57f4393ea18d5446a12363b35c23a616d843fa1669c7121a70a2bc3a9677d665"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.47.0.zip"
+hash = "cdac013ddced0262926ec29ffcda645da39670e61c7e5b761e572b6b1809bb1b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20201126162022-7de9c90e9dd1.mod"
+hash = "4cbab14f7706771b271d995a1b3cc131fe5a246aadc7ee6d1ba6f0bd894781fa"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.2.0.mod"
+hash = "edf833da101900fe2ce8db23409e42448f441898d3d7d8ee451988e3b30c9302"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.45.0.mod"
+hash = "62c3f9d1a5ae12264ab48e2c8acc08c9f201bda9619de171544eb5714b74aec5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.45.0.zip"
+hash = "b3a3af689728b43012ae1b21482571a35c033c545e98e021606bd4fcf1f79108"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.0.mod"
+hash = "36879d586fd8001e84da8787190a11e4f78749e2a81dfe8b9b6931899fff31cf"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.3.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.6.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod"
+hash = "c45d669089427bc4635d07b185f9b9680332d1c48c75b3c49cb715b81a04a5b0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.4.0.mod"
+hash = "15929e76fce04aea4c92a354426bb43370684645a4ee03f2e75d0c2eb1466304"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.41.0.mod"
+hash = "d9ed44f15d8656abad2642d0052ce966b8135f00c8f80c469d9e6940b49d5e0c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.41.0.zip"
+hash = "e63f35daaae749d0ffff97a295ad8f4837a662938a46b7a87f18a88e85a5cbf9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.15.0.mod"
+hash = "6149b2491c92f67545fc5da0083a791e369b3f99670d30f52bde0604c48c9e69"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.15.0.zip"
+hash = "8cfb20e915fa5d6c3fd264304233f8d71a3385e48a37819239c532ad9da27f84"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180525024113-a5b4c53f6e8b.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20190206041539-40960b6deb8e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191012152004-8de300cfc20a.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191119224855-298f0cb1881e.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.1.12.mod"
+hash = "2a8b9365898f0822face65ba089a1353e68a65d342f300ca317cceccde6421f3"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.48.0.mod"
+hash = "e6b55566a172ecfd21e5f4a8750f2d25665287288b24ff8d4e6cea5d5078c608"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.48.0.zip"
+hash = "8529e7bd696890fd79d3e1c37c7d1a3e2e26fb4b392b5beebfa7134ad2f65755"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/go/expect/@v/v0.1.1-deprecated.mod"
+hash = "0995d960f35334cd5c1caa9748e280ce531f2e06fe092466c77817ceb7a32f08"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/go/expect/@v/v0.1.1-deprecated.zip"
+hash = "b2389159ddd768c6bd83a0cc92bbf9be01c32ca973c366fc224b79762d90dd79"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20191204190536-9bdfabe68543.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20200804184101-5ec99f83aff1.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.0.0-20180816165407-929014505bf4.mod"
+hash = "ac99c793cbdcb073b40b2c2a0c3d1fa41a369cb0c90641129f7ff288caa8734e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.17.0.mod"
+hash = "8a17681ea0d86cd2de00b2a87745287f5a8d7a0ad55ec0c26c5b52f3552d30e7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.17.0.zip"
+hash = "dadeb3d260548de27375f7188bdfd5a175110120fd8ee8085a63b0dff2cae501"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.8.2.mod"
+hash = "7ad7b5d5902e216671c0ea1b24e130dc8508acfa4f7eda893b27213df5434e63"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/netlib/@v/v0.0.0-20190313105609-8cb42192e0e0.mod"
+hash = "c73aaea6dda7a0b162895d58892cd128b8b2c99ef46bfd3d6f2d1e4f360bed26"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/plot/@v/v0.0.0-20190515093506-e2840ee46a6b.mod"
+hash = "4a2de528e2eebbc818e5ce5a3161e48d20c06ee67896e852a8d0399a56e1bec6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/api/@v/v0.293.0.mod"
+hash = "484cd2303b3120a04be422d68d3081d1a92f26b5917568efe33729274fdf3178"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/api/@v/v0.293.0.zip"
+hash = "913ccf547e1fe73b270ab4cb5ba1b5709bc2ec45a856c91f20eb0e1592c8966a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/@v/v0.0.0-20260715232425-e75dac1f907d.mod"
+hash = "394f9c308860a3277fcff9d64caa57729ca24ed412e94bb4a71b94fdc9ecd463"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/@v/v0.0.0-20260715232425-e75dac1f907d.zip"
+hash = "2bb3944dd73d398fb40cf3e7cbc3ccfaec83e9e37ec2e4fa5e516989ee74d0a0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260803160001-6ac0973c030d.mod"
+hash = "50df61364dd170ad7f5449d31af2d6e1f5b4ed1bd249ea4f12618bf4496b6141"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260803160001-6ac0973c030d.zip"
+hash = "81fb4ff242fb2e9ec4328eed36190bf5ba96307ff85a057e2327fbd171b47650"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20260807164820-c8921c73eeea.mod"
+hash = "67711b6f9adde7cd2d23ba3512bf371ddc628709a4b7ff598794e638607e9987"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20260807164820-c8921c73eeea.zip"
+hash = "3b74e230aa744e15a3727109c0b191fa860c0a395a876f5e46834cc312b90c77"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.83.1.mod"
+hash = "2d6d07c2263a081850d89edd14de66f03198383d5318a8996074214c64786d95"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.83.1.zip"
+hash = "e6c3062accb0a2a0dbd6ab5ac8f25381c27ebe3378d34f52bb891f711c3d7a33"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/cmd/protoc-gen-go-grpc/@v/v1.3.0.mod"
+hash = "86cead18a8a9077ae20cc5b7525b3a8b6ba1ff4296525f366edd2de3127af20d"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/cmd/protoc-gen-go-grpc/@v/v1.3.0.zip"
+hash = "efe7a5ef1015d96ac432f1592843613a71fd24283fc62006b2bd3c96ae4bcdec"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.mod"
+hash = "a75c105a852fbd8da8d8cfac09c2eab9a206cfd27ed37c973737e23f632ca96e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.zip"
+hash = "68f8a3174aff42950fd9bd02c11b45c6986eb8060508d124d1c3dd6bf86b9be6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/alecthomas/kingpin.v2/@v/v2.2.6.mod"
+hash = "6f22dc94266475313a2c8a75850cea41345aa5e338119302fca5768b4198b3ec"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20190902080502-41f04d3bba15.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20200227125254-8fa46927fb4f.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.mod"
+hash = "6e6e2fca40eb8fe1455e6a08cd39833c7c2e9a2341a81fb181b89d0b1c725f48"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.zip"
+hash = "f555684e5c5dacc2850dddb345fef1b8f93f546b72685589789da6d2b062710e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/evanphx/json-patch.v4/@v/v4.13.0.mod"
+hash = "6b47b9be0c3be256798bae96456194f96ef8c286797ae901eff42da94f1efc31"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/evanphx/json-patch.v4/@v/v4.13.0.zip"
+hash = "de94747c5023a2c83909845c76acc6b4bfe28b44994207394b5e057f3085625a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/inf.v0/@v/v0.9.1.mod"
+hash = "ff919638534d3e5b7df9a4283eeb633040e6d206b200a18a47f9c7ff3c4bfabe"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/inf.v0/@v/v0.9.1.zip"
+hash = "08abac18c95cc43b725d4925f63309398d618beab68b4669659b61255e5374a0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/ini.v1/@v/v1.67.0.mod"
+hash = "13aedd85db8e555104108e0e613bb7e4d1242af7f27c15423dd9ab63b60b72a1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/ini.v1/@v/v1.67.0.zip"
+hash = "bd845dfc762a87a56e5a32a07770dc83e86976db7705d7f89c5dbafdc60b06c6"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.1.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.2.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.4.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.5.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.8.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.3.0.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.mod"
+hash = "c3b11ba9a0775ff9bc6f11dbb58a1e48cc1e68bac378a8cdc620becc661d4c33"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.zip"
+hash = "ede49e27c4cca6cdd2ec719aed8ea4d363710cceb3d411e7a786fbdec0d391fd"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200313102051-9f266ea9e77c.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/honnef.co/go/tools/@v/v0.4.2.mod"
+hash = "2330868a8f496f63066b925656a7a07cafa085768cd0a4691dedf76bc7aa59dc"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/honnef.co/go/tools/@v/v0.4.2.zip"
+hash = "2626815520502cc18e960db6de5ddf33d124ae7f1c9a379d445ea36427657539"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/api/@v/v0.36.3.mod"
+hash = "02b7a2347eca69281d8530e0a1aa316f76ff6e56b1dcacf7ffad90b788938370"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/api/@v/v0.36.3.zip"
+hash = "95f7a42e06dbd40d12aaf3e970bf14444a439e1d64b96dfad936070793bdff21"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/apimachinery/@v/v0.36.3.mod"
+hash = "a23960046aa9e3d25a6f74c7e602b8b898698ee0d1fc63e467908496ee56ef12"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/apimachinery/@v/v0.36.3.zip"
+hash = "23ab7303b43f39c7275a56b44b3f4e38ed9f77db0296a711ab2324ef3cf81297"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/client-go/@v/v0.36.3.mod"
+hash = "1cceebf359d00b977089131769d4eb1edd9634c780fa8445d180dc8251a33435"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/client-go/@v/v0.36.3.zip"
+hash = "6747e6664289daae7f310b54e594b56e91edd252d607cfcd8cdccbb5a59f45b7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/klog/v2/@v/v2.140.0.mod"
+hash = "382f54dfc864c3225b05d4bbb07e804e43f8d055cda2aa179944a1506257faa0"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/klog/v2/@v/v2.140.0.zip"
+hash = "46fab8686139b04c42f1b44e84c5a162667fbf22628216d5061d95206625a886"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/kube-openapi/@v/v0.0.0-20260317180543-43fb72c5454a.mod"
+hash = "3adcb60195245da83059b42f4eb0ff8a9937594658db50ed4624d4c6e3e730e1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/kube-openapi/@v/v0.0.0-20260317180543-43fb72c5454a.zip"
+hash = "49a6e8055e90d55f798310e57a8163422d0b5694c44e4eb61e1d24397d8b1ca4"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/utils/@v/v0.0.0-20260707023825-cf1189d6abe3.mod"
+hash = "e8707eb06bc56989446ad0623cbb26383b35c1b8fd78dc9fb5dbab4238e6d6d5"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/k8s.io/utils/@v/v0.0.0-20260707023825-cf1189d6abe3.zip"
+hash = "b4dd9cd9ed581fd60f44473214be210ccd7aa680067f6b2218a18047ef2b9262"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/oras.land/oras-go/v2/@v/v2.6.2.mod"
+hash = "8826f088ccf78312a92e68bbdc928152795638cc41eb5ceba6f89a456806fead"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/oras.land/oras-go/v2/@v/v2.6.2.zip"
+hash = "8264a7be2899cfd08e460916071e54ddb8a66b4a8b859f9793292c0609a34c6a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/rsc.io/pdf/@v/v0.1.1.mod"
+hash = "fe87d9102096c87900d1b4a106d9bd58f60c06809a4ef79d804bff0684f5cbe7"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/json/@v/v0.0.0-20250730193827-2d320260d730.mod"
+hash = "d584b68f8fa7ec7dbd71381e619036bbc64bfea3cc71c244e31f9ff429511620"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/json/@v/v0.0.0-20250730193827-2d320260d730.zip"
+hash = "7cec6eae3e4e4c9c1e0a009eef200740990fafbcb9cab081eb18ce32f6e7a7b9"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/randfill/@v/v1.0.0.mod"
+hash = "1e6a13decd1d66ad37abfe7e3f7ede5732c6ca6e81eacd2cc7739650652d0e4a"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/randfill/@v/v1.0.0.zip"
+hash = "31dbbfc44ce12f78f1b68d6bbeed8526aa73c53243353d44d50b2532c828f5f1"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/structured-merge-diff/v6/@v/v6.3.3.mod"
+hash = "7a7ab164fd592cdd515af7f0e556d2a5e9277652506943ba98e3d6ee035abe2c"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/structured-merge-diff/v6/@v/v6.3.3.zip"
+hash = "cc7604660434c50e1ca34529ea9b395af5333ba4521bfd463161d6db838e8966"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/yaml/@v/v1.6.0.mod"
+hash = "4e3c3c1d49a6652440ff70fb475e54ae46be2cab63cc46721b3c02fd9cca985e"
+
+[[opentofu.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/yaml/@v/v1.6.0.zip"
+hash = "cf88648a471581817b00a42ee8d24fd73eb0e3503998cf46d8e63787e11e5052"

@@ -1,0 +1,10 @@
+# JSON for C++, in headers.
+[[package]]
+id = "nlohmann-json"
+version = "3.12.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/nlohmann/json/archive/v{version}/json-{version}.tar.gz" }]
+
+[package.cmake]
+args = ["-DJSON_BuildTests=OFF", "-DJSON_Install=ON"]

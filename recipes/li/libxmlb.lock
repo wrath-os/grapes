@@ -1,0 +1,5 @@
+[libxmlb]
+
+[[libxmlb.sources]]
+url = "https://github.com/hughsie/libxmlb/archive/0.3.30/libxmlb-0.3.30.tar.gz"
+hash = "42bccefed2c210fd6161485bdc0c76574d1c8d24e397f21cf29ff25003e8026a"

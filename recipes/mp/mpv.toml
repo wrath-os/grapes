@@ -1,0 +1,19 @@
+[[package]]
+id = "mpv"
+version = "0.42.0"
+scope = "runtime"
+core = true
+extra_deps = [
+  "python3", "ffmpeg", "libplacebo", "libass", "luajit", "pipewire", "wayland",
+  "wayland-protocols", "libxkbcommon", "mesa", "libjpeg-turbo",
+]
+sources = [{ url = "https://github.com/mpv-player/mpv/archive/v{version}/mpv-{version}.tar.gz" }]
+smoke = ["bin/mpv --version"]
+
+# The video player, on Wayland with EGL, playing sound through PipeWire.
+[package.meson]
+args = [
+  "-D lua=luajit", "-D javascript=disabled", "-D x11=disabled", "-D vulkan=disabled",
+  "-D wayland=enabled", "-D egl-wayland=enabled", "-D pipewire=enabled",
+  "-D manpage-build=disabled", "-D html-build=disabled", "-D pdf-build=disabled",
+]

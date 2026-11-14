@@ -1,0 +1,10 @@
+# Goes in the seed, which has to point its binaries at wherever it's unpacked.
+[[package]]
+id = "patchelf"
+version = "0.18.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/NixOS/patchelf/releases/download/{version}/patchelf-{version}.tar.bz2" }]
+smoke = ["bin/patchelf --version"]
+
+[package.autotools]

@@ -1,0 +1,9 @@
+[[package]]
+id = "hyperfine"
+version = "2.0.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/sharkdp/hyperfine/archive/v{version}/hyperfine-{version}.tar.gz" }]
+smoke = ["bin/hyperfine --version"]
+
+[package.cargo]

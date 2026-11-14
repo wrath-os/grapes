@@ -1,0 +1,5 @@
+[libnftnl]
+
+[[libnftnl.sources]]
+url = "https://www.netfilter.org/pub/libnftnl/libnftnl-1.2.9.tar.xz"
+hash = "e8c216255e129f26270639fee7775265665a31b11aa920253c3e5d5d62dfc4b8"

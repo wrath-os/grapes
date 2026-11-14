@@ -1,0 +1,5 @@
+[rtkit]
+
+[[rtkit.sources]]
+url = "https://gitlab.freedesktop.org/pipewire/rtkit/-/archive/v0.14/rtkit-v0.14.tar.gz"
+hash = "55dd379b11f52b81655e2dc676de9d602d050cb0beb18ef01f0f65569f0a5e59"

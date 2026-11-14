@@ -1,0 +1,5 @@
+[gstreamer]
+
+[[gstreamer.sources]]
+url = "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.9.tar.xz"
+hash = "6dbf744f583131a34845cc641e803843766a9ba80ce00378a9043fd6d8d5fb38"

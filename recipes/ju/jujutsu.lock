@@ -1,0 +1,5 @@
+[jujutsu]
+
+[[jujutsu.sources]]
+url = "https://github.com/jj-vcs/jj/archive/v0.34.0/jj-0.34.0.tar.gz"
+hash = "9e8da8ec2951ec026a2afe956ad904bb691c050040f53c3e47cfe346ead2907e"

@@ -1,0 +1,11 @@
+[[package]]
+id = "inih"
+version = "62"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf"]
+sources = [{ url = "https://github.com/benhoyt/inih/archive/refs/tags/r{version}.tar.gz" }]
+
+# A small INI file reader; its C++ reader isn't needed.
+[package.meson]
+args = ["-D with_INIReader=false", "-D tests=false"]

@@ -1,0 +1,13 @@
+[[package]]
+id = "mpc"
+version = "1.3.1"
+scope = "runtime"
+core = true
+extra_deps = ["gmp-lib", "mpfr"]
+sources = [{ url = "https://ftp.gnu.org/gnu/mpc/mpc-{version}.tar.gz" }]
+probes = ["mpc"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"
+
+[package.autotools]
+args = ["--disable-static"]

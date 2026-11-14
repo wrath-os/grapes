@@ -1,0 +1,21 @@
+[[package]]
+id = "pango"
+version = "1.56.4"
+hold = { below = "1.58", reason = "1.58 needs glib 2.88" }
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "harfbuzz", "fribidi",
+  "cairo",
+]
+sources = [{ url = "https://download.gnome.org/sources/pango/{series}/pango-{version}.tar.xz" }]
+probes = ["pango", "pangocairo"]
+
+[package.meson]
+args = [
+  "-D introspection=disabled", "-D documentation=false", "-D build-testsuite=false",
+  "-D build-examples=false", "-D libthai=disabled", "-D xft=disabled", "-D cairo=enabled",
+  "-D fontconfig=enabled", "-D freetype=enabled",
+]
+
+# The compositor.

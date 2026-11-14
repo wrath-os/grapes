@@ -1,0 +1,13 @@
+# grapes itself, as every system carries it: the set the system was built from, which wrath on
+# the machine evaluates its configuration with while the lock pins this version.
+[[package]]
+id = "grapes"
+scope = "runtime"
+core = true
+whole = true
+sources = [{ url = "tree:.", include = ["set.toml", "platform.toml", "seed.pin", "recipes", "styles", "modules"] }]
+script = '''
+mkdir -p $DEST$PREFIX
+cp -r set.toml platform.toml seed.pin recipes styles modules $DEST$PREFIX/
+'''
+smoke = ["test -s set.toml", "test -d modules"]

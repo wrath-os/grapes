@@ -1,0 +1,16 @@
+[[package]]
+id = "libdrm"
+version = "2.4.134"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf"]
+sources = [{ url = "https://dri.freedesktop.org/libdrm/libdrm-{version}.tar.xz" }]
+probes = ["libdrm"]
+
+# The kernel's display interface, with AMD's and Radeon's parts.
+[package.meson]
+args = [
+  "-D amdgpu=enabled", "-D radeon=enabled", "-D intel=disabled", "-D nouveau=disabled",
+  "-D vmwgfx=disabled", "-D valgrind=disabled", "-D man-pages=disabled", "-D tests=false",
+  "-D cairo-tests=disabled",
+]

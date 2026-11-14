@@ -1,0 +1,32 @@
+[[package]]
+id = "niri"
+version = "26.04"
+scope = "runtime"
+core = true
+extra_deps = [
+  "rust-bin", "pkgconf", "libinput", "libxkbcommon", "mesa", "seatd", "libdisplay-info",
+  "pango",
+  "libevdev", "mtdev", "wayland",
+]
+sources = [{ url = "https://github.com/niri-wm/niri/archive/v{version}/niri-{version}.tar.gz" }]
+smoke = ["bin/niri --version"]
+
+# The lock takes Smithay from git, at the commit it pins. Without screen casting, which needs
+# PipeWire and the GNOME portal.
+[package.cargo]
+default_features = false
+features = ["systemd"]
+install = '''
+mkdir -p $DEST$PREFIX/lib/systemd/user $DEST$PREFIX/share/wayland-sessions \
+    $DEST$PREFIX/share/xdg-desktop-portal $DEST$PREFIX/share/niri
+cp resources/niri-session $DEST$PREFIX/bin/
+cp resources/niri.service resources/niri-shutdown.target $DEST$PREFIX/lib/systemd/user/
+cp resources/niri.desktop $DEST$PREFIX/share/wayland-sessions/
+cp resources/niri-portals.conf $DEST$PREFIX/share/xdg-desktop-portal/
+# The defaults a system's config includes before its settings, without starting waybar, which
+# settings can't take back, and which a shell such as noctalia replaces.
+grep -v '^spawn-at-startup "waybar"$' resources/default-config.kdl \
+    > $DEST$PREFIX/share/niri/default-config.kdl
+'''
+
+# Logging in and sound.

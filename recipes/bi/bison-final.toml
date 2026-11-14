@@ -1,0 +1,16 @@
+[[package]]
+id = "bison-final"
+version = "3.8.2"
+scope = "runtime"
+core = true
+extra_deps = ["m4-final"]
+# It runs m4 as it works, so whatever uses it gets m4 too.
+propagates = ["m4-final"]
+sources = [{ url = "https://ftp.gnu.org/gnu/bison/bison-{version}.tar.xz" }]
+smoke = ["bin/bison --version", "sh: printf '%%%%\\ns: ;\\n' > /tmp/g.y; $OUT/bin/bison -o /tmp/g.c /tmp/g.y"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"
+check_in_view = true
+
+[package.autotools]
+args = ["--disable-nls"]

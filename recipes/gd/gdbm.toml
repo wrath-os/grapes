@@ -1,0 +1,14 @@
+[[package]]
+id = "gdbm"
+version = "1.26"
+scope = "runtime"
+core = true
+extra_deps = ["readline"]
+sources = [{ url = "https://ftp.gnu.org/gnu/gdbm/gdbm-{version}.tar.gz" }]
+smoke = ["bin/gdbmtool --version"]
+probes = ["gdbm"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"
+
+[package.autotools]
+args = ["--disable-static", "--enable-libgdbm-compat", "--disable-nls"]

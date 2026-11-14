@@ -1,0 +1,5 @@
+[zoxide]
+
+[[zoxide.sources]]
+url = "https://github.com/ajeetdsouza/zoxide/archive/v0.10.0/zoxide-0.10.0.tar.gz"
+hash = "4fcd4272b013a10b637dbcc299c58a9924b94470a9042677ca1a204cc2e9150e"

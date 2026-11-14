@@ -1,0 +1,9 @@
+[[package]]
+id = "yq"
+version = "4.54.3"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/mikefarah/yq/archive/v{version}/yq-{version}.tar.gz" }]
+smoke = ["bin/yq --version", "sh: echo 'a: 1' | $OUT/bin/yq .a"]
+
+[package.go]

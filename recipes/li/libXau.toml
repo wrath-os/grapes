@@ -1,0 +1,11 @@
+[[package]]
+id = "libXau"
+version = "1.0.12"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "xorgproto"]
+sources = [{ url = "https://www.x.org/archive/individual/lib/libXau-{version}.tar.xz" }]
+probes = ["xau"]
+
+[package.autotools]
+args = ["--disable-static"]

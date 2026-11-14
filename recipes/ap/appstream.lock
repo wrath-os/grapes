@@ -1,0 +1,5 @@
+[appstream]
+
+[[appstream.sources]]
+url = "https://github.com/ximion/appstream/archive/v1.1.2/appstream-1.1.2.tar.gz"
+hash = "564ec87b16e9e4ee81fb021e612250fd27f3a3ecd31c209a5dd1ff59def3022d"

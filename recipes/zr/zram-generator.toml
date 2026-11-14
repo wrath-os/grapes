@@ -1,0 +1,25 @@
+[[package]]
+id = "zram-generator"
+version = "1.2.1"
+scope = "runtime"
+core = true
+extra_deps = ["rust-bin", "systemd"]
+sources = [{ url = "https://github.com/systemd/zram-generator/archive/v{version}/zram-generator-{version}.tar.gz" }]
+files = ["locks/zram-generator.Cargo.lock"]
+
+# The project doesn't ship a lock, so one made once with `cargo generate-lockfile` is kept beside
+# the recipes. Its Makefile installs the generator and its unit where systemd looks.
+[package.cargo]
+lock = "locks/zram-generator.Cargo.lock"
+programs = []
+install = '''
+make install NOMAN=1 CARGOFLAGS="--offline --locked" DESTDIR=$DEST \
+    SYSTEMD_UTIL_DIR=$SYSTEMD_UTIL_DIR \
+    SYSTEMD_SYSTEM_UNIT_DIR=$SYSTEMD_SYSTEM_UNIT_DIR \
+    SYSTEMD_SYSTEM_GENERATOR_DIR=$SYSTEMD_SYSTEM_GENERATOR_DIR
+'''
+
+[package.cargo.env]
+SYSTEMD_UTIL_DIR = "$WRATH_DEP_systemd/lib/systemd"
+SYSTEMD_SYSTEM_UNIT_DIR = "$PREFIX/lib/systemd/system"
+SYSTEMD_SYSTEM_GENERATOR_DIR = "$PREFIX/lib/systemd/system-generators"

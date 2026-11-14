@@ -1,0 +1,13 @@
+[[package]]
+id = "pciutils"
+version = "3.15.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://mj.ucw.cz/download/linux/pci/pciutils-{version}.tar.gz" }]
+script = '''
+# With the PCI ID list the release carries, so devices have names.
+make -j$NPROC PREFIX=$PREFIX SBINDIR=$PREFIX/bin SHARED=yes ZLIB=no DNS=no
+make install install-lib PREFIX=$PREFIX SBINDIR=$PREFIX/bin SHARED=yes ZLIB=no DNS=no \
+    DESTDIR=$DEST
+'''
+smoke = ["bin/lspci --version"]

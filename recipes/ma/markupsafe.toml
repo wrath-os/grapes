@@ -1,0 +1,10 @@
+[[package]]
+id = "markupsafe"
+version = "3.0.2"
+scope = "runtime"
+core = true
+sources = [{ url = "https://files.pythonhosted.org/packages/source/m/markupsafe/markupsafe-{version}.tar.gz" }]
+script = '''
+mkdir -p $DEST$PREFIX/site
+cp -r src/markupsafe $DEST$PREFIX/site/
+'''

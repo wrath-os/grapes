@@ -1,0 +1,61 @@
+[age]
+
+[[age.sources]]
+url = "https://github.com/FiloSottile/age/archive/v1.2.1/age-1.2.1.tar.gz"
+hash = "93bd89a16c74949ee7c69ef580d8e4cf5ce03e7d9c461b68cf1ace3e4017eef5"
+
+[[age.sources]]
+url = "https://proxy.golang.org/c2sp.org/!c!c!t!v/age/@v/v0.0.0-20240306222714-3ec4d716e805.mod"
+hash = "dacb1d0fc32300efe20bc95e0434e4141f6a8cf549d773d1ad9183c3480ab4da"
+
+[[age.sources]]
+url = "https://proxy.golang.org/c2sp.org/!c!c!t!v/age/@v/v0.0.0-20240306222714-3ec4d716e805.zip"
+hash = "55452e21f7a8079f6e33408a5e37553a9bc5960326ef310ec1aaae8facb1d216"
+
+[[age.sources]]
+url = "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.1.0.mod"
+hash = "099556fc4d7e6f5cb135efdd8b6bb4c0932e38ea058c53fc5fa5ce285572fb61"
+
+[[age.sources]]
+url = "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.1.0.zip"
+hash = "9ac43a686d06fdebd719f7af3866c87eb069302272dfb131007adf471c308b65"
+
+[[age.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.12.0.mod"
+hash = "7bfe5b03ab2d4d954d9b74eacdb2ccbf6bdef634201b000b97f9a0d20231dc7e"
+
+[[age.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.12.0.zip"
+hash = "d4539e716c2b7f2824584e4c4a17f64c508bd6e5359106a406a7e23e77109cde"
+
+[[age.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.24.0.mod"
+hash = "4dfb00e33c392cb4239d2fc5b65069a91defb3b6190bb8b97726267ee2e745fb"
+
+[[age.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.24.0.zip"
+hash = "7853b5097deae0de87f1361a0c63d01f09bf41a8e20f7033388426a961aa9d38"
+
+[[age.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.21.0.mod"
+hash = "d227b325f621f4ebe28d39ba773ea99b870f393b7c09c34592c365b16dd560de"
+
+[[age.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.21.0.zip"
+hash = "2588f4e77c83774bc6f168e8594f2dcbd21c1d26849a877f7e6a0d151392e735"
+
+[[age.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.21.0.mod"
+hash = "96beefecd24b09802a722e602014c2d79c4f7a4c328cc75212beb402dc903397"
+
+[[age.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.21.0.zip"
+hash = "3ba59c5c929c526e0bf016696db8ffec313b43876428677ecda4198312a6f696"
+
+[[age.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.22.0.mod"
+hash = "71fd17b2c11bf1e68b607fd3827ae3b57d87ecf471b0532389cfa2088b2feb3a"
+
+[[age.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.22.0.zip"
+hash = "6c12cd419d997290febb441698d0e52cab5a71be959ac7c4dd023f86b2d01d1e"

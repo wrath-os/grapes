@@ -1,0 +1,11 @@
+[[package]]
+id = "hdparm"
+version = "9.65"
+scope = "runtime"
+core = true
+sources = [{ url = "https://downloads.sourceforge.net/project/hdparm/hdparm/hdparm-{version}.tar.gz" }]
+script = '''
+make -j$NPROC
+install -Dm755 hdparm $DEST$PREFIX/bin/hdparm
+'''
+smoke = ["bin/hdparm -V"]

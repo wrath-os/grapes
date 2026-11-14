@@ -1,0 +1,5 @@
+[tuigreet]
+
+[[tuigreet.sources]]
+url = "https://github.com/tuigreet/tuigreet/archive/0.9.1/tuigreet-0.9.1.tar.gz"
+hash = "14fd1fadeb84040eb31901da2b53a48aa55b0fdaccb36d96fa52ce2d2113667f"

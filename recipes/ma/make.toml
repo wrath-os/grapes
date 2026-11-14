@@ -1,0 +1,14 @@
+[[package]]
+id = "make"
+version = "4.4.1"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://ftp.gnu.org/gnu/make/make-{version}.tar.gz" }]
+script = '''
+./configure --prefix=$PREFIX --disable-nls
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+smoke = ["bin/make --version"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"

@@ -1,0 +1,14 @@
+[[package]]
+id = "zsh"
+version = "5.9.2"
+scope = "runtime"
+core = true
+extra_deps = ["ncurses", "pcre2"]
+sources = [{ url = "https://www.zsh.org/pub/zsh-{version}.tar.xz" }]
+smoke = ["bin/zsh --version", "bin/zsh -c 'echo ok'"]
+
+[package.autotools]
+args = [
+  "--enable-multibyte", "--enable-pcre", "--with-tcsetpgrp", "--enable-etcdir=/etc",
+  "--disable-gdbm",
+]

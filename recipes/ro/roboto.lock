@@ -1,0 +1,9 @@
+[roboto]
+
+[[roboto.sources]]
+url = "https://raw.githubusercontent.com/google/fonts/c30b221beb0c1da59d563feb91ec8656a1fa972a/ofl/roboto/Roboto%5Bwdth,wght%5D.ttf"
+hash = "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+
+[[roboto.sources]]
+url = "https://raw.githubusercontent.com/google/fonts/c30b221beb0c1da59d563feb91ec8656a1fa972a/ofl/roboto/Roboto-Italic%5Bwdth,wght%5D.ttf"
+hash = "9725a847af6b460ffca162ae66d20dad48b01876137947180b42d7dcd7887182"

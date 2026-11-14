@@ -1,0 +1,5 @@
+[libtiff]
+
+[[libtiff.sources]]
+url = "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.xz"
+hash = "4996f0c4f93094719b1ca5c6279b20e588773ba8a247533e486416fb662ddb88"

@@ -1,0 +1,14 @@
+[[package]]
+id = "zlib"
+version = "1.3.1"
+scope = "runtime"
+toolset = true
+sources = [{ url = "https://zlib.net/fossils/zlib-{version}.tar.gz" }]
+script = '''
+./configure --prefix=$PREFIX
+make -j$NPROC
+make install DESTDIR=$DEST
+rm -f $DEST$PREFIX/lib/libz.a
+'''
+probes = ["z"]
+check = "make test"

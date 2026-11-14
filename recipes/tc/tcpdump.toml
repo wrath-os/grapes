@@ -1,0 +1,10 @@
+[[package]]
+id = "tcpdump"
+version = "4.99.7"
+scope = "runtime"
+core = true
+extra_deps = ["libpcap", "openssl"]
+sources = [{ url = "https://www.tcpdump.org/release/tcpdump-{version}.tar.xz" }]
+smoke = ["bin/tcpdump --version"]
+
+[package.autotools]

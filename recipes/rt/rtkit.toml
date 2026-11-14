@@ -1,0 +1,27 @@
+[[package]]
+id = "rtkit"
+version = "0.14"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "dbus", "libcap", "polkit"]
+sources = [{ url = "https://gitlab.freedesktop.org/pipewire/rtkit/-/archive/v{version}/rtkit-v{version}.tar.gz" }]
+
+# Gives processes that ask, such as PipeWire, realtime priority within limits.
+[package.meson]
+prepare = '''
+# Its D-Bus description goes into the program as bytes, which it would make with xxd.
+od -An -v -tx1 org.freedesktop.RealtimeKit1.xml | tr -s ' \n' '\n' | sed '/^$/d; s/^/0x/' \
+    | paste -sd, > xml-introspection.h
+# Its users file goes with its own files, instead of where systemd keeps its own.
+sed -i "s|^sysusersdir = ''|sysusersdir = '$PREFIX/lib/sysusers.d'|" meson.build
+'''
+args = [
+  "-D installed_tests=false", "-D libsystemd=enabled",
+  "-D dbus_interfacedir=$PREFIX/share/dbus-1/interfaces",
+  "-D dbus_rulesdir=$PREFIX/share/dbus-1/system.d",
+  "-D dbus_systemservicedir=$PREFIX/share/dbus-1/system-services",
+  "-D polkit_actiondir=$PREFIX/share/polkit-1/actions",
+  "-D systemd_systemunitdir=$PREFIX/lib/systemd/system",
+]
+
+# Desktop portals, which programs open files and share screens through.

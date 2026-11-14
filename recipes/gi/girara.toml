@@ -1,0 +1,12 @@
+[[package]]
+id = "girara"
+version = "2026.07.18"
+scope = "runtime"
+core = true
+extra_deps = ["glib"]
+sources = [{ url = "https://github.com/pwmt/girara/archive/{version}/girara-{version}.tar.gz" }]
+probes = ["girara"]
+
+# Settings, commands and key bindings for zathura.
+[package.meson]
+args = ["-D docs=disabled"]

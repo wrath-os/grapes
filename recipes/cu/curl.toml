@@ -1,0 +1,15 @@
+[[package]]
+id = "curl"
+version = "8.15.0"
+scope = "runtime"
+core = true
+extra_deps = ["openssl", "zlib", "perl"]
+sources = [{ url = "https://curl.se/download/curl-{version}.tar.xz" }]
+smoke = ["bin/curl --version"]
+
+# Certificates come from the system's bundle, which the system puts in /etc/ssl.
+[package.autotools]
+args = [
+    "--with-openssl", "--with-zlib", "--without-libpsl", "--disable-static",
+    "--with-ca-bundle=/etc/ssl/certs/ca-certificates.crt", "--disable-manual",
+]

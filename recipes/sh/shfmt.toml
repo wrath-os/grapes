@@ -1,0 +1,11 @@
+[[package]]
+id = "shfmt"
+version = "3.14.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/mvdan/sh/archive/v{version}/sh-{version}.tar.gz" }]
+smoke = ["bin/shfmt --version"]
+
+[package.go]
+packages = ["./cmd/shfmt"]
+ldflags = "-X main.version=v3.14.1"

@@ -1,0 +1,5 @@
+[noto-color-emoji]
+
+[[noto-color-emoji.sources]]
+url = "https://raw.githubusercontent.com/google/fonts/c30b221beb0c1da59d563feb91ec8656a1fa972a/ofl/notocoloremoji/NotoColorEmoji-Regular.ttf"
+hash = "4d82a18d8d95f60ba883ce242bbadbf84a576e987745dd7ba38d71c67cff2d73"

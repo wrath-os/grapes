@@ -1,0 +1,149 @@
+[duf]
+
+[[duf.sources]]
+url = "https://github.com/muesli/duf/archive/v0.9.1/duf-0.9.1.tar.gz"
+hash = "1334d8c1a7957d0aceebe651e3af9e1c1e0c6f298f1feb39643dd0bd8ad1e955"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/!i!g!l!o!u-!e!u/go-wildcard/@v/v1.0.3.mod"
+hash = "7f8f7f46b876d44b3ad0d51cc8b2392148df1100935fdb855f548496954bedd1"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/!i!g!l!o!u-!e!u/go-wildcard/@v/v1.0.3.zip"
+hash = "fabf7a28a76606b3aa9c9ef54a0f59cb9b5fdbd9e3dcb40fa55786beebd39416"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/aymanbagabas/go-osc52/v2/@v/v2.0.1.mod"
+hash = "4646f9f19a822aebf4296bce24d5f2b7b2700ea1c44f5cc978300263cb7b5611"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/aymanbagabas/go-osc52/v2/@v/v2.0.1.zip"
+hash = "939ebf2a5481f2172e1a5e0c318d05aef5b6d950a960556216c3da7879a927f8"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.zip"
+hash = "6b44a843951f371b7010c754ecc3cabefe815d5ced1c5b9409fb2d697e8a890d"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/jedib0t/go-pretty/v6/@v/v6.6.8.mod"
+hash = "f0cabaafb49c91c0ba136880990cef7a69c017512c7118f6fc42714f3473c9fd"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/jedib0t/go-pretty/v6/@v/v6.6.8.zip"
+hash = "cb4a3eec0a13d23f986d76e479f9400789fb40844ef0ecd1f2174212dc7aa0e9"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.mod"
+hash = "84f9c38e9884ab013c837cb16aee139500d3d5c6ccab02439881db2ecf28f660"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.zip"
+hash = "78d5d0e0737f0f54bbed77b6dfa847d8c871bed2668a9dc44328c7c3411ada10"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.20.mod"
+hash = "1eeabef1b4d98db73c6c2073289163649bc9a044552aca86b9d592fe84eaa1c8"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.20.zip"
+hash = "f2d5f89ca451577e17464b9bb596dc0d0ecececb5eaa63622c41b57cd0b7b8cc"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.16.mod"
+hash = "216c93d19310612c81d5c741024989f83897d2333c3a9f967b58b1317587f519"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.16.zip"
+hash = "179d2d900c76ee3560fbeda60d0237a3be6acb734d0cb7423b55e5ccb0cedbca"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/muesli/mango/@v/v0.2.0.mod"
+hash = "188182a93506614d7ad92b3a87734e2368e458a2c5144adc10a65d8d82693059"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/muesli/mango/@v/v0.2.0.zip"
+hash = "a95275afdeaf6ac18526e5574d0814a3425a468849fdbfbfca5893fc775da32d"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/muesli/roff/@v/v0.1.0.mod"
+hash = "fb95b862f047ba0231baded8e65118883590f4be280642095287fb90b8efe478"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/muesli/roff/@v/v0.1.0.zip"
+hash = "9fd6265f0207b4af5786049c728c0ed9844b83cab8c0bfe419c49378dc08a173"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/muesli/termenv/@v/v0.16.0.mod"
+hash = "07581751f5b61fdae253960c3992898b64b6ad5573a69ba22ad249d7f0a889c1"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/muesli/termenv/@v/v0.16.0.zip"
+hash = "ba02d3ebd9c1d87e2c2133b1f2bb61a7001b3765196e8016029ce9fe54c5c0fc"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.zip"
+hash = "de04cecc1a4b8d53e4357051026794bcbc54f2e6a260cfac508ce69d5d6457a0"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.mod"
+hash = "6c7318a27a8d5473a8eb661e75fb00528176e0efc59310ed277ca13bd12a53f1"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.mod"
+hash = "a1e174890fc9f252450211fadeb53756f9cf5ab7b19697765f9fb255f81ea898"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.zip"
+hash = "b995e4aa0cc1e5779cc61138ac925cb8c1e963e40c80e4b93ee8553812ebb792"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.10.0.mod"
+hash = "c0a648a037da54a6b02e8a811b1d3917d49dc4e1841cd756f28f0c4f1593933c"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.10.0.zip"
+hash = "36c87573527a97ce97fc15ce2a101e65e5ebb350db142d09f633580cb8d5c839"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.35.0.mod"
+hash = "f67e3e18f4c08e60a7e80726ab36b691fdcea5b81ae1c696ff64caf518bcfe3d"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.35.0.zip"
+hash = "dc3c20611168aaa8fda0d71999be1a5222a0ba57bc767c978a590e41ff2ede35"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.6.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.34.0.mod"
+hash = "a5ff80baa7f2639db9ed9df46ef6ce29fd1ab1b4275e9b8a6856aa9b8ecde27a"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.34.0.zip"
+hash = "22281cbf30560433d57de8d72c1151f9cac2917795dc6e9f694f7a525bb5309c"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.22.0.mod"
+hash = "b26a1f71dc41b9992bafec38867987652d1293d046c652df549eed687149d862"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.22.0.zip"
+hash = "939cb4c202aa8fa302f2ba6f9d29165ce82fce9c665d9a1a0bb0d9e51b79e6f5"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[duf.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"

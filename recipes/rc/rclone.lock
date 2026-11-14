@@ -1,0 +1,3317 @@
+[rclone]
+
+[[rclone.sources]]
+url = "https://github.com/rclone/rclone/archive/v1.76.0/rclone-1.76.0.tar.gz"
+hash = "8cb7e5d576fe9a3aef8b1a0785e2ffc6c1953f8ed109f42000b0b86718f6628b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/bazil.org/fuse/@v/v0.0.0-20230120002735-62a210ff1fd5.mod"
+hash = "0b321a2e20e2ca74d565a23d0d42c1cd3dae3e9ce6fa93ef5428cec883f3fc65"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/bazil.org/fuse/@v/v0.0.0-20230120002735-62a210ff1fd5.zip"
+hash = "19365a1af7ccf66edf0a454e609133c52e71391c1756e381f988b716afe667cd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/@v/v0.24.1-0.20261001053825-dbc26066f70a.mod"
+hash = "ecb6d2dbc519c650991056cf3170c9f3521b6de653fe47a0cdb48afa5b5c9447"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/@v/v0.24.1-0.20261001053825-dbc26066f70a.zip"
+hash = "7dc5ed5fe3bb149bfa02d8dd76264cbe79e496db03c2a8fd90178c8934fc686c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/oauth2adapt/@v/v0.3.0.mod"
+hash = "0d7fa049e0faa1b6ab31df3fa11ce546a41b24535e8113be926be8834c94279b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/oauth2adapt/@v/v0.3.0.zip"
+hash = "4c991104cea02fe9f2aba1d177a691b57f5988ecf63aee4aefa05b77b0fd405a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/compute/metadata/@v/v0.10.0.mod"
+hash = "a4e1953e2b08fc8d7cce69fad7eea90f0e38fc35b7c2f56c193500db2db87a9a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/compute/metadata/@v/v0.10.0.zip"
+hash = "5814f9cc62d49d73e213091485cf977037ec4c219d1d831422c24f2f40735346"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-extensions-for-go/cache/@v/v0.1.1.mod"
+hash = "25f47cf39d4b7808d4860451a48f37eba322268cc2ef7fd95d46c9bd8c0cd22f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-extensions-for-go/cache/@v/v0.1.1.zip"
+hash = "de8edfcf96b8879307ea318c939dd4a07d666137e1bdf87733072a6c160e9e1a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-library-for-go/@v/v1.10.1.mod"
+hash = "1e649668e3f2fca9fcd26cb8bba22ff301c0f2431150da6670f902c83e9458a8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-library-for-go/@v/v1.10.1.zip"
+hash = "adc8dd050c3f5b194f49b40ff9c9138da3e67b112f76c1fb77d8ce650def4e41"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azcore/@v/v1.23.3.mod"
+hash = "faecaeb70f7ee1def23f08db3554156cbf515f7e5c6deeb8ae71912e968298ba"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azcore/@v/v1.23.3.zip"
+hash = "47732460ab9b5cfb89763342002059dad4ef59d333caf1405e0eda737a235697"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/@v/v1.15.0.mod"
+hash = "9948bef442eb868379cd93046c6ae1122820fd907d34c8e98fc84ee0bbb97fc7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/@v/v1.15.0.zip"
+hash = "818f833ae8f19c24b0f5f8c34f31ef910c5d4280802dda1f43a8a60cc07a6ae4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/cache/@v/v0.4.0.mod"
+hash = "0344cb0c2225d657af7fb823275e6099288de4f2f6da5730d4e131b61e5ff818"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/cache/@v/v0.4.0.zip"
+hash = "29a59f8fb8be3065e081a3bd8ec67658e97d396204f3a9f84a4724d89f13c150"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/internal/@v/v1.13.0.mod"
+hash = "45895e884464961f1237191af2daedfd89ab387023d916ba0552284327afb814"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/internal/@v/v1.13.0.zip"
+hash = "206818577e4ffcc34cbd55da36e52194226dc3a561817b4df422f42870506113"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage/@v/v1.8.1.mod"
+hash = "f996b652f8ed2da6784515e0937a1cebf7d5832aecb015117c72e70bc869499e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage/@v/v1.8.1.zip"
+hash = "e2e4a3536aaef9a113c9bd88e1a0c254b6efe510e432e76bd67020d0fa15628d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/azblob/@v/v1.8.2.mod"
+hash = "c457c3381e4f6cc1f72699e64aecc06d004a1fb7a825e0b646c268f649f538c9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/azblob/@v/v1.8.2.zip"
+hash = "9ab633b8de7a7cb057eb8e403ac51428d81e065b4310ea8becc6bab7532d659b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/azfile/@v/v1.7.1.mod"
+hash = "59bd7c30ce717852a37270d0802d96724085314af75ea85e5fcadaf16ba43926"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/azfile/@v/v1.7.1.zip"
+hash = "3f60305d6c3ad1e591199b161296f44b9045183bd3e202a1da2e0add24a2f51b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/internal/@v/v0.1.0.mod"
+hash = "b098df26104f173f09a3929b097a0892df4cd84c7681325d8dc5506a4fb7acaa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/internal/@v/v0.1.0.zip"
+hash = "ed9ddcf29aa291539b96dd81e93c66ed556cec018fdee0d93116efcb49e6d4cc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/go-ntlmssp/@v/v0.1.1.mod"
+hash = "a9c3b8e871bb4279da1f42302e46b29a19e884427e36c90843bcbb22a4485dfe"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!azure/go-ntlmssp/@v/v0.1.1.zip"
+hash = "3b80d75f2e559d6568163e6da8119cb7118fc60288b0f62c80829ea855e1b4e5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!filen!cloud!dienste/filen-sdk-go/@v/v0.0.39.mod"
+hash = "33244a48a16c1d5ec7e13e83fcd5ae2654ca151759bf706afcb2e46730470b61"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!filen!cloud!dienste/filen-sdk-go/@v/v0.0.39.zip"
+hash = "dcc9ed019edc82f111f212477de7077751da7851468e119d8af988bb1fc9f8e8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!files-com/files-sdk-go/v3/@v/v3.3.194.mod"
+hash = "4dca3f072e0f6ae9cd5897f982d1c936b1c679b2123700430b10b1f3e0bb0509"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!files-com/files-sdk-go/v3/@v/v3.3.194.zip"
+hash = "ba4078f3eb828d13e93c5094e16bd0c44bce9a5a25ecd71b7c37218038b299f6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!i!b!m/go-sdk-core/v5/@v/v5.25.1.mod"
+hash = "0cbde5a25d16ff9e8138e2cb3b4137c9f3be3b2ee21ee54e9e1ba720d4ec2bd2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!i!b!m/go-sdk-core/v5/@v/v5.25.1.zip"
+hash = "8a2fb6ec88c76b142b98e1d4a292e033b66c29ef54c2e80dfad90d42894c80ac"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/semver/v3/@v/v3.5.0.mod"
+hash = "7462a48cd90958d6fc79f674abb7ec89fa477a1cf4f292994ecb72a043c57d03"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/semver/v3/@v/v3.5.0.zip"
+hash = "2cda916821eedb0e1d7ac45d80b6cb78320b035f0f77272ff18d082b7cd90713"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!max-!sum/base32768/@v/v0.0.0-20230304063302-18e6ce5945fd.mod"
+hash = "fa482e63d3b765c4ec704f82f16c03724b9ae2be8e003bd7e643405421c31e47"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!max-!sum/base32768/@v/v0.0.0-20230304063302-18e6ce5945fd.zip"
+hash = "884da69f365e677c1f1aa18e5404ae79324428c8063f61e9b5f01f29274fb997"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.5.2.mod"
+hash = "19b8fbe9d4419278bb1e9d0cf2fd5aec879e42829c53ba3efd5656b8d1b35ae7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.6.2.mod"
+hash = "47fb19990ebb31954f3aa784ff45f4c93a9e86ac3e1297d7ca87c614aeffe2cb"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.6.2.zip"
+hash = "cd007bdb877a578efde2780bf5dd2f57dd557b5b08c3614597b820d0369ebb0f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/bcrypt/@v/v0.0.0-20210511135022-227b4adcab57.mod"
+hash = "ba46c32eb08e270c6001d1b2e2f0aed2c0fe853cc9545bc653fce94ae906b584"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/bcrypt/@v/v0.0.0-20211005172633-e235017c1baf.mod"
+hash = "a6d49c0148e7380abbb1d4a5383975b8712827065f34633c668daac22ec20028"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/bcrypt/@v/v0.0.0-20211005172633-e235017c1baf.zip"
+hash = "2d641d9fcf6c238813e254df6bb93724dc46543516df4071efaf22f68ba337b0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/gluon/@v/v0.17.1-0.20230724134000-308be39be96e.mod"
+hash = "147b982b85e497fbc73cc3b41eaf012e33ba0487cd93087c1dffcface1b94a88"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/gluon/@v/v0.17.1-0.20230724134000-308be39be96e.zip"
+hash = "3fa88ebf957192f2061c9bdcd2f8e313311e131246d23dedc2a596682cbb4645"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v0.0.0-20230321155629-9a39f2531310.mod"
+hash = "739bad42da3a041b6eadcdda6546affd42b35a87a23c8cd97f96594f3eb120db"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v1.5.2.mod"
+hash = "ed1f85c71a923884ce7d473567633be6029daa68cc80f277ff15278756943635"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v1.5.2.zip"
+hash = "6ce5df4da97350b69637df5918fa1431816180ca1ab3a9850b3f69c14575a7e8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-srp/@v/v0.0.7.mod"
+hash = "b98e7cbf03f194a6b3403788b359e4a402e7dd833ef8590f412583e0951851ed"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-srp/@v/v0.0.7.zip"
+hash = "aaac72038a9ee29162137acf24e1c17ef0c2601d5fcaefd434c3da57be4471b8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/gopenpgp/v3/@v/v3.4.1.mod"
+hash = "4a493f2a6188691b75c3185d3949a8dc37baff4efa7f39bd4aa516a13b1d2e3e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/gopenpgp/v3/@v/v3.4.1.zip"
+hash = "fbb45e4963cec3542c90f3a17f3611daec672f2d623a7e5de06469a93b48d7d5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!puerkito!bio/goquery/@v/v1.12.0.mod"
+hash = "0712ec4c31ce6841c520b390f058424bde0c9148d24dac9bd219b0b950a9b6fd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!puerkito!bio/goquery/@v/v1.12.0.zip"
+hash = "a27ad64d6aa446c8943fb7097fb2bb5e22c806343016de82b0e99bfe85930b28"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!s!t!a!r!r!y-!s/zip/@v/v0.2.3.mod"
+hash = "47b253600e3da7116d4bd63a2f095562830a6fab74ccbddc40af260b35cca0e3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/!s!t!a!r!r!y-!s/zip/@v/v0.2.3.zip"
+hash = "7b7af5c34cdc6d4b55be309ef0c7bfa5147029f8484d799c092be3141463a76b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/a1ex3/zstd-seekable-format-go/pkg/@v/v0.10.0.mod"
+hash = "8ecef253305a1d20a4f3cf40a7daee181b404dffc6250b64ff1bd302e52ef4cc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/a1ex3/zstd-seekable-format-go/pkg/@v/v0.10.0.zip"
+hash = "f848512376f410f227ff39e9368c6981a9fb23f6b707f40973f38b5185c5a2c4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/a8m/tree/@v/v0.0.0-20240104212747-2c8764a5f17e.mod"
+hash = "5d153cae0b74711cfc0bd561987e9e6a80c3cf4d4e7ceaa0d52455fca71d1689"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/a8m/tree/@v/v0.0.0-20240104212747-2c8764a5f17e.zip"
+hash = "f80124210d32debcfbc545727eee84cad848c24df45ff3aed4df6981d5b3cd33"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aalpar/deheap/@v/v1.1.2.mod"
+hash = "a0ebe2d2e0819beba913662c5d458beaed59083943ab5e55f493a5c5fe8f86cb"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aalpar/deheap/@v/v1.1.2.zip"
+hash = "9557721af9303b535cc4255a1f92f5237ff17d069c9110be8bfd177bf363e8b8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/adrg/xdg/@v/v0.5.3.mod"
+hash = "a90821b125d2e3cb77c833f7b7e34e7e8ce7502f07fcb101b5cfea7f14dfeea1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/adrg/xdg/@v/v0.5.3.zip"
+hash = "52847b48afcd46cfd312bc857a8df08643cfffc4103d59a40c3ce648e0196c13"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/akavel/rsrc/@v/v0.10.2.mod"
+hash = "18b7d6652beec9ed8b5a3e7d27a8765e5c3718fc819ee73b9e3b14effc15fdba"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/akavel/rsrc/@v/v0.10.2.zip"
+hash = "4a1f17e289dec94b49610f74b467c7e2053332e856a8766ec8c3e7c3d39af04f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/dms/@v/v1.8.0.mod"
+hash = "0b6da9c6788d7215ee267becc4214ac9453e8710efc857f2b6160df3462712b4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/dms/@v/v1.8.0.zip"
+hash = "2e64ae1a7fffd43d96758baea2523e7925351d54abf95fd1de64f3dd96805581"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/anchore/go-lzo/@v/v0.1.1.mod"
+hash = "789691936a70c39f25d5ac9f38dfa5c629528f6b96225712b27ebaaafb462e5e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/anchore/go-lzo/@v/v0.1.1.zip"
+hash = "75cbab209e61945e91335de0a8ef98ba91f5ac27c47fa4fb385e5c5f9747848f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/andybalholm/brotli/@v/v1.2.7.mod"
+hash = "9836ed7059e6b6be9d42e666c866deea8646d5815216fcf6216966074744cb1f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/andybalholm/brotli/@v/v1.2.7.zip"
+hash = "e7b105fd7ca3cc32bee46a23133e9fc2d81b324fec2440c698eb7cc8f03bfc13"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/andybalholm/cascadia/@v/v1.3.4.mod"
+hash = "74e794bc81bdf7dcc57ed9039a2b51c3fba2c4967139d23a495012fdd3039640"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/andybalholm/cascadia/@v/v1.3.4.zip"
+hash = "b9c323146f294f32009a95edd68d3513911858aa18ddde903ccff2394abe90a4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/apache/arrow-go/v18/@v/v18.7.0.mod"
+hash = "a901c2d1e8d55eca8a14333e770277ec322c4cf72b0ca6996806ed5c7eec8adf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/apache/arrow-go/v18/@v/v18.7.0.zip"
+hash = "3c0ac1b2e30e5fcfce25116880f30cbfd6d70437f593ba209e29211f9d40a542"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/apache/thrift/@v/v0.24.0.mod"
+hash = "982562f893bd7eb28d00e32b74752853725225380c5ca77abb6fef338120c4a8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/apache/thrift/@v/v0.24.0.zip"
+hash = "6b1f6c9f91a03d917589e392f01cdf91aa592f1deae8bb2b7c336ab872e0aaa9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/appscode/go-querystring/@v/v0.0.0-20170504095604-0126cfb3f1dc.mod"
+hash = "f1f32543772ad355945b85e0622654bcb52bdfbd68e8eec7c32a1bd7b6b29068"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/appscode/go-querystring/@v/v0.0.0-20170504095604-0126cfb3f1dc.zip"
+hash = "2b5f4c89fad59f1c218a4953b1507b572438fef6d907d4da667882d44e941215"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.mod"
+hash = "871822cbc7df3792f78a100886b7f499f73555938e336b918682119688ea8ad0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.zip"
+hash = "d67b2c36c662751309fd2ec351df3651584bea840bd27be9a90702c3a238b43f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/@v/v1.47.3.mod"
+hash = "92e8dec44bda9408a328c70a71dd7aca5724c1d1ff72338d56c68ed157eaca82"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/@v/v1.47.3.zip"
+hash = "4aa8e34e3474deed9df61edcd8d7bae09ec46b941ab2ff5805960dcdcfcd5db4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/@v/v1.7.22.mod"
+hash = "c516b5962ece1d930083ce85736bdda5a9acde5bc8b2397e99b1c6eedf4f44fc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/@v/v1.7.22.zip"
+hash = "9838bb7dbc62b12d9501d3498cc4be519e7c20f1364a6ded627bacf1a4f61a2a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/config/@v/v1.33.9.mod"
+hash = "3d91731415f64ed3794a162d93b527ef804d23e1241b8437c40cc1b5b4b48d8d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/config/@v/v1.33.9.zip"
+hash = "8d05a0e25881b396f8e406207c0423098272c7a8b2be53af3d88a41d42d76747"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/credentials/@v/v1.20.9.mod"
+hash = "620ca805cb59383c5731da8541d58d8131e7425a0442e31864abbc1715e4acd8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/credentials/@v/v1.20.9.zip"
+hash = "4fffbed9c3b57fc3ad268cda6133c572f2d079c2da0a906fdd46ae06b0608c43"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/ec2/imds/@v/v1.20.3.mod"
+hash = "cbcd9480fb40c0d46af840e20262f8a986341ca4a32bbb393d2365f6d8b9d3b0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/ec2/imds/@v/v1.20.3.zip"
+hash = "0e4cc47e1e3fa7f5f901f180a01c98c94c8e4d0d0a7012053f873e6f1eed2390"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/s3/manager/@v/v1.23.14.mod"
+hash = "c41fd14fd8b35d8d6feaac1c9956b1d8303e4335acb3ab4f9b262ddbc020c56e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/feature/s3/manager/@v/v1.23.14.zip"
+hash = "8c36cea3d2d260eddfd0b6a157a5db19d36046329d10127bc6322d52686ff373"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/configsources/@v/v1.5.6.mod"
+hash = "ef2c7ab2c8720772a6657294b2c8d7a9eeaf1c0a6c0584f865268f77626cbb38"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/configsources/@v/v1.5.6.zip"
+hash = "6649de0f595b31e30d039bf01a2f9c9880ed4c64dacfb148e21275d48d778343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2/@v/v2.8.6.mod"
+hash = "df469527f805fa4dbeebdc64ba4fee8c5c8e372c758adf2e99b546e692d42a93"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2/@v/v2.8.6.zip"
+hash = "718ee2f8eeeae766f6850c8c00b3f248feddd79d8a51d7f1e93cb2d13dbb57b7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/v4a/@v/v1.5.6.mod"
+hash = "0afbc75184cce41178d4197de2f9a0610cf0368066b9ffbb9875d4c1adfeb238"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/internal/v4a/@v/v1.5.6.zip"
+hash = "32b153f6d725a3e9ccfec87ad1b79fe3d39db5749e9a53bc20654214ecb46053"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/@v/v1.13.21.mod"
+hash = "4f7b5b7a5de0259363408463f62d40636e85d69d0c344fdf9bad492f4d2b287c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/@v/v1.13.21.zip"
+hash = "297f64a3671e46441e17b0e4e489ccf9d58057d123266944161738e8e52f6740"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/checksum/@v/v1.11.7.mod"
+hash = "5d60b9dd9791056c66ba1d8d66ded80a9e565be6fb71c41369869daf9c6ff008"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/checksum/@v/v1.11.7.zip"
+hash = "56f6b390c267596845fc1955ce68487174ff7b4528ff5435b9d1a3188d135dff"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url/@v/v1.14.6.mod"
+hash = "c4ca030e20ef361738448d34dd8b44b789d9eb16fbaf5b94746caccdc395f786"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url/@v/v1.14.6.zip"
+hash = "16a518a3698a2eaff3788cea50fa31347e16811cbb8b8eaa60350d097c550901"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/s3shared/@v/v1.20.6.mod"
+hash = "4a1985aee08fcb637c7a0605daae92c20f0c6d6192ed5e990bf8430c88b0e162"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/internal/s3shared/@v/v1.20.6.zip"
+hash = "22e58ddf4744df2353f0fa8d90eb2bb99e16f084a2fcee242a3d7962af85f71f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/s3/@v/v1.114.3.mod"
+hash = "ce214062ea6bb1566879e55dd6ab3b82dafcfd49f4d572b1bb101ff6df7a9363"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/s3/@v/v1.114.3.zip"
+hash = "d80e9e310f21b27d0af761f4d63191e8124b1fc20006116bcc7f6445f13d41ed"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/signin/@v/v1.10.4.mod"
+hash = "229378902db4b7d33e61cd30d1aa0f314efca49c4ddf5fdda9b55109b2ef36f6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/signin/@v/v1.10.4.zip"
+hash = "b5547650b2389db84e435d2f84cb43ceb53cfbbfcac3c29d7fe0673451e19c89"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sso/@v/v1.38.4.mod"
+hash = "ffa128e3e7a065db5a107edcfc1567522e273829e31e6bcf359e843e61cdd2e2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sso/@v/v1.38.4.zip"
+hash = "5d43b1f76b9bbbe9dd209b5052796faf1a5e5a3d0af176a75d8248d397d89215"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/ssooidc/@v/v1.43.4.mod"
+hash = "aee97018aa63abf721c4d7728b346d0517f01b173aff9a0cacbc046f9125f554"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/ssooidc/@v/v1.43.4.zip"
+hash = "460b52896bc218d8a3ad32ca6055458d50303ba284953295fdbcba4f8947746e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sts/@v/v1.51.4.mod"
+hash = "b594223a457eea7136d0f36dbeba8ecac94a6e6ec1e800a8245759737fd1fe07"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go-v2/service/sts/@v/v1.51.4.zip"
+hash = "24030bc57bdae661b027adb927507ae10f5261a9059a30f20f8554bac1d69e21"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/smithy-go/@v/v1.28.5.mod"
+hash = "77bb1f126ec520dade5c97d14a05deb9696fc29a853520b943aecd3849219e81"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/aws/smithy-go/@v/v1.28.5.zip"
+hash = "2827daaa4ec0f109abe9c7f74772163561e4d24efea938b7051cf541b4ff8552"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bahlo/generic-list-go/@v/v0.2.0.mod"
+hash = "963215560d40b8b6b6363b343e042a84389b76ec6ca6ff4b1322038f42ee95de"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bahlo/generic-list-go/@v/v0.2.0.zip"
+hash = "e773fa812176a62f1d27d7a1e7589683f5e5af2d36628fa6a5a522e59474c504"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.1.mod"
+hash = "c870b3fe50b6944fab095b06208d9c8898763e9173cb1eed3258c3d58309ba66"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.1.zip"
+hash = "25bd9e2d94aca770e6dbc1f53725f84f6af4432f631d35dd2c46f96ef0512f1a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/plumbing/@v/v1.3.0.mod"
+hash = "47c6e79a0285fbacce06096f0f8e7d730aa1491d5b7b015c3198ba0b80647570"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/plumbing/@v/v1.3.0.zip"
+hash = "15c80dc98fd6b972798a6c24a002f6fb00b28abdc9928185206a5abc5e56a089"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/sevenzip/@v/v1.6.5.mod"
+hash = "9ee7fc34113ae01d113cc2389a0f5fcb0d7a2ec8043314a5f94f7e6399f2445f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/sevenzip/@v/v1.6.5.zip"
+hash = "9dbad89992338ff0c408a351e9135221715d309acf4234f52fe69d23da7ace7c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/windows/@v/v1.0.1.mod"
+hash = "89f0c3b76ed9bc76f2f3ffe449890b627465d7cd6893e860168f5b75feec85fe"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bodgit/windows/@v/v1.0.1.zip"
+hash = "cbe5f1c687372fd463b19c05b2cfdd3cdcaad86baea38f83ebe580b26f19e956"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/boombuler/barcode/@v/v1.0.1-0.20190219062509-6c824513bacc.mod"
+hash = "c2405ce221f1d08638f38282a9bc43a079adcb1b9515fe4e08ab494d0ef7fca3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/boombuler/barcode/@v/v1.1.0.mod"
+hash = "c2405ce221f1d08638f38282a9bc43a079adcb1b9515fe4e08ab494d0ef7fca3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/boombuler/barcode/@v/v1.1.0.zip"
+hash = "b8e43377b2810f32ba102ccde887d32d2e05471a68122818173e85132debae76"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bradenaw/juniper/@v/v0.15.3.mod"
+hash = "c79c2a5dac8a0f7cd474e65923f028779934c43df23913f359b3c5c4806ed96e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bradenaw/juniper/@v/v0.15.3.zip"
+hash = "09769aeaec2ec25beea07719585352dcf66b665eb3655033b7ea30befafb775f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/buengese/sgzip/@v/v0.1.1.mod"
+hash = "9cbc6ced80f9f4627105569099a27188843e507bb6e0e98ed6a21597b3cdb765"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/buengese/sgzip/@v/v0.1.1.zip"
+hash = "8df7fb596efd83a7d87d34946bbc37fcd11d1fb11dbe4c5ec17a00ba546160d7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/buger/jsonparser/@v/v1.2.0.mod"
+hash = "587c18b3f32f8b7dcd3fccc82a5f5520ea624c037c85d597b2eb5d958063a1b5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/buger/jsonparser/@v/v1.2.0.zip"
+hash = "e14fdde5ed2da541b69fd235075e1436a8188e78e52445840c4268794f359093"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bwesterb/go-ristretto/@v/v1.2.0.mod"
+hash = "368aca1757be8745cce3b90deb401e7be5740963ca5359c4a954cc03502d8f03"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/@v/v1.13.2.mod"
+hash = "48b374e6376605f71430279429e7a3aa12f7291138a799e6af817fac2f4daf80"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/@v/v1.13.2.zip"
+hash = "3226f069df46573a28b0b9c96ba6585ebc07fd682a717248e4bbb10154e9b986"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/loader/@v/v0.2.4.mod"
+hash = "1235cd86fbdaf29fa9f2b6050f907b90be31688208f5d7199dcba9d6aecec31f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/bytedance/sonic/loader/@v/v0.2.4.zip"
+hash = "f8c5910484f1d0597e49db5192ffd1362d41cb9102934eb0c83dac7a9a6ca6f8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/calebcase/tmpfile/@v/v1.0.3.mod"
+hash = "790602d9754707deebfd195588938ca691bc24f08d4aa8d435aabbe9757fbf5b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/calebcase/tmpfile/@v/v1.0.3.zip"
+hash = "44bb89c6e03a2cdbb36e7616392ebb96daf0d8bc0d3d91ce3709e62e4636d5e5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.mod"
+hash = "a090f8eaaf59cc2adf163299ebefe797e1dca3f6add2c8e88a6a3b90ba538b02"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.zip"
+hash = "145a26cdc7c49db566017b807c4989ee7f7ddeb569423e9cb99f995fac3621d3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/chilts/sid/@v/v0.0.0-20190607042430-660e94789ec9.mod"
+hash = "d594549b4d8bbd99e0955ae3df1002da094cd7f138d8f44d980f106f291cc5de"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/chilts/sid/@v/v0.0.0-20190607042430-660e94789ec9.zip"
+hash = "1a317f6b4c4fb11e90f5661c34703ba8b8a4ba248eaf3b4b6fe8a3c11226b9b6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/displaywidth/@v/v0.11.0.mod"
+hash = "643bf909351d7bc8ff29a8a7bb44cca11efe181ed66e5efe57d695bb023effb3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/displaywidth/@v/v0.11.0.zip"
+hash = "27830c91cdfb2a648748db21f7a2734dcb50d21c620edde51d488ba4e7967e3d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/uax29/v2/@v/v2.7.0.mod"
+hash = "f3c5f4e4f9e7fb16aea5fd9dc5f24c3ff9c157b1a67576c0f2140117589507a0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/clipperhouse/uax29/v2/@v/v2.7.0.zip"
+hash = "67b1278f1ffb4e4d783a390e48fe7396864650138e785d4b4bfca5914333f761"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.1.0.mod"
+hash = "1db9d0f112f9ae8a72a06841f4f191d3545c144c6e05ed3cd816018a5882281a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.6.4.mod"
+hash = "71f71b82bebc747877199397b7329bf960363ffb0ba5c48cfdd7c4f57aa664dd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.6.4.zip"
+hash = "bc44d9316fad1a8657714cbf91ed2103bcc47934765e8ee471e174e8722e9242"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudinary/cloudinary-go/v2/@v/v2.16.1.mod"
+hash = "d44023c007f1d6881e2cf2c61bea892485b23fb6945fb6ca0db694c00a53a73b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudinary/cloudinary-go/v2/@v/v2.16.1.zip"
+hash = "f00d7f9fb353e676b20c7f510afb3b80cbab73517189c7e56c11a4808a3ab3aa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudsoda/go-smb2/@v/v0.0.0-20260918041005-0c5d69b69701.mod"
+hash = "c6b7040072de9c9d6bb8924b52a2dd205f45e62e2c1920ea3ce50e3a328c633c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudsoda/go-smb2/@v/v0.0.0-20260918041005-0c5d69b69701.zip"
+hash = "4985391f60e801e0606d011b651371711e80331b48e66735a3222afdaa4b389e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudsoda/sddl/@v/v0.0.0-20250224235906-926454e91efc.mod"
+hash = "5686f604a0fc27685c9e288f4d2fa2d616b2e73ade9a67391d67b34bd6696997"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudsoda/sddl/@v/v0.0.0-20250224235906-926454e91efc.zip"
+hash = "4d8eb7d3d840c63755c01ed2e1500df655503b466b6410208479debf4df98c16"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudwego/base64x/@v/v0.1.5.mod"
+hash = "bcc4065e9bd9d1bc09c7853d20b725e9412d94b44b200548c14f263437b916fb"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cloudwego/base64x/@v/v0.1.5.zip"
+hash = "15ca905ca40e6c730ccd7871124698e0948d2d86e6b8d7b3ed87035966268f8a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/colinmarc/hdfs/v2/@v/v2.4.0.mod"
+hash = "f5f58ae41dff2f08e001e0fedee93c03e94aa67afb4ecd7af2284256e210b373"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/colinmarc/hdfs/v2/@v/v2.4.0.zip"
+hash = "b996584b71a7e8f337bb528cce3a28740687251d0dde7624b5487c447a7439f9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-semver/@v/v0.3.1.mod"
+hash = "08609c644cbcd0a4801e2585ee5a9dd283f92a412224d86e0dbd431530e6ce38"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-semver/@v/v0.3.1.zip"
+hash = "e72820542b5913afe0a52e956e0b3834e9fbb080641fed183117f862fab74e8a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-systemd/v22/@v/v22.6.0.mod"
+hash = "88519529440b4fe92b9973c3f0379014573a55fd2b823fec0ae00b5a768c36ff"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-systemd/v22/@v/v22.6.0.zip"
+hash = "7759d251cb9c2f020d8b7b5fa075653cb11cad4861e3e194bf3484267bbabc2f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.6.mod"
+hash = "bb81a9e2d14d9a586f0591853bdaad230d8cdf0d8d6ffa71dddae249ad573cc9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.7.mod"
+hash = "bb81a9e2d14d9a586f0591853bdaad230d8cdf0d8d6ffa71dddae249ad573cc9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.7.zip"
+hash = "9ad5f2cbc644c0bb648a9b182d6b70f92e7ac4dfab5cf0ef746bbeef944fda59"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/creasty/defaults/@v/v1.8.0.mod"
+hash = "c7fdf992f55954de5f206701d847bbefa8640c6f02eb7ebb5c7c3140070d91ce"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/creasty/defaults/@v/v1.8.0.zip"
+hash = "d9984bcd4b7326a6066f58bc94b46fe8657e50e1ba0a3ef6eb592b0ff96e6712"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cronokirby/saferith/@v/v0.33.0.mod"
+hash = "00534f8bf79ef5620c920e8d2cd35ef5cdb07b3a0ca70be0f616076f9d1b51d4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cronokirby/saferith/@v/v0.33.1-0.20250226174546-1f11f94ce488.mod"
+hash = "00534f8bf79ef5620c920e8d2cd35ef5cdb07b3a0ca70be0f616076f9d1b51d4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/cronokirby/saferith/@v/v0.33.1-0.20250226174546-1f11f94ce488.zip"
+hash = "63f9e49ce347804cc181503a1b7e9b5a3a485c98907af3b94ef3dcf81900ee5a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.0.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/diskfs/go-diskfs/@v/v1.9.4.mod"
+hash = "11af6cb2b381d497d299284022fa3c231b8156054610633dcff46a4e95d7773a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/diskfs/go-diskfs/@v/v1.9.4.zip"
+hash = "4f8acbe8da9b3fb057bcaff97ea2e2906a4c5e588d5c112420be6ced0b106934"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/djherbis/times/@v/v1.6.0.mod"
+hash = "ecc07de30ea561b21c6bac61760f30c30da8aa8667d7902cfb1f5bb59743808a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/djherbis/times/@v/v1.6.0.zip"
+hash = "21d69060967bc03ea3c39ff8c0b1a95511e96eccd3749a2daef1a02af1bc0a85"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dnaeon/go-vcr/@v/v1.2.0.mod"
+hash = "10bbc9c2df08155825e9ebec456c2ed98611493e055901c21c621409acf69672"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dnaeon/go-vcr/@v/v1.2.0.zip"
+hash = "6d34b7e17c158d51ffc34f6ac64df05ab736b2ae50c0db07be4a9556dac10c52"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dop251/scsu/@v/v0.0.0-20220106150536-84ac88021d00.mod"
+hash = "e277ed1de33f7d9ede927776393645279a4ee03396603a6f792b4bd0babfbac9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dop251/scsu/@v/v0.0.0-20220106150536-84ac88021d00.zip"
+hash = "3f7d44f2a38188fcadfdbc4b5d9ff9b214d787dbf85a2256ec863125f99e8bd1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dromara/dongle/@v/v1.0.1.mod"
+hash = "1663c436ee7ca71c33f571003f1b1771cd0b18b57220d6d1b23ed2a52d9f29a0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dromara/dongle/@v/v1.0.1.zip"
+hash = "c0070691c99d3b163bf44c1e1dd8dd0564099515be1919d7e7af71a59c3d939c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dropbox/dropbox-sdk-go-unofficial/v6/@v/v6.6.2.mod"
+hash = "bf683cbac9049918555932556eb2db91fc71f70948c29a2e9a15b9e1788cfe28"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dropbox/dropbox-sdk-go-unofficial/v6/@v/v6.6.2.zip"
+hash = "d9c09285b819d7c19b887dd5af6d489d34a981a71f4b73c343b56752936a47a9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/compress/@v/v0.0.2-0.20230904184137-39efe44ab707.mod"
+hash = "1e93ee12b35fefe8156bacc3e39931303ecdec8739edd4414db0e51e9a063f35"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/compress/@v/v0.0.2-0.20230904184137-39efe44ab707.zip"
+hash = "bc6111029c5b2a663b69e6d622d1082ccaf114b31162ea046681c2e4b689ee43"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/golib/@v/v0.0.0-20171103203638-1ea166775780.mod"
+hash = "3b5266f69965a715f27de5d5e34da0ff809eb54a2ae6d7f5453d064d5a3dd5df"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/try/@v/v0.0.3.mod"
+hash = "b0c5d73019aad1d653686c99562a0c2a05eca3e07f84dad740a5424012861ccd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dsnet/try/@v/v0.0.3.zip"
+hash = "36ba1afb215485979ebfb957164c8c48c781b40bd5d42b078fc02d31148a3c70"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.0.1.mod"
+hash = "4325999d0a6841031258a2561c22879d9fbdf77abc6b32a17b1cb6edf0810fb2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.0.1.zip"
+hash = "319404ea84c8a4e2d3d83f30988b006e7dd04976de3e1a1a90484ad94679fa46"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.11.1.mod"
+hash = "b63c9137b0c2608c4cd43a0234cbaeb777bc0d43a29744f2058c1da82b6d358e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.11.1.zip"
+hash = "f314003767757fd3c150029496aedbae2592b2d85b0e76db0f907f77f0170f26"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/elliotwutingfeng/asciiset/@v/v0.0.0-20260129054604-cfde2086bc57.mod"
+hash = "a71147b0ecd33def45800568067c70e7e1a5f9b6a644844a2ab64903dcdd942f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/elliotwutingfeng/asciiset/@v/v0.0.0-20260129054604-cfde2086bc57.zip"
+hash = "c13ac18e6d481fa04192dc40e741599d1dedac31b1ba06d84c03008f8079c622"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/emersion/go-message/@v/v0.18.2.mod"
+hash = "0e64c39a26330194424904187d847a1ae932c55fb4ea4a568db346c6a06c174f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/emersion/go-message/@v/v0.18.2.zip"
+hash = "7bccb8ee87c818306ca54a4e868e7066985a51c523bf059a8aee142978cb1384"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/emersion/go-vcard/@v/v0.0.0-20260618161152-d854b7e0e2d3.mod"
+hash = "0d42dd4b73925475d6a04ebd34d5c6f2e0904757465b1dc679aa4dc15b0ff582"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/emersion/go-vcard/@v/v0.0.0-20260618161152-d854b7e0e2d3.zip"
+hash = "1c7f72fa119795c21f68b263dc2b887acc599ee4f510489e80ecdcdff1bf9175"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/emmansun/gmsm/@v/v0.15.5.mod"
+hash = "a57191060d493eb463ea7e1b413ce439978d3c9f9d61fb6237a2e57511048c12"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.19.0.mod"
+hash = "fea48cc3b2ed755595426699c1af8023cb61cb0fb1a477bafc78ca10750f6871"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.19.0.zip"
+hash = "694b4265dc678e2a65b196371d5a6ec4eed3739f12a16021dcd2f0c1355d0ec6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.1.0.mod"
+hash = "e6c8e044418c809ceea7acbc002c297bd433ea635e0ac9e4fc2019c9bf895b6e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.1.0.zip"
+hash = "e3405a361843f8e69f64e41b523512925cd50fd5ea108b7912534922c31b00e7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/flynn/noise/@v/v1.1.0.mod"
+hash = "c7aeaadf7e45b2f1648e09dc3c7819e0bcb910d9687933e6e85e09231e765799"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/flynn/noise/@v/v1.1.0.zip"
+hash = "4925ada24731484e19b32ca5b06c46d1e102a0b7a8eaab750b11ef88ad8e661e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.4.7.mod"
+hash = "ea2d0a6a0e84f5d39d0c05711a55dafb1d56a974a1a9187fb24e8657196c5454"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.4.9.mod"
+hash = "0dab08a9d390fa423979b281c8a30adf6368579945519dffa568ebe6f754a036"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.9.0.mod"
+hash = "da3713c5c57d252d25520de0e6b397b033858b3aff5dddf21164abe3297c9ff9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.9.0.zip"
+hash = "94e64824b23591b7aa504e3321d5ec3f57de88f4d49882eaefbbf6820dab746e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gabriel-vasile/mimetype/@v/v1.4.15.mod"
+hash = "f40af104c0b75b00988c788128ae3ad1aa253c832a8ab59920df42542e6e7793"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gabriel-vasile/mimetype/@v/v1.4.15.zip"
+hash = "33ca0896cfdc7e0b412d7b676ed461428b28a952f86170cea545e112a5e86ef1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/encoding/@v/v1.0.1.mod"
+hash = "67621ac302247c0bc8fa24bbf137210836e0c06d67c4116c8c8f981e163d0043"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/encoding/@v/v1.0.1.zip"
+hash = "e584303c743306ae55be21a5703900d0628aa2ef840ce49d5f0bbf7c51379e33"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/tcell/v3/@v/v3.6.0.mod"
+hash = "53d90df05f63baf30d995f201ace73faf20c0bc8374e59c8d2ffd2971230ab9e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gdamore/tcell/v3/@v/v3.6.0.zip"
+hash = "f8455638cccdd7de893d8c35d503eba0e2120377ad5efad4a03ed5b9848d3da2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/geoffgarside/ber/@v/v1.2.0.mod"
+hash = "10881e1daec63634d59a7373323d3aee8574da3c266a0cec44fa6f54b65ef650"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/geoffgarside/ber/@v/v1.2.0.zip"
+hash = "cb29a3bef361e331d34f6aa5045d52d2fd0e50881814130c2e1985288131a4a7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gin-contrib/sse/@v/v1.0.0.mod"
+hash = "e47376f69df77c075e0327a992118ca37b590b715134c83bed33b673343d1d6b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gin-contrib/sse/@v/v1.0.0.zip"
+hash = "fd804b0464cbf3658ad0799d3c070ee000533ae698d83dda01f58e90aaa637dd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gin-gonic/gin/@v/v1.10.0.mod"
+hash = "2ddbeaea6b917e76aac346777a47b2e022ffc91a1c72568ae39fbb218badb00d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gin-gonic/gin/@v/v1.10.0.zip"
+hash = "c983efe780ee7c250a287eb26f228e0f7b77667c5ff9f4448cd54f05d28f5e70"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.5.0.mod"
+hash = "7eb620f0fce870d93eaba87bf6f8c36284db786108030ca229a5016461797090"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.5.0.zip"
+hash = "39f8416f36d5b177b0ce5d48cf21b3f460df9260feafab1fb8c1410fde0901dc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-darwin/apfs/@v/v0.0.0-20211011131704-f84b94dbf348.mod"
+hash = "c2ce3c59e1bfeb7fda32827ee8a776e9ba74b7db92d97e7b11d345a26540f982"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-darwin/apfs/@v/v0.0.0-20211011131704-f84b94dbf348.zip"
+hash = "952d30835210f3ae24d38a2d79d19a70819efee267248dfa37319f5b0eacf1d3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-git/go-billy/v5/@v/v5.9.2.mod"
+hash = "ca36abc546e8898d5bf3fc5eda190d6f3da852e88c66ec90406bd0cd51c84691"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-git/go-billy/v5/@v/v5.9.2.zip"
+hash = "9974a305102f61aca7626622e24d9dbe307d7b62c1e690be648af326c1f274af"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.2.2.mod"
+hash = "519b1d6da5eeef675b4a1857d628f05f110a2b8cb3c423b715fea80d0975a518"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.4.mod"
+hash = "c496f30d700f02b49a1b50bc2486a27c2f74df3dce75d9db6d2d43975b381727"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.4.zip"
+hash = "3ab107c1d280ce798eaa744efd595982fa709d4023f3f38d24189827483c1710"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.mod"
+hash = "0812160f77474d8dbf692b7caaee7fd5508448c705d9b54b5a3496ac44468c2c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.zip"
+hash = "9dd6893bf700198485ae699640b49bc1efbc6c73b37cb5792a0476e1fd8f7fef"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.2.6.mod"
+hash = "de7da59858d6121956da002ded711242cc14ecf597e932a8625246418fd3bbaa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.3.0.mod"
+hash = "fcf0840f2ff50fbc3b5a54b9d4cb240c64d47003ab03e420aeff0057015a8953"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.3.0.zip"
+hash = "bbf5b3bfa227a5daa06eb16ecdecccc0b20e08749bf103afb523fd72764e727a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/errors/@v/v0.22.9.mod"
+hash = "6684241d3b507d67ae745d733b6587896f59ecdaa2473ffc876a8570604a8b48"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/errors/@v/v0.22.9.zip"
+hash = "051d8685c61791cb57083da18eff3639f0a00dc4357c28b1598b675cf29bcc59"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/strfmt/@v/v0.27.3.mod"
+hash = "98595bb321fc1c746cadd4f13e7bcb0ecdb40bdcf30df6384757486d0808a493"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/strfmt/@v/v0.27.3.zip"
+hash = "dffb8a8f44e20852fdd67608911c88d84d9b840c6b4ee59e6631d1f6e9e87317"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/testify/v2/@v/v2.8.0.mod"
+hash = "076a5c97e9e8062c3d6b8661773a47bf09050d1f2467dff12531d4992c7ad6a7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/testify/v2/@v/v2.8.0.zip"
+hash = "5e0a75713f4998ca45ba997bfeefe3ca2f27e2ca9e754aca33e16beabf131c4f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/assert/v2/@v/v2.2.0.mod"
+hash = "817256f9cba4a191e90bd32d71f2536f1ddd7d4b72f9b670daa6515bbd70eff6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/assert/v2/@v/v2.2.0.zip"
+hash = "1d77d82cc5dcdbb7789e93276b37e437b0182be698a1a6558a17d80cb01b859a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/locales/@v/v0.14.2.mod"
+hash = "6a9beefd077ba42be0aa1c3073dedb050ce2f9aec7446e051846f8048a045a09"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/locales/@v/v0.14.2.zip"
+hash = "44c84d533c1c7b628dc11d8f885b27f096ab0e57ef5e775f10bf19b3694188f7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/universal-translator/@v/v0.18.2.mod"
+hash = "5228f73faedd77951a8a1b796ea19f75f25ce39e07d261543382fb6c550f7b47"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/universal-translator/@v/v0.18.2.zip"
+hash = "56dd8c231c3c8814a9875c8791a4ed22bfae85da5b4445dd755c69fc3c1262d9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/validator/v10/@v/v10.30.5.mod"
+hash = "76cf1f94de0e624d7ecc919f607809c41d27b21744501a933c28ea2330024df0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-playground/validator/v10/@v/v10.30.5.zip"
+hash = "5cc6c31eb911f55169cd181158945535a0b500969aa99684a89c58468b158c6a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-resty/resty/v2/@v/v2.17.2.mod"
+hash = "586e750cb3e29ee671d24cd2ba5c7e7149360c73ea6a0631b7eb316ed0566978"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-resty/resty/v2/@v/v2.17.2.zip"
+hash = "424588a1577747a23273e5ef9f75fdb9178b8d2a42fa37f2e0ed90bb2b957cd8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-task/slim-sprig/@v/v0.0.0-20210107165309-348f09dbbbc0.mod"
+hash = "875203669c50efd369628daa4876f494a1829fbe7f388b566d6d77c4df1228a1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-task/slim-sprig/@v/v0.0.0-20210107165309-348f09dbbbc0.zip"
+hash = "a0bb8b3e4aa7c75e47a3fe505f39aa6b57d339c1adf00149c0193a25f1cc5703"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-task/slim-sprig/v3/@v/v3.0.0.mod"
+hash = "60d8053fb51eef51ba227e2f65038ee559ed68df7430e63d11314237a1180fdc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-task/slim-sprig/v3/@v/v3.0.0.zip"
+hash = "5e534ccb4157d0443f65f06b76bce67eb92b3e34766f3a14dabe86945955dbe7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-viper/mapstructure/v2/@v/v2.5.0.mod"
+hash = "5393fe364f1a200c6a84ee2c7bf727f02c9e0b1f844ca13b188ca925f4718b08"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/go-viper/mapstructure/v2/@v/v2.5.0.zip"
+hash = "326f8e00f648af4ae8e6e18c606325e4206a92d6ed42f486dc2f4da8e1897547"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/goccy/go-json/@v/v0.10.6.mod"
+hash = "9027c83efc1eb1e1f4dfdc0ecd03d6de89dcb68ecae41d442485028f366fa98b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/goccy/go-json/@v/v0.10.6.zip"
+hash = "2296e77cc44facf3596ddd7a5866578a8450b59ad1583cbb70bfbfa77fe0dadc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gofrs/flock/@v/v0.13.1.mod"
+hash = "2b10bf7b1de11439065e56e9533ecf9c3d29b3d17b0a30a6a8c33d6dbc22a994"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gofrs/flock/@v/v0.13.1.zip"
+hash = "2d8bab9666100e0b92ff6dfa9054be287feb295fababc4eb2daeef94cb7c033c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gogo/protobuf/@v/v1.3.2.mod"
+hash = "966ea4df61e985609676423eebcfbe5f08c86652d3aaddf6f78c28c72c81e9dc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gogo/protobuf/@v/v1.3.2.zip"
+hash = "dd2b73f163c8183941626360196c8f844addd95423d341a0412e1b22d0104ff7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.3.1.mod"
+hash = "ce98fa479154259db056ded8254a6ae9c66f2b42e613e76ba0f026699b5e542f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.3.1.zip"
+hash = "5c9a74494e2bc746cee56558b5473252af5767f7ea4044caa9ea0fa2a056fec7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.2.0.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0-rc.1.0.20200221234624-67d41d38c208.mod"
+hash = "78c95913aee9dfebd1e84f8b862e98bb1848d1d3e9f22aaf909c4ef4f7e7293d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0-rc.1.mod"
+hash = "eb386ed18bb8d6092974524bd0cda610ad87bee1a4485c9f01bccb713e7dab1e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0-rc.2.mod"
+hash = "e2622048b96cd87173bd9aeb801a1010807a412e89529509e9a5099f1fc69ab4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0-rc.4.0.20200313231945-b860323f09d0.mod"
+hash = "1edf9512236391b88764083bde0391fc49864738432acfdcdd3229572dc71be1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0.mod"
+hash = "0d092f7aa2877feb9e55aee2668286ebbf7e3d0711b1702d84c9225e4cca73f8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.2.mod"
+hash = "4bf5885d1ebdc6d270958379a741cd3b4f7aca016e874d8e8b1059110dfe9e15"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.mod"
+hash = "c5f873c621cfaaf563f8b66a0501a5be14390cb0859e5187ce616d0312a6c8f8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.zip"
+hash = "9a2f43d3eac8ceda506ebbeb4f229254b87235ce90346692a0e233614182190b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/btree/@v/v1.1.3.mod"
+hash = "671a2227c5628cbb94ce027ab4232858c4f0dd0cbb98aaa83d7a265d7ec194d7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/btree/@v/v1.1.3.zip"
+hash = "11b736bc8252b52fecdf346d3707ccf3a2b6d458ba21b4f843616fc12eeb30b2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/flatbuffers/@v/v25.12.19+incompatible.mod"
+hash = "cb44ac2050197d88d818288a3ef022582e356e63eceed9d4d8f5eacba729ead6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/flatbuffers/@v/v25.12.19+incompatible.zip"
+hash = "e029cc5ea5f0661de945a92a8eeaa8372e6af5d0aac4c87e9bbe883ad57afd96"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.3.0.mod"
+hash = "81df7917c225a9da7604b230d952fa278c60a8832c10d799385d134b05d5b087"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.3.1.mod"
+hash = "81df7917c225a9da7604b230d952fa278c60a8832c10d799385d134b05d5b087"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.4.0.mod"
+hash = "4036ab5636aa42bd313296cd3bfcb4c88912760c56a9e6655ae422d8767c80da"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.5.5.mod"
+hash = "4036ab5636aa42bd313296cd3bfcb4c88912760c56a9e6655ae422d8767c80da"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.mod"
+hash = "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip"
+hash = "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20260604005048-7023385849c0.mod"
+hash = "ed01403c6c20b64135574d74f751d5c16f1bb0bd66d20d75edff138ceb7ccaf5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20260604005048-7023385849c0.zip"
+hash = "595aa06d0f4e25ccbe8c6123d399f10224c436efaca621407247a07ec99df337"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/s2a-go/@v/v0.1.11.mod"
+hash = "8f63c79c2bb08a10f9be339434cc0794c211c14a88f166d5754a07d68175239a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/s2a-go/@v/v0.1.11.zip"
+hash = "ee48fb249912b3e655080ad30d938d6b8f9864e1d16242879a69f51519745f86"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.mod"
+hash = "73da47b6338b00a082fd451aa35a3273d3adc09b8e9bba98dab01091e402af6e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.zip"
+hash = "d0f02f377217f42702e259684e06441edbf5140dddcc34ba9bea56038b38a6ed"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/enterprise-certificate-proxy/@v/v0.3.23.mod"
+hash = "95f731ae68ff4a1e7716faa4dcbdd6402fa83806c50883525d6b494698cdef53"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/enterprise-certificate-proxy/@v/v0.3.23.zip"
+hash = "32ff02358b87b237ed6eb6edb7e76aa6b1ade05fbd3c6cd88426323ea72a23a6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/gax-go/v2/@v/v2.26.2.mod"
+hash = "8326d38c33db41c6042cbea13b740e793322e037e9d17248097c37a324ee4602"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/gax-go/v2/@v/v2.26.2.zip"
+hash = "97c16d0f59fa00739d6ec77c6e21337f25c93162fc3e232b50173476579c8d0d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gopherjs/gopherjs/@v/v1.17.2.mod"
+hash = "7a0b1313493d34829e52e976bd787069c20d0a62fcd45a758565332c2ac7308e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gopherjs/gopherjs/@v/v1.17.2.zip"
+hash = "10a579f358ed01b90d8efa08878e7068b91bef929929f7c3532ffad3e20b7e67"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/schema/@v/v1.4.1.mod"
+hash = "17bb45c8de411523bd4eea38d9359c7d7b2a98bf7ab32b54d52c1c49c5f27928"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/schema/@v/v1.4.1.zip"
+hash = "63885f95be210851d623d464698326a202274e191f53f7b7905a150e9cf04494"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/securecookie/@v/v1.1.1.mod"
+hash = "ab87561203a98c2835787e44695890be78b7b961c04bad7241c83c0cc6b1d7a6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/securecookie/@v/v1.1.1.zip"
+hash = "dd83a4230e11568159756bbea4d343c88df0cd1415bbbc7cd5badad6cd2ed903"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/sessions/@v/v1.2.1.mod"
+hash = "6772f11c4667facb2f2a3b95b48072cab336f996a5735308d3d286c94f24f3ae"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/sessions/@v/v1.2.1.zip"
+hash = "2c6aeebfef8062537fd7778067e5e99d4c13f79ac63114e905c97040a6e6b523"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hanwen/go-fuse/v2/@v/v2.11.0.mod"
+hash = "53ef35ce74fe4d4ad1cadb3efb9ef55b1e4be4ac827184056a18d3d9353c8aaa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hanwen/go-fuse/v2/@v/v2.11.0.zip"
+hash = "0e68bc0c0c1a570d9c5f7d09a1fdc6fdc9c7030a85638565734bd971c8cf553b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-cleanhttp/@v/v0.5.2.mod"
+hash = "5f02d28672d1bc0c8ea1fc95699582c7595495b4f8606bd551591cebe3daa011"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-cleanhttp/@v/v0.5.2.zip"
+hash = "e9f3dcfcb33172ba499b4f8e888169252d7f1e072082182124a6e2053523f7df"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-hclog/@v/v1.6.3.mod"
+hash = "ad842f365a0834bf8aabb8ce10985deb7991daf45cc6c5ac0705f4b0eae4fb05"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-hclog/@v/v1.6.3.zip"
+hash = "ebab3136e5327ad17606485f633c2d033c61eadb843b2f3629b6d65d6fbb1400"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-retryablehttp/@v/v0.7.8.mod"
+hash = "099ff2b88e2ed64f7222f84a8d7cbf7e727261d4d181338a68184fe9f60dc49c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-retryablehttp/@v/v0.7.8.zip"
+hash = "9e2c175e4af37cdfeba28ed89250ad1fd691eda0fab167fafa9928222646b71e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-uuid/@v/v1.0.2.mod"
+hash = "1c4a96ad155de1eab04062a5be4010bb9aaa371252aed524217c2e69c14adecf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-uuid/@v/v1.0.3.mod"
+hash = "1c4a96ad155de1eab04062a5be4010bb9aaa371252aed524217c2e69c14adecf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-uuid/@v/v1.0.3.zip"
+hash = "5e9dc2bb3785d69a65d287a4b3fa7e9f583a127e41c6a2fd095ac862fed71dad"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.7.mod"
+hash = "c6b886c0242ffeac92b6b6aecf1123bc63c86faee81b16fff3a13273e50f6824"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.7.zip"
+hash = "2eb92ff13970bccd460efae14255bfc03bb51474da0137e477a60f95561acc30"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/hpcloud/tail/@v/v1.0.0.mod"
+hash = "0005c9955199580a5b950e2a03416555cc0dd8d362ed9a919b4a266b837e209a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.mod"
+hash = "1c1b15911aa8a0bd5cd0f6670ec23d1086496f3615fdf53306aff2b476ce9be1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.zip"
+hash = "526674de624d7db108cfe7653ef110ccdfd97bc85026254224815567928ed243"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/internxt/rclone-adapter/@v/v0.1.0.mod"
+hash = "857206e9ce5eb108e9f31b0feecd8858564987afc2d1e273daa59387ea880a8f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/internxt/rclone-adapter/@v/v0.1.0.zip"
+hash = "f3e2dc76bb88e12042dec6571dbeacf447ef2a30378b10324349af1e0dc52c55"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/aescts/v2/@v/v2.0.0.mod"
+hash = "8ff1ffa1a39fb2f0c055334d7e03efff5cc77caff61126872f1c7afe8b8cd036"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/aescts/v2/@v/v2.0.0.zip"
+hash = "717a211ad4aac248cf33cadde73059c13f8e9462123a0ab2fed5c5e61f7739d7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/dnsutils/v2/@v/v2.0.0.mod"
+hash = "d5f377f2851165f37c99b4f592f7daa1300b3a7b1d3b4dfe57bcf2f39bb1e737"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/dnsutils/v2/@v/v2.0.0.zip"
+hash = "f9188186b672e547cfaef66107aa62d65054c5d4f10d4dcd1ff157d6bf8c275d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/gofork/@v/v1.7.6.mod"
+hash = "bfa533d23c9c5746d2ad9f16f3d3e8613d669903b4f202641b1fa24e3acb93b1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/gofork/@v/v1.7.6.zip"
+hash = "b7e42a499d6be8dd07069c031f9291a5615aa0d59660c7e322cff585ce39e8a2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/goidentity/v6/@v/v6.0.1.mod"
+hash = "8d1eaf4e8431a92c2a1b6b721bf315c0cd418de568fe4c08a3b5eda19784d8a0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/goidentity/v6/@v/v6.0.1.zip"
+hash = "243e6fd6ea9f3094eea32c55febade6d8aaa1b563db655b0c5327940e4719beb"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/gokrb5/v8/@v/v8.4.4.mod"
+hash = "76a96500ab7a3a503f3945b5194761f1bb1bb7b5c756183aac04a9ee18cc04cd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/gokrb5/v8/@v/v8.4.4.zip"
+hash = "8e468a1161302cb12b6e3f16bf31cd3b093f57c14325e11b348df1472860e313"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/rpc/v2/@v/v2.0.3.mod"
+hash = "d452409b03caa7add0d5180d925564d8473fc4cdcb1de20ef486e2c82a1ed175"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/rpc/v2/@v/v2.0.3.zip"
+hash = "90c595355e5e2c9dc1e1ae71a88491a04c34d8791180098da103217cbf5f5574"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jlaffaye/ftp/@v/v0.2.4.mod"
+hash = "f72072aad25ee230c47d3ad45a0af12f9acea8a68355a4731d624d91c30935e0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jlaffaye/ftp/@v/v0.2.4.zip"
+hash = "5b5dba00fcb45a32f2bcb3e0aa1afc451c18982387976dfadc49e073ace47be3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/josephspurrier/goversioninfo/@v/v1.7.0.mod"
+hash = "d9b53badba01479688b78f3318c5a6dc931e9c9300cb74ab5c0da7a3eac67c2c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/josephspurrier/goversioninfo/@v/v1.7.0.zip"
+hash = "fbd5f0441b698eab2541842cf43d7737804cc70f6d720a3aa9775947466430ae"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.12.mod"
+hash = "518e57c22d1781c59ab33788c9a9fc2edc43583ef7c9fc8892a3490c12d61226"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.12.zip"
+hash = "d001ea57081afd0e378467c8f4a9b6a51259996bb8bb763f78107eaf12f99501"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jtolds/gls/@v/v4.20.0+incompatible.mod"
+hash = "36d5a8f7e885fc4a9afc85264f4601186c26ba2396777d523524457ace9f0936"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jtolds/gls/@v/v4.20.0+incompatible.zip"
+hash = "2f51f8cb610e846dc4bd9b3c0fbf6bebab24bb06d866db7804e123a61b0bd9ec"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jtolio/noiseconn/@v/v0.0.0-20231127013910-f6d9ecbf1de7.mod"
+hash = "8776ac9ddd40d8c1e77b72a3458f37f5171bbc5c50fc83a8fc9597a8344b8de2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jtolio/noiseconn/@v/v0.0.0-20231127013910-f6d9ecbf1de7.zip"
+hash = "b7731fe9263cd320fd4ab4f537eaf904a01714c8afb0f718ef1c0d6d1ab376f7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jzelinskie/whirlpool/@v/v0.0.0-20201016144138-0675e54bb004.mod"
+hash = "ac5cda0ea152fd5a92c7b44939e387c543d985092f8b60f33dc455c3d7012eee"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/jzelinskie/whirlpool/@v/v0.0.0-20201016144138-0675e54bb004.zip"
+hash = "171380cee0b81436609d30e101fab6b51cd291eb0f1dfb119e840b042b12959c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/keybase/go-keychain/@v/v0.0.1.mod"
+hash = "edf93d90bd575dcf3935df71f8f647c0f76e7c762e65e4746407e1b70ea31a92"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/keybase/go-keychain/@v/v0.0.1.zip"
+hash = "9514a68da08d39d60a47640bef049e44c829aab5dbbddd03d272e9252039a5c7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kisielk/errcheck/@v/v1.5.0.mod"
+hash = "107d26460d41b5322b6911c9b5eb233117421943b3a1453ba99f01c4fdf2f8e8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kisielk/gotool/@v/v1.0.0.mod"
+hash = "77aca7bffc0ec29fc9f088d5962ab3128f405d7b10c7ceb9693ff7a08958955d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.20.3.mod"
+hash = "0d4e90d99acbc19eea5706e7390f8c925b26b1f5861385bb4f1321d454a1d48c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.20.3.zip"
+hash = "1eb710a814c44bf21332a512a19f496fb5c489ca8eb72244bb9c49f80900848f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.4.1.mod"
+hash = "28a209d31984fd50b6724085eda0425f5d7b40de3b692bd98b296eac29fd1ed0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/@v/v1.2.0.mod"
+hash = "9b443b5b06355eca91f4e773a4df7d8a3bf0c9abad5ff472d6973e688e6a9392"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.0.1.mod"
+hash = "66180bc563c8890e28b69ba64fbe6e1d2879a8574a3ffce7e597f1915f78bc6c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.4.0.mod"
+hash = "4bd71f7c099dbf6aa86987c62ab49004366200ace82b8cf557694ccb3ddbed2d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.4.0.zip"
+hash = "4e0c1281558514efccc2cc3ab78d430426486fe9101d6dcc9a1b090e05c26c69"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/crc32/@v/v1.3.0.mod"
+hash = "4b89cabd895898e44c9a17efe25dd2cd26f5f2554bb298bd3da7082c8f6a7d6c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/crc32/@v/v1.3.0.zip"
+hash = "95e490929338e405a34537bc66dcb286d196055c4cb34cb526fbe5aef8d7a847"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/pgzip/@v/v1.2.6.mod"
+hash = "78351a40af761795f66c64a77a8a069f8d1529a00bb32a381ea44814263a8910"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/pgzip/@v/v1.2.6.zip"
+hash = "8ac508e93b22dca1a731a3a4c921b57c5ed1daea7b3629a2cf85c3b7530dda84"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/koofr/go-httpclient/@v/v0.0.0-20240520111329-e20f8f203988.mod"
+hash = "c944883651bd92f4b9c883937917401ab0204df2b63875a6aea8cd6d9b89bc7f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/koofr/go-httpclient/@v/v0.0.0-20240520111329-e20f8f203988.zip"
+hash = "2d0b34ddc40eb46cef1af87d7da4c8591a32995ce4e5905add16095af41ef867"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/koofr/go-koofrclient/@v/v0.0.0-20221207135200-cbd7fc9ad6a6.mod"
+hash = "903e980620b8451a3ab5d1e624ba0bce5b2aa15141e48a194428f12d72650ee0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/koofr/go-koofrclient/@v/v0.0.0-20221207135200-cbd7fc9ad6a6.zip"
+hash = "05efdb2708c42de96eb05a710bf146633b7cc0f75166eebe394b0c7251308a00"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/fs/@v/v0.1.0.mod"
+hash = "b5bced587ede9949a28f1a460313c49b08f5715b9880dbb57978327f8582efc0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/fs/@v/v0.1.0.zip"
+hash = "d376bd98e81aea34585fc3b04bab76363e9e87cde69383964e57e9779f2af81e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.2.1.mod"
+hash = "c2ae28bd5bb8e8f9076955126768ab7a147952deea9fdbcb373c53cc18870f82"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.mod"
+hash = "84f3e40803b1ebd4a802e55794b9997df0b173c4809e8572ff9042ec558ca1bc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.zip"
+hash = "ecf5a4af24826c3ad758ce06410ca08e2d58e4d95053be3b9dde2e14852c0cdc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/pty/@v/v1.1.1.mod"
+hash = "6da4c9c7364446894e5ef877e19f985cd51d671ce6e8f4ca87862b449f6dd7f6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.1.0.mod"
+hash = "2fba9529e5c13dde62f371ef7383baf04d7132501dac6aa08e910f9ec0bf85c5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.mod"
+hash = "f63879b204f6ce895cea53594b814f5ac0af08486b33b1ca79c657384efbc726"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.zip"
+hash = "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod"
+hash = "1605871e895331a39f5952559ebbc91228d86b8100354f857b562866eca5bb13"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.zip"
+hash = "dbbd0ce8c2f4932bb03704d73026b21af12bd68d5b8f4798dbf10a487a2b6d13"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/lanrat/extsort/@v/v1.5.0.mod"
+hash = "3be88651338afd75804798e21c6a0f4a58831f751b99a6b4a633eeab7ecf7c1c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/lanrat/extsort/@v/v1.5.0.zip"
+hash = "75c33cd09df04730071ba686152230182dc055cb1301e4f27c72ef10f258fd9d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/leodido/go-urn/@v/v1.5.0.mod"
+hash = "06d8c58dc1797c61a6a64c7d94a19692dd7a7baa7616706d76db54c4776426c2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/leodido/go-urn/@v/v1.5.0.zip"
+hash = "ceb338b7fe7c8e45fd8da9fa3c26005de833d9968d21415ebaaba603ea36f44a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/lpar/calendar/@v/v0.2.0.mod"
+hash = "1b7cd05fc23089c4bc9ec0f6786dce8f131ed2a3eebea1186d4180e1a890891c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/lpar/calendar/@v/v0.2.0.zip"
+hash = "bd283ed0c979f83c8ec9882245961507e9f59a4c41e5a9ffc6d83911d56b8860"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.4.1.mod"
+hash = "84f9c38e9884ab013c837cb16aee139500d3d5c6ccab02439881db2ecf28f660"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.4.1.zip"
+hash = "399a71ecf3e3aaa0af96a779f1c106688b095dbfd0a85455a7c706d3d7ff9ebd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/lufia/plan9stats/@v/v0.0.0-20260627054121-477a66015f15.mod"
+hash = "37a53f16d9ab910339d4395983695afb4490aae01435c0a59980675c45d0bd95"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/lufia/plan9stats/@v/v0.0.0-20260627054121-477a66015f15.zip"
+hash = "43422f20908580a98fea5573e050b416d4f40bc6e50f89520199bc0b3a1d5936"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mailru/easyjson/@v/v0.9.2.mod"
+hash = "de3af8b5bd930bf4a2e35444a227e1f32b77d92e387f9e2c166380bc09aec923"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mailru/easyjson/@v/v0.9.2.zip"
+hash = "b9df0a16e05ca83bd12e36f11fb6d35622fffdda8d18b83ab7c030d11903af73"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.16.mod"
+hash = "c199aee551968c8290b917524e0b232a862790a4831b0ed4cb43687e8c08aa18"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.16.zip"
+hash = "1b43236db9dc34e69edf02373e3ba86c058cc34c672f3e3610425cadcf6efd57"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.23.mod"
+hash = "41b885f68c2fa4dfb26a8ffa30d095a931b27699b6b2b1974af3949400dc060f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.23.zip"
+hash = "670cdaa44183b9b7aac0078b1a4cba34a74a0a85e2b92d2434a6b2ccf3387fa6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.12.mod"
+hash = "4136aaa23fcb3176a292822f2a8a98ccc7b2fde38a59922c152b006f59d59695"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.31.mod"
+hash = "9091c793e255036ba8ced617fa3225972a745eaee5cad4cf264c1576e5c1347e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.31.zip"
+hash = "96e004d61b6755f0190ae250c3ce8aa2d2e73968d0b31236f4dc54477d65bc00"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mholt/archives/@v/v0.1.5.mod"
+hash = "0427847b1d5aed8fd32a08c488334671c5b8465640e2fc04e16c4a99ad9f7c98"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mholt/archives/@v/v0.1.5.zip"
+hash = "634be5320d8da86e249cf0dcf01f00f6842651fb515f4519f0fb8a4c3e779254"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mikelolasagasti/xz/@v/v1.0.1.mod"
+hash = "59a7bed4a09e3c11ca0f08d2490a52fc145f542120a802d1c47fd4cce8b3f947"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mikelolasagasti/xz/@v/v1.0.1.zip"
+hash = "a4672995fd823a9d6793bcb8de131739d629438fe787c99985c69cf8638da8d5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/crc64nvme/@v/v1.1.1.mod"
+hash = "27baad099eaa74eba11eb31490c260ea4eac9b94439ff92129b8a3ad6efc3f61"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/crc64nvme/@v/v1.1.1.zip"
+hash = "276041e361bdd81dc28d03e3de9f7c80f784c616f0a7fa94fa34855fe2d0aa88"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/md5-simd/@v/v1.1.2.mod"
+hash = "7665f075b83ccb81c66de980da5f23e54e1479472aadd4166dfc26f8148a2fa3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/md5-simd/@v/v1.1.2.zip"
+hash = "f829d35a6e6897db415af8888c4b074d1a253aee0e8fb7054b4d95477a81c3d6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/minio-go/v7/@v/v7.4.1.mod"
+hash = "c257fe571adc791fd926ebfc4add90d3e5024ac25a7de811daca30841f6cfd5b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/minio-go/v7/@v/v7.4.1.zip"
+hash = "ae4318fdb4a49fc4af0a43877d5f2a8a962731a79e7f63b37892d9921df007cb"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/minlz/@v/v1.2.0.mod"
+hash = "56a6f6ce6e9f7ab3ad177d9762f0c31b6a443b841032b5f36e0ea488a7c76f7f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/minlz/@v/v1.2.0.zip"
+hash = "63f406470535699c14af9b35486472c6e8fc8e894adbd4c8bde7635f80eea38e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/xxml/@v/v0.0.3.mod"
+hash = "9c19df395289d85418194116d20a2ee71304b332c92aa490dce5a309ef24aae1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/minio/xxml/@v/v0.0.3.zip"
+hash = "eec7f98185f849ac85b798a4a7b2b1cbd5aea8ea360f563b47e715ee7fbb5c6d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-homedir/@v/v1.1.0.mod"
+hash = "ec2c40e2ac86bdd92d64a25589ddeef65227789a8f428bede86bdc42064f60f1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-homedir/@v/v1.1.0.zip"
+hash = "fffec361fc7e776bb71433560c285ee2982d2c140b8f5bfba0db6033c0ade184"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/moby/sys/mountinfo/@v/v0.7.2.mod"
+hash = "a2c5ccab447263f7b912af5adf3c1586c300d9169564adcaf2d911dc17d301c4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/moby/sys/mountinfo/@v/v0.7.2.zip"
+hash = "94f79687bc3b72ca4cc60fafda851454fefc0ef04bdb4499e8c7c2b2e231b5d3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180306012644-bacd9c7ef1dd.mod"
+hash = "27a5e9f05c71089b6fd5e119fc1c8ce81f0c16da4ec3357157b1d85e2ba85ae2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180306012644-bacd9c7ef1dd.zip"
+hash = "91ef49599bec459869d94ff3dec128871ab66bd2dfa61041f1e1169f9b4a8073"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.2.mod"
+hash = "099ee58ec210155280692f9e2360f523272e525f06272754be7a2a44dbfa0623"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.2.zip"
+hash = "f46f41409c2e74293f82cfe6c70b5d582bff8ada0106a7d3ff5706520c50c21c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.mod"
+hash = "f193cfd78694efff82f6226c1252ca9d1826dd6dd2c2662422be4c4de2cdb739"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.zip"
+hash = "78e2cebf5a46a9b7c7c52d55d4ac4650cabd9135f180092e3f476293bb86696e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/munnerz/goautoneg/@v/v0.0.0-20191010083416-a7dc8b61c822.mod"
+hash = "90d8fdca000e05d751cfafb1546f4a1440a5696ab06c8c91c365cf9bbbc8bcef"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/munnerz/goautoneg/@v/v0.0.0-20191010083416-a7dc8b61c822.zip"
+hash = "3d7ce17916779890be02ea6b3dd6345c3c30c1df502ad9d8b5b9b310e636afd9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ncw/swift/v2/@v/v2.0.5.mod"
+hash = "b749a7c3f151f796c0a6239a9bdda167f9ff0c095a0cdfd3afff39e48b29e2ed"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ncw/swift/v2/@v/v2.0.5.zip"
+hash = "0c2253cdfda2fe22b1b8d1ac23b504a00d48f7e2ddd9d98bc12f3d1b8b1bbee2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/nwaples/rardecode/v2/@v/v2.2.5.mod"
+hash = "2025852256195ee47898f50d558724951fc4c951e1760ee8ddf1a229ef9b5a58"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/nwaples/rardecode/v2/@v/v2.2.5.zip"
+hash = "f3aade153b27b75d29a1fef232f4937c65fe629eac8a1676deb98ee3899e66f0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/nxadm/tail/@v/v1.4.4.mod"
+hash = "1532073a05144c8d5fa18410f9aa0d8315341bdf73c17cc26ccdee168a7a3249"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/nxadm/tail/@v/v1.4.8.mod"
+hash = "a65f8a958855bf707d326b76b72f9c428bd226304ab8cc317a67315333b4e4c7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/nxadm/tail/@v/v1.4.8.zip"
+hash = "70bf6e142f90694059792f7d5b31a915df989e8a6a554a836de36fa075377ff9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/oklog/ulid/v2/@v/v2.1.2.mod"
+hash = "a176a95d55cd290fe90d0e69f23a91851fd305b7fd115a51999ce74a62125786"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/oklog/ulid/v2/@v/v2.1.2.zip"
+hash = "0af1a4847c9dcf0084230afbe6d9265f433d9f45e2507ce155e3dbbd312aa7c3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.12.1.mod"
+hash = "fb18b454a04c8755624038635e1738f8341417dc865def8cfa5f86a49b63b9b7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.16.5.mod"
+hash = "25631b029f86dc1d5bc8aeae5e0450955c05e4abfaa70df298e6cb1f7ac54097"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.16.5.zip"
+hash = "e23fc33b0affa73a4f4c63410af931bf1f8d5b9db266b3461177036d725eacc5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.6.0.mod"
+hash = "edfaa65a8835fd58b75c994930a210417b77add7c697c906fbf591cc22fe1ee6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/v2/@v/v2.33.1.mod"
+hash = "b4dfa28221978abd453802855249e8a72b63a3f198d192196916f5c5669fe9ee"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/v2/@v/v2.33.1.zip"
+hash = "2a470dc43cd3dea581e8895bef3600a75f3eec3f1e2c0ed2a207307f56dfc403"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.10.1.mod"
+hash = "146ef256f42914392998641b2c4e382703cea0566d00e3f6835350a8b08f5746"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.44.0.mod"
+hash = "125fce8da0766ef36b4b25db7249a5eba453afa9f3ca703d19df9031acb7e89b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.44.0.zip"
+hash = "c300c8eab2a720392fa54399d4c484fcee12ab40ac3039cca8f9b85852650f16"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.7.1.mod"
+hash = "d875dc4a1daced467a45dbe909ca6be439d130e8cb36e0c2e6d9542a42ffd2a3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/oracle/oci-go-sdk/v65/@v/v65.127.0.mod"
+hash = "292922b4b5bcc4c1bc22035941022a6c0c024c325f8d8cb40438cb81058a700d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/oracle/oci-go-sdk/v65/@v/v65.127.0.zip"
+hash = "6882ed55cd34bca6e9186503c6e004c6ac4316fc4e032a5e3756c58f340e1cb3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/panjf2000/ants/v2/@v/v2.12.1.mod"
+hash = "76114aad26755a5965062e107d494a45d3ebf88dfcd6e8345a9301e0b9718e6c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/panjf2000/ants/v2/@v/v2.12.1.zip"
+hash = "d770202456acd0bd6ab95e01454e17097d22ef5575c3c7451475cb46697f3c87"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/patrickmn/go-cache/@v/v2.1.0+incompatible.mod"
+hash = "8ac649ac28dccfbf5c5035fbda59e02e85a07aeff71ceda16ff392f914b8bfc7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/patrickmn/go-cache/@v/v2.1.0+incompatible.zip"
+hash = "d5d1c13e3c9cfeb04a943f656333ec68627dd6ce136af67e2aa5881ad7353c55"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pborman/getopt/@v/v0.0.0-20170112200414-7148bc3a4c30.mod"
+hash = "35411c4b33e0d9eb3a694855ac64f9889d85c957f86a4984ed7dcc123952ec9f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pelletier/go-toml/@v/v1.9.5.zip"
+hash = "de3dcda660cc800cd86d03273a25956d67f416e8fcbe4d2001a2cb4a01e6ac60"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pelletier/go-toml/v2/@v/v2.4.3.mod"
+hash = "72b2ddd20583039d110a50147c63fd1e419a5c4acc1ba8f28881f1df4486abae"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pelletier/go-toml/v2/@v/v2.4.3.zip"
+hash = "bc0de16d4942df8503be13bde0447e0b7ce1694f3bb1b840f485ce839f8974cf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pengsrc/go-shared/@v/v0.2.1-0.20190131101655-1999055a4a14.mod"
+hash = "84a888b90cc0a7953f854fcc84c406621587d4602d6025882bab002a04dae604"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pengsrc/go-shared/@v/v0.2.1-0.20190131101655-1999055a4a14.zip"
+hash = "27b2ba03dd2cdb2d83ecc4dd35dd9c9c620528d965c56cf3760ecafca5598af8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/peterh/liner/@v/v1.2.3.mod"
+hash = "3ecdd93c94844c65bda15ffbde922aa734f6a021820ed472d45ff7f5b0dfa4c2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/peterh/liner/@v/v1.2.3.zip"
+hash = "16f1031cd5816dcc2c310c6a05f042adde9e98ad75c0ef775ff0682c84e94522"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/philhofer/fwd/@v/v1.2.0.mod"
+hash = "3b980d413f4498590980f5e907f60c3a9b35e9ffdd78be493bec3e4a15e83ae6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/philhofer/fwd/@v/v1.2.0.zip"
+hash = "de507513c5985cd0eebc0eccd6b4955da5e2a31814323775b886f29cf9971e98"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pierrec/lz4/v4/@v/v4.1.28.mod"
+hash = "d32329505d5af04449fe6ba227a97d170e0c98a99c123bf7908ac4ff44ae0f4b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pierrec/lz4/v4/@v/v4.1.28.zip"
+hash = "fce878a0449ddb0d348893efd408aeaa9524d8103d13f092ebc97405c01ea5ee"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/browser/@v/v0.0.0-20240102092130-5ac0b6a4141c.mod"
+hash = "6600c2386895b44c985cb3cfcabe72f09b259674995cf4b51628ca461575a1b2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/browser/@v/v0.0.0-20240102092130-5ac0b6a4141c.zip"
+hash = "8524ae36d809564d1f218978593b5c565cf3ee8dccd035d66b336ad0c56e60d1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/diff/@v/v0.0.0-20200914180035-5b29258ca4f7.mod"
+hash = "2404460a2259f7655b158d4826a61bd2de218b1f5114625e32bbadf6acaf40e2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.zip"
+hash = "d4c36b8bcd0616290a3913215e0f53b931bd6e00670596f2960df1b44af2bd07"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/sftp/@v/v1.13.11.mod"
+hash = "638fc2abaa296b06fe82bf11f9d71db7969b649dc9803fe8306790248e7c3b72"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/sftp/@v/v1.13.11.zip"
+hash = "f22fb06ecb083adb09981b0a4554fa370f2cb5accc4837cdd038312008a384b5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/xattr/@v/v0.4.12.mod"
+hash = "bdc3ea23d708aade2f035ef5244b8f460c82682c1e163a05461611b89990e251"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pkg/xattr/@v/v0.4.12.zip"
+hash = "3657614c6f28f6298164935f48af2515835ae04190ed9f6954b5cdf89b1aee21"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.zip"
+hash = "24ff45e356f638a53bd0c89fff961fbeaecfdb0dc5e482ceed0a2230e0e5f3b7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/power-devops/perfstat/@v/v0.0.0-20260805114148-88456608a4f6.mod"
+hash = "05744a9262bcd294613e65624f3f8bae83d79a58aa48b8328c7df91190aa07bf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/power-devops/perfstat/@v/v0.0.0-20260805114148-88456608a4f6.zip"
+hash = "ebf0c4738c23a53c04fc836d42dcf3b52d3b2abcfa7d08dffca770fe4c2254ad"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pquerna/otp/@v/v1.5.0.mod"
+hash = "b51ce08b68e09865ba30891031499605ca37921a36840e8fd323d2b1bf102eef"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/pquerna/otp/@v/v1.5.0.zip"
+hash = "9b28aa98d40a2d00fe4477d2468c933112ba1818782be349999ea98b5b44d885"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.25.0.mod"
+hash = "8ba732695f1aeefc88359d5fbf74b91abe989f7ba8ac4c5de2727e7ff96e46fd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.25.0.zip"
+hash = "677986b15218e6e5f740fd0801a6024726e71bf909ca1a504417eae281df4519"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.6.3.mod"
+hash = "c04d4e46b836c84588f8f619881d135653a157e233d3a87475940e15068b70a3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.6.3.zip"
+hash = "92f5d9a39b75bdc3f6733563934438148a3c3661420a8f742fea8cbf40d39abe"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.72.0.mod"
+hash = "c325a56cc6d77a39b52b93026c9dff2306418cd2408fd96b4fc739b205a5e131"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.72.0.zip"
+hash = "7ba7a7e373c9c87626224e24526d664972848b24a00f36923b94e2e93a6fe182"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.22.0.mod"
+hash = "8bed7b850b4253f90160954ac0d277a02ebbbf3ab9c7c9fb5fc21562d964e73b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.22.0.zip"
+hash = "e13d43da4a9773cecdfa8b86e745bbd8efda07b005402c673a1e882b6dbb6804"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/putdotio/go-putio/putio/@v/v0.0.0-20200123120452-16d982cac2b8.mod"
+hash = "eb76959b8b24bd9cb5c028816d13811fc4ebc57e0a2baaf02735e570c946f78e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/putdotio/go-putio/putio/@v/v0.0.0-20200123120452-16d982cac2b8.zip"
+hash = "f69549147425ebbc5cfff2fd75f0dfcf9cfdb2c2ffd1870688915b20641b424a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/quasilyte/go-ruleguard/dsl/@v/v0.3.23.mod"
+hash = "2eff6aad7ded457fae06d7032b7725eaf5cbb49e2307106b3c8a8cec3448be85"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/quasilyte/go-ruleguard/dsl/@v/v0.3.23.zip"
+hash = "6de6c5447a3685615c289879699be9f3065740424c827c7c52c97f32e798991e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/quic-go/quic-go/@v/v0.60.0.mod"
+hash = "22a2bfaa328818046b552ba4b6e65b6e94f3d8ca5baa1c3e2bac0a0d18fe62a2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/quic-go/quic-go/@v/v0.60.0.zip"
+hash = "a48d4e302591fd1b51bec8733f2e7e4e6ed97b369f1139141a55d43f69a7fcbd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rasky/go-xdr/@v/v0.0.0-20170124162913-1a41d1a06c93.mod"
+hash = "8540b7d71813fa6855890febdd19bd515bd90f48a9d0f0b5da50288ef811353b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rasky/go-xdr/@v/v0.0.0-20170124162913-1a41d1a06c93.zip"
+hash = "b5ebee6d3d7abb3c8c11933dcf7e40982a9c37b975f9f1763b26357217cfa019"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rclone/!proton-!a!p!i-!bridge/@v/v1.0.5.mod"
+hash = "4075c2d409a2b459f7824d4047d1397b9b4507052ca89c2f85fa62b25516d23b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rclone/!proton-!a!p!i-!bridge/@v/v1.0.5.zip"
+hash = "7ecba409df35dbf570e345aab599cb7d1bc7ee57740bd8044e0a21d241853423"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rclone/go-proton-api/@v/v1.0.4.mod"
+hash = "467f48db70733e54ffa31142c43ee7a08f0ded7223a3be748cc90b36dda2745d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rclone/go-proton-api/@v/v1.0.4.zip"
+hash = "478b8876f9dbc1df7ca769d6119eeddf52786e5cae1a262462ec7c7eedcb50f9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rclone/gofakes3/@v/v0.0.12.mod"
+hash = "c3addafdc38e0b38a18e2dbf2bc81ac7354da56b1de2814487d040b763922129"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rclone/gofakes3/@v/v0.0.12.zip"
+hash = "c08a69d8fad15f6c1208247582895b20c2cc7e8bb57e83519fb927bea6889d0b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/relvacode/iso8601/@v/v1.7.0.mod"
+hash = "c4bf885aa4d584e3c575f9993f9b367b991ab6a175184889d3c6b27bf6edf408"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/relvacode/iso8601/@v/v1.7.0.zip"
+hash = "044c39693337c25aeca570891dd334f9576d5f6b5d26be9c7e436de483a4d317"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rfjakob/eme/@v/v1.2.0.mod"
+hash = "c30f17a5406d7485ca17b6fc7ad8094ad97cf14ba6a367e9cce9dcfe50e2758b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rfjakob/eme/@v/v1.2.0.zip"
+hash = "e233157a745ba698a268b6b6630e923286b550a0caaeb8849b03f30841ed4dd0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.1.0.mod"
+hash = "6c7318a27a8d5473a8eb661e75fb00528176e0efc59310ed277ca13bd12a53f1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.mod"
+hash = "6c7318a27a8d5473a8eb661e75fb00528176e0efc59310ed277ca13bd12a53f1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.mod"
+hash = "a1e174890fc9f252450211fadeb53756f9cf5ab7b19697765f9fb255f81ea898"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.zip"
+hash = "b995e4aa0cc1e5779cc61138ac925cb8c1e963e40c80e4b93ee8553812ebb792"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.16.0.mod"
+hash = "1ffa3f3c1d2ad9d40513af6610c21d52ae2839628679854df421212f6a29ec27"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.16.0.zip"
+hash = "02048d8a3aee2ad0f9bcde5ae6659a19b68c24483d2358cb2a5f0f41d42db5c6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rs/xid/@v/v1.6.0.mod"
+hash = "2ebd8a4c48bf66680d0fba5ca0d9ea1ec134396497802c75f3b39683e6e662ef"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/rs/xid/@v/v1.6.0.zip"
+hash = "395b1caa8a7e835e4721291e629dac4f6608db3918d6fe1eb2ed5e7561b62eb2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.mod"
+hash = "c39547cce6e866e8cfa395d2937bce30801cd07f0b901c2133248f1fba12f58d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.zip"
+hash = "7852750d58a053ce38b01f2c203208817564f552ebf371b2b630081d7004c6ae"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ryszard/goskiplist/@v/v0.0.0-20150312221310-2dfbae5fcf46.mod"
+hash = "61b21e8d2bd1ae064a6c5b17aa6c2aba9f82dcc610e973059fdf2945b6c63d1d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ryszard/goskiplist/@v/v0.0.0-20150312221310-2dfbae5fcf46.zip"
+hash = "12c65729fc31d5a9bf246eb387bd4c268d0d68bf33b913cccd81bebd47d6f80d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sabhiram/go-gitignore/@v/v0.0.0-20210923224102-525f6e181f06.mod"
+hash = "86d044f689862a96b151019cca110ded566a159ac676f1c96adb8b72d4b7bfdc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sabhiram/go-gitignore/@v/v0.0.0-20210923224102-525f6e181f06.zip"
+hash = "18379d4fa60ed3050b651e51ecb48a21aba3bf951c81d359aadbc1d7601ffef5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/samber/lo/@v/v1.53.0.mod"
+hash = "28308b11ace5b7f1f940ab42b5360fecd5285cdf1b183f3067b02a8a5972fe2f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/samber/lo/@v/v1.53.0.zip"
+hash = "4969cf0094a1736a16ca0f89c42dea92369ba0ebacdbd9b22f1299ff7fe1f579"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sergi/go-diff/@v/v1.0.0.mod"
+hash = "3c33ca6c34b55597876e1b3ec55b717f899d94d66ad78d6f084b48e6e19b406e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/shabbyrobe/gocovmerge/@v/v0.0.0-20230507112040-c3350d9342df.mod"
+hash = "2d6cd5793ecd79794e9af1213be49ec7bc770d617bb4885da6a50faefe524482"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/shabbyrobe/gocovmerge/@v/v0.0.0-20230507112040-c3350d9342df.zip"
+hash = "cfe6f251d684dde3ec4956157a5a01480bebf4f868047d7059dc9ed36826e1f3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/shirou/gopsutil/v4/@v/v4.26.9.mod"
+hash = "8006a6ff0ea18693af58dc5a5993a52f4ae0f1e63840038a1b5c7a2bed2eb1c6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/shirou/gopsutil/v4/@v/v4.26.9.zip"
+hash = "2206a841e6e5ca18b4b88d10f90a05c0714528cdec5bdd0801b9c02ed76e0ab6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.10.2.mod"
+hash = "0ae1e8f2e690807fd54e3c2e3cb8326815baa54dbb2b0bf7798c73f3ec061c48"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.10.2.zip"
+hash = "73a40737da86682dd536ec2c87dff0f589eeeed81873362b08ed009818747b52"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.7.0.mod"
+hash = "da2caaacef970c4c3f36c137d5567faef9403e6f62194804c7672a3975219322"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/skratchdot/open-golang/@v/v0.0.0-20200116055534-eef842397966.mod"
+hash = "229897fd4108575867de89b60d92d22eeca353b232e24fc08cfb7d1a17c974e0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/skratchdot/open-golang/@v/v0.0.0-20200116055534-eef842397966.zip"
+hash = "3ad7f856621f78b370a47bb05ce12c31bdee1014e596b7f565ee20dc8ac80c66"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/smarty/assertions/@v/v1.15.0.mod"
+hash = "645efbd088177acd7b8b37fe36b42a8c3c6edfb6b4a9bbc80440ad06e6a7504a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/smarty/assertions/@v/v1.15.0.zip"
+hash = "c3e160180b54d9364f5b00185fa315f3017f848d9f0c34d0aa905a5510873226"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/smartystreets/goconvey/@v/v1.8.1.mod"
+hash = "6e40d14f291ab6e567a4a260dab1c818cdcd8d580d375db33f5bb26bfe80e52c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/smartystreets/goconvey/@v/v1.8.1.zip"
+hash = "386d6cbaf30c8d7fd4daad50639408e80cb78cb994eb76aafc9f9b8cb18689e7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/snabb/httpreaderat/@v/v1.0.1.mod"
+hash = "ede512311ca2b9ae4bb34da6a8addbeb7acbed10836bbc0a8c9cec7c0ee62c4b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/snabb/httpreaderat/@v/v1.0.1.zip"
+hash = "e119c78bc0c83d9973870e1ef0a621933a3ca0355e6760d587d9ff4c1a60bde9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sony/gobreaker/v2/@v/v2.4.0.mod"
+hash = "f1a57ed6228ea3b11a76243ce23d1b3624b4c84bfae4e66aa95f30177ec9eed5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sony/gobreaker/v2/@v/v2.4.0.zip"
+hash = "c1fb3bde7fee65b6162e0d9e59950a6789464ad4e4cfd2fdf28477a29c968434"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sorairolake/lzip-go/@v/v0.3.8.mod"
+hash = "e731f8bef4d7660e47dc2e4d36f7cbfbfa5f918fad6fdfae48bf577732f940f2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/sorairolake/lzip-go/@v/v0.3.8.zip"
+hash = "edfafbfe20952eb2140254adb2e5b9e0bb3ce1feb63e90b023f2226338dcca32"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spacemonkeygo/monkit/v3/@v/v3.0.25-0.20251022131615-eb24eb109368.mod"
+hash = "036243ef43e491050eafdc9aa168e15d1298dcc744acb06553f4f059a4b96ade"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spacemonkeygo/monkit/v3/@v/v3.0.25-0.20251022131615-eb24eb109368.zip"
+hash = "dabbbe36013d666a00190e9321174f404a07da19df224e4eee909ae5b1016397"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spf13/afero/@v/v1.15.0.mod"
+hash = "b9ecbcbeeccb9da252f2b75a7f05a10c21f874a448a5e1294f115e47ba893e22"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spf13/afero/@v/v1.15.0.zip"
+hash = "d03a0bbce87eeaa1c23f0c0276707bb2d59f46efee875d7d7f1d570201be6e1f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.mod"
+hash = "cc6098fd1118fb3bb349c72bcd6e9c665d3a1b2a516ea9807ee24521ad2ddf8c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.zip"
+hash = "a00aae6fcd631e0fde52c98604452ff70e1b73c3b8a560d68db15aff5e26872d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.zip"
+hash = "a246b8c9d3daa87d6c634cdfee1bdf7fa53d5817eeef4fa0c6da43edd12de4ca"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.9.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stangelandcl/ppmd/@v/v0.1.1.mod"
+hash = "361fecdf477b4c1cdfcbb417e9b467196ed59b036425f0d84bf4b5c0c6db50ad"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stangelandcl/ppmd/@v/v0.1.1.zip"
+hash = "e832489fca0e2a2455bc76235c9681509b3666b89f154afcd994814929a9081b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.0.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.4.0.mod"
+hash = "31b2fdcdee870f0f61bffafafb96220967e5bca08a76a920d574216fc1f91355"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.0.mod"
+hash = "cb326540efcb1274a6e4e970d7fc9de2e8062f08a058fc296d859025e62e807a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.2.mod"
+hash = "58eca54d26728427806f40908828e8762d352cc3b0a0b0b60dc60ce61767fff6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.3.mod"
+hash = "6791b5edf7bd0ad12f53a046718d24b3a395191419167aa0bda604e866892cc5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.3.zip"
+hash = "cdc804051b06efceea75ee9b0b6349d2f92f17cd46c6193c4a8dfb0f51465a44"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.11.1.mod"
+hash = "5846af204043f29df285026109bf32db6519c3d7e1d5c3a65fefb174f9d81d33"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.mod"
+hash = "a6aa921ea6dedc1cbb384d3c1b79c58b6e5d6ce26d13b786ec60a99809ae1daa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.zip"
+hash = "6874ed1c4b0b7e9feb27989b16c179b36590020633436ae260cefc5f5565589f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.2.2.mod"
+hash = "4ab463f68c370041f950c10cab5104903d4598c50cf824f9aad1b7b7f69255af"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.3.0.mod"
+hash = "ab063d5154a8e8730bced4c52698e5770eb50bfae347bebc35eca488b8e3f6e3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.3.1-0.20190311161405-34c6fa2dc709.mod"
+hash = "ab063d5154a8e8730bced4c52698e5770eb50bfae347bebc35eca488b8e3f6e3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.4.0.mod"
+hash = "6b0c7b71030d4fc55d4e6e6e24c0bfc025621341f76141e3aec0044c4ce89950"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.5.1.mod"
+hash = "e3a11c2a6c5fe06f8a221e7289684917ac49ad01233f81b51c8360773707e700"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.6.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.0.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.0.mod"
+hash = "e076074c1560ad1dda98b8b00fea6308c4b6ccd06ddd088d22db4626ed68f738"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.1.mod"
+hash = "af1a5dcb331ace7a3f9fc1b5d7eee9c0bc82b4a2a182fe4cec2add217e2853d6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.4.mod"
+hash = "05e26cd069285a33cf2af46fdacdef569d5ae185e7963a76c0178328f68e97f9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/t3rm1n4l/go-mega/@v/v0.0.0-20260717075258-c6acd6a5bd04.mod"
+hash = "9a8e53b9811db9f33462dcc25b2c5c5304f7871ec1b64046cb6a2550fb639079"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/t3rm1n4l/go-mega/@v/v0.0.0-20260717075258-c6acd6a5bd04.zip"
+hash = "f9ca5fa581855a590c468b1d8b5e7d4869ccbee8c39180248f974bd5996c599b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tailscale/depaware/@v/v0.0.0-20210622194025-720c4b409502.mod"
+hash = "1c78638fa57c4deec9ecee6c3c5aef8522cafd2d0fe3d1049c0da9e7c2c4e156"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tinylib/msgp/@v/v1.6.4.mod"
+hash = "0a9f1c371dd41cbf543da2eadbade60b906ff1a80cb63c0939af7f89e5a28b8a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tinylib/msgp/@v/v1.6.4.zip"
+hash = "bd9770f34c96b48454a1721bb5c595305eb7f13ede94b53527882bf7bf157a39"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/go-sysconf/@v/v0.4.0.mod"
+hash = "29bd839dcc5736ea8ebc4c2f4013db82c57cacd15a010d389579cde04f3336ae"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/go-sysconf/@v/v0.4.0.zip"
+hash = "61e89253bc4d7091170601be12633dc02e94a3bc30470b081a2449944fa18784"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/numcpus/@v/v0.12.0.mod"
+hash = "03fbc174711500112a8ab1675893ecdbea2e155f3dcd5e357fb4a5619ed6b0d4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/numcpus/@v/v0.12.0.zip"
+hash = "56c22a112976df3a4d8db776b41288658070650ae6382ec86d0a32fc07af0276"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tv42/httpunix/@v/v0.0.0-20191220191345-2ba4b9c3382c.mod"
+hash = "54771b791adaae9dd26ae5dd1cd06f50a168447c84250371bf648b39d271ccc0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/tv42/httpunix/@v/v0.0.0-20191220191345-2ba4b9c3382c.zip"
+hash = "3835d37bfd63336db8f0b0971368e0e9a03d70a446b32e93cbd30e99ba6e9d27"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/twitchyliquid64/golang-asm/@v/v0.15.1.mod"
+hash = "b198a096146daeff6177f0a11bdee5a2cbe0e6fec80714ccf1f2dd6b95a7dd6f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/twitchyliquid64/golang-asm/@v/v0.15.1.zip"
+hash = "448f87fb680adda839b60bbaa0b371c28f99f3928dea7a069f42800e5100018d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ugorji/go/codec/@v/v1.2.12.mod"
+hash = "6ad1dc13d2bea184c94c7dcacb6073fe2f4ce9449eb6bc8e797f5dbf9e8afd5a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ugorji/go/codec/@v/v1.2.12.zip"
+hash = "ca38b5b9f58e33de24f88ac2505e2c67f2b454d09d929228a10b938bddda848d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ulikunitz/xz/@v/v0.5.15.mod"
+hash = "393876046d63d90f35f21c1bb4651b0985e76d8f14a48a7279ff947b96956e7b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ulikunitz/xz/@v/v0.5.15.zip"
+hash = "ca1830f9abc6c99a003ad28f2b145ea0af0c99d5769ddff08d23ce055959fd12"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/ulikunitz/xz/@v/v0.5.8.mod"
+hash = "393876046d63d90f35f21c1bb4651b0985e76d8f14a48a7279ff947b96956e7b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/unknwon/goconfig/@v/v1.0.0.mod"
+hash = "5ecbe0cded0b5da488f3f4a794ecad2df9d29c98ede86065e0113d8f243a2f98"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/unknwon/goconfig/@v/v1.0.0.zip"
+hash = "1a9cf2086052925a275d5d25683bce7fd2f4458423e6888a447dba618967dae3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/willscott/go-nfs-client/@v/v0.0.0-20251022144359-801f10d98886.mod"
+hash = "0362a7184d417fb7ae4cb318cbf60ec9f724f4b38551c716643a0889ce1ad133"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/willscott/go-nfs-client/@v/v0.0.0-20251022144359-801f10d98886.zip"
+hash = "c8d9eae7a99ef6a603ac1ac93c923047402428ca6e62b87765df8a24e3eb524a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/willscott/go-nfs/@v/v0.0.4.mod"
+hash = "4d48d007c62b495fbc72d51b8434c882b4788314125b09c88f6af1d53d09fa6b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/willscott/go-nfs/@v/v0.0.4.zip"
+hash = "dbdf4f05fe8dc5c2abf94f282e26d7435f878299d88c0db76510ccfe25d68132"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/winfsp/cgofuse/@v/v1.6.1-0.20260531120352-2fa812d1bdc7.mod"
+hash = "e54d3ca8174a2765799c43985663080595fbd21923042bd4ea036e807c1eb0e4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/winfsp/cgofuse/@v/v1.6.1-0.20260531120352-2fa812d1bdc7.zip"
+hash = "fe072af0fe6feecc3a9ac88afc78edc7468553c492560456f2c3ff97b9905c07"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/wk8/go-ordered-map/v2/@v/v2.1.8.mod"
+hash = "96c4c41598652730ba9bc9fa427d70d338d5acea1867c93e5969bb6a95bc3f31"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/wk8/go-ordered-map/v2/@v/v2.1.8.zip"
+hash = "c1781435c64e4cd92dd3ca585d5075eda12c0bb719a0c5f9e6ed272b65282e38"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/xanzy/ssh-agent/@v/v0.3.3.mod"
+hash = "1ce1cc509889b738c1f63dbfcc5ad522ceb63272d9deff6eef7499ed301aa125"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/xanzy/ssh-agent/@v/v0.3.3.zip"
+hash = "19a86c2623b20cc98687bddd89e3f023db0ca51c8bc9e38b9ad9c56e5b7d110d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/xyproto/randomstring/@v/v1.0.5.mod"
+hash = "a7d51dd77422d16f9cf46888d7ce14a3e8f11a7c3c7f024916f50c065805fc8a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/xyproto/randomstring/@v/v1.0.5.zip"
+hash = "58ea0c70496fc698c4597625395b3f35321df09be013ee880a6ce10e94969261"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/youmark/pkcs8/@v/v0.0.0-20240726163527-a2c0da244d78.mod"
+hash = "ac53991d6663f30fd358884c3bfa4fd0651f042a56ac3632c56b3f9824205abc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/youmark/pkcs8/@v/v0.0.0-20240726163527-a2c0da244d78.zip"
+hash = "cdcf5e96850f9f60bc96ab512e4bd06ee19dd2dbe855260c3589c6c79a1bcfb5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.1.27.mod"
+hash = "e2c763f861ada05c6150c32f804bca31c96a18b944320e0ee9bbf0d6c6075ad7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.2.1.mod"
+hash = "e2c763f861ada05c6150c32f804bca31c96a18b944320e0ee9bbf0d6c6075ad7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.4.13.mod"
+hash = "ee7fe4466203a01d3ac19adc134cdec99bc6de71992c28f3dd9a74480bff0603"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/yunify/qingstor-sdk-go/v3/@v/v3.2.0.mod"
+hash = "1a40c08fb9fbe18709d9fb2c4d6a9d7b11350f66dbd4dccd0beada8db0038646"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/yunify/qingstor-sdk-go/v3/@v/v3.2.0.zip"
+hash = "d691f22df98c43a35ff15c138e2436c5bcab66568f7141d399fed35f2a4a7fba"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/yusufpapurcu/wmi/@v/v1.2.4.mod"
+hash = "ff2a9c8c99aaed6bc6984eae094a9e8cdc36f6ab2ef2c56779dd98ecc583135b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/yusufpapurcu/wmi/@v/v1.2.4.zip"
+hash = "c2a0a12203162ef8fd6f65e191aac359823d370e113122cbd8e80711ddc9c1f9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/assert/@v/v1.3.1.mod"
+hash = "cb8cea69ecbc99692af21d44909083f4d962e95dcb7adcb5fd0676b773587e9c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/assert/@v/v1.3.1.zip"
+hash = "d3f44825ac9c9c54a7a9fb091445eabb742b9a692d47e5d841e934bd4a73d08e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/blake3/@v/v0.2.4.mod"
+hash = "9e2d9f5afaefb91d63405907f73f80f1d1471fd2bec2642068106dd19d1df141"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/blake3/@v/v0.2.4.zip"
+hash = "65aaa3487c097fa0140f52041e8e6fe8214c244a29223fd4caaa60986192a08f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/errs/@v/v1.4.0.mod"
+hash = "de0646454cc7868c1935da160107d1c0ac072e11f3040e4dbc178fa2806b1773"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/errs/@v/v1.4.0.zip"
+hash = "5b7fb5cbe6bbd36933e8c98572f85121994e9842aefc90986f8d3a192cb69257"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/mwc/@v/v0.0.7.mod"
+hash = "63f633615f461f3d0bf76caada007758f70606b749222fc2d78233f35865681b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/mwc/@v/v0.0.7.zip"
+hash = "2fb212b7c2660cd36cc29f7e8a14c6f48f3fdfaf8e02f0e19f191b14992d33aa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/pcg/@v/v1.0.1.mod"
+hash = "4d5bb3fec7485e54c1c7d9119091aaddd071f9f4a8969b6c82a588f4c8e08179"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/pcg/@v/v1.0.1.zip"
+hash = "39ff069b9eb1fd6f9edd138b12338a1b0a761f47b0544f4148d3d27dd74c52c0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/xxh3/@v/v1.1.0.mod"
+hash = "c0ffb54a842e7143f079c321e74206d65f35cb39e19d2a0996cfef914e28c3f4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/xxh3/@v/v1.1.0.zip"
+hash = "0cd36657902317f81f3d31b217ebaca6f98dfb665f1af611d1db0904a689bcd1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.etcd.io/bbolt/@v/v1.5.0.mod"
+hash = "3acf3f97a95e4028c1bbe27e58a1a6ba4ec8fc510e17d3166c47c50f601b4a2e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.etcd.io/bbolt/@v/v1.5.0.zip"
+hash = "2c350ca36afba707b917529a8049b001c71915c99c152d5e2600ed4bac6fbc37"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.mod"
+hash = "6c4d2df014d59fd6555897fd4e5bbc0316e8df4c737fbfdde5cd119fdefeeea9"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.zip"
+hash = "a08a16fc0a7041cdb875f47a260a56000632212c85f65a302a043c76380c8335"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.70.0.mod"
+hash = "1066ff9ecc445bab0cd0857b9aa749f136e8ba3d6918eb08f974a1bf3f8103bc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.70.0.zip"
+hash = "5afae012c182ed95c9068c4b4de772677fbfecb9fbe41605046f907abba8bc92"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.45.0.mod"
+hash = "5fbed2c6d71624dd869501048d52436832e3d8b2da7bea539d44b982b62d6fe0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.45.0.zip"
+hash = "65b5fc93c93f4eaef740b4bba81fd2543f248d5df85cf4d1ddf9ab459b30f7a2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.45.0.mod"
+hash = "d5abe3973aa7d3f6c4302641b1f95a13fa9976a46d79717020f7583748842998"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.45.0.zip"
+hash = "8f30ef0039306bf3a4421b8c08e3fc8922d13503dce53b3438e860b3628faecd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.45.0.mod"
+hash = "ff9df2ce87f84e675122c83844b544b6da1c4aa9f4723ead3d825b4237010239"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.45.0.zip"
+hash = "ad0e63fa1cfc01dffec2a90a8f2d2c1bc0f55d0462940176dc41b7ada0d03258"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.45.0.mod"
+hash = "cd1f44b4ed257620aab5a9bef05e8cf13c73092ca37fe1530778aeb21c396793"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.45.0.zip"
+hash = "535731f380b12313c4ed5d7adb4b7d3a357609b212b03c8b7dc437809787be91"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.45.0.mod"
+hash = "8deb258105daad00ccd15be702c3afd78517327191cb0c4903dec33ff466c92d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.45.0.zip"
+hash = "32d7d64ea5991378184b03a9ed7b7822b17691a239508a6905fdd73819cb6c6f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.uber.org/goleak/@v/v1.3.0.mod"
+hash = "3f15dc6354aae8fe42d3cbd130230731d5c6aae6aa651ca6a73f4c646cda8fec"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.uber.org/goleak/@v/v1.3.0.zip"
+hash = "70edef0ce7d830d992f024e527fd3452069b884f94a27787a718bd68dd620702"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v2/@v/v2.4.4.mod"
+hash = "4bba343588a8a81f5cc4884d3d7ac7f5dd612b21af59d3f2ebea37ec476079bb"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v2/@v/v2.4.4.zip"
+hash = "1b98a6a498cf255c5f2982d32c74633bc7969770957e98103ac1e14345aa4576"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.4.mod"
+hash = "2989f8b800605890ad40cf49109b0b6a972bda79d92df236d40ddb798093127e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.5.mod"
+hash = "4bf9de8891d4d71507d92568022f8241fb828d8d0a6c9204c130bf030f3e3b2f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.5.zip"
+hash = "f2d70caa35f66283aec58b889af8c5f07c374c5934be27a738c1215263e19205"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go4.org/@v/v0.0.0-20260112195520-a5071408f32f.mod"
+hash = "e49ed65fb04f1956fe61e4e7226ad4680089a043560be9ba80eed64299d67422"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/go4.org/@v/v0.0.0-20260112195520-a5071408f32f.zip"
+hash = "11c8ccd8e5a90213e32b76666fa3d73cd481afc3d31c57669b76a186bd1aabe4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/goftp.io/server/v2/@v/v2.0.3.mod"
+hash = "d9539045d1dbab06b09f42702d586f436686931651f4a8ddbae32c21b7d9c105"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/goftp.io/server/v2/@v/v2.0.3.zip"
+hash = "3d9a67bf908360f30c27b0ea389c54b63234aa8eec9a390fe2904619a6c0c10b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/arch/@v/v0.14.0.mod"
+hash = "ead1f2ea294c5b61599ebeb1003bef47d49db8f257cc4cc0efaaf19823326757"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/arch/@v/v0.14.0.zip"
+hash = "c38736ea98a5f7544de8aad68fb9c2c23dc1247577c9b766f4b51b5602b8fea3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod"
+hash = "33ed070a5a66e0960685ac5386440e1b59899e74d8a38a1180685e72a2195ded"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20191011191535-87dc89f01550.mod"
+hash = "3ab9f01f4610fe7b39bd85d68e8d97825351e7e282c39cda41457c2a276f3be3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20200622213623-75b288015ac9.mod"
+hash = "b2b12d09f81915fbcf4226009e50f9efda8bd3757d2055d8ec07977e65bc6618"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210322153248-0c34fe9e7dc2.mod"
+hash = "dda18d19fba9f47bca8269cf4aef580e0ce992c73e2aa54abf226216b1e3a729"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210921155107-089bfa567519.mod"
+hash = "cd6311612a2aa4d0d7e03c41b3aa1fbc2d5f895ab3f61089fab80bfe9f8f5485"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20220622213112-05595931fe9d.mod"
+hash = "af2c88eebff03e3a2afecb1b03669fc54e9d122c88f7b2ecfed051ec5dbc8bbb"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.4.0.mod"
+hash = "a0249fae75d3543f8f30d70966302ccfb3f61fc438a0ec860733a22df7f950c1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.58.0.mod"
+hash = "938883ec4a74e7fc05c46269e924dda334c2b7ca7ca219e4d27ca56d1891ccd3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.58.0.zip"
+hash = "b0a45594cda20ddb4264d84aeff9b588b8570bf6a2833c51a0b821734a298d95"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.6.0.mod"
+hash = "1b6a683455a3b882b6ac53f22752960e87bd91040a94d6f2c5cb61261e2389d8"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.7.0.mod"
+hash = "c89fe22e73dac26a00a656ac11ff4c6e1a6b6cd2abcc57edcdacdec3fbdad82d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20260813180055-c1d0aacb2297.mod"
+hash = "78c2a4f54ffb5e464951bed00e9d0e7f923623a61baa9cb9cb2b0591356e7c96"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20260813180055-c1d0aacb2297.zip"
+hash = "560fccf306507f7fae3e6bee628dfdba8a806c7707cd0f3a3f28e8a2034ca20d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.47.0.mod"
+hash = "4283357bab40f12031f2b0c9605b1bdf5afb077319b090a572ee50a843f477dd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/image/@v/v0.47.0.zip"
+hash = "3666e9fe5b8d6110471d649641e680bb117c86495d0aa2c4d8673e87d9ac6c3c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mobile/@v/v0.0.0-20261011034528-197770444867.mod"
+hash = "4c5b54ac6230766f76d6347edc231cb7f5077f480db9dcbcffc8cecd14606df3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mobile/@v/v0.0.0-20261011034528-197770444867.zip"
+hash = "38da82cbcfcb872766b954978ef1a4537fba3c2a31e49964a3a7cf01db2bbae5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.2.0.mod"
+hash = "b288f088fd851885a6d348339e2f588e58a94e6c76e5e634ae1d67c2749eb413"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.3.0.mod"
+hash = "b288f088fd851885a6d348339e2f588e58a94e6c76e5e634ae1d67c2749eb413"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.4.0.mod"
+hash = "b288f088fd851885a6d348339e2f588e58a94e6c76e5e634ae1d67c2749eb413"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.42.0.mod"
+hash = "92defdc3237bf4f850e9e5c7d7ad6d06b9ef6a10caa12c2c8e54150a4c370270"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.42.0.zip"
+hash = "2770e372e42c30dd498d63bb094fe257edfad6882c611f8e0d82925feac159f3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.6.0-dev.0.20220419223038-86c51ed26bb4.mod"
+hash = "42d19023ff8f2eae700bc5495f371ecd998a22d19ba985d0af5f69900b254083"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.8.0.mod"
+hash = "624567459c6e9947ac4abde0b7034ee61dcbb6a9373f5970094c0bb3e8121964"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20180906233101-161cd47e91fd.mod"
+hash = "3e08f487ddda1851b891df5b1d04bb1a01b84d6d702aa82d9efbccde0aa7df81"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190404232315-eb5bcb51f2a3.mod"
+hash = "f7046769daac02beb57cbcc481280df59fb403c96fe8262282aba858c7f7fa4d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20200114155413-6afb5195e5aa.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20200226121028-0de0cce0169b.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20200520004742-59133d7f0dd7.mod"
+hash = "8b201486a1108f485943bf9bb67c78cde9aff4dcba53323bd3e28f2885041e09"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20201021035429-f5854403a974.mod"
+hash = "66fc44a0644a506da780f7a22a5d73dd025d44a6e58740b62d27f74d7c3a4948"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20210226172049-e18ecbb05110.mod"
+hash = "fef5896d103a0bce5055fdb5e96e830944334792437865347718edceb633348a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20211112202133-69e39bad7dc2.mod"
+hash = "fa915f5d022cfb0cb865aa2ee37d3a7741b406f84eb4a837862e29cc69ab4ef4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220722155237-a158d28d115b.mod"
+hash = "b315c52647d2da2f76e5cdb9d367e1d6727784236a9bffb612192b19b10a128d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.3.0.mod"
+hash = "3c360a3368c25f0b39a64b630fe74ed998df00e6abee93fd49f56ffe7590a131"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.6.0.mod"
+hash = "41ec76ea2172f3ee3031e38f9a535939a584d6bb35ef480854fdcb8c2026701b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.62.0.mod"
+hash = "7bbcec6b6af859939ec01bbe5234e556c867bf80e171abc23ad16c2c8e3951fe"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.62.0.zip"
+hash = "50e869800f4921e910eb6550369f937c7187d130a7f7f78a26ef9b589a7071a6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.7.0.mod"
+hash = "41ec76ea2172f3ee3031e38f9a535939a584d6bb35ef480854fdcb8c2026701b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.8.0.mod"
+hash = "eb6ef9bd6405ace3d99e4381d0256ce41f83c66d1a20b4e2830a4c776245f71a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.37.0.mod"
+hash = "90facdcd7c6602d3a28dbaa32354a0398d22bbaea3b48ca94aa2235fb427358b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.37.0.zip"
+hash = "82b0472ff31d57867bfb95e28c2906acd54764949a215b6a01bda40f4ae4c3bd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20180314180146-1d60e4601c6f.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190911185100-cd5d95a43a6e.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20201020160332-67f06af15bc9.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20220722155255-886fb9371eb4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.1.0.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.24.0.mod"
+hash = "febf4fed5dc12c0de24528f7065bf071cc74a2424070194aaf24617b91066cda"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.24.0.zip"
+hash = "ca3fcf3ea8259e75891f7947e1a816a5b89402c542d45d8bbbd9e061b0c58019"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20180909124046-d0be0721c37e.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190412213103-97732733099d.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190904154756-749cb33beabd.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190916202348-b4ddaad3f8a3.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191005200804-aed5e4c7ecf9.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191026070338-33540a1f6037.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191120155948-bd437916bb0e.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20200323222414-85ca7c5b95cd.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20200930185726-fdedc70b468f.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201119102817-f84b799fce68.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201204225414-ed752295db88.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210112080510-489259a85091.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210124154548-22da62e12c0c.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210423082822-04245dca01da.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210514084401-e8d321eab015.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20211007075335-d3039528d8ac.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220408201424-a24fb2fb8a0f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220520151302-bc2c85ada10a.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220715151400-c0bba94af5f8.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220722155257-8c9f86f7a55f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.1.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.3.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.49.0.mod"
+hash = "9522f4c9806d1c26586ea80fa56292929bd295865e71981927f52996c6b1c831"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.49.0.zip"
+hash = "e73a06591ca0d7016ce3ccb45c36a8ed7128468aecc1a357f94d815c760c6b31"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.5.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.6.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20201126162022-7de9c90e9dd1.mod"
+hash = "4cbab14f7706771b271d995a1b3cc131fe5a246aadc7ee6d1ba6f0bd894781fa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.3.0.mod"
+hash = "1e561f7413b74b4d30ca2d6c9874ccd13bb8c94daa0e6c2377bad9e9cf6dbe58"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.47.0.mod"
+hash = "cfc437810b8822bf57ca3ea4e39ebd418dd5671d72f2b110ce5a3164fa541b0b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.47.0.zip"
+hash = "d990d5ab94dfa41ba980645b721bba7490064337a01bb03e6cacace70e8df0bf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.5.0.mod"
+hash = "0d6f58228aadc1a6528e6755da018516566e3ae5c5201f7ade1773f56fa8d934"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.6.0.mod"
+hash = "64359b9c653708478f020729885044ff3d8007186d9d441125fe874817e71201"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.14.0.mod"
+hash = "971579f17e9abc5926ab76214f533bd517cf4925c885243ac4755a1a0a7c69ef"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.0.mod"
+hash = "36879d586fd8001e84da8787190a11e4f78749e2a81dfe8b9b6931899fff31cf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.3.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.6.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod"
+hash = "c45d669089427bc4635d07b185f9b9680332d1c48c75b3c49cb715b81a04a5b0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.43.0.mod"
+hash = "63270b8ca6290a720212e1d6e58b8d12a8aa315a1cb960411d7ec2998c0aab59"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.43.0.zip"
+hash = "b75131f628f6e2e4892fd638d33127e952a5027775e0162b94ba069cb4e13863"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.5.0.mod"
+hash = "15929e76fce04aea4c92a354426bb43370684645a4ee03f2e75d0c2eb1466304"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.7.0.mod"
+hash = "15929e76fce04aea4c92a354426bb43370684645a4ee03f2e75d0c2eb1466304"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.8.0.mod"
+hash = "436f592e77b593b02fbea374e23ad3369c8623ff0d29c91de7de1e6672db9a41"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.16.0.mod"
+hash = "da66f925904a97b705fe18dde79496d718dca9af2a755bd31da151a9b1a0eaaa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.16.0.zip"
+hash = "ac27777be8088859ba3b1bea3648064dc95ff8bac3023b1b059d1ab126dc729e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20190829051458-42f498d34c4d.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191119224855-298f0cb1881e.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20200619180055-7c47624df98f.mod"
+hash = "ef6e2f94244214971780f9ba31d90806928ad410c82b04d8888f815341f7a667"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20201211185031-d93e913c1a58.mod"
+hash = "25d72c03e7aa571136087ebafc9e83d004d0bd8cd3864d78c2f5813e122aba81"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20201224043029-2b0845dc783e.mod"
+hash = "25d72c03e7aa571136087ebafc9e83d004d0bd8cd3864d78c2f5813e122aba81"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20210106214847-113979e3529a.mod"
+hash = "25d72c03e7aa571136087ebafc9e83d004d0bd8cd3864d78c2f5813e122aba81"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.1.12.mod"
+hash = "2a8b9365898f0822face65ba089a1353e68a65d342f300ca317cceccde6421f3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.52.0.mod"
+hash = "b4272bcb2c99901b1878e04a56c8a584ac1dce9d5844a3c1cc68a627546fe6fe"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.52.0.zip"
+hash = "90b2a941aa5f2fe87564b8e38c3f03796de2e3597b7f4c52a9a6a53201b32c48"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.6.0.mod"
+hash = "830ed78dcd3e9927c412e2641230308447749d513d31024d276e2443b2016609"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20191011141410-1b5146add898.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20191204190536-9bdfabe68543.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20200804184101-5ec99f83aff1.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.17.0.mod"
+hash = "8a17681ea0d86cd2de00b2a87745287f5a8d7a0ad55ec0c26c5b52f3552d30e7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.17.0.zip"
+hash = "dadeb3d260548de27375f7188bdfd5a175110120fd8ee8085a63b0dff2cae501"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/api/@v/v0.304.0.mod"
+hash = "4f4b815d46e1f7916681b1d85c5a0350feaec45d84ba6279b936ee10a43c3e4d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/api/@v/v0.304.0.zip"
+hash = "d8d89b9b5d9fb55e25f3072adf0501abd0e6bf0af50411be149fcd7d41c22307"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/@v/v0.0.0-20260715232425-e75dac1f907d.mod"
+hash = "394f9c308860a3277fcff9d64caa57729ca24ed412e94bb4a71b94fdc9ecd463"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/@v/v0.0.0-20260715232425-e75dac1f907d.zip"
+hash = "2bb3944dd73d398fb40cf3e7cbc3ccfaec83e9e37ec2e4fa5e516989ee74d0a0"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260715232425-e75dac1f907d.mod"
+hash = "1309519e93c4f282dda22d61e1b08db80e3d0779a74f8c245e49e2b28016bc99"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260715232425-e75dac1f907d.zip"
+hash = "8c32508cfd93a527e96997a75fb555bbf1220e3542aaf13bc2f07dce48eb25f1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20261005182115-fad411399dd8.mod"
+hash = "cc87a436b5812cd113ef688ec9252354ecd570f2f58095ad3d1d45e0a4a15f1a"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20261005182115-fad411399dd8.zip"
+hash = "ddd82f3672cef445a8e673be7aa41d402f44cadc50ef02b72fe319e9fbabef9d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.84.0.mod"
+hash = "69aa2c57344f551512cc2e3d0d9eac8ca364334963f952ca4fb152e07239b1c4"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.84.0.zip"
+hash = "a14bebefbac1ec115d9e1f8042006c185d65adf43a91644f3e58df0688831b95"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v0.0.0-20200109180630-ec00e32a8dfd.mod"
+hash = "a23990efb67ee10bb16d1d1936109cefa4e4262ae3da8d0748efb691614dbb78"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v0.0.0-20200221191635-4d8936d0db64.mod"
+hash = "a6d950dd2a7eb82e51cf459d3f61f614b09d730adb9e8094d5bf96b043f38174"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v0.0.0-20200228230310-ab0ca4ff8a60.mod"
+hash = "3b808d19947fb29e4db24ed5cb88941afc1927f538d80ad6f880ae4664a5d016"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.20.1-0.20200309200217-e05f789c0967.mod"
+hash = "420ec9fba7793b96dff1c5ae9983656e72e1c0bd1d14dda2398aec1b294780ff"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.21.0.mod"
+hash = "a532d488ff1097b330ff2e2929f39ecff8c2fa09dc7650b66ca5430c2d8303fb"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.23.0.mod"
+hash = "394a49462cbf6dca4dd86f3cf0e8ddcbb9adc9397f73e82fecae54c79e9e4d53"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.mod"
+hash = "a75c105a852fbd8da8d8cfac09c2eab9a206cfd27ed37c973737e23f632ca96e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.zip"
+hash = "68f8a3174aff42950fd9bd02c11b45c6986eb8060508d124d1c3dd6bf86b9be6"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.mod"
+hash = "6e6e2fca40eb8fe1455e6a08cd39833c7c2e9a2341a81fb181b89d0b1c725f48"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.zip"
+hash = "f555684e5c5dacc2850dddb345fef1b8f93f546b72685589789da6d2b062710e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/fsnotify.v1/@v/v1.4.7.mod"
+hash = "25e8db5f993b882b3c6ef286c481937ea5d527df3a92051fd9e4b29b716dbfbc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/ini.v1/@v/v1.67.3.mod"
+hash = "bbaaff022cbbee98f0c099e7217d0bde01261a518980d118423ed656406a5abf"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/ini.v1/@v/v1.67.3.zip"
+hash = "20ab7e3150a9d0a098b5f642cc2a1ba1886da48ae0ec4080240bf33f7a7086c2"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/natefinch/lumberjack.v2/@v/v2.2.1.mod"
+hash = "c1a7991aeb39d574ee13d0a35de32d5bf9258f3f0f7de9fcb7432810f72e3506"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/natefinch/lumberjack.v2/@v/v2.2.1.zip"
+hash = "e28804b050e7debf4f5b2dd8d241d804f5d592d0519b6e7a3dc9d4cce6f075b3"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.mod"
+hash = "3663081d0d18fd2eccbdbe45e90193d3194d587441f7afafb33674d68702e0aa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.zip"
+hash = "34898dc0e38ba7a792ab74a3e0fa113116313fd9142ffb444b011fd392762186"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/validator.v2/@v/v2.0.1.mod"
+hash = "21f1631e68c33fb0db90af3bba28da1bb1f520a242b4ab746ec6dcfc73a4b9a5"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/validator.v2/@v/v2.0.1.zip"
+hash = "71ba069ff408d982210bd0c9cedc2b42582d7fc7eeee8d5fca369b4574e5215c"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.2.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.4.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.3.0.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.mod"
+hash = "c3b11ba9a0775ff9bc6f11dbb58a1e48cc1e68bac378a8cdc620becc661d4c33"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.zip"
+hash = "ede49e27c4cca6cdd2ec719aed8ea4d363710cceb3d411e7a786fbdec0d391fd"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200313102051-9f266ea9e77c.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/moul.io/http2curl/v2/@v/v2.3.0.mod"
+hash = "6646b04369646ef390567202dd544b77000401c01bab04726264574d9206c84f"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/moul.io/http2curl/v2/@v/v2.3.0.zip"
+hash = "a622f88e882a55c2120029b6a688258692dcda47b60f3e66bb9283b29f7bdffa"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/yaml/@v/v1.6.0.mod"
+hash = "4e3c3c1d49a6652440ff70fb475e54ae46be2cab63cc46721b3c02fd9cca985e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/yaml/@v/v1.6.0.zip"
+hash = "cf88648a471581817b00a42ee8d24fd73eb0e3503998cf46d8e63787e11e5052"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/common/@v/v0.0.0-20260818140313-d38275a3768b.mod"
+hash = "9fd7bff803ed712f636d6cda61c45e10d032fe7b941122f1985483240ae66a37"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/common/@v/v0.0.0-20260818140313-d38275a3768b.zip"
+hash = "b5836d8beaecb28724368aca8c9933fc0d50c87e074ad5620f16cb078465ab35"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/drpc/@v/v1.0.0.mod"
+hash = "4df018f80dc724b037b39086493a1d102d36a3c6f709d67ffd1739b9ac73ced7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/drpc/@v/v1.0.0.zip"
+hash = "9d1c86e384bb543306c2429b8b7fe3b3369f378939052e85b4565c119e20f50e"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/eventkit/@v/v0.0.0-20260716074419-6861a92e2aa5.mod"
+hash = "6ba5eb5854cc2f7593719db13f7b6ab23f587ecd3160bfc117cbbe26efec467d"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/eventkit/@v/v0.0.0-20260716074419-6861a92e2aa5.zip"
+hash = "0b3fe22f730d257e44a7a224255b885aed61f485fa00017ec3d2124b06db62f7"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/infectious/@v/v1.0.1.mod"
+hash = "baa2badf6f1ca19c1611e696a1c09ed3367131f18f85226981075c2ca81d0494"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/infectious/@v/v1.0.1.zip"
+hash = "02794ef6702b22f6f716bfec5f42009a79352926eebc223aa46d4b11b95523dc"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/picobuf/@v/v0.0.4.mod"
+hash = "9af30103f3f1d0f713cdaa94e7d8f900d2fb5c3b2f09e1d4296ab5a7ef345c7b"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/picobuf/@v/v0.0.4.zip"
+hash = "7f054dd3ec5472b63f5b5390c6c7b6c429c38bd37286de540839a0e32137ccd1"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/uplink/@v/v1.14.5.mod"
+hash = "596a156aae2a5e26058dac4298de90d24fdb7dc1f4a97bb9661a018eb3006489"
+
+[[rclone.sources]]
+url = "https://proxy.golang.org/storj.io/uplink/@v/v1.14.5.zip"
+hash = "1a02ce7aed9631faefbad62cca10241b995bb5be0b6c1bd1a90f2e6bad047229"

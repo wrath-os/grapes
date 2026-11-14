@@ -1,0 +1,11 @@
+[libxkbcommon]
+
+[[libxkbcommon.sources]]
+url = "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-1.13.2/libxkbcommon-xkbcommon-1.13.2.tar.gz"
+hash = "acc4d5f7c3cbba5f9f8d08d8bdbeede84ecede46792f47929aa9321873385528"
+
+[libxkbcommon-x11]
+
+[[libxkbcommon-x11.sources]]
+url = "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-1.13.2/libxkbcommon-xkbcommon-1.13.2.tar.gz"
+hash = "acc4d5f7c3cbba5f9f8d08d8bdbeede84ecede46792f47929aa9321873385528"

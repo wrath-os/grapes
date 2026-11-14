@@ -1,0 +1,5 @@
+[fd]
+
+[[fd.sources]]
+url = "https://github.com/sharkdp/fd/archive/v10.5.2/fd-10.5.2.tar.gz"
+hash = "8991b6504cac33c00528050622dfe3f2a0db1be1a6faf99f69b46d1a8f737dc5"

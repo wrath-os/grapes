@@ -1,0 +1,15 @@
+[[package]]
+id = "fuzzel"
+version = "1.12.0"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "tllist", "fcft", "pixman", "libxkbcommon", "wayland",
+  "wayland-protocols", "libpng", "scdoc",
+]
+sources = [{ url = "https://codeberg.org/dnkl/fuzzel/archive/{version}.tar.gz" }]
+smoke = ["bin/fuzzel --version"]
+
+# The launcher: it lists the programs with a .desktop file and starts the one picked.
+[package.meson]
+args = ["-D enable-cairo=disabled", "-D png-backend=libpng", "-D svg-backend=nanosvg"]

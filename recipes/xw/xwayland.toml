@@ -1,0 +1,41 @@
+[[package]]
+id = "xwayland"
+version = "24.1.15"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "xtrans", "pixman", "libXfont2",
+  "libxcvt", "libepoxy", "wayland",
+  "wayland-protocols", "libxshmfence", "openssl",
+  "xkeyboard-config", "xkbcomp", "expat",
+]
+sources = [{ url = "https://www.x.org/archive/individual/xserver/xwayland-{version}.tar.xz" }]
+smoke = ["bin/Xwayland -version"]
+
+# Keymaps come from xkeyboard-config and are compiled with xkbcomp, both found where they are.
+[package.meson]
+args = [
+  "-D glamor=true", "-D glx=false", "-D dri3=true", "-D secure-rpc=false", "-D xdmcp=false",
+  "-D xdm-auth-1=false", "-D sha1=libcrypto", "-D docs=false", "-D devel-docs=false",
+  "-D dtrace=false", "-D libdecor=false", "-D xvfb=false",
+  "-D xkb_dir=$WRATH_DEP_xkeyboard_config/share/X11/xkb", "-D xkb_bin_dir=$WRATH_DEP_xkbcomp/bin",
+  "-D xkb_output_dir=/var/lib/xkb",
+]
+
+[[package]]
+id = "xwayland-satellite"
+version = "0.8.3"
+scope = "runtime"
+core = true
+extra_deps = [
+  "rust-bin", "pkgconf", "llvm", "xcb-util-cursor", "xcb-util",
+]
+sources = [{ url = "https://github.com/Supreeeme/xwayland-satellite/archive/v{version}/xwayland-satellite-{version}.tar.gz" }]
+
+# Runs Xwayland for niri and turns X windows into Wayland ones. Its bindings to xcb-util-cursor are
+# made with bindgen, which reads the headers with libclang.
+[package.cargo]
+features = ["systemd"]
+env = { LIBCLANG_PATH = "$WRATH_DEP_llvm/lib" }
+
+# GTK 3, and the portal that gives programs its file chooser.

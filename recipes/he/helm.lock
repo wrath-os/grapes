@@ -1,0 +1,2221 @@
+[helm]
+
+[[helm.sources]]
+url = "https://github.com/helm/helm/archive/v4.3.1/helm-4.3.1.tar.gz"
+hash = "e7b803b6a248c18aea067dbccacaf651c29946db75d05fb23f318ff2f15961c6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/dario.cat/mergo/@v/v1.0.1.mod"
+hash = "e23c4b803a6c6e6e45747946e87d24704cd77756cc484bdfd17b57223bf320d6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/dario.cat/mergo/@v/v1.0.1.zip"
+hash = "a012b53df0ebc9082b81bb1afd824e72a2b08097266cc6526119deafafa8a91e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.1.0.mod"
+hash = "099556fc4d7e6f5cb135efdd8b6bb4c0932e38ea058c53fc5fa5ce285572fb61"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.1.0.zip"
+hash = "9ac43a686d06fdebd719f7af3866c87eb069302272dfb131007adf471c308b65"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!ada!logics/go-fuzz-headers/@v/v0.0.0-20230811130428-ced1acdcaa24.mod"
+hash = "92f806956402ddfa00ac879314ef850a41ca9e23f6f8c6dd65b14001bef0d8a4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!ada!logics/go-fuzz-headers/@v/v0.0.0-20230811130428-ced1acdcaa24.zip"
+hash = "bfed428fb67a0c104e7b9f1fe14e56e0bfb852abd78f292d8de3e373f0e89c04"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!azure/go-ansiterm/@v/v0.0.0-20250102033503-faa5f7b0171c.mod"
+hash = "0ce13cb83d6febc5cbd2d7e715138a1e0dbb4e084539c476f0d5a38c5f2ecd80"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!azure/go-ansiterm/@v/v0.0.0-20250102033503-faa5f7b0171c.zip"
+hash = "53babc36db77d2d8af41cf86bddcf6203747335054c26b44165a6725c5455c34"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!burnt!sushi/toml/@v/v1.6.0.mod"
+hash = "45d78b80571999b6a258da0f21673da39e6b501349c033a4acd169437411d733"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!burnt!sushi/toml/@v/v1.6.0.zip"
+hash = "01f03d6c3f4bfee108bda3202407b54ac0c295b8302a1315512f12ac05011fd8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!d!a!t!a-!d!o!g/go-sqlmock/@v/v1.5.2.mod"
+hash = "bbda15045dcb1013a5318dfe5a3021e467971da6daf3a2a09399885442fbe53a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!d!a!t!a-!d!o!g/go-sqlmock/@v/v1.5.2.zip"
+hash = "90fe926f15f778bd06cee8b68a33c2b7f4a28fcdf0ff40888ff30d37b4b52202"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!make!now!just/heredoc/@v/v1.0.0.mod"
+hash = "dc1d84bb336e71e8696b999eeca5c0bd5cd6b40870a4cdc71ad118873e01014a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!make!now!just/heredoc/@v/v1.0.0.zip"
+hash = "062afe6e11aa3c3ac0035d08907b80d5e5b7563905603391ee774bda440abf16"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/goutils/@v/v1.1.1.mod"
+hash = "4efa82512d1b88c438c122671324c4b968b5a55af04388c7bcf100a6c4b1974d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/goutils/@v/v1.1.1.zip"
+hash = "ef8778a20c37e98a92e3b1db5ab027cc201743a2f5bfb26ba228bf0515e20b48"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/semver/v3/@v/v3.5.0.mod"
+hash = "7462a48cd90958d6fc79f674abb7ec89fa477a1cf4f292994ecb72a043c57d03"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/semver/v3/@v/v3.5.0.zip"
+hash = "2cda916821eedb0e1d7ac45d80b6cb78320b035f0f77272ff18d082b7cd90713"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/sprig/v3/@v/v3.3.0.mod"
+hash = "e05abb962d0f1db4f2b9f0fb28851b7fa8823339d5872d7793f718725ce3f83c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/sprig/v3/@v/v3.3.0.zip"
+hash = "c731370f7601711d1df9b4b0c9bb8488fc381b32fd3e7de97a03673e8287b719"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/squirrel/@v/v1.5.4.mod"
+hash = "b4c6f216eafab7a1ca5209b5ddca006529666f72184aea72293395c69f7140f5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/squirrel/@v/v1.5.4.zip"
+hash = "80037554049a4750a1219114eb843363c74887b3c3b2fd6700d0ae07d35674b4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/vcs/@v/v1.13.3.mod"
+hash = "b61ae3db6af323d9e518cae0a31dbb3a032df2f4eb4f4efbd9984cf5f9e1662f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!masterminds/vcs/@v/v1.13.3.zip"
+hash = "76fc7a1ea62d7d19bbdade646c8bcb6b31172c83117e903efdef7fb310a79b1e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v1.4.1.mod"
+hash = "54a615125cdd4e48ce23567071b5b8d2965d83c045d8ec32e5b700628c69b152"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/!proton!mail/go-crypto/@v/v1.4.1.zip"
+hash = "70bbdc0f9e926738193aed968f7901efab41493752277c4c94c9b751aa55c42a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/template/@v/v0.0.0-20160405071501-a0175ee3bccc.mod"
+hash = "c02193cdaff23f70224597390832f568250af384f98dc4378aeb5bf8fec690fc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/units/@v/v0.0.0-20151022065526-2efee857e7cf.mod"
+hash = "3827e93d732af56cc9c1a033f29599c1397330de452bb51663d9891c79982f50"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/alicebob/miniredis/v2/@v/v2.35.0.mod"
+hash = "2e9289b6e9c85baecfa805f317c02ec35257140b0bc9a2169ed0907286c9a7ce"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/alicebob/miniredis/v2/@v/v2.35.0.zip"
+hash = "953cbaec490e0170c59597b42294e86bb58ed0b273958fb7f2dc1dc2b2054bf6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/asaskevich/govalidator/@v/v0.0.0-20230301143203-a9d515a09cc2.mod"
+hash = "0da541b84b29a09818d3806ff85c782caca88f0d814e7ee79c7c63f35c4c43b8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/asaskevich/govalidator/@v/v0.0.0-20230301143203-a9d515a09cc2.zip"
+hash = "0f8ec67bbc585d29ec115c0885cef6f2431a422cc1cc10008e466ebe8be5dc37"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v0.0.0-20180321164747-3a771d992973.mod"
+hash = "cc4d1faad75965fa69eb13120bf956827719005ff3ecdc704b36fb58fb1fd16e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.0.mod"
+hash = "c0dc6e5b72a5cd23c6f76390a1efca27e568b9b94f3cabe5df35a4fa61862484"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.1.mod"
+hash = "c870b3fe50b6944fab095b06208d9c8898763e9173cb1eed3258c3d58309ba66"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.1.zip"
+hash = "25bd9e2d94aca770e6dbc1f53725f84f6af4432f631d35dd2c46f96ef0512f1a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/blang/semver/v4/@v/v4.0.0.mod"
+hash = "992dea6053fd3ec4af475364d9197c528fd94c847389deab955681397dc6bb5c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/blang/semver/v4/@v/v4.0.0.zip"
+hash = "96a2bbe11960f3a3c16db0da822c69ce9ac4b738ee731a0476031bbb71987504"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/bshuster-repo/logrus-logstash-hook/@v/v1.1.0.mod"
+hash = "8dd4ba726cc9ec0d2725b6ebaa7001aa1f3f505a5a167d0727b2ea1b756ae41b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/bshuster-repo/logrus-logstash-hook/@v/v1.1.0.zip"
+hash = "43513e12684c024d1ccd28d29eacd677232fa51de39e6fc153a1434660ebc9b5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/bsm/ginkgo/v2/@v/v2.12.0.mod"
+hash = "e19e9ae48d1b89a03af98ef082e43aac450dd89a22b2f4782c52f126de583975"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/bsm/ginkgo/v2/@v/v2.12.0.zip"
+hash = "ee735190eda4b977edd93484bc03c9dca2aeedeb31241c23303b377deec569f2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/bsm/ginkgo/v2/@v/v2.7.0.mod"
+hash = "f309999fe358a18bced3b2c679bd0aee8a1646f716daad47c465ad37fe34f7df"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/bsm/gomega/@v/v1.26.0.mod"
+hash = "ed99bf19199606d4a030faca941014e84d0295283dc810b8099410fdce580c9a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/bsm/gomega/@v/v1.27.10.mod"
+hash = "ed99bf19199606d4a030faca941014e84d0295283dc810b8099410fdce580c9a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/bsm/gomega/@v/v1.27.10.zip"
+hash = "330b2306b7cbc174dc56a8eb01946eb9dd854478d292f01d37eb86b2144c14ec"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v5/@v/v5.0.3.mod"
+hash = "43ecf1255f004bf9e5e18749c275507326aa1f26b2b504185dd6db07efbbffc7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v5/@v/v5.0.3.zip"
+hash = "58e4d9014277bc1c5c7ab64539137923964cc3920303a4f771d02a532939bedb"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.2.0.mod"
+hash = "a090f8eaaf59cc2adf163299ebefe797e1dca3f6add2c8e88a6a3b90ba538b02"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.mod"
+hash = "a090f8eaaf59cc2adf163299ebefe797e1dca3f6add2c8e88a6a3b90ba538b02"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.zip"
+hash = "145a26cdc7c49db566017b807c4989ee7f7ddeb569423e9cb99f995fac3621d3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/chai2010/gettext-go/@v/v1.0.2.mod"
+hash = "2c03c56eab9debe94d9c1f67b1903371706b65daa13b8a5968b09f5e70ac25a8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/chai2010/gettext-go/@v/v1.0.2.zip"
+hash = "7163a4e84dd152f1eff0d78bc203184bacebfede25c7dbdc639828c1ddf03dc4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.6.3.mod"
+hash = "2eeb15c166c5960d63e47e44432e12b93f1ab5ec997d6d61a0deb73d989ab5e5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cloudflare/circl/@v/v1.6.3.zip"
+hash = "9aed6385d52ccd66e0a3b8cc093b5f0e7744640485405dd08c8ef89ef6bbeb06"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-systemd/v22/@v/v22.7.0.mod"
+hash = "502642c96e9d9996d696fcb269ac99aa9f5ab9f3a4d98b21931230af69967140"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-systemd/v22/@v/v22.7.0.zip"
+hash = "25c78b5dae5afa61291a8559328007cc77e60dd6747454af5c83423c26cfdfba"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.6.mod"
+hash = "bb81a9e2d14d9a586f0591853bdaad230d8cdf0d8d6ffa71dddae249ad573cc9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.6.zip"
+hash = "b8059316e38bcfd28b69d2c2b32d34b9e800ccaa1ff4b5a61022cbe98fa7c710"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.18.mod"
+hash = "0413a4191dccd6c75b0cc74cb71af1564070f2ecbfce3ab4ba3ccc9d701fd82c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.18.zip"
+hash = "7dcada7782e04f0d4b47d50d4ef35f36f2c80f909231019149480429bdb176e5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cyphar/filepath-securejoin/@v/v0.7.0.mod"
+hash = "6c4b862cf5c5bbf854024d3357bfa909b0eb22a515917bdbaa5c0112d749a8fa"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/cyphar/filepath-securejoin/@v/v0.7.0.zip"
+hash = "601684f1d3cfc8391cbaf7e5973b0485db6a5037426d9cccf47935ca0a4d65dd"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.0.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.2-0.20180830191138-d8f796af33cc.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.2-0.20180830191138-d8f796af33cc.zip"
+hash = "b4d0923b169b194f0016ec46f3df1ab0c68e27999743e43fe2de59ecb2484128"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/dgryski/go-rendezvous/@v/v0.0.0-20200823014737-9f7001d12a5f.mod"
+hash = "85de434ab06ce7a4470a647a7b26db88c6b54ec6080c9482a12abc26d2b71baf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/dgryski/go-rendezvous/@v/v0.0.0-20200823014737-9f7001d12a5f.zip"
+hash = "d222258b607d5fcacf09e84069607d8f18fba48b25ad191ec78d380d078e694f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/distribution/distribution/v3/@v/v3.1.1.mod"
+hash = "c95fafbcabeef10e02f32f5b0863c943b585f34d9156a4a0e28e610a00fc44b1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/distribution/distribution/v3/@v/v3.1.1.zip"
+hash = "8152b8680b5198f2cce30294b50af3f5f9a4beba78071550ddaa8286e4583e60"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/distribution/reference/@v/v0.6.0.mod"
+hash = "f58a3047216ff2a4dd996e6579a8444bc4de2de08b6cdec7429b9e3e649b9a75"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/distribution/reference/@v/v0.6.0.zip"
+hash = "08232852a7a908263599777daab50e4306bd877e2467df036206367496122bcc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/dlclark/regexp2/@v/v1.11.0.mod"
+hash = "7017e81fb9fa9227a3180a62e323158b4523c67062f0a8aa08637c092b8d4aa7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/dlclark/regexp2/@v/v1.11.0.zip"
+hash = "2a93432600feacb866669789bb7910ff283e1af764fcd03d70c6592f9619aeb4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/docker/docker-credential-helpers/@v/v0.9.5.mod"
+hash = "9a66da241d94521eb8d3c2dc67c2afd337324fb4e2e25568867fb1ab4c920c24"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/docker/docker-credential-helpers/@v/v0.9.5.zip"
+hash = "2a01551502cf37b523c7137d92ec8fbc99aaa5a4b83b2b8f27fb0b47a394b3c5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/docker/go-events/@v/v0.0.0-20250808211157-605354379745.mod"
+hash = "94316043ff139910080e7a888c97ea78a054ea4f68dc19b35548aa7bd6f016bf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/docker/go-events/@v/v0.0.0-20250808211157-605354379745.zip"
+hash = "a98bc04f7042e2a3223a75685d400c659f65ef8a8ce3f9049b45f82ead11416d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/docker/go-metrics/@v/v0.0.1.mod"
+hash = "acb468959944a8629e9a857963ba6f68b1a64cc81c32b37706ea4a0342fd9c1a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/docker/go-metrics/@v/v0.0.1.zip"
+hash = "4efab3706215f5b2d29ba823d3991fd6e2f81c02ce45ef0c73c019ebc90e020b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/dylibso/observe-sdk/go/@v/v0.0.0-20240819160327-2d926c5d788a.mod"
+hash = "8da60b8bae8458d4b4be0f9ee5aa0e07bc68c9f85774dc5ed669f86a47bde4fc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/dylibso/observe-sdk/go/@v/v0.0.0-20240819160327-2d926c5d788a.zip"
+hash = "2a30482b42e7bebdb9e643bf43577bd5124e2f2a40df185e7b78c0109a960fea"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/emicklei/go-restful/v3/@v/v3.13.0.mod"
+hash = "de61515c41eaf0be524b2c8aa7a3f321b339f19788129ac44449af7e1278fd5e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/emicklei/go-restful/v3/@v/v3.13.0.zip"
+hash = "06bd60484b324de0b8e4366d4ed326db2e1dc730459b46e19a5306a108439c77"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/evanphx/json-patch/v5/@v/v5.9.11.mod"
+hash = "0be6ec5154abc066490c6a0ac589141648deda2e7aa028a2bf4adad7026728a3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/evanphx/json-patch/v5/@v/v5.9.11.zip"
+hash = "3f0d0d6f000bafd2c65d2e7a10b14ea0c6cb999ed3712e30758648dacc9d1ba0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/exponent-io/jsonpath/@v/v0.0.0-20210407135951-1de76d718b3f.mod"
+hash = "c1a10a880b70133c06626187973e9d4ff432897dc9ea81ce3da5a626a7c9d44b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/exponent-io/jsonpath/@v/v0.0.0-20210407135951-1de76d718b3f.zip"
+hash = "f098188e5f2dba09d62f43a8c7c08f4510bdaf29d6d57fcebb155adb3e755fde"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/extism/go-sdk/@v/v1.7.1.mod"
+hash = "e1524d689b2d5fe695e6caf8a58bf4f33b8f82fe6f5b9fb6fb91aa87b041265b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/extism/go-sdk/@v/v1.7.1.zip"
+hash = "3a68a81879ded092ae4ca133cec8b050554a63215f43785888a38cfb22a0f6e9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.19.0.mod"
+hash = "fea48cc3b2ed755595426699c1af8023cb61cb0fb1a477bafc78ca10750f6871"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/fatih/color/@v/v1.19.0.zip"
+hash = "694b4265dc678e2a65b196371d5a6ec4eed3739f12a16021dcd2f0c1355d0ec6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.0.4.mod"
+hash = "3d0a6d397b775e49388eb75e7903691058d7a8cb7ce4f11637a876f387115bb9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.0.4.zip"
+hash = "75aa471311265e9860df0e523400b4650ed0c1a33262786a421f07226792e494"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/fluxcd/cli-utils/@v/v1.2.2.mod"
+hash = "05197079194c99683322d137205ae990694b2b563890b3aac521688bd766e653"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/fluxcd/cli-utils/@v/v1.2.2.zip"
+hash = "de695947381911f7a439bd09c23bf288f52f302118b58c38a1b5d7dd6910cc55"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/foxcpp/go-mockdns/@v/v1.2.0.mod"
+hash = "d9d05c7c3d7976d541a5dd51c37b8cfcc3bc41cb5f4bcfebeca926385b3bc37a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/foxcpp/go-mockdns/@v/v1.2.0.zip"
+hash = "9079d831c848f584af90b17609501ba9228a5b8e5c99a8103a80f431e70f0f46"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/frankban/quicktest/@v/v1.14.6.mod"
+hash = "68b2ad84a2273d23bac4a5741775a3fa594a07d2a71f80e847a7d63c53a5bd9f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/frankban/quicktest/@v/v1.14.6.zip"
+hash = "8c7377023523780b2a6508f3c06bd3bbefd3dda064533ad6ff6724986234988d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/fxamacker/cbor/v2/@v/v2.9.1.mod"
+hash = "d7bbc7167a38275831838773356370c370d2ce3ed28c60486f52cdd5a799c92b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/fxamacker/cbor/v2/@v/v2.9.1.zip"
+hash = "e1e319f75e5565aab662a6afd7ddc1565ab415bd46ee82ff4958fde909da20eb"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-errors/errors/@v/v1.5.1.mod"
+hash = "54812529e90caecfd1b3f7cd8c90152a10b174ecb9fb56904682440f21168174"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-errors/errors/@v/v1.5.1.zip"
+hash = "9630a42ecb17920a5f9ce332356f8a28ad4aaff529e2ecb676b4a1d11d3149c0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-gorp/gorp/v3/@v/v3.1.0.mod"
+hash = "09d7fa857da909b65b0866a746a176b718a77f7cda5204b217a2ed715ae8654b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-gorp/gorp/v3/@v/v3.1.0.zip"
+hash = "0d9fd6db8c466235cc1b44c9762883c1be538506dae27189ef85b16356545d88"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.4.mod"
+hash = "e069e6002d29495b8c2dc6cf0d3b56a075ec5be7abb6c2eb1a1c0845cb66b8b3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.4.zip"
+hash = "06a37b6668012a2dd109a5f71f6ae15387dc808b35d3cf73f5e406e78a17b027"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-kit/kit/@v/v0.8.0.mod"
+hash = "807c52d36bed2dbf7c6dc993567a386e6bd1307396a335ef2ef9ec8ce7b5c2db"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logfmt/logfmt/@v/v0.3.0.mod"
+hash = "79398bccbcbc130ad00f98a99ce69ffe5cacc3458bf4d332f1589bf99babd948"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logfmt/logfmt/@v/v0.4.0.mod"
+hash = "496161c9b253bfd71dfdb40233c322786d55e9e42953785c3be4838983fe7e79"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.2.2.mod"
+hash = "519b1d6da5eeef675b4a1857d628f05f110a2b8cb3c423b715fea80d0975a518"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.4.mod"
+hash = "c496f30d700f02b49a1b50bc2486a27c2f74df3dce75d9db6d2d43975b381727"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.4.zip"
+hash = "3ab107c1d280ce798eaa744efd595982fa709d4023f3f38d24189827483c1710"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.mod"
+hash = "0812160f77474d8dbf692b7caaee7fd5508448c705d9b54b5a3496ac44468c2c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.zip"
+hash = "9dd6893bf700198485ae699640b49bc1efbc6c73b37cb5792a0476e1fd8f7fef"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/zapr/@v/v1.3.0.mod"
+hash = "2093ae1ca6cb2abd84cfed101d2d4fd790bfab7728accc513e9aa33b5ba1133f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/zapr/@v/v1.3.0.zip"
+hash = "378cb0074990c9822fdf9e5b77a41985cf614f95275662add604d09855768dbd"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v1.0.0.mod"
+hash = "99718351aaec019f59f73768dc790f08175880594df60df508d8ffc2c42fca38"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonpointer/@v/v1.0.0.zip"
+hash = "403cc887595921a24880a173862ea95b7c46f0747725d7b75c31165e0647e157"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonreference/@v/v1.0.0.mod"
+hash = "5b1fe7285e7a218123374db46a7cc2d2ece0940f0671fee7dc58a11aa503f890"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/jsonreference/@v/v1.0.0.zip"
+hash = "381714f9c672c76e573155e6e6fb38ab1ccceafba6163d672a52d4460a999f5b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.27.1.mod"
+hash = "4b7f761e2d2f5f88b457e134e7f3d435abf1239d1f794d96c27126314b614c18"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/@v/v0.27.1.zip"
+hash = "974f84d06abf41b07a2746ead15d63fd60e54097d59aaef2e64f48d037dc526a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/cmdutils/@v/v0.27.1.mod"
+hash = "5d7f7850b93cda7e6677fd07091f0925eeb6cfe15de595079182c5d2ba7f5ba4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/cmdutils/@v/v0.27.1.zip"
+hash = "78db276543527cb558989674ce270209df6011240431fcf97b1e70c5bddae7da"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/conv/@v/v0.27.1.mod"
+hash = "4c384595c3c91de7f524dc6ab6ffd217f1d09efa3316c0fab85d4b2925d442b7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/conv/@v/v0.27.1.zip"
+hash = "05937194045677859dec6bdb3408ac359294e68e2188bc9a37bed759f2cdb040"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/fileutils/@v/v0.27.1.mod"
+hash = "99b8aeceb39266188bcd3e78692e07a0bde3af694bf7472e2f01d87b296fca51"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/fileutils/@v/v0.27.1.zip"
+hash = "9a155475b4da15cf5375405cad7faa79ec05b29e47ec6eb5fce9640f491b4438"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/jsonutils/@v/v0.27.1.mod"
+hash = "6dddc8d66e4184bdcb14b524130985e7bb1893121d513471a769e566c0b6d4b1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/jsonutils/@v/v0.27.1.zip"
+hash = "6b89134110a6c678522007a7cae3ab24f1ce1be43189a913562dc36a9ed6384d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/jsonutils/fixtures_test/@v/v0.27.1.mod"
+hash = "5611b10227f9ade2e719bfd9551df3e7b2a8d895672d92b9008989d941125166"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/jsonutils/fixtures_test/@v/v0.27.1.zip"
+hash = "1b05b410fc2754c6c1ac941e22a5d9a0f89644897e41ccdb2e73cc17047ab1cc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/loading/@v/v0.27.1.mod"
+hash = "9dee7499914ac49e08197358d07e434e2e978dc04baf49619ecbd4f85977db6c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/loading/@v/v0.27.1.zip"
+hash = "a18fe594620951693c40e617782f03163ecf81027d2fb6929c98cd950855fd38"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/mangling/@v/v0.27.1.mod"
+hash = "26566798d5fde5067aa46b8df8ac4316a486ca45c712f0e4d5df44c44b1d2164"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/mangling/@v/v0.27.1.zip"
+hash = "394d88863125724f54693ec9d45bd1bba5fda66357e4ea9fac042b081147c72d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/netutils/@v/v0.27.1.mod"
+hash = "06ec2dd38c56224e4c28f83cf5a19f644cc9e337648cabecd2ec11cb8bf90ef8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/netutils/@v/v0.27.1.zip"
+hash = "6a4137f74a3fb4c41554c5a381dd41de399d3b19e6147b9d530c9b4c97a6716d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/pools/@v/v0.27.1.mod"
+hash = "a87f0b8df04b856635e539184142e3fcfdf2822053b7e8ef7a1f052adfec9f67"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/pools/@v/v0.27.1.zip"
+hash = "5adc28aefb0f58ae71048e25013a0ca2f38ed527435f18483c1a74053c880208"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/stringutils/@v/v0.27.1.mod"
+hash = "9185eaef13046d583adbf6c5b032ce36652845a1a76d35922dd48d37c1a0cb7b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/stringutils/@v/v0.27.1.zip"
+hash = "304a9c1f952d40ec55ee92ca095b73f3eb54f402b4ec522cf1d717841d8b67f9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/typeutils/@v/v0.27.1.mod"
+hash = "95bf7bf393f25816f6ee9c0a6abab246fef35ac0b07395ed91e49c6ccdcc1101"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/typeutils/@v/v0.27.1.zip"
+hash = "e5872b1ec074f1def37dc53b7d9d58cff9ba44a36f16bc024cf46e29df787f95"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/yamlutils/@v/v0.27.1.mod"
+hash = "6ecc5db9cd86d0e3a195ea74f27d81168d7f5c53f502b0020423e559b97341e6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/swag/yamlutils/@v/v0.27.1.zip"
+hash = "13c63f3dde3719ad527ce413051a9fa6cb59c0357205f010c3713ad8f21db0da"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/testify/enable/yaml/v2/@v/v2.6.0.mod"
+hash = "18955adab29dbe9baa8dd22fadcef06866ab1eb1788aae02d2d47d3895c32eba"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/testify/enable/yaml/v2/@v/v2.6.0.zip"
+hash = "985eeb1d1df3582dded573d476253753e81de708a3d47b36721acd3114b3439f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/testify/v2/@v/v2.6.0.mod"
+hash = "9c96c94216218464efe47ca6d168d4ed2cdc5738ea84eed3f258f5616814bbd4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-openapi/testify/v2/@v/v2.6.0.zip"
+hash = "bcee6bf36660ceb6cc307e5302e4ff7087f26df7f7ee7c591a7b0c5d19024f72"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-sql-driver/mysql/@v/v1.8.1.mod"
+hash = "5f840ae4a8991026d6157646c36a0ed51549c76e3ad3776a12d5a7162e63d0fb"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-sql-driver/mysql/@v/v1.8.1.zip"
+hash = "74c59faecf896d4eef4cdec6604cc629938ef49ce4bc43bc07199e2e625d9daa"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-stack/stack/@v/v1.8.0.mod"
+hash = "591552a7ca5f4351d9bef6b868f2d85a61ea028271442581f5f487dced196129"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-task/slim-sprig/v3/@v/v3.0.0.mod"
+hash = "60d8053fb51eef51ba227e2f65038ee559ed68df7430e63d11314237a1180fdc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/go-task/slim-sprig/v3/@v/v3.0.0.zip"
+hash = "5e534ccb4157d0443f65f06b76bce67eb92b3e34766f3a14dabe86945955dbe7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gobwas/glob/@v/v0.2.3.mod"
+hash = "b5c6b172adc1878cd8e690ba9123b0a65753bacb38d87e6d683aca136d435578"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gobwas/glob/@v/v0.2.3.zip"
+hash = "0cfe486cd63d45ed4cb5863ff1cbd14b15e4b9380dcbf80ff26991b4049f4fdf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gofrs/flock/@v/v0.13.0.mod"
+hash = "401e19149e554efaff3c749f134756bdfef89998d09cf5f0efabdc44974c5df1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gofrs/flock/@v/v0.13.0.zip"
+hash = "171560e83110e199cc9f4f8959d442c563c8ab6b26c100dd67b7a2fe265339ce"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gogo/protobuf/@v/v1.1.1.mod"
+hash = "ffc140935ea14be7245f05cc8206e4933a4620965a7ee1108d253564f984026a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.2.0.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.3.1.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.3.2.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.mod"
+hash = "c5f873c621cfaaf563f8b66a0501a5be14390cb0859e5187ce616d0312a6c8f8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.zip"
+hash = "9a2f43d3eac8ceda506ebbeb4f229254b87235ce90346692a0e233614182190b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/btree/@v/v1.1.3.mod"
+hash = "671a2227c5628cbb94ce027ab4232858c4f0dd0cbb98aaa83d7a265d7ec194d7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/btree/@v/v1.1.3.zip"
+hash = "11b736bc8252b52fecdf346d3707ccf3a2b6d458ba21b4f843616fc12eeb30b2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/gnostic-models/@v/v0.7.1.mod"
+hash = "d7c113d94383eb3acf6dece22054fa47b8101ffaeca6e351d0c82ddfe3e8b953"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/gnostic-models/@v/v0.7.1.zip"
+hash = "91ea6e1d4f6f41437d37d6e01bbeb5cdab3fa8b96f6868a94ca88c9ee5c60c71"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.3.0.mod"
+hash = "81df7917c225a9da7604b230d952fa278c60a8832c10d799385d134b05d5b087"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.mod"
+hash = "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip"
+hash = "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/gofuzz/@v/v1.0.0.mod"
+hash = "fb009c01ee165bbaa85c85e8a3a794ea8e83f80714d4183465dc81d811b54427"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20260402051712-545e8a4df936.mod"
+hash = "ed01403c6c20b64135574d74f751d5c16f1bb0bd66d20d75edff138ceb7ccaf5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20260402051712-545e8a4df936.zip"
+hash = "bc00e7890653539cc4f892f36e49259f09a87997c748eb6c6a89dfb0fc2e460e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.mod"
+hash = "73da47b6338b00a082fd451aa35a3273d3adc09b8e9bba98dab01091e402af6e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.zip"
+hash = "d0f02f377217f42702e259684e06441edbf5140dddcc34ba9bea56038b38a6ed"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/handlers/@v/v1.5.2.mod"
+hash = "a5a8b68745398bef5c2e9be91d183e918416b70419a2d9775a12e91f3da5a885"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/handlers/@v/v1.5.2.zip"
+hash = "7a69a0605890d69e91404e46b2d2063ef3c5c4e05c844ea154ef95d3479d7b7b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/mux/@v/v1.8.1.mod"
+hash = "f291c6cca97f4c0e46c8fc4dc1005380d225800a42f28774928bec80f2c553bd"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gorilla/mux/@v/v1.8.1.zip"
+hash = "728243623caa67f64e4a0b6c59dde3f762918d9e729266167ba46d8df56c193a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gosuri/uitable/@v/v0.0.4.mod"
+hash = "4e4b66caf8192ad3ac6d5dc945078fc63d2f66204f3f6e4f357b54de7b17e8cf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/gosuri/uitable/@v/v0.0.4.zip"
+hash = "184f29fefcf7a6e979e41c07765475297d72ff83e7f42553347edb35a104cfa0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/grpc-ecosystem/grpc-gateway/v2/@v/v2.29.0.mod"
+hash = "0d759d4a6c23af4bd39f85fd0c9f4de3931ce0d480432683e806c5bd116ffa45"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/grpc-ecosystem/grpc-gateway/v2/@v/v2.29.0.zip"
+hash = "92aa0dbc15037aeddca97ff7f8e4c61bdc3841a34a0df9bc27af30265e598f2d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/arc/v2/@v/v2.0.5.mod"
+hash = "1bdd0ae8d5bcb9ccef6a181fb7c6c00a6c62ee9e98ddd18c01075a6064dd9dc3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/arc/v2/@v/v2.0.5.zip"
+hash = "ecb666cc557e2f91ab22fbe7ae6d2303b5caa67978cddefe1b4eed7c16302235"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.5.mod"
+hash = "c6b886c0242ffeac92b6b6aecf1123bc63c86faee81b16fff3a13273e50f6824"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.5.zip"
+hash = "2679fa1076e9b540cd1dc10af9c14ede2036ef7de5ee550bb5544a8fcf6141da"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/huandu/xstrings/@v/v1.5.0.mod"
+hash = "33c7a6cfa483a6d2c3da52bf870469c716fe5948bbc3177868c726e7d73bba00"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/huandu/xstrings/@v/v1.5.0.zip"
+hash = "74bd0e897e5c35b1fd0e598cb8d9dfcebcb820b6edf3abf850d5404bfaaca6a2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/ianlancetaylor/demangle/@v/v0.0.0-20240805132620-81f5be970eca.mod"
+hash = "105d4d0c78c8205f85d53bc86b2bddc58430ce0f9dd37b72582bba7ff8de38bc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/ianlancetaylor/demangle/@v/v0.0.0-20240805132620-81f5be970eca.zip"
+hash = "bf6183b72caf6b5553a1f345623c36cd5ab11914bdd8f811950658511d22f2ce"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.mod"
+hash = "1c1b15911aa8a0bd5cd0f6670ec23d1086496f3615fdf53306aff2b476ce9be1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.zip"
+hash = "526674de624d7db108cfe7653ef110ccdfd97bc85026254224815567928ed243"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/jmoiron/sqlx/@v/v1.4.0.mod"
+hash = "4cad583dccc4b0934674db7fc85c9c2c322ee58793366860aaea582f6591994d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/jmoiron/sqlx/@v/v1.4.0.zip"
+hash = "992ac9b6a33b12bd8e411ce9c9699231f8ac8550812805660b7ee06676bdc3ad"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.12.mod"
+hash = "518e57c22d1781c59ab33788c9a9fc2edc43583ef7c9fc8892a3490c12d61226"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.12.zip"
+hash = "d001ea57081afd0e378467c8f4a9b6a51259996bb8bb763f78107eaf12f99501"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.6.mod"
+hash = "b19a228769664c12bf25dd18d51c5c53fdaf45c22971a973545f0b0213504e4f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/json-iterator/go/@v/v1.1.7.mod"
+hash = "45bc9de2a05f3378f7a9de50b23b0f40683ec10ce9e5eb93336f357edaad7a32"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/julienschmidt/httprouter/@v/v1.2.0.mod"
+hash = "91419d7ed83ae8ed754f26db1570f05b97ff6a615fbc91cb7fe8148af567fb25"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/kisielk/sqlstruct/@v/v0.0.0-20201105191214-5f3e10d3ab46.mod"
+hash = "58f18e5dd80522b2d17e14e698fbfe22be38b50a3c0adbb03dd651c285f3078c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.19.0.mod"
+hash = "0d66d6069d9e2fb875c5b464d15b2c80232cfc8991e6f88336ce461ca810e0cf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.19.0.zip"
+hash = "2eaca328cea81dd4797b6eeadc0fe56cfe501e43fca5d1512f12b39d47e0d8f6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/konsorten/go-windows-terminal-sequences/@v/v1.0.1.mod"
+hash = "6b69dafd3cf64d7b57e978848a7e271a2be0a04d9a2564dd2556491d27d0a034"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/kr/logfmt/@v/v0.0.0-20140226030751-b84e30acd515.mod"
+hash = "eea467153d80336f6174d40d1ca022618c4f3b93610fd62040929ffe009ba9a6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.mod"
+hash = "84f3e40803b1ebd4a802e55794b9997df0b173c4809e8572ff9042ec558ca1bc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.zip"
+hash = "ecf5a4af24826c3ad758ce06410ca08e2d58e4d95053be3b9dde2e14852c0cdc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.mod"
+hash = "f63879b204f6ce895cea53594b814f5ac0af08486b33b1ca79c657384efbc726"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.zip"
+hash = "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod"
+hash = "1605871e895331a39f5952559ebbc91228d86b8100354f857b562866eca5bb13"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.zip"
+hash = "dbbd0ce8c2f4932bb03704d73026b21af12bd68d5b8f4798dbf10a487a2b6d13"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/lann/builder/@v/v0.0.0-20180802200727-47ae307949d0.mod"
+hash = "453010229e92a2d66b33fc150dde970e7468ad15f55a6a29492d5bef318bf6eb"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/lann/builder/@v/v0.0.0-20180802200727-47ae307949d0.zip"
+hash = "1fe7a88079ff2bbe90fb4724fb5c353ecb6af4cd7e011440354c804f678895ee"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/lann/ps/@v/v0.0.0-20150810152359-62de8c46ede0.mod"
+hash = "b48782a5a8a3eccec581b57d663ed204b01127f8db92110b9e39358018891638"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/lann/ps/@v/v0.0.0-20150810152359-62de8c46ede0.zip"
+hash = "76756d46634f44edd3facdb01e7271ddf23a1b51a8423de55d3a2bf685ff032a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/lib/pq/@v/v1.10.9.mod"
+hash = "94c1488688b2b9822a96e1375e32002a652cc1aee71520f6bfa87bec8eb79c06"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/lib/pq/@v/v1.12.3.mod"
+hash = "95aa0cfe3f3fa5821805cccfd885595eb862e91a3beb802da86dc15714c1d229"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/lib/pq/@v/v1.12.3.zip"
+hash = "fef0e04c63badcfba51272ecfa1d555e393ae53901c5834e9e0b5aa39e5e151e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/liggitt/tabwriter/@v/v0.0.0-20181228230101-89fcab3d43de.mod"
+hash = "53b74b4c1c431da955913228b3bff0f709f9c3f1f34301a2f4b0275d0fd814f9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/liggitt/tabwriter/@v/v0.0.0-20181228230101-89fcab3d43de.zip"
+hash = "41b6869255915ffdfd32575ba14d52732d62d34b47d904df4890e165489ec77d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.14.mod"
+hash = "c199aee551968c8290b917524e0b232a862790a4831b0ed4cb43687e8c08aa18"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-colorable/@v/v0.1.14.zip"
+hash = "5e0e7925a070bb5bd11b4097e1a7b608167f0217ee83901b44c135f6e5e85c78"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.20.mod"
+hash = "1eeabef1b4d98db73c6c2073289163649bc9a044552aca86b9d592fe84eaa1c8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.20.zip"
+hash = "f2d5f89ca451577e17464b9bb596dc0d0ecececb5eaa63622c41b57cd0b7b8cc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.9.mod"
+hash = "87d221794fab4aac6814bbf42aa10aa4b7693c83294fd1826f58122428785709"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.9.zip"
+hash = "0c40d1912544830031882bf576bd41a3b1ff4c5c25e361b3ea4440b44bbac5f9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-shellwords/@v/v1.0.14.mod"
+hash = "29bfff16ff57b7dada64e6a74806d931549acce61cb70c458a389d099c2d0ec2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-shellwords/@v/v1.0.14.zip"
+hash = "b6939f402c7e38e6a6310c6c83a54a5ecd496fac15d60b4b12f01cde0a4439e3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-sqlite3/@v/v1.14.22.mod"
+hash = "bc9235ee6e4e60243f1e7dcacf0caa4d480afcdf06ed78e481fd127e9e3119df"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-sqlite3/@v/v1.14.22.zip"
+hash = "047790c4f1ff7b25e57eb3603e7edd8e2d07e0f868542ea7d9243a316c38725d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/matttproud/golang_protobuf_extensions/@v/v1.0.1.mod"
+hash = "5c9c0086b9b2eb6dc9f27ba1d33b28a66463fe30c2f876ff05b7c848e779ea77"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/miekg/dns/@v/v1.1.57.mod"
+hash = "4f41763b13ca9a95486ac709b2fff536a706852fa484b3efcc6c843fb296fb27"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/miekg/dns/@v/v1.1.57.zip"
+hash = "50750ca3ebe181f8c16a3d5ccdbc4f7fe864ba6c731a8013d4df8678f901e1f6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/copystructure/@v/v1.2.0.mod"
+hash = "046f6180ae4fb25811c47c3b49f1f839d7ca83839641b6407e9f39b05e0c8bc3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/copystructure/@v/v1.2.0.zip"
+hash = "4a1ce1f3c66bf99883e55da50fe1b3122299b79ad1d11c5407abbd74ace12550"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-wordwrap/@v/v1.0.1.mod"
+hash = "4f2239514c1de72e2f5b0f544b61d8c404eb2f04057d6ba1441875d7ac8311f0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/go-wordwrap/@v/v1.0.1.zip"
+hash = "5f96426c4b3b3e90a9b7471568cb1d61d6a306744f5d4765a30fa8a61e1c0b47"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/reflectwalk/@v/v1.0.2.mod"
+hash = "7a5fefd3afb6a309c9c38b51a5448e01cdc9cff07be066e29d53609f3290f2bb"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mitchellh/reflectwalk/@v/v1.0.2.zip"
+hash = "c96eed6b50f00b1acdc79224e8e55f66ef3e98e3f7c6373afa3e3b8c6ef440d1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/moby/term/@v/v0.5.2.mod"
+hash = "69828447959873f9c825fb8d1ac4a6d068d668a2d48c8dfee673e9bec95bb22c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/moby/term/@v/v0.5.2.zip"
+hash = "f8d6e5c53992c640512ee45a9b6147a765bebe3d8d50e3bfe1e4ec3e052cd688"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180228061459-e0a39a4cb421.mod"
+hash = "27a5e9f05c71089b6fd5e119fc1c8ce81f0c16da4ec3357157b1d85e2ba85ae2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180306012644-bacd9c7ef1dd.mod"
+hash = "27a5e9f05c71089b6fd5e119fc1c8ce81f0c16da4ec3357157b1d85e2ba85ae2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/concurrent/@v/v0.0.0-20180306012644-bacd9c7ef1dd.zip"
+hash = "91ef49599bec459869d94ff3dec128871ab66bd2dfa61041f1e1169f9b4a8073"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v0.0.0-20180701023420-4b7aa43c6742.mod"
+hash = "b455521ad42d16fab08ef1d7488c22ef240c94a86847360ad3a16719a087132b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.1.mod"
+hash = "b455521ad42d16fab08ef1d7488c22ef240c94a86847360ad3a16719a087132b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.2.mod"
+hash = "099ee58ec210155280692f9e2360f523272e525f06272754be7a2a44dbfa0623"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.3-0.20250322232337-35a7c28c31ee.mod"
+hash = "099ee58ec210155280692f9e2360f523272e525f06272754be7a2a44dbfa0623"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/modern-go/reflect2/@v/v1.0.3-0.20250322232337-35a7c28c31ee.zip"
+hash = "49f3fb0f76b1b98b52b5e6e8eab2a48454eab33904b937625941c28138a7fea4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/monochromegane/go-gitignore/@v/v0.0.0-20200626010858-205db1a8cc00.mod"
+hash = "e827c27ea8db8bacebc4513e1819a46d49b8a3ba04a7d0c493a1f9ef95d998e4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/monochromegane/go-gitignore/@v/v0.0.0-20200626010858-205db1a8cc00.zip"
+hash = "459b98c031b259b1a73c8225a63210f0b9973456824fd1f69cf12c41e8d461f0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/munnerz/goautoneg/@v/v0.0.0-20191010083416-a7dc8b61c822.mod"
+hash = "90d8fdca000e05d751cfafb1546f4a1440a5696ab06c8c91c365cf9bbbc8bcef"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/munnerz/goautoneg/@v/v0.0.0-20191010083416-a7dc8b61c822.zip"
+hash = "3d7ce17916779890be02ea6b3dd6345c3c30c1df502ad9d8b5b9b310e636afd9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/mwitkow/go-conntrack/@v/v0.0.0-20161129095857-cc309e4a2223.mod"
+hash = "3f15a518f37228f2d08c6b43762d43869a5ab8ae7ba3b5124bf961035e71cc18"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/v2/@v/v2.32.0.mod"
+hash = "b4dfa28221978abd453802855249e8a72b63a3f198d192196916f5c5669fe9ee"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/v2/@v/v2.32.0.zip"
+hash = "2d1a42b7b387d4bebdc449e9f6795e804966b7230b6265b3756779c651458eb2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.42.1.mod"
+hash = "e127ae6328337708b529a3383b9f3290a36c3e4e7f3afc51a7c017f4eb0f4cd8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.42.1.zip"
+hash = "1ea45c06ef1506ec317ec28bb88fe604cad5bcefb7df2be3cd8e81b50cf6d241"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/opencontainers/go-digest/@v/v1.0.0.mod"
+hash = "8de0250a4ba6811f7703fbb499ed889672597699f335b12f47d788d1df087b4a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/opencontainers/go-digest/@v/v1.0.0.zip"
+hash = "615efb31ff6cd71035b8aa38c3659d8b4da46f3cd92ac807cb50449adfe37c86"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/opencontainers/image-spec/@v/v1.1.1.mod"
+hash = "1905f5f90061e422d1a23a8b3becf2b8847c4ae00704d44de2bb7f585fa0fed6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/opencontainers/image-spec/@v/v1.1.1.zip"
+hash = "3a32eeb459719172947c20be78b5b7293c6ea84f4039184e846f6b676bc19574"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/peterbourgon/diskv/@v/v2.0.1+incompatible.mod"
+hash = "f2c09b1b5e33a9d641a99d85e6f9fb8f3697d31c37e6a0b8d607e2a8d78bc7ab"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/peterbourgon/diskv/@v/v2.0.1+incompatible.zip"
+hash = "1eeff260bd1ad71cd1611078995db99e1c7eba28628e7d6f24c79039536ea1cb"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.8.0.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.zip"
+hash = "24ff45e356f638a53bd0c89fff961fbeaecfdb0dc5e482ceed0a2230e0e5f3b7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/poy/onpar/@v/v1.1.2.mod"
+hash = "be6342bac3392804740dbceef3718a40f79d814b741b2ee750d75ef8ca7b9d44"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/poy/onpar/@v/v1.1.2.zip"
+hash = "022f77a63d554b8bb1cf4b027a998e0e3f45b8490b80c4d8694236e9f08ee643"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v0.9.1.mod"
+hash = "aa78fc9a1301ae94f44703846ddddf254defec30356e3f1300bbb4db0eb3db65"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.0.0.mod"
+hash = "c40de1800d9751d32d7d2593d98bf1a3984dc9470d828745e22bf516cbafd8c0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.1.0.mod"
+hash = "61cf8f49988fdc924d61c244aabf366469f484a4afec03d532f3ccc3faa0c947"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.24.0.mod"
+hash = "3c4e684051403102ed06ce198d23686baf357a69108fb92ee820420e5e1c5da9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.24.0.zip"
+hash = "10d5962968b6fa789bd735ab8d998d0c2f033d6fdb43af3dd4a0d4e6a297f7e7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.0.0-20180712105110-5c3871d89910.mod"
+hash = "9ecd481d10e3f3b86ba0755986a85852028b86f2ba597965d3d3672b2f2fb738"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.0.0-20190129233127-fd36f4220a90.mod"
+hash = "8ae247f8b1ced742fbc4aa7ebc6b6c935172eaafa61a2be52ba0bd41286db031"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.6.2.mod"
+hash = "8a9728c4147247a572808ef22e997265fe9a7c5464a60d4eda48dc35f9dc2626"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.6.2.zip"
+hash = "67017b19f220c6ab91ecfdd10a93824e2a8b09fcb6390054dbdc49df3354a9ca"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.4.1.mod"
+hash = "aad8503b85be2616008ba40f3e63277fc9653bd9c148c3d510000f173a16bdba"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.6.0.mod"
+hash = "ee3f3e2c6b799ca39d4a8d2b355873496962d56dbcfafa8ffdfe3190f99ac122"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.70.0.mod"
+hash = "b8994fbee798b82216cd7a53cbd92e72fa32d6d336ad8b0119648ad21f3b285a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.70.0.zip"
+hash = "e2d490e176cf115b087c97b5adcbf40af9e413c1e017bd4fe0c6fd8b25cae4e3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/otlptranslator/@v/v1.0.0.mod"
+hash = "96c4801607ff9256c068f2d7cf2700fca2606cac212228c812ee5dc0a9e4ec51"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/otlptranslator/@v/v1.0.0.zip"
+hash = "b4a3a9d8b0dfd8d7a54937d6916beb08108e57afdd8f0e21544a0d163181ffb4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.0.0-20181005140218-185b4288413d.mod"
+hash = "52ded709607588200eff4bcfbd61fce32bb0c3f0efdd32d846e3ea150b196352"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.0.2.mod"
+hash = "28218c2e5063d74fabb5b62d160b133b1634761922ed7a0e7372144aab4b7f75"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.0.3.mod"
+hash = "95d3e92f6d1e80ea27792c483d748cf0a23a71d1c6f3828ac3f0c93db09c25b4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.21.1.mod"
+hash = "129232c45b86548cedb3cd2ae1aa6cc1fb46826847ce0ab24be7a3cee2191d23"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.21.1.zip"
+hash = "b417ab3081ad334ce4c6b367b2d5e74dea49e2eb3b5431c1dd5a65e1256736f9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/redis/go-redis/extra/rediscmd/v9/@v/v9.0.5.mod"
+hash = "16d3093619e3a0b171b82527265703bfd36102a0026f6c599e2a9de1ba8cb32a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/redis/go-redis/extra/rediscmd/v9/@v/v9.0.5.zip"
+hash = "914ec9aac0e984b9a79e56afc07b91b8dcfc8dec01b4a8baef0dc7c3fdbfe0f6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/redis/go-redis/extra/redisotel/v9/@v/v9.0.5.mod"
+hash = "be9dc8c4caac2549b9f77377f5dc30517b29a1f3962ed38de17d021056051495"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/redis/go-redis/extra/redisotel/v9/@v/v9.0.5.zip"
+hash = "14979f5f8c5b41d42612a11d7a71b22c85d422af0fb1f7ed81d510a7552173d6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/redis/go-redis/v9/@v/v9.0.5.mod"
+hash = "d12ac476e7df7ed95d027ffb48d20f080d35e7c96835b5a28b086982df40e522"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/redis/go-redis/v9/@v/v9.7.3.mod"
+hash = "b6d26c66c6a100d5b657786e2c5db5a9b08fd4ab5624e0ff7b97f21609e56283"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/redis/go-redis/v9/@v/v9.7.3.zip"
+hash = "80c15cc6b176d685c57fae3809b522fa6d79550f9747f40c1611b3fcc6adf9d3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.14.1.mod"
+hash = "5146850223a460d7bfb5e3e4caf323337f745903e829c96083bd2c9a722caf8d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.14.1.zip"
+hash = "ab3d18283cef2f46ddfd489b6b14b970eb7dbbb642786f025ee1ac5291dc4e70"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/rubenv/sql-migrate/@v/v1.8.1.mod"
+hash = "286d438d49cc35fce0a4aa620aee41cee5323f5c357f99874ba88c2dcd9aea30"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/rubenv/sql-migrate/@v/v1.8.1.zip"
+hash = "e67795a2ce9225ede9a385976db1d2951f3b9b3d6bdc9e812ffe7e37515fbbf2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.mod"
+hash = "c39547cce6e866e8cfa395d2937bce30801cd07f0b901c2133248f1fba12f58d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.zip"
+hash = "7852750d58a053ce38b01f2c203208817564f552ebf371b2b630081d7004c6ae"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/santhosh-tekuri/jsonschema/v6/@v/v6.0.3.mod"
+hash = "48f5e138633d4d85be9f6cd447e2db32aabd00e530a00a45985695af5e0372e5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/santhosh-tekuri/jsonschema/v6/@v/v6.0.3.zip"
+hash = "79282583888de6fd146e513f01e09bd3b228976942d2114688e97608279b1ebe"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/sergi/go-diff/@v/v1.4.0.mod"
+hash = "1eb393c3f9006362fe3044798890e578af6ae6d69270aaf3eb9bfe819ce654db"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/sergi/go-diff/@v/v1.4.0.zip"
+hash = "63aef1860b251af1421ba0a014a6bb08a60833f13f948f3d88d66754bb484f53"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/shopspring/decimal/@v/v1.4.0.mod"
+hash = "fc8a8e1fa14e49884ec9f962563a4ef51fa0a9bbfb7dbcb2ec8958e1f00988c9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/shopspring/decimal/@v/v1.4.0.zip"
+hash = "751d4cd3460984afc72973d2a0df56ed9b10499c5cd0508d7f2207245d9e3315"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.2.0.mod"
+hash = "d67049652749abc6560f22dee3a27aab795a32ee2c7e078a54615a61b7abb99b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.8.1.mod"
+hash = "da2caaacef970c4c3f36c137d5567faef9403e6f62194804c7672a3975219322"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.9.4.mod"
+hash = "65bd5913b818d483bd0c92041e39a4ec17766f8907318aea02df8658f46324e8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.9.4.zip"
+hash = "3847d00c5ee6948f1ff0d0120bc343c55ce852becb7720f8f08f53eecfe9e437"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cast/@v/v1.7.0.mod"
+hash = "7d2f6a01b576af92f8a35c582145dc94137966ee88378b4a3a611457d7104211"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cast/@v/v1.7.0.zip"
+hash = "7b24198857474e3f3c9c368fdec153b06003d06863a182c77c0605c3e51002c1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.mod"
+hash = "cc6098fd1118fb3bb349c72bcd6e9c665d3a1b2a516ea9807ee24521ad2ddf8c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.zip"
+hash = "a00aae6fcd631e0fde52c98604452ff70e1b73c3b8a560d68db15aff5e26872d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.zip"
+hash = "a246b8c9d3daa87d6c634cdfee1bdf7fa53d5817eeef4fa0c6da43edd12de4ca"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.9.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.0.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.1.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.3.mod"
+hash = "6791b5edf7bd0ad12f53a046718d24b3a395191419167aa0bda604e866892cc5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.3.zip"
+hash = "cdc804051b06efceea75ee9b0b6349d2f92f17cd46c6193c4a8dfb0f51465a44"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.mod"
+hash = "a6aa921ea6dedc1cbb384d3c1b79c58b6e5d6ce26d13b786ec60a99809ae1daa"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.zip"
+hash = "6874ed1c4b0b7e9feb27989b16c179b36590020633436ae260cefc5f5565589f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.2.2.mod"
+hash = "4ab463f68c370041f950c10cab5104903d4598c50cf824f9aad1b7b7f69255af"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.3.0.mod"
+hash = "ab063d5154a8e8730bced4c52698e5770eb50bfae347bebc35eca488b8e3f6e3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.6.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.0.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/tetratelabs/wabin/@v/v0.0.0-20230304001439-f6f874872834.mod"
+hash = "42e6095dfa4a4590495b947816df35c981bc52a1812a95a6ba2250e3eafb63d1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/tetratelabs/wabin/@v/v0.0.0-20230304001439-f6f874872834.zip"
+hash = "bbe23720ff0853be388f9c1cdc6f604a4beb43c6e0dd363f17062c3271d19efe"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/tetratelabs/wazero/@v/v1.12.0.mod"
+hash = "b3f66757e2f84bfc66ad7d5132c620a2392bd9c39c9d5401e253ff52895ceedc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/tetratelabs/wazero/@v/v1.12.0.zip"
+hash = "dcee360162e809d1273c685d20f6faf6df7ae0d925a73bf8f1af1a4756bfe587"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/x448/float16/@v/v0.8.4.mod"
+hash = "f8a8238aa734c1d2463d48f8808e35124546bd5222b13e4c097746ded5a57e1e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/x448/float16/@v/v0.8.4.zip"
+hash = "73b24a41037ea999ab66851e3798a0973dbb1f214925915b01f0820f7b2f1500"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/xlab/treeprint/@v/v1.2.0.mod"
+hash = "3d7d189d05e18e2e05fc264c60b2d9291cf62386c18fe4ef237748245c18216c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/xlab/treeprint/@v/v1.2.0.zip"
+hash = "3270bc1e24fc2e2030f7c5214439573c12c07a7250635371a3d2b0ee14b22a0e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.4.13.mod"
+hash = "ee7fe4466203a01d3ac19adc134cdec99bc6de71992c28f3dd9a74480bff0603"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/yuin/gopher-lua/@v/v1.1.1.mod"
+hash = "6c378d604419abd0bcdf712dd313c15157ddda0234e2e24e912f93fc3690fe63"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/github.com/yuin/gopher-lua/@v/v1.1.1.zip"
+hash = "ac45a1524a39049167f1bb2334b67f728559cb1e60c535c54b3a09f1fc772b45"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.mod"
+hash = "6c4d2df014d59fd6555897fd4e5bbc0316e8df4c737fbfdde5cd119fdefeeea9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.zip"
+hash = "a08a16fc0a7041cdb875f47a260a56000632212c85f65a302a043c76380c8335"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/bridges/prometheus/@v/v0.67.0.mod"
+hash = "d9c105c28c4211111f4a6230bb9f725257557290939ce63f23ef8f6eb2eb8f5e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/bridges/prometheus/@v/v0.67.0.zip"
+hash = "5894a48a1439178e387f20e50652363c44046f831a2842422c8688cd15542243"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/exporters/autoexport/@v/v0.67.0.mod"
+hash = "816e89dc586f95b6b6c6dfa4a1f6f8706ce8159eb43547217977cac66a1482e0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/exporters/autoexport/@v/v0.67.0.zip"
+hash = "4b219cf1eac7dd05fd95724368ee45440fd145fc04722db84c7162686ac3f422"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.69.0.mod"
+hash = "ce012052121f2983f6631fd43560c02f82f4911b79b8a1f72fb622a948c6f341"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.69.0.zip"
+hash = "6f2e1d300fe09d55ef13886efa33b06e9bcbd4d5f04f0014b0a2871402a28a28"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.45.0.mod"
+hash = "5fbed2c6d71624dd869501048d52436832e3d8b2da7bea539d44b982b62d6fe0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.45.0.zip"
+hash = "65b5fc93c93f4eaef740b4bba81fd2543f248d5df85cf4d1ddf9ab459b30f7a2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc/@v/v0.21.0.mod"
+hash = "9fc58cbc5025a6c2d1503eb913ea5f4713c906da91da21ab9f25eda04451ecd9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc/@v/v0.21.0.zip"
+hash = "b1b915fa9f06de4c44eb78eddb7af9282780cf960fc50c6e887e7e161ef87750"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp/@v/v0.21.0.mod"
+hash = "7f35deff7509a38e76020b3a172a8ff1f3bfbf220180670c1dfabad5eb7034ff"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp/@v/v0.21.0.zip"
+hash = "33a184e67a41fd159a3567b7732bd1a2f5f510a8400bd02cd2336c47ab51f6cc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc/@v/v1.42.0.mod"
+hash = "ff5482e80e86903688cc60acddf5f049bd49d981d400c107ffeec43f7be4f02a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc/@v/v1.42.0.zip"
+hash = "2edba259a4e64ff2983a0bda54ccb6151432180dd6825f7e35fd8fece3d07409"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp/@v/v1.43.0.mod"
+hash = "f0aadd5d494a3b5a1f3610ce3b7d07a933a998cbd0676838c4fc9fd25e37455f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp/@v/v1.43.0.zip"
+hash = "dcb69f727f237797172f23c5d4d371bb3a8ea6013660379dbe6833676671398a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/@v/v1.45.0.mod"
+hash = "d95c37571c16ae53c04144b74c4eac22df7ca1b349d1c9cfdcbc87131db2688e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/@v/v1.45.0.zip"
+hash = "17e5b206e5ea76d8a1e4e8ef340d888894a0776fc1d66848530346347e0b47c3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.45.0.mod"
+hash = "5bdfdbe5b1877e402b8ef6c1decd97e7d25e589c834a0f25f71c44e25c377545"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.45.0.zip"
+hash = "0cacecb3afc00395bf88712ec047e32e39a7e69575ba313254314673c1f1087e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/@v/v1.45.0.mod"
+hash = "98985f8b17f02c46bcedbf7881ff315d7a23642612f5212cb48076095c027c4c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/@v/v1.45.0.zip"
+hash = "8eea4ce8ed5af97d4c77d1b7c5800f17f24f47aebd7ef1a78ddd27cf9000fc13"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/prometheus/@v/v0.64.0.mod"
+hash = "10b174b15e9eadda5896bb9fb7b9ddb8f6b435618a8045518bbeab74efc4f401"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/prometheus/@v/v0.64.0.zip"
+hash = "548c482c5454317e016b2cd822d55a118d0e3d1a328994c84a03447d31349bb2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutlog/@v/v0.21.0.mod"
+hash = "1e1bfeb1abd9d3a9771e8143210a03699111b061d053d432a774e1e195c3d55e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutlog/@v/v0.21.0.zip"
+hash = "9fbf6619658c798b673367647fa9dc1bbbf04e8a886da325b877dc73e985bf47"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutmetric/@v/v1.42.0.mod"
+hash = "9945a75d295f2d27e26824fd25815f236af60475363eedf8f58c529475c55b8e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutmetric/@v/v1.42.0.zip"
+hash = "56a8e28640b7fb93ef105541789e4cab4da266f088903f754e2fec3be1f36183"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdouttrace/@v/v1.42.0.mod"
+hash = "43b0302e33cc66eac0b0f301d2ff3793c27f00eb719e4b0e9488a48b1e57b152"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdouttrace/@v/v1.42.0.zip"
+hash = "044c658218b2192073bc215fbe398d78696f57bd4db1fc221770ff0808d9bbeb"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/log/@v/v0.21.0.mod"
+hash = "f2b948926a84f3cf6ae632cb0dcfa69899aaf8db6bab5aa0a58e96a99c221427"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/log/@v/v0.21.0.zip"
+hash = "215f0a19b752073dfd519e5da14bf9a5aac8e567c63ba5838b5766283ef954af"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.45.0.mod"
+hash = "d5abe3973aa7d3f6c4302641b1f95a13fa9976a46d79717020f7583748842998"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.45.0.zip"
+hash = "8f30ef0039306bf3a4421b8c08e3fc8922d13503dce53b3438e860b3628faecd"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/x/@v/v0.67.0.mod"
+hash = "af7951953a3c293f5bb5f724086d940a501b2c6a8fae2da5905e65846f327c10"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/x/@v/v0.67.0.zip"
+hash = "da52ed38815ac0a5a70bd271b1d5c29dee224a8ccf01e61f7f080ba785b8a065"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.45.0.mod"
+hash = "ff9df2ce87f84e675122c83844b544b6da1c4aa9f4723ead3d825b4237010239"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.45.0.zip"
+hash = "ad0e63fa1cfc01dffec2a90a8f2d2c1bc0f55d0462940176dc41b7ada0d03258"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/log/@v/v0.21.0.mod"
+hash = "642ff563adf29b7b8830ca7bc18952c52eb8aa69944570496cd83ff254b93d67"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/log/@v/v0.21.0.zip"
+hash = "01307d9ca425f64b23c253857e59490b347864ddf361c5b75912a9e2c5346cab"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/log/logtest/@v/v0.21.0.mod"
+hash = "5757e5a127b9450348682a8dba6a8b2f9f71efb4cd2e075cc6a24525b6e4dcc4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/log/logtest/@v/v0.21.0.zip"
+hash = "7c784cbd7f81785aa17f56e522b0562031c480f6b7cbd31cead501fdeaaa4468"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.45.0.mod"
+hash = "cd1f44b4ed257620aab5a9bef05e8cf13c73092ca37fe1530778aeb21c396793"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.45.0.zip"
+hash = "535731f380b12313c4ed5d7adb4b7d3a357609b212b03c8b7dc437809787be91"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.45.0.mod"
+hash = "8deb258105daad00ccd15be702c3afd78517327191cb0c4903dec33ff466c92d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.45.0.zip"
+hash = "32d7d64ea5991378184b03a9ed7b7822b17691a239508a6905fdd73819cb6c6f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/proto/otlp/@v/v1.11.0.mod"
+hash = "1c64c5758bc16721f8ee0f1405be68cc464252de31f12eba72bb8a73228fe720"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/proto/otlp/@v/v1.11.0.zip"
+hash = "790b98d472e7095511fa7feddd04e1d85bd844226e03ba482bd4105ef2217e09"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.uber.org/goleak/@v/v1.3.0.mod"
+hash = "3f15dc6354aae8fe42d3cbd130230731d5c6aae6aa651ca6a73f4c646cda8fec"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.uber.org/goleak/@v/v1.3.0.zip"
+hash = "70edef0ce7d830d992f024e527fd3452069b884f94a27787a718bd68dd620702"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.uber.org/multierr/@v/v1.11.0.mod"
+hash = "58a30dde730aba57576715d90841774f6344a879fec5633a2c66b37ec30c11f0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.uber.org/multierr/@v/v1.11.0.zip"
+hash = "2249b5d2fdce61f6ee661a679d8552599af084a761cbbc871da77641bddce0c3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.uber.org/zap/@v/v1.27.1.mod"
+hash = "ad805944459a14360eeb0677b7c6fc4ff7a9da80fb03764afa7d91cf02e285c7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.uber.org/zap/@v/v1.27.1.zip"
+hash = "38760227142d38369069374c005707bc6b3c270a75f34fa3f17c48c863143cdc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v2/@v/v2.4.4.mod"
+hash = "4bba343588a8a81f5cc4884d3d7ac7f5dd612b21af59d3f2ebea37ec476079bb"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v2/@v/v2.4.4.zip"
+hash = "1b98a6a498cf255c5f2982d32c74633bc7969770957e98103ac1e14345aa4576"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.4.mod"
+hash = "2989f8b800605890ad40cf49109b0b6a972bda79d92df236d40ddb798093127e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.5.mod"
+hash = "4bf9de8891d4d71507d92568022f8241fb828d8d0a6c9204c130bf030f3e3b2f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.5.zip"
+hash = "f2d70caa35f66283aec58b889af8c5f07c374c5934be27a738c1215263e19205"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20180904163835-0709b304e793.mod"
+hash = "5d01144d948412591d8f11d49f7a74fadace58e12d7366cf0af992147e52486d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod"
+hash = "33ed070a5a66e0960685ac5386440e1b59899e74d8a38a1180685e72a2195ded"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210921155107-089bfa567519.mod"
+hash = "cd6311612a2aa4d0d7e03c41b3aa1fbc2d5f895ab3f61089fab80bfe9f8f5485"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.13.0.mod"
+hash = "e7f36ee9caaaade76b7565fc68622dcc8fdaf6d05ddee3e7d5ccae49688d9f4d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.14.0.mod"
+hash = "336a220466eb3ced51eb4489762a3264a5cfb6cb710358870096660099a9caa7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.15.0.mod"
+hash = "a54bb18e4cd9c8519ccf14cf4c69a2002ec3cd90b388e1f9f7613e10618c3a24"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.58.0.mod"
+hash = "938883ec4a74e7fc05c46269e924dda334c2b7ca7ca219e4d27ca56d1891ccd3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.58.0.zip"
+hash = "b0a45594cda20ddb4264d84aeff9b588b8570bf6a2833c51a0b821734a298d95"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.12.0.mod"
+hash = "624567459c6e9947ac4abde0b7034ee61dcbb6a9373f5970094c0bb3e8121964"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.14.0.mod"
+hash = "5c4ac0310a25330757039ccf3a98e75fefdbcb7d444ddd049230003a44945bde"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.41.0.mod"
+hash = "fc5b64ef51fd92f4b8763ebbd6fa95a70069d299c7de0f7c66661ef24283eb0c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.41.0.zip"
+hash = "201e678d0a35b18b246abe58d80017b75d60be21cbaf4cbb9e963b48872565a9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.6.0-dev.0.20220419223038-86c51ed26bb4.mod"
+hash = "42d19023ff8f2eae700bc5495f371ecd998a22d19ba985d0af5f69900b254083"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.8.0.mod"
+hash = "624567459c6e9947ac4abde0b7034ee61dcbb6a9373f5970094c0bb3e8121964"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20181114220301-adae6a3d119a.mod"
+hash = "3e08f487ddda1851b891df5b1d04bb1a01b84d6d702aa82d9efbccde0aa7df81"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190613194153-d28f0bde5980.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20210226172049-e18ecbb05110.mod"
+hash = "fef5896d103a0bce5055fdb5e96e830944334792437865347718edceb633348a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220722155237-a158d28d115b.mod"
+hash = "b315c52647d2da2f76e5cdb9d367e1d6727784236a9bffb612192b19b10a128d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.10.0.mod"
+hash = "d3b7e236ff09e6322be489170216e018d3221862f1a053dcb63e53eab8533c17"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.15.0.mod"
+hash = "3d10646d6f08d8e8a856d6f22f2cd706c3e2be0112eb777263cfd1392c76e4b4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.17.0.mod"
+hash = "cba6184b8b8e0d54560bf5a65f136ccd76a734c49c066ed803eb70bd06c17696"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.18.0.mod"
+hash = "7e16dedd0b83836553ba8ac8d4c8590f92640dd6f057d4c727e83276ffe728b2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.6.0.mod"
+hash = "41ec76ea2172f3ee3031e38f9a535939a584d6bb35ef480854fdcb8c2026701b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.60.0.mod"
+hash = "f7034587fa012c43de66d8c276ddab161032931abf116a629daa8d66f1c80023"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.60.0.zip"
+hash = "052e0453db47a96ae9567503e7c95ea925ab52682cb1cec31250541f7160107e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.36.0.mod"
+hash = "90ff0f4a036bc1c24e6c006fe18d97d6d11683431f8f197b7ad48a341da72682"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.36.0.zip"
+hash = "15bf65ff103e5dafc809d78cd037a1d1e88ccb8451824e851156002a13304504"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20181108010431-42b317875d0f.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20181221193216-37e7f081c4d4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20220722155255-886fb9371eb4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.1.0.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.24.0.mod"
+hash = "febf4fed5dc12c0de24528f7065bf071cc74a2424070194aaf24617b91066cda"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.24.0.zip"
+hash = "ca3fcf3ea8259e75891f7947e1a816a5b89402c542d45d8bbbd9e061b0c58019"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.3.0.mod"
+hash = "ed0ff0c5081a754cfcbe768cbcf60c63975b35d76e7d7b99c5ac9bfa6d982851"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.4.0.mod"
+hash = "ed0ff0c5081a754cfcbe768cbcf60c63975b35d76e7d7b99c5ac9bfa6d982851"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.5.0.mod"
+hash = "700e5db00dd26aa19a17dce5fc552436d60f68c5606c85b821f24c3d6072a151"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20180905080454-ebe1bf3edb33.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20181116152217-5ac8a444bdc5.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190801041406-cbf593c0f2f3.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191026070338-33540a1f6037.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201119102817-f84b799fce68.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210616094352-59db8d763f22.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220520151302-bc2c85ada10a.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220722155257-8c9f86f7a55f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.12.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.13.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.14.0.mod"
+hash = "d227b325f621f4ebe28d39ba773ea99b870f393b7c09c34592c365b16dd560de"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.49.0.mod"
+hash = "9522f4c9806d1c26586ea80fa56292929bd295865e71981927f52996c6b1c831"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.49.0.zip"
+hash = "e73a06591ca0d7016ce3ccb45c36a8ed7128468aecc1a357f94d815c760c6b31"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.5.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.6.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.8.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20201126162022-7de9c90e9dd1.mod"
+hash = "4cbab14f7706771b271d995a1b3cc131fe5a246aadc7ee6d1ba6f0bd894781fa"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.12.0.mod"
+hash = "c2920658974c99c805278f9acc84436266f0f75d35713a088c1f340e2645335d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.13.0.mod"
+hash = "26277b0b5bc33d0241f2337839e8a663d2a6c603058870f27ced9df1fee7e357"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.14.0.mod"
+hash = "3273e7f949924eac4c6d04760a61724c4160c77fad2b332a35def8c24f65dc29"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.47.0.mod"
+hash = "cfc437810b8822bf57ca3ea4e39ebd418dd5671d72f2b110ce5a3164fa541b0b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.47.0.zip"
+hash = "d990d5ab94dfa41ba980645b721bba7490064337a01bb03e6cacace70e8df0bf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.5.0.mod"
+hash = "0d6f58228aadc1a6528e6755da018516566e3ae5c5201f7ade1773f56fa8d934"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.8.0.mod"
+hash = "5d362d6a83453f7024725e824c05c5949624ef8f4cb13f5d7e3d4b7f1ca0b327"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.13.0.mod"
+hash = "151e6a1839491c4b50dfe9c33451f06328d5518bd8ee4a0061de02b7ad332fb2"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.14.0.mod"
+hash = "971579f17e9abc5926ab76214f533bd517cf4925c885243ac4755a1a0a7c69ef"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.0.mod"
+hash = "36879d586fd8001e84da8787190a11e4f78749e2a81dfe8b9b6931899fff31cf"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.3.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod"
+hash = "c45d669089427bc4635d07b185f9b9680332d1c48c75b3c49cb715b81a04a5b0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.43.0.mod"
+hash = "63270b8ca6290a720212e1d6e58b8d12a8aa315a1cb960411d7ec2998c0aab59"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.43.0.zip"
+hash = "b75131f628f6e2e4892fd638d33127e952a5027775e0162b94ba069cb4e13863"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.7.0.mod"
+hash = "15929e76fce04aea4c92a354426bb43370684645a4ee03f2e75d0c2eb1466304"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.9.0.mod"
+hash = "436f592e77b593b02fbea374e23ad3369c8623ff0d29c91de7de1e6672db9a41"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.15.0.mod"
+hash = "6149b2491c92f67545fc5da0083a791e369b3f99670d30f52bde0604c48c9e69"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.15.0.zip"
+hash = "8cfb20e915fa5d6c3fd264304233f8d71a3385e48a37819239c532ad9da27f84"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191119224855-298f0cb1881e.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.1.12.mod"
+hash = "2a8b9365898f0822face65ba089a1353e68a65d342f300ca317cceccde6421f3"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.13.0.mod"
+hash = "142b3416b00e8213b409e279a434b97a6ce09531c914c1b4717878157d579a3f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.15.0.mod"
+hash = "9ae44fe6d685266b67bbef6df173a6143566bfc6aa5420ae16ae898f7aaa9173"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.51.0.mod"
+hash = "9b1d543349c9346f85900c656a566d1780d59ff479cf0d888b9516d21ec7df7b"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.51.0.zip"
+hash = "176a49a54ed781feb196235cc640f0454884f4e59d0b859ab4ecc9169cde513c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.6.0.mod"
+hash = "830ed78dcd3e9927c412e2641230308447749d513d31024d276e2443b2016609"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.17.0.mod"
+hash = "8a17681ea0d86cd2de00b2a87745287f5a8d7a0ad55ec0c26c5b52f3552d30e7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.17.0.zip"
+hash = "dadeb3d260548de27375f7188bdfd5a175110120fd8ee8085a63b0dff2cae501"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260803160001-6ac0973c030d.mod"
+hash = "50df61364dd170ad7f5449d31af2d6e1f5b4ed1bd249ea4f12618bf4496b6141"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260803160001-6ac0973c030d.zip"
+hash = "81fb4ff242fb2e9ec4328eed36190bf5ba96307ff85a057e2327fbd171b47650"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20260803160001-6ac0973c030d.mod"
+hash = "67711b6f9adde7cd2d23ba3512bf371ddc628709a4b7ff598794e638607e9987"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20260803160001-6ac0973c030d.zip"
+hash = "a17ff826d2b2e39c2179f99cea77e36137af38f193a718c6445570d326784111"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.83.1.mod"
+hash = "2d6d07c2263a081850d89edd14de66f03198383d5318a8996074214c64786d95"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.83.1.zip"
+hash = "e6c3062accb0a2a0dbd6ab5ac8f25381c27ebe3378d34f52bb891f711c3d7a33"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.mod"
+hash = "a75c105a852fbd8da8d8cfac09c2eab9a206cfd27ed37c973737e23f632ca96e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.zip"
+hash = "68f8a3174aff42950fd9bd02c11b45c6986eb8060508d124d1c3dd6bf86b9be6"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/alecthomas/kingpin.v2/@v/v2.2.6.mod"
+hash = "6f22dc94266475313a2c8a75850cea41345aa5e338119302fca5768b4198b3ec"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.mod"
+hash = "6e6e2fca40eb8fe1455e6a08cd39833c7c2e9a2341a81fb181b89d0b1c725f48"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.zip"
+hash = "f555684e5c5dacc2850dddb345fef1b8f93f546b72685589789da6d2b062710e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/evanphx/json-patch.v4/@v/v4.13.0.mod"
+hash = "6b47b9be0c3be256798bae96456194f96ef8c286797ae901eff42da94f1efc31"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/evanphx/json-patch.v4/@v/v4.13.0.zip"
+hash = "de94747c5023a2c83909845c76acc6b4bfe28b44994207394b5e057f3085625a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/inf.v0/@v/v0.9.1.mod"
+hash = "ff919638534d3e5b7df9a4283eeb633040e6d206b200a18a47f9c7ff3c4bfabe"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/inf.v0/@v/v0.9.1.zip"
+hash = "08abac18c95cc43b725d4925f63309398d618beab68b4669659b61255e5374a0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.1.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.mod"
+hash = "c3b11ba9a0775ff9bc6f11dbb58a1e48cc1e68bac378a8cdc620becc661d4c33"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.zip"
+hash = "ede49e27c4cca6cdd2ec719aed8ea4d363710cceb3d411e7a786fbdec0d391fd"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200313102051-9f266ea9e77c.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/api/@v/v0.37.1.mod"
+hash = "bebe2bce11416d935416e9ecf19f4a618d29b443e3fbcbfb5724b9708804c3a7"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/api/@v/v0.37.1.zip"
+hash = "a599830bb9480afbbbf0b8cdc0954d68a8f8271f9d8e31e9dc5c2a1fdb88406a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/apiextensions-apiserver/@v/v0.37.1.mod"
+hash = "aaeed9e49e17bcb1448c1f36146cba018fcc16a9b2bb918170bd7babc82f7271"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/apiextensions-apiserver/@v/v0.37.1.zip"
+hash = "5d5a0caa43a56e0660b0395cfb71db373d3bcb2a6f61764e1e4819e4937f664c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/apimachinery/@v/v0.37.1.mod"
+hash = "59934cc9649eabdcc4894b41ac5324b40fce31f827376d1b55258ce588963dc0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/apimachinery/@v/v0.37.1.zip"
+hash = "35ac0650a8182926b34823991f08d98b869a06720bdbe09cea79b3d6db0156e5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/apiserver/@v/v0.37.1.mod"
+hash = "642ead4f1f5de4edf7601490d6aa34d8c3a7e0d886e18f9f713f9da5419d86f0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/apiserver/@v/v0.37.1.zip"
+hash = "2afd1b1772b594f7a8ac2838fd75e823885a3fe8e25af6b1497f9eb211b36c26"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/cli-runtime/@v/v0.37.1.mod"
+hash = "b45505ca8f46616b5c242c78bcd8a0e632b1220a4977b6e621566d716afe76b8"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/cli-runtime/@v/v0.37.1.zip"
+hash = "53c981232b68f2686f64e221d2ccae30dd8c8bb64d53f832020a2de2579a3dfd"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/client-go/@v/v0.37.1.mod"
+hash = "789557b996c444fd08886cca24245f4e29a55388dfe4261409a5e0e7ff118f70"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/client-go/@v/v0.37.1.zip"
+hash = "6058950813d4923d7c56c5ea1551e45c6521a204d0fb2270a5efd67c82b8c3ce"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/component-base/@v/v0.37.1.mod"
+hash = "4f34989052cc99fad17d37d2d6e0b0a2e5600cf3d5ca7b7eb6cd87f3f8688a04"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/component-base/@v/v0.37.1.zip"
+hash = "edbd6d2d2c119c70126d7b8cb50bfdb7826303901de7e1ad9a85a3d998a19095"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/klog/v2/@v/v2.140.0.mod"
+hash = "382f54dfc864c3225b05d4bbb07e804e43f8d055cda2aa179944a1506257faa0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/klog/v2/@v/v2.140.0.zip"
+hash = "46fab8686139b04c42f1b44e84c5a162667fbf22628216d5061d95206625a886"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/kube-openapi/@v/v0.0.0-20260721132016-d427ff9ee9ad.mod"
+hash = "7a597d27869ac2e98a326173eb6aa09159e8a7fbfc10db93b7b933441dcfd572"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/kube-openapi/@v/v0.0.0-20260721132016-d427ff9ee9ad.zip"
+hash = "d49441d035de2e04140f634bc3e4055d0ac59a05cd095cbb0717c3e36e16ed4c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/kubectl/@v/v0.37.1.mod"
+hash = "d2423a7301fe78b38c09cab035baa9c86d70a65e3f130fa9e9fbea91d5e08e62"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/kubectl/@v/v0.37.1.zip"
+hash = "1ba744e5c7665079211c669f89f45e49a32b49be0773f53ef6cdfd5410536346"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/utils/@v/v0.0.0-20260626114624-be93311217bd.mod"
+hash = "11807797ae8f35c92a6ffef040b68e96bce6c30af949a595fe72fc7b35d12bc0"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/k8s.io/utils/@v/v0.0.0-20260626114624-be93311217bd.zip"
+hash = "11b292d2a6f02494c4d543c726426c307ad3901a7a781ab3fabeae40fd647840"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/oras.land/oras-go/v2/@v/v2.6.2.mod"
+hash = "8826f088ccf78312a92e68bbdc928152795638cc41eb5ceba6f89a456806fead"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/oras.land/oras-go/v2/@v/v2.6.2.zip"
+hash = "8264a7be2899cfd08e460916071e54ddb8a66b4a8b859f9793292c0609a34c6a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/controller-runtime/@v/v0.25.2.mod"
+hash = "10dba1c4dc24e6d50b6fcd67ea94472ca321a10c7b27037c682b3594af4beba4"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/controller-runtime/@v/v0.25.2.zip"
+hash = "b46efc4cf0bd895877b46633765b5d39515690ba97985423b445c50715b7d0b5"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/json/@v/v0.0.0-20250730193827-2d320260d730.mod"
+hash = "d584b68f8fa7ec7dbd71381e619036bbc64bfea3cc71c244e31f9ff429511620"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/json/@v/v0.0.0-20250730193827-2d320260d730.zip"
+hash = "7cec6eae3e4e4c9c1e0a009eef200740990fafbcb9cab081eb18ce32f6e7a7b9"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/kustomize/api/@v/v0.21.1.mod"
+hash = "d0b20feb0b1e04f7e8fbc20edf6f73c460c827f06a439bb773c632934f6a9257"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/kustomize/api/@v/v0.21.1.zip"
+hash = "e694ca8c14a2d3dd97b393c37da288416e18cc2fb61e63992aa4fc166afb9c83"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/kustomize/kyaml/@v/v0.21.2.mod"
+hash = "174cc2de4b5bd1a4151f24d1f903736c951e884c473a424a216a4e9941ab0742"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/kustomize/kyaml/@v/v0.21.2.zip"
+hash = "7211ec4df68eaed1931b3d2b20e6e2abb7c9f587058788549b1aef4a3416670d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/randfill/@v/v1.0.0.mod"
+hash = "1e6a13decd1d66ad37abfe7e3f7ede5732c6ca6e81eacd2cc7739650652d0e4a"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/randfill/@v/v1.0.0.zip"
+hash = "31dbbfc44ce12f78f1b68d6bbeed8526aa73c53243353d44d50b2532c828f5f1"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/structured-merge-diff/v6/@v/v6.4.2.mod"
+hash = "7a7ab164fd592cdd515af7f0e556d2a5e9277652506943ba98e3d6ee035abe2c"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/structured-merge-diff/v6/@v/v6.4.2.zip"
+hash = "9af2aa83a0a0ddb17f658ee8aad2a1b187450b8c0cac5687f7cc94d27d63112d"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/yaml/@v/v1.6.0.mod"
+hash = "4e3c3c1d49a6652440ff70fb475e54ae46be2cab63cc46721b3c02fd9cca985e"
+
+[[helm.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/yaml/@v/v1.6.0.zip"
+hash = "cf88648a471581817b00a42ee8d24fd73eb0e3503998cf46d8e63787e11e5052"

@@ -1,0 +1,1357 @@
+[restic]
+
+[[restic.sources]]
+url = "https://github.com/restic/restic/archive/v0.19.1/restic-0.19.1.tar.gz"
+hash = "bb9b1a19040744d26d8a79be029d4e6b189c45ccc9d8831d7fe367d3c33df725"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cel.dev/expr/@v/v0.25.1.mod"
+hash = "67452750d57eccae2633b174e66468b72632ede744addb4de2c0b26ddd38a8e1"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cel.dev/expr/@v/v0.25.1.zip"
+hash = "12652bea2461aa29004d23052d3a08cb5911ab0a652469ef5da6efb37c12ee87"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/@v/v0.123.0.mod"
+hash = "d0db7eaf5641f2724ec47b9880cf1920de0e1dd56014ddbf794845d960c53dba"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/@v/v0.123.0.zip"
+hash = "e9c9509cf75beb9516795eeb113d01a20e2a71496a66ed736b6ed2a516878d52"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/@v/v0.20.0.mod"
+hash = "14eb1a5904f9b2def6d3e3f02e81fed679165140e6ca958570f36bb29a3f4755"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/@v/v0.20.0.zip"
+hash = "06371584193bbb88a8f2c2931d85efaf45666cc52643be5b8aada6b053672f3a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/oauth2adapt/@v/v0.2.8.mod"
+hash = "17738c6a081204b38fee07bd815473d8d536a703ea78afa01ff63f0973c359d4"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/auth/oauth2adapt/@v/v0.2.8.zip"
+hash = "4cd64264bafc4dd05f645452d6e1485adf92309130bd82b4c595db10cd534963"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/compute/metadata/@v/v0.9.0.mod"
+hash = "80aefcb99e7ffca922974c5ebae6cc480e6be8845b9f4b28e7a1d3055525df08"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/compute/metadata/@v/v0.9.0.zip"
+hash = "f97e35d1c96239b8574054a77e312c95d2c82a89c21daf46ffeaea6d5fc59eca"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/iam/@v/v1.7.0.mod"
+hash = "09b803c972a71787c3f779dbba3faebc1aa4f615b375158b32bfed058fe2a79b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/iam/@v/v1.7.0.zip"
+hash = "a3d9f0ebc3baf0cda13db7be112508b19c3b8dee58c2176997a8aadd50ecc87a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/logging/@v/v1.13.2.mod"
+hash = "d714841c4372d50a9991e772b7bf433d27e686d2e36306011af950e0b1a7bdea"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/logging/@v/v1.13.2.zip"
+hash = "4e65010d9a53aee2abcb9397695b071dba95d832b86b30ddb4375dbeace6db88"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/longrunning/@v/v0.9.0.mod"
+hash = "530a5d6b9257930b1c7fee30a11beef1fb9db665384f3e1b40e8f2550f131280"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/longrunning/@v/v0.9.0.zip"
+hash = "989d72eb620d4b04514df9d695a234edee783e00bfb0bdcbdb7f772ec50a43c8"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/monitoring/@v/v1.24.3.mod"
+hash = "43ab60989ca4aa6dcc5bd14199c08454af9eb241b06427c6c11441330d806c9b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/monitoring/@v/v1.24.3.zip"
+hash = "e28a4ca46eef2ade6df229ee71065993a56673584e5f69a2ecf7d90e0e72fa8a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/storage/@v/v1.62.2.mod"
+hash = "fbf75435390c8b342db513f8a9c1c9b60e396a985fb06ed99e948d9c6bf5fede"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/storage/@v/v1.62.2.zip"
+hash = "cbba9b112f662077327c9e6cc02ca341936651646575d26466b8b28f691f3b7b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/trace/@v/v1.11.7.mod"
+hash = "521910f7c8c14e9867aaecd8303421eab290f9aa8b473d29a9dfa0b02eb1ff72"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/cloud.google.com/go/trace/@v/v1.11.7.zip"
+hash = "4710da5f63faeac32a905634fb4c48b604b58c32d9db1fcc2fd948cf8d923d44"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-extensions-for-go/cache/@v/v0.1.1.mod"
+hash = "25f47cf39d4b7808d4860451a48f37eba322268cc2ef7fd95d46c9bd8c0cd22f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-extensions-for-go/cache/@v/v0.1.1.zip"
+hash = "de8edfcf96b8879307ea318c939dd4a07d666137e1bdf87733072a6c160e9e1a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-library-for-go/@v/v1.7.2.mod"
+hash = "b2fd1b4e34d43d197311535e96767bfdc330af998f5add0d9f9aaa1a86ad5f73"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure!a!d/microsoft-authentication-library-for-go/@v/v1.7.2.zip"
+hash = "dcd0ef2964e09743ceb7b6cff837253caab8f28ba92a40bfc6948eea4f667913"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azcore/@v/v1.21.1.mod"
+hash = "0fd133f2c433969d493b8e7c9396ed2dfbde9c6ff125de6cebe6b8e1054e614e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azcore/@v/v1.21.1.zip"
+hash = "bce75c3fd1221d3d265127e1657046d343aed468e0060fd3ee61d33d63c54b3d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/@v/v1.13.1.mod"
+hash = "1730d916f80fd68d8654188070a1e6ade3e43c4a16ff4d584f6db828b42e6e4c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/@v/v1.13.1.zip"
+hash = "98012cfee26379a030c430ee2218c396201a9f9a35f17867c6f5c8a7cb6839a5"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/cache/@v/v0.3.2.mod"
+hash = "583e3c02b36ac1a5e938afe435b6e20fea81652a916e9ebc7169938517564461"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/azidentity/cache/@v/v0.3.2.zip"
+hash = "2d53d97ebc77305dbaf22c38bf09025e8f83a7c2517067e885a03b6f607629a5"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/internal/@v/v1.12.0.mod"
+hash = "8fe0f2ea6b42803e33800c0f17db82e5dbda8eba85d038da52a0d82f80b20b51"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/internal/@v/v1.12.0.zip"
+hash = "27800de3838500d4f3a0aaacea147fb49e0da3a7a6079a595c3e9d42df116ecf"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage/@v/v1.8.1.mod"
+hash = "f996b652f8ed2da6784515e0937a1cebf7d5832aecb015117c72e70bc869499e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage/@v/v1.8.1.zip"
+hash = "e2e4a3536aaef9a113c9bd88e1a0c254b6efe510e432e76bd67020d0fa15628d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/azblob/@v/v1.7.0.mod"
+hash = "5dcdf2d8dc4895f3e47ee383e962c6548afe92fe065bfff61cc0ddd3ee0d6041"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!azure/azure-sdk-for-go/sdk/storage/azblob/@v/v1.7.0.zip"
+hash = "e8f688effa601574e84acd02d18c6a1fc4366093de05255baee4a9b5f643b186"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!backblaze/blazer/@v/v0.7.2.mod"
+hash = "c965b853cd5f8797147ffd76044d7e9ccac328d273c1e8271ad802595cdd5643"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!backblaze/blazer/@v/v0.7.2.zip"
+hash = "ad7511aa182f8a2bc5b54c28302ebb90abd9b23cc352c8657a1e2421aeff9f69"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/detectors/gcp/@v/v1.31.0.mod"
+hash = "6f2f0085d34c5e437e3a3dddab30ef8a3f4ad55acb5ce150951b4eb740e7d173"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/detectors/gcp/@v/v1.31.0.zip"
+hash = "60558bb0633e963a442aaf8492162e7bc2a7817fa7b5a07ffe83ebd2ee8463c2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/exporter/metric/@v/v0.55.0.mod"
+hash = "17b17d62c2e8c7d2da9286153c0c2f75de8d4e3d8db74d7a5bf64ceca7ab7664"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/exporter/metric/@v/v0.55.0.zip"
+hash = "f76ca1fa726654948a0ac1035bde302c370b07830c5c1549f66d2f11c8a88ee9"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/cloudmock/@v/v0.55.0.mod"
+hash = "20c0810a53c21b52dc1d7c1bca666f030b480261e199dcb052f573e04287425c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/cloudmock/@v/v0.55.0.zip"
+hash = "731e5060f3ceb29852bb670437530c34b6df5a4dd511611e0a6fdaaec414bc93"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/resourcemapping/@v/v0.55.0.mod"
+hash = "b825cdb6a493a644326a7284ec581b8dc0ae87440b7b2a68700e9d3525e27f13"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!google!cloud!platform/opentelemetry-operations-go/internal/resourcemapping/@v/v0.55.0.zip"
+hash = "d7f5f7dd65f511941db0dd77c37701ee2cab3540f96896399194f786f5317e5e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!julusian/godocdown/@v/v0.0.0-20170816220326-6d19f8ff2df8.mod"
+hash = "f38deac3d9557f5631cca65f54d51875576b80d6e2f97d232b394aca6a76615b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.6.2.mod"
+hash = "47fb19990ebb31954f3aa784ff45f4c93a9e86ac3e1297d7ca87c614aeffe2cb"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/!microsoft/go-winio/@v/v0.6.2.zip"
+hash = "cd007bdb877a578efde2780bf5dd2f57dd557b5b08c3614597b820d0369ebb0f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/envpprof/@v/v1.3.0.mod"
+hash = "7293a5dc3ca4f1aef602856b0cfe26703e4b56713ce4cc7897a3300083d928ec"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/envpprof/@v/v1.3.0.zip"
+hash = "cb2b37aa890e480cfdc6747069505ec7ebf4faa940d69983bbb1c5e372d54227"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/fuse/@v/v0.3.1.mod"
+hash = "96f4a08e488afb5499d881f9af036304a080f2825eca327ecd0419c4cebe1272"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/fuse/@v/v0.3.1.zip"
+hash = "933ba36e1ee7698ab7484587d3a76a7a284f2d155f68d45bf1da5f05562d99b7"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/generics/@v/v0.0.0-20230113004304-d6428d516633.mod"
+hash = "db77c04ff69dce3a8cc8857d125d0be47779907ee3dd686d19eb3ecfac2f094a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/generics/@v/v0.0.0-20230113004304-d6428d516633.zip"
+hash = "d5f997c31b394d60387c1708c469c608a01d2e849d2a7a653bf719dfc704c609"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/log/@v/v0.13.1.mod"
+hash = "53afd66b7698aee04cbdd8216252e7f18f5826c9f9258c6461bc6cd39e45fbd9"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/log/@v/v0.14.1.mod"
+hash = "20bd3f4b4c8a5e8559ccbfe41f18d05a96a0d9924123d78fddd6e93e0b5e5932"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/anacrolix/log/@v/v0.14.1.zip"
+hash = "5039b19f26f256e6cf937712d387ec5877a6acfa42ad97d4b12e3a9318f89abd"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v4/@v/v4.3.0.mod"
+hash = "83d4122d49127f13cda95fb79397cfe516c23cdd7fc07a2886ad764dd1422be3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v4/@v/v4.3.0.zip"
+hash = "ef220b1ebf3bff4c46bbad5b2e123030e812b722b9e9dc88bc35956f9c622c2a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.mod"
+hash = "a090f8eaaf59cc2adf163299ebefe797e1dca3f6add2c8e88a6a3b90ba538b02"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.zip"
+hash = "145a26cdc7c49db566017b807c4989ee7f7ddeb569423e9cb99f995fac3621d3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/logex/@v/v1.1.10.mod"
+hash = "f7d3104eac4c5674dc4847cf5b1193c2e03bd24fe521243a34d72c709ad83a3a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/readline/@v/v0.0.0-20180603132655-2972be24d48e.mod"
+hash = "900b797c531f2df182e431a895ecd3109aacfedfdddab23a48f7c0a9d5a75659"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/test/@v/v0.0.0-20180213035817-a1ea475d72b1.mod"
+hash = "d075c4e4b6624ea6f8031883c8d66ff430abc2ffe1fb4e89c3b9115699f29c3b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/cncf/xds/go/@v/v0.0.0-20260202195803-dba9d589def2.mod"
+hash = "6ca3a45f07732c4a65537a01eee4f8907d951bd7506401c693fca5eadb709e1b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/cncf/xds/go/@v/v0.0.0-20260202195803-dba9d589def2.zip"
+hash = "6f1b8ceaaa6e773dba2595bfe7b75f54d98f901c8f1340d420138095b36778fa"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.6.mod"
+hash = "bb81a9e2d14d9a586f0591853bdaad230d8cdf0d8d6ffa71dddae249ad573cc9"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.6.zip"
+hash = "b8059316e38bcfd28b69d2c2b32d34b9e800ccaa1ff4b5a61022cbe98fa7c710"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.9.mod"
+hash = "eab0705bc4a18dd315c27a4e3dba8f20a9e123065fa20633966332b5cccf7731"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.0.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.2-0.20180830191138-d8f796af33cc.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.2-0.20180830191138-d8f796af33cc.zip"
+hash = "b4d0923b169b194f0016ec46f3df1ab0c68e27999743e43fe2de59ecb2484128"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.0.1.mod"
+hash = "4325999d0a6841031258a2561c22879d9fbdf77abc6b32a17b1cb6edf0810fb2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.0.1.zip"
+hash = "319404ea84c8a4e2d3d83f30988b006e7dd04976de3e1a1a90484ad94679fa46"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/dvyukov/go-fuzz/@v/v0.0.0-20220726122315-1d375ef9f9f6.mod"
+hash = "3655f32fb155e201b623e64a54630bfe295500aa4da70b52bde655e52e98af42"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/elazarl/go-bindata-assetfs/@v/v1.0.0.mod"
+hash = "1f7464294c5813ba11919042a927e298af4fe45cb3aa6f4392189071777f5c87"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/elithrar/simple-scrypt/@v/v1.4.1.mod"
+hash = "895b18174c0474259dec54626fe09981042f9e4f511249b2c1ddce14ea79f7d3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/elithrar/simple-scrypt/@v/v1.4.1.zip"
+hash = "293a621f6ee29397b072c471b86e42991b0287f722b4bf8ebdbd6d6f183d8644"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/@v/v0.14.0.mod"
+hash = "d8a4b948f183dbf5c98a8e589a6e6bc164b09514674538e1dbe3d64869f43a90"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/@v/v0.14.0.zip"
+hash = "79424a75c005ee0981601e44449347c62a3f35b3b2ea57af79a89c1f31d80906"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.37.0.mod"
+hash = "ff5016c87ec3a93b80826deecc7b71c216e97fa4a946525fd938c6b2fb1f5cac"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.37.0.zip"
+hash = "dea96dd46aa4480f6f5dad6b52b9059d088d06a090968557dafa8cd633f629a2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/ratelimit/@v/v0.1.0.mod"
+hash = "c64805e312c68210f504ec5c4ba69be9af8dc99d9d31a0be8c1d1fd7f0902dbb"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/go-control-plane/ratelimit/@v/v0.1.0.zip"
+hash = "1165c3cf1efb096a04a3d65b345f3780adce78f126583f7b98465c413a440766"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/protoc-gen-validate/@v/v1.3.3.mod"
+hash = "a6d1c9cd0c0384f119901637ace30d175f6c0a59b99035494f23ebef1ac0d03a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/envoyproxy/protoc-gen-validate/@v/v1.3.3.zip"
+hash = "83a909ec95b94609da1f610a866e0553dd4ac3a7b485f7dc5c734692fa326754"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/felixge/fgprof/@v/v0.9.3.mod"
+hash = "1b8142a724f0afaf5d3a74eaf87c85564d50cde809c0a34dcfa026647fae731e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/felixge/fgprof/@v/v0.9.3.zip"
+hash = "2c83268087acf8b767be69dbc37c099fa85856763c2e88fb99637d46eb6ac23c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.0.4.mod"
+hash = "3d0a6d397b775e49388eb75e7903691058d7a8cb7ce4f11637a876f387115bb9"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/felixge/httpsnoop/@v/v1.0.4.zip"
+hash = "75aa471311265e9860df0e523400b4650ed0c1a33262786a421f07226792e494"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/frankban/quicktest/@v/v1.14.4.mod"
+hash = "68b2ad84a2273d23bac4a5741775a3fa594a07d2a71f80e847a7d63c53a5bd9f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-ini/ini/@v/v1.67.0.mod"
+hash = "37af038b184343e5e133f54c50b20d80d431dc4b8d24a77d975f9d30369f2c77"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-ini/ini/@v/v1.67.0.zip"
+hash = "d77fe1b537b2e6db4040bd518b4755979006d5af7e82ae035aa2bc5d40c0ff55"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.4.mod"
+hash = "e069e6002d29495b8c2dc6cf0d3b56a075ec5be7abb6c2eb1a1c0845cb66b8b3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.4.zip"
+hash = "06a37b6668012a2dd109a5f71f6ae15387dc808b35d3cf73f5e406e78a17b027"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.2.2.mod"
+hash = "519b1d6da5eeef675b4a1857d628f05f110a2b8cb3c423b715fea80d0975a518"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.3.mod"
+hash = "c496f30d700f02b49a1b50bc2486a27c2f74df3dce75d9db6d2d43975b381727"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/logr/@v/v1.4.3.zip"
+hash = "523d7a3587fe73f61ef41c8bc627f7d7f38de8104d46278154b307e60770ad70"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.mod"
+hash = "0812160f77474d8dbf692b7caaee7fd5508448c705d9b54b5a3496ac44468c2c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-logr/stdr/@v/v1.2.2.zip"
+hash = "9dd6893bf700198485ae699640b49bc1efbc6c73b37cb5792a0476e1fd8f7fef"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.3.0.mod"
+hash = "fcf0840f2ff50fbc3b5a54b9d4cb240c64d47003ab03e420aeff0057015a8953"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.3.0.zip"
+hash = "bbf5b3bfa227a5daa06eb16ecdecccc0b20e08749bf103afb523fd72764e727a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.3.1.mod"
+hash = "ce98fa479154259db056ded8254a6ae9c66f2b42e613e76ba0f026699b5e542f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/golang-jwt/jwt/v5/@v/v5.3.1.zip"
+hash = "5c9a74494e2bc746cee56558b5473252af5767f7ea4044caa9ea0fa2a056fec7"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.mod"
+hash = "c5f873c621cfaaf563f8b66a0501a5be14390cb0859e5187ce616d0312a6c8f8"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.4.zip"
+hash = "9a2f43d3eac8ceda506ebbeb4f229254b87235ce90346692a0e233614182190b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.5.9.mod"
+hash = "e7c7669d4a1dd589ba3e024ba27f43f293db611fe075ce20d7b884370d63febd"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.mod"
+hash = "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip"
+hash = "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/martian/v3/@v/v3.3.3.mod"
+hash = "4bd33b1ecb29aa09dfc0b5de32892e8f645682725f81b22ac0815775939c9d53"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/martian/v3/@v/v3.3.3.zip"
+hash = "86fde455cfd8d04425d845d9a3c766069f3f1ab892c983be03ed9545c0889485"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20211214055906-6f57359322fd.mod"
+hash = "873799fad813aa92165efb0c6199f834f0224c0648033fb274d2c5e92160868c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20230926050212-f7f687d19a98.mod"
+hash = "54b331f821ebef99c171184822788be0de6c25413afaccf38dd969d50997c3dd"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20230926050212-f7f687d19a98.zip"
+hash = "60f026eec86d52690ca1ee088f62bceafc25a93073ab62994434542ff9d708d6"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/s2a-go/@v/v0.1.9.mod"
+hash = "47d4257200a74c3210f4bf07264f3a27eb39817ff01e24d92cc069dfb421325b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/s2a-go/@v/v0.1.9.zip"
+hash = "bf8f4b159d3fc201477822ed2514e4f05f58c764b78ffed73ec0accce5fb7f07"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.mod"
+hash = "73da47b6338b00a082fd451aa35a3273d3adc09b8e9bba98dab01091e402af6e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.zip"
+hash = "d0f02f377217f42702e259684e06441edbf5140dddcc34ba9bea56038b38a6ed"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/enterprise-certificate-proxy/@v/v0.3.16.mod"
+hash = "2e8c31b2c4c5e3de257fd4bd4b248688003c7c119389d4c7700706efaa5b09d0"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/enterprise-certificate-proxy/@v/v0.3.16.zip"
+hash = "9f89b25bac2b21bc32cb884fda82e62ea5ed582468e4aa82eed78da6e1dc3494"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/gax-go/v2/@v/v2.22.0.mod"
+hash = "61083dba57672bbbbeea784489af6aca1a94a97f488efe4a135e5726460c9c76"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/googleapis/gax-go/v2/@v/v2.22.0.zip"
+hash = "800a18188bf1222e7ce7b4a31c22ab807136e6d194507aa8cd822ba9dff00696"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.7.mod"
+hash = "c6b886c0242ffeac92b6b6aecf1123bc63c86faee81b16fff3a13273e50f6824"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.7.zip"
+hash = "2eb92ff13970bccd460efae14255bfc03bb51474da0137e477a60f95561acc30"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/ianlancetaylor/demangle/@v/v0.0.0-20210905161508-09a460cdf81d.mod"
+hash = "fbee95d2f8a9f7298b805cb057550dc4e2183139c1b6850f3cf3a1c647af27ff"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.mod"
+hash = "1c1b15911aa8a0bd5cd0f6670ec23d1086496f3615fdf53306aff2b476ce9be1"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/inconshreveable/mousetrap/@v/v1.1.0.zip"
+hash = "526674de624d7db108cfe7653ef110ccdfd97bc85026254224815567928ed243"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/keybase/go-keychain/@v/v0.0.1.mod"
+hash = "edf93d90bd575dcf3935df71f8f647c0f76e7c762e65e4746407e1b70ea31a92"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/keybase/go-keychain/@v/v0.0.1.zip"
+hash = "9514a68da08d39d60a47640bef049e44c829aab5dbbddd03d272e9252039a5c7"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.18.6.mod"
+hash = "0d66d6069d9e2fb875c5b464d15b2c80232cfc8991e6f88336ce461ca810e0cf"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.18.6.zip"
+hash = "61b417d2d3b6b7f5b5f4179f311fb156bd5bcea040353150c41111dc1777f11a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.0.1.mod"
+hash = "66180bc563c8890e28b69ba64fbe6e1d2879a8574a3ffce7e597f1915f78bc6c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.2.11.mod"
+hash = "ff61d47f254f2333bf44a8ff4187a2f2e973693807c10025033bb37143577237"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.2.11.zip"
+hash = "11af35f23e79ea4598a839f1c2299ce8a4f6e329eda2383e5324e19083a7ddfd"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/crc32/@v/v1.3.0.mod"
+hash = "4b89cabd895898e44c9a17efe25dd2cd26f5f2554bb298bd3da7082c8f6a7d6c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/crc32/@v/v1.3.0.zip"
+hash = "95e490929338e405a34537bc66dcb286d196055c4cb34cb526fbe5aef8d7a847"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/fs/@v/v0.1.0.mod"
+hash = "b5bced587ede9949a28f1a460313c49b08f5715b9880dbb57978327f8582efc0"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/fs/@v/v0.1.0.zip"
+hash = "d376bd98e81aea34585fc3b04bab76363e9e87cde69383964e57e9779f2af81e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.1.0.mod"
+hash = "e3d5d46d2f6ac94a666a54b5e867ec16bf199d9f4b700827cd731607efdd109a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.0.mod"
+hash = "42e7784e04b9652586b5f9dedff6f9518376b745761a9fd1a0c2178eb86dc97a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.mod"
+hash = "84f3e40803b1ebd4a802e55794b9997df0b173c4809e8572ff9042ec558ca1bc"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/pretty/@v/v0.3.1.zip"
+hash = "ecf5a4af24826c3ad758ce06410ca08e2d58e4d95053be3b9dde2e14852c0cdc"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/pty/@v/v1.1.1.mod"
+hash = "6da4c9c7364446894e5ef877e19f985cd51d671ce6e8f4ca87862b449f6dd7f6"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.1.0.mod"
+hash = "2fba9529e5c13dde62f371ef7383baf04d7132501dac6aa08e910f9ec0bf85c5"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.mod"
+hash = "f63879b204f6ce895cea53594b814f5ac0af08486b33b1ca79c657384efbc726"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kr/text/@v/v0.2.0.zip"
+hash = "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod"
+hash = "1605871e895331a39f5952559ebbc91228d86b8100354f857b562866eca5bb13"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.zip"
+hash = "dbbd0ce8c2f4932bb03704d73026b21af12bd68d5b8f4798dbf10a487a2b6d13"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/miekg/dns/@v/v1.1.54.mod"
+hash = "aceec437e5016204726d92a6e111832f7e2f2f868beda5983b9e42d8d577cf74"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/minio/crc64nvme/@v/v1.1.1.mod"
+hash = "27baad099eaa74eba11eb31490c260ea4eac9b94439ff92129b8a3ad6efc3f61"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/minio/crc64nvme/@v/v1.1.1.zip"
+hash = "276041e361bdd81dc28d03e3de9f7c80f784c616f0a7fa94fa34855fe2d0aa88"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/minio/md5-simd/@v/v1.1.2.mod"
+hash = "7665f075b83ccb81c66de980da5f23e54e1479472aadd4166dfc26f8148a2fa3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/minio/md5-simd/@v/v1.1.2.zip"
+hash = "f829d35a6e6897db415af8888c4b074d1a253aee0e8fb7054b4d95477a81c3d6"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/minio/minio-go/v7/@v/v7.1.0.mod"
+hash = "b7c6f9c4f7155d0aa7f7bf812be330e6ab5b13f6cd147af34c59cc44ce384312"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/minio/minio-go/v7/@v/v7.1.0.zip"
+hash = "81e0a8531a14762cee2d2406d727b8cfc46fb4e750399e61069aa44e257ca956"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/ncw/swift/v2/@v/v2.0.5.mod"
+hash = "b749a7c3f151f796c0a6239a9bdda167f9ff0c095a0cdfd3afff39e48b29e2ed"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/ncw/swift/v2/@v/v2.0.5.zip"
+hash = "0c2253cdfda2fe22b1b8d1ac23b504a00d48f7e2ddd9d98bc12f3d1b8b1bbee2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/oklog/run/@v/v1.1.0.mod"
+hash = "ab08ef5ea8071299e8e64b7b30fe56c582c2fcf118d5565d5a87bbf165e3ae79"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pelletier/go-toml/@v/v1.9.5.mod"
+hash = "c0ec26c7f843d368a2d5a9390359c567ebe316171bd651d31dcead1bb2e07ad9"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/peterbourgon/ff/v3/@v/v3.3.1.mod"
+hash = "bd06a8dc69a0ce68a0e844bdcce6d4c970018dbf2c83e6254fc1c6b48f4f55b8"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/peterbourgon/unixtransport/@v/v0.0.7.mod"
+hash = "b74dfb428821450a56971276929cbff390a1156b71c093efee937cd7a6124148"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/peterbourgon/unixtransport/@v/v0.0.7.zip"
+hash = "9507ea015b59634c4f87641c67a87e227643179dfc10c0480e8a9a35c700130b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/philhofer/fwd/@v/v1.2.0.mod"
+hash = "3b980d413f4498590980f5e907f60c3a9b35e9ffdd78be493bec3e4a15e83ae6"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/philhofer/fwd/@v/v1.2.0.zip"
+hash = "de507513c5985cd0eebc0eccd6b4955da5e2a31814323775b886f29cf9971e98"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/browser/@v/v0.0.0-20240102092130-5ac0b6a4141c.mod"
+hash = "6600c2386895b44c985cb3cfcabe72f09b259674995cf4b51628ca461575a1b2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/browser/@v/v0.0.0-20240102092130-5ac0b6a4141c.zip"
+hash = "8524ae36d809564d1f218978593b5c565cf3ee8dccd035d66b336ad0c56e60d1"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/diff/@v/v0.0.0-20210226163009-20ebb0f2a09e.mod"
+hash = "5d5b9454e2d020af0c7603568e86904b99befc4d5d67c3a8505f6121589bd11f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.zip"
+hash = "d4c36b8bcd0616290a3913215e0f53b931bd6e00670596f2960df1b44af2bd07"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/profile/@v/v1.7.0.mod"
+hash = "4a792a23244deec137ceab4c1ab0a375071ab7f172234c3a33e24bd0196947b5"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/profile/@v/v1.7.0.zip"
+hash = "57a65d6ca3ae5df11653052de9e74052feb2d802fd8c4cb10d9a56f0466cc85f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/sftp/@v/v1.13.10.mod"
+hash = "c15f2747ae98a576407667023f56682c43df8d03059308c64b3e22ef29bd842b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/sftp/@v/v1.13.10.zip"
+hash = "390185d4b33cb550ebd27381b4aa80f245a9bda1ccb4dac65685bf94eeb81470"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/xattr/@v/v0.4.12.mod"
+hash = "bdc3ea23d708aade2f035ef5244b8f460c82682c1e163a05461611b89990e251"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pkg/xattr/@v/v0.4.12.zip"
+hash = "3657614c6f28f6298164935f48af2515835ae04190ed9f6954b5cdf89b1aee21"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/planetscale/vtprotobuf/@v/v0.6.1-0.20240319094008-0393e58bdf10.mod"
+hash = "e94bb181f3ef78dec16609d3c2d276c75c5668694bdc97b72bac22c84528debb"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/planetscale/vtprotobuf/@v/v0.6.1-0.20240319094008-0393e58bdf10.zip"
+hash = "6fdbac53c6ace58d732be8ec29c1aae928639eb12960cc4c52a9f7a25395ca05"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.1-0.20181226105442-5d4384ee4fb2.zip"
+hash = "24ff45e356f638a53bd0c89fff961fbeaecfdb0dc5e482ceed0a2230e0e5f3b7"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/prashantv/gostub/@v/v1.1.0.mod"
+hash = "8f4839873761658b95dd66c929c8e6e01ec0c7831946abc97b80719a09741e0e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/prashantv/gostub/@v/v1.1.0.zip"
+hash = "9a56047ad14092b80489df340d6ff1adbb7db588f1558714dd5584f4d163d41e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/restic/chunker/@v/v0.4.0.mod"
+hash = "00c166241f0ebbb7b01e76351b14cba2bfc3eb7e40f697a124001182d85b5c8a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/restic/chunker/@v/v0.4.0.zip"
+hash = "cb26408dbaf196f916f61b23513e0d26a6c14b903a922d4a7ad63ca88d4ba743"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/robertkrimen/godocdown/@v/v0.0.0-20130622164427-0bfa04905481.mod"
+hash = "f704981b439fc685ee5c02b978392e945b3d82571765d1ea1d83418607323d8c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.14.1.mod"
+hash = "5146850223a460d7bfb5e3e4caf323337f745903e829c96083bd2c9a722caf8d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.14.1.zip"
+hash = "ab3d18283cef2f46ddfd489b6b14b970eb7dbbb642786f025ee1ac5291dc4e70"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.6.1.mod"
+hash = "d366a7abaa7ee841c328145c3481619e6e11419372021edcfce60016f7177eb6"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.8.0.mod"
+hash = "5b8bc8f7794189f2055db55fd08e7afd26b17fb85a5ca432ced4f32899ef092e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/rogpeppe/go-internal/@v/v1.9.0.mod"
+hash = "9059a97da2990c819a09767a5e9bd8784b45a57b7a25e29055bbd1b0aaa144ff"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/rs/xid/@v/v1.6.0.mod"
+hash = "2ebd8a4c48bf66680d0fba5ca0d9ea1ec134396497802c75f3b39683e6e662ef"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/rs/xid/@v/v1.6.0.zip"
+hash = "395b1caa8a7e835e4721291e629dac4f6608db3918d6fe1eb2ed5e7561b62eb2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.mod"
+hash = "c39547cce6e866e8cfa395d2937bce30801cd07f0b901c2133248f1fba12f58d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.zip"
+hash = "7852750d58a053ce38b01f2c203208817564f552ebf371b2b630081d7004c6ae"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.mod"
+hash = "cc6098fd1118fb3bb349c72bcd6e9c665d3a1b2a516ea9807ee24521ad2ddf8c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.zip"
+hash = "a00aae6fcd631e0fde52c98604452ff70e1b73c3b8a560d68db15aff5e26872d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.zip"
+hash = "a246b8c9d3daa87d6c634cdfee1bdf7fa53d5817eeef4fa0c6da43edd12de4ca"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.9.mod"
+hash = "16c6dfc0eb58eb3c9113ce197d460c6725c647e4688ac26d31c8ed69f1ebbc68"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/spiffe/go-spiffe/v2/@v/v2.6.0.mod"
+hash = "ecf27caa6c27d87f6561869c5eecb6ec995fb1c8bd2a7d9f3800501bdd8513b3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/spiffe/go-spiffe/v2/@v/v2.6.0.zip"
+hash = "b90f378c70e2c985f61893ca20bf3e8258bb4f66920af759276d330513d0d7d6"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stephens2424/writerset/@v/v1.0.2.mod"
+hash = "4b9a5a29bad2e9b3a1d8b8406adbd7b915455641aefec2518a7906b675fc4fac"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.0.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.4.0.mod"
+hash = "31b2fdcdee870f0f61bffafafb96220967e5bca08a76a920d574216fc1f91355"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.0.mod"
+hash = "cb326540efcb1274a6e4e970d7fc9de2e8062f08a058fc296d859025e62e807a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.11.1.mod"
+hash = "5846af204043f29df285026109bf32db6519c3d7e1d5c3a65fefb174f9d81d33"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.11.1.zip"
+hash = "b7325b561ead5304b72b9f32aebc871ff49b3823667d530a49fd6c8f3adfc96e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.3.0.mod"
+hash = "ab063d5154a8e8730bced4c52698e5770eb50bfae347bebc35eca488b8e3f6e3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.0.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.0.mod"
+hash = "e076074c1560ad1dda98b8b00fea6308c4b6ccd06ddd088d22db4626ed68f738"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.1.mod"
+hash = "af1a5dcb331ace7a3f9fc1b5d7eee9c0bc82b4a2a182fe4cec2add217e2853d6"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/tinylib/msgp/@v/v1.6.1.mod"
+hash = "0a9f1c371dd41cbf543da2eadbade60b906ff1a80cb63c0939af7f89e5a28b8a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/tinylib/msgp/@v/v1.6.1.zip"
+hash = "6449d5f7de7c416c55ed08e7a4acfcb67e071ec1182e095ad81025e51431f142"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/tv42/httpunix/@v/v0.0.0-20191220191345-2ba4b9c3382c.mod"
+hash = "54771b791adaae9dd26ae5dd1cd06f50a168447c84250371bf648b39d271ccc0"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/tv42/httpunix/@v/v0.0.0-20191220191345-2ba4b9c3382c.zip"
+hash = "3835d37bfd63336db8f0b0971368e0e9a03d70a446b32e93cbd30e99ba6e9d27"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.4.1.mod"
+hash = "dab1d663b860ebe545fcdcec24e5f933d517bd2019af68d7a6b5a8764aa61b0f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.4.13.mod"
+hash = "ee7fe4466203a01d3ac19adc134cdec99bc6de71992c28f3dd9a74480bff0603"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/assert/@v/v1.3.0.mod"
+hash = "cb8cea69ecbc99692af21d44909083f4d962e95dcb7adcb5fd0676b773587e9c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/assert/@v/v1.3.0.zip"
+hash = "1f01421d74ff37cb8247988155be9e6877d336029bcd887a1d035fd32d7ab6ae"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/xxh3/@v/v1.1.0.mod"
+hash = "c0ffb54a842e7143f079c321e74206d65f35cb39e19d2a0996cfef914e28c3f4"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/github.com/zeebo/xxh3/@v/v1.1.0.zip"
+hash = "0cd36657902317f81f3d31b217ebaca6f98dfb665f1af611d1db0904a689bcd1"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.mod"
+hash = "6c4d2df014d59fd6555897fd4e5bbc0316e8df4c737fbfdde5cd119fdefeeea9"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/auto/sdk/@v/v1.2.1.zip"
+hash = "a08a16fc0a7041cdb875f47a260a56000632212c85f65a302a043c76380c8335"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/detectors/gcp/@v/v1.42.0.mod"
+hash = "de2413ec35a81bfcd3506a758af1921a81903b94a427798141f8aa9ac7c81f68"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/detectors/gcp/@v/v1.42.0.zip"
+hash = "ea93f7b449820f737e0c540b15cad5777bc11fc0d7f67453e1dcb11271f808cd"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/@v/v0.67.0.mod"
+hash = "0a86fd160ca29b779caff144c43f373072dd24ffc56b85773769968d6941453a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/@v/v0.67.0.zip"
+hash = "8d28360aab471b397d81ea1e5e738fd99df97c3ba04b485e7924cd716d6c7cd1"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.67.0.mod"
+hash = "9ce1f4846540916907ab416f984a6ee9d6c1e5390fc01eb513d54df5b835e5da"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/@v/v0.67.0.zip"
+hash = "a184e0b582e09004f01272b6f326e2a83b7a40694907fb7bbcd95080e33cc8e7"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.43.0.mod"
+hash = "84c9cb2ac7f3983f465b4335ac4a9a037b2d9b4f2253cbb74ac4548d405a01ed"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/@v/v1.43.0.zip"
+hash = "177d24c79e756950c431aa87c1c613bb807cc7fe435260b72c5f675b01651921"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutmetric/@v/v1.43.0.mod"
+hash = "497fe960686335299923c9bbd4758ca764f0363059420a8c3f5a0095011a74a5"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/exporters/stdout/stdoutmetric/@v/v1.43.0.zip"
+hash = "34f066db4fc6fb5b064c9ae5296164556086f1154891b58834b159aaa7b6c37c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.43.0.mod"
+hash = "d18e909369700a606926eb98566ff1bc6550cff697b32cb455e53ae779532291"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/metric/@v/v1.43.0.zip"
+hash = "3efb5ad706fab815f4b2e8fc89c1656ec8d2403f07edd406c17c2310dd8a08a6"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.43.0.mod"
+hash = "ed94ca8f657473e2ad1307f9dbcae460eb00032b9ac11e44b1b5507d789f3c90"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/@v/v1.43.0.zip"
+hash = "cf46abeb516a88a0eb33117103e39fb3161f0db91cd487a84748aae16938e8f2"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.43.0.mod"
+hash = "709c3201c2cd39688c2df95f640812e9ccbf3ef58be8c199fe9b45a3b2791322"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.43.0.zip"
+hash = "b02c5dded25925d2becf8ea69d446f2eb786a576ab4a7dd8014f3afbd861fc49"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.43.0.mod"
+hash = "e0b407a91f01ffd29f355b516c7900ba4fd842de1f2733a04c47e82496c649b9"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.opentelemetry.io/otel/trace/@v/v1.43.0.zip"
+hash = "34fdc70a75e90d68e36caa59b9e800a5de5266118393eaee4489dd0abe3cb62d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.uber.org/automaxprocs/@v/v1.6.0.mod"
+hash = "2e6d1ecf4cb29eb86182548f4690c991056ab15f18c127efaef2d0239f5fc10d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.uber.org/automaxprocs/@v/v1.6.0.zip"
+hash = "964c6f548f7ee6df9fa3a9080d722c7950060bda0cb84ff9e2ae065f078813c4"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.4.mod"
+hash = "2989f8b800605890ad40cf49109b0b6a972bda79d92df236d40ddb798093127e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.4.zip"
+hash = "0317dae56eaa9e9954467c8768fd6a89ba2005f1534e2c26fce5163ad8d2ef31"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod"
+hash = "33ed070a5a66e0960685ac5386440e1b59899e74d8a38a1180685e72a2195ded"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20191011191535-87dc89f01550.mod"
+hash = "3ab9f01f4610fe7b39bd85d68e8d97825351e7e282c39cda41457c2a276f3be3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210921155107-089bfa567519.mod"
+hash = "cd6311612a2aa4d0d7e03c41b3aa1fbc2d5f895ab3f61089fab80bfe9f8f5485"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.52.0.mod"
+hash = "92137c1682719fd08f1a102fffcf3f45275d1c3aab815a5e110d58c42fcb0e49"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.52.0.zip"
+hash = "a4dca44f467a3d8745aef41147c7bc6a90cdcfda9c42ae0585888bf046c7941e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20220428152302-39d4317da171.mod"
+hash = "db12dfe528e2e45f56984b1bd1fccc538c544ee27c2159f3137272ff8e5950bc"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20220428152302-39d4317da171.zip"
+hash = "dda3d8504004ef0954ca9d75b8de5d5af1ea9abc7d8481b7a3f2a3355b0e7a9a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.5.1.mod"
+hash = "b95421189b64764ede9f68472f4dfd21de3c972b28dcb8eb2aa929d106bc690b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.6.0-dev.0.20211013180041-c96bc1413d57.mod"
+hash = "093d4ccea11d0875b78ef009d75f6e6b4946cb961135012a642f12551d4848dc"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.6.0-dev.0.20220419223038-86c51ed26bb4.mod"
+hash = "42d19023ff8f2eae700bc5495f371ecd998a22d19ba985d0af5f69900b254083"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.7.0.mod"
+hash = "624567459c6e9947ac4abde0b7034ee61dcbb6a9373f5970094c0bb3e8121964"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190404232315-eb5bcb51f2a3.mod"
+hash = "f7046769daac02beb57cbcc481280df59fb403c96fe8262282aba858c7f7fa4d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20210226172049-e18ecbb05110.mod"
+hash = "fef5896d103a0bce5055fdb5e96e830944334792437865347718edceb633348a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20211015210444-4f30a5c0130f.mod"
+hash = "fa915f5d022cfb0cb865aa2ee37d3a7741b406f84eb4a837862e29cc69ab4ef4"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220722155237-a158d28d115b.mod"
+hash = "b315c52647d2da2f76e5cdb9d367e1d6727784236a9bffb612192b19b10a128d"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.2.0.mod"
+hash = "07ec645e3353fc2673f2d8dee5c14eb928b9c13127a409fe3ec40eaba4dbdb30"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.55.0.mod"
+hash = "ba56dceb42bf7ab4eeea7603daa4162ae9205d48208b2abbc65b0cdbdf9e627b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.55.0.zip"
+hash = "21c29cd58b7a02de60a3cb5122d8f59bc3c96d4750f9c1bb77a270a64eb42e61"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.36.0.mod"
+hash = "90ff0f4a036bc1c24e6c006fe18d97d6d11683431f8f197b7ad48a341da72682"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.36.0.zip"
+hash = "15bf65ff103e5dafc809d78cd037a1d1e88ccb8451824e851156002a13304504"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20210220032951-036812b2e83c.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20220722155255-886fb9371eb4.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.1.0.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.20.0.mod"
+hash = "a3e29e76060bd561060454b1fa2bdcd66674f60c9ca93833b8106355e34c603c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.20.0.zip"
+hash = "7179d4d68800f6fdcadb9d4bbf11cbb5df9b40360c89305c203fe20723cbd375"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190412213103-97732733099d.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201119102817-f84b799fce68.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210423082822-04245dca01da.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20211007075335-d3039528d8ac.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20211019181941-9d821ace8654.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220408201424-a24fb2fb8a0f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220520151302-bc2c85ada10a.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220722155257-8c9f86f7a55f.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.1.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.10.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.2.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.45.0.mod"
+hash = "57f4393ea18d5446a12363b35c23a616d843fa1669c7121a70a2bc3a9677d665"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.45.0.zip"
+hash = "e51c1c88045b4edbe48ad810122131381ff541c89edbd97ef833ed6653b59e6a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20201126162022-7de9c90e9dd1.mod"
+hash = "4cbab14f7706771b271d995a1b3cc131fe5a246aadc7ee6d1ba6f0bd894781fa"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.2.0.mod"
+hash = "edf833da101900fe2ce8db23409e42448f441898d3d7d8ee451988e3b30c9302"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.43.0.mod"
+hash = "d901212ab10297286b157086365fc813a4468ac9e7f91737e7c696e38f68fab7"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.43.0.zip"
+hash = "0d12dd77f2c620f236e59421d604f6bcd1f9212a4083a1c0ec13425c67bc6e81"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.0.mod"
+hash = "36879d586fd8001e84da8787190a11e4f78749e2a81dfe8b9b6931899fff31cf"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.3.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.6.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod"
+hash = "c45d669089427bc4635d07b185f9b9680332d1c48c75b3c49cb715b81a04a5b0"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.37.0.mod"
+hash = "90d5ab4e4289e0f9d735ca4561eee22d9f9ebcd7fa04f23583c7d2140940968e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.37.0.zip"
+hash = "b8d475c17835ab602b91f1147684ceb5dbf4060e72e5dfb2e0e33efc9312a982"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.4.0.mod"
+hash = "15929e76fce04aea4c92a354426bb43370684645a4ee03f2e75d0c2eb1466304"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.15.0.mod"
+hash = "6149b2491c92f67545fc5da0083a791e369b3f99670d30f52bde0604c48c9e69"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.15.0.zip"
+hash = "8cfb20e915fa5d6c3fd264304233f8d71a3385e48a37819239c532ad9da27f84"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191119224855-298f0cb1881e.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.1.12.mod"
+hash = "2a8b9365898f0822face65ba089a1353e68a65d342f300ca317cceccde6421f3"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.1.8-0.20211029000441-d6a9af8af023.mod"
+hash = "123a6090da3da25fbd14981e3671d2eb06a01b4a9fd693957580e50989f5ecfa"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.3.0.mod"
+hash = "be082bd1ac60dce89e16e82652f02d1236109c95f3fd76c165b500d97ea3984e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20191011141410-1b5146add898.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20200804184101-5ec99f83aff1.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.17.0.mod"
+hash = "8a17681ea0d86cd2de00b2a87745287f5a8d7a0ad55ec0c26c5b52f3552d30e7"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gonum.org/v1/gonum/@v/v0.17.0.zip"
+hash = "dadeb3d260548de27375f7188bdfd5a175110120fd8ee8085a63b0dff2cae501"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/api/@v/v0.282.0.mod"
+hash = "f0db5ab3570c05982b3f543897d74bf5b2ef6ccba1df4d794f8166a08ebf8021"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/api/@v/v0.282.0.zip"
+hash = "477da3979227a97cb119aae00143f472e067220e77904dd46cc092557b4f118c"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/@v/v0.0.0-20260319201613-d00831a3d3e7.mod"
+hash = "08d401b99c60ef3745654347ee8717e154e5f7259825be9fb22c1eec0aeb0b7a"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/@v/v0.0.0-20260319201613-d00831a3d3e7.zip"
+hash = "a75d9f7ea0d1bba57acec769c848764c866c88f22fe8c0e9b295134d20e5400f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260401024825-9d38bb4040a9.mod"
+hash = "94e6319531b245384a8d3e145870e7c65cb9bdd927ade7fed07acf80ca884a90"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260401024825-9d38bb4040a9.zip"
+hash = "88b3d97eaf60fbc3a67fb3bf0e190cf9a5dc9c8d2b6e3b9cbb80bceb004967bf"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20260523011958-0a33c5d7ca68.mod"
+hash = "67711b6f9adde7cd2d23ba3512bf371ddc628709a4b7ff598794e638607e9987"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20260523011958-0a33c5d7ca68.zip"
+hash = "3651ed8946571d2d9bab3589285ae1b8d5a02a732704a49261798df1c5f1395f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.81.1.mod"
+hash = "56f71d12dc324448657b1d86d4bfb4df861d2827ce8a246d284fad5ff08e6394"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/grpc/@v/v1.81.1.zip"
+hash = "11273d01c080389b7079518aa23bd2e20faa91aafd12804d918bbbafaf2c7ffc"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.11.mod"
+hash = "a75c105a852fbd8da8d8cfac09c2eab9a206cfd27ed37c973737e23f632ca96e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.11.zip"
+hash = "14983d36c56a814ed91b6d652f2b8f895baba1b84eb43b28a0b132c8637cd274"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20180628173108-788fd7840127.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20190902080502-41f04d3bba15.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.mod"
+hash = "6e6e2fca40eb8fe1455e6a08cd39833c7c2e9a2341a81fb181b89d0b1c725f48"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.zip"
+hash = "f555684e5c5dacc2850dddb345fef1b8f93f546b72685589789da6d2b062710e"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/errgo.v2/@v/v2.1.0.mod"
+hash = "e305204248256627966ff85c7dc591cf2d0e7de2094d0f465849f1b62a102748"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.mod"
+hash = "c3b11ba9a0775ff9bc6f11dbb58a1e48cc1e68bac378a8cdc620becc661d4c33"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200313102051-9f266ea9e77c.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[restic.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"

@@ -1,0 +1,19 @@
+[[package]]
+id = "pango-gir"
+version = "1.56.4"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "harfbuzz", "fribidi", "cairo",
+  "gobject-introspection", "setuptools", "glib-gir", "gobject-introspection-gir",
+  "harfbuzz-gir",
+]
+sources = [{ url = "https://download.gnome.org/sources/pango/{series}/pango-{version}.tar.xz" }]
+
+[package.meson]
+args = [
+  "-D introspection=enabled", "-D documentation=false", "-D build-testsuite=false",
+  "-D build-examples=false", "-D libthai=disabled", "-D xft=disabled", "-D cairo=enabled",
+  "-D fontconfig=enabled", "-D freetype=enabled",
+]
+keep = ["share/gir-1.0", "lib/girepository-1.0"]

@@ -1,0 +1,9 @@
+[niri]
+
+[[niri.sources]]
+url = "git+https://github.com/Smithay/smithay.git#ff5fa7df392cecfba049ffed55cdaa4e98a8e7ef"
+hash = "a6c8a4a2ffc74208e961b7f3cc6427e770c5e6203e2b12851c3f737a30bfc036"
+
+[[niri.sources]]
+url = "https://github.com/niri-wm/niri/archive/v26.04/niri-26.04.tar.gz"
+hash = "134c602d8e0d53413a52d6cd58f9ce7e79a07d03288ee0a51ba1abd5db1b1ad9"

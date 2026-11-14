@@ -1,0 +1,15 @@
+# A query store for XML, which AppStream keeps its catalog cache in.
+[[package]]
+id = "libxmlb"
+version = "0.3.30"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "glib", "xz", "zstd"]
+sources = [{ url = "https://github.com/hughsie/libxmlb/archive/{version}/libxmlb-{version}.tar.gz" }]
+probes = ["xmlb"]
+
+[package.meson]
+args = [
+  "-D gtkdoc=false", "-D introspection=false", "-D tests=false", "-D stemmer=false",
+  "-D cli=false",
+]

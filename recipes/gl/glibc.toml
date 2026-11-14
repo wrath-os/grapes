@@ -1,0 +1,47 @@
+[[package]]
+id = "glibc"
+version = "2.42"
+scope = "runtime"
+fixup = false
+deps = [
+  "wrapper",
+  { id = "seed", skip = "binutils" },
+  "binutils-stage1",
+  "m4",
+  "bison",
+  "python",
+  { id = "linux-headers", view = false },
+]
+sources = [{ url = "https://ftp.gnu.org/gnu/glibc/glibc-{version}.tar.xz" }]
+files = ["glibc-nss-in-system.patch"]
+script = '''
+# NSS modules from other packages, such as systemd's, are found in the running system's lib/nss.
+patch -p1 < glibc-nss-in-system.patch
+mkdir ../b && cd ../b
+cat > configparms <<EOP
+slibdir=$PREFIX/lib
+rtlddir=$PREFIX/lib
+sbindir=$PREFIX/bin
+rootsbindir=$PREFIX/bin
+# The loader checks trusted directories with a memcmp the compiler would turn into pieces of the
+# path in immediates, which nothing can rewrite once the package moves to its address.
+CFLAGS-dl-load.c += -fno-builtin-memcmp
+EOP
+CC=$WRATH_REAL_BIN/gcc CXX=$WRATH_REAL_BIN/g++ BUILD_CC=gcc MAKEINFO=true CFLAGS=-O2 CXXFLAGS=-O2 \
+../src/configure --prefix=$PREFIX --libdir=$PREFIX/lib --libexecdir=$PREFIX/lib/glibc \
+    --with-headers=$WRATH_DEP_linux_headers/include --enable-kernel=5.4 --disable-werror \
+    --disable-nscd --disable-profile --without-selinux --enable-stack-protector=strong \
+    --sysconfdir=/etc
+make -j$NPROC MAKEINFO=true
+make install DESTDIR=$DEST install_root=$DEST MAKEINFO=true
+# ldd, tzselect and the like are bash scripts; a system finds bash on its PATH.
+for script in $DEST$PREFIX/bin/*; do
+    if head -c 32 "$script" | grep -q '^#! */bin/bash'; then
+        sed -i '1s|^#! */bin/bash|#!/usr/bin/env bash|' "$script"
+    fi
+done
+# ldd looks for the loader where x86 distributions keep it, lib64, whatever rtlddir says.
+loader=$(cd $DEST$PREFIX/lib && ls ld-linux*.so.*)
+sed -i "s|^RTLDLIST=.*|RTLDLIST=\"$PREFIX/lib/$loader\"|" $DEST$PREFIX/bin/ldd
+grep -qx "RTLDLIST=\"$PREFIX/lib/$loader\"" $DEST$PREFIX/bin/ldd
+'''

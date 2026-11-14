@@ -1,0 +1,11 @@
+[[package]]
+id = "parted"
+version = "3.8"
+scope = "runtime"
+core = true
+extra_deps = ["util-linux", "readline", "ncurses", "pkgconf"]
+sources = [{ url = "https://ftp.gnu.org/gnu/parted/parted-{version}.tar.xz" }]
+smoke = ["sbin/parted --version"]
+
+[package.autotools]
+args = ["--disable-device-mapper", "--disable-nls", "--disable-static"]

@@ -1,0 +1,10 @@
+[[package]]
+id = "libjpeg-turbo"
+version = "3.2.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/{version}/libjpeg-turbo-{version}.tar.gz" }]
+probes = ["libjpeg", "libturbojpeg"]
+
+[package.cmake]
+args = ["-D ENABLE_STATIC=OFF", "-D CMAKE_INSTALL_LIBDIR=lib"]

@@ -1,0 +1,13 @@
+[[package]]
+id = "texinfo"
+version = "7.2"
+scope = "runtime"
+core = true
+extra_deps = ["perl", "ncurses"]
+sources = [{ url = "https://ftp.gnu.org/gnu/texinfo/texinfo-{version}.tar.xz" }]
+smoke = ["bin/makeinfo --version"]
+check_in_view = true
+check = "mkdir -p /build/locale; localedef -i en_US -f UTF-8 /build/locale/en_US.UTF-8; localedef -i C -f UTF-8 /build/locale/C.UTF-8; export LOCPATH=/build/locale; make -j$NPROC check || { head -c 40000 tp/tests/test-suite.log; exit 1; }"
+
+[package.autotools]
+args = ["--disable-nls"]

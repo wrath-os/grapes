@@ -1,0 +1,28 @@
+# A terminal configured in Lua, with tabs, panes and its own multiplexer. Its last release is from
+# 2024, so a commit from its main branch, with the C libraries it builds its own copies of, which
+# its archives leave out as submodules.
+[[package]]
+id = "wezterm"
+version = "2026.11.12"
+scope = "runtime"
+core = true
+extra_deps = [
+  "rust-bin", "pkgconf", "fontconfig", "libxkbcommon", "wayland", "mesa", "openssl", "zlib",
+  "libX11", "libxcb", "xcb-util", "xcb-util-image", "libxkbcommon-x11",
+]
+sources = [
+  { url = "https://github.com/wezterm/wezterm/archive/ce8e6b140c2a52c8be1cc31c1274104b01422fdc.tar.gz" },
+  { url = "https://github.com/harfbuzz/harfbuzz/archive/33a3f8de60dcad7535f14f07d6710144548853ac.tar.gz", into = "deps/harfbuzz/harfbuzz" },
+  { url = "https://github.com/freetype/freetype2/archive/42608f77f20749dd6ddc9e0536788eaad70ea4b5.tar.gz", into = "deps/freetype/freetype2" },
+  { url = "https://github.com/glennrp/libpng/archive/f5e92d76973a7a53f517579bc95d61483bf108c0.tar.gz", into = "deps/freetype/libpng" },
+  { url = "https://github.com/madler/zlib/archive/51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf.tar.gz", into = "deps/freetype/zlib" },
+]
+smoke = ["bin/wezterm --version", "bin/wezterm-gui --version"]
+
+[package.cargo]
+packages = ["wezterm", "wezterm-gui", "wezterm-mux-server"]
+programs = ["wezterm", "wezterm-gui", "wezterm-mux-server"]
+install = '''
+mkdir -p $DEST$PREFIX/share/applications
+cp assets/wezterm.desktop $DEST$PREFIX/share/applications/org.wezfurlong.wezterm.desktop
+'''

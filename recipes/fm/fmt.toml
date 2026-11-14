@@ -1,0 +1,13 @@
+[[package]]
+id = "fmt"
+version = "12.2.1"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/fmtlib/fmt/archive/{version}/fmt-{version}.tar.gz" }]
+probes = ["fmt"]
+
+# Formatting text in C++.
+[package.cmake]
+args = [
+  "-D BUILD_SHARED_LIBS=ON", "-D FMT_TEST=OFF", "-D FMT_DOC=OFF", "-D CMAKE_INSTALL_LIBDIR=lib",
+]

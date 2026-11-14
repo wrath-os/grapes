@@ -1,0 +1,14 @@
+[[package]]
+id = "gnupg"
+version = "2.5.24"
+scope = "runtime"
+core = true
+extra_deps = [
+  "libgcrypt", "libgpg-error", "libassuan", "libksba", "npth", "zlib", "bzip2", "readline",
+  "sqlite", "pkgconf",
+]
+sources = [{ url = "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-{version}.tar.bz2" }]
+smoke = ["bin/gpg --version"]
+
+[package.autotools]
+args = ["--disable-ldap", "--disable-gnutls", "--disable-doc", "--disable-nls", "--sysconfdir=/etc"]

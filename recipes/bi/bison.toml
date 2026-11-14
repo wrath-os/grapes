@@ -1,0 +1,11 @@
+[[package]]
+id = "bison"
+version = "3.8.2"
+scope = "boot"
+deps = ["wrapper", "seed", "m4"]
+sources = [{ url = "https://ftp.gnu.org/gnu/bison/bison-{version}.tar.xz" }]
+script = '''
+M4=/usr/bin/m4 ./configure --prefix=$PREFIX --disable-nls
+make -j$NPROC
+make install DESTDIR=$DEST
+'''

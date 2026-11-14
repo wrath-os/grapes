@@ -1,0 +1,5 @@
+[whois]
+
+[[whois.sources]]
+url = "https://deb.debian.org/debian/pool/main/w/whois/whois_5.6.6.tar.xz"
+hash = "121a3b0467ad64a0e7034b44e71bd1cf28a2e4cca82886d40804ce1fac6494c0"

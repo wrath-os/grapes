@@ -1,0 +1,19 @@
+# JPEG XL images, with the libraries above instead of the copies its repository has.
+[[package]]
+id = "libjxl"
+version = "0.13.0"
+scope = "runtime"
+core = true
+extra_deps = ["brotli", "highway", "lcms2", "pkgconf"]
+sources = [{ url = "https://github.com/libjxl/libjxl/archive/v{version}/libjxl-{version}.tar.gz" }]
+probes = ["jxl", "jxl_threads"]
+
+[package.cmake]
+args = [
+  "-DBUILD_TESTING=OFF", "-DJPEGXL_FORCE_SYSTEM_BROTLI=ON", "-DJPEGXL_FORCE_SYSTEM_HWY=ON",
+  "-DJPEGXL_FORCE_SYSTEM_LCMS2=ON", "-DJPEGXL_ENABLE_SKCMS=OFF", "-DJPEGXL_ENABLE_TOOLS=OFF",
+  "-DJPEGXL_ENABLE_JPEGLI=OFF", "-DJPEGXL_ENABLE_SJPEG=OFF", "-DJPEGXL_ENABLE_OPENEXR=OFF",
+  "-DJPEGXL_ENABLE_BENCHMARK=OFF", "-DJPEGXL_ENABLE_EXAMPLES=OFF", "-DJPEGXL_ENABLE_MANPAGES=OFF",
+  "-DJPEGXL_ENABLE_DOXYGEN=OFF", "-DJPEGXL_ENABLE_PLUGINS=OFF", "-DJPEGXL_ENABLE_JNI=OFF",
+  "-DJPEGXL_BUNDLE_LIBPNG=OFF",
+]

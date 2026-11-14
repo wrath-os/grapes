@@ -1,0 +1,11 @@
+[[package]]
+id = "libpng"
+version = "1.6.59"
+scope = "runtime"
+core = true
+extra_deps = ["cmake", "ninja", "zlib"]
+sources = [{ url = "https://github.com/pnggroup/libpng/archive/v{version}/libpng-{version}.tar.gz" }]
+probes = ["libpng"]
+
+[package.cmake]
+args = ["-DPNG_STATIC=OFF", "-DPNG_TESTS=OFF", "-DPNG_TOOLS=OFF"]

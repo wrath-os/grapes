@@ -1,0 +1,5 @@
+[dust]
+
+[[dust.sources]]
+url = "https://github.com/bootandy/dust/archive/v1.2.7/dust-1.2.7.tar.gz"
+hash = "923a2eed637d2ea5f4ad5f820b6f87cc6e0081cfa4bc5ed1fe09278dd74db963"

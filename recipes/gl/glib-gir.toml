@@ -1,0 +1,18 @@
+# GLib, GObject, Gio and GModule.
+[[package]]
+id = "glib-gir"
+version = "2.84.4"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "python3", "pkgconf", "zlib", "pcre2", "libffi", "util-linux", "gettext",
+  "gobject-introspection", "setuptools",
+]
+sources = [{ url = "https://download.gnome.org/sources/glib/{series}/glib-{version}.tar.xz" }]
+
+[package.meson]
+args = [
+  "-D tests=false", "-D introspection=enabled", "-D man-pages=disabled", "-D selinux=disabled",
+  "-D xattr=false",
+]
+keep = ["share/gir-1.0", "lib/girepository-1.0"]

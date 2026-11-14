@@ -1,0 +1,17 @@
+[[package]]
+id = "gmp-lib"
+version = "6.3.0"
+scope = "runtime"
+toolset = true
+extra_deps = ["m4"]
+sources = [{ url = "https://ftp.gnu.org/gnu/gmp/gmp-{version}.tar.xz" }]
+script = '''
+# gcc 15 defaults to C23, where an empty parameter list means no parameters.
+sed -i '/long long t1;/,+1s/()/(...)/' configure
+./configure --prefix=$PREFIX --enable-cxx --disable-static
+make -j$NPROC
+make install DESTDIR=$DEST
+'''
+probes = ["gmp"]
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"

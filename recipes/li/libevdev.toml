@@ -1,0 +1,11 @@
+[[package]]
+id = "libevdev"
+version = "1.14.0"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "python3"]
+sources = [{ url = "https://www.freedesktop.org/software/libevdev/libevdev-{version}.tar.xz" }]
+probes = ["libevdev"]
+
+[package.meson]
+args = ["-D tests=disabled", "-D documentation=disabled"]

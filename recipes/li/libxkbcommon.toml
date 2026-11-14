@@ -1,0 +1,43 @@
+[[package]]
+id = "libxkbcommon"
+version = "1.13.2"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf", "bison-final", "m4-final", "xkeyboard-config", "libxml2"]
+sources = [{ url = "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-{version}/libxkbcommon-xkbcommon-{version}.tar.gz" }]
+probes = ["xkbcommon"]
+
+# Keymaps from keyboard layouts, read from xkeyboard-config where it is in the store.
+[package.meson]
+args = [
+  "-D xkb-config-root=$WRATH_DEP_xkeyboard_config/share/xkeyboard-config-2",
+  "-D x-locale-root=/run/system/share/X11/locale",
+  "-D enable-x11=false", "-D enable-wayland=false", "-D enable-docs=false",
+  "-D enable-tools=false",
+]
+
+# Keymaps from an X server, for the few programs that always link X11, such as wezterm. Only its
+# own library: the rest is libxkbcommon's, which it finds by name.
+[[package]]
+id = "libxkbcommon-x11"
+version = "1.13.2"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "bison-final", "m4-final", "xkeyboard-config", "libxml2",
+  "libxcb", "libxkbcommon",
+]
+sources = [{ url = "https://github.com/xkbcommon/libxkbcommon/archive/xkbcommon-{version}/libxkbcommon-xkbcommon-{version}.tar.gz" }]
+probes = ["xkbcommon-x11"]
+
+[package.meson]
+args = [
+  "-D xkb-config-root=$WRATH_DEP_xkeyboard_config/share/xkeyboard-config-2",
+  "-D x-locale-root=/run/system/share/X11/locale",
+  "-D enable-x11=true", "-D enable-wayland=false", "-D enable-docs=false",
+  "-D enable-tools=false",
+]
+install = '''
+find $DEST$PREFIX ! -type d ! -name 'libxkbcommon-x11*' ! -name 'xkbcommon-x11.*' -delete
+find $DEST$PREFIX -type d -empty -delete
+'''

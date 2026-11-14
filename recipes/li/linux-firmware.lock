@@ -1,0 +1,5 @@
+[linux-firmware]
+
+[[linux-firmware.sources]]
+url = "https://cdn.kernel.org/pub/linux/kernel/firmware/linux-firmware-20250917.tar.xz"
+hash = "120575b756915a11e736f599316a756b6a29a76d6135ad86208868b21c58fb75"

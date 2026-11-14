@@ -1,0 +1,5 @@
+[zellij]
+
+[[zellij.sources]]
+url = "https://github.com/zellij-org/zellij/archive/v0.46.0/zellij-0.46.0.tar.gz"
+hash = "2dfa237fea447f3cc98954e81b0097b9d25841010036720e11f67880fe7861f0"

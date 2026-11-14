@@ -1,0 +1,11 @@
+[[package]]
+id = "ca-certificates"
+version = "2026-11-05"
+scope = "runtime"
+core = true
+sources = [{ url = "https://curl.se/ca/cacert-{version}.pem", file = true, into = "cacert.pem" }]
+script = '''
+# The certificate authorities Mozilla trusts, as curl extracts them from Firefox.
+install -Dm644 cacert.pem $DEST$PREFIX/share/ca-certificates/ca-certificates.crt
+'''
+smoke = ["sh: grep -q 'BEGIN CERTIFICATE' $OUT/share/ca-certificates/ca-certificates.crt"]

@@ -1,0 +1,10 @@
+[[package]]
+id = "mako"
+version = "1.3.10"
+scope = "runtime"
+core = true
+sources = [{ url = "https://files.pythonhosted.org/packages/source/m/mako/mako-{version}.tar.gz" }]
+script = '''
+mkdir -p $DEST$PREFIX/site
+cp -r mako $DEST$PREFIX/site/
+'''

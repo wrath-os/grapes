@@ -1,0 +1,5 @@
+[starship]
+
+[[starship.sources]]
+url = "https://github.com/starship/starship/archive/v1.27.0/starship-1.27.0.tar.gz"
+hash = "f1887ffa88a7ba437d2932501794047e28d03387996f7d1c364631c053cffc44"

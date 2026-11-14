@@ -1,0 +1,21 @@
+[[package]]
+id = "nginx"
+version = "1.28.0"
+scope = "runtime"
+core = true
+extra_deps = ["pcre2", "zlib"]
+sources = [{ url = "https://nginx.org/download/nginx-{version}.tar.gz" }]
+smoke = ["bin/nginx -v"]
+
+# The store is read-only, so everything nginx writes on its own goes under its runtime directory.
+[package.autotools]
+args = [
+    "--sbin-path=$PREFIX/bin/nginx", "--error-log-path=stderr", "--user=nobody",
+    "--group=nogroup", "--http-log-path=/var/log/nginx/access.log", "--pid-path=/run/nginx.pid",
+    "--lock-path=/run/nginx.lock",
+    "--http-client-body-temp-path=/run/nginx-main/client_body",
+    "--http-proxy-temp-path=/run/nginx-main/proxy",
+    "--http-fastcgi-temp-path=/run/nginx-main/fastcgi",
+    "--http-uwsgi-temp-path=/run/nginx-main/uwsgi",
+    "--http-scgi-temp-path=/run/nginx-main/scgi",
+]

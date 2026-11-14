@@ -1,0 +1,15 @@
+[[package]]
+id = "foot"
+version = "1.28.0"
+scope = "runtime"
+core = true
+extra_deps = ["fcft", "libxkbcommon", "wayland", "wayland-protocols"]
+sources = [{ url = "https://codeberg.org/dnkl/foot/archive/{version}.tar.gz" }]
+smoke = ["bin/foot --version"]
+
+# The terminal. Its terminfo entry is ncurses' own.
+[package.meson]
+args = [
+  "-D docs=disabled", "-D tests=false", "-D grapheme-clustering=disabled",
+  "-D terminfo=disabled", "-D utmp-backend=none",
+]

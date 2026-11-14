@@ -1,0 +1,12 @@
+[[package]]
+id = "fuse3"
+version = "3.18.3"
+scope = "runtime"
+core = true
+extra_deps = ["meson", "ninja", "pkgconf"]
+sources = [{ url = "https://github.com/libfuse/libfuse/releases/download/fuse-{version}/fuse-{version}.tar.gz" }]
+probes = ["fuse3"]
+
+# The library only: fusermount3 has to be setuid, which a wrapper gives it when a system needs it.
+[package.meson]
+args = ["-D utils=false", "-D examples=false", "-D tests=false", "-D useroot=false"]

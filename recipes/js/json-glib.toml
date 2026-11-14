@@ -1,0 +1,16 @@
+[[package]]
+id = "json-glib"
+version = "1.10.8"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "glib",
+]
+sources = [{ url = "https://download.gnome.org/sources/json-glib/{series}/json-glib-{version}.tar.xz" }]
+probes = ["json-glib-1.0"]
+
+[package.meson]
+args = [
+  "-D introspection=disabled", "-D documentation=disabled", "-D man=false", "-D tests=false",
+  "-D nls=disabled",
+]

@@ -1,0 +1,5 @@
+[mesa]
+
+[[mesa.sources]]
+url = "https://archive.mesa3d.org/mesa-26.3.0.tar.xz"
+hash = "91d729aa68bb89e4ec857841300bbe922bcb3e52b1f97566ca83930d3b28343a"

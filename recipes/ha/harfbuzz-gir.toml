@@ -1,0 +1,19 @@
+# HarfBuzz's description of itself and its GObject library.
+[[package]]
+id = "harfbuzz-gir"
+version = "15.1.0"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "freetype", "glib", "gobject-introspection",
+  "setuptools", "glib-gir", "gobject-introspection-gir",
+]
+sources = [{ url = "https://github.com/harfbuzz/harfbuzz/releases/download/{version}/harfbuzz-{version}.tar.xz" }]
+
+[package.meson]
+args = [
+  "-D freetype=enabled", "-D glib=enabled", "-D gobject=enabled", "-D cairo=disabled",
+  "-D icu=disabled", "-D chafa=disabled", "-D introspection=enabled", "-D tests=disabled",
+  "-D docs=disabled", "-D utilities=disabled",
+]
+keep = ["share/gir-1.0", "lib/girepository-1.0"]

@@ -1,0 +1,12 @@
+[[package]]
+id = "linux-headers"
+version = "6.16.1"
+scope = "boot"
+deps = ["wrapper", "seed"]
+sources = [{ url = "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-{version}.tar.xz" }]
+script = '''
+make -j$NPROC headers HOSTCC=gcc
+find usr/include -type f ! -name '*.h' -delete
+mkdir -p $OUT/include
+cp -r usr/include/. $OUT/include/
+'''

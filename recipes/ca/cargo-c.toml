@@ -1,0 +1,13 @@
+# Builds and installs Rust libraries with a C interface, as librsvg's build does.
+[[package]]
+id = "cargo-c"
+version = "0.10.26+cargo-0.100.0"
+scope = "runtime"
+core = true
+extra_deps = ["rust-bin", "pkgconf", "openssl", "zlib", "curl"]
+# The crate as published, which has the lock the repository leaves out.
+sources = [{ url = "https://static.crates.io/crates/cargo-c/cargo-c-{version}.crate" }]
+smoke = ["bin/cargo-cbuild --version"]
+
+[package.cargo]
+programs = ["cargo-capi", "cargo-cbuild", "cargo-cinstall", "cargo-ctest"]

@@ -1,0 +1,18 @@
+[[package]]
+id = "elfutils"
+version = "0.193"
+scope = "runtime"
+core = true
+extra_deps = ["pkgconf", "zlib", "bzip2", "xz", "zstd", "flex", "bison-final", "m4-final"]
+sources = [{ url = "https://sourceware.org/ftp/elfutils/{version}/elfutils-{version}.tar.bz2" }]
+smoke = ["bin/eu-readelf --version"]
+probes = ["elf"]
+check_in_view = true
+check_build = "make -j$NPROC check TESTS="
+check = "make -j$NPROC check"
+
+[package.autotools]
+args = ["--disable-debuginfod", "--enable-libdebuginfod=dummy", "--disable-nls"]
+install = '''
+rm -f $DEST$PREFIX/lib/lib*.a
+'''

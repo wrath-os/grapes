@@ -1,0 +1,5 @@
+[gitui]
+
+[[gitui.sources]]
+url = "https://github.com/gitui-org/gitui/archive/v0.28.1/gitui-0.28.1.tar.gz"
+hash = "0400cbf59605490b5fb8779f9af41fa4d7a1bb748093ca0e13156a5dff31c7aa"

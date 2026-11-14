@@ -1,0 +1,5 @@
+[wireplumber]
+
+[[wireplumber.sources]]
+url = "https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/0.5.19/wireplumber-0.5.19.tar.gz"
+hash = "f9454eae3a5a6ca903c05ead2a7e47d7d3957fb0ffac3ebb11d92842603ae80f"

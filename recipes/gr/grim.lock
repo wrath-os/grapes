@@ -1,0 +1,5 @@
+[grim]
+
+[[grim.sources]]
+url = "https://gitlab.freedesktop.org/emersion/grim/-/archive/v1.5.0/grim-v1.5.0.tar.gz"
+hash = "9e72a98f7621b1f5741b405b8dbd447acf7d300ddb12667ec526db1ce6154eaa"

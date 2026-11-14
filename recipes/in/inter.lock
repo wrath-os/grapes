@@ -1,0 +1,9 @@
+[inter]
+
+[[inter.sources]]
+url = "https://raw.githubusercontent.com/google/fonts/c30b221beb0c1da59d563feb91ec8656a1fa972a/ofl/inter/Inter%5Bopsz,wght%5D.ttf"
+hash = "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+
+[[inter.sources]]
+url = "https://raw.githubusercontent.com/google/fonts/c30b221beb0c1da59d563feb91ec8656a1fa972a/ofl/inter/Inter-Italic%5Bopsz,wght%5D.ttf"
+hash = "acd98e64795781b2058f07b18475e0ecee2a0fe2b42a49e2f9e37d0d6bf66ce6"

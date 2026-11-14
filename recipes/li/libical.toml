@@ -1,0 +1,16 @@
+# Calendars, for the clock's calendar.
+[[package]]
+id = "libical"
+version = "4.0.7"
+scope = "runtime"
+core = true
+extra_deps = ["perl"]
+sources = [{ url = "https://github.com/libical/libical/archive/v{version}/libical-{version}.tar.gz" }]
+probes = ["ical"]
+
+[package.cmake]
+args = [
+  "-DLIBICAL_BUILD_TESTING=OFF", "-DLIBICAL_BUILD_EXAMPLES=OFF", "-DLIBICAL_BUILD_DOCS=OFF",
+  "-DLIBICAL_GLIB=OFF", "-DLIBICAL_GOBJECT_INTROSPECTION=OFF", "-DLIBICAL_GLIB_VAPI=OFF",
+  "-DLIBICAL_JAVA_BINDINGS=OFF", "-DLIBICAL_BUILD_VZIC=OFF",
+]

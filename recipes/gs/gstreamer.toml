@@ -1,0 +1,17 @@
+[[package]]
+id = "gstreamer"
+version = "1.28.9"
+scope = "runtime"
+core = true
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3", "bison-final", "m4-final", "flex", "glib",
+]
+sources = [{ url = "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-{version}.tar.xz" }]
+probes = ["gstreamer-1.0"]
+
+[package.meson]
+args = [
+  "-D introspection=disabled", "-D doc=disabled", "-D tests=disabled", "-D examples=disabled",
+  "-D benchmarks=disabled", "-D ptp-helper=disabled", "-D libunwind=disabled",
+  "-D libdw=disabled", "-D bash-completion=disabled", "-D nls=disabled",
+]

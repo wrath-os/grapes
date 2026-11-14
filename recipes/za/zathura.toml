@@ -1,0 +1,29 @@
+[[package]]
+id = "zathura"
+version = "2026.10.23"
+scope = "runtime"
+core = true
+extra_deps = ["girara", "gtk4", "json-glib", "file", "sqlite", "xxhash", "poppler", "gettext"]
+sources = [
+  { url = "https://github.com/pwmt/zathura/archive/{version}/zathura-{version}.tar.gz" },
+  { url = "https://github.com/pwmt/zathura-pdf-poppler/archive/2026.07.18/zathura-pdf-poppler-2026.07.18.tar.gz", into = "pdf-poppler" },
+]
+smoke = ["bin/zathura --version"]
+
+# The document viewer, with its PDF plugin built into its own plugin directory, where it looks:
+# a system shares only packages' `share`.
+[package.meson]
+# gettext's split leaves the rules for translating metainfo files away from the library that
+# reads them.
+env = { GETTEXTDATADIRS = "$WRATH_DEP_gettext/share/gettext-0.26" }
+args = [
+  "-D manpages=disabled", "-D synctex=disabled", "-D seccomp=disabled", "-D landlock=enabled",
+  "-D tests-x11=disabled", "-D tests-wayland=disabled", "-D convert-icon=disabled",
+]
+install = '''
+export PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig${PKG_CONFIG_PATH:+:$PKG_CONFIG_PATH}
+meson setup /build/pdf pdf-poppler --prefix=$PREFIX --libdir=lib --buildtype=release \
+  -D plugindir=$PREFIX/lib/zathura
+ninja -C /build/pdf -j$NPROC
+ninja -C /build/pdf install
+'''

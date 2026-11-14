@@ -1,0 +1,38 @@
+[[package]]
+id = "gtk3"
+version = "3.24.52"
+# GTK 3 programs need it, and its last series is 3.24; GTK 4 would be a recipe of its own.
+track = "3.24."
+scope = "runtime"
+core = true
+# Its file chooser and icons read what kind of file each is, and the icon theme every theme
+# falls back to, without referring to either.
+runtime_deps = ["shared-mime-info", "hicolor-icon-theme"]
+# The icon cache is made from every package's icons with each generation.
+indexes = [
+  { from = "share/icons/hicolor", run = "bin/gtk-update-icon-cache --force share/icons/hicolor" },
+]
+extra_deps = [
+  "meson", "ninja", "pkgconf", "python3",
+  "pango",
+  "gdk-pixbuf", "libepoxy", "at-spi2-core",
+  "wayland", "wayland-protocols", "libxkbcommon", "gettext",
+  "libX11", "libXext", "libXrender", "libXi", "libXrandr", "libXcursor", "libXdamage",
+  "libXfixes", "libXcomposite",
+]
+sources = [{ url = "https://download.gnome.org/sources/gtk/{series}/gtk-{version}.tar.xz" }]
+probes = ["gtk+-3.0"]
+
+# Wayland, and X11 alongside it: programs built elsewhere, such as browsers from their projects,
+# link GDK's X11 functions even when they run on Wayland. Printing to files only.
+[package.meson]
+args = [
+  "-D x11_backend=true", "-D xinerama=no", "-D wayland_backend=true", "-D broadway_backend=false",
+  "-D print_backends=file", "-D introspection=false", "-D gtk_doc=false", "-D man=false",
+  "-D demos=false", "-D examples=false", "-D tests=false", "-D installed_tests=false",
+  "-D colord=no", "-D cloudproviders=false", "-D tracker3=false",
+]
+install = '''
+# The compiled schemas are made for a whole system, from every package's.
+rm $DEST$PREFIX/share/glib-2.0/schemas/gschemas.compiled
+'''

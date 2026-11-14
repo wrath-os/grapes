@@ -1,0 +1,12 @@
+[[package]]
+id = "fish"
+version = "4.9.3"
+scope = "runtime"
+core = true
+extra_deps = ["pcre2", "pkgconf"]
+sources = [{ url = "https://github.com/fish-shell/fish-shell/releases/download/{version}/fish-{version}.tar.xz" }]
+smoke = ["bin/fish --version", "bin/fish -c 'echo ok'"]
+
+# Its functions and completions go in the program itself.
+[package.cargo]
+programs = ["fish", "fish_indent", "fish_key_reader"]

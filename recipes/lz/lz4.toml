@@ -1,0 +1,15 @@
+[[package]]
+id = "lz4"
+version = "1.10.0"
+scope = "runtime"
+core = true
+sources = [{ url = "https://github.com/lz4/lz4/releases/download/v{version}/lz4-{version}.tar.gz" }]
+script = '''
+make -j$NPROC BUILD_STATIC=no PREFIX=$PREFIX
+make install BUILD_STATIC=no PREFIX=$PREFIX DESTDIR=$DEST
+'''
+smoke = ["bin/lz4 --version"]
+probes = ["lz4"]
+check_in_view = true
+check = "make -j1 test"
+check_deps = ["python3"]

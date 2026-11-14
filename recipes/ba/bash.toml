@@ -1,0 +1,16 @@
+[[package]]
+id = "bash"
+version = "5.3"
+scope = "runtime"
+toolset = true
+extra_deps = ["readline"]
+sources = [{ url = "https://ftp.gnu.org/gnu/bash/bash-{version}.tar.gz" }]
+script = '''
+./configure --prefix=$PREFIX --without-bash-malloc --with-installed-readline
+make -j$NPROC
+make install DESTDIR=$DEST
+ln -s bash $DEST$PREFIX/bin/sh
+'''
+smoke = ["bin/bash --version", "bin/bash -c 'echo ok'"]
+check = "make check TESTS=run-all"
+check_in_view = true

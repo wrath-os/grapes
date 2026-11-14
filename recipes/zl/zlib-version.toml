@@ -1,0 +1,21 @@
+[[package]]
+id = "zlib-version"
+scope = "runtime"
+core = true
+extra_deps = ["zlib"]
+script = '''
+mkdir -p $DEST$PREFIX/bin
+cat > v.c <<'C'
+#include <stdio.h>
+#include <unistd.h>
+#include <zlib.h>
+int main(int argc, char **argv) {
+    printf("%s\n", zlibVersion());
+    fflush(stdout);
+    if (argc > 1) { sleep(2); printf("%s\n", zlibVersion()); }
+    return 0;
+}
+C
+gcc -O2 v.c -o $DEST$PREFIX/bin/zlib-version -lz
+'''
+smoke = ["bin/zlib-version"]
