@@ -543,6 +543,17 @@ style (Starlark), the builder (Rust), or the recipe.
 - **Status:** fixed: every recipe field is keyed or said not to change the build, so a new one can't
   be missed.
 
+### A recipe with nothing to build on has no shell
+
+- **Seen in:** the grapes package, which only copies its own files.
+- **What happened:** with no dependencies and no `core`, its build's view had no `/bin/sh`, and it
+  failed at once with `execvp /bin/sh: No such file or directory`.
+- **What we did:** `core = true`, which brings the core tools.
+- **What would prevent it:** every build that runs a script has a shell, whatever it lists, or
+  loading a recipe with a script and nothing to build on says what to add.
+- **Belongs in:** the builder.
+- **Status:** open.
+
 ## Working on recipes
 
 - Don't edit a set while a build is running from it. Styles load once per process, so a build
