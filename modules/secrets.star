@@ -1,5 +1,5 @@
 # Secrets kept encrypted with age next to the configuration and decrypted on the machine when
-# the system starts or switches, to `/run/secrets/<name>`. An option that takes a path accepts
+# the system starts or switches, to `/run/wrath/secrets/<name>`. An option that takes a path accepts
 # `{ secret = "name" }` and gets that path, and a unit that mentions it restarts when the
 # secret changes.
 

@@ -36,7 +36,7 @@ sed -i "s#\"/sbin/swapon\"#\"$WRATH_DEP_util_linux/bin/swapon\"#; s#\"/sbin/swap
     src/core/swap.c
 # Units from packages name programs without a path, such as `ExecStart=niri`, and systemd looks
 # them up in its own list of directories, never in PATH. A system's programs are in /run/system/bin.
-sed -i 's|^#define DEFAULT_PATH_WITH\(OUT\)\?_SBIN |&"/run/wrappers/bin:/run/system/bin:" |' \
+sed -i 's|^#define DEFAULT_PATH_WITH\(OUT\)\?_SBIN |&"/run/wrath/wrappers/bin:/run/system/bin:" |' \
     src/basic/path-util.h
 '''
 install = '''

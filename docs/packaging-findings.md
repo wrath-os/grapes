@@ -319,7 +319,7 @@ style (Starlark), the builder (Rust), or the recipe.
 - **What happened:** the helper's path was its copy in the store, which isn't setuid, so it couldn't
   read `/etc/shadow` and every password was refused.
 - **What we did:** the recipe points `pam_unix` at the system's setuid wrapper in
-  `/run/wrappers/bin`.
+  `/run/wrath/wrappers/bin`.
 - **What would prevent it:** a check that no package names a store path to a program the system
   wraps setuid.
 

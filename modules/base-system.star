@@ -82,7 +82,7 @@ def render(ctx: Context) -> None:
     ctx.service_package("device-mapper")
 
     # Services find the system's programs, as a login shell does.
-    path = "PATH=/run/wrappers/bin:%s/bin" % SYSTEM
+    path = "PATH=/run/wrath/wrappers/bin:%s/bin" % SYSTEM
     locale_variables = locale_environment(ctx)
     ctx.file("/etc/systemd/system.conf.d/wrath.conf", formats.systemd({
         "Manager": {
@@ -155,7 +155,7 @@ def render(ctx: Context) -> None:
     # Login shells, and the service managers of users' sessions, find the system's programs and
     # what they ship, such as D-Bus services and desktop files.
     environment = [
-        ("PATH", "/run/wrappers/bin:%s/users/${USER}/bin:%s/bin" % (SYSTEM, SYSTEM)),
+        ("PATH", "/run/wrath/wrappers/bin:%s/users/${USER}/bin:%s/bin" % (SYSTEM, SYSTEM)),
         ("XDG_DATA_DIRS", SYSTEM + "/share"),
         ("XDG_CONFIG_DIRS", "/etc/xdg"),
         ("SSL_CERT_FILE", CERTIFICATES),

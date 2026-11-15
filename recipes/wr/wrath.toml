@@ -17,7 +17,7 @@ Description=wrath test harness agent
 X-RestartIfChanged=false
 
 [Service]
-Environment=PATH=/run/wrappers/bin:/run/system/bin
+Environment=PATH=/run/wrath/wrappers/bin:/run/system/bin
 ExecStart=$PREFIX/bin/wrath-agent
 Restart=always
 UNIT
