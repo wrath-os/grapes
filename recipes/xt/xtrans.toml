@@ -3,6 +3,7 @@ id = "xtrans"
 version = "1.6.0"
 scope = "runtime"
 deps = ["pkgconf", "xorgproto"]
+propagates = ["xorgproto"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/xtrans-{version}.tar.xz" }]
 script = '''
 ./configure --prefix=$PREFIX --disable-docs

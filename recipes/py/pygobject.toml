@@ -4,6 +4,7 @@ id = "pygobject"
 version = "3.54.5"
 scope = "runtime"
 deps = ["meson", "ninja", "pkgconf", "python3", "glib", "libffi", "glib-gir"]
+propagates = ["python3"]
 sources = [{ url = "https://download.gnome.org/sources/pygobject/{series}/pygobject-{version}.tar.gz" }]
 
 [package.meson]

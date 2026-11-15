@@ -3,6 +3,7 @@ id = "mpfr"
 version = "4.2.2"
 scope = "runtime"
 deps = ["gmp-lib"]
+propagates = ["gmp-lib"]
 sources = [{ url = "https://ftp.gnu.org/gnu/mpfr/mpfr-{version}.tar.xz" }]
 check_build = "make -j$NPROC check TESTS="
 check = "make -j$NPROC check"

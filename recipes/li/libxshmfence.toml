@@ -3,6 +3,7 @@ id = "libxshmfence"
 version = "1.3.3"
 scope = "runtime"
 deps = ["pkgconf", "xorgproto"]
+propagates = ["xorgproto"]
 sources = [{ url = "https://www.x.org/archive/individual/lib/libxshmfence-{version}.tar.xz" }]
 
 [package.autotools]
