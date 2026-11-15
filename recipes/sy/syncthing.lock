@@ -1,0 +1,1617 @@
+[syncthing]
+style = "go"
+record = "1d3e8145231451d009b3a11d371f7cd058617cadedc83dca013acd251b45a217"
+from = "c38d4b47aa33cd589ff9f53b38e6a03c8b8750b462b4ab45e398a8bcd81efae7"
+deps = ["go"]
+
+[[syncthing.sources]]
+url = "https://github.com/syncthing/syncthing/releases/download/v2.1.7/syncthing-source-v2.1.7.tar.gz"
+hash = "5b84abd0e8b187f618fb2c38c37fa37ce0b377a275d3e0b981bad94176a24afa"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/@v/v1.36.12-20260825204119-511051f7f437.2.mod"
+hash = "cd04279292dccb893e9d4bbdab10a88b723f3a034db81e3c425e35d7da7e7d9c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/@v/v1.36.12-20260825204119-511051f7f437.2.zip"
+hash = "b647cc4f6e8d4c7a08d725acf209ba9f641df86ba499138b406e6e1b13075355"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/buf.build/go/protovalidate/@v/v1.4.0.mod"
+hash = "78e60e34773394d1f27cf3c7dea507b9d6613a71237101962c840c52ad167573"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/buf.build/go/protovalidate/@v/v1.4.0.zip"
+hash = "8c2889e5274f1410c137130cbb455d190e747dc96048b29769cbfab0716a7893"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/cel.dev/cel-go/@v/v0.32.0.mod"
+hash = "9aa1a892e3be0c8c6a065d13bdbacc5a126f5fd0c53a610e5e08ab9d49698fde"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/cel.dev/cel-go/@v/v0.32.0.zip"
+hash = "4252fb5048b91124eab60b86783c6ecb92c63c8a499a0bb1d9fc4611d34a368e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/cel.dev/expr/@v/v0.25.3.mod"
+hash = "67452750d57eccae2633b174e66468b72632ede744addb4de2c0b26ddd38a8e1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/cel.dev/expr/@v/v0.25.3.zip"
+hash = "f70839b31938413671e1f9a01e675272fb4707741c569e31684a79143b808155"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.1.0.mod"
+hash = "099556fc4d7e6f5cb135efdd8b6bb4c0932e38ea058c53fc5fa5ce285572fb61"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.1.0.zip"
+hash = "9ac43a686d06fdebd719f7af3866c87eb069302272dfb131007adf471c308b65"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/!audrius!butkevicius/recli/@v/v0.0.7.mod"
+hash = "9c97de2c52e8a44ab6081f723b98c06e79f7cc025bc1fb23ec5d6bfaf6f1f898"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/!audrius!butkevicius/recli/@v/v0.0.7.zip"
+hash = "5b6144e542a9a32075e9ed253b2e1c1d00a8e7d1fb3d8bc531ebd3a912e07a35"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/!azure/go-ntlmssp/@v/v0.1.1.mod"
+hash = "a9c3b8e871bb4279da1f42302e46b29a19e884427e36c90843bcbb22a4485dfe"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/!azure/go-ntlmssp/@v/v0.1.1.zip"
+hash = "3b80d75f2e559d6568163e6da8119cb7118fc60288b0f62c80829ea855e1b4e5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/!burnt!sushi/toml/@v/v1.5.0.mod"
+hash = "45d78b80571999b6a258da0f21673da39e6b501349c033a4acd169437411d733"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/assert/v2/@v/v2.11.0.mod"
+hash = "affdd4e877804b0c227bfac5db50af91ef501e7b6d4befad53f90978d8635e1c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/assert/v2/@v/v2.11.0.zip"
+hash = "87ddcb6a9c42228ba1b3b61c581bf2ff358f014078bd274b8ff5b47f7a4759eb"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/kong/@v/v1.16.1.mod"
+hash = "29b0d692b7ac157c1bf58ab8f9e0439956d9148df86dbd52114514d3595c4046"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/kong/@v/v1.16.1.zip"
+hash = "59dca5d8e955871a0d7ca0250ecf4f6df45893af5d8f5ceab27bab653e814851"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/repr/@v/v0.5.2.mod"
+hash = "2bf2cbe500e28f4ba81107985bf0f311221c5889aefb926d52306068894432b4"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/alecthomas/repr/@v/v0.5.2.zip"
+hash = "2320e5c47df0fa1fe52583c8574dc0947381ea6bb293d67de572346e47d0cea3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/alexbrainman/sspi/@v/v0.0.0-20250919150558-7d374ff0d59e.mod"
+hash = "6ee7f15f38600c5014d87009e220752dd8497fa43fd20c5501470ac4ab1b08d2"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/alexbrainman/sspi/@v/v0.0.0-20250919150558-7d374ff0d59e.zip"
+hash = "57c72ec2effe8148940cd1166b09181cfee7b31ef6dfb2052f288bdf2408ef3b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/antlr4-go/antlr/v4/@v/v4.13.1.mod"
+hash = "92e843258f45cd21bb0b1186d9b6864ee4047a30c1154d603ebab8664aa5caba"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/antlr4-go/antlr/v4/@v/v4.13.1.zip"
+hash = "2fb455ab1f46e53a3cfa678306a6e405f291b34858222db9240335c018ae9554"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go/@v/v1.55.8.mod"
+hash = "85471dbba16f00f929c784e54f1f23387164d64b2aaf6f95b70c02a5314afdae"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/aws/aws-sdk-go/@v/v1.55.8.zip"
+hash = "c8ba172b5297abf62e50efc8a039e624a5d02b7c5a55c137499e797ffa540a19"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.1.mod"
+hash = "c870b3fe50b6944fab095b06208d9c8898763e9173cb1eed3258c3d58309ba66"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/beorn7/perks/@v/v1.0.1.zip"
+hash = "25bd9e2d94aca770e6dbc1f53725f84f6af4432f631d35dd2c46f96ef0512f1a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/brianvoe/gofakeit/v6/@v/v6.28.0.mod"
+hash = "b1f9ffe11afef6a4c64e36a65efbb0b47f420fb419ae6a87ae52cb995aa8e6b4"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/brianvoe/gofakeit/v6/@v/v6.28.0.zip"
+hash = "767020e31e057619ebdc632cc1f07513d78002c7bb80ab2944dd40890dcc1788"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/calmh/glob/@v/v0.0.0-20220615080505-1d823af5017b.mod"
+hash = "e8ef4f3afae097432e9efc4b76b44c25835f88397bde20936d19bdff27e1aad1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/calmh/glob/@v/v0.0.0-20220615080505-1d823af5017b.zip"
+hash = "0a9aa90a746b4ddea3ab9e4b1f13cae7b2cecb1e405259d12c124370b718ff15"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/calmh/incontainer/@v/v1.0.0.mod"
+hash = "96a10e6282effd44fa57c74289c4e1653d7ca6cfe5ea9ead43960ee45dce660b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/calmh/incontainer/@v/v1.0.0.zip"
+hash = "97d277886a7cc61eb543cb23ecbffe75ef17125700ea26e7d3499cf146f9d229"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/calmh/xdr/@v/v1.2.0.mod"
+hash = "d28243fece4ea1ef2f1ad24b2df71240e48ef0944d4d4416ef67a6d8dd801a0f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/calmh/xdr/@v/v1.2.0.zip"
+hash = "c005b9f7fcdfce44cba871fb5ebeaa979c3bb93fd077ca747f4674d20542bd8e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/ccding/go-stun/@v/v0.1.6.mod"
+hash = "ee9e916061fb9b3e04f5702b89a2a80c5569ad0c071ed52f2af107e27ffe22ea"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/ccding/go-stun/@v/v0.1.6.zip"
+hash = "3d12d4df7b7e5b7fb62cab1df5aea39dc95ea0ca94a82c913d203a2cdee8b711"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v4/@v/v4.3.0.mod"
+hash = "83d4122d49127f13cda95fb79397cfe516c23cdd7fc07a2886ad764dd1422be3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/cenkalti/backoff/v4/@v/v4.3.0.zip"
+hash = "ef220b1ebf3bff4c46bbad5b2e123030e812b722b9e9dc88bc35956f9c622c2a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/certifi/gocertifi/@v/v0.0.0-20210507211836-431795d63e8d.mod"
+hash = "a3a818ec62c448d5c653e2b744fc8e0e8647c84bac40c7c35c3d1d0dc8b0f0ea"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/certifi/gocertifi/@v/v0.0.0-20210507211836-431795d63e8d.zip"
+hash = "2b619eda274960f759ace3a0448dadd43ccc6711269d662d85ec66d571228c75"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.mod"
+hash = "a090f8eaaf59cc2adf163299ebefe797e1dca3f6add2c8e88a6a3b90ba538b02"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/cespare/xxhash/v2/@v/v2.3.0.zip"
+hash = "145a26cdc7c49db566017b807c4989ee7f7ddeb569423e9cb99f995fac3621d3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/logex/@v/v1.1.10.mod"
+hash = "f7d3104eac4c5674dc4847cf5b1193c2e03bd24fe521243a34d72c709ad83a3a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/readline/@v/v0.0.0-20180603132655-2972be24d48e.mod"
+hash = "900b797c531f2df182e431a895ecd3109aacfedfdddab23a48f7c0a9d5a75659"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/chzyer/test/@v/v0.0.0-20180213035817-a1ea475d72b1.mod"
+hash = "d075c4e4b6624ea6f8031883c8d66ff430abc2ffe1fb4e89c3b9115699f29c3b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-semver/@v/v0.3.1.mod"
+hash = "08609c644cbcd0a4801e2585ee5a9dd283f92a412224d86e0dbd431530e6ce38"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/coreos/go-semver/@v/v0.3.1.zip"
+hash = "e72820542b5913afe0a52e956e0b3834e9fbb080641fed183117f862fab74e8a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.7.mod"
+hash = "bb81a9e2d14d9a586f0591853bdaad230d8cdf0d8d6ffa71dddae249ad573cc9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/cpuguy83/go-md2man/v2/@v/v2.0.7.zip"
+hash = "9ad5f2cbc644c0bb648a9b182d6b70f92e7ac4dfab5cf0ef746bbeef944fda59"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/d4l3k/messagediff/@v/v1.2.1.mod"
+hash = "87c13fd69707e7e6ef2966fd54a10ee72969ac6f0f9401194798a24d5efdd6a3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/d4l3k/messagediff/@v/v1.2.1.zip"
+hash = "b37005a605b92deabf55f1350ee9859147f3523bcb2c33be5a8e72bb63e0bc1e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.0.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.mod"
+hash = "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/davecgh/go-spew/@v/v1.1.1.zip"
+hash = "6b44a843951f371b7010c754ecc3cabefe815d5ced1c5b9409fb2d697e8a890d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.0.1.mod"
+hash = "4325999d0a6841031258a2561c22879d9fbdf77abc6b32a17b1cb6edf0810fb2"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.0.1.zip"
+hash = "319404ea84c8a4e2d3d83f30988b006e7dd04976de3e1a1a90484ad94679fa46"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.11.1.mod"
+hash = "b63c9137b0c2608c4cd43a0234cbaeb777bc0d43a29744f2058c1da82b6d358e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.11.1.zip"
+hash = "f314003767757fd3c150029496aedbae2592b2d85b0e76db0f907f77f0170f26"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.4.7.mod"
+hash = "ea2d0a6a0e84f5d39d0c05711a55dafb1d56a974a1a9187fb24e8657196c5454"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.4.9.mod"
+hash = "0dab08a9d390fa423979b281c8a30adf6368579945519dffa568ebe6f754a036"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.5.4.mod"
+hash = "a2df4bd34fb60e6ed2f4b53f8e5fe31e45fbbbced2e502c9dcba8b34fc76f9e7"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.6.0.mod"
+hash = "83bf51fd60c28a81139f84189c7ba3e9d88fdbcd20fafd58392cb76501a61a64"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.7.0.mod"
+hash = "308e39dafa2959e33378c6536e818dc6ea2c03db2c210a18dcb9b01b72a60f5f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.7.0.zip"
+hash = "f98f08a95224f2c7a77b62aa4840cefe4970f0ff00e0a027d7e457c3df752bb2"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/getsentry/raven-go/@v/v0.2.0.mod"
+hash = "2a0b90bdb717840e6a980542650f5c774f0973ecbf746e1d3fb6a0ddd5d3466f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/getsentry/raven-go/@v/v0.2.0.zip"
+hash = "eaffe69939612cd05f95e1846b8ddb4043655571be34cdb6412a66b41b6826eb"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-asn1-ber/asn1-ber/@v/v1.5.8.mod"
+hash = "6470996d0afbcec5e17608e581620ab1fa53804f23b3e7730b5adea54102d8bf"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-asn1-ber/asn1-ber/@v/v1.5.8.zip"
+hash = "f4f9f2f0f67a0c6ff26723d35968026a419b56ab155d24cc5cfdb339c22001b8"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-ldap/ldap/v3/@v/v3.4.15.mod"
+hash = "bf4e7da86502d0cedc5c0de6b184429f4b4a2a648f3ced4fe6018232f6e4b5fa"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-ldap/ldap/v3/@v/v3.4.15.zip"
+hash = "4a725c44d87915e7b3f0a958cfbf091d9995f7875bc82e2336f666b40ab99978"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.2.6.mod"
+hash = "de7da59858d6121956da002ded711242cc14ecf597e932a8625246418fd3bbaa"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.3.0.mod"
+hash = "fcf0840f2ff50fbc3b5a54b9d4cb240c64d47003ab03e420aeff0057015a8953"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-ole/go-ole/@v/v1.3.0.zip"
+hash = "bbf5b3bfa227a5daa06eb16ecdecccc0b20e08749bf103afb523fd72764e727a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-sql-driver/mysql/@v/v1.8.1.mod"
+hash = "5f840ae4a8991026d6157646c36a0ed51549c76e3ad3776a12d5a7162e63d0fb"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-sql-driver/mysql/@v/v1.8.1.zip"
+hash = "74c59faecf896d4eef4cdec6604cc629938ef49ce4bc43bc07199e2e625d9daa"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/go-task/slim-sprig/@v/v0.0.0-20210107165309-348f09dbbbc0.mod"
+hash = "875203669c50efd369628daa4876f494a1829fbe7f388b566d6d77c4df1228a1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/gofrs/flock/@v/v0.13.1.mod"
+hash = "2b10bf7b1de11439065e56e9533ecf9c3d29b3d17b0a30a6a8c33d6dbc22a994"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/gofrs/flock/@v/v0.13.1.zip"
+hash = "2d8bab9666100e0b92ff6dfa9054be287feb295fababc4eb2daeef94cb7c033c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.2.0.mod"
+hash = "c0a2031bf277087749d8ccc432449f6b1375787eac8641dd2f930074231aafb4"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0-rc.1.0.20200221234624-67d41d38c208.mod"
+hash = "78c95913aee9dfebd1e84f8b862e98bb1848d1d3e9f22aaf909c4ef4f7e7293d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0-rc.1.mod"
+hash = "eb386ed18bb8d6092974524bd0cda610ad87bee1a4485c9f01bccb713e7dab1e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0-rc.2.mod"
+hash = "e2622048b96cd87173bd9aeb801a1010807a412e89529509e9a5099f1fc69ab4"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0-rc.4.0.20200313231945-b860323f09d0.mod"
+hash = "1edf9512236391b88764083bde0391fc49864738432acfdcdd3229572dc71be1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.0.mod"
+hash = "0d092f7aa2877feb9e55aee2668286ebbf7e3d0711b1702d84c9225e4cca73f8"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.4.2.mod"
+hash = "4bf5885d1ebdc6d270958379a741cd3b4f7aca016e874d8e8b1059110dfe9e15"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.0.mod"
+hash = "738cbb1de96b67a6238ac3b8081cd8b1bfb0daebcf6c9bbe8cbdb6d73baecd19"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/protobuf/@v/v1.5.2.mod"
+hash = "7c8e7610527afd7724c7e8b7e843f132b0db61e8c9dd49dc589d430e8929bcc4"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/snappy/@v/v0.0.4.mod"
+hash = "f56debc9765b8492979fefa31209b67c9627d90e2469c6159c940daf6d249905"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/golang/snappy/@v/v0.0.4.zip"
+hash = "ea4545ca44ee990554094df6de440386a440a5bd99106e048939409d63beb423"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.3.0.mod"
+hash = "81df7917c225a9da7604b230d952fa278c60a8832c10d799385d134b05d5b087"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.3.1.mod"
+hash = "81df7917c225a9da7604b230d952fa278c60a8832c10d799385d134b05d5b087"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.4.0.mod"
+hash = "4036ab5636aa42bd313296cd3bfcb4c88912760c56a9e6655ae422d8767c80da"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.5.5.mod"
+hash = "4036ab5636aa42bd313296cd3bfcb4c88912760c56a9e6655ae422d8767c80da"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.6.0.mod"
+hash = "e7c7669d4a1dd589ba3e024ba27f43f293db611fe075ce20d7b884370d63febd"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.mod"
+hash = "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip"
+hash = "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20210407192527-94a9f03dee38.mod"
+hash = "d52f1eee332ede263bc47ded7403ada7fcbdc79a12bb827e982763b4700276a8"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20260802141513-ef3492d7dac3.mod"
+hash = "6be06896978991201ca3456b3504133c9b245ab8c00541c1e76f053c61388274"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/pprof/@v/v0.0.0-20260802141513-ef3492d7dac3.zip"
+hash = "ac456417ec911aaa66b5440a85c39d7e5a649532e77fe9ba26c1d03112c5c35d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.mod"
+hash = "73da47b6338b00a082fd451aa35a3273d3adc09b8e9bba98dab01091e402af6e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.zip"
+hash = "d0f02f377217f42702e259684e06441edbf5140dddcc34ba9bea56038b38a6ed"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/errwrap/@v/v1.0.0.mod"
+hash = "93985e11af40e6301f25d7f83cc4032d2d6d22f338aee277471a89364c700b29"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/errwrap/@v/v1.1.0.mod"
+hash = "93985e11af40e6301f25d7f83cc4032d2d6d22f338aee277471a89364c700b29"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/errwrap/@v/v1.1.0.zip"
+hash = "209ae99bc039443e28e4d6bb66517d1756d9468b7578d31f1b63a28103d8e18c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-multierror/@v/v1.0.0.mod"
+hash = "4e607899c8ddb9bc93ed33f24d7af119ff10241249d639864821173149e1cbc2"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-multierror/@v/v1.1.1.mod"
+hash = "6b44c7b8cf8c5ec59df682c5e882d5daf4d4a2f036a98f9e5add13919bc22d0d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-multierror/@v/v1.1.1.zip"
+hash = "972cd841ee51fdeac69c5a301e57f8ea27aebf15fddd7f621d5c240f28c3000c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-uuid/@v/v1.0.3.mod"
+hash = "1c4a96ad155de1eab04062a5be4010bb9aaa371252aed524217c2e69c14adecf"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/go-uuid/@v/v1.0.3.zip"
+hash = "5e9dc2bb3785d69a65d287a4b3fa7e9f583a127e41c6a2fd095ac862fed71dad"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.7.mod"
+hash = "c6b886c0242ffeac92b6b6aecf1123bc63c86faee81b16fff3a13273e50f6824"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hashicorp/golang-lru/v2/@v/v2.0.7.zip"
+hash = "2eb92ff13970bccd460efae14255bfc03bb51474da0137e477a60f95561acc30"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hexops/gotextdiff/@v/v1.0.3.mod"
+hash = "a947dd8b78793dd398ea20adee1f7d33ccf2767dbf8ee6b3cd77b71f19e6fb9b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hexops/gotextdiff/@v/v1.0.3.zip"
+hash = "a10c3942f09bc5132268d22d4bb9d0c1849122d533fe8cdf65ea69da05cebbaf"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/hpcloud/tail/@v/v1.0.0.mod"
+hash = "0005c9955199580a5b950e2a03416555cc0dd8d362ed9a919b4a266b837e209a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/ianlancetaylor/demangle/@v/v0.0.0-20200824232613-28f6c0f3b639.mod"
+hash = "1d0a9d9779b87484af4fdb9b596e6632989c828a027a16cebaa4d21c9bdb3dea"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jackpal/gateway/@v/v1.2.0.mod"
+hash = "25147a30c2cfe93d5c38efec1a1b8dcabc829b3de9912906fd302348c22e304a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jackpal/gateway/@v/v1.2.0.zip"
+hash = "fb6ff3d0c5d659426155587f9db95a364a388bc5fafd1cf9e6f9ee41777120f6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jackpal/go-nat-pmp/@v/v1.1.0.mod"
+hash = "2a91fee4a7725a3fd7daaf8d3a7b7156e9a4891245b0b3cfbca72a77ef9a9b0e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jackpal/go-nat-pmp/@v/v1.1.0.zip"
+hash = "530df7fb666a74e6dc3fe33ff93e053788a304c7e213b24f726c888e3c431d47"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/aescts/v2/@v/v2.0.0.mod"
+hash = "8ff1ffa1a39fb2f0c055334d7e03efff5cc77caff61126872f1c7afe8b8cd036"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/aescts/v2/@v/v2.0.0.zip"
+hash = "717a211ad4aac248cf33cadde73059c13f8e9462123a0ab2fed5c5e61f7739d7"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/dnsutils/v2/@v/v2.0.0.mod"
+hash = "d5f377f2851165f37c99b4f592f7daa1300b3a7b1d3b4dfe57bcf2f39bb1e737"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/dnsutils/v2/@v/v2.0.0.zip"
+hash = "f9188186b672e547cfaef66107aa62d65054c5d4f10d4dcd1ff157d6bf8c275d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/gofork/@v/v1.7.6.mod"
+hash = "bfa533d23c9c5746d2ad9f16f3d3e8613d669903b4f202641b1fa24e3acb93b1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/gofork/@v/v1.7.6.zip"
+hash = "b7e42a499d6be8dd07069c031f9291a5615aa0d59660c7e322cff585ce39e8a2"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/goidentity/v6/@v/v6.0.1.mod"
+hash = "8d1eaf4e8431a92c2a1b6b721bf315c0cd418de568fe4c08a3b5eda19784d8a0"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/goidentity/v6/@v/v6.0.1.zip"
+hash = "243e6fd6ea9f3094eea32c55febade6d8aaa1b563db655b0c5327940e4719beb"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/gokrb5/v8/@v/v8.4.4.mod"
+hash = "76a96500ab7a3a503f3945b5194761f1bb1bb7b5c756183aac04a9ee18cc04cd"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/gokrb5/v8/@v/v8.4.4.zip"
+hash = "8e468a1161302cb12b6e3f16bf31cd3b093f57c14325e11b348df1472860e313"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/rpc/v2/@v/v2.0.3.mod"
+hash = "d452409b03caa7add0d5180d925564d8473fc4cdcb1de20ef486e2c82a1ed175"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jcmturner/rpc/v2/@v/v2.0.3.zip"
+hash = "90c595355e5e2c9dc1e1ae71a88491a04c34d8791180098da103217cbf5f5574"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jmespath/go-jmespath/@v/v0.4.0.mod"
+hash = "4fb88edabb17564f6048fda3b494274cae04d9627e697c54d0b42cd5c3aebd9f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jmespath/go-jmespath/@v/v0.4.0.zip"
+hash = "d1f77b6790d7c4321a74260f3675683d3ac06b0a614b5f83e870beae0a8b2867"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jmespath/go-jmespath/internal/testify/@v/v1.5.1.mod"
+hash = "1f752c12be8dea178927871891b0bd5dffc1ef3f3edc62702a65136475b45d99"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jmespath/go-jmespath/internal/testify/@v/v1.5.1.zip"
+hash = "338f73832eb2a63ab0c912197e653c7b62426fc4387e0a76ab0d43c65e29b3e1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jmoiron/sqlx/@v/v1.4.0.mod"
+hash = "4cad583dccc4b0934674db7fc85c9c2c322ee58793366860aaea582f6591994d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/jmoiron/sqlx/@v/v1.4.0.zip"
+hash = "992ac9b6a33b12bd8e411ce9c9699231f8ac8550812805660b7ee06676bdc3ad"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/julienschmidt/httprouter/@v/v1.3.0.mod"
+hash = "6a7d6cc597184a0cb3fdafe2b355d844c7879a3751b7f81dec8ff0216cc7bb7d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/julienschmidt/httprouter/@v/v1.3.0.zip"
+hash = "e457dccd7015f340664e3b8cfd41997471382da2f4a743ee55be539abc6ca1f9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/kballard/go-shellquote/@v/v0.0.0-20180428030007-95032a82bc51.mod"
+hash = "49a2d6c73f667dc0f46322a0d6acfcba14209bfb76ef7e622d61e1091962ff34"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/kballard/go-shellquote/@v/v0.0.0-20180428030007-95032a82bc51.zip"
+hash = "ae4cb7b097dc4eb0c248dff00ed3bbf0f36984c4162ad1d615266084e58bd6cc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.20.1.mod"
+hash = "0d4e90d99acbc19eea5706e7390f8c925b26b1f5861385bb4f1321d454a1d48c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.20.1.zip"
+hash = "eedb58d7e4a65669f9a290536646cbfe4188112368424b56a8c75cfdadb27dea"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod"
+hash = "1605871e895331a39f5952559ebbc91228d86b8100354f857b562866eca5bb13"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.zip"
+hash = "dbbd0ce8c2f4932bb03704d73026b21af12bd68d5b8f4798dbf10a487a2b6d13"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/lib/pq/@v/v1.10.9.mod"
+hash = "94c1488688b2b9822a96e1375e32002a652cc1aee71520f6bfa87bec8eb79c06"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/lib/pq/@v/v1.10.9.zip"
+hash = "6791a7af67f846a86335350012c4efadd0850096ebf22350b7b20e01e216e6f2"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/lufia/plan9stats/@v/v0.0.0-20240909124753-873cd0166683.mod"
+hash = "437eabd170de8964ec2d5bf541ce4bfc2eae036c574dc06bfe4637dd47760d02"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/lufia/plan9stats/@v/v0.0.0-20240909124753-873cd0166683.zip"
+hash = "94a5f31634fb1af491b55cbbd5b981fab8d58925fa998df06c114ea42aa4f53f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/maruel/panicparse/v2/@v/v2.5.0.mod"
+hash = "2cd760c88944e286d8cb077f47d9dffa42d4823f56860a4f239953b66c03849e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/maruel/panicparse/v2/@v/v2.5.0.zip"
+hash = "3813a660d4370ca4904bca787ea8fa4dfa018e706cf2b03f051569b2f8dea643"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.24.mod"
+hash = "41b885f68c2fa4dfb26a8ffa30d095a931b27699b6b2b1974af3949400dc060f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.24.zip"
+hash = "4fcffec0bae0ad4af7bf96e2497a817d85de64af19ffe31d82bda362148234b8"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-sqlite3/@v/v1.14.22.mod"
+hash = "bc9235ee6e4e60243f1e7dcacf0caa4d480afcdf06ed78e481fd127e9e3119df"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-sqlite3/@v/v1.14.52.mod"
+hash = "4c08597e14c92d9ed25f1bd14a2242198f0e3011964e798018abceb2ccbe82bf"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/mattn/go-sqlite3/@v/v1.14.52.zip"
+hash = "ebd1fef8e9434fbdc2c94e35b9991df62d472c00170f57fc4f75daa69f658a1b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/maxbrunsfeld/counterfeiter/v6/@v/v6.12.0.mod"
+hash = "648a8d3e6e1dbf23833d50129b0d635516479e17848c76fc47165fc7f7d78883"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/maxbrunsfeld/counterfeiter/v6/@v/v6.12.0.zip"
+hash = "b4eb53837a1132b149174fb9f718fdcd0308c24521ba48be67e22c7fdce40625"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/maxmind/geoipupdate/v6/@v/v6.1.0.mod"
+hash = "bbd28076437417555180c0e79e750655ed5abd3dc63d28c41b4f069a2a5d24a5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/maxmind/geoipupdate/v6/@v/v6.1.0.zip"
+hash = "3e288595a1b50377acc5fc3e198788d8aa39ff4557fddb231311e193a1dc93e3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/miscreant/miscreant.go/@v/v0.0.0-20200214223636-26d376326b75.mod"
+hash = "ed2295d298935741066c471679dd9a6c450fdc13d188a4a44ae56dec5b035531"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/miscreant/miscreant.go/@v/v0.0.0-20200214223636-26d376326b75.zip"
+hash = "083e603b1a93bd7d45828662327aeda30bff27c2464ebcd4d4916f26e5fc86f5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/munnerz/goautoneg/@v/v0.0.0-20191010083416-a7dc8b61c822.mod"
+hash = "90d8fdca000e05d751cfafb1546f4a1440a5696ab06c8c91c365cf9bbbc8bcef"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/munnerz/goautoneg/@v/v0.0.0-20191010083416-a7dc8b61c822.zip"
+hash = "3d7ce17916779890be02ea6b3dd6345c3c30c1df502ad9d8b5b9b310e636afd9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/ncruces/go-strftime/@v/v1.0.0.mod"
+hash = "e5864a1dd9ac62bd778e7444e02e1e4130fa7c00d88eaea271c34f934e724f73"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/ncruces/go-strftime/@v/v1.0.0.zip"
+hash = "c1a7e718dbf5f779e9fc98b7354ed4d98de2949b83b65837c429b4b2c8c27686"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/nxadm/tail/@v/v1.4.11.mod"
+hash = "8597efbd4c800b7f411d80a74a1106cbb6c634fefd7288998a23a9220c29250c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/nxadm/tail/@v/v1.4.11.zip"
+hash = "c42a7b1a10a9b31f61806742e7be99e524a2885c9180f18403be48a703b5667a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/nxadm/tail/@v/v1.4.4.mod"
+hash = "1532073a05144c8d5fa18410f9aa0d8315341bdf73c17cc26ccdee168a7a3249"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/nxadm/tail/@v/v1.4.8.mod"
+hash = "a65f8a958855bf707d326b76b72f9c428bd226304ab8cc317a67315333b4e4c7"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.12.1.mod"
+hash = "fb18b454a04c8755624038635e1738f8341417dc865def8cfa5f86a49b63b9b7"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.16.4.mod"
+hash = "7ff4a5bf0ac96fbba28b49665eb05c3773ae0090d54e22dea50c875bc26ff8a2"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.16.5.mod"
+hash = "25631b029f86dc1d5bc8aeae5e0450955c05e4abfaa70df298e6cb1f7ac54097"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.16.5.zip"
+hash = "e23fc33b0affa73a4f4c63410af931bf1f8d5b9db266b3461177036d725eacc5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/@v/v1.6.0.mod"
+hash = "edfaa65a8835fd58b75c994930a210417b77add7c697c906fbf591cc22fe1ee6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/ginkgo/v2/@v/v2.1.3.mod"
+hash = "d16b33e3028494bc816b5ad0183363562a7040947df94245c1ea609ce4b2209f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.10.1.mod"
+hash = "146ef256f42914392998641b2c4e382703cea0566d00e3f6835350a8b08f5746"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.17.0.mod"
+hash = "ce583e41b985b0b33a4eefbe143df21e426790af9a236f95dcc2cef82062b526"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.19.0.mod"
+hash = "84c901db483f4a020fe80902323ce0250155c484a3d9ab9ff0b4a673d87ea367"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.38.2.mod"
+hash = "285785c609f8ac18545df57365247260880cbc8fbdf772fc115b7cad4af34a3b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.38.2.zip"
+hash = "0c1c20d8589fb2060e3c9e4e0effa03cac36dfc3f1e6c7f4d18d5c4c756fcdc5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/onsi/gomega/@v/v1.7.1.mod"
+hash = "d875dc4a1daced467a45dbe909ca6be439d130e8cb36e0c2e6d9542a42ffd2a3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/oschwald/geoip2-golang/@v/v1.13.0.mod"
+hash = "20e54f3e7e4529e2d0bdecee00df6a5cb2e069445b32eda8edf47563ca3633d5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/oschwald/geoip2-golang/@v/v1.13.0.zip"
+hash = "ae8e8157da293279d085518ca009aa11dab141aa7d5521cb9c9851ce52c8c418"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/oschwald/maxminddb-golang/@v/v1.13.1.mod"
+hash = "ddbd1f7e5c73e81fad617090a16eba9462caa13778c31731a728cd529ae629a9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/oschwald/maxminddb-golang/@v/v1.13.1.zip"
+hash = "717e0e89131541827935e02a76aed474247009bae9653a76b0c0a9152ba49e20"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/pierrec/lz4/v4/@v/v4.1.33.mod"
+hash = "97f713e0687025bf51fccdb1ae3dd82fd41d2f9a286eb9e93d606b8ebccb76bf"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/pierrec/lz4/v4/@v/v4.1.33.zip"
+hash = "b848476e729bbdf587a80940fa84b45680a63052e6c021201baa38ee61275686"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.8.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.mod"
+hash = "df28c6a823f181d76179697177c0c5943c6ffb38f3c10b2dc53be360ee7d4589"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.zip"
+hash = "d4c36b8bcd0616290a3913215e0f53b931bd6e00670596f2960df1b44af2bd07"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.mod"
+hash = "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/pmezard/go-difflib/@v/v1.0.0.zip"
+hash = "de04cecc1a4b8d53e4357051026794bcbc54f2e6a260cfac508ce69d5d6457a0"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/posener/complete/@v/v1.2.3.mod"
+hash = "6f0250b50a42e2599ae414a01f40eecf7ee5dfd83fead46d6c0580363c8de330"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/posener/complete/@v/v1.2.3.zip"
+hash = "88b48005b995dc6592fa6fda08130488c83f63bcaa4ccb0fb8e926fee63112ec"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/power-devops/perfstat/@v/v0.0.0-20260805114148-88456608a4f6.mod"
+hash = "05744a9262bcd294613e65624f3f8bae83d79a58aa48b8328c7df91190aa07bf"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/power-devops/perfstat/@v/v0.0.0-20260805114148-88456608a4f6.zip"
+hash = "ebf0c4738c23a53c04fc836d42dcf3b52d3b2abcfa7d08dffca770fe4c2254ad"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.25.0.mod"
+hash = "8ba732695f1aeefc88359d5fbf74b91abe989f7ba8ac4c5de2727e7ff96e46fd"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_golang/@v/v1.25.0.zip"
+hash = "677986b15218e6e5f740fd0801a6024726e71bf909ca1a504417eae281df4519"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.6.3.mod"
+hash = "c04d4e46b836c84588f8f619881d135653a157e233d3a87475940e15068b70a3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/client_model/@v/v0.6.3.zip"
+hash = "92f5d9a39b75bdc3f6733563934438148a3c3661420a8f742fea8cbf40d39abe"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.72.0.mod"
+hash = "c325a56cc6d77a39b52b93026c9dff2306418cd2408fd96b4fc739b205a5e131"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/common/@v/v0.72.0.zip"
+hash = "7ba7a7e373c9c87626224e24526d664972848b24a00f36923b94e2e93a6fe182"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.22.0.mod"
+hash = "8bed7b850b4253f90160954ac0d277a02ebbbf3ab9c7c9fb5fc21562d964e73b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/prometheus/procfs/@v/v0.22.0.zip"
+hash = "e13d43da4a9773cecdfa8b86e745bbd8efda07b005402c673a1e882b6dbb6804"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/puzpuzpuz/xsync/v3/@v/v3.5.1.mod"
+hash = "5f9e296c55206f2cfc6dd8e017e905744c8ae3eb7df4d007ebf5ededfdde6b8f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/puzpuzpuz/xsync/v3/@v/v3.5.1.zip"
+hash = "f7fcd1eeb1bc96bc497dc0bca05ed0d64d194fdb1a73460dd42cd2bc42ae00e6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/quic-go/go-ossfuzz-seeds/@v/v0.1.0.mod"
+hash = "d50527304783ab156b78d902401f9444f461266714bef06b726392086fd0e895"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/quic-go/go-ossfuzz-seeds/@v/v0.1.0.zip"
+hash = "7bbde287f0cc4727ddf4f7e4d06b84bdfb3fa27475bd062b5ceac32a62e815bc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/quic-go/quic-go/@v/v0.63.0.mod"
+hash = "93c5c1f3f837ecdc220b8bba0a91cf3e00662cb54ac8e3d152eb5a648baff145"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/quic-go/quic-go/@v/v0.63.0.zip"
+hash = "3b9ada8f6d517a6889798b761e100cce86d42065acd766d883083c36c34ab394"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/rabbitmq/amqp091-go/@v/v1.15.0.mod"
+hash = "7605dd3aea7b70cb37860e5112d50ceafc9b6dafc534e4ea789cd1a957acc909"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/rabbitmq/amqp091-go/@v/v1.15.0.zip"
+hash = "19c8fe523626b01d2bd061aeafaaa44e090d3e3ddcbf0946681c581e8188f95e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/rcrowley/go-metrics/@v/v0.0.0-20250401214520-65e299d6c5c9.mod"
+hash = "e65376fbfb93110d799cc1e2d1d06f606f423434e9aaf65c8e13591ecd935483"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/rcrowley/go-metrics/@v/v0.0.0-20250401214520-65e299d6c5c9.zip"
+hash = "a8c9e9792ad16f31ef8c32232de6243cc02147175661c9f64bc7b292f1c4d0cc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/remyoudompheng/bigfft/@v/v0.0.0-20230129092748-24d4a6f8daec.mod"
+hash = "6401dabced8e037796108d28559bffc06d135305cd6222c3cea153767ea95680"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/remyoudompheng/bigfft/@v/v0.0.0-20230129092748-24d4a6f8daec.zip"
+hash = "9be16c32c384d55d0f7bd7b03f1ff1e9a4e4b91b000f0aa87a567a01b9b82398"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/riywo/loginshell/@v/v0.0.0-20200815045211-7d26008be1ab.mod"
+hash = "9916da1091fd7a83414e320f9356be18d87488e1329aad187c52285528deebcb"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/riywo/loginshell/@v/v0.0.0-20200815045211-7d26008be1ab.zip"
+hash = "b9fb1c80d10168558e550657733249163e8af90257508fceb79fdfd3098f6dc6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/rodaine/protogofakeit/@v/v0.1.1.mod"
+hash = "10550e048056dc88ffe7f06bdb36be87ac95301b44b75d20677dece387c55e53"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/rodaine/protogofakeit/@v/v0.1.1.zip"
+hash = "6a68f07af4966bf9903185ecbfa7d3fa886518e7270f32300a40e92e824cec59"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.mod"
+hash = "c39547cce6e866e8cfa395d2937bce30801cd07f0b901c2133248f1fba12f58d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/russross/blackfriday/v2/@v/v2.1.0.zip"
+hash = "7852750d58a053ce38b01f2c203208817564f552ebf371b2b630081d7004c6ae"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/sclevine/spec/@v/v1.4.0.mod"
+hash = "9c2f8334567df4096533ce2be2254e884b519ab52b1ed38d0af89fbc706ca424"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/sclevine/spec/@v/v1.4.0.zip"
+hash = "4add5090695dd0877f4256412b6b0ccfe5730bbef40bdf9773d20a6c041156af"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/shirou/gopsutil/v4/@v/v4.26.9.mod"
+hash = "8006a6ff0ea18693af58dc5a5993a52f4ae0f1e63840038a1b5c7a2bed2eb1c6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/shirou/gopsutil/v4/@v/v4.26.9.zip"
+hash = "2206a841e6e5ca18b4b88d10f90a05c0714528cdec5bdd0801b9c02ed76e0ab6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.1.0.mod"
+hash = "1350354d52d2287a62336ecc0d56232d4c47699af9bba49c67c2b48254da98f1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.4.0.mod"
+hash = "31b2fdcdee870f0f61bffafafb96220967e5bca08a76a920d574216fc1f91355"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.0.mod"
+hash = "cb326540efcb1274a6e4e970d7fc9de2e8062f08a058fc296d859025e62e807a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.2.mod"
+hash = "58eca54d26728427806f40908828e8762d352cc3b0a0b0b60dc60ce61767fff6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.3.mod"
+hash = "6791b5edf7bd0ad12f53a046718d24b3a395191419167aa0bda604e866892cc5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/objx/@v/v0.5.3.zip"
+hash = "cdc804051b06efceea75ee9b0b6349d2f92f17cd46c6193c4a8dfb0f51465a44"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.10.0.mod"
+hash = "c0a648a037da54a6b02e8a811b1d3917d49dc4e1841cd756f28f0c4f1593933c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.mod"
+hash = "a6aa921ea6dedc1cbb384d3c1b79c58b6e5d6ce26d13b786ec60a99809ae1daa"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.12.1.zip"
+hash = "6874ed1c4b0b7e9feb27989b16c179b36590020633436ae260cefc5f5565589f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.4.0.mod"
+hash = "6b0c7b71030d4fc55d4e6e6e24c0bfc025621341f76141e3aec0044c4ce89950"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.5.1.mod"
+hash = "e3a11c2a6c5fe06f8a221e7289684917ac49ad01233f81b51c8360773707e700"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.1.mod"
+hash = "fff8168d98e6a07156c454a1b6e925509f3177e96c155516d7f96b4079cca3bf"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.7.2.mod"
+hash = "1606b50c960da56308912c2d6e261885c36978894ff407b0e20ee8799182b402"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.0.mod"
+hash = "e076074c1560ad1dda98b8b00fea6308c4b6ccd06ddd088d22db4626ed68f738"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/stretchr/testify/@v/v1.8.4.mod"
+hash = "05e26cd069285a33cf2af46fdacdef569d5ae185e7963a76c0178328f68e97f9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/syncthing/notify/@v/v0.0.0-20250528144937-c7027d4f7465.mod"
+hash = "71f3b825907c4bb53d7b2e52a16ae43900a0c62f49dad034be20ce01ad1f520b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/syncthing/notify/@v/v0.0.0-20250528144937-c7027d4f7465.zip"
+hash = "3e40586f5cf4be7521c6900698e0cf3781bc20bd5033a7c0597695e3a0cae29f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/syndtr/goleveldb/@v/v1.0.1-0.20220721030215-126854af5e6d.mod"
+hash = "bf32e384f25beb4cb20ba53b3bd9a1b24da2e371091300a6aa0d14ee383d8980"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/syndtr/goleveldb/@v/v1.0.1-0.20220721030215-126854af5e6d.zip"
+hash = "68a0e0b2969ac85b591fa083b202852bf0eb8a60b303581a4bd68bc0b69d77d8"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/thejerf/suture/v4/@v/v4.0.6.mod"
+hash = "e259c8e5608168f564bf09181dd34238f04999cf32aa557f83fcef098b2e00c3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/thejerf/suture/v4/@v/v4.0.6.zip"
+hash = "e2e7117e9d23d2ac2057811a271a6225f93ca7ec46aced649f901d9e670b4448"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/go-sysconf/@v/v0.4.0.mod"
+hash = "29bd839dcc5736ea8ebc4c2f4013db82c57cacd15a010d389579cde04f3336ae"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/go-sysconf/@v/v0.4.0.zip"
+hash = "61e89253bc4d7091170601be12633dc02e94a3bc30470b081a2449944fa18784"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/numcpus/@v/v0.12.0.mod"
+hash = "03fbc174711500112a8ab1675893ecdbea2e155f3dcd5e357fb4a5619ed6b0d4"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/tklauser/numcpus/@v/v0.12.0.zip"
+hash = "56c22a112976df3a4d8db776b41288658070650ae6382ec86d0a32fc07af0276"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/@v/v1.20.0.mod"
+hash = "022dc959fde1be99bb1a3c065567c56b24f729ed326a9f0182e15ab60925cf79"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/@v/v1.22.17.mod"
+hash = "a5c8b6019e79de648ced5c531461ba39e0545bbec54333cc8d752809b78e9010"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/urfave/cli/@v/v1.22.17.zip"
+hash = "eb2629ff4d93a527036f0ebb57cf67caa10e97fdd9181740f8877936528bf6a9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/vitrun/qart/@v/v0.0.0-20160531060029-bf64b92db6b0.mod"
+hash = "d04e3acd25b8a6e0ce5870a267bc4cfd2d944286e5879a37988fb4291fba4b92"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/vitrun/qart/@v/v0.0.0-20160531060029-bf64b92db6b0.zip"
+hash = "d1fbed425a37b3e89b091be91aca07baa5bc54935ee4fd92fc0294fd0f108cce"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/willabides/kongplete/@v/v0.4.0.mod"
+hash = "3c9b0faab9b73ce263883614b1b6c82a1305d6c34350c910b1357fa2d3e96200"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/willabides/kongplete/@v/v0.4.0.zip"
+hash = "7c843203aa469f775a2a264b0a675282d5487a6b71fec244db754c92dc476b9f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/wlynxg/anet/@v/v0.0.5.mod"
+hash = "369638e1ee3561f2601ea5552b1df7267cfe3bc68d41955f0d8176eac045ce8b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/wlynxg/anet/@v/v0.0.5.zip"
+hash = "5d6e471ccaa553e0cac56e17f8e44499f99ca1a1e37d80d5fdb3c64d4d50d02a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/yuin/goldmark/@v/v1.2.1.mod"
+hash = "e2c763f861ada05c6150c32f804bca31c96a18b944320e0ee9bbf0d6c6075ad7"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/yusufpapurcu/wmi/@v/v1.2.4.mod"
+hash = "ff2a9c8c99aaed6bc6984eae094a9e8cdc36f6ab2ef2c56779dd98ecc583135b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/github.com/yusufpapurcu/wmi/@v/v1.2.4.zip"
+hash = "c2a0a12203162ef8fd6f65e191aac359823d370e113122cbd8e80711ddc9c1f9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/go.uber.org/goleak/@v/v1.3.0.mod"
+hash = "3f15dc6354aae8fe42d3cbd130230731d5c6aae6aa651ca6a73f4c646cda8fec"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/go.uber.org/goleak/@v/v1.3.0.zip"
+hash = "70edef0ce7d830d992f024e527fd3452069b884f94a27787a718bd68dd620702"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/go.uber.org/mock/@v/v0.5.2.mod"
+hash = "7170d239e6b383d029ceac8ce2c05f32eebce717006ad1aadc161cfb8f828d6f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/go.uber.org/mock/@v/v0.5.2.zip"
+hash = "eb2f59d1ebba968e1c8c8835b326d8ae0e672ee921fe14eb38c85ecb16bd2d32"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v2/@v/v2.4.4.mod"
+hash = "4bba343588a8a81f5cc4884d3d7ac7f5dd612b21af59d3f2ebea37ec476079bb"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v2/@v/v2.4.4.zip"
+hash = "1b98a6a498cf255c5f2982d32c74633bc7969770957e98103ac1e14345aa4576"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.5.mod"
+hash = "4bf9de8891d4d71507d92568022f8241fb828d8d0a6c9204c130bf030f3e3b2f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/go.yaml.in/yaml/v3/@v/v3.0.5.zip"
+hash = "f2d70caa35f66283aec58b889af8c5f07c374c5934be27a738c1215263e19205"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod"
+hash = "33ed070a5a66e0960685ac5386440e1b59899e74d8a38a1180685e72a2195ded"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20191011191535-87dc89f01550.mod"
+hash = "3ab9f01f4610fe7b39bd85d68e8d97825351e7e282c39cda41457c2a276f3be3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20200622213623-75b288015ac9.mod"
+hash = "b2b12d09f81915fbcf4226009e50f9efda8bd3757d2055d8ec07977e65bc6618"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.57.0.mod"
+hash = "93438fc90cca15b1b253be9df648ca54fb80838400239cc294f794ca2f242575"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/crypto/@v/v0.57.0.zip"
+hash = "856c916b92f1fc5b53983c04f6249f632f56c47ebc003bbcdfc503500dfb58b8"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20261007192929-f45ad48fbe92.mod"
+hash = "e537a9ad9d2b7552534beff415d0d8fd7398106fb6ec05e3e1dc0e129d1310bd"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20261007192929-f45ad48fbe92.zip"
+hash = "8b5b884c9cd79170e85dadac046e154e91d07bda10a77dccd9de77c323270347"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.3.0.mod"
+hash = "b288f088fd851885a6d348339e2f588e58a94e6c76e5e634ae1d67c2749eb413"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.41.0.mod"
+hash = "fc5b64ef51fd92f4b8763ebbd6fa95a70069d299c7de0f7c66661ef24283eb0c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/mod/@v/v0.41.0.zip"
+hash = "201e678d0a35b18b246abe58d80017b75d60be21cbaf4cbb9e963b48872565a9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20180906233101-161cd47e91fd.mod"
+hash = "3e08f487ddda1851b891df5b1d04bb1a01b84d6d702aa82d9efbccde0aa7df81"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190404232315-eb5bcb51f2a3.mod"
+hash = "f7046769daac02beb57cbcc481280df59fb403c96fe8262282aba858c7f7fa4d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod"
+hash = "e6efdaf78a29503f080cf6d2615e289cfb1d9e3ab7d570f53668eca2b4ab41da"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20200520004742-59133d7f0dd7.mod"
+hash = "8b201486a1108f485943bf9bb67c78cde9aff4dcba53323bd3e28f2885041e09"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20201021035429-f5854403a974.mod"
+hash = "66fc44a0644a506da780f7a22a5d73dd025d44a6e58740b62d27f74d7c3a4948"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20210428140749-89ef3d95e781.mod"
+hash = "1e74cee537e968696b8c92df8f79a5a7d984cf3e37af4e2132b18b09484ea1be"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220225172249-27dd8689420f.mod"
+hash = "ab9f210e04d1ff7ed7bc31d5ea09f4c577cd5edcfd81840ab8a578a082434b74"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.0.0-20220607020251-c690dde0001d.mod"
+hash = "b315c52647d2da2f76e5cdb9d367e1d6727784236a9bffb612192b19b10a128d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.60.0.mod"
+hash = "f7034587fa012c43de66d8c276ddab161032931abf116a629daa8d66f1c80023"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/net/@v/v0.60.0.zip"
+hash = "052e0453db47a96ae9567503e7c95ea925ab52682cb1cec31250541f7160107e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20180314180146-1d60e4601c6f.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20201020160332-67f06af15bc9.mod"
+hash = "421f6139686d5891f3dc5a563d0995780d3279f65cad4d225cea52686794161c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.23.0.mod"
+hash = "febf4fed5dc12c0de24528f7065bf071cc74a2424070194aaf24617b91066cda"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sync/@v/v0.23.0.zip"
+hash = "c19a11baba5c1a093cb4fd2f6d0d8d79673c97a82cb0fe2d693c9b6ad84f0f82"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20180909124046-d0be0721c37e.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20180926160741-c2ed4eda69e7.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod"
+hash = "8969115e4a39108848324e79a1bd8a8445230e6e3aaccbe9f8057fb50fffc8c1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190412213103-97732733099d.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190904154756-749cb33beabd.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20190916202348-b4ddaad3f8a3.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191005200804-aed5e4c7ecf9.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191120155948-bd437916bb0e.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20191204072324-ce4227a45e2e.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20200323222414-85ca7c5b95cd.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20200930185726-fdedc70b468f.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201119102817-f84b799fce68.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20201204225414-ed752295db88.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210112080510-489259a85091.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210423082822-04245dca01da.mod"
+hash = "181979e8bd57d2d9e064182da86c9a6111aa69755e888f08431ece4742aec343"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20211216021012-1d35b9e2eb4e.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220412211240-33da011f77ad.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220520151302-bc2c85ada10a.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220908164124-27713097b956.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.1.0.mod"
+hash = "f033333096fe198f3151deed93f2deba74e50bbfe7739134045bc3b7ce4a5024"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.48.0.mod"
+hash = "9522f4c9806d1c26586ea80fa56292929bd295865e71981927f52996c6b1c831"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/sys/@v/v0.48.0.zip"
+hash = "3a47e06431ba1e24d5b2aca3a7ce31fd13faff34df3e5d8e63f105ff9d0c1786"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/telemetry/@v/v0.0.0-20260924152758-ed294f943157.mod"
+hash = "b3db3a6093c95190ba4c799a41b18ed8cab5f9d5329e6d327eecd8bb54d7ff76"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/telemetry/@v/v0.0.0-20260924152758-ed294f943157.zip"
+hash = "fd337baf7135f8e4c98ea04830184b23b81bd1f6b86c925f82a7d0fcbb54c971"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20201126162022-7de9c90e9dd1.mod"
+hash = "4cbab14f7706771b271d995a1b3cc131fe5a246aadc7ee6d1ba6f0bd894781fa"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod"
+hash = "740794e2914f5cc87e25656c5843222b2c65665821205f45632a0477c8d3f79b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.0.mod"
+hash = "36879d586fd8001e84da8787190a11e4f78749e2a81dfe8b9b6931899fff31cf"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.3.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.6.mod"
+hash = "fbb7a88ed140515e790eca7a10ffd319c9786b11c6a6c7e59f80f7fb37bb4542"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod"
+hash = "c45d669089427bc4635d07b185f9b9680332d1c48c75b3c49cb715b81a04a5b0"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.42.0.mod"
+hash = "4756c4b8eeeae2a20cb43c198c10701d20c53493bd90b91c6632153c9cbac240"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/text/@v/v0.42.0.zip"
+hash = "a7b64e003056b6470303f408202098d8f3714a115f23091b8cac85edeb265476"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.16.0.mod"
+hash = "da66f925904a97b705fe18dde79496d718dca9af2a755bd31da151a9b1a0eaaa"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/time/@v/v0.16.0.zip"
+hash = "ac27777be8088859ba3b1bea3648064dc95ff8bac3023b1b059d1ab126dc729e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod"
+hash = "a0e02f0678fe62dc3c4b4bc77fa912c9b70de10fa9f7cf2f7aad0337392b52af"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20191119224855-298f0cb1881e.mod"
+hash = "88d479265f886f5e598d76c003d0f257b42dbf1b895d820a12b5ab0b3501aca1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20201224043029-2b0845dc783e.mod"
+hash = "25d72c03e7aa571136087ebafc9e83d004d0bd8cd3864d78c2f5813e122aba81"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.51.0.mod"
+hash = "9b1d543349c9346f85900c656a566d1780d59ff479cf0d888b9516d21ec7df7b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/tools/@v/v0.51.0.zip"
+hash = "176a49a54ed781feb196235cc640f0454884f4e59d0b859ab4ecc9169cde513c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20191011141410-1b5146add898.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20191204190536-9bdfabe68543.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20200804184101-5ec99f83aff1.mod"
+hash = "aa5e3ec9bb7b9f681609efac019d9de1a7ba7719248ff1eaa27e78882db3d7f5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/golang.org/x/xerrors/@v/v0.0.0-20220517211312-f3a8303e98df.mod"
+hash = "c9c44fd53e6ff639e8b06585b3f3d5fee1c27b75f43f85a0ad2b182c3c68db7d"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260819154853-08b0e4226688.mod"
+hash = "c70f2997b3564138e6dc5488dfd93aabe8c6f0fb159b00923504bd85ab15709b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20260819154853-08b0e4226688.zip"
+hash = "b85486c4ee83217f2af7a79a6f19a305d24aa1db4c579bf896029b805664acb9"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20260819154853-08b0e4226688.mod"
+hash = "0e8d084d06c6b1e680b6c9d86b4c9ac5f7e07cd70e624730daafe406e48de062"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20260819154853-08b0e4226688.zip"
+hash = "1ef9df1d981e17c7dc655aadcec493da958c8260fb6e690f77d6d51b22520e63"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v0.0.0-20200109180630-ec00e32a8dfd.mod"
+hash = "a23990efb67ee10bb16d1d1936109cefa4e4262ae3da8d0748efb691614dbb78"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v0.0.0-20200221191635-4d8936d0db64.mod"
+hash = "a6d950dd2a7eb82e51cf459d3f61f614b09d730adb9e8094d5bf96b043f38174"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v0.0.0-20200228230310-ab0ca4ff8a60.mod"
+hash = "3b808d19947fb29e4db24ed5cb88941afc1927f538d80ad6f880ae4664a5d016"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.20.1-0.20200309200217-e05f789c0967.mod"
+hash = "420ec9fba7793b96dff1c5ae9983656e72e1c0bd1d14dda2398aec1b294780ff"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.21.0.mod"
+hash = "a532d488ff1097b330ff2e2929f39ecff8c2fa09dc7650b66ca5430c2d8303fb"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.23.0.mod"
+hash = "394a49462cbf6dca4dd86f3cf0e8ddcbb9adc9397f73e82fecae54c79e9e4d53"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.26.0-rc.1.mod"
+hash = "b2c4fe1a66ff5be6eb7c0c5388f080d08821c327ac5cf975dee51d8b0fb49e9f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.26.0.mod"
+hash = "08ec2e20f38efcb651462800069ece4891e252a261007fa9d5a1b157f516ee5f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.mod"
+hash = "a75c105a852fbd8da8d8cfac09c2eab9a206cfd27ed37c973737e23f632ca96e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.12.zip"
+hash = "68f8a3174aff42950fd9bd02c11b45c6986eb8060508d124d1c3dd6bf86b9be6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod"
+hash = "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/fsnotify.v1/@v/v1.4.7.mod"
+hash = "25e8db5f993b882b3c6ef286c481937ea5d527df3a92051fd9e4b29b716dbfbc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.mod"
+hash = "3663081d0d18fd2eccbdbe45e90193d3194d587441f7afafb33674d68702e0aa"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/tomb.v1/@v/v1.0.0-20141024135613-dd632973f1e7.zip"
+hash = "34898dc0e38ba7a792ab74a3e0fa113116313fd9142ffb444b011fd392762186"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.2.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.4.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.2.8.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.3.0.mod"
+hash = "88d979d2f093d2397f756bc86efa2ca03f73a60d668ceb391b3510029f3f7cfc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.mod"
+hash = "c3b11ba9a0775ff9bc6f11dbb58a1e48cc1e68bac378a8cdc620becc661d4c33"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v2/@v/v2.4.0.zip"
+hash = "ede49e27c4cca6cdd2ec719aed8ea4d363710cceb3d411e7a786fbdec0d391fd"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.0-20200313102051-9f266ea9e77c.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.mod"
+hash = "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/gopkg.in/yaml.v3/@v/v3.0.1.zip"
+hash = "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/cc/v4/@v/v4.29.7.mod"
+hash = "bfa286bbbafa4144f3db3cc3c65716d29e5110165283adc563f66743aec9f661"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/cc/v4/@v/v4.29.7.zip"
+hash = "8344e4b38127b72f0b8ca4efe6f063dee0c22e1cf295f1e84861ed4f653eb95f"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/ccgo/v4/@v/v4.36.1.mod"
+hash = "3dcb29077cefc21b20ec8b4a8351d7a655272cdb8c7d3d1dbfe4dc6cfba3bab7"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/ccgo/v4/@v/v4.36.1.zip"
+hash = "fa86906602ed706468f414e365a051e11415df760a5e7f96fde93b20826db1eb"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/fileutil/@v/v1.4.0.mod"
+hash = "6ef732867ea97f4cd80792f8b97675b2e3f4ec72fe05b179b9d90e7f734e027a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/fileutil/@v/v1.4.0.zip"
+hash = "521c4c8778420b7cf8e72cc3e7dea296989bf651fde511e6919939af8424b6c3"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/gc/v2/@v/v2.6.5.mod"
+hash = "857e68c70d2ad2e55ce2226a54180f0bbfb299d08b4d4bef7dabf4a14879a2dc"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/gc/v2/@v/v2.6.5.zip"
+hash = "81acefe8212e783eaca4d33554acce0ee60b3ce060071f96047b922e1214e2f5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/gc/v3/@v/v3.1.5.mod"
+hash = "9d69e5e459810daf7124a45cdc9d3d4516a0eb60b4f5002d24f34ee478847ed5"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/gc/v3/@v/v3.1.5.zip"
+hash = "5be870b95b633ddbc163a0d4b99b96f5a9ff6e8bbfcb4c040971b354248cb4f7"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/goabi0/@v/v0.2.0.mod"
+hash = "b2d18d6a900923c55c9bb8dcbb327ea9dab29fa1b356ccccf0cd398462e87725"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/goabi0/@v/v0.2.0.zip"
+hash = "b6f4bb78a21d826d1c4933a3ea4c8b9939a61391c289aeb45f5f53929ab9827a"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/libc/@v/v1.77.1.mod"
+hash = "eeeb66d6d1e0bfd058a004b4a3f99827dee70c6d65e58e2bc9e8385c5bc362fd"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/libc/@v/v1.77.1.zip"
+hash = "82bd4796a07426308b138699c1d1bfa0f47acd6b3ce91cf765bd21f2274e417b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/mathutil/@v/v1.7.1.mod"
+hash = "68683385203fe0204d853bae60003c336716d2526e7149bf58f51815a2479fd8"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/mathutil/@v/v1.7.1.zip"
+hash = "5be0da18eb557a1198bfe370e37022f2dbdb9cdc5d63130fc8e8330ab240bd2e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/memory/@v/v1.12.1.mod"
+hash = "e9890d3b9794d40a3703aa9809edc4e131cbb55a2831b602314076e91c5ace97"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/memory/@v/v1.12.1.zip"
+hash = "e25588f100d976fb75ff91edb8b4ea6ed837d67ff5aa5d42e6a8893fb30790ac"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/opt/@v/v0.2.0.mod"
+hash = "69f60162693ccdfa5b89a85451a85f3721ac5162e9fb00e4f2f2af5631ed39a6"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/opt/@v/v0.2.0.zip"
+hash = "e8629d448ebc94f7143c5ff3fb981a099a5ea173958770f4b9a36b27c27eec43"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/sortutil/@v/v1.2.1.mod"
+hash = "652b6c4908a8d7b6babf529daa7b0691112124fa2cf59604b7860391d38d8e26"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/sortutil/@v/v1.2.1.zip"
+hash = "9e1de659d552156ce018f31eb88ff879d82c406fd4746b9a1131e0f89c6d1ee1"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/sqlite/@v/v1.60.1.mod"
+hash = "249a9230a78e49f8648b2f722371085b2b77505dc417e7e680824882a9e2b89b"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/sqlite/@v/v1.60.1.zip"
+hash = "60b6851c02b568c7ffb2b33599ef5a7e0ade9e48ebe1cf7265f1bfa831ab2ec0"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/strutil/@v/v1.2.1.mod"
+hash = "85771745c7851d4ea16a41bf69eea1551cec1928af079735468ff9b59ba92c28"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/strutil/@v/v1.2.1.zip"
+hash = "5b8fa61ca4141c5fd82183fad4bc7a45af8237b6fb1dfca65ce7960a03c483c4"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/token/@v/v1.1.0.mod"
+hash = "7af3b35ced52ead4b0ed0e22101d95bc0061d20e13dd0d9aa0716164a8f5db1c"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/modernc.org/token/@v/v1.1.0.zip"
+hash = "3efaa49e9fb10569da9e09e785fa230cd5c0f50fcf605f3b5439dfcd61577c58"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/yaml/@v/v1.6.0.mod"
+hash = "4e3c3c1d49a6652440ff70fb475e54ae46be2cab63cc46721b3c02fd9cca985e"
+
+[[syncthing.sources]]
+url = "https://proxy.golang.org/sigs.k8s.io/yaml/@v/v1.6.0.zip"
+hash = "cf88648a471581817b00a42ee8d24fd73eb0e3503998cf46d8e63787e11e5052"
