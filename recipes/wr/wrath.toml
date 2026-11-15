@@ -4,12 +4,16 @@ scope = "runtime"
 deps = ["rust-bin"]
 sources = [{ url = "tree:@wrath", include = ["Cargo.toml", "Cargo.lock", "crates"] }]
 smoke = ["bin/wrath --version", "bin/wrath-agent --help"]
+# Its own source comes along in share/wrath, beside the program, so wrath on a machine has the
+# tree it was built from, and finds its key and its work directory from it.
+whole = true
 
 [package.cargo]
 packages = ["wrath-cli", "wrath-agent"]
 programs = ["wrath", "wrath-agent"]
 install = '''
 mkdir -p $DEST$PREFIX/share/wrath $DEST$PREFIX/lib/systemd/system
+cp -r Cargo.toml Cargo.lock crates $DEST$PREFIX/share/wrath/
 cat > $DEST$PREFIX/lib/systemd/system/wrath-agent.service <<UNIT
 [Unit]
 Description=wrath test harness agent
