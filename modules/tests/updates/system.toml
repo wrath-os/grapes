@@ -4,3 +4,6 @@ hostname = "box"
 [updates]
 from = "github:johnae/machines//framework"
 automatic = "daily"
+
+[services.ssh]
+enable = true
