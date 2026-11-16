@@ -279,6 +279,12 @@
 
 - `units`: a table whose values are each any value, default {}. systemd units by name, each with its sections, such as `Service.ExecStart`. A timer starts with the machine unless it has an `Install` section.
 
+### updates
+
+- `updates.automatic`: a string, optional. When to upgrade from `updates.from` on its own, as a systemd calendar time such as `daily`, spread over an hour so machines don't all fetch at once.
+- `updates.from`: a string, optional. Where machines running this configuration upgrade from, such as `github:owner/repo//dir`. `wrath apply` with no configuration given fetches the newest commit there.
+- `updates.switch`: one of "auto", "now", "boot", default "auto". What an automatic upgrade does: `now` switches, `boot` makes it the system booted next, and `auto` switches when every change takes effect live or at the next login, and otherwise waits for the next boot.
+
 ### user-services
 
 - `users.<name>.services.<name>.autostart`: a boolean, default true. Whether it starts on its own: with the session for a home, with `wrath up` for a project. Otherwise it's started by hand.

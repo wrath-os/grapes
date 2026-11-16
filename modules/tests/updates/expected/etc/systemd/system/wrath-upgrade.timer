@@ -1,0 +1,11 @@
+[Unit]
+Description=Upgrade from github:johnae/machines//framework daily
+
+[Timer]
+FixedRandomDelay=yes
+OnCalendar=daily
+Persistent=yes
+RandomizedDelaySec=1h
+
+[Install]
+WantedBy=timers.target

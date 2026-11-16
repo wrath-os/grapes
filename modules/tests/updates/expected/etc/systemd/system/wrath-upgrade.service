@@ -1,0 +1,8 @@
+[Unit]
+After=network-online.target
+Description=Upgrade from github:johnae/machines//framework
+Wants=network-online.target
+
+[Service]
+ExecStart=/run/system/bin/wrath apply --automatic
+Type=oneshot
