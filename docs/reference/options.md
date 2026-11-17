@@ -282,6 +282,7 @@
 ### updates
 
 - `updates.automatic`: a string, optional. When to upgrade from `updates.from` on its own, as a systemd calendar time such as `daily`, spread over an hour so machines don't all fetch at once.
+- `updates.build`: a boolean, default true. Whether an automatic upgrade builds what no cache has. With `false` it waits, and upgrades once a cache has everything, which suits a machine that builds slowly or can't build at all.
 - `updates.from`: a string, optional. Where machines running this configuration upgrade from, such as `github:owner/repo//dir`. `wrath apply` with no configuration given fetches the newest commit there.
 - `updates.switch`: one of "auto", "now", "boot", default "auto". What an automatic upgrade does: `now` switches, `boot` makes it the system booted next, and `auto` switches when every change takes effect live or at the next login, and otherwise waits for the next boot.
 

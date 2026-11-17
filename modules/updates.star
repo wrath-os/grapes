@@ -80,6 +80,13 @@ module(
                   "system booted next, and `auto` switches when every change takes effect " +
                   "live or at the next login, and otherwise waits for the next boot.",
         ),
+        "updates.build": option(
+            types.bool,
+            default = True,
+            doc = "Whether an automatic upgrade builds what no cache has. With `false` it " +
+                  "waits, and upgrades once a cache has everything, which suits a machine " +
+                  "that builds slowly or can't build at all.",
+        ),
     },
     writes = ["security.pam.services.login.session", "security.pam.services.sshd.session"],
     render = render,
