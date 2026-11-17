@@ -285,6 +285,7 @@
 - `updates.build`: a boolean, default true. Whether an automatic upgrade builds what no cache has. With `false` it waits, and upgrades once a cache has everything, which suits a machine that builds slowly or can't build at all.
 - `updates.from`: a string, optional. Where machines running this configuration upgrade from, such as `github:owner/repo//dir`. `wrath apply` with no configuration given fetches the newest commit there.
 - `updates.switch`: one of "auto", "now", "boot", default "auto". What an automatic upgrade does: `now` switches, `boot` makes it the system booted next, and `auto` switches when every change takes effect live or at the next login, and otherwise waits for the next boot.
+- `updates.token`: an absolute path or one starting with `~/`, optional. A GitHub token that can read `updates.from`, and the private sources its lock pins, such as `{ secret = "github-token" }`. Without it, upgrades use `GH_TOKEN` or the token `gh` is logged in with.
 
 ### user-services
 

@@ -80,6 +80,14 @@ module(
                   "system booted next, and `auto` switches when every change takes effect " +
                   "live or at the next login, and otherwise waits for the next boot.",
         ),
+        "updates.token": option(
+            types.path,
+            optional = True,
+            runtime = True,
+            doc = "A GitHub token that can read `updates.from`, and the private sources its " +
+                  "lock pins, such as `{ secret = \"github-token\" }`. Without it, upgrades " +
+                  "use `GH_TOKEN` or the token `gh` is logged in with.",
+        ),
         "updates.build": option(
             types.bool,
             default = True,
