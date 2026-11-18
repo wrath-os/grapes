@@ -4,8 +4,8 @@
 
 SCHEMES = ["github:", "https://", "path:"]
 
-# What wrath says about the last automatic upgrade when it failed or paused, shown as people log
-# in. It isn't there when there's nothing to say.
+# What wrath says about the last automatic upgrade when it failed, shown as people log in. It
+# isn't there when there's nothing to say.
 NOTICE = "/wrath/system/notice"
 
 def render(ctx: Context) -> None:
