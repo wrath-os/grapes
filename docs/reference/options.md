@@ -18,6 +18,7 @@
 ### base-system
 
 - `journal.persistent`: a boolean, default true. Keep the journal on disk, across boots, rather than in memory.
+- `system.console_autologin`: a string, optional. A user logged in without a password on the screen's consoles, such as `root` on an installer. Anyone at the machine gets that user, so leave it unset elsewhere.
 - `system.id`: a string, default "wrath". The system's id in `/etc/os-release`, lowercase, such as `acme`.
 - `system.keymap`: a string, optional. The keyboard layout on the console, such as `sv-latin1`.
 - `system.locale`: a string, default "C.UTF-8". The machine's language and formats, such as `en_US.UTF-8`.

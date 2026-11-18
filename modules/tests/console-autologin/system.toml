@@ -1,0 +1,4 @@
+# A console that logs in root by itself, as on an installer; the serial console still asks.
+[system]
+hostname = "box"
+console_autologin = "root"

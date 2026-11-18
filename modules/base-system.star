@@ -183,7 +183,12 @@ def render(ctx: Context) -> None:
         next_login = True,
     )
 
-    getty(ctx, "getty@.service", "--noreset --noclear")
+    # Only on the screen's consoles: the serial one stays a login, as anything can be wired to it.
+    autologin = ctx.read("system.console_autologin")
+    console = "--noreset --noclear"
+    if autologin:
+        console += " --autologin " + autologin
+    getty(ctx, "getty@.service", console)
     getty(ctx, "serial-getty@.service", "--noreset --noclear --keep-baud 115200,57600,38400,9600")
 
 module(
@@ -198,6 +203,12 @@ module(
             types.str,
             optional = True,
             doc = "The keyboard layout on the console, such as `sv-latin1`.",
+        ),
+        "system.console_autologin": option(
+            types.str,
+            optional = True,
+            doc = "A user logged in without a password on the screen's consoles, such as `root` on " +
+                  "an installer. Anyone at the machine gets that user, so leave it unset elsewhere.",
         ),
         "journal.persistent": option(
             types.bool,
