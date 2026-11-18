@@ -2,7 +2,7 @@
 Type=wlan
 
 [Link]
-RequiredForOnline=no
+RequiredForOnline=routable
 
 [Network]
 DHCP=yes

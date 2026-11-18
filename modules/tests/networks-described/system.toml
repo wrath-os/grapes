@@ -1,0 +1,14 @@
+# A server that describes its networks: it needs the public one, and can do without the
+# management one, and is online once every network it needs is up.
+[system]
+hostname = "box"
+
+[networking.networks.public]
+match = ["enp1s0"]
+
+[networking.networks.management]
+match = ["enp2s0"]
+required_for_online = false
+
+[networking.networks.public.sections.Network]
+Address = "192.0.2.10/24"

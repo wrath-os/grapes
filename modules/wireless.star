@@ -20,8 +20,9 @@ def render(ctx: Context) -> None:
     ctx.file(NETWORK, formats.systemd({
         "Match": {"Type": "wlan"},
         "Network": {"DHCP": "yes", "IgnoreCarrierLoss": "3s"},
-        # Wifi joins networks when there are any, and doesn't hold up booting when there aren't.
-        "Link": {"RequiredForOnline": False},
+        # A network the machine is online through, as a wired one is: waiting for the network
+        # waits for either. Booting doesn't wait for it.
+        "Link": {"RequiredForOnline": "routable"},
     }))
     ctx.reload("systemd-networkd.service", on = [NETWORK])
 

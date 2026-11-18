@@ -21,6 +21,11 @@ network = types.record(
         optional = True,
         doc = "How long to keep the configuration when the link drops, such as `3s`.",
     ),
+    required_for_online = option(
+        types.bool,
+        default = True,
+        doc = "Whether the machine needs this network to count as online.",
+    ),
     sections = types.map(types.map(types.str)),
 )
 
@@ -35,6 +40,8 @@ def render_network(ctx: Context, name: str, cfg: dict[str, typing.Any]) -> str:
         "Match": {"Name": cfg["match"]},
         "Network": {"DHCP": cfg["dhcp"], "IPv6PrivacyExtensions": cfg["ipv6_privacy"]},
     }
+    if not cfg["required_for_online"]:
+        sections["Link"] = {"RequiredForOnline": False}
     if "accept_ra" in cfg:
         sections["Network"]["IPv6AcceptRA"] = cfg["accept_ra"]
     if "ignore_carrier_loss" in cfg:

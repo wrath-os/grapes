@@ -159,7 +159,12 @@
 - `networking.networks.<name>.ipv6_privacy`: a boolean, default false. Use temporary IPv6 addresses.
 - `networking.networks.<name>.match`: a list of items that are each a string, required. Interface names to configure; globs like `enp*` work.
 - `networking.networks.<name>.priority`: an integer from 0 to 99, default 50. Orders the file among others; the first file matching an interface applies.
+- `networking.networks.<name>.required_for_online`: a boolean, default true. Whether the machine needs this network to count as online.
 - `networking.networks.<name>.sections.<name>`: a table whose values are each a string, required.
+
+### networkd
+
+- `networking.online`: one of "all", "any", optional. When the machine counts as online, for what waits for the network: once `all` the networks it needs are up, or `any` one of them. The default is `any` with DHCP on every wired interface, and `all` with networks described one by one.
 
 ### nginx
 
