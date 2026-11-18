@@ -11,5 +11,11 @@ def render(ctx: Context) -> None:
     ctx.enable("pipewire-pulse.socket", user = True)
     ctx.enable("wireplumber.service", user = True)
     ctx.enable("pipewire.service", user = True, wanted_by = "default.target")
+    # PipeWire doesn't run for root, whose manager starts when something runs as root, so
+    # WirePlumber, bound to it, doesn't either: otherwise it fails there each time.
+    ctx.file(
+        "/etc/systemd/user/wireplumber.service.d/not-root.conf",
+        formats.systemd({"Unit": {"ConditionUser": "!root"}}),
+    )
 
 module(name = "audio", options = {}, writes = [], render = render)

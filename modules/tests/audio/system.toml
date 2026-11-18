@@ -1,0 +1,6 @@
+# Audio for users, whose session manager stays out of root's user manager as PipeWire does.
+[system]
+hostname = "box"
+
+[audio]
+enable = true
