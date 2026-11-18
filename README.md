@@ -1,6 +1,6 @@
-The packages and modules [wrath](https://github.com/wrath-os/wrath) systems are made of: a
-recipe for every package, the build styles recipes use, and the Starlark modules that turn a
-configuration into a system.
+Everything a [wrath](https://github.com/wrath-os/wrath) system is made of: a recipe for every
+package, the build styles those recipes use, and the Starlark modules that turn a configuration
+into a running system.
 
 ```toml
 # your system.toml: packages from grapes, and its modules, without naming either
@@ -10,27 +10,37 @@ packages = ["ripgrep", "ghostty"]
 enable = true
 ```
 
-A configuration pins grapes in its lock like any source, so `wrath update grapes` moves it
-forward and a rollback takes it back with the rest of the system. It isn't published yet, so for
-now clone it beside [wrath](https://github.com/wrath-os/wrath) and give wrath the checkout with
-`--source grapes=../grapes` or `WRATH_GRAPES`.
+You don't have to install grapes or point at it. A configuration pins it in its lock like any
+other source, so `wrath update grapes` moves you forward and `wrath rollback` takes you back,
+packages and modules along with the rest of the system.
+
+## What's in here
+
+- About 370 packages: a niri desktop, development tools, servers and the usual command line
+  things. Each recipe is a short TOML file with its sources pinned in a lock next to it, and
+  everything builds from source in wrath's sandbox.
+- Around 50 modules for users, services, disks, networking, audio, the desktop and more, each
+  with its own tests. Every option they declare is listed in
+  [docs/reference/options.md](docs/reference/options.md).
+- A seed, the small toolchain everything else is built from.
 
 ## Working on it
 
-Build a package from a checkout, or point a configuration at one:
+Clone it next to wrath and build a package from your checkout, or point a configuration at it:
 
 ```sh
-wrath build ripgrep --check
+wrath --source grapes=. build ripgrep --check
 wrath -C ~/machines/laptop plan --source grapes=.
 ```
 
-- `recipes/`: a file per package or family, such as `recipes/jq/jq.toml`, with the lock pinning
-  its sources beside it; see
+- `recipes/`: a file per package or family, such as `recipes/jq/jq.toml`; see
   [recipes and styles](https://github.com/wrath-os/wrath/blob/main/docs/recipes.md).
 - `styles/`: how recipes build, such as meson, cargo or zig.
-- `modules/`: the modules, with their tests in `modules/tests`; `wrath dev test modules/tests`.
+- `modules/`: the modules, with their tests in `modules/tests`; run them with
+  `wrath dev test modules/tests`.
 - `seed.pin`: what the toolchain starts from.
-- [docs/reference/options.md](docs/reference/options.md): every option the modules declare,
-  written by `wrath dev docs`.
-- [docs/packaging-findings.md](docs/packaging-findings.md): what went wrong packaging, and what
-  would prevent it.
+- [docs/packaging-findings.md](docs/packaging-findings.md): what went wrong while packaging, and
+  what would stop it happening again.
+
+Adding a package is usually one small file. If something you want is missing, a recipe is the
+best place to start.
