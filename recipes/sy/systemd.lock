@@ -1,9 +1,13 @@
 [systemd]
 style = "meson"
-record = "3d785f99c44a58871fe9a76da31767a59d1e2ec5d2c20c6754ee808b734d8754"
-from = "3c45a68b4cac48456f59e01a55a7ff9731917f015541517e82a1f4eff24b5998"
+record = "895297224b4e82208a688f4aaaca3c874caf7498e957899ae6e86b77718b77f6"
+from = "3ce6b8b10b56696a185c97c8f7db50bb0bc0e5523bee674abe345fa7968e5f10"
 deps = []
 
 [[systemd.sources]]
 url = "https://github.com/systemd/systemd/archive/v257.8/systemd-257.8.tar.gz"
 hash = "f280278161446fe3838bedb970c7b3998043ad107f7627735a81483218c6f6f9"
+
+[[systemd.sources]]
+url = "https://github.com/systemd/systemd/archive/v262.2/systemd-262.2.tar.gz"
+hash = "116432ee9dce9bfef4c7da7963c6de41899ab44197f2876ee99545707a5c7c1f"

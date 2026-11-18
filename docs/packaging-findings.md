@@ -559,6 +559,28 @@ style (Starlark), the builder (Rust), or the recipe.
 - **Belongs in:** the builder.
 - **Status:** open.
 
+### A new release makes a program a feature, and the recipe leaves it out
+- **Seen in:** systemd 262, which made libmount and nspawn features. The recipe builds with
+  `--auto-features=disabled`, so `systemd-cryptsetup` (which now needs libmount) and
+  `systemd-nspawn` weren't built, and nothing failed.
+- **What happened:** only the smoke check for `systemd-cryptsetup` noticed; `systemd-nspawn`
+  went unnoticed until the two releases' files were compared.
+- **What we did:** `-D libmount=enabled` and `-D nspawn=enabled`.
+- **What would prevent it:** a version bump that compares what the package installs with what the
+  release before installed, and lists programs that went, for a person to say they were meant to.
+- **Belongs in:** the tool, with a bump command.
+- **Status:** open.
+
+### A recipe's sed stops matching in a new release
+- **Seen in:** systemd 262, where swap units run `/usr/sbin/swapon`: the recipe's `sed` for
+  `"/sbin/swapon"` matched nothing, so swap on zram failed at boot, and the build didn't notice.
+- **What we did:** 262 has `-D swapon-path`, `-D swapoff-path` and `-D agetty-path`, which the recipe
+  sets instead of patching the source.
+- **What would prevent it:** an option the project has, where it has one; otherwise a substitution
+  that fails the build when it changes nothing, rather than a bare `sed -i`.
+- **Belongs in:** the recipes, and perhaps a helper the styles give scripts.
+- **Status:** open.
+
 ## Working on recipes
 
 - Don't edit a set while a build is running from it. Styles load once per process, so a build
