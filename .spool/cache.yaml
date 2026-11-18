@@ -1,0 +1,66 @@
+# Builds every package grapes has a recipe for, at the pushed commit, and publishes what it built
+# to the public cache, so machines whose lock pins this commit fetch instead of building.
+#
+# It runs on an agent that advertises `wrath-builder`: a Linux machine with wrath on its PATH,
+# bubblewrap with user namespaces, and room for a store, where the agent sets:
+#
+#   WRATH_ROOT      a checkout of wrath, whose build/work holds the store; it stays between runs,
+#                   so a push only builds what it changed
+#   WRATH_CI_DIR    where the checkout goes and the cache is pushed to, in `cache`, before it's
+#                   synced to R2
+#
+# and these project secrets (`spool secret set`):
+#
+#   WRATH_CACHE_KEY       the cache's signing key, as `wrath cache key` wrote it
+#   R2_ACCOUNT_ID         the Cloudflare account the bucket is in
+#   R2_BUCKET             the bucket
+#   AWS_ACCESS_KEY_ID     an R2 API token's key id, which can write to the bucket
+#   AWS_SECRET_ACCESS_KEY its secret
+#
+# The sync needs the AWS CLI. What it uploads goes in an order a machine can rely on: store paths
+# and seeds first, then the traces that name them.
+name: grapes-cache
+tags: [wrath]
+# A newer push makes an older run's packages old news: what it built stays in the store.
+concurrency:
+  group: grapes-cache
+  policy: cancel-running
+env:
+  SHA: "${{ input == null ? '' : (has(input.sha) ? input.sha : '') }}"
+jobs:
+  publish:
+    requires: [wrath-builder]
+    # A world build from nothing takes hours; one after a push, minutes.
+    timeout: 24h
+    steps:
+      - name: checkout
+        run: |
+          set -euo pipefail
+          checkout="${WRATH_CI_DIR:?}/grapes"
+          rm -rf "$checkout"
+          git clone --quiet https://github.com/wrath-os/grapes.git "$checkout"
+          if [ -n "${SHA:-}" ]; then
+            git -C "$checkout" checkout --quiet "$SHA"
+          fi
+          echo "building grapes at $(git -C "$checkout" rev-parse --short HEAD)"
+      - name: build and publish
+        run: |
+          set -euo pipefail
+          : "${WRATH_ROOT:?}" "${WRATH_CI_DIR:?}" "${WRATH_CACHE_KEY:?}"
+          checkout="$WRATH_CI_DIR/grapes"
+          cache="$WRATH_CI_DIR/cache"
+          status=0
+          wrath --source "grapes=$checkout" build --all >/dev/null || status=$?
+          # What built is published even when something didn't, which fails the run after.
+          key="$(mktemp)"
+          trap 'rm -f "$key"' EXIT
+          printf '%s\n' "$WRATH_CACHE_KEY" > "$key"
+          wrath cache push "$cache" --key "$key"
+          r2="https://${R2_ACCOUNT_ID:?}.r2.cloudflarestorage.com"
+          for part in paths seed traces; do
+            if [ -d "$cache/$part" ]; then
+              aws s3 sync --only-show-errors --endpoint-url "$r2" \
+                "$cache/$part" "s3://${R2_BUCKET:?}/$part"
+            fi
+          done
+          exit "$status"
