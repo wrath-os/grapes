@@ -23,7 +23,14 @@ def kernel_params(ctx: Context, boot: dict[str, typing.Any]) -> list[str]:
 
 def render(ctx: Context) -> None:
     boot = ctx.read("boot")
-    ctx.base("boot", {"loader": boot["loader"], "kernel_params": kernel_params(ctx, boot)})
+    ctx.base("boot", {
+        "loader": boot["loader"],
+        "kernel_params": kernel_params(ctx, boot),
+        "secure_boot": boot["secure_boot"],
+    })
+    if boot["secure_boot"]:
+        # The switch decrypts the machine's Secure Boot keys with it.
+        ctx.package("age")
     ctx.base("networking", {
         "dhcp": ctx.read("networking.dhcp"),
         "resolved": ctx.read("networking.resolved"),
@@ -47,6 +54,12 @@ module(
         "boot": types.record(
             loader = option(types.one_of(["systemd-boot"]), default = "systemd-boot"),
             kernel_params = option(types.list(types.str)),
+            secure_boot = option(
+                types.bool,
+                default = False,
+                doc = "Sign what the machine boots with its own keys, which `wrath secret machine` " +
+                      "makes, and enroll them when its firmware is in setup mode.",
+            ),
         ),
         "networking.dhcp": option(
             types.bool,

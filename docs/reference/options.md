@@ -9,6 +9,7 @@
 - `audio.enable`: a boolean, default false. Run PipeWire for users.
 - `boot.kernel_params`: a list of items that are each a string, default [].
 - `boot.loader`: one of "systemd-boot", default "systemd-boot".
+- `boot.secure_boot`: a boolean, default false. Sign what the machine boots with its own keys, which `wrath secret machine` makes, and enroll them when its firmware is in setup mode.
 - `desktop.autologin`: a string, optional. Start the session for this user at boot without a login.
 - `desktop.session`: one of "niri", optional. The graphical session greetd starts.
 - `desktop.shell`: one of "noctalia", optional. The desktop shell around the compositor: its bar, launcher, notifications and lock screen.
