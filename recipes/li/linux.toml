@@ -37,6 +37,8 @@ scripts/config --module DRM_AMDGPU --enable DRM_AMD_DC --enable HSA_AMD
 scripts/config --enable VSOCKETS --enable VIRTIO_VSOCKETS --enable MD --enable BLK_DEV_DM \
     --enable DM_CRYPT --enable CRYPTO_XTS --enable CRYPTO_AES_NI_INTEL --enable TCG_TPM \
     --enable TCG_TIS --enable TCG_CRB
+# The firmware's TPM event log, which shows what it measured, such as cards' own firmware.
+scripts/config --enable SECURITYFS
 # Installs put the store and what's kept on btrfs subvolumes.
 scripts/config --enable BTRFS_FS --enable BTRFS_FS_POSIX_ACL --enable CRYPTO_CRC32C
 # Modules configurations ask for by name, and the Framework Desktop's wifi.
