@@ -581,6 +581,18 @@ style (Starlark), the builder (Rust), or the recipe.
 - **Belongs in:** the recipes, and perhaps a helper the styles give scripts.
 - **Status:** open.
 
+### A kernel option is a module that nothing loads
+- **Seen in:** linux 7.3 on the Framework Desktop, where `x86_64_defconfig` makes efivarfs a module.
+  systemd mounts it before anything loads modules, so `/sys/firmware/efi/efivars` stayed empty,
+  and `bootctl` and `wrath unlock enroll` read Secure Boot as off. securityfs wasn't there at
+  all, so the firmware's TPM event log couldn't be read.
+- **What we did:** `--enable EFIVAR_FS` and `--enable SECURITYFS`, built in, and a scenario step
+  that reads both.
+- **What would prevent it:** a scenario that checks the filesystems systemd mounts early are
+  there, on firmware like the real machines'.
+- **Belongs in:** the kernel recipe and the Secure Boot scenarios.
+- **Status:** done.
+
 ## Working on recipes
 
 - Don't edit a set while a build is running from it. Styles load once per process, so a build
