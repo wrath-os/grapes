@@ -32,7 +32,11 @@ def render(ctx: Context) -> None:
         )
     if secrets:
         ctx.package("age")
-    ctx.base("secrets", {"identities": ctx.read("system.secret_identities")})
+    ctx.base("secrets", {
+        "identities": ctx.read("system.secret_identities"),
+        # Who else may read what the machine keeps for them, such as its disks' recovery keys.
+        "recipients": ctx.read("system.secret_recipients"),
+    })
 
 module(
     name = "secrets",

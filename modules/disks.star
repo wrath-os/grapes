@@ -72,6 +72,24 @@ ssh = types.record(
     ),
 )
 
+recovery = types.record(
+    keep = option(
+        types.one_of(["esp", "print", "none"]),
+        default = "esp",
+        doc = "Where the recovery keys go. `esp`: encrypted to `system.secret_recipients` but " +
+              "the machine, on the boot partition, where `wrath unlock recovery-key` reads them " +
+              "with an admin's key, and shown once. `print`: shown once, kept nowhere. `none`: " +
+              "no recovery key.",
+    ),
+    command = option(
+        types.list(types.str),
+        default = [],
+        doc = "A program that takes the recovery keys instead, on its standard input as " +
+              "`NAME KEY` lines, with the machine's name as its argument: a password manager's, " +
+              "a vault's.",
+    ),
+)
+
 unlock = types.record(
     tpm2 = option(
         types.bool,
@@ -95,6 +113,12 @@ unlock = types.record(
         ssh,
         default = {},
         doc = "Unlock over SSH in the initrd, with the machine's initrd key.",
+    ),
+    recovery = option(
+        recovery,
+        default = {},
+        doc = "A recovery key for each encrypted disk, made at install and by " +
+              "`wrath unlock recovery`, which unlocks it wherever a passphrase is asked for.",
     ),
 )
 
@@ -264,6 +288,10 @@ def render(ctx: Context) -> None:
     formats_used = [p["format"] for p in partitions] + [fs["format"] for fs in spanning]
     if any([p["encrypt"] for p in partitions]):
         ctx.package("cryptsetup")
+        # What the recovery keys are encrypted with, for the admins.
+        recovery = ctx.read("unlock")["recovery"]
+        if recovery["keep"] == "esp" and not recovery["command"]:
+            ctx.package("age")
     if "btrfs" in formats_used:
         ctx.package("btrfs-progs")
     if "vfat" in formats_used:
