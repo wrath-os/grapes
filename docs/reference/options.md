@@ -59,6 +59,7 @@
 - `state.path`: an absolute path or one starting with `~/`, optional. A mount to keep things in. With this, `/` is erased at every boot.
 - `state.root_size`: a string, default "25%". How much memory `/` can use, as a size or a share of memory.
 - `unlock.pcrs`: a list of items that are each an integer, default [7]. The TPM measurements unlocking depends on; 7 is the Secure Boot state.
+- `unlock.pin`: a boolean, default false. Ask for a PIN along with the TPM at boot, so the disks' key can't be had from the TPM alone. `wrath install` and `wrath unlock enroll` ask for it, or take `$NEWPIN`.
 - `unlock.ssh.authorized_keys`: a list of items that are each a string, default []. Public keys allowed to log in to the initrd and unlock the disks. Without any, the initrd has no SSH.
 - `unlock.ssh.port`: an integer, default 2222.
 - `unlock.tpm2`: a boolean, default false. Enroll the machine's TPM at install, so its disks unlock without a passphrase while the PCRs in `pcrs` stay the same.

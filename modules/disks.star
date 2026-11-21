@@ -84,6 +84,13 @@ unlock = types.record(
         default = [7],
         doc = "The TPM measurements unlocking depends on; 7 is the Secure Boot state.",
     ),
+    pin = option(
+        types.bool,
+        default = False,
+        doc = "Ask for a PIN along with the TPM at boot, so the disks' key can't be had from the " +
+              "TPM alone. `wrath install` and `wrath unlock enroll` ask for it, or take " +
+              "`$NEWPIN`.",
+    ),
     ssh = option(
         ssh,
         default = {},
