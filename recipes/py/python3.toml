@@ -11,6 +11,8 @@ py_cv_module__curses=n/a py_cv_module__curses_panel=n/a \
 ./configure --prefix=$PREFIX --enable-shared --without-ensurepip --with-system-expat
 make -j$NPROC
 make install DESTDIR=$DEST
+# The header for the curses module, which isn't built, includes ncurses' own.
+rm $DEST$PREFIX/include/python3.13/py_curses.h
 '''
 smoke = [
   "bin/python3 -c 'import ssl, zlib, bz2, lzma, readline, pyexpat'",

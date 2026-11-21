@@ -110,8 +110,9 @@ style (Starlark), the builder (Rust), or the recipe.
   It also scans the headers it installed for `#include <...>`, and when one comes from a
   dependency the `.pc` doesn't require, it propagates that dependency or warns that it should be.
 - **Belongs in:** the builder, beside what `requires.rs` does now.
-- **Status:** checked: a build warns about a header including what its package doesn't bring along,
-  and logs it in `unbrought-headers.txt`; an error once the log shows it's right.
+- **Status:** checked: a build that installs a header including what its package doesn't bring
+  along fails, naming the dependency to propagate. It warned first, and every case its log showed
+  was real.
 
 ### A package of only headers is split away from its own path
 
@@ -592,6 +593,26 @@ style (Starlark), the builder (Rust), or the recipe.
   there, on firmware like the real machines'.
 - **Belongs in:** the kernel recipe and the Secure Boot scenarios.
 - **Status:** done.
+
+### A program's path written into a unit that isn't installed
+- **Seen in:** systemd 262, whose SSH generator writes `/usr/lib/systemd/systemd-ssh-issue` into
+  the vsock socket it makes, so a VM reached over vsock logged a missing program.
+- **What we did:** a substitution to the package's own path, which fails the build if it changes
+  nothing.
+- **What would prevent it:** looking for `/usr/lib/<package>/` and `/usr/bin/` in a package's
+  programs as well as its unit files, which the recipe already rewrites.
+- **Belongs in:** a check after building, beside the one for temporary paths.
+- **Status:** fixed for systemd; no check yet.
+
+### A path inside a compressed file can't be rewritten
+- **Seen in:** nothing yet; Nix's content-addressed builds hit it with compressed man pages.
+- **What happened:** the rewrite that moves a package to its address can't see inside gzip, xz or
+  zstd files, so a path in one keeps naming where the package was built.
+- **What would prevent it:** looking for the build's path inside compressed files, and leaving
+  those files uncompressed.
+- **Belongs in:** the builder, beside the rewrite.
+- **Status:** checked: a build warns about such a file and logs it in `packed-paths.txt`. A scan
+  of every compressed file in the store found none.
 
 ## Working on recipes
 

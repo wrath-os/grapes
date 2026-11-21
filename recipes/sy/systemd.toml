@@ -39,6 +39,10 @@ prepare = '''
 # them up in its own list of directories, never in PATH. A system's programs are in /run/system/bin.
 sed -i 's|^#define DEFAULT_PATH_WITH\(OUT\)\?_SBIN |&"/run/wrath/wrappers/bin:/run/system/bin:" |' \
     src/basic/path-util.h
+# The SSH generator writes a fixed /usr/lib path into the vsock socket it makes.
+sed -i "s|/usr/lib/systemd/systemd-ssh-issue|$PREFIX/lib/systemd/systemd-ssh-issue|" \
+    src/ssh-generator/ssh-generator.c
+! grep -q /usr/lib/systemd/systemd-ssh-issue src/ssh-generator/ssh-generator.c
 '''
 install = '''
 # Units name helpers bare, and systemd looks those up in a compiled-in /usr/bin.
