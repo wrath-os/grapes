@@ -64,6 +64,5 @@ module(
         "programs." + program: options_of(program, files, "file")
         for program, files in PER_USER.items()
     },
-    writes = [],
     render = render,
 )

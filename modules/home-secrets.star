@@ -48,7 +48,6 @@ module(
                   "should decrypt this home's secrets.",
         ),
     },
-    writes = [],
     render = render,
     configurations = ["home"],
 )

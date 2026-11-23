@@ -37,6 +37,5 @@ module(
             doc = "The time zone, as tzdata names it, such as `Europe/Stockholm`.",
         ),
     },
-    writes = [],
     render = render,
 )

@@ -9,7 +9,6 @@ def render(ctx: Context) -> None:
 module(
     name = "project-services",
     options = {"services": types.map(service)},
-    writes = [],
     render = render,
     configurations = ["project"],
 )

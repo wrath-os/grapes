@@ -53,6 +53,5 @@ module(
                   "keys of whoever edits its secrets.",
         ),
     },
-    writes = [],
     render = render,
 )

@@ -26,7 +26,6 @@ def render(ctx: Context) -> None:
 module(
     name = "builds",
     options = {"builds": types.map(build)},
-    writes = [],
     render = render,
     configurations = ["system", "home", "project"],
 )

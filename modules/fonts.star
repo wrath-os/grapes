@@ -89,6 +89,5 @@ module(
         "fonts.monospace": family("JetBrainsMono Nerd Font", "`monospace`, for terminals and code"),
         "fonts.emoji": family("Noto Color Emoji", "`emoji`, and for emoji in any text"),
     },
-    writes = [],
     render = render,
 )

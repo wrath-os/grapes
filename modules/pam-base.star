@@ -9,6 +9,5 @@ def render(ctx: Context) -> None:
 module(
     name = "pam-base",
     options = {},
-    writes = ["security.pam.services.login", "security.pam.services.sudo"],
     render = render,
 )

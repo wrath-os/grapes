@@ -87,7 +87,6 @@ module(
     name = "files",
     options = {"files": types.map(file)},
     user_options = {"files": types.map(types.record(**fields))},
-    writes = [],
     render = render,
     configurations = ["system", "home"],
 )

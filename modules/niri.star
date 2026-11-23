@@ -124,6 +124,5 @@ module(
     name = "niri",
     options = {"programs.niri": SETTINGS},
     user_options = {"programs.niri": SETTINGS},
-    writes = [],
     render = render,
 )

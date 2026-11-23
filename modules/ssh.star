@@ -61,7 +61,6 @@ module(
             doc = "Public keys that can log in as this user over SSH.",
         ),
     },
-    writes = ["security.pam.services.sshd", "networking.firewall.allowed_tcp_ports"],
     enable = False,
     render = render,
 )

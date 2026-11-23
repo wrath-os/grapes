@@ -216,10 +216,5 @@ def render(ctx: Context) -> None:
 module(
     name = "syncthing",
     options = {"services.syncthing": types.map(instance)},
-    writes = [
-        "users",
-        "networking.firewall.allowed_tcp_ports",
-        "networking.firewall.allowed_udp_ports",
-    ],
     render = render,
 )

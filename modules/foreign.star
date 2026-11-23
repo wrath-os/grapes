@@ -40,6 +40,5 @@ module(
             ),
         ),
     },
-    writes = [],
     render = render,
 )

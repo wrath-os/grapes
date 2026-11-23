@@ -226,6 +226,5 @@ module(
             doc = "The system's id in `/etc/os-release`, lowercase, such as `acme`.",
         ),
     },
-    writes = [],
     render = render,
 )

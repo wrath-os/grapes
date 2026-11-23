@@ -7,4 +7,4 @@ def render(ctx: Context) -> None:
     for unit in ["dbus.service", "dbus.socket"]:
         ctx.unit(unit + ".d/wrath.conf", {"Unit": {"X-RestartIfChanged": "false"}})
 
-module(name = "dbus", options = {}, writes = [], render = render)
+module(name = "dbus", options = {}, render = render)

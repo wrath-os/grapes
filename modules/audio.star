@@ -18,4 +18,4 @@ def render(ctx: Context) -> None:
         formats.systemd({"Unit": {"ConditionUser": "!root"}}),
     )
 
-module(name = "audio", options = {}, writes = [], render = render)
+module(name = "audio", options = {}, render = render)

@@ -16,6 +16,5 @@ module(
             doc = "Run BlueZ for the machine's Bluetooth adapters.",
         ),
     },
-    writes = [],
     render = render,
 )

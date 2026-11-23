@@ -96,7 +96,6 @@ module(
                   "that builds slowly or can't build at all.",
         ),
     },
-    writes = ["security.pam.services.login.session", "security.pam.services.sshd.session"],
     render = render,
     configurations = ["system"],
 )

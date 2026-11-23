@@ -62,6 +62,5 @@ def render(ctx: Context) -> None:
 module(
     name = "nginx",
     options = {"services.nginx": types.map(instance)},
-    writes = ["networking.firewall.allowed_tcp_ports"],
     render = render,
 )

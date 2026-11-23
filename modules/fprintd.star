@@ -24,6 +24,5 @@ def render(ctx: Context) -> None:
 module(
     name = "fprintd",
     options = {"services.fprintd.enable": option(types.bool, default = False)},
-    writes = ["security.pam.services.login.auth", "security.pam.services.sudo.auth"],
     render = render,
 )

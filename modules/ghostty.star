@@ -50,6 +50,5 @@ module(
     name = "ghostty",
     options = {"programs.ghostty": SETTINGS},
     user_options = {"programs.ghostty": SETTINGS},
-    writes = [],
     render = render,
 )

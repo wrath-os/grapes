@@ -64,7 +64,6 @@ module(
             flags = option(types.list(types.str), doc = "More flags for tailscaled."),
         ),
     },
-    writes = ["networking.firewall.allowed_udp_ports", "networking.firewall.trusted_interfaces"],
     enable = False,
     render = render,
 )

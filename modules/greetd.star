@@ -50,6 +50,5 @@ def render(ctx: Context) -> None:
 module(
     name = "greetd",
     options = {},
-    writes = ["security.pam.services.greetd"],
     render = render,
 )

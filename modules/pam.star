@@ -34,6 +34,5 @@ module(
             session = stack(),
         )),
     },
-    writes = [],
     render = render,
 )

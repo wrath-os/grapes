@@ -55,7 +55,6 @@ module(
                   "A timer starts with the machine unless it has an `Install` section.",
         ),
     },
-    writes = [],
     render = render,
     configurations = ["system"],
 )

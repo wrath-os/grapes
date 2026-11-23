@@ -20,7 +20,6 @@ module(
             algorithm = option(types.str, default = "zstd"),
         ),
     },
-    writes = [],
     enable = False,
     render = render,
 )

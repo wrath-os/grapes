@@ -10,6 +10,5 @@ module(
     name = "zen",
     options = {"programs.zen": options("Zen")},
     user_options = {"programs.zen": user_options("Zen")},
-    writes = [],
     render = render,
 )

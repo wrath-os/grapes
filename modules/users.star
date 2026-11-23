@@ -75,7 +75,6 @@ def linger(ctx: Context, users: dict[str, typing.Any]) -> None:
 module(
     name = "users",
     options = {"users": types.map(user)},
-    writes = [],
     render = render,
     configurations = ["system", "home"],
 )

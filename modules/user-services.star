@@ -13,7 +13,6 @@ module(
     name = "user-services",
     options = {},
     user_options = {"services": types.map(service)},
-    writes = [],
     render = render,
     configurations = ["system", "home"],
 )

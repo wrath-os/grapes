@@ -176,12 +176,5 @@ def render(ctx: Context) -> None:
 module(
     name = "accounts",
     options = {},
-    writes = [
-        "security.pam.services.su",
-        "security.pam.services.passwd",
-        "security.pam.services.systemd-user",
-        "security.pam.services.runuser",
-        "security.pam.services.runuser-l",
-    ],
     render = render,
 )

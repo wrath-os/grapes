@@ -57,7 +57,6 @@ module(
             doc = "Variables every session of the user has. Values may refer to others as `$NAME`.",
         ),
     },
-    writes = [],
     render = render,
     configurations = ["system", "home"],
 )

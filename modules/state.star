@@ -97,6 +97,5 @@ module(
         "state.files": option(types.set(types.str)),
     },
     user_options = {"state": option(kept, default = {})},
-    writes = [],
     render = render,
 )

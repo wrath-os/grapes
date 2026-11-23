@@ -11,6 +11,5 @@ module(
     name = "firefox",
     options = {"programs.firefox": options("Firefox")},
     user_options = {"programs.firefox": user_options("Firefox")},
-    writes = [],
     render = render,
 )

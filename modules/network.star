@@ -85,6 +85,5 @@ module(
             cache = option(types.one_of(["yes", "no", "no-negative"]), optional = True),
         ),
     },
-    writes = ["networking.dhcp", "networking.resolved"],
     render = render,
 )

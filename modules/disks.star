@@ -342,6 +342,5 @@ module(
             doc = "How much memory `/` can use, as a size or a share of memory.",
         ),
     },
-    writes = [],
     render = render,
 )

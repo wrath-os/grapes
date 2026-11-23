@@ -100,7 +100,6 @@ module(
             environment = types.map(types.str),
         ),
     },
-    writes = ["networking.firewall.allowed_tcp_ports"],
     enable = False,
     render = render,
 )

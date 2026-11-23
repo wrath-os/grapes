@@ -40,6 +40,5 @@ module(
                   "DHCP on every wired interface, and `all` with networks described one by one.",
         ),
     },
-    writes = [],
     render = render,
 )

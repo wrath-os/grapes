@@ -91,6 +91,5 @@ module(
             ),
         ),
     },
-    writes = [],
     render = render,
 )

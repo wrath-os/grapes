@@ -5,4 +5,4 @@ def render(ctx: Context) -> None:
         return
     ctx.package("mesa")
 
-module(name = "graphics", options = {}, writes = [], render = render)
+module(name = "graphics", options = {}, render = render)

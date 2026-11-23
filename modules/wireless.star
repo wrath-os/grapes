@@ -37,7 +37,6 @@ module(
             ),
         ),
     },
-    writes = ["hardware.firmware", "boot.kernel_params"],
     enable = False,
     render = render,
 )

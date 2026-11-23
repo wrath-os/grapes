@@ -42,6 +42,5 @@ module(
     name = "noctalia",
     options = {"programs.noctalia": SETTINGS},
     user_options = {"programs.noctalia": SETTINGS},
-    writes = [],
     render = render,
 )

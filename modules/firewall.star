@@ -75,7 +75,6 @@ module(
             ),
         ),
     },
-    writes = [],
     enable = True,
     render = render,
 )

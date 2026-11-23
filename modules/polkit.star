@@ -20,6 +20,5 @@ def render(ctx: Context) -> None:
 module(
     name = "polkit",
     options = {},
-    writes = ["security.pam.services.polkit-1"],
     render = render,
 )

@@ -14,7 +14,6 @@ module(
             doc = "Variables the project's shell has. Values may refer to others as `$NAME`.",
         ),
     },
-    writes = [],
     render = render,
     configurations = ["project"],
 )
