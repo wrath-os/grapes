@@ -20,9 +20,10 @@
 
 - `journal.persistent`: a boolean, default true. Keep the journal on disk, across boots, rather than in memory.
 - `system.console_autologin`: a string, optional. A user logged in without a password on the screen's consoles, such as `root` on an installer. Anyone at the machine gets that user, so leave it unset elsewhere.
+- `system.formats`: a string, optional. The locale for dates and times, numbers, money, paper size and units, when they differ from the language's, such as `sv_SE.UTF-8` for Swedish formats in English.
 - `system.id`: a string, default "wrath". The system's id in `/etc/os-release`, lowercase, such as `acme`.
 - `system.keymap`: a string, optional. The keyboard layout on the console, such as `sv-latin1`.
-- `system.locale`: a string, default "C.UTF-8". The machine's language and formats, such as `en_US.UTF-8`.
+- `system.locale`: a string, default "C.UTF-8". The machine's language, and its formats unless `system.formats` says otherwise, such as `en_US.UTF-8`.
 - `system.name`: a string, default "wrath". What the system calls itself, in the boot menu and `/etc/os-release`.
 
 ### bluetooth
@@ -295,6 +296,11 @@
 - `services.tailscale.open_firewall`: a boolean, default false. Open the UDP port.
 - `services.tailscale.port`: an integer from 1 to 65535, default 41641. UDP port for direct connections.
 - `services.tailscale.trust_interface`: a boolean, default false. Accept all traffic arriving over the tailnet.
+
+### time
+
+- `time.servers`: a list of items that are each a string, default []. The time servers it asks, such as `ntp.example.com`. Without any, those the network hands out over DHCP, and then the public NTP pool.
+- `time.sync`: a boolean, default true. Whether the clock is set from time servers over the network.
 
 ### units
 

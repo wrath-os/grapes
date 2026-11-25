@@ -1,0 +1,5 @@
+[system]
+hostname = "box"
+
+[time]
+servers = ["ntp1.example.com", "ntp2.example.com"]

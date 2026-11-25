@@ -1,0 +1,4 @@
+[system]
+hostname = "box"
+locale = "en_US.UTF-8"
+formats = "sv_SE.UTF-8"

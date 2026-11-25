@@ -43,20 +43,33 @@ def getty(ctx: Context, unit: str, args: str) -> None:
         },
     })
 
-def locale_environment(ctx: Context) -> list[tuple[str, ...]]:
-    """The variables that select the machine's language, with its locale built when it's needed."""
+# What `system.formats` sets: dates and times, numbers, money, paper size and units.
+FORMATS = ["LC_TIME", "LC_NUMERIC", "LC_MONETARY", "LC_PAPER", "LC_MEASUREMENT"]
+
+def locale_variables(ctx: Context) -> list[tuple[str, ...]]:
+    """The variables that select the machine's language and formats."""
     locale = ctx.read("system.locale")
-    environment = [("LANG", locale)]
-    if locale != "C.UTF-8":
-        charset = locale.partition(".")[2] or "ISO-8859-1"
-        ctx.build(
-            LOCALES,
-            package = "locales",
-            options = {"locales": ["%s/%s" % (locale, charset)]},
-        )
+    variables = [("LANG", locale)]
+    format_locale = ctx.read("system.formats")
+    if format_locale and format_locale != locale:
+        variables += [(name, format_locale) for name in FORMATS]
+    return variables
+
+def locale_environment(ctx: Context) -> list[tuple[str, ...]]:
+    """The locale variables, with the locales they name built when they're needed."""
+    variables = locale_variables(ctx)
+    built = []
+    for _, locale in variables:
+        if locale == "C.UTF-8":
+            continue
+        entry = "%s/%s" % (locale, locale.partition(".")[2] or "ISO-8859-1")
+        if entry not in built:
+            built.append(entry)
+    if built:
+        ctx.build(LOCALES, package = "locales", options = {"locales": built})
         ctx.package(LOCALES)
-        environment.append(("LOCPATH", SYSTEM + "/lib/locale"))
-    return environment
+        variables.append(("LOCPATH", SYSTEM + "/lib/locale"))
+    return variables
 
 def os_release(ctx: Context) -> None:
     """/etc/os-release, which says what the system is called: in the boot menu, to programs that
@@ -83,15 +96,15 @@ def render(ctx: Context) -> None:
 
     # Services find the system's programs, as a login shell does.
     path = "PATH=/run/wrath/wrappers/bin:%s/bin" % SYSTEM
-    locale_variables = locale_environment(ctx)
+    locales = locale_environment(ctx)
     ctx.file("/etc/systemd/system.conf.d/wrath.conf", formats.systemd({
         "Manager": {
             "ManagerEnvironment": path,
             "DefaultEnvironment": [path, "SSL_CERT_FILE=" + CERTIFICATES] +
-                                  ["%s=%s" % item for item in locale_variables],
+                                  ["%s=%s" % item for item in locales],
         },
     }))
-    ctx.file("/etc/locale.conf", "LANG=%s\n" % ctx.read("system.locale"))
+    ctx.file("/etc/locale.conf", lines(["%s=%s" % item for item in locale_variables(ctx)]))
     keymap = ctx.read("system.keymap")
     if keymap:
         ctx.file("/etc/vconsole.conf", "KEYMAP=%s\n" % keymap)
@@ -159,7 +172,7 @@ def render(ctx: Context) -> None:
         ("XDG_DATA_DIRS", SYSTEM + "/share"),
         ("XDG_CONFIG_DIRS", "/etc/xdg"),
         ("SSL_CERT_FILE", CERTIFICATES),
-    ] + locale_variables
+    ] + locales
     ctx.file(
         "/etc/profile",
         "".join(["export %s=%s\n" % (name, value) for name, value in environment]) +
@@ -197,7 +210,15 @@ module(
         "system.locale": option(
             types.str,
             default = "C.UTF-8",
-            doc = "The machine's language and formats, such as `en_US.UTF-8`.",
+            doc = "The machine's language, and its formats unless `system.formats` says " +
+                  "otherwise, such as `en_US.UTF-8`.",
+        ),
+        "system.formats": option(
+            types.str,
+            optional = True,
+            doc = "The locale for dates and times, numbers, money, paper size and units, when " +
+                  "they differ from the language's, such as `sv_SE.UTF-8` for Swedish formats " +
+                  "in English.",
         ),
         "system.keymap": option(
             types.str,
