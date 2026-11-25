@@ -1,9 +1,13 @@
 [greed]
 style = "cargo"
 record = "3dc8d425722ae6a832af6413ad1934258012c63f59f92e4cf0cd6556d70590b7"
-from = "ef8d1487818f630184477b3d9aec0a228bc4d2bbc42038c8d8893e6979b4a546"
+from = "ac3deb1dab2b1b07290376929470d2a94337df9acfd848f4c79a5a2f67769bc9"
 deps = ["rust-bin"]
 
 [[greed.sources]]
 url = "https://github.com/johnae/greed/archive/v0.4.2/greed-0.4.2.tar.gz"
 hash = "3de9ee6ff0034b9d5f5ab621ae75b06f026221a0fea656ef623f96eeb8d2c362"
+
+[[greed.sources]]
+url = "https://github.com/johnae/greed/archive/v0.4.3/greed-0.4.3.tar.gz"
+hash = "940cb88b0731ff76b40d6c7edafab1e4063b77a5acac6e3796ac967c06bdf97f"

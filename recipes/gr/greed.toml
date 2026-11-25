@@ -3,7 +3,7 @@
 # when it starts, so their names in it keep them in its run path.
 [[package]]
 id = "greed"
-version = "0.4.2"
+version = "0.4.3"
 scope = "runtime"
 # wasmtime builds its C API, and aws-lc its crypto, with cmake.
 deps = ["cmake", "wayland", "libxkbcommon", "mesa"]
