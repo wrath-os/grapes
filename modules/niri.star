@@ -94,8 +94,14 @@ def render(ctx: Context) -> None:
         "gnome-keyring",
         # The accessibility bus GTK programs ask for, started by D-Bus.
         "at-spi2-core",
+        # Batteries, peripherals' charge and keyboard backlights, which bars and audio ask about.
+        "upower",
     ]:
         ctx.service_package(package)
+    # The document portal shares files with sandboxed programs through a FUSE mount it makes as
+    # the user.
+    ctx.package("fuse3")
+    ctx.wrapper("fusermount3", source = "/run/system/bin/fusermount3")
     # niri runs X programs through it, and it runs Xwayland.
     ctx.package("xwayland-satellite")
     ctx.package("xwayland")

@@ -1,0 +1,9 @@
+[upower]
+style = "meson"
+record = "cd4b156e9016bd5ce267968a73bb8fb286195901311d3c02ea85be78dc6d27f0"
+from = "568cd996560c910a2d3ea24831a752247ecedd545179d2e2918d89b2f4165804"
+deps = []
+
+[[upower.sources]]
+url = "https://gitlab.freedesktop.org/upower/upower/-/archive/v1.91.5/upower-v1.91.5.tar.bz2"
+hash = "c465a1c7fc05d00ac2bc7321c19b9b7e479410d8392bd7eb3e714275729629fd"

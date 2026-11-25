@@ -13,4 +13,5 @@ sources = [{ url = "https://download.gnome.org/sources/at-spi2-core/{series}/at-
 args = [
   "-D x11=disabled", "-D introspection=disabled", "-D docs=false", "-D use_systemd=true",
   "-D systemd_user_dir=$PREFIX/lib/systemd/user",
+  "-D dbus_daemon=$WRATH_DEP_dbus/bin/dbus-daemon",
 ]

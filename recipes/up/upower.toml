@@ -1,0 +1,18 @@
+[[package]]
+id = "upower"
+version = "1.91.5"
+scope = "runtime"
+deps = ["meson", "ninja", "pkgconf", "glib", "libgudev", "systemd"]
+sources = [{ url = "https://gitlab.freedesktop.org/upower/upower/-/archive/v{version}/upower-v{version}.tar.bz2" }]
+smoke = ["bin/upower --version"]
+
+# Batteries, UPS and peripherals' charge, and keyboard backlights, over D-Bus. Its history and
+# state are the machine's, in /var.
+[package.meson]
+args = [
+  "-D man=false", "-D gtk-doc=false", "-D introspection=disabled", "-D idevice=disabled",
+  "-D polkit=disabled", "-D installed_tests=false",
+  "-D historydir=/var/lib/upower", "-D statedir=/var/lib/upower",
+  "-D systemdsystemunitdir=$PREFIX/lib/systemd/system",
+  "-D udevrulesdir=$PREFIX/lib/udev/rules.d", "-D udevhwdbdir=$PREFIX/lib/udev/hwdb.d",
+]

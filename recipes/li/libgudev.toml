@@ -1,0 +1,10 @@
+[[package]]
+id = "libgudev"
+version = "238"
+scope = "runtime"
+deps = ["meson", "ninja", "pkgconf", "glib", "systemd"]
+sources = [{ url = "https://download.gnome.org/sources/libgudev/{version}/libgudev-{version}.tar.xz" }]
+
+# udev for GLib programs, such as UPower.
+[package.meson]
+args = ["-D tests=disabled", "-D introspection=disabled", "-D vapi=disabled"]

@@ -1,0 +1,9 @@
+[libgudev]
+style = "meson"
+record = "ede6edbcc27ca56a3cc6ae0ad4e1a86966b166d0c52e7b92ef0a47ef7928f4b4"
+from = "e49f71f32a86c90df9cd500a71fc14b2d988eb023f1f5bfc84c8dff3bec9e6f3"
+deps = []
+
+[[libgudev.sources]]
+url = "https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz"
+hash = "61266ab1afc9d73dbc60a8b2af73e99d2fdff47d99544d085760e4fa667b5dd1"

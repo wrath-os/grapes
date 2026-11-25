@@ -1,7 +1,7 @@
 [at-spi2-core]
 style = "meson"
-record = "a44f4645349873138ba92724ec5097fafdc03a27b4ab439a6e5e66ad0c366c58"
-from = "0d47124723cae339051d436131eb4afae4abcaf21213c2dba154395da24fd674"
+record = "c399be7310cc1b7aa7a8d3a75dc4624ae4208d9cbfbe0bfcbbbeeef614451572"
+from = "8c3468ef7d0e40dfeefabc08f9769a0a3690bee80947870daed7b6b1c2230d89"
 deps = []
 
 [[at-spi2-core.sources]]

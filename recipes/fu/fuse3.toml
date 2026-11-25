@@ -5,6 +5,13 @@ scope = "runtime"
 deps = ["meson", "ninja", "pkgconf"]
 sources = [{ url = "https://github.com/libfuse/libfuse/releases/download/fuse-{version}/fuse-{version}.tar.gz" }]
 
-# The library only: fusermount3 has to be setuid, which a wrapper gives it when a system needs it.
+# fusermount3 mounts for users, so it has to be setuid, which only a wrapper gives it. The library
+# runs the wrapper; its own copy would fail and the library wouldn't look further.
 [package.meson]
-args = ["-D utils=false", "-D examples=false", "-D tests=false", "-D useroot=false"]
+args = [
+  "-D examples=false", "-D tests=false", "-D useroot=false", "-D initscriptdir=",
+  "-D udevrulesdir=$PREFIX/lib/udev/rules.d",
+]
+prepare = '''
+sed -i "s|^fusermount_path = .*|fusermount_path = '/run/wrath/wrappers/bin'|" lib/meson.build
+'''
