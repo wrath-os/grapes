@@ -144,6 +144,15 @@ def device_path(p: dict[str, typing.Any], label: str) -> str:
         return "/dev/mapper/" + label
     return "/dev/disk/by-partlabel/" + label
 
+def mount_options(p: dict[str, typing.Any]) -> list[str]:
+    """A partition's mount options. The boot partition is root's alone unless they say otherwise,
+    as the boot loader's random seed is there."""
+    options = p["options"]
+    masked = any([o.split("=")[0] in ["umask", "fmask", "dmask"] for o in options])
+    if p.get("format") == "vfat" and p.get("mount") == "/boot" and not masked:
+        return options + ["umask=0077"]
+    return options
+
 def grow_root(ctx: Context) -> None:
     """A system without disks of its own boots from an image, whose root is no bigger than what's
     on it. Its partition and filesystem grow to fill the disk at boot, which does nothing once
@@ -217,7 +226,7 @@ def render(ctx: Context) -> None:
                     "path": p.get("mount", ""),
                     "device": device_paths[ref][0],
                     "format": p["format"],
-                    "options": p["options"],
+                    "options": mount_options(p),
                 })
     spanning = []
     for name, fs in filesystems.items():
