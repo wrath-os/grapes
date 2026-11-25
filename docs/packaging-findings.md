@@ -634,6 +634,18 @@ style (Starlark), the builder (Rust), or the recipe.
 - **Belongs in:** a Python style.
 - **Status:** written by hand for rofi-rbw.
 
+### A tag moved after it was pinned
+- **Seen in:** greed 0.4.3, whose tag was pushed again after the recipe pinned its archive, so
+  the pinned hash no longer matched what GitHub serves.
+- **What we did:** removed the recipe's pins and record from its lock by hand and built again,
+  which pinned the new archive. The lock also still held the old version's source, which
+  nothing used.
+- **What would prevent it:** a command that pins a recipe's sources again after saying what
+  changed, so a lock is never edited by hand; and lint dropping pins for sources a recipe no
+  longer names.
+- **Belongs in:** `wrath update` or `wrath dev lint`.
+- **Status:** fixed by hand for greed; no command yet.
+
 ## Working on recipes
 
 - Don't edit a set while a build is running from it. Styles load once per process, so a build
