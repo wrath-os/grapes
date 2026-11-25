@@ -72,6 +72,11 @@ scripts/config --module BT --enable BT_BREDR --enable BT_LE --module BT_RFCOMM -
 # graphics' HDMI and DisplayPort, which the controller finds nothing on without; and USB headsets.
 scripts/config --enable SND_HDA_CODEC_REALTEK --enable SND_HDA_CODEC_HDMI \
     --enable SND_HDA_GENERIC --module SND_USB_AUDIO
+# USB-C: the USB4 controller, which carries DisplayPort and tunnels over the Framework Desktop's
+# rear ports, and the connectors' state through the firmware (UCSI), so a display that's plugged
+# in after boot, or whose link failed, is brought up again.
+scripts/config --module USB4 --module TYPEC --module TYPEC_UCSI --module UCSI_ACPI \
+    --module TYPEC_DP_ALTMODE
 make olddefconfig
 make -j$NPROC bzImage modules
 mkdir -p $DEST$PREFIX /build/tools
