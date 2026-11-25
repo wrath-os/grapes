@@ -12,6 +12,8 @@ smoke = ["bin/upower --version"]
 args = [
   "-D man=false", "-D gtk-doc=false", "-D introspection=disabled", "-D idevice=disabled",
   "-D polkit=disabled", "-D installed_tests=false",
+  # It reads its config from sysconfdir as given, so a relative one is relative to wherever it runs.
+  "-D sysconfdir=$PREFIX/etc",
   "-D historydir=/var/lib/upower", "-D statedir=/var/lib/upower",
   "-D systemdsystemunitdir=$PREFIX/lib/systemd/system",
   "-D udevrulesdir=$PREFIX/lib/udev/rules.d", "-D udevhwdbdir=$PREFIX/lib/udev/hwdb.d",

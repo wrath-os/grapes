@@ -1,7 +1,7 @@
 [upower]
 style = "meson"
-record = "cd4b156e9016bd5ce267968a73bb8fb286195901311d3c02ea85be78dc6d27f0"
-from = "568cd996560c910a2d3ea24831a752247ecedd545179d2e2918d89b2f4165804"
+record = "0da03e660511f61dfa837b93821a9883e0db6d3f8dcf099dc27dfa0883daaad0"
+from = "31922e10e974e1bc549b281625163822f4f8ce4f94d98450ece1586f62dbf0cb"
 deps = []
 
 [[upower.sources]]
