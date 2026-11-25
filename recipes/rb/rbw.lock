@@ -1,0 +1,9 @@
+[rbw]
+style = "cargo"
+record = "d917f18a06f230a7a6f2f142ca6d28b416fcf76a0a987575162b3ea2cc6789d9"
+from = "5763bbbd01e5e2095dc84a4406a66d0bb534808e88fee14011dcc6977d54ae68"
+deps = ["rust-bin"]
+
+[[rbw.sources]]
+url = "https://github.com/doy/rbw/archive/1.15.0/rbw-1.15.0.tar.gz"
+hash = "660cfa4c727711665bef060046c28dd3924ca1e490fdc058d90d35372b2d2cf6"

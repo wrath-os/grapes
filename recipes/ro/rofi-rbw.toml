@@ -1,0 +1,30 @@
+# Picks a login from rbw's vault with a menu such as fuzzel, then types or copies it.
+[[package]]
+id = "rofi-rbw"
+version = "1.7.0"
+scope = "runtime"
+deps = ["python3"]
+runtime_deps = ["rbw", "wtype", "wl-clipboard"]
+sources = [
+  { url = "https://github.com/fdw/rofi-rbw/archive/{version}/rofi-rbw-{version}.tar.gz" },
+  # Its one dependency, a single module.
+  { url = "https://files.pythonhosted.org/packages/source/c/configargparse/configargparse-1.10.2.tar.gz", into = "configargparse" },
+]
+smoke = ["bin/rofi-rbw --help"]
+script = '''
+mkdir -p $DEST$PREFIX/site $DEST$PREFIX/bin $DEST$PREFIX/share/man/man1
+cp -r src/rofi_rbw configargparse/configargparse.py $DEST$PREFIX/site/
+cp docs/rofi-rbw.1 $DEST$PREFIX/share/man/man1/
+# The program finds its modules beside itself, wherever the system links it from.
+cat > $DEST$PREFIX/bin/rofi-rbw <<'PY'
+#!/usr/bin/env python3
+import os
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "site"))
+from rofi_rbw.__main__ import main
+
+sys.exit(main())
+PY
+chmod +x $DEST$PREFIX/bin/rofi-rbw
+'''

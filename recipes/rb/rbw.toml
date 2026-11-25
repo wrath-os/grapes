@@ -1,0 +1,11 @@
+# A Bitwarden client for the command line, with an agent that keeps the vault unlocked.
+[[package]]
+id = "rbw"
+version = "1.15.0"
+scope = "runtime"
+sources = [{ url = "https://github.com/doy/rbw/archive/{version}/rbw-{version}.tar.gz" }]
+smoke = ["bin/rbw --version", "bin/rbw-agent --help"]
+
+[package.cargo]
+packages = ["rbw"]
+programs = ["rbw", "rbw-agent"]

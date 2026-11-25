@@ -1,0 +1,9 @@
+[rofi-rbw]
+
+[[rofi-rbw.sources]]
+url = "https://files.pythonhosted.org/packages/source/c/configargparse/configargparse-1.10.2.tar.gz"
+hash = "2deb0b3d6d46ff6e3218fcd350127507c5e3c11e21c8072a9fb24531dfc9bd4a"
+
+[[rofi-rbw.sources]]
+url = "https://github.com/fdw/rofi-rbw/archive/1.7.0/rofi-rbw-1.7.0.tar.gz"
+hash = "3cdf3e94cf17cfb0073f29e560860a18a37d497aa8e24993850137439f4f640e"

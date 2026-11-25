@@ -1,0 +1,11 @@
+# Types text into the focused Wayland window, as if from a keyboard.
+[[package]]
+id = "wtype"
+version = "0.5"
+scope = "runtime"
+deps = ["meson", "ninja", "pkgconf", "wayland", "libxkbcommon"]
+sources = [{ url = "https://github.com/atx/wtype/archive/v{version}/wtype-{version}.tar.gz" }]
+# It has no --version; run with nothing to type, it says how it is used.
+smoke = ["bin/wtype 2>&1 | grep -q Usage"]
+
+[package.meson]

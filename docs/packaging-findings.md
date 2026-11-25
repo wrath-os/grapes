@@ -614,6 +614,26 @@ style (Starlark), the builder (Rust), or the recipe.
 - **Status:** checked: a build warns about such a file and logs it in `packed-paths.txt`. A scan
   of every compressed file in the store found none.
 
+### A crate's second program left out
+- **Seen in:** rbw 1.15, whose agent `rbw-agent` is a second binary target. The cargo style
+  installs only the program named like the recipe, so the build passed without the agent, and
+  only a smoke command for it noticed.
+- **What we did:** `programs = ["rbw", "rbw-agent"]`.
+- **What would prevent it:** the style reading the listed packages' binary targets from
+  `cargo metadata` and installing all of them unless `programs` narrows it.
+- **Belongs in:** the cargo style.
+- **Status:** fixed for rbw; the style still installs one by default.
+
+### A Python program with no style for it
+- **Seen in:** rofi-rbw 1.7, built with hatchling, which isn't packaged. The recipe copies the
+  module and its one dependency, ConfigArgParse, into `site` and writes a launcher that finds
+  them beside itself.
+- **What would prevent it:** a style for pure Python projects that reads `pyproject.toml`: the
+  modules to copy, the dependencies to pin as further sources, and a launcher per
+  `[project.scripts]` entry, with no build backend run.
+- **Belongs in:** a Python style.
+- **Status:** written by hand for rofi-rbw.
+
 ## Working on recipes
 
 - Don't edit a set while a build is running from it. Styles load once per process, so a build

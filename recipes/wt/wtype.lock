@@ -1,0 +1,9 @@
+[wtype]
+style = "meson"
+record = "6ddc630584e95d71a1d7b6046b98b687dc0cf142468f053f9e433e4732863bab"
+from = "4a27dbbb73937a5403c54ca03276746f1f33a1249d176a33381faa9e9ed476d9"
+deps = []
+
+[[wtype.sources]]
+url = "https://github.com/atx/wtype/archive/v0.5/wtype-0.5.tar.gz"
+hash = "684308ac8b47c510dddf4abac3aef86b4f7b8c0e165389a40608679a7a5b77ed"
