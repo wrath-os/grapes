@@ -1,0 +1,10 @@
+[Unit]
+Description=Back up to /mnt/backup daily
+
+[Timer]
+OnCalendar=daily
+Persistent=yes
+RandomizedDelaySec=5m
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,16 @@
+[system]
+hostname = "box"
+
+[services.restic.backups.remote]
+repository = "s3:https://hel1.your-objectstorage.com/backups"
+password = "/etc/restic/password"
+environment = "/etc/restic/env"
+paths = ["/home/demo/Documents", "/home/demo/Development"]
+exclude = [".direnv", "*/target"]
+
+[services.restic.backups.local]
+repository = "/mnt/backup"
+password = "/etc/restic/password"
+paths = ["/home/demo/Photos", "/home/demo/Old Photos"]
+when = "daily"
+initialize = false

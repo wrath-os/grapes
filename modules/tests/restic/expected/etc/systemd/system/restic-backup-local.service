@@ -1,0 +1,15 @@
+[Unit]
+After=network-online.target
+Description=Back up to /mnt/backup
+Wants=network-online.target
+
+[Service]
+CacheDirectory=restic-backup-local
+Environment=RESTIC_REPOSITORY=/mnt/backup
+Environment=RESTIC_PASSWORD_FILE=/etc/restic/password
+Environment=RESTIC_CACHE_DIR=%C/restic-backup-local
+ExecStart=restic backup "/home/demo/Old Photos" /home/demo/Photos
+IOSchedulingClass=idle
+Nice=19
+Type=oneshot
+User=root

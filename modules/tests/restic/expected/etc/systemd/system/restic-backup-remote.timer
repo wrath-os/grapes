@@ -1,0 +1,10 @@
+[Unit]
+Description=Back up to s3:https://hel1.your-objectstorage.com/backups hourly
+
+[Timer]
+OnCalendar=hourly
+Persistent=yes
+RandomizedDelaySec=5m
+
+[Install]
+WantedBy=timers.target

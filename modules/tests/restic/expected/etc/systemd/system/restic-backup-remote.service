@@ -1,0 +1,17 @@
+[Unit]
+After=network-online.target
+Description=Back up to s3:https://hel1.your-objectstorage.com/backups
+Wants=network-online.target
+
+[Service]
+CacheDirectory=restic-backup-remote
+Environment=RESTIC_REPOSITORY=s3:https://hel1.your-objectstorage.com/backups
+Environment=RESTIC_PASSWORD_FILE=/etc/restic/password
+Environment=RESTIC_CACHE_DIR=%C/restic-backup-remote
+EnvironmentFile=/etc/restic/env
+ExecStart=restic backup --exclude=*/target --exclude=.direnv /home/demo/Development /home/demo/Documents
+ExecStartPre=/bin/sh -c 'restic cat config >/dev/null 2>&1; [ $? -ne 10 ] || restic init'
+IOSchedulingClass=idle
+Nice=19
+Type=oneshot
+User=root

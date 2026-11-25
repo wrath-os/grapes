@@ -224,6 +224,17 @@
 - `programs.chromium.recommended`: any value, optional. Written as json to `/etc/chromium/policies/recommended/wrath.json`, where chromium reads it.
 - `users.<name>.programs.alacritty.settings`: any value, optional. Written as toml to `alacritty/alacritty.toml`, where alacritty reads it.
 
+### restic
+
+- `services.restic.backups.<name>.environment`: an absolute path or one starting with `~/`, optional. A file of `NAME=value` lines for restic, such as the bucket's `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`, usually a secret.
+- `services.restic.backups.<name>.exclude`: a list of items that are each a string, default []. Patterns for what it leaves out, as restic's `--exclude` takes them, such as `node_modules` or `*/target`.
+- `services.restic.backups.<name>.initialize`: a boolean, default true. Whether the first backup makes the repository when there's none there yet.
+- `services.restic.backups.<name>.password`: an absolute path or one starting with `~/`, required. A file with the repository's password, usually a secret: `{ secret = "restic-password" }`.
+- `services.restic.backups.<name>.paths`: a list of items that are each a string, default []. What it copies.
+- `services.restic.backups.<name>.repository`: a string, required. Where backups go, as restic names it, such as `s3:https://hel1.your-objectstorage.com/bucket` or `/mnt/backup`.
+- `services.restic.backups.<name>.user`: a string, default "root". Who it runs as, who has to be able to read every path.
+- `services.restic.backups.<name>.when`: a string, default "hourly". When it runs, as a systemd calendar time.
+
 ### secrets
 
 - `secrets.<name>.file`: a string, optional. The encrypted file, relative to the configuration. Defaults to `secrets/<name>.age`.
