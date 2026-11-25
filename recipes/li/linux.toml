@@ -76,7 +76,9 @@ scripts/config --enable SND_HDA_CODEC_REALTEK --enable SND_HDA_CODEC_HDMI \
 # rear ports, and the connectors' state through the firmware (UCSI), so a display that's plugged
 # in after boot, or whose link failed, is brought up again.
 scripts/config --module USB4 --module TYPEC --module TYPEC_UCSI --module UCSI_ACPI \
-    --module TYPEC_DP_ALTMODE
+    --module TYPEC_DP_ALTMODE --module TYPEC_TBT_ALTMODE
+# The connectors switch between host and device through this, and UCSI gives up without it.
+scripts/config --enable USB_ROLE_SWITCH
 make olddefconfig
 make -j$NPROC bzImage modules
 mkdir -p $DEST$PREFIX /build/tools
