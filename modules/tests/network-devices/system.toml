@@ -1,0 +1,56 @@
+# A server with two ports bonded, a VLAN on the bond with a static address, a VRF for the
+# external network with its default route in the VRF's table, a bridge for virtual machines,
+# and addresses on the loopback interface.
+[system]
+hostname = "box"
+
+[networking.links.data]
+match = { driver = "virtio_net" }
+mtu = 9000
+ring_buffers = { rx = 1024, tx = 1024 }
+
+[networking.devices.bond0]
+kind = "bond"
+members = ["data"]
+bond = { mode = "802.3ad", lacp_rate = "fast", hash = "layer3+4", miimon = "100ms" }
+mtu = 9000
+
+[networking.devices.internal]
+kind = "vlan"
+on = "bond0"
+vlan = 121
+
+[networking.devices.external]
+kind = "vlan"
+on = "bond0"
+vlan = 130
+
+[networking.devices.internet]
+kind = "vrf"
+table = 1001
+
+[networking.devices.vms]
+kind = "bridge"
+
+[networking.networks.internal]
+match = ["internal"]
+dhcp = "no"
+accept_ra = false
+addresses = ["2001:db8:121::10/64"]
+routes = [{ to = "2001:db8::/32", via = "2001:db8:121::1" }]
+
+[networking.networks.external]
+match = ["external"]
+dhcp = "no"
+vrf = "internet"
+rp_filter = "off"
+forwarding = true
+addresses = ["192.0.2.10/24"]
+routes = [{ via = "192.0.2.1", table = "internet" }]
+rules = [{ source = "192.0.2.0/24", table = "internet", priority = 100 }]
+
+[networking.loopback]
+addresses = ["fd00:0:0:1::2000/128"]
+
+[networking.hosts]
+"fd00:0:0:1::2000" = ["api.cluster.internal"]

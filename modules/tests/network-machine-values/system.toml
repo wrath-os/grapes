@@ -1,0 +1,14 @@
+# A role whose machines differ only in their address and gateway: both are machine values,
+# filled in when each machine switches, so every machine with the role has the same build.
+[machine.values]
+address = { type = "string" }
+gateway = { type = "string" }
+
+[networking.networks.internal]
+match = ["enp1s0"]
+dhcp = "no"
+addresses = ["${machine.address}/64"]
+routes = [{ via = "${machine.gateway}" }]
+
+[networking.loopback]
+addresses = ["${machine.address}/128"]

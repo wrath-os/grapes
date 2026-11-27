@@ -1,0 +1,11 @@
+[Unit]
+After=systemd-udev-trigger.service
+Description=Link settings for the network ports there are
+
+[Service]
+ExecStart=/run/system/bin/udevadm trigger --subsystem-match=net --action=add
+RemainAfterExit=yes
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

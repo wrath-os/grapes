@@ -1,0 +1,10 @@
+[Match]
+Driver=virtio_net
+
+[Link]
+AlternativeNamesPolicy=database onboard slot path mac
+MACAddressPolicy=persistent
+MTUBytes=9000
+NamePolicy=keep kernel database onboard slot path
+RxBufferSize=1024
+TxBufferSize=1024

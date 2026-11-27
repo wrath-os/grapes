@@ -1,0 +1,10 @@
+[Match]
+Name=enp1s0
+
+[Network]
+Address=${machine.address}/64
+DHCP=no
+IPv6PrivacyExtensions=no
+
+[Route]
+Gateway=${machine.gateway}

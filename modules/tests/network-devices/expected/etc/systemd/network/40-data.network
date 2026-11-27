@@ -1,0 +1,9 @@
+[Match]
+Driver=virtio_net
+
+[Link]
+RequiredForOnline=no
+
+[Network]
+Bond=bond0
+LinkLocalAddressing=no

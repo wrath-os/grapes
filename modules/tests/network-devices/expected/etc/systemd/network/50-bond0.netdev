@@ -1,0 +1,10 @@
+[Bond]
+LACPTransmitRate=fast
+MIIMonitorSec=100ms
+Mode=802.3ad
+TransmitHashPolicy=layer3+4
+
+[NetDev]
+Kind=bond
+MTUBytes=9000
+Name=bond0

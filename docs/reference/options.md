@@ -28,6 +28,7 @@
 ### base-system
 
 - `journal.persistent`: a boolean, default true. Keep the journal on disk, across boots, rather than in memory.
+- `networking.hosts`: a table whose values are each a list of items that are each a string, default {}. Names for addresses, by address, as `/etc/hosts` lists them, such as `"fd00::2000" = ["api.cluster.internal"]`. The machine's own name always resolves, without being listed.
 - `system.console_autologin`: a string, optional. A user logged in without a password on the screen's consoles, such as `root` on an installer. Anyone at the machine gets that user, so leave it unset elsewhere.
 - `system.formats`: a string, optional. The locale for dates and times, numbers, money, paper size and units, when they differ from the language's, such as `sv_SE.UTF-8` for Swedish formats in English.
 - `system.id`: a string, default "wrath". The system's id in `/etc/os-release`, lowercase, such as `acme`.
@@ -163,18 +164,45 @@
 
 ### network
 
+- `networking.devices.<name>.bond.hash`: one of "layer2", "layer2+3", "layer3+4", "encap2+3", "encap3+4", optional.
+- `networking.devices.<name>.bond.lacp_rate`: one of "slow", "fast", optional.
+- `networking.devices.<name>.bond.miimon`: a string, optional. Such as `100ms`.
+- `networking.devices.<name>.bond.mode`: one of "balance-rr", "active-backup", "balance-xor", "broadcast", "802.3ad", "balance-tlb", "balance-alb", default "active-backup".
+- `networking.devices.<name>.kind`: one of "bond", "vlan", "bridge", "vrf", "dummy", required.
+- `networking.devices.<name>.members`: a list of items that are each a string, default []. For a bond or bridge, what joins it: links, devices, or interface names.
+- `networking.devices.<name>.mtu`: an integer, optional.
+- `networking.devices.<name>.on`: a string, optional. For a VLAN, the interface it's on: a device, a link, or an interface name.
+- `networking.devices.<name>.sections.<name>`: a table whose values are each a string, required.
+- `networking.devices.<name>.table`: an integer, optional. For a VRF, its routing table.
+- `networking.devices.<name>.vlan`: an integer from 1 to 4094, optional. For a VLAN, its id.
 - `networking.dns.cache`: one of "yes", "no", "no-negative", optional.
 - `networking.dns.dns_over_tls`: one of "yes", "no", "opportunistic", optional.
 - `networking.dns.dnssec`: one of "yes", "no", "allow-downgrade", optional.
 - `networking.dns.fallback`: a list of items that are each a string, default []. Servers to use when no network provides one.
+- `networking.links.<name>.match.driver`: a string, optional. Such as `mlx5_core`.
+- `networking.links.<name>.match.mac`: a string, optional. The port's permanent MAC address.
+- `networking.links.<name>.match.names`: a list of items that are each a string, default []. Names the kernel gave the ports; globs like `enp*` work.
+- `networking.links.<name>.match.path`: a string, optional. Such as `pci-0000:41:00.*`.
+- `networking.links.<name>.mtu`: an integer, optional.
+- `networking.links.<name>.ring_buffers.rx`: an integer, optional.
+- `networking.links.<name>.ring_buffers.tx`: an integer, optional.
+- `networking.links.<name>.sections.<name>`: a table whose values are each a string, required.
+- `networking.loopback.addresses`: a list of items that are each a string, default []. Addresses on `lo` besides its own, such as `fd00::1/128` for a service announced over BGP.
 - `networking.networks.<name>.accept_ra`: a boolean, optional. Accept IPv6 router advertisements.
+- `networking.networks.<name>.addresses`: a list of items that are each a string, default []. Static addresses with their prefix length, such as `2001:db8::10/64`. A machine value works, as `${machine.address}/64`.
 - `networking.networks.<name>.dhcp`: one of "yes", "no", "ipv4", "ipv6", default "yes".
+- `networking.networks.<name>.forwarding`: a boolean, optional. Forward packets arriving on this interface, over IPv4 and IPv6.
 - `networking.networks.<name>.ignore_carrier_loss`: a string, optional. How long to keep the configuration when the link drops, such as `3s`.
 - `networking.networks.<name>.ipv6_privacy`: a boolean, default false. Use temporary IPv6 addresses.
 - `networking.networks.<name>.match`: a list of items that are each a string, required. Interface names to configure; globs like `enp*` work.
+- `networking.networks.<name>.mtu`: an integer, optional.
 - `networking.networks.<name>.priority`: an integer from 0 to 99, default 50. Orders the file among others; the first file matching an interface applies.
 - `networking.networks.<name>.required_for_online`: a boolean, default true. Whether the machine needs this network to count as online.
+- `networking.networks.<name>.routes`: a list of items that are each a table, default []. Static routes, each with `to` (the default route without one), `via`, `table` (a VRF's name, a number or `main`) and `metric`.
+- `networking.networks.<name>.rp_filter`: one of "strict", "loose", "off", optional. IPv4 reverse path filtering on this interface. The kernel uses the higher of this and `net.ipv4.conf.all.rp_filter` (off 0, strict 1, loose 2), so `off` needs that off too.
+- `networking.networks.<name>.rules`: a list of items that are each a table, default []. Policy routing rules, each with `table` and any of `source`, `to`, `incoming`, `priority` and `family`.
 - `networking.networks.<name>.sections.<name>`: a table whose values are each a string, required.
+- `networking.networks.<name>.vrf`: a string, optional. The VRF device this interface belongs to.
 
 ### networkd
 

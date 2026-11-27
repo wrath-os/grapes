@@ -1,0 +1,6 @@
+[NetDev]
+Kind=vlan
+Name=internal
+
+[VLAN]
+Id=121

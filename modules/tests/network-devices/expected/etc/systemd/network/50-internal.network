@@ -1,0 +1,12 @@
+[Match]
+Name=internal
+
+[Network]
+Address=2001:db8:121::10/64
+DHCP=no
+IPv6AcceptRA=no
+IPv6PrivacyExtensions=no
+
+[Route]
+Destination=2001:db8::/32
+Gateway=2001:db8:121::1

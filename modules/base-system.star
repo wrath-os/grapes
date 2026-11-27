@@ -158,7 +158,12 @@ def render(ctx: Context) -> None:
             "Install": {"WantedBy": "systemd-journal-flush.service"},
         })
 
-    ctx.file("/etc/hosts", "127.0.0.1 localhost\n::1 localhost\n")
+    hosts = [("127.0.0.1", ["localhost"]), ("::1", ["localhost"])]
+    hosts += sorted(ctx.read("networking.hosts").items())
+    ctx.file("/etc/hosts", "".join([
+        "%s %s\n" % (address, " ".join(names))
+        for address, names in hosts
+    ]))
     ctx.file("/etc/nsswitch.conf", lines([
         "passwd: files systemd",
         "group: files systemd",
@@ -245,6 +250,12 @@ module(
             types.str,
             default = "wrath",
             doc = "The system's id in `/etc/os-release`, lowercase, such as `acme`.",
+        ),
+        "networking.hosts": option(
+            types.map(types.list(types.str)),
+            doc = "Names for addresses, by address, as `/etc/hosts` lists them, such as " +
+                  "`\"fd00::2000\" = [\"api.cluster.internal\"]`. The machine's own name " +
+                  "always resolves, without being listed.",
         ),
     },
     render = render,

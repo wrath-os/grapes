@@ -1,0 +1,8 @@
+[Match]
+Name=vms
+
+[Link]
+RequiredForOnline=no
+
+[Network]
+LinkLocalAddressing=no

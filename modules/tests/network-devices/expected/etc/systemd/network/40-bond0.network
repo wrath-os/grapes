@@ -1,0 +1,10 @@
+[Match]
+Name=bond0
+
+[Link]
+RequiredForOnline=no
+
+[Network]
+LinkLocalAddressing=no
+VLAN=external
+VLAN=internal

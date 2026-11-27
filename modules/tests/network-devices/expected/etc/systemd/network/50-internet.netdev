@@ -1,0 +1,6 @@
+[NetDev]
+Kind=vrf
+Name=internet
+
+[VRF]
+Table=1001

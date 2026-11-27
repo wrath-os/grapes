@@ -1,0 +1,8 @@
+[Match]
+Name=internet
+
+[Link]
+RequiredForOnline=no
+
+[Network]
+LinkLocalAddressing=no
