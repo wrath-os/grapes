@@ -106,8 +106,16 @@
 - `networking.firewall.allow_ping`: a boolean, default true. Answer pings, over IPv4 and IPv6.
 - `networking.firewall.allowed_tcp_ports`: a list of items that are each an integer from 1 to 65535, default [].
 - `networking.firewall.allowed_udp_ports`: a list of items that are each an integer from 1 to 65535, default [].
+- `networking.firewall.clamp_mss`: a list of items that are each a table, default []. TCP connections forwarded out of an interface have their segment size clamped, each as `{ out = ..., mss = ..., family = ... }`, for links with a smaller MTU on the way.
 - `networking.firewall.enable`: a boolean, default true. Whether it's on.
+- `networking.firewall.forward`: a list of items that are each a table, default []. Forwarding allowed from a zone or interface to another, each as `{ source = ..., to = ... }`; replies are allowed back. With any, everything else forwarded through the machine is dropped, so a container runtime's forwarding needs a pair too.
+- `networking.firewall.tables.<name>.file`: a file in the configuration, such as `wezterm/wezterm.lua`, required.
 - `networking.firewall.trusted_interfaces`: a list of items that are each a string, default []. Interfaces whose traffic is always accepted, such as a VPN's.
+- `networking.firewall.zones.<name>.drop_spoofed`: a boolean, default false. Drop packets arriving on the zone's interfaces from private, documentation and other ranges no internet host has, before anything else sees them. For an interface facing the internet with public addresses on the far side.
+- `networking.firewall.zones.<name>.interfaces`: a list of items that are each a string, default []. The interfaces in the zone; globs like `br*` work. Without any, every interface.
+- `networking.firewall.zones.<name>.sources`: a list of items that are each a string, default []. Prefixes the zone's ports are open to, such as `2001:db8:100::/56`. Without any, every source.
+- `networking.firewall.zones.<name>.tcp`: a list of items that are each any value, default []. TCP ports open in the zone: numbers, or ranges such as `"30000-32767"`.
+- `networking.firewall.zones.<name>.udp`: a list of items that are each any value, default []. UDP ports open in the zone, as `tcp` is.
 
 ### fonts
 

@@ -1,0 +1,7 @@
+table inet prefilter
+flush table inet prefilter
+table inet prefilter {
+  chain prerouting {
+    type filter hook prerouting priority -310; policy accept;
+  }
+}

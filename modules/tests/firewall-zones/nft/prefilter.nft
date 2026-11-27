@@ -1,0 +1,5 @@
+table inet prefilter {
+  chain prerouting {
+    type filter hook prerouting priority -310; policy accept;
+  }
+}

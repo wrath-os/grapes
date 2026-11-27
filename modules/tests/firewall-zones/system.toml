@@ -1,0 +1,28 @@
+# A router-like server: SSH and cluster ports on the internal network, only to its prefix; the
+# web on the external interface, with spoofed sources dropped there; forwarding from the bridges
+# out to the external interface, with the segment size clamped on the way out; and a table of
+# the configuration's own.
+[system]
+hostname = "box"
+
+[networking.firewall]
+allowed_tcp_ports = [22]
+forward = [{ source = "internal", to = "external" }]
+clamp_mss = [
+    { out = "external", mss = 1460, family = "ipv4" },
+    { out = "external", mss = 1440, family = "ipv6" },
+]
+
+[networking.firewall.zones.internal]
+interfaces = ["internal", "br*"]
+tcp = [2379, 2380, 6443, "30000-32767"]
+udp = [8472]
+sources = ["2001:db8:100::/56", "10.0.0.0/8"]
+
+[networking.firewall.zones.external]
+interfaces = ["external"]
+tcp = [80, 443]
+drop_spoofed = true
+
+[networking.firewall.tables."inet prefilter"]
+file = "nft/prefilter.nft"
