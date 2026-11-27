@@ -594,6 +594,18 @@ style (Starlark), the builder (Rust), or the recipe.
 - **Belongs in:** the kernel recipe and the Secure Boot scenarios.
 - **Status:** done.
 
+### A kernel option dropped because something it needs is off
+- **Seen in:** linux 7.3, where `--module NET_VRF` built no `vrf.ko` because `NET_L3_MASTER_DEV`
+  was off, and a VRF failed to come up with "Operation not supported". The same check found
+  `MICROCODE_AMD`, which 7.x folded into `MICROCODE`, and `VIRTIO_BLK` asked for both built in
+  and as a module.
+- **What we did:** enabled the dependency, removed the stale and contradicting options, and made
+  the recipe check every option it asks for once `olddefconfig` has run, failing with the names
+  it didn't take.
+- **What would prevent it:** the check, now in the recipe.
+- **Belongs in:** the kernel recipe.
+- **Status:** done.
+
 ### A program's path written into a unit that isn't installed
 - **Seen in:** systemd 262, whose SSH generator writes `/usr/lib/systemd/systemd-ssh-issue` into
   the vsock socket it makes, so a VM reached over vsock logged a missing program.
