@@ -50,6 +50,10 @@ scripts/config --module DUMMY --module BLK_DEV_NBD --enable WLAN --enable WLAN_V
 # Tunnels, such as the one Tailscale runs, and user namespaces, which sandboxes such as
 # bubblewrap and browsers make without root.
 scripts/config --enable TUN --enable USER_NS
+# Servers' networks: bonds, VLANs, bridges for virtual machines, and VRFs with their own routing
+# tables.
+scripts/config --module BONDING --module VLAN_8021Q --module BRIDGE --module NET_VRF \
+    --enable NET_L3_MASTER_DEV --enable IP_MULTIPLE_TABLES --enable IPV6_MULTIPLE_TABLES
 # What iwd does its cryptography with: the kernel's ciphers and keys, which it asks for through
 # sockets and keyrings. And simulated radios, for testing wifi in a VM.
 scripts/config --enable CRYPTO_USER_API_HASH --enable CRYPTO_USER_API_SKCIPHER --enable KEYS \
