@@ -6,4 +6,4 @@ password sufficient pam_unix.so nullok yescrypt
 session required pam_env.so conffile=/etc/pam/environment readenv=0
 session required pam_unix.so
 session optional /run/system/lib/security/pam_systemd.so
-session optional pam_motd.so motd=/wrath/system/notice
+session optional pam_motd.so motd_dir=/wrath/system/notice.d

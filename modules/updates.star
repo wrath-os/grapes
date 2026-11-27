@@ -4,10 +4,6 @@
 
 SCHEMES = ["github:", "https://", "path:"]
 
-# What wrath says about the last automatic upgrade when it failed, shown as people log in. It
-# isn't there when there's nothing to say.
-NOTICE = "/wrath/system/notice"
-
 def render(ctx: Context) -> None:
     source = ctx.read("updates.from")
     if source and not any([source.startswith(scheme) for scheme in SCHEMES]):
@@ -21,17 +17,6 @@ def render(ctx: Context) -> None:
     if not source:
         ctx.error("updates.automatic", "upgrading on its own needs `updates.from` to upgrade from")
         return
-    logins = ["login"] + (["sshd"] if ctx.read("services.ssh.enable") else [])
-    for service in logins:
-        ctx.set("security.pam.services.%s.session" % service, [
-            {
-                "name": "notice",
-                "control": "optional",
-                "module": "pam_motd.so",
-                "args": ["motd=" + NOTICE],
-                "after": "systemd",
-            },
-        ])
     ctx.unit("wrath-upgrade.service", {
         "Unit": {
             "Description": "Upgrade from " + source,
