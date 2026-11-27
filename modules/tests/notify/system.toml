@@ -1,0 +1,12 @@
+# A machine that posts every event to a webhook, and pages someone only when a boot fails.
+[system]
+hostname = "box"
+
+[notify.to.ops]
+kind = "webhook"
+url = "https://hooks.example.com/wrath"
+
+[notify.to.pager]
+kind = "command"
+command = ["/usr/local/bin/page", "--urgent"]
+events = ["boot_failed"]

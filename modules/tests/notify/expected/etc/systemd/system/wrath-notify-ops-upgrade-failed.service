@@ -1,0 +1,11 @@
+[Unit]
+After=network-online.target
+Description=Tell ops: upgrade failed
+Wants=network-online.target
+
+[Service]
+ExecStart=/bin/sh /etc/wrath/notify.sh upgrade_failed webhook /etc/wrath/notify/ops.url
+Type=oneshot
+
+[Install]
+WantedBy=wrath-upgrade-failed.target

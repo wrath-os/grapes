@@ -1,0 +1,13 @@
+[Unit]
+After=systemd-networkd-wait-online.service
+After=network-online.target
+Before=boot-complete.target
+Description=Check this boot is good before the boot loader counts it
+Wants=systemd-networkd-wait-online.service
+Wants=network-online.target
+
+[Service]
+ExecStart=/bin/sh /etc/wrath/boot-health.sh 600 /etc/wrath/boot-health.json
+RemainAfterExit=yes
+TimeoutStartSec=infinity
+Type=oneshot

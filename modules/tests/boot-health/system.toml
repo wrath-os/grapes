@@ -1,0 +1,15 @@
+# A router that only counts a boot as good once it routes and resolves: its DNS server runs, it
+# reaches the internet, names resolve, and the hardware watchdog resets it if it hangs.
+[system]
+hostname = "router"
+
+[boot]
+watchdog = "30s"
+
+[boot.health]
+checks = ["systemd-networkd-wait-online.service"]
+ping = ["192.0.2.1"]
+resolve = ["example.com"]
+tcp = ["192.0.2.1:53"]
+http = ["https://example.com/"]
+within = "10min"

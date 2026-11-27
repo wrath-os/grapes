@@ -1,0 +1,11 @@
+[Unit]
+After=network-online.target
+Description=Tell ops: boot failed
+Wants=network-online.target
+
+[Service]
+ExecStart=/bin/sh /etc/wrath/notify.sh boot_failed webhook /etc/wrath/notify/ops.url
+Type=oneshot
+
+[Install]
+WantedBy=wrath-boot-failed.target

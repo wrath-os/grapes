@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "unit",
+    "target": "systemd-networkd-wait-online.service"
+  },
+  {
+    "kind": "ping",
+    "target": "192.0.2.1"
+  },
+  {
+    "kind": "resolve",
+    "target": "example.com"
+  },
+  {
+    "kind": "tcp",
+    "target": "192.0.2.1:53"
+  },
+  {
+    "kind": "http",
+    "target": "https://example.com/"
+  }
+]

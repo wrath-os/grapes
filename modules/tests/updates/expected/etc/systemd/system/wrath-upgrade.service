@@ -1,6 +1,7 @@
 [Unit]
 After=network-online.target
 Description=Upgrade from github:johnae/machines//framework
+OnFailure=wrath-upgrade-failed.target
 Wants=network-online.target
 
 [Service]

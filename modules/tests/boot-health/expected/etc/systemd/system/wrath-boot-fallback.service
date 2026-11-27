@@ -1,0 +1,10 @@
+[Unit]
+After=multi-user.target
+Description=Make the generation that runs current after a boot that fell back
+
+[Service]
+ExecStart=/bin/sh /etc/wrath/boot-fallback.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

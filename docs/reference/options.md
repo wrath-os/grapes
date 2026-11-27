@@ -7,9 +7,18 @@
 ### base
 
 - `audio.enable`: a boolean, default false. Run PipeWire for users.
+- `boot.health.checks`: a list of items that are each a string, default []. Units that must be running, or have finished without failing, for a boot to count as good.
+- `boot.health.http`: a list of items that are each a string, default []. URLs that must answer with success.
+- `boot.health.no_failed_units`: a boolean, default false. Any failed unit fails the boot.
+- `boot.health.ping`: a list of items that are each a string, default []. Hosts that must answer a ping.
+- `boot.health.resolve`: a list of items that are each a string, default []. Names that must resolve.
+- `boot.health.tcp`: a list of items that are each a string, default []. Addresses as `host:port` that must accept a connection.
+- `boot.health.within`: a string, default "15min". How long a boot has to pass its checks before it reboots and uses up a try.
 - `boot.kernel_params`: a list of items that are each a string, default [].
 - `boot.loader`: one of "systemd-boot", default "systemd-boot".
+- `boot.reboot_after_panic`: a string, default "10s". Reboot this long after a kernel panic, so the boot uses up a try. Empty to wait.
 - `boot.secure_boot`: a boolean, default false. Sign what the machine boots with its own keys, which `wrath secret machine` makes, and enroll them when its firmware is in setup mode.
+- `boot.watchdog`: a string, optional. Have the hardware watchdog reset a machine that hangs this long, such as `30s`.
 - `desktop.autologin`: a string, optional. Start the session for this user at boot without a login.
 - `desktop.session`: one of "niri", optional. The graphical session greetd starts.
 - `desktop.shell`: one of "noctalia", optional. The desktop shell around the compositor: its bar, launcher, notifications and lock screen.
@@ -189,6 +198,15 @@
 
 - `programs.noctalia.settings`: any value, default {}. noctalia's settings, as in its `config.toml`, such as `bar.main.position = "top"`. The system's are every user's, and a user's own go over them.
 - `users.<name>.programs.noctalia.settings`: any value, default {}. noctalia's settings, as in its `config.toml`, such as `bar.main.position = "top"`. The system's are every user's, and a user's own go over them.
+
+### notify
+
+- `notify.by`: one of "machine", "coordinator", "none", default "machine". Who sends them: the machine itself, a fleet's coordinator, or nobody. Without a place to send to, `status` and the login notice still say.
+- `notify.events`: a list of items that are each one of "boot_failed", "upgrade_failed", default []. The events that are sent: `boot_failed`, `upgrade_failed`. Without any, all of them.
+- `notify.to.<name>.command`: a list of items that are each a string, default []. For `command`: a program and its arguments, given the event as JSON on stdin.
+- `notify.to.<name>.events`: a list of items that are each one of "boot_failed", "upgrade_failed", default []. The events this place hears. Without any, those in `notify.events`.
+- `notify.to.<name>.kind`: one of "webhook", "command", required.
+- `notify.to.<name>.url`: a string, optional. For `webhook`: where the event is posted as JSON. It can be a secret.
 
 ### nushell
 

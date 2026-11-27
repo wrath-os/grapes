@@ -22,12 +22,17 @@ def render(ctx: Context) -> None:
             "Description": "Upgrade from " + source,
             "Wants": ["network-online.target"],
             "After": ["network-online.target"],
+            # What notifiers hang on (`[notify]`).
+            "OnFailure": ["wrath-upgrade-failed.target"],
         },
         "Service": {
             "Type": "oneshot",
             # The running system's own wrath, which a switch moves on with it.
             "ExecStart": "/run/system/bin/wrath apply --automatic",
         },
+    })
+    ctx.unit("wrath-upgrade-failed.target", {
+        "Unit": {"Description": "An automatic upgrade failed"},
     })
     ctx.unit("wrath-upgrade.timer", {
         "Unit": {"Description": "Upgrade from " + source + " " + when},

@@ -1,0 +1,11 @@
+[Unit]
+After=network-online.target
+Description=Tell pager: boot failed
+Wants=network-online.target
+
+[Service]
+ExecStart=/bin/sh /etc/wrath/notify.sh boot_failed command /usr/local/bin/page --urgent
+Type=oneshot
+
+[Install]
+WantedBy=wrath-boot-failed.target
